@@ -31,4 +31,5 @@ const questionSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
+questionSchema.index({ courseCode: 1, topic: 1 });
 module.exports = mongoose.model("Question", questionSchema);
