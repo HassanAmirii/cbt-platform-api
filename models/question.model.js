@@ -15,6 +15,15 @@ const questionSchema = new mongoose.Schema(
       type: [String],
       required: true,
     },
+
+    dept: {
+      enum: ["computer_science"],
+      required: true,
+    },
+    level: {
+      enum: [100, 200, 300, 400],
+      required: true,
+    },
     correctOptionIndex: {
       required: true,
       type: Number,
@@ -31,5 +40,5 @@ const questionSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-questionSchema.index({ courseCode: 1, topic: 1 });
+questionSchema.index({ courseCode: 1, topic: 1, dept: 1, level: 1 });
 module.exports = mongoose.model("Question", questionSchema);
