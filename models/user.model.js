@@ -33,7 +33,7 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
   },
-  //handles createdAt and updatedAT...
+  //handles created_At and updated_AT...
   { timestamps: true },
 );
 
