@@ -1,8 +1,11 @@
+//import all neccessary packages
 const mongoose = require("mongoose");
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const User = require("../models/user.model");
+
+//handle user registration
 exports.register = async (req, res) => {
   try {
     const { username, password, email, level, dept } = req.body;
@@ -14,7 +17,9 @@ exports.register = async (req, res) => {
   }
 };
 
+//handle user login
 exports.login = async (req, res) => {
+  //1.find user details, if it does'nt exist; return "unauthorized".
   try {
     const { username, password } = req.body;
     const user = await User.findOne(username);
@@ -29,6 +34,8 @@ exports.login = async (req, res) => {
         .status(401)
         .json({ message: "Unauthorized; invalid username." });
     }
+
+    //2.if user exist, fill non sensitive data into the payload
     const payload = {
       id: user._id,
       username: user.username,
