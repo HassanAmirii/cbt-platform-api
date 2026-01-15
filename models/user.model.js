@@ -21,7 +21,6 @@ const userSchema = new mongoose.Schema(
     password: {
       minlength: 6,
       required: true,
-      trim: true,
     },
     isAdmin: { type: Boolean, default: false },
     dept: {
