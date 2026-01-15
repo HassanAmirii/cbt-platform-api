@@ -19,15 +19,22 @@ const userSchema = new mongoose.Schema(
       trim: true,
     },
     password: {
-      minlength: 6,
-      required: true,
+      type: String,
+      required: [true, "Password is required"],
+      minlength: [6, "Password must be at least 6 characters"],
+      trim: true,
+      select: false,
     },
+
     isAdmin: { type: Boolean, default: false },
+
     dept: {
+      type: String,
       enum: ["computer_science"],
       required: true,
     },
     level: {
+      type: Number,
       enum: [100, 200, 300, 400],
       required: true,
     },
