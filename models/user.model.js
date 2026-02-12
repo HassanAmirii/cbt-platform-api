@@ -22,12 +22,12 @@ const userSchema = new mongoose.Schema(
     },
     level: {
       required: true,
-      type: [String],
+      type: String,
       enum: ["100", "200", "300", "400"],
     },
     department: {
       required: true,
-      type: [String],
+      type: String,
       enum: ["computer science"],
     },
     isAdmin: { type: Boolean, required: true, default: false },
