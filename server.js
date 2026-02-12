@@ -8,7 +8,7 @@ mongoose
   .then(function () {
     console.log("succesfully connected to the database");
 
-    app.listen(port, () => console.log("Server running on port 3000"));
+    app.listen(port, () => console.log(`Server running on port ${port}`));
   })
   .catch(function (err) {
     console.error("error connecting to the database:", err);
