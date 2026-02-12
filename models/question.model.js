@@ -13,10 +13,11 @@ const questionSchema = new mongoose.Schema(
     },
     department: {
       required: true,
+      enum: ["computer science"],
       type: String,
     },
     level: {
-      type: [String],
+      type: String,
       enum: ["100", "200", "300", "400"],
       required: true,
     },
