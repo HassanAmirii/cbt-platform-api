@@ -10,6 +10,7 @@ exports.verifyToken = async (req, res, next) => {
     }
     //2. extract the token from the jwt envelope
     const token = authHeader.split(" ")[1];
+    if (!token) return res.status(401).send();
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decoded;
     next();
