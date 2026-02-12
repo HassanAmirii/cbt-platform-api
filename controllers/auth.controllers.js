@@ -24,7 +24,7 @@ exports.login = async function (req, res, next) {
     const user = await User.findOne({ email }).select("+passoword");
     if (!user) return res.status(401).json({ message: "user not found" });
     const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) return res.status(401).json({ error: "invalid credentials" });
+    if (!isMatch) return res.status(401).json({ message: "user not found" });
 
     const payload = {
       id: user._id,
