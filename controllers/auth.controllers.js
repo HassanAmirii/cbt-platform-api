@@ -34,7 +34,7 @@ exports.login = async function (req, res, next) {
       admin: user.isAdmin,
     };
     const token = jwt.sign(payload, process.env.JWT_SECRET, {
-      expiresIn: "1hr",
+      expiresIn: "1h",
     });
     res.status(200).json({ message: "login successful", token: token });
   } catch (error) {
