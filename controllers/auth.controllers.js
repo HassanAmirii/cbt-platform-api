@@ -13,7 +13,9 @@ exports.register = async function (req, res, next) {
       level,
       department,
     });
-    res.status(201).json({ message: "success", data: { user: newUser } });
+    const userSafe = newUser.toObject();
+    delete userSafe.password;
+    res.status(201).json({ message: "success", user: userSafe });
   } catch (error) {
     next(error);
   }
