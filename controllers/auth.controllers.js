@@ -33,6 +33,8 @@ exports.login = async function (req, res, next) {
       id: user._id,
       username: user.username,
       admin: user.isAdmin,
+      deptSlug: user.deptSlug,
+      level: user.level,
     };
     const token = jwt.sign(payload, process.env.JWT_SECRET, {
       expiresIn: "1h",
