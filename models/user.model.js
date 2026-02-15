@@ -11,10 +11,10 @@ const userSchema = new mongoose.Schema(
       trim: true,
     },
     email: {
+      trim: true,
       type: String,
       unique: true,
       required: true,
-      lowercase: true,
     },
     password: {
       select: false,
@@ -32,17 +32,31 @@ const userSchema = new mongoose.Schema(
       type: String,
       enum: ["computer science"],
     },
+
+    deptSlug: {
+      required: true,
+      type: String,
+      lowercase: true,
+    },
     isAdmin: { type: Boolean, required: true, default: false },
   },
   { timestamps: true },
 );
 
 userSchema.pre("save", async function () {
-  if (!this.isModified("password")) return;
-
   try {
-    this.password = await bcrypt.hash(this.password, 10);
+    if (this.isModified("password")) {
+      this.password = await bcrypt.hash(this.password, 10);
+    }
+    if (this.isModified("department") && this.department) {
+      this.deptSlug = this.department
+        .toLowerCase()
+        .trim()
+        .split(/\s+/)
+        .join("-");
+    }
   } catch (error) {
+    console.error("error in userSchema presave function", error);
     throw error;
   }
 });
