@@ -4,4 +4,7 @@
 //start exam within defined time
 //submit useranswerIndex and compare with actual question index
 //conpute score percentage and display result
-const getQuestions = require();
+
+const getQuestionsJson = require("../data/questions.json");
+const questions = getQuestionsJson;
+console.log(questions[level]);
