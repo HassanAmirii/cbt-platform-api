@@ -34,7 +34,15 @@ const userSchema = new mongoose.Schema(
     },
 
     deptSlug: {
+      type: String,
+      lowercase: true,
+    },
+    university: {
       required: true,
+      type: String,
+      enum: ["kwara state univerity", "lasu tech"],
+    },
+    uniSlug: {
       type: String,
       lowercase: true,
     },
@@ -50,6 +58,13 @@ userSchema.pre("save", async function () {
     }
     if (this.isModified("department") && this.department) {
       this.deptSlug = this.department
+        .toLowerCase()
+        .trim()
+        .split(/\s+/)
+        .join("-");
+    }
+    if (this.isModified("university") && this.university) {
+      this.uniSlug = this.university
         .toLowerCase()
         .trim()
         .split(/\s+/)
