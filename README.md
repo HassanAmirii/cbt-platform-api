@@ -1,6 +1,6 @@
 ## An api for a cbt platform
 
-- flow:
+- flow: (first-version)
 
 - 1.  user signup
 - 2.  select a course
@@ -8,4 +8,4 @@
 - 4.  submit
 - 5.  score saved
 
-** readme in prog.**
+**readme in prog.**
