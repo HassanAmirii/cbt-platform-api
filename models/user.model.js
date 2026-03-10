@@ -15,6 +15,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       unique: true,
       required: true,
+      match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please enter a valid email address'],
     },
     password: {
       select: false,
@@ -40,7 +41,7 @@ const userSchema = new mongoose.Schema(
     university: {
       required: true,
       type: String,
-      enum: ["kwara state univerity", "lasu tech"],
+      enum: ["kwara state university", "lasu tech"],
     },
     uniSlug: {
       type: String,
@@ -51,7 +52,7 @@ const userSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-userSchema.pre("save", async function () {
+userSchema.pre("save", async function() {
   try {
     if (this.isModified("password")) {
       this.password = await bcrypt.hash(this.password, 10);
@@ -75,4 +76,6 @@ userSchema.pre("save", async function () {
     throw error;
   }
 });
+userSchema.index({ email: 1 })
 module.exports = mongoose.model("User", userSchema);
+
