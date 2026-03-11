@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-exports.register = async function (req, res, next) {
+exports.register = async function(req, res, next) {
   try {
     const { username, email, password, level, department } = req.body;
     const newUser = await User.create({
@@ -20,7 +20,7 @@ exports.register = async function (req, res, next) {
     next(error);
   }
 };
-exports.login = async function (req, res, next) {
+exports.login = async function(req, res, next) {
   try {
     const { email, password } = req.body;
     const user = await User.findOne({ email }).select("+password");
@@ -34,6 +34,7 @@ exports.login = async function (req, res, next) {
       username: user.username,
       admin: user.isAdmin,
       deptSlug: user.deptSlug,
+      uniSlug: user.uniSlug,
       level: user.level,
     };
     const token = jwt.sign(payload, process.env.JWT_SECRET, {
