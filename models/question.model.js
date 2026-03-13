@@ -12,24 +12,6 @@ const questionSchema = new mongoose.Schema(
       required: true,
       type: String,
     },
-    department: {
-      required: true,
-      enum: ["computer science"],
-      type: String,
-    },
-    deptSlug: {
-      type: String,
-      lowercase: true,
-    },
-    university: {
-      required: true,
-      type: String,
-      enum: ["kwara state university", "lasu tech"],
-    },
-    uniSlug: {
-      type: String,
-      lowercase: true,
-    },
     level: {
       type: String,
       enum: ["100", "200", "300", "400"],
@@ -39,63 +21,50 @@ const questionSchema = new mongoose.Schema(
       required: true,
       type: String,
     },
-    
+
     // OPTIONS FIELD
     options: {
-      type: [{
-        text: {
-          type: String,
-          required: true,
+      type: [
+        {
+          text: {
+            type: String,
+            required: true,
+          },
+          label: {
+            required: true,
+            type: String,
+            enum: ["A", "B", "C", "D"],
+          },
         },
-        label: {
-          required: true,
-          type: String,
-          enum: ["A", "B", "C", "D"],
-        },
-      }],
+      ],
       required: true,
       validate: {
         validator: function(value) {
-          return value.length === 4;  
+          return value.length === 4;
         },
-        message: 'Options list must have exactly 4 items',
+        message: "Options list must have exactly 4 items",
       },
-    },  
-    
+    },
+
     correctOption: {
       enum: ["A", "B", "C", "D"],
       type: String,
       required: true,
       validate: {
         validator: function(value) {
-          return this.options.some(opt => opt.label === value);
+          return this.options.some((opt) => opt.label === value);
         },
-        message: 'Correct option must match one of the option labels'
-      }
+        message: "Correct option must match one of the option labels",
+      },
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
-questionSchema.pre("save", async function() {
-  try {
-    if (this.isModified("department") && this.department) {
-      this.deptSlug = this.department.toLowerCase().trim().split(/\s+/).join("-");
-    }
-    if (this.isModified("university") && this.university) {
-      this.uniSlug = this.university.toLowerCase().trim().split(/\s+/).join("-");
-    }
-  } catch (error) {
-    console.error("error in questionSchema presave function", error);
-    throw error;
-  }
-});
-
 questionSchema.index({
-  uniSlug: 1,
-  deptSlug: 1,
   level: 1,
   courseCode: 1,
 });
 
 module.exports = mongoose.model("Question", questionSchema);
+

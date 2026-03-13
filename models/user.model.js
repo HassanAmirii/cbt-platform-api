@@ -15,7 +15,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       unique: true,
       required: true,
-      match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please enter a valid email address'],
+      match: [
+        /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+        "Please enter a valid email address",
+      ],
     },
     password: {
       select: false,
@@ -28,25 +31,6 @@ const userSchema = new mongoose.Schema(
       type: String,
       enum: ["100", "200", "300", "400"],
     },
-    department: {
-      required: true,
-      type: String,
-      enum: ["computer science"],
-    },
-
-    deptSlug: {
-      type: String,
-      lowercase: true,
-    },
-    university: {
-      required: true,
-      type: String,
-      enum: ["kwara state university", "lasu tech"],
-    },
-    uniSlug: {
-      type: String,
-      lowercase: true,
-    },
     isAdmin: { type: Boolean, required: true, default: false },
   },
   { timestamps: true },
@@ -57,25 +41,10 @@ userSchema.pre("save", async function() {
     if (this.isModified("password")) {
       this.password = await bcrypt.hash(this.password, 10);
     }
-    if (this.isModified("department") && this.department) {
-      this.deptSlug = this.department
-        .toLowerCase()
-        .trim()
-        .split(/\s+/)
-        .join("-");
-    }
-    if (this.isModified("university") && this.university) {
-      this.uniSlug = this.university
-        .toLowerCase()
-        .trim()
-        .split(/\s+/)
-        .join("-");
-    }
   } catch (error) {
     console.error("error in userSchema presave function", error);
     throw error;
   }
 });
-userSchema.index({ email: 1 })
+userSchema.index({ email: 1 });
 module.exports = mongoose.model("User", userSchema);
-

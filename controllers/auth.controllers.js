@@ -5,13 +5,12 @@ require("dotenv").config();
 
 exports.register = async function(req, res, next) {
   try {
-    const { username, email, password, level, department } = req.body;
+    const { username, email, password, level } = req.body;
     const newUser = await User.create({
       username,
       email,
       password,
       level,
-      department,
     });
     const userSafe = newUser.toObject();
     delete userSafe.password;
@@ -33,8 +32,6 @@ exports.login = async function(req, res, next) {
       id: user._id,
       username: user.username,
       admin: user.isAdmin,
-      deptSlug: user.deptSlug,
-      uniSlug: user.uniSlug,
       level: user.level,
     };
     const token = jwt.sign(payload, process.env.JWT_SECRET, {
