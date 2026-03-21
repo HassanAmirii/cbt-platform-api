@@ -1,17 +1,23 @@
-//import data/question.json
-//get 10 question base on selected ( unislug, deptslug, level, courcode)
-//export a list of correct answers labels for questions to services dir
+const examServices = require("../services/exam.services");
 
-const level = "100";
-const courseCode = "cos101";
-const questionCount = 5;
-if (level && courseCode && questionCount) {
+exports.startExam = function (req, res, next) {
   try {
-    const getQuestions = require("../data/questions.json");
-    const questions = getQuestions;
-    console.log(questions);
-    throw new Error("something broke");
+    const { courseCode, level = req.user.level, limit = 5 } = req.body;
+
+    if (!courseCode || !level) {
+      return res
+        .status(400)
+        .json({ message: "bad request: could not find courseCode or level" });
+    }
+    const questions = examServices.getExamQuestions(courseCode, level, limit);
+    if (!questions.length) {
+      return res
+        .status(404)
+        .json({ message: "No questions found for this course/level." });
+    }
+
+    res.status(200).json({ questions });
   } catch (error) {
-    console.error(error.message);
+    res.status(500).json({ message: "Internal server error" });
   }
-}
+};

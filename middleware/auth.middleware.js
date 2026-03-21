@@ -10,11 +10,18 @@ exports.verifyToken = async (req, res, next) => {
     }
     //2. extract the token from the jwt envelope
     const token = authHeader.split(" ")[1];
-    if (!token) return res.status(401).json({ message: "unauthorized" });
+    if (!token)
+      return res.status(401).json({ message: "invalid or expired token" });
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decoded;
     next();
   } catch (error) {
-    res.status(401).json({ message: "Unauthoriized" });
+    if (
+      error.message === "TokenExpiredError" ||
+      error.message === "JsonWebTokenError"
+    ) {
+      return res.status(401).json({ message: "invalid or expired token " });
+    }
+    res.status(500).json({ message: "internal server error" });
   }
 };
