@@ -1,3 +1,4 @@
+const { options } = require("../app");
 const examQuestions = require("../data/questions.json"); //mock data
 exports.getExamQuestions = function (courseCode, level, limit) {
   const processQuestion = examQuestions
@@ -5,9 +6,13 @@ exports.getExamQuestions = function (courseCode, level, limit) {
     .sort(() => Math.random() - 0.5)
     .slice(0, limit)
     .map((item) => ({
+      questionId: item.id,
       questionText: item.questionText,
       options: item.options.map((opt) => {
-        return opt.text;
+        return {
+          optionsText: opt.text,
+          optionsLabel: opt.label,
+        };
       }),
     }));
   return processQuestion;
