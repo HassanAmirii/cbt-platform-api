@@ -1,5 +1,5 @@
-const { options } = require("../app");
 const examQuestions = require("../data/questions.json"); //mock data
+
 exports.getExamQuestions = function (courseCode, level, limit) {
   const processQuestion = examQuestions
     .filter((item) => item.level === level && item.courseCode === courseCode)
@@ -19,14 +19,23 @@ exports.getExamQuestions = function (courseCode, level, limit) {
   console.log(processQuestion);
 };
 
-// exports.submitExam = function () {
-//   /*
+exports.submitExam = function (answers) {
+  /*
+frontend sends payload: 
+{
+  "answers": [
+    { "questionId": 5, "selected": "C" },
+    { "questionId": 2, "selected": "A" }
+  ]
+}
+*/
+  const correct = answers.filter(function (ans) {
+    const question = examQuestions.find(function (item) {
+      return item.id === ans.questionId;
+    });
+    return question && question.correctOption === ans.selected;
+  });
 
-// list of selected options.labels
-// list of correct labels
-
-// filter the right to wrong , get the length ,
-// return total length of correct/ total length of option x 100
-
-// */
-// };
+  const score = (correct.length / answers.length) * 100;
+  return score;
+};

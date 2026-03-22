@@ -21,3 +21,23 @@ exports.startExam = function (req, res, next) {
     res.status(500).json({ message: "Internal server error" });
   }
 };
+
+exports.submitExam = function (req, res, next) {
+  try {
+    const { answers } = req.body;
+    if (!answers) {
+      return res
+        .status(400)
+        .json({ message: "bad request: could not find answers payload" });
+    }
+    const score = examServices.submitExam(answers);
+    if (!score && score !== 0) {
+      return res.status(400).json({
+        message: " missing answer or invalid question id or selected",
+      });
+    }
+    res.status(200).json({ score });
+  } catch (error) {
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
