@@ -16,7 +16,6 @@ exports.getExamQuestions = function (courseCode, level, limit) {
       }),
     }));
   return processQuestion;
-  console.log(processQuestion);
 };
 
 exports.submitExam = function (answers) {
@@ -37,5 +36,23 @@ frontend sends payload:
   });
 
   const score = (correct.length / answers.length) * 100;
-  return score;
+
+  const explanation = answers.map(function (exp) {
+    const question = examQuestions.find(function (item) {
+      return item.id === exp.questionId;
+    });
+    return {
+      courseCode: question.courseCode,
+      questionText: question.questionText,
+      correctOption: question.correctOption,
+      explanation: question.explanation,
+      picked: exp.selected,
+      isCorrect: question.correctOption === exp.selected,
+    };
+  });
+
+  return {
+    score: score,
+    explanation: explanation,
+  };
 };
