@@ -31,19 +31,11 @@ This project provides a robust Express.js backend for an online examination syst
 
 To run this project, you will need to set up the following environment variables in a `.env` file in the root directory:
 
-| Variable     | Description                                  | Example Value                      |
-| :----------- | :------------------------------------------- | :--------------------------------- |
-| `PORT`       | The port number for the server to listen on. | `3000`                             |
-| `MONGO_URI`  | Connection string for your MongoDB database. | `mongodb://localhost:27017/examdb` |
-| `JWT_SECRET` | A secret key for signing and verifying JWTs. | `your_super_secret_jwt_key_here`   |
-
-**Example `.env` file:**
-
-```
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/examdb
-JWT_SECRET=thisisasecretkeyforjwtauthentication
-```
+| Variable     | Description                                  | Example Value                               |
+| :----------- | :------------------------------------------- | :------------------------------------------ |
+| `PORT`       | The port number for the server to listen on. | `3000`                                      |
+| `MONGO_URI`  | Connection string for your MongoDB database. | `mongodb://get your uri from mongodb atlas` |
+| `JWT_SECRET` | A secret key for signing and verifying JWTs. | `your_super_secret_jwt_key_here`            |
 
 ## Usage
 
