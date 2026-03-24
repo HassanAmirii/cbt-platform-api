@@ -39,7 +39,7 @@ const questionSchema = new mongoose.Schema(
       ],
       required: true,
       validate: {
-        validator: function(value) {
+        validator: function (value) {
           return value.length === 4;
         },
         message: "Options list must have exactly 4 items",
@@ -51,11 +51,16 @@ const questionSchema = new mongoose.Schema(
       type: String,
       required: true,
       validate: {
-        validator: function(value) {
+        validator: function (value) {
           return this.options.some((opt) => opt.label === value);
         },
         message: "Correct option must match one of the option labels",
       },
+    },
+
+    explanation: {
+      required: true,
+      type: String,
     },
   },
   { timestamps: true },
@@ -67,4 +72,3 @@ questionSchema.index({
 });
 
 module.exports = mongoose.model("Question", questionSchema);
-
