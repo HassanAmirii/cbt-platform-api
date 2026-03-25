@@ -1,10 +1,10 @@
 const examServices = require("../services/exam.services");
-const Result = require("../model/result.model");
+const Result = require("../models/result.model");
 
-exports.startExam = function (req, res) {
+exports.startExam = async function (req, res) {
   try {
-    const { courseCode, level = req.user.level, limit = 5 } = req.body;
-
+    const { courseCode, limit } = req.body;
+    const level = req.user.level;
     if (!courseCode || !level) {
       return res
         .status(400)
@@ -19,7 +19,10 @@ exports.startExam = function (req, res) {
 
     res.status(200).json({ questions });
   } catch (error) {
-    res.status(500).json({ message: "Internal server error" });
+    res.status(500).json({
+      message: error.message,
+      stack: error.stack,
+    });
   }
 };
 
