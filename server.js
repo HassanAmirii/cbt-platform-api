@@ -9,6 +9,7 @@ const options = {
   family: 4,
 };
 
+//  exponential back off
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 async function connectWithRetry() {
   let delay = 1000;
@@ -24,6 +25,7 @@ async function connectWithRetry() {
       delay *= 2;
     }
   }
+  // exit if connection still unsuccesful after 5 retries
   process.exit(1);
 }
 
