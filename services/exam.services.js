@@ -19,6 +19,9 @@ exports.getExamQuestions = function (courseCode, level, limit) {
 };
 
 exports.submitExam = function (answers) {
+  if (!Array.isArray(answers) || answers.length === 0) {
+    throw new Error("Invalid answers format");
+  }
   /*
 frontend sends payload: 
 {
@@ -41,6 +44,12 @@ frontend sends payload:
     const question = examQuestions.find(function (item) {
       return item.id === exp.questionId;
     });
+    if (!question) {
+      return {
+        questionId: exp.questionId,
+        error: "could not find question in database",
+      };
+    }
     return {
       courseCode: question.courseCode,
       questionText: question.questionText,
