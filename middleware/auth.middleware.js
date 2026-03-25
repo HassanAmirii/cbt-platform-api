@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 
 //handle token verification:
-exports.verifyToken = async (req, res, next) => {
+exports.auth = async function (req, res, next) {
   //1. check if authorization header exist
   try {
     const authHeader = req.headers["authorization"];
@@ -17,8 +17,8 @@ exports.verifyToken = async (req, res, next) => {
     next();
   } catch (error) {
     if (
-      error.message === "TokenExpiredError" ||
-      error.message === "JsonWebTokenError"
+      error.name === "TokenExpiredError" ||
+      error.name === "JsonWebTokenError"
     ) {
       return res.status(401).json({ message: "invalid or expired token " });
     }
