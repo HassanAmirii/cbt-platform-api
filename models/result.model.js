@@ -36,15 +36,17 @@ const resultSchema = new mongoose.Schema(
       ],
       required: true,
     },
-    //  "explanation": [
-    //     {
-    //         "questionText": "what is the primary function of an operating system?",
-    //         "correctOption": "A",
-    //         "explanation": "An operating system acts as an intermediary between the user and the computer hardware, coordinating CPU time, memory allocation, and storage.",
-    //         "picked": "A",
-    //         "isCorrect": true
-    //     }
-    // ]
+    /*
+     "explanation": [
+         {
+            "questionText": "what is the primary function of an operating system?",
+            "correctOption": "A",
+            "explanation": "An operating system acts as an intermediary between the user and the computer hardware, coordinating CPU time, memory allocation, and storage.",
+            "picked": "A",
+            "isCorrect": true
+        }
+    ]
+    */
     explanation: {
       type: [
         {
