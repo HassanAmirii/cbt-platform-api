@@ -15,8 +15,8 @@ exports.register = async function (req, res, next) {
     const userSafe = newUser.toObject();
     delete userSafe.password;
     res.status(201).json({ message: "success", user: userSafe });
-  } catch (error) {
-    next(error);
+  } catch (err) {
+    next(err);
   }
 };
 exports.login = async function (req, res, next) {
@@ -25,8 +25,9 @@ exports.login = async function (req, res, next) {
     const user = await User.findOne({ email }).select("+password");
     if (!user) return res.status(401).json({ message: "invalid credentials" });
     const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch)
+    if (!isMatch) {
       return res.status(401).json({ message: "invalid credentials" });
+    }
 
     const payload = {
       id: user._id,
@@ -38,7 +39,7 @@ exports.login = async function (req, res, next) {
       expiresIn: "1h",
     });
     res.status(200).json({ message: "login successful", token: token });
-  } catch (error) {
-    next(error);
+  } catch (err) {
+    next(err);
   }
 };

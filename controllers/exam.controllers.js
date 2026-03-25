@@ -16,10 +16,9 @@ exports.startExam = async function (req, res, next) {
         .status(404)
         .json({ message: "No questions found for this course/level." });
     }
-
     res.status(200).json({ questions });
-  } catch (error) {
-    next(error);
+  } catch (err) {
+    next(err);
   }
 };
 
@@ -48,7 +47,7 @@ exports.submitExam = async function (req, res, next) {
       explanation,
     });
     res.status(200).json({ score, explanation });
-  } catch (error) {
-    next(error);
+  } catch (err) {
+    next(err);
   }
 };
