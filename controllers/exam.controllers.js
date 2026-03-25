@@ -1,7 +1,7 @@
 const examServices = require("../services/exam.services");
 const Result = require("../models/result.model");
 
-exports.startExam = async function (req, res) {
+exports.startExam = async function (req, res, next) {
   try {
     const { courseCode, limit } = req.body;
     const level = req.user.level;
@@ -19,14 +19,11 @@ exports.startExam = async function (req, res) {
 
     res.status(200).json({ questions });
   } catch (error) {
-    res.status(500).json({
-      message: error.message,
-      stack: error.stack,
-    });
+    next(error);
   }
 };
 
-exports.submitExam = async function (req, res) {
+exports.submitExam = async function (req, res, next) {
   try {
     const { answers, courseCode } = req.body;
     const student = req.user.id;
@@ -52,6 +49,6 @@ exports.submitExam = async function (req, res) {
     });
     res.status(200).json({ score, explanation });
   } catch (error) {
-    res.status(500).json({ message: "Internal server error" });
+    next(error);
   }
 };
