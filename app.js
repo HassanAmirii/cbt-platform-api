@@ -1,13 +1,31 @@
 const express = require("express");
 require("dotenv").config();
+const cors = require("cors");
+
 const app = express();
 app.use(express.json());
 
 /*
 cors setup
 */
-const cors = require("cors");
-app.use(cors());
+const allowedOrigins =
+  process.env.APP_ENV === "production"
+    ? [process.env.FRONTEND_URL]
+    : [
+        "http://localhost:3000",
+        "http://localhost:5173",
+        "http://localhost:4173",
+        "http://127.0.0.1:3000",
+        "http://127.0.0.1:5173",
+      ];
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credential: true,
+    methods: ["GET", "POST", "DELETE", "PUT"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  }),
+);
 
 /*
 swagger api documentation
