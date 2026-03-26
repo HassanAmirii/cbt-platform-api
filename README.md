@@ -1,226 +1,277 @@
-# **CBT Exam Platform API**
+# CBT API
 
 ## Overview
 
-This project provides a robust Express.js backend for an online examination system. It facilitates secure user authentication, dynamic retrieval of exam questions based on course and level, and comprehensive exam submission with instant scoring and detailed explanations, all powered by MongoDB.
+This project gives you a robust backend for a Computer Based Test (CBT) application, handling everything from user authentication to exam management. It lets users register, log in, take exams based on their academic level and specific courses, and get instant results with detailed explanations. The main goal here is to provide a solid, scalable foundation for any online assessment system.
 
 ## Features
 
-- **User Authentication**: Secure user registration and login endpoints utilizing JSON Web Tokens (JWT) for session management.
-- **Secure Password Management**: Passwords are securely hashed using bcrypt before storage.
-- **Dynamic Exam Generation**: Fetches randomized exam questions tailored to specific course codes and user academic levels.
-- **Comprehensive Exam Submission**: Processes submitted answers, calculates scores, and generates detailed explanations for each question, indicating correctness.
-- **Modular Architecture**: Organized codebase with dedicated routes, controllers, services, and Mongoose models for maintainability and scalability.
-- **Data Persistence**: Leverages MongoDB through Mongoose for efficient storage and retrieval of users, questions, and exam results.
-
-## Technologies Used
-
-| Technology       | Description                                     | Version/Link                                                                                                                |
-| :--------------- | :---------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| **Node.js**      | JavaScript runtime environment                  | [![Node.js](https://img.shields.io/badge/Node.js-v18+-green?logo=node.js&logoColor=white)](https://nodejs.org/en/)          |
-| **Express.js**   | Web application framework for Node.js           | [![Express.js](https://img.shields.io/badge/Express.js-v5.x-blue?logo=express&logoColor=white)](https://expressjs.com/)     |
-| **MongoDB**      | NoSQL database                                  | [![MongoDB](https://img.shields.io/badge/MongoDB-Cloud-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)      |
-| **Mongoose**     | MongoDB object data modeling (ODM) for Node.js  | [![Mongoose](https://img.shields.io/badge/Mongoose-v8.x-red?logo=mongoose&logoColor=white)](https://mongoosejs.com/)        |
-| **bcrypt**       | Password hashing library                        | [![Bcrypt](https://img.shields.io/badge/bcrypt-v5.x-orange)](https://www.npmjs.com/package/bcrypt)                          |
-| **jsonwebtoken** | JSON Web Token (JWT) implementation for Node.js | [![jsonwebtoken](https://img.shields.io/badge/jsonwebtoken-v9.x-informational)](https://www.npmjs.com/package/jsonwebtoken) |
-| **dotenv**       | Loads environment variables from a `.env` file  | [![dotenv](https://img.shields.io/badge/dotenv-v17.x-yellow)](https://www.npmjs.com/package/dotenv)                         |
+- **User Authentication**: Users can securely register and log in using JWT for session management.
+- **Role-Based Access**: Distinguishes between regular users and administrators (though admin-specific endpoints aren't exposed in this version, the user model supports it).
+- **Dynamic Exam Generation**: Serves up randomized exam questions tailored to a user's academic level and a chosen course.
+- **Exam Submission & Grading**: Processes submitted answers, calculates scores, and provides immediate feedback with comprehensive explanations for each question.
+- **Result Persistence**: Stores detailed exam results for users to review their performance history.
+- **Comprehensive Error Handling**: Implements a global error handling middleware to gracefully manage various types of errors, including Mongoose validation, duplicate keys, and JWT issues.
+- **API Documentation**: Includes integrated Swagger UI for easy exploration and testing of API endpoints.
 
 ## Getting Started
 
 ### Environment Variables
 
-To run this project, you will need to set up the following environment variables in a `.env` file in the root directory:
+You'll need to set up a `.env` file in the root of your project with the following variables. These are crucial for the application to run correctly.
 
-| Variable     | Description                                  | Example Value                               |
-| :----------- | :------------------------------------------- | :------------------------------------------ |
-| `PORT`       | The port number for the server to listen on. | `3000`                                      |
-| `MONGO_URI`  | Connection string for your MongoDB database. | `mongodb://get your uri from mongodb atlas` |
-| `JWT_SECRET` | A secret key for signing and verifying JWTs. | `your_super_secret_jwt_key_here`            |
+```ini
+APP_ENV=development
+PORT=3000
+MONGO_URI=mongodb://get your uri from mongodb atlas
+JWT_SECRET=thisisasecretkeyforjwtauthentications
+FRONTEND_URL=https://yourfrontendurl.com
+```
+
+- `APP_ENV`: Set to `development` for local testing or `production` for deployment.
+- `PORT`: The port your server will listen on (e.g., `3000`).
+- `MONGO_URI`: Your MongoDB connection string. You can get this from MongoDB Atlas.
+- `JWT_SECRET`: A strong, random string used for signing and verifying JSON Web Tokens.
+- `FRONTEND_URL`: The URL of your frontend application. Important for CORS in production.
 
 ## Usage
 
-Interact with the API endpoints to manage users, start exams, and submit results.
+To get the server running, make sure you've installed all the dependencies and set up your environment variables.
 
-### User Authentication
+1.  **Install dependencies**:
 
-#### Register a New User
+    ```bash
+    npm install
+    ```
 
-Registers a new user account with a unique username and email.
+    or
 
-- **Endpoint**: `POST /api/v1/register`
-- **Request Body**:
+    ```bash
+    yarn install
+    ```
 
-  ```json
-  {
-    "username": "johndoe",
-    "email": "john.doe@example.com",
-    "password": "StrongPassword123",
-    "level": "100"
-  }
-  ```
+2.  **Start the server**:
 
-  - `username` (string, required): Unique username.
-  - `email` (string, required): Unique and valid email address.
-  - `password` (string, required): Password (min 6 characters).
-  - `level` (string, required): User's academic level (e.g., "100", "200", "300", "400").
+    ```bash
+    npm start
+    ```
 
-- **Success Response**: `HTTP 201 Created`
-  ```json
-  {
-    "message": "success",
-    "user": {
-      "_id": "65b21e8d9b1c7f0a8d6e7f8e",
-      "username": "johndoe",
-      "email": "john.doe@example.com",
-      "level": "100",
-      "isAdmin": false,
-      "createdAt": "2024-01-25T12:00:00.000Z",
-      "updatedAt": "2024-01-25T12:00:00.000Z"
-    }
-  }
-  ```
-- **Errors**:
-  - `HTTP 409 Conflict`: If username or email already exists.
-  - `HTTP 400 Bad Request`: If required fields are missing or invalid.
+    or
 
-#### Log In a User
+    ```bash
+    node server.js
+    ```
 
-Authenticates a user and provides a JSON Web Token (JWT) for subsequent authorized requests.
+    You should see messages in your console indicating successful database connection and server startup.
+    The API will then be accessible at `http://localhost:[PORT]/api/v1` (replace `[PORT]` with the value from your `.env` file, default is `3000`).
 
-- **Endpoint**: `POST /api/v1/login`
-- **Request Body**:
+3.  **Access API Documentation**:
+    Once the server is running, you can explore all the API endpoints and their functionalities using Swagger UI at:
+    `http://localhost:[PORT]/api-docs`
 
-  ```json
-  {
-    "email": "john.doe@example.com",
-    "password": "StrongPassword123"
-  }
-  ```
+## API Documentation
 
-  - `email` (string, required): Registered email address.
-  - `password` (string, required): User's password.
+### Base URL
 
-- **Success Response**: `HTTP 200 OK`
-  ```json
-  {
-    "message": "login successful",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjI1MWM3YmMwNTc3YjA5YzQwYzkwMSIsInVzZXJuYW1lIjoiam9obmRvZSIsImFkbWluIjpmYWxzZSwibGV2ZWwiOiIxMDAiLCJpYXQiOjE3MDYxOTA0MjksImV4cCI6MTcwNjE5NDAyOX0.example_jwt_token"
-  }
-  ```
-- **Errors**:
-  - `HTTP 401 Unauthorized`: For invalid credentials (email or password).
+`http://localhost:3000/api/v1` (adjust port if different in your `.env`)
 
-### Exam Management
+### Endpoints
 
-#### Start an Exam
+#### `POST /auth/register`
 
-Retrieves a set of randomized questions for a specified course and level. Requires authentication.
+Registers a new user in the system.
 
-- **Endpoint**: `POST /api/v1/start-exam`
-- **Headers**: `Authorization: Bearer <your_jwt_token>`
-- **Request Body**:
+**Request**:
 
-  ```json
-  {
-    "courseCode": "CSC101",
+```json
+{
+  "username": "testuser",
+  "email": "test@example.com",
+  "password": "securepassword123",
+  "level": "100"
+}
+```
+
+**Response**:
+
+```json
+{
+  "message": "success",
+  "user": {
+    "_id": "65b7d0c3f0b3e7c8d9a0b1c2",
+    "username": "testuser",
+    "email": "test@example.com",
     "level": "100",
-    "limit": 5
+    "isAdmin": false,
+    "createdAt": "2023-01-01T12:00:00.000Z",
+    "updatedAt": "2023-01-01T12:00:00.000Z",
+    "__v": 0
   }
-  ```
+}
+```
 
-  - `courseCode` (string, required): The code for the course (e.g., "CSC101").
-  - `level` (string, optional): The academic level for questions (e.g., "100"). If not provided, it defaults to the authenticated user's level.
-  - `limit` (number, optional): The maximum number of questions to return (defaults to 5).
+**Errors**:
 
-- **Success Response**: `HTTP 200 OK`
-  ```json
-  {
-    "questions": [
-      {
-        "questionId": 1,
-        "questionText": "what is the primary function of an operating system?",
-        "options": [
-          {
-            "optionsText": "to manage hardware resources",
-            "optionsLabel": "A"
-          },
-          { "optionsText": "to run applications", "optionsLabel": "B" },
-          { "optionsText": "to store data", "optionsLabel": "C" },
-          { "optionsText": "to browse the internet", "optionsLabel": "D" }
-        ]
-      },
-      {
-        "questionId": 3,
-        "questionText": "which of the following is not a programming language?",
-        "options": [
-          { "optionsText": "python", "optionsLabel": "A" },
-          { "optionsText": "html", "optionsLabel": "B" },
-          { "optionsText": "java", "optionsLabel": "C" },
-          { "optionsText": "c++", "optionsLabel": "D" }
-        ]
-      }
-    ]
-  }
-  ```
-- **Errors**:
-  - `HTTP 401 Unauthorized`: If no valid token is provided.
-  - `HTTP 400 Bad Request`: If `courseCode` or `level` (and user's level is missing) are not provided.
-  - `HTTP 404 Not Found`: If no questions are found for the given criteria.
+- 400: Bad request (e.g., missing fields, invalid email format, password too short).
+- 409: Field already exists (e.g., username or email is already taken).
 
-#### Submit an Exam
+#### `POST /auth/login`
 
-Submits a user's answers to an exam, calculates the score, and provides detailed explanations. Requires authentication.
+Authenticates a user and returns a JWT token.
 
-- **Endpoint**: `POST /api/v1/submit-exam`
-- **Headers**: `Authorization: Bearer <your_jwt_token>`
-- **Request Body**:
+**Request**:
 
-  ```json
-  {
-    "courseCode": "CSC101",
-    "answers": [
-      { "questionId": 1, "selected": "A" },
-      { "questionId": 3, "selected": "B" }
-    ]
-  }
-  ```
+```json
+{
+  "email": "test@example.com",
+  "password": "securepassword123"
+}
+```
 
-  - `courseCode` (string, required): The code of the course the exam was for.
-  - `answers` (array of objects, required): An array where each object contains:
-    - `questionId` (number, required): The ID of the question.
-    - `selected` (string, required): The label of the option selected by the user (e.g., "A", "B", "C", "D").
+**Response**:
 
-- **Success Response**: `HTTP 200 OK`
-  ```json
-  {
-    "score": 100,
-    "explanation": [
-      {
-        "courseCode": "CSC101",
-        "questionText": "what is the primary function of an operating system?",
-        "correctOption": "A",
-        "explanation": "An operating system acts as an intermediary between the user and the computer hardware, coordinating CPU time, memory allocation, and storage.",
-        "picked": "A",
-        "isCorrect": true
-      },
-      {
-        "courseCode": "CSC101",
-        "questionText": "which of the following is not a programming language?",
-        "correctOption": "B",
-        "explanation": "HTML is a markup language used for structuring web content, not a programming language. Python, Java, and C++ are programming languages.",
-        "picked": "B",
-        "isCorrect": true
-      }
-    ]
-  }
-  ```
-- **Errors**:
-  - `HTTP 401 Unauthorized`: If no valid token is provided.
-  - `HTTP 400 Bad Request`: If `answers` payload is missing or invalid.
+```json
+{
+  "message": "login successful",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjdkMGMzZjBiM2U3YzhkOWEwYjFjMiIsInVzZXJuYW1lIjoidGVzdHVzZXIiLCJhZG1pbiI6ZmFsc2UsImxldmVsIjoiMTAwIiwiaWF0IjoxNzAyMzY4MDAwLCJleHAiOjE3MDIzNzE2MDB9.someLongHashString"
+}
+```
+
+**Errors**:
+
+- 400: Bad request (e.g., missing email or password).
+- 401: Unauthorized (invalid credentials).
+
+#### `POST /start-exam`
+
+Retrieves a set of exam questions for a given course and the user's level. Requires authentication.
+
+**Request**:
+Requires an `Authorization: Bearer <token>` header.
+
+```json
+{
+  "courseCode": "CBT101",
+  "limit": 5
+}
+```
+
+**Response**:
+
+```json
+{
+  "questions": [
+    {
+      "questionId": 1,
+      "questionText": "what is the primary function of an operating system?",
+      "options": [
+        {
+          "optionsText": "To manage hardware and software resources",
+          "optionsLabel": "A"
+        },
+        { "optionsText": "To provide internet access", "optionsLabel": "B" },
+        { "optionsText": "To store user files", "optionsLabel": "C" },
+        { "optionsText": "To run applications only", "optionsLabel": "D" }
+      ]
+    }
+    // ... more questions
+  ]
+}
+```
+
+**Errors**:
+
+- 400: Bad request (e.g., `courseCode` or `level` missing).
+- 401: Unauthorized (invalid or expired token).
+- 404: No questions found for the given criteria.
+
+#### `POST /submit-exam`
+
+Submits user answers for an exam and returns the score and detailed explanations. Requires authentication.
+
+**Request**:
+Requires an `Authorization: Bearer <token>` header.
+
+```json
+{
+  "courseCode": "CBT101",
+  "answers": [
+    { "questionId": 1, "selected": "A" },
+    { "questionId": 2, "selected": "C" }
+  ]
+}
+```
+
+**Response**:
+
+```json
+{
+  "score": 50,
+  "explanation": [
+    {
+      "courseCode": "CBT101",
+      "questionText": "what is the primary function of an operating system?",
+      "correctOption": "A",
+      "explanation": "An operating system acts as an intermediary between the user and the computer hardware, coordinating CPU time, memory allocation, and storage.",
+      "picked": "A",
+      "isCorrect": true
+    },
+    {
+      "courseCode": "CBT101",
+      "questionText": "which of the following is not a programming language?",
+      "correctOption": "D",
+      "explanation": "HTML is a markup language used for structuring web content, whereas Python, Java, and C++ are programming languages.",
+      "picked": "C",
+      "isCorrect": false
+    }
+    // ... more explanations
+  ]
+}
+```
+
+**Errors**:
+
+- 400: Bad request (e.g., `answers` or `courseCode` missing, or improperly formatted).
+- 401: Unauthorized (invalid or expired token).
+- 404: Not found (e.g., a `questionId` in the answers doesn't exist).
+
+## Technologies Used
+
+| Technology                                                             | Description                                                 |
+| :--------------------------------------------------------------------- | :---------------------------------------------------------- |
+| [Express.js](https://expressjs.com/)                                   | Fast, unopinionated, minimalist web framework for Node.js.  |
+| [Node.js](https://nodejs.org/en)                                       | JavaScript runtime for server-side execution.               |
+| [MongoDB](https://www.mongodb.com/)                                    | NoSQL database for flexible data storage.                   |
+| [Mongoose](https://mongoosejs.com/)                                    | MongoDB object data modeling (ODM) for Node.js.             |
+| [bcrypt](https://www.npmjs.com/package/bcrypt)                         | Library for hashing passwords securely.                     |
+| [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)             | For implementing JSON Web Token (JWT) based authentication. |
+| [cors](https://www.npmjs.com/package/cors)                             | Middleware to enable Cross-Origin Resource Sharing.         |
+| [dotenv](https://www.npmjs.com/package/dotenv)                         | Loads environment variables from a `.env` file.             |
+| [Swagger UI Express](https://www.npmjs.com/package/swagger-ui-express) | Middleware for serving Swagger UI from an Express app.      |
+| [YAML.js](https://www.npmjs.com/package/yamljs)                        | A YAML parser and stringifier for JavaScript.               |
+
+## Contributing
+
+We welcome contributions! If you have suggestions for improvements, feature requests, or bug fixes, please open an issue or submit a pull request.
+Here's a quick guide:
+
+1.  **Fork the repository**.
+2.  **Create a new branch** for your feature or fix.
+3.  **Make your changes**, ensuring they follow the existing code style.
+4.  **Write clear, concise commit messages**.
+5.  **Submit a pull request** with a detailed description of your changes.
+
+## License
+
+This project is open-sourced under the MIT License.
 
 ---
 
-### Project Status
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Mongoose](https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
+[![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://swagger.io/)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/HassanAmirii/cbt-platform-api/graphs/commit-activity)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/yourrepo)](https://github.com/HassanAmirii/cbt-platform-api/commits/main)
+[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
