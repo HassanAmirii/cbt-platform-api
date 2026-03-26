@@ -1,0 +1,113 @@
+openapi: 3.0.0
+info:
+  title: cbt api
+  version: 1.0.0
+  description: API for CBT application
+servers:
+  - url: http://localhost:3080/api/v1
+paths:
+  /auth/register:
+    post:
+      summary: Register a new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+                level:
+                  type: string
+                  enum: ["100", "200", "300", "400"]
+      responses:
+        "201":
+          description: User registered successfully
+        "400":
+          description: Bad request
+        "409":
+          description: field already exists
+  /auth/login:
+    post:
+      summary: Login a user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        "200":
+          description: User logged in successfully
+        "400":
+          description: Bad request
+        "401":
+          description: unauthorized invalid credentials
+  /start-exam:
+    post:
+      summary: get sets of exam questions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                courseCode:
+                  type: string
+                level:
+                  type: string
+                  enum: ["100", "200", "300", "400"]
+                limit:
+                  description: questions count to send
+                  type: number
+      responses:
+        "200":
+          description: questions generated successfully
+        "400":
+          description: Bad request, If courseCode or level (and user's level is missing) are not provided.
+        "401":
+          description: unauthorized invalid credentials
+        "404":
+          description: not found, If no questions are found for the given criteria.
+  /submit-exam:
+    post:
+      summary: submit exam answers and get results
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                courseCode:
+                  type: string
+                answers:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      questionId:
+                        type: number
+                      selected:
+                        type: string
+                        enum: ["A", "B", "C", "D"]
+      responses:
+        "200":
+          description: exam submitted successfully, results returned
+        "400":
+          description: Bad request, If courseCode or answers are missing or improperly formatted.
+        "401":
+          description: unauthorized invalid credentials
+        "404":
+          description: not found, If no questions are found for the given courseCode or if any questionId in the answers does not match existing questions.

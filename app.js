@@ -2,11 +2,33 @@ const express = require("express");
 require("dotenv").config();
 const app = express();
 app.use(express.json());
+
+/*
+cors setup
+*/
+const cors = require("cors");
+app.use(cors());
+
+/*
+swagger api documentation
+*/
+const swaggerUi = require("swagger-ui-express");
+const YAML = require("yamljs");
+
+const swaggerDocument = YAML.load("./swagger.yaml");
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
+/*
+routes mount
+*/
 const authRoutes = require("./routes/v1/auth.routes");
 const examRoutes = require("./routes/v1/exam.routes");
 app.use("/api/v1", authRoutes);
 app.use("/api/v1", examRoutes);
 
+/*
+global error handler
+*/
 app.use((err, req, res, next) => {
   let statusCode = err.statusCode || 500;
   let message = err.message || "Internal Server Error";
@@ -21,8 +43,9 @@ app.use((err, req, res, next) => {
 
   // 2. Handle MongoDB Duplicate Key (e.g., Email already exists)
   if (err.code === 11000) {
-    statusCode = 400;
-    message = "Duplicate field value entered";
+    const field = Object.keys(err.keyValue)[0];
+    statusCode = 409;
+    message = `${field} already exists.`;
   }
 
   // 3. Handle JWT Errors (Categorized by name)
@@ -36,7 +59,7 @@ app.use((err, req, res, next) => {
     message = "Your token has expired.";
   }
 
-  res.status(statusCode).json({
+  return res.status(statusCode).json({
     success: false,
     message: message,
     stack: process.env.APP_ENV === "development" ? err.stack : undefined,
