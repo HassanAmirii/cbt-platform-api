@@ -1,4 +1,4 @@
-const examQuestions = require("../data/questions.json"); //mock data
+const examQuestions = require("../../data/questions.json"); //mock data
 
 exports.getExamQuestions = function (courseCode, level, limit) {
   const processQuestion = examQuestions

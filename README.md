@@ -59,7 +59,7 @@ To get the server running, make sure you've installed all the dependencies and s
     or
 
     ```bash
-    node server.js
+    node src/server.js
     ```
 
     You should see messages in your console indicating successful database connection and server startup.

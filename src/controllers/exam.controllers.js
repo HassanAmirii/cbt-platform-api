@@ -5,10 +5,10 @@ exports.startExam = async function (req, res, next) {
   try {
     const { courseCode, limit } = req.body;
     const level = req.user.level;
-    if (!courseCode || !level) {
-      return res
-        .status(400)
-        .json({ message: "bad request: could not find courseCode or level" });
+    if (!courseCode || !level || !limit) {
+      return res.status(400).json({
+        message: "bad request: courseCode, level or limit is missing",
+      });
     }
     const questions = examServices.getExamQuestions(courseCode, level, limit);
     if (!questions.length) {
