@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "seeder:import": "node src/seeders/question.seeder.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
