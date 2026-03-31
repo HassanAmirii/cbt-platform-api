@@ -5,18 +5,27 @@ exports.startExam = async function (req, res, next) {
   try {
     const { courseCode, limit } = req.body;
     const level = req.user.level;
-    if (!courseCode || !level || !limit) {
+    const student = req.user.id;
+    if (!courseCode || !level || !limit || !student) {
       return res.status(400).json({
         message: "bad request: courseCode, level or limit is missing",
       });
     }
-    const questions = examServices.getExamQuestions(courseCode, level, limit);
-    if (!questions.length) {
+    const examData = await examServices.getExamQuestions(
+      courseCode,
+      level,
+      limit,
+      student,
+    );
+    if (!examData.questions.length) {
       return res
         .status(404)
         .json({ message: "No questions found for this course/level." });
     }
-    res.status(200).json({ questions });
+    res.status(200).json({
+      questions: examData.questions,
+      attemptId: examData.AttemptId,
+    });
   } catch (err) {
     next(err);
   }
@@ -24,28 +33,16 @@ exports.startExam = async function (req, res, next) {
 
 exports.submitExam = async function (req, res, next) {
   try {
-    const { answers, courseCode } = req.body;
-    const student = req.user.id;
-    const level = req.user.level;
-    if (!answers) {
-      return res
-        .status(400)
-        .json({ message: "bad request: could not find answers payload" });
-    }
-    const { score, explanation } = examServices.submitExam(answers);
-    if (!score && score !== 0) {
+    const { answers, attemptId } = req.body;
+    if (!answers || !attemptId) {
       return res.status(400).json({
-        message: "missing answer or invalid question id or selected",
+        message: "bad request: could not find answers payload or attemptId",
       });
     }
-    const newResult = await Result.create({
-      student,
-      courseCode,
-      level,
+    const { score, explanation } = await examServices.submitExam(
       answers,
-      score,
-      explanation,
-    });
+      attemptId,
+    );
     res.status(200).json({ score, explanation });
   } catch (err) {
     next(err);
