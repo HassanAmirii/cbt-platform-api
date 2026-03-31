@@ -20,22 +20,7 @@ const resultSchema = new mongoose.Schema(
       required: true,
       type: Number,
     },
-    answers: {
-      type: [
-        {
-          questionId: {
-            type: Number,
-            required: true,
-          },
-          selected: {
-            required: true,
-            type: String,
-            enum: ["A", "B", "C", "D"],
-          },
-        },
-      ],
-      required: true,
-    },
+
     /*
      "explanation": [
          {
@@ -50,6 +35,11 @@ const resultSchema = new mongoose.Schema(
     explanation: {
       type: [
         {
+          questionId: {
+            type: mongoose.Schema.Types.ObjectId,
+            required: true,
+            ref: "Question",
+          },
           questionText: {
             type: String,
             required: true,
