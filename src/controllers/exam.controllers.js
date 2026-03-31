@@ -1,5 +1,4 @@
 const examServices = require("../services/exam.services");
-const Result = require("../models/result.model");
 
 exports.startExam = async function (req, res, next) {
   try {

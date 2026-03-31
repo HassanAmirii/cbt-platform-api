@@ -10,7 +10,11 @@ const examMode = {
 
 exports.getExamQuestions = async (courseCode, level, limit, student) => {
   const duration = examMode[limit];
-
+  if (!duration) {
+    const error = new Error("invalid duration: choose 35, 60 or 100 ");
+    error.status = 400;
+    throw error;
+  }
   const examQuestions = await Question.find({ courseCode, level }).lean();
 
   const selectedQuestions = examQuestions
