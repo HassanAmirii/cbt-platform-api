@@ -4,7 +4,6 @@
 
 ### CBT Platform Backend
 
-)
 [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-5.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongoosejs.com/)
@@ -12,8 +11,8 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/commits/main)
-[![Repo Size](https://img.shields.io/github/repo-size/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api)
-[![Code Lines](https://img.shields.io/tokei/lines/github/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api)
+[![Contributors](https://img.shields.io/github/contributors/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/graphs/contributors)
+[![Open Issues](https://img.shields.io/github/issues/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/issues)
 
 A computer-based testing API with JWT auth, level-based exam generation, timed attempts, scoring, and detailed answer explanations.
 
