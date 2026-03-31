@@ -99,7 +99,7 @@ exports.submitExam = async (answers, attemptId) => {
         isCorrect: isCorrect,
       };
     });
-    const score = (correctCount / attemptedQuestions.length) * 100;
+    const score = Math.round(correctCount / attemptedQuestions.length) * 100;
     await Result.create({
       student: attempt.student,
       courseCode: attempt.courseCode,
