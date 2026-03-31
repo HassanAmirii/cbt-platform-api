@@ -1,28 +1,51 @@
-const examQuestions = require("../../data/questions.json"); //mock data
+const Question = require("../models/question.model");
+const Attempt = require("../models/attempt.model");
+const Result = require("../models/result.model");
 
-exports.getExamQuestions = function (courseCode, level, limit) {
-  const processQuestion = examQuestions
-    .filter((item) => item.level === level && item.courseCode === courseCode)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, limit)
-    .map((item) => ({
-      questionId: item.id,
-      questionText: item.questionText,
-      options: item.options.map((opt) => {
-        return {
-          optionsText: opt.text,
-          optionsLabel: opt.label,
-        };
-      }),
-    }));
-  return processQuestion;
+const examMode = {
+  35: 15, // 35 questions for 15 mins
+  60: 25, // 60 questions for 25 mins
+  100: 35, // 100 questions for 35 mins
 };
 
-exports.submitExam = function (answers) {
-  if (!Array.isArray(answers) || answers.length === 0) {
-    throw new Error("Invalid answers format");
-  }
-  /*
+exports.getExamQuestions = async (courseCode, level, limit, student) => {
+  const duration = examMode[limit];
+
+  const examQuestions = await Question.find({ courseCode, level }).lean();
+
+  const selectedQuestions = examQuestions
+    .sort(() => Math.random() - 0.5)
+    .slice(0, limit);
+
+  const questionsID = selectedQuestions.map((q) => q._id);
+
+  const processQuestion = selectedQuestions.map((item) => ({
+    questionId: item._id,
+    questionText: item.questionText,
+    options: item.options.map((opt) => {
+      return {
+        optionsText: opt.text,
+        optionsLabel: opt.label,
+      };
+    }),
+  }));
+  const newAttempt = await Attempt.create({
+    student,
+    questions: questionsID,
+    duration: duration,
+    courseCode,
+    level,
+    expiresAt: Date.now() + duration * 60000,
+    status: "ongoing",
+  });
+
+  return {
+    questions: processQuestion,
+    AttemptId: newAttempt._id,
+  };
+};
+
+/*
 frontend sends payload: 
 {
   "answers": [
@@ -31,37 +54,63 @@ frontend sends payload:
   ]
 }
 */
-  const correct = answers.filter(function (ans) {
-    const question = examQuestions.find(function (item) {
-      return item.id === ans.questionId;
-    });
-    return question && question.correctOption === ans.selected;
-  });
 
-  const score = (correct.length / answers.length) * 100;
+exports.submitExam = async (answers, attemptId) => {
+  if (!Array.isArray(answers) || answers.length === 0) {
+    throw new Error("invalid answer format ");
+  }
 
-  const explanation = answers.map(function (exp) {
-    const question = examQuestions.find(function (item) {
-      return item.id === exp.questionId;
-    });
-    if (!question) {
+  const attempt = await Attempt.findById(attemptId).populate("questions");
+  if (!attempt) {
+    throw new Error(" Attempt not found");
+  }
+  const isActive = attempt.status === "ongoing";
+  const isNotExpired = Date.now() < attempt.expiresAt;
+
+  if (isActive && isNotExpired) {
+    const attemptedQuestions = attempt.questions;
+
+    let correctCount = 0;
+    const computedResults = answers.map((ans) => {
+      const question = attemptedQuestions.find(
+        (item) => item._id.toString() === ans.questionId.toString(),
+      );
+
+      if (!question) {
+        return {
+          questionId: ans.questionId,
+          error: "Question not found in this attempt",
+        };
+      }
+
+      const isCorrect = question.correctOption === ans.selected;
+      if (isCorrect) correctCount++;
+
       return {
-        questionId: exp.questionId,
-        error: "could not find question in database",
+        questionId: question._id,
+        questionText: question.questionText,
+        correctOption: question.correctOption,
+        explanation: question.explanation,
+        picked: ans.selected,
+        isCorrect: isCorrect,
       };
-    }
-    return {
-      courseCode: question.courseCode,
-      questionText: question.questionText,
-      correctOption: question.correctOption,
-      explanation: question.explanation,
-      picked: exp.selected,
-      isCorrect: question.correctOption === exp.selected,
-    };
-  });
+    });
+    const score = (correctCount / attemptedQuestions.length) * 100;
+    await Result.create({
+      student: attempt.student,
+      courseCode: attempt.courseCode,
+      level: attempt.level,
+      score,
+      explanation: computedResults,
+    });
 
-  return {
-    score: score,
-    explanation: explanation,
-  };
+    attempt.status = "submitted";
+    await attempt.save();
+
+    return { score, explanation: computedResults };
+  } else {
+    const error = new Error("Session expired or already submitted");
+    error.statusCode = 410;
+    throw error;
+  }
 };
