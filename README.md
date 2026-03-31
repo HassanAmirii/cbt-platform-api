@@ -1,87 +1,119 @@
+<div align="center">
+
 # CBT API
+
+### CBT Platform Backend
+
+)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-5.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongoosejs.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#license)
+
+[![GitHub Stars](https://img.shields.io/github/stars/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api)
+[![Code Lines](https://img.shields.io/tokei/lines/github/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api)
+
+A computer-based testing API with JWT auth, level-based exam generation, timed attempts, scoring, and detailed answer explanations.
+
+[Report a Bug](https://github.com/HassanAmirii/cbt-platform-api/issues/new?labels=bug) · [Request a Feature](https://github.com/HassanAmirii/cbt-platform-api/issues/new?labels=enhancement)
+
+</div>
 
 ## Overview
 
-This project gives you a robust backend for a Computer Based Test (CBT) application, handling everything from user authentication to exam management. It lets users register, log in, take exams based on their academic level and specific courses, and get instant results with detailed explanations. The main goal here is to provide a solid, scalable foundation for any online assessment system.
+This backend powers a CBT workflow where students:
+
+1. Register and log in.
+2. Start a timed exam attempt for a course.
+3. Submit answers against that attempt.
+4. Receive score + per-question explanations.
 
 ## Features
 
-- **User Authentication**: Users can securely register and log in using JWT for session management.
-- **Role-Based Access**: Distinguishes between regular users and administrators (though admin-specific endpoints aren't exposed in this version, the user model supports it).
-- **Dynamic Exam Generation**: Serves up randomized exam questions tailored to a user's academic level and a chosen course.
-- **Exam Submission & Grading**: Processes submitted answers, calculates scores, and provides immediate feedback with comprehensive explanations for each question.
-- **Result Persistence**: Stores detailed exam results for users to review their performance history.
-- **Comprehensive Error Handling**: Implements a global error handling middleware to gracefully manage various types of errors, including Mongoose validation, duplicate keys, and JWT issues.
-- **API Documentation**: Includes integrated Swagger UI for easy exploration and testing of API endpoints.
+- JWT authentication for protected exam routes.
+- Level-based question selection by `courseCode` + `level`.
+- Attempt tracking with expiration (`ongoing`, `submitted`, `expired`).
+- Immediate grading with detailed explanation per answer.
+- Persistent result history per student.
+- Swagger UI for API exploration.
+- Centralized error handling for validation, duplicate keys, and JWT errors.
 
-## Getting Started
+## Project Structure
 
-### Environment Variables
+```text
+src/
+  controllers/
+    auth.controllers.js
+    exam.controllers.js
+  middleware/
+    auth.middleware.js
+  models/
+    attempt.model.js
+    question.model.js
+    result.model.js
+    user.model.js
+  routes/v1/
+    auth.routes.js
+    exam.routes.js
+  services/
+    exam.services.js
+  app.js
+  server.js
+```
 
-You'll need to set up a `.env` file in the root of your project with the following variables. These are crucial for the application to run correctly.
+## Environment Variables
+
+Create a `.env` file in the project root:
 
 ```ini
 APP_ENV=development
 PORT=3000
-MONGO_URI=mongodb://get your uri from mongodb atlas
-JWT_SECRET=thisisasecretkeyforjwtauthentications
+MONGO_URI=mongodb://your-mongodb-uri
+JWT_SECRET=your-jwt-secret
 FRONTEND_URL=https://yourfrontendurl.com
 ```
 
-- `APP_ENV`: Set to `development` for local testing or `production` for deployment.
-- `PORT`: The port your server will listen on (e.g., `3000`).
-- `MONGO_URI`: Your MongoDB connection string. You can get this from MongoDB Atlas.
-- `JWT_SECRET`: A strong, random string used for signing and verifying JSON Web Tokens.
-- `FRONTEND_URL`: The URL of your frontend application. Important for CORS in production.
+## Running Locally
 
-## Usage
+Install dependencies:
 
-To get the server running, make sure you've installed all the dependencies and set up your environment variables.
+```bash
+npm install
+```
 
-1.  **Install dependencies**:
+Start the API:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm start
+```
 
-    or
+Import seeded questions (optional):
 
-    ```bash
-    yarn install
-    ```
+```bash
+npm run seeder:import
+```
 
-2.  **Start the server**:
+Swagger docs:
 
-    ```bash
-    npm start
-    ```
+```text
+http://localhost:3000/api-docs
+```
 
-    or
+Base API URL:
 
-    ```bash
-    node src/server.js
-    ```
+```text
+http://localhost:3000/api/v1
+```
 
-    You should see messages in your console indicating successful database connection and server startup.
-    The API will then be accessible at `http://localhost:[PORT]/api/v1` (replace `[PORT]` with the value from your `.env` file, default is `3000`).
+## API Reference
 
-3.  **Access API Documentation**:
-    Once the server is running, you can explore all the API endpoints and their functionalities using Swagger UI at:
-    `http://localhost:[PORT]/api-docs`
+### `POST /register`
 
-## API Documentation
+Register a new user.
 
-### Base URL
-
-`http://localhost:3000/api/v1` (adjust port if different in your `.env`)
-
-### Endpoints
-
-#### `POST /auth/register`
-
-Registers a new user in the system.
-
-**Request**:
+Request:
 
 ```json
 {
@@ -92,34 +124,28 @@ Registers a new user in the system.
 }
 ```
 
-**Response**:
+Response:
 
 ```json
 {
   "message": "success",
   "user": {
-    "_id": "65b7d0c3f0b3e7c8d9a0b1c2",
+    "_id": "...",
     "username": "testuser",
     "email": "test@example.com",
     "level": "100",
     "isAdmin": false,
-    "createdAt": "2023-01-01T12:00:00.000Z",
-    "updatedAt": "2023-01-01T12:00:00.000Z",
-    "__v": 0
+    "createdAt": "...",
+    "updatedAt": "..."
   }
 }
 ```
 
-**Errors**:
+### `POST /login`
 
-- 400: Bad request (e.g., missing fields, invalid email format, password too short).
-- 409: Field already exists (e.g., username or email is already taken).
+Authenticate a user and return a JWT.
 
-#### `POST /auth/login`
-
-Authenticates a user and returns a JWT token.
-
-**Request**:
+Request:
 
 ```json
 {
@@ -128,41 +154,47 @@ Authenticates a user and returns a JWT token.
 }
 ```
 
-**Response**:
+Response:
 
 ```json
 {
   "message": "login successful",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjdkMGMzZjBiM2U3YzhkOWEwYjFjMiIsInVzZXJuYW1lIjoidGVzdHVzZXIiLCJhZG1pbiI6ZmFsc2UsImxldmVsIjoiMTAwIiwiaWF0IjoxNzAyMzY4MDAwLCJleHAiOjE3MDIzNzE2MDB9.someLongHashString"
+  "token": "jwt-token"
 }
 ```
 
-**Errors**:
+### `POST /start-exam` (Auth Required)
 
-- 400: Bad request (e.g., missing email or password).
-- 401: Unauthorized (invalid credentials).
+Start a timed attempt and get randomized questions.
 
-#### `POST /start-exam`
+Request headers:
 
-Retrieves a set of exam questions for a given course and the user's level. Requires authentication.
+```text
+Authorization: Bearer <token>
+```
 
-**Request**:
-Requires an `Authorization: Bearer <token>` header.
+Request body:
 
 ```json
 {
   "courseCode": "CBT101",
-  "limit": 5
+  "limit": 35
 }
 ```
 
-**Response**:
+`limit` is used as exam mode:
+
+- `35` questions -> `15` minutes
+- `60` questions -> `25` minutes
+- `100` questions -> `35` minutes
+
+Response:
 
 ```json
 {
   "questions": [
     {
-      "questionId": 1,
+      "questionId": "6600a...",
       "questionText": "what is the primary function of an operating system?",
       "options": [
         {
@@ -174,104 +206,77 @@ Requires an `Authorization: Bearer <token>` header.
         { "optionsText": "To run applications only", "optionsLabel": "D" }
       ]
     }
-    // ... more questions
-  ]
+  ],
+  "attemptId": "6600b..."
 }
 ```
 
-**Errors**:
+### `POST /submit-exam` (Auth Required)
 
-- 400: Bad request (e.g., `courseCode` or `level` missing).
-- 401: Unauthorized (invalid or expired token).
-- 404: No questions found for the given criteria.
+Submit answers for an active attempt.
 
-#### `POST /submit-exam`
+Request headers:
 
-Submits user answers for an exam and returns the score and detailed explanations. Requires authentication.
+```text
+Authorization: Bearer <token>
+```
 
-**Request**:
-Requires an `Authorization: Bearer <token>` header.
+Request body:
 
 ```json
 {
-  "courseCode": "CBT101",
+  "attemptId": "6600b...",
   "answers": [
-    { "questionId": 1, "selected": "A" },
-    { "questionId": 2, "selected": "C" }
+    { "questionId": "6600a...", "selected": "A" },
+    { "questionId": "6600c...", "selected": "C" }
   ]
 }
 ```
 
-**Response**:
+Response:
 
 ```json
 {
   "score": 50,
   "explanation": [
     {
-      "courseCode": "CBT101",
+      "questionId": "6600a...",
       "questionText": "what is the primary function of an operating system?",
       "correctOption": "A",
-      "explanation": "An operating system acts as an intermediary between the user and the computer hardware, coordinating CPU time, memory allocation, and storage.",
+      "explanation": "An operating system acts as an intermediary between the user and the computer hardware.",
       "picked": "A",
       "isCorrect": true
-    },
-    {
-      "courseCode": "CBT101",
-      "questionText": "which of the following is not a programming language?",
-      "correctOption": "D",
-      "explanation": "HTML is a markup language used for structuring web content, whereas Python, Java, and C++ are programming languages.",
-      "picked": "C",
-      "isCorrect": false
     }
-    // ... more explanations
   ]
 }
 ```
 
-**Errors**:
+If the attempt is expired or already submitted, service throws:
 
-- 400: Bad request (e.g., `answers` or `courseCode` missing, or improperly formatted).
-- 401: Unauthorized (invalid or expired token).
-- 404: Not found (e.g., a `questionId` in the answers doesn't exist).
+- `410 Gone`: `Session expired or already submitted`
 
-## Technologies Used
+## Data Model Notes
 
-| Technology                                                             | Description                                                 |
-| :--------------------------------------------------------------------- | :---------------------------------------------------------- |
-| [Express.js](https://expressjs.com/)                                   | Fast, unopinionated, minimalist web framework for Node.js.  |
-| [Node.js](https://nodejs.org/en)                                       | JavaScript runtime for server-side execution.               |
-| [MongoDB](https://www.mongodb.com/)                                    | NoSQL database for flexible data storage.                   |
-| [Mongoose](https://mongoosejs.com/)                                    | MongoDB object data modeling (ODM) for Node.js.             |
-| [bcrypt](https://www.npmjs.com/package/bcrypt)                         | Library for hashing passwords securely.                     |
-| [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)             | For implementing JSON Web Token (JWT) based authentication. |
-| [cors](https://www.npmjs.com/package/cors)                             | Middleware to enable Cross-Origin Resource Sharing.         |
-| [dotenv](https://www.npmjs.com/package/dotenv)                         | Loads environment variables from a `.env` file.             |
-| [Swagger UI Express](https://www.npmjs.com/package/swagger-ui-express) | Middleware for serving Swagger UI from an Express app.      |
-| [YAML.js](https://www.npmjs.com/package/yamljs)                        | A YAML parser and stringifier for JavaScript.               |
+- `User`: authentication data + academic `level` + `isAdmin`.
+- `Question`: question text, topic, level, course code, 4 options (`A-D`), `correctOption`, explanation.
+- `Attempt`: links student to selected question IDs with duration, expiry timestamp, and status.
+- `Result`: stores final score and explanation breakdown for each submitted answer.
+
+## Tech Stack
+
+- Node.js
+- Express
+- MongoDB + Mongoose
+- JWT + bcrypt
+- Swagger UI (`swagger-ui-express` + `yamljs`)
 
 ## Contributing
 
-We welcome contributions! If you have suggestions for improvements, feature requests, or bug fixes, please open an issue or submit a pull request.
-Here's a quick guide:
-
-1.  **Fork the repository**.
-2.  **Create a new branch** for your feature or fix.
-3.  **Make your changes**, ensuring they follow the existing code style.
-4.  **Write clear, concise commit messages**.
-5.  **Submit a pull request** with a detailed description of your changes.
+1. Fork the repository.
+2. Create a feature/fix branch.
+3. Make your changes.
+4. Open a pull request.
 
 ## License
 
-This project is open-sourced under the MIT License.
-
----
-
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Mongoose](https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
-[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
-[![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://swagger.io/)
-
-[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
+This project is documented as MIT in prior revisions. If you plan to publish or distribute broadly, add an explicit `LICENSE` file to the repository root.
