@@ -1,15 +1,23 @@
 const examServices = require("../services/exam.services");
+const {
+  startExamSchema,
+  submitExamSchema,
+} = require("../validators/exam.validators");
 
 exports.startExam = async function (req, res, next) {
   try {
+    const { error } = startExamSchema.validate(req.body);
+    if (error)
+      return res.status(400).json({ message: error.details[0].message });
     const { courseCode, limit } = req.body;
     const level = req.user.level;
     const student = req.user.id;
-    if (!courseCode || !level || !limit || !student) {
-      return res.status(400).json({
-        message: "bad request: courseCode, level or limit is missing",
-      });
-    }
+
+    if (!level || !student)
+      return res
+        .status(400)
+        .json({ message: "bad request, level or student id missing " });
+
     const examData = await examServices.getExamQuestions(
       courseCode,
       level,
@@ -32,12 +40,11 @@ exports.startExam = async function (req, res, next) {
 
 exports.submitExam = async function (req, res, next) {
   try {
+    const { error } = submitExamSchema.validate(req.body);
+    if (error)
+      return res.status(400).json({ message: error.details[0].message });
+
     const { answers, attemptId } = req.body;
-    if (!answers || !attemptId) {
-      return res.status(400).json({
-        message: "bad request: could not find answers payload or attemptId",
-      });
-    }
     const { score, explanation } = await examServices.submitExam(
       answers,
       attemptId,
