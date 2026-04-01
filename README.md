@@ -109,9 +109,16 @@ http://localhost:3000/api/v1
 
 ## API Reference
 
-### `POST /register`
+### `POST /api/v1/register`
 
 Register a new user.
+
+Validation rules:
+
+- `username`: required, alphanumeric, 4-30 chars (trimmed)
+- `email`: required, valid email format (trimmed)
+- `password`: required, minimum 6 chars
+- `level`: required, one of `100`, `200`, `300`, `400`
 
 Request:
 
@@ -141,9 +148,14 @@ Response:
 }
 ```
 
-### `POST /login`
+### `POST /api/v1/login`
 
 Authenticate a user and return a JWT.
+
+Validation rules:
+
+- `email`: required, valid email format (trimmed)
+- `password`: required, minimum 6 chars
 
 Request:
 
@@ -163,7 +175,7 @@ Response:
 }
 ```
 
-### `POST /start-exam` (Auth Required)
+### `POST /api/v1/start-exam` (Auth Required)
 
 Start a timed attempt and get randomized questions.
 
@@ -181,6 +193,11 @@ Request body:
   "limit": 35
 }
 ```
+
+Validation rules:
+
+- `courseCode`: required, uppercase alphanumeric string
+- `limit`: required, one of `35`, `60`, `100`
 
 `limit` is used as exam mode:
 
@@ -211,7 +228,7 @@ Response:
 }
 ```
 
-### `POST /submit-exam` (Auth Required)
+### `POST /api/v1/submit-exam` (Auth Required)
 
 Submit answers for an active attempt.
 
@@ -232,6 +249,13 @@ Request body:
   ]
 }
 ```
+
+Validation rules:
+
+- `attemptId`: required, 24-char hex string (Mongo ObjectId format)
+- `answers`: required array with at least one item
+- `answers[].questionId`: required, 24-char hex string
+- `answers[].selected`: required string
 
 Response:
 
