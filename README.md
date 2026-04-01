@@ -101,10 +101,25 @@ Swagger docs:
 http://localhost:3000/api-docs
 ```
 
+Health check endpoints:
+
+```text
+GET http://localhost:3000/
+GET http://localhost:3000/health
+```
+
 Base API URL:
 
 ```text
 http://localhost:3000/api/v1
+```
+
+`/api/v1` is reserved for application routes (auth/exam), not health checks.
+
+Render health check path:
+
+```text
+/health
 ```
 
 ## API Reference

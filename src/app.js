@@ -37,6 +37,23 @@ const swaggerDocument = YAML.load("./swagger.yaml");
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 /*
+health checks
+*/
+app.get("/", (req, res) => {
+  return res.status(200).json({
+    success: true,
+    message: "CBT API is running",
+  });
+});
+
+app.get("/health", (req, res) => {
+  return res.status(200).json({
+    success: true,
+    message: "healthy",
+  });
+});
+
+/*
 routes mount
 */
 const authRoutes = require("./routes/v1/auth.routes");
