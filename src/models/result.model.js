@@ -67,5 +67,5 @@ const resultSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-resultSchema.index({ student: 1 });
+resultSchema.index({ student: 1, courseCode: 1, createdAt: -1 });
 module.exports = mongoose.model("Result", resultSchema);
