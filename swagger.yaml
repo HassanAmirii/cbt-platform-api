@@ -76,6 +76,35 @@ components:
           minItems: 1
           items:
             $ref: "#/components/schemas/AnswerItem"
+    ResultPagination:
+      type: object
+      properties:
+        totalResults:
+          type: integer
+          example: 12
+        totalPages:
+          type: integer
+          example: 2
+        limit:
+          type: integer
+          example: 10
+        currentPage:
+          type: integer
+          example: 1
+    StudentResultsResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        results:
+          type: array
+          description: Paginated list of result documents for the authenticated student
+          items:
+            type: object
+            additionalProperties: true
+        pagination:
+          $ref: "#/components/schemas/ResultPagination"
 paths:
   /:
     get:
@@ -161,3 +190,34 @@ paths:
           description: unauthorized invalid credentials
         "410":
           description: Session expired or already submitted
+  /api/v1/results:
+    get:
+      summary: Get authenticated student result history
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: query
+          name: page
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          description: Page number for paginated results
+        - in: query
+          name: limit
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 10
+          description: Number of results per page
+      responses:
+        "200":
+          description: Student results fetched successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StudentResultsResponse"
+        "401":
+          description: unauthorized invalid credentials

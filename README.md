@@ -47,6 +47,7 @@ src/
   controllers/
     auth.controllers.js
     exam.controllers.js
+    user.controllers.js
   middleware/
     auth.middleware.js
   models/
@@ -57,6 +58,7 @@ src/
   routes/v1/
     auth.routes.js
     exam.routes.js
+    user.routes.js
   services/
     exam.services.js
   app.js
@@ -114,7 +116,7 @@ Base API URL:
 http://localhost:3000/api/v1
 ```
 
-`/api/v1` is reserved for application routes (auth/exam), not health checks.
+`/api/v1` is reserved for application routes (auth/exam/user), not health checks.
 
 Render health check path:
 
@@ -293,6 +295,49 @@ Response:
 If the attempt is expired or already submitted, service throws:
 
 - `410 Gone`: `Session expired or already submitted`
+
+### `GET /api/v1/results` (Auth Required)
+
+Fetch the authenticated student's paginated result history.
+
+Request headers:
+
+```text
+Authorization: Bearer <token>
+```
+
+Query params (optional):
+
+- `page`: page number (default `1`)
+- `limit`: items per page (default `10`)
+
+Example request:
+
+```text
+GET /api/v1/results?page=1&limit=10
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "results": [
+    {
+      "_id": "...",
+      "student": "...",
+      "score": 50,
+      "createdAt": "..."
+    }
+  ],
+  "pagination": {
+    "totalResults": 12,
+    "totalPages": 2,
+    "limit": 10,
+    "currentPage": 1
+  }
+}
+```
 
 ## Data Model Notes
 
