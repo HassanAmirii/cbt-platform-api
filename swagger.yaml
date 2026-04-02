@@ -4,7 +4,10 @@ info:
   version: 1.0.0
   description: API for CBT application
 servers:
-  - url: http://localhost:3000
+  - url: https://cbt-platform-api.onrender.com/api/v1
+    description: Production
+  - url: http://localhost:3080/api/v1
+    description: Development
 components:
   securitySchemes:
     bearerAuth:
