@@ -29,14 +29,15 @@ This backend powers a CBT workflow where students:
 2. Start a timed exam attempt for a course.
 3. Submit answers against that attempt.
 4. Receive score + per-question explanations.
+5. View their paginated result history.
 
 ## Features
 
-- JWT authentication for protected exam routes.
+- JWT authentication for protected exam and user routes.
 - Level-based question selection by `courseCode` + `level`.
 - Attempt tracking with expiration (`ongoing`, `submitted`, `expired`).
 - Immediate grading with detailed explanation per answer.
-- Persistent result history per student.
+- Persistent, paginated result history per student.
 - Swagger UI for API exploration.
 - Centralized error handling for validation, duplicate keys, and JWT errors.
 
