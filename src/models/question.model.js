@@ -1,5 +1,23 @@
 const mongoose = require("mongoose");
 
+/*
+Example Question document:
+{
+  "questionText": "what is the primary function of an operating system?",
+  "topic": "computer basics",
+  "level": "100",
+  "courseCode": "CBT101",
+  "options": [
+    { "text": "manages hardware and software resources", "label": "A" },
+    { "text": "creates internet connections", "label": "B" },
+    { "text": "stores files only", "label": "C" },
+    { "text": "designs web pages", "label": "D" }
+  ],
+  "correctOption": "A",
+  "explanation": "An operating system manages hardware and software resources and provides common services for programs."
+}
+*/
+
 const questionSchema = new mongoose.Schema(
   {
     questionText: {
