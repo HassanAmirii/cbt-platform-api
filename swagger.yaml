@@ -6,7 +6,7 @@ info:
 servers:
   - url: https://cbt-platform-api.onrender.com/api/v1
     description: Production
-  - url: http://localhost:3080/api/v1
+  - url: http://localhost:3000/api/v1
     description: Development
 components:
   securitySchemes:
@@ -65,6 +65,7 @@ components:
           pattern: ^[a-fA-F0-9]{24}$
         selected:
           type: string
+          enum: [A, B, C, D]
     SubmitExamRequest:
       type: object
       required: [attemptId, answers]
@@ -76,9 +77,16 @@ components:
           pattern: ^[a-fA-F0-9]{24}$
         answers:
           type: array
-          minItems: 1
+          description: Must contain exactly 35, 60, or 100 answers.
           items:
             $ref: "#/components/schemas/AnswerItem"
+          oneOf:
+            - minItems: 35
+              maxItems: 35
+            - minItems: 60
+              maxItems: 60
+            - minItems: 100
+              maxItems: 100
     ResultPagination:
       type: object
       properties:
@@ -191,8 +199,10 @@ paths:
           description: Bad request, validation failed for request body.
         "401":
           description: unauthorized invalid credentials
+        "403":
+          description: attemptId does not belong to current user
         "410":
-          description: Session expired or already submitted
+          description: Attempt already submitted or session expired
   /api/v1/results:
     get:
       summary: Get authenticated student result history

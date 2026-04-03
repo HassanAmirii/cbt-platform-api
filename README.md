@@ -271,9 +271,9 @@ Request body:
 Validation rules:
 
 - `attemptId`: required, 24-char hex string (Mongo ObjectId format)
-- `answers`: required array with at least one item
+- `answers`: required array with exactly `35`, `60`, or `100` items
 - `answers[].questionId`: required, 24-char hex string
-- `answers[].selected`: required string
+- `answers[].selected`: required string (recommended `A`, `B`, `C`, or `D`)
 
 Response:
 
@@ -285,6 +285,8 @@ Response:
       "questionId": "6600a...",
       "questionText": "what is the primary function of an operating system?",
       "correctOption": "A",
+      "correctOptionText": "To manage hardware and software resources",
+      "selectedOptionText": "To manage hardware and software resources",
       "explanation": "An operating system acts as an intermediary between the user and the computer hardware.",
       "picked": "A",
       "isCorrect": true
@@ -293,9 +295,11 @@ Response:
 }
 ```
 
-If the attempt is expired or already submitted, service throws:
+Error cases:
 
-- `410 Gone`: `Session expired or already submitted`
+- `403 Forbidden`: `attemptId does not belong to current user`
+- `410 Gone`: `Attempt already submitted`
+- `410 Gone`: `Session expired`
 
 ### `GET /api/v1/results` (Auth Required)
 
@@ -343,9 +347,9 @@ Response:
 ## Data Model Notes
 
 - `User`: authentication data + academic `level` + `isAdmin`.
-- `Question`: question text, topic, level, course code, 4 options (`A-D`), `correctOption`, explanation.
+- `Question`: question text, topic, level, course code, exactly 4 options (`A-D`), `correctOption`, explanation.
 - `Attempt`: links student to selected question IDs with duration, expiry timestamp, and status.
-- `Result`: stores final score and explanation breakdown for each submitted answer.
+- `Result`: stores final score and explanation breakdown per submitted answer, including `correctOptionText` and `selectedOptionText`.
 
 ## Tech Stack
 
