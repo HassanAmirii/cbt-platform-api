@@ -273,7 +273,7 @@ Validation rules:
 - `attemptId`: required, 24-char hex string (Mongo ObjectId format)
 - `answers`: required array with exactly `35`, `60`, or `100` items
 - `answers[].questionId`: required, 24-char hex string
-- `answers[].selected`: required string (recommended `A`, `B`, `C`, or `D`)
+- `answers[].selected`: required field. Use `A`, `B`, `C`, or `D` for answered items; use empty string (`""`) or `null` for unanswered items.
 
 Response:
 

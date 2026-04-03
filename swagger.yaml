@@ -65,7 +65,9 @@ components:
           pattern: ^[a-fA-F0-9]{24}$
         selected:
           type: string
-          enum: [A, B, C, D]
+          enum: [A, B, C, D, ""]
+          nullable: true
+          description: Use A-D for answered questions, or empty string/null for unanswered.
     SubmitExamRequest:
       type: object
       required: [attemptId, answers]
