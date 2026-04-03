@@ -24,8 +24,11 @@ const resultSchema = new mongoose.Schema(
     /*
      "explanation": [
          {
+            "questionId": "strings"
             "questionText": "what is the primary function of an operating system?",
             "correctOption": "A",
+            "correctOptionText": "the right optio" ,
+            "selectedOptionText": "the one user picked",
             "explanation": "An operating system acts as an intermediary between the user and the computer hardware, coordinating CPU time, memory allocation, and storage.",
             "picked": "A",
             "isCorrect": true
@@ -48,6 +51,14 @@ const resultSchema = new mongoose.Schema(
             required: true,
             type: String,
             enum: ["A", "B", "C", "D"],
+          },
+          correctOptionText: {
+            type: String,
+            required: true,
+          },
+          selectedOptionText: {
+            type: String,
+            require: true,
           },
           explanation: {
             type: String,
