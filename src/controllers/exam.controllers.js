@@ -44,8 +44,15 @@ exports.submitExam = async function (req, res, next) {
     if (error)
       return res.status(400).json({ message: error.details[0].message });
 
+    const student = req.user.id;
+
+    if (!student)
+      return res
+        .status(400)
+        .json({ message: "bad request, student id missing in login payload" });
     const { answers, attemptId } = req.body;
     const { score, explanation } = await examServices.submitExam(
+      student,
       answers,
       attemptId,
     );
