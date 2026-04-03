@@ -90,10 +90,22 @@ exports.submitExam = async (answers, attemptId) => {
       const isCorrect = question.correctOption === ans.selected;
       if (isCorrect) correctCount++;
 
+      const correctOpt = question.options.find(
+        (opt) => opt.label === question.correctOption,
+      );
+
+      const correctOptionText = correctOpt ? correctOpt.text : null;
+
+      const selectedOpt = question.options.find(
+        (opt) => opt.label === ans.selected,
+      );
+      const selectedOptionText = selectedOpt ? selectedOpt.text : null;
       return {
         questionId: question._id,
         questionText: question.questionText,
         correctOption: question.correctOption,
+        correctOptionText,
+        selectedOptionText,
         explanation: question.explanation,
         picked: ans.selected,
         isCorrect: isCorrect,
