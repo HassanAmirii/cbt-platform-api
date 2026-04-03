@@ -151,6 +151,8 @@ Request:
 
 Response:
 
+- For unanswered items, `picked` and `selectedOptionText` are returned as `null`.
+
 ```json
 {
   "message": "success",

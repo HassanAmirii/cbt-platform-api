@@ -104,7 +104,8 @@ exports.submitExam = async (student, answers, attemptId) => {
       };
     }
 
-    const isCorrect = question.correctOption === ans.selected;
+    const picked = ans.selected || null;
+    const isCorrect = question.correctOption === picked;
     if (isCorrect) correctCount++;
 
     const correctOpt = question.options.find(
@@ -114,7 +115,7 @@ exports.submitExam = async (student, answers, attemptId) => {
     const correctOptionText = correctOpt ? correctOpt.text : null;
 
     const selectedOpt = question.options.find(
-      (opt) => opt.label === ans.selected,
+      (opt) => opt.label === picked,
     );
     const selectedOptionText = selectedOpt ? selectedOpt.text : null;
     return {
@@ -124,7 +125,7 @@ exports.submitExam = async (student, answers, attemptId) => {
       correctOptionText,
       selectedOptionText,
       explanation: question.explanation,
-      picked: ans.selected,
+      picked,
       isCorrect: isCorrect,
     };
   });

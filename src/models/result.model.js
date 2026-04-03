@@ -65,9 +65,9 @@ const resultSchema = new mongoose.Schema(
             required: true,
           },
           picked: {
-            required: true,
             type: String,
-            enum: ["A", "B", "C", "D"],
+            enum: ["A", "B", "C", "D", null],
+            default: null,
           },
           isCorrect: { type: Boolean, required: true },
         },
