@@ -18,7 +18,15 @@ const submitExamSchema = Joi.object({
         selected: Joi.string().required(),
       }),
     )
-    .length(Joi.number().valid(35, 60, 100))
+    .custom((value, helpers) => {
+      if ([35, 60, 100].includes(value.length)) {
+        return value;
+      }
+      return helpers.error("array.allowedLength");
+    })
+    .messages({
+      "array.allowedLength": "Answers must contain exactly 35, 60, or 100 items",
+    })
     .required(),
 });
 
