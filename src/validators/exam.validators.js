@@ -18,7 +18,7 @@ const submitExamSchema = Joi.object({
         selected: Joi.string().required(),
       }),
     )
-    .min(1)
+    .length(Joi.number().valid(35, 60, 100))
     .required(),
 });
 
