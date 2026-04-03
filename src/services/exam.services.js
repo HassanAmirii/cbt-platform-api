@@ -59,7 +59,7 @@ frontend sends payload:
 }
 */
 
-exports.submitExam = async (answers, attemptId) => {
+exports.submitExam = async (student, answers, attemptId) => {
   if (!Array.isArray(answers) || answers.length === 0) {
     throw new Error("invalid answer format ");
   }
@@ -68,65 +68,77 @@ exports.submitExam = async (answers, attemptId) => {
   if (!attempt) {
     throw new Error(" Attempt not found");
   }
+  const isOwner = attempt.student.toString() === student.toString();
+  if (!isOwner) {
+    const error = new Error("attemptId does not belong to current user");
+    error.statusCode = 403;
+    throw error;
+  }
   const isActive = attempt.status === "ongoing";
   const isNotExpired = Date.now() < attempt.expiresAt;
 
-  if (isActive && isNotExpired) {
-    const attemptedQuestions = attempt.questions;
-
-    let correctCount = 0;
-    const computedResults = answers.map((ans) => {
-      const question = attemptedQuestions.find(
-        (item) => item._id.toString() === ans.questionId.toString(),
-      );
-
-      if (!question) {
-        return {
-          questionId: ans.questionId,
-          error: "Question not found in this attempt",
-        };
-      }
-
-      const isCorrect = question.correctOption === ans.selected;
-      if (isCorrect) correctCount++;
-
-      const correctOpt = question.options.find(
-        (opt) => opt.label === question.correctOption,
-      );
-
-      const correctOptionText = correctOpt ? correctOpt.text : null;
-
-      const selectedOpt = question.options.find(
-        (opt) => opt.label === ans.selected,
-      );
-      const selectedOptionText = selectedOpt ? selectedOpt.text : null;
-      return {
-        questionId: question._id,
-        questionText: question.questionText,
-        correctOption: question.correctOption,
-        correctOptionText,
-        selectedOptionText,
-        explanation: question.explanation,
-        picked: ans.selected,
-        isCorrect: isCorrect,
-      };
-    });
-    const score = Math.round(correctCount / attemptedQuestions.length) * 100;
-    await Result.create({
-      student: attempt.student,
-      courseCode: attempt.courseCode,
-      level: attempt.level,
-      score,
-      explanation: computedResults,
-    });
-
-    attempt.status = "submitted";
-    await attempt.save();
-
-    return { score, explanation: computedResults };
-  } else {
-    const error = new Error("Session expired or already submitted");
+  if (!isActive) {
+    const error = new Error("Attempt already submitted");
     error.statusCode = 410;
     throw error;
   }
+
+  if (!isNotExpired) {
+    const error = new Error("Session expired");
+    error.statusCode = 410;
+    throw error;
+  }
+
+  const attemptedQuestions = attempt.questions;
+
+  let correctCount = 0;
+  const computedResults = answers.map((ans) => {
+    const question = attemptedQuestions.find(
+      (item) => item._id.toString() === ans.questionId.toString(),
+    );
+
+    if (!question) {
+      return {
+        questionId: ans.questionId,
+        error: "Question not found in this attempt",
+      };
+    }
+
+    const isCorrect = question.correctOption === ans.selected;
+    if (isCorrect) correctCount++;
+
+    const correctOpt = question.options.find(
+      (opt) => opt.label === question.correctOption,
+    );
+
+    const correctOptionText = correctOpt ? correctOpt.text : null;
+
+    const selectedOpt = question.options.find(
+      (opt) => opt.label === ans.selected,
+    );
+    const selectedOptionText = selectedOpt ? selectedOpt.text : null;
+    return {
+      questionId: question._id,
+      questionText: question.questionText,
+      correctOption: question.correctOption,
+      correctOptionText,
+      selectedOptionText,
+      explanation: question.explanation,
+      picked: ans.selected,
+      isCorrect: isCorrect,
+    };
+  });
+  const score = Math.round((correctCount / attemptedQuestions.length) * 100);
+  await Result.create({
+    student: attempt.student,
+    courseCode: attempt.courseCode,
+    level: attempt.level,
+    score,
+    explanation: computedResults,
+  });
+
+  attempt.status = "submitted";
+  await attempt.save();
+
+  return { score, explanation: computedResults };
 };
