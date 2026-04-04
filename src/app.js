@@ -8,19 +8,12 @@ app.use(express.json());
 /*
 cors setup
 */
-const parseOrigins = (value) =>
-  (value || "")
-    .split(",")
-    .map((origin) => origin.trim())
-    .filter(Boolean);
 
-const productionOrigins = parseOrigins(
-  process.env.FRONTEND_URLS || process.env.FRONTEND_URL,
-);
+const productionOrigin = process.env.FRONTEND_URL;
 
 const allowedOrigins =
   process.env.APP_ENV === "production"
-    ? productionOrigins
+    ? productionOrigin
     : [
         "http://localhost:3000",
         "http://localhost:5173",
