@@ -114,9 +114,7 @@ exports.submitExam = async (student, answers, attemptId) => {
 
     const correctOptionText = correctOpt ? correctOpt.text : null;
 
-    const selectedOpt = question.options.find(
-      (opt) => opt.label === picked,
-    );
+    const selectedOpt = question.options.find((opt) => opt.label === picked);
     const selectedOptionText = selectedOpt ? selectedOpt.text : null;
     return {
       questionId: question._id,
@@ -129,7 +127,7 @@ exports.submitExam = async (student, answers, attemptId) => {
       isCorrect: isCorrect,
     };
   });
-  const score = Math.round((correctCount / attemptedQuestions.length) * 100);
+  const score = Math.ceil((correctCount / attemptedQuestions.length) * 100);
   await Result.create({
     student: attempt.student,
     courseCode: attempt.courseCode,
