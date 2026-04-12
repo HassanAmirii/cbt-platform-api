@@ -42,13 +42,6 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 /*
 health checks
 */
-app.get("/", (req, res) => {
-  return res.status(200).json({
-    success: true,
-    message: "CBT API is running",
-  });
-});
-
 app.get("/health", (req, res) => {
   return res.status(200).json({
     success: true,
