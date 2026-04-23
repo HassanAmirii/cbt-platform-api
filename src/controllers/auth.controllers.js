@@ -1,4 +1,5 @@
 const User = require("../models/user.model");
+const { generateToken } = rquire("../utils/token_generator.utils");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
@@ -20,9 +21,14 @@ exports.register = async function (req, res, next) {
       password,
       level,
     });
-    const userSafe = newUser.toObject();
-    delete userSafe.password;
-    res.status(201).json({ message: "success", user: userSafe });
+    const token = generateToken(newUser);
+    res
+      .status(201)
+      .json({
+        success: true,
+        message: "Registration successful",
+        token: token,
+      });
   } catch (err) {
     next(err);
   }
@@ -41,16 +47,10 @@ exports.login = async function (req, res, next) {
       return res.status(401).json({ message: "invalid credentials" });
     }
 
-    const payload = {
-      id: user._id,
-      username: user.username,
-      admin: user.isAdmin,
-      level: user.level,
-    };
-    const token = jwt.sign(payload, process.env.JWT_SECRET, {
-      expiresIn: "1h",
-    });
-    res.status(200).json({ message: "login successful", token: token });
+    const token = generateToken(user);
+    res
+      .status(200)
+      .json({ success: true, message: "login successful", token: token });
   } catch (err) {
     next(err);
   }
