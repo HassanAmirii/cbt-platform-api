@@ -1,25 +1,4 @@
-<div align="center">
-
 # CBT API
-
-### CBT Platform Backend
-
-[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-5.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongoosejs.com/)
-[![Version](https://img.shields.io/badge/Version-v1-success?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#license)
-
-[![GitHub Stars](https://img.shields.io/github/stars/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/graphs/contributors)
-[![Open Issues](https://img.shields.io/github/issues/HassanAmirii/cbt-platform-api?style=for-the-badge)](https://github.com/HassanAmirii/cbt-platform-api/issues)
-
-A computer-based testing API with JWT auth, level-based exam generation, timed attempts, scoring, and detailed answer explanations.
-
-[Report a Bug](https://github.com/HassanAmirii/cbt-platform-api/issues/new?labels=bug) · [Request a Feature](https://github.com/HassanAmirii/cbt-platform-api/issues/new?labels=enhancement)
-
-</div>
 
 ## Overview
 
@@ -151,20 +130,11 @@ Request:
 
 Response:
 
-- For unanswered items, `picked` and `selectedOptionText` are returned as `null`.
-
 ```json
 {
-  "message": "success",
-  "user": {
-    "_id": "...",
-    "username": "testuser",
-    "email": "test@example.com",
-    "level": "100",
-    "isAdmin": false,
-    "createdAt": "...",
-    "updatedAt": "..."
-  }
+  "success": true,
+  "message": "Registration successful",
+  "token": "<jwt>"
 }
 ```
 
@@ -190,8 +160,9 @@ Response:
 
 ```json
 {
+  "success": true,
   "message": "login successful",
-  "token": "jwt-token"
+  "token": "<jwt>"
 }
 ```
 
