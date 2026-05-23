@@ -4,6 +4,7 @@ exports.generateToken = (payload) => {
     {
       id: user._id,
       username: user.username,
+      department: user.department,
       admin: user.isAdmin,
       level: user.level,
     },

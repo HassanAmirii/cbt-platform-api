@@ -18,6 +18,7 @@ exports.register = async function (req, res, next) {
     const newUser = await User.create({
       username,
       email,
+      department,
       password,
       level,
     });
