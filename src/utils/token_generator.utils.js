@@ -1,5 +1,5 @@
-const jwt = require("dotenv");
-exports.generateToken = (payload) => {
+const jwt = require("jsonwebtoken");
+exports.generateToken = (user) => {
   return jwt.sign(
     {
       id: user._id,
