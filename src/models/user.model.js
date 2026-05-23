@@ -20,6 +20,26 @@ const userSchema = new mongoose.Schema(
         "Please enter a valid email address",
       ],
     },
+    department: {
+      required: true,
+      type: [String],
+      enum: [
+        "Department of Computer Science",
+        "Department of Mass Communication",
+        "Department of library and information science",
+        "Department of Electrical and Electronics Engineering",
+        "Department of Mechanical Engineering",
+        "Department of Civil Engineering",
+        "Department of Chemical Engineering",
+        "Department of Aerospace Engineering",
+      ],
+      validate: {
+        validator: function (value) {
+          return Array.isArray(value) && value.length === 1;
+        },
+        message: "You must select atleast one department",
+      },
+    },
     password: {
       select: false,
       type: String,
