@@ -1,6 +1,6 @@
 const Joi = require("joi");
 const Department = require("../config/departments");
-const departmentList = Department.map((dept) => dept.label);
+const departmentList = Department.map((dept) => dept.code);
 
 const registerSchema = Joi.object({
   username: Joi.string().alphanum().min(4).max(30).trim().required(),
