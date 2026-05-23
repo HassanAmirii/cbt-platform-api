@@ -341,4 +341,4 @@ Response:
 
 ## License
 
-This project is documented as MIT in prior revisions. If you plan to publish or distribute broadly, add an explicit `LICENSE` file to the repository root.
+- MIT
