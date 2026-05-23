@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
-
+const departmentList = require("../config/departments");
 const userSchema = new mongoose.Schema(
   {
     username: {
@@ -22,23 +22,8 @@ const userSchema = new mongoose.Schema(
     },
     department: {
       required: true,
-      type: [String],
-      enum: [
-        "Department of Computer Science",
-        "Department of Mass Communication",
-        "Department of library and information science",
-        "Department of Electrical and Electronics Engineering",
-        "Department of Mechanical Engineering",
-        "Department of Civil Engineering",
-        "Department of Chemical Engineering",
-        "Department of Aerospace Engineering",
-      ],
-      validate: {
-        validator: function (value) {
-          return Array.isArray(value) && value.length === 1;
-        },
-        message: "You must select atleast one department",
-      },
+      type: String,
+      enum: departmentList.map((dept) => dept.code),
     },
     password: {
       select: false,
@@ -49,21 +34,23 @@ const userSchema = new mongoose.Schema(
     level: {
       required: true,
       type: String,
-      enum: ["100", "200", "300", "400"],
+      enum: ["100", "200", "300", "400", "500"],
     },
     isAdmin: { type: Boolean, required: true, default: false },
   },
   { timestamps: true },
 );
 
-userSchema.pre("save", async function () {
+userSchema.pre("save", async function (next) {
   try {
-    if (this.isModified("password")) {
-      this.password = await bcrypt.hash(this.password, 10);
+    if (!this.isModified("password")) {
+      return next();
     }
+    this.password = await bcrpyt.hash(this.password, 10);
+    next();
   } catch (error) {
     console.error("error in userSchema presave function", error);
-    throw error;
+    next(error);
   }
 });
 module.exports = mongoose.model("User", userSchema);

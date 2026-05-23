@@ -1,5 +1,5 @@
 const User = require("../models/user.model");
-const { generateToken } = rquire("../utils/token_generator.utils");
+const { generateToken } = require("../utils/token_generator.utils");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
@@ -22,13 +22,11 @@ exports.register = async function (req, res, next) {
       level,
     });
     const token = generateToken(newUser);
-    res
-      .status(201)
-      .json({
-        success: true,
-        message: "Registration successful",
-        token: token,
-      });
+    res.status(201).json({
+      success: true,
+      message: "Registration successful",
+      token: token,
+    });
   } catch (err) {
     next(err);
   }
