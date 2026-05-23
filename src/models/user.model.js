@@ -41,16 +41,15 @@ const userSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-userSchema.pre("save", async function (next) {
+userSchema.pre("save", async function () {
   try {
     if (!this.isModified("password")) {
-      return next();
+      return;
     }
     this.password = await bcrypt.hash(this.password, 10);
-    next();
   } catch (error) {
     console.error("error in userSchema presave function", error);
-    next(error);
+    throw error;
   }
 });
 module.exports = mongoose.model("User", userSchema);
