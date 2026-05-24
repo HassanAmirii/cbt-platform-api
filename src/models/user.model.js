@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
-
+const departmentList = require("../config/departments");
 const userSchema = new mongoose.Schema(
   {
     username: {
@@ -20,6 +20,11 @@ const userSchema = new mongoose.Schema(
         "Please enter a valid email address",
       ],
     },
+    department: {
+      required: true,
+      type: String,
+      enum: departmentList.map((dept) => dept.code),
+    },
     password: {
       select: false,
       type: String,
@@ -29,7 +34,7 @@ const userSchema = new mongoose.Schema(
     level: {
       required: true,
       type: String,
-      enum: ["100", "200", "300", "400"],
+      enum: ["100", "200", "300", "400", "500"],
     },
     isAdmin: { type: Boolean, required: true, default: false },
   },
@@ -38,9 +43,10 @@ const userSchema = new mongoose.Schema(
 
 userSchema.pre("save", async function () {
   try {
-    if (this.isModified("password")) {
-      this.password = await bcrypt.hash(this.password, 10);
+    if (!this.isModified("password")) {
+      return;
     }
+    this.password = await bcrypt.hash(this.password, 10);
   } catch (error) {
     console.error("error in userSchema presave function", error);
     throw error;
