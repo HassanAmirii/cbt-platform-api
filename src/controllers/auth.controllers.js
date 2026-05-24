@@ -8,28 +8,49 @@ const {
   registerSchema,
   loginSchema,
 } = require("../validators/auth.validators");
+const { default: mongoose } = require("mongoose");
 
 exports.register = async function (req, res, next) {
+  const session = await mongoose.startSession();
+  session.startTransaction();
+
   try {
     const { error } = registerSchema.validate(req.body);
     if (error)
       return res.status(400).json({ message: error.details[0].message });
     const { username, email, department, password, level } = req.body;
-    const newUser = await User.create({
-      username,
-      email,
-      department,
-      password,
-      level,
-    });
+    const [newUser] = await User.create(
+      [
+        {
+          username,
+          email,
+          department,
+          password,
+          level,
+        },
+      ],
+      { session },
+    );
+
     const token = generateToken(newUser);
+
+    await session.commitTransaction();
+    session.endSession();
+
     res.status(201).json({
       success: true,
       message: "Registration successful",
       token: token,
     });
   } catch (err) {
-    next(err);
+    await session.abortTransaction();
+    session.endSession();
+
+    console.error(
+      "Transaction aborted. Error in registration pipeline:",
+      error,
+    );
+    next(error);
   }
 };
 exports.login = async function (req, res, next) {
