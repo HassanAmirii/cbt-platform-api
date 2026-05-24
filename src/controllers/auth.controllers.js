@@ -1,5 +1,5 @@
 const User = require("../models/user.model");
-const { generateToken } = rquire("../utils/token_generator.utils");
+const { generateToken } = require("../utils/token_generator.utils");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
@@ -14,21 +14,20 @@ exports.register = async function (req, res, next) {
     const { error } = registerSchema.validate(req.body);
     if (error)
       return res.status(400).json({ message: error.details[0].message });
-    const { username, email, password, level } = req.body;
+    const { username, email, department, password, level } = req.body;
     const newUser = await User.create({
       username,
       email,
+      department,
       password,
       level,
     });
     const token = generateToken(newUser);
-    res
-      .status(201)
-      .json({
-        success: true,
-        message: "Registration successful",
-        token: token,
-      });
+    res.status(201).json({
+      success: true,
+      message: "Registration successful",
+      token: token,
+    });
   } catch (err) {
     next(err);
   }

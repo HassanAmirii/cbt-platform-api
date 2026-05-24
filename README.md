@@ -13,7 +13,7 @@ This backend powers a CBT workflow where students:
 ## Features
 
 - JWT authentication for protected exam and user routes.
-- Level-based question selection by `courseCode` + `level`.
+- Level-based question selection by `department` + `courseCode` + `level`.
 - Attempt tracking with expiration (`ongoing`, `submitted`, `expired`).
 - Immediate grading with detailed explanation per answer.
 - Persistent, paginated result history per student.
@@ -24,25 +24,28 @@ This backend powers a CBT workflow where students:
 
 ```text
 src/
-  controllers/
-    auth.controllers.js
-    exam.controllers.js
-    user.controllers.js
-  middleware/
-    auth.middleware.js
-  models/
-    attempt.model.js
-    question.model.js
-    result.model.js
-    user.model.js
-  routes/v1/
-    auth.routes.js
-    exam.routes.js
-    user.routes.js
-  services/
-    exam.services.js
-  app.js
-  server.js
+├── config/
+│   └── departments.js
+├── controllers/
+│   ├── auth.controllers.js
+│   ├── exam.controllers.js
+│   └── user.controllers.js
+├── middleware/
+│   └── auth.middleware.js
+├── models/
+│   ├── attempt.model.js
+│   ├── question.model.js
+│   ├── result.model.js
+│   └── user.model.js
+├── routes/v1/
+│   ├── auth.routes.js
+│   ├── exam.routes.js
+│   └── user.routes.js
+├── services/
+│   └── exam.services.js
+├── app.js
+└── server.js
+
 ```
 
 ## Environment Variables
@@ -113,6 +116,7 @@ Register a new user.
 Validation rules:
 
 - `username`: required, alphanumeric, 4-30 chars (trimmed)
+- `department`: required, one of many; eg, `computer science`, `mechanical engineering`...
 - `email`: required, valid email format (trimmed)
 - `password`: required, minimum 6 chars
 - `level`: required, one of `100`, `200`, `300`, `400`
@@ -122,6 +126,7 @@ Request:
 ```json
 {
   "username": "testuser",
+  "department": "computer science",
   "email": "test@example.com",
   "password": "securepassword123",
   "level": "100"

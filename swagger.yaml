@@ -17,7 +17,7 @@ components:
   schemas:
     RegisterRequest:
       type: object
-      required: [username, email, password, level]
+      required: [username, department, email, password, level]
       properties:
         username:
           type: string
@@ -27,6 +27,9 @@ components:
         email:
           type: string
           format: email
+        department:
+          type: string
+          enum: [computer science, electrical engineering..etc]
         password:
           type: string
           minLength: 6
