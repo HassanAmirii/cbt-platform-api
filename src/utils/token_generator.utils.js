@@ -7,6 +7,7 @@ exports.generateToken = (user) => {
       department: user.department,
       admin: user.isAdmin,
       level: user.level,
+      semester: user.semester,
     },
     process.env.JWT_SECRET,
     { expiresIn: "1h" },
