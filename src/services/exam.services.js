@@ -3,19 +3,34 @@ const Attempt = require("../models/attempt.model");
 const Result = require("../models/result.model");
 
 const examMode = {
-  35: 15, // 35 questions for 15 mins
-  60: 25, // 60 questions for 25 mins
-  100: 35, // 100 questions for 35 mins
+  35: 15,
+  60: 25,
+  100: 35,
 };
 
-exports.getExamQuestions = async (courseCode, level, limit, student) => {
+exports.getExamQuestions = async (
+  department,
+  level,
+  semester,
+  courseCode,
+  weeks, // Expects an array: [1, 2]
+  limit,
+  student,
+) => {
   const duration = examMode[limit];
   if (!duration) {
     const error = new Error("invalid duration: choose 35, 60 or 100 ");
     error.status = 400;
     throw error;
   }
-  const examQuestions = await Question.find({ courseCode, level }).lean();
+
+  const examQuestions = await Question.find({
+    department,
+    level,
+    semester,
+    courseCode,
+    week: { $in: weeks },
+  }).lean();
 
   const selectedQuestions = examQuestions
     .sort(() => Math.random() - 0.5)
@@ -23,75 +38,96 @@ exports.getExamQuestions = async (courseCode, level, limit, student) => {
 
   const questionsID = selectedQuestions.map((q) => q._id);
 
+  const uniqueTopics = [
+    ...new Set(selectedQuestions.map((q) => q.topic).filter(Boolean)),
+  ];
+
   const processQuestion = selectedQuestions.map((item) => ({
     questionId: item._id,
+    department: item.department,
+    level: item.level,
+    semester: item.semester,
     questionText: item.questionText,
-    options: item.options.map((opt) => {
-      return {
-        optionsText: opt.text,
-        optionsLabel: opt.label,
-      };
-    }),
+    topic: item.topic,
+    week: item.week,
+    options: item.options.map((opt) => ({
+      optionsText: opt.text,
+      optionsLabel: opt.label,
+    })),
   }));
+
   const newAttempt = await Attempt.create({
     student,
     questions: questionsID,
-    duration: duration,
+    duration,
     courseCode,
     level,
+    department,
+    semester,
+    weeks,
+    topics: uniqueTopics,
     expiresAt: Date.now() + duration * 60000,
     status: "ongoing",
   });
 
   return {
+    metadata: {
+      attemptId: newAttempt._id,
+      totalQuestions: processQuestion.length,
+      duration: newAttempt.duration,
+      expiresAt: newAttempt.expiresAt,
+      courseCode: newAttempt.courseCode,
+      level: newAttempt.level,
+      department: newAttempt.department,
+      semester: newAttempt.semester,
+      weeks: newAttempt.weeks,
+      topics: newAttempt.topics,
+    },
     questions: processQuestion,
-    AttemptId: newAttempt._id,
   };
 };
 
-/*
-frontend sends payload: 
-{
-  "answers": [
-    { "questionId": 5, "selected": "C" },
-    { "questionId": 2, "selected": "A" }
-  ]
-}
-*/
-
 exports.submitExam = async (student, answers, attemptId) => {
   if (!Array.isArray(answers) || answers.length === 0) {
-    throw new Error("invalid answer format ");
+    const error = new Error("invalid answer format");
+    error.status = 400;
+    throw error;
   }
 
   const attempt = await Attempt.findById(attemptId).populate("questions");
   if (!attempt) {
-    throw new Error(" Attempt not found");
+    const error = new Error("Attempt not found");
+    error.status = 404;
+    throw error;
   }
+
   const isOwner = attempt.student.toString() === student.toString();
   if (!isOwner) {
     const error = new Error("attemptId does not belong to current user");
-    error.statusCode = 403;
+    error.status = 403;
     throw error;
   }
-  const isActive = attempt.status === "ongoing";
-  const isNotExpired = Date.now() < attempt.expiresAt;
 
-  if (!isActive) {
+  if (attempt.status === "submitted") {
     const error = new Error("Attempt already submitted");
-    error.statusCode = 410;
+    error.status = 410;
     throw error;
   }
 
-  if (!isNotExpired) {
-    const error = new Error("Session expired");
-    error.statusCode = 410;
+  const isNotExpired = Date.now() < attempt.expiresAt;
+  if (attempt.status === "expired" || !isNotExpired) {
+    if (attempt.status !== "expired") {
+      attempt.status = "expired";
+      await attempt.save();
+    }
+    const error = new Error("Quiz session expired");
+    error.status = 410;
     throw error;
   }
 
   const attemptedQuestions = attempt.questions;
-
   let correctCount = 0;
+
   const computedResults = answers.map((ans) => {
     const question = attemptedQuestions.find(
       (item) => item._id.toString() === ans.questionId.toString(),
@@ -111,11 +147,11 @@ exports.submitExam = async (student, answers, attemptId) => {
     const correctOpt = question.options.find(
       (opt) => opt.label === question.correctOption,
     );
-
     const correctOptionText = correctOpt ? correctOpt.text : null;
 
     const selectedOpt = question.options.find((opt) => opt.label === picked);
     const selectedOptionText = selectedOpt ? selectedOpt.text : null;
+
     return {
       questionId: question._id,
       questionText: question.questionText,
@@ -124,14 +160,20 @@ exports.submitExam = async (student, answers, attemptId) => {
       selectedOptionText,
       explanation: question.explanation,
       picked,
-      isCorrect: isCorrect,
+      isCorrect,
     };
   });
+
   const score = Math.ceil((correctCount / attemptedQuestions.length) * 100);
+
   await Result.create({
     student: attempt.student,
     courseCode: attempt.courseCode,
     level: attempt.level,
+    semester: attempt.semester,
+    department: attempt.department,
+    weeks: attempt.weeks,
+    topics: attempt.topics,
     score,
     explanation: computedResults,
   });
