@@ -18,13 +18,14 @@ exports.register = async function (req, res, next) {
     const { error } = registerSchema.validate(req.body);
     if (error)
       return res.status(400).json({ message: error.details[0].message });
-    const { username, email, department, password, level } = req.body;
+    const { username, email, department, semester, password, level } = req.body;
     const [newUser] = await User.create(
       [
         {
           username,
           email,
           department,
+          semester,
           password,
           level,
         },
@@ -42,7 +43,7 @@ exports.register = async function (req, res, next) {
       message: "Registration successful",
       token: token,
     });
-  } catch (err) {
+  } catch (error) {
     await session.abortTransaction();
     session.endSession();
 
