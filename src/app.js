@@ -62,12 +62,12 @@ app.use("/api/v1", examRoutes);
 global error handler
 */
 app.use((err, req, res, next) => {
-  let statusCode = err.statusCode || 500;
+  let status = err.status || 500;
   let message = err.message || "Internal Server Error";
 
   // 1. Handle Mongoose/MongoDB Validation Errors
   if (err.name === "ValidationError") {
-    statusCode = 400;
+    status = 400;
     message = Object.values(err.errors)
       .map((val) => val.message)
       .join(", ");
@@ -76,22 +76,22 @@ app.use((err, req, res, next) => {
   // 2. Handle MongoDB Duplicate Key (e.g., Email already exists)
   if (err.code === 11000) {
     const field = Object.keys(err.keyValue)[0];
-    statusCode = 409;
+    status = 409;
     message = `${field} already exists.`;
   }
 
   // 3. Handle JWT Errors (Categorized by name)
   if (err.name === "JsonWebTokenError") {
-    statusCode = 401;
+    status = 401;
     message = "Invalid token. Please log in again.";
   }
 
   if (err.name === "TokenExpiredError") {
-    statusCode = 401;
+    status = 401;
     message = "Your token has expired.";
   }
 
-  return res.status(statusCode).json({
+  return res.status(status).json({
     success: false,
     message: message,
     stack: process.env.APP_ENV === "development" ? err.stack : undefined,
