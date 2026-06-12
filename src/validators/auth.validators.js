@@ -24,6 +24,11 @@ const registerSchema = Joi.object({
         "department is a required field, please pick one and retry",
     }),
 
+  semester: Joi.number().valid(1, 2).required().messages({
+    "any.only": "semester can only be 1 or 2",
+    "any.required": "semester is required",
+  }),
+
   level: Joi.string()
     .valid("100", "200", "300", "400", "500")
     .required()
