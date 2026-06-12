@@ -6,6 +6,9 @@ Example Question document:
   "questionText": "what is the primary function of an operating system?",
   "topic": "computer basics",
   "level": "100",
+  "department": "COMP_SCI"
+  "week": 1,
+  "semester": 1,
   "courseCode": "CBT101",
   "options": [
     { "text": "manages hardware and software resources", "label": "A" },
@@ -22,7 +25,6 @@ const questionSchema = new mongoose.Schema(
   {
     questionText: {
       type: String,
-      unique: true,
       required: true,
       lowercase: true,
     },
@@ -35,9 +37,23 @@ const questionSchema = new mongoose.Schema(
       enum: ["100", "200", "300", "400"],
       required: true,
     },
+    department: { type: String, required: true },
+    week: {
+      type: Number,
+      required: true,
+      min: 1,
+      max: 15,
+    },
+    semester: {
+      type: Number,
+      required: true,
+      enum: [1, 2],
+    },
+
     courseCode: {
       required: true,
       type: String,
+      uppercase: true,
     },
 
     // OPTIONS FIELD
@@ -85,8 +101,11 @@ const questionSchema = new mongoose.Schema(
 );
 
 questionSchema.index({
+  department: 1,
   level: 1,
+  semester: 1,
   courseCode: 1,
+  week: 1,
 });
 
 module.exports = mongoose.model("Question", questionSchema);
