@@ -15,6 +15,7 @@ async function connectWithRetry() {
   let delay = 1000;
   for (let retry = 0; retry < 5; retry++) {
     try {
+      console.log("URI:", process.env.MONGO_URI);
       await mongoose.connect(process.env.MONGO_URI, options);
       console.log("succesfully connected to the database");
       app.listen(port, () => console.log(`Server running on port ${port}`));
