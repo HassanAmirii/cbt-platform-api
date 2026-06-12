@@ -1,27 +1,45 @@
 const mongoose = require("mongoose");
 
-/*
-Example Question document:
-{
-  "questionText": "what is the primary function of an operating system?",
-  "topic": "computer basics",
-  "level": "100",
-  "department": "COMP_SCI"
-  "week": 1,
-  "semester": 1,
-  "courseCode": "CBT101",
-  "options": [
-    { "text": "manages hardware and software resources", "label": "A" },
-    { "text": "creates internet connections", "label": "B" },
-    { "text": "stores files only", "label": "C" },
-    { "text": "designs web pages", "label": "D" }
-  ],
-  "correctOption": "A",
-  "explanation": "An operating system manages hardware and software resources and provides common services for programs."
-}
-*/
-
 const questionSchema = new mongoose.Schema(
+  /*
+
+Example Question document:
+
+{
+
+  "questionText": "what is the primary function of an operating system?",
+
+  "topic": "computer basics",
+
+  "level": "100",
+
+  "department": "COMP_SCI"
+
+  "weeks": 1,
+
+  "semester": 1,
+
+  "courseCode": "CBT101",
+
+  "options": [
+
+    { "text": "manages hardware and software resources", "label": "A" },
+
+    { "text": "creates internet connections", "label": "B" },
+
+    { "text": "stores files only", "label": "C" },
+
+    { "text": "designs web pages", "label": "D" }
+
+  ],
+
+  "correctOption": "A",
+
+  "explanation": "An operating system manages hardware and software resources and provides common services for programs."
+
+}
+
+*/
   {
     questionText: {
       type: String,
@@ -29,8 +47,9 @@ const questionSchema = new mongoose.Schema(
       lowercase: true,
     },
     topic: {
-      required: true,
       type: String,
+      required: true,
+      lowercase: true,
     },
     level: {
       type: String,
@@ -49,26 +68,16 @@ const questionSchema = new mongoose.Schema(
       required: true,
       enum: [1, 2],
     },
-
     courseCode: {
       required: true,
       type: String,
       uppercase: true,
     },
-
-    // OPTIONS FIELD
     options: {
       type: [
         {
-          text: {
-            type: String,
-            required: true,
-          },
-          label: {
-            required: true,
-            type: String,
-            enum: ["A", "B", "C", "D"],
-          },
+          text: { type: String, required: true },
+          label: { type: String, enum: ["A", "B", "C", "D"], required: true },
         },
       ],
       required: true,
@@ -79,10 +88,9 @@ const questionSchema = new mongoose.Schema(
         message: "Options list must have exactly 4 items",
       },
     },
-
     correctOption: {
-      enum: ["A", "B", "C", "D"],
       type: String,
+      enum: ["A", "B", "C", "D"],
       required: true,
       validate: {
         validator: function (value) {
@@ -91,15 +99,15 @@ const questionSchema = new mongoose.Schema(
         message: "Correct option must match one of the option labels",
       },
     },
-
     explanation: {
-      required: true,
       type: String,
+      required: true,
     },
   },
   { timestamps: true },
 );
 
+// This index now perfectly aligns with the fields above
 questionSchema.index({
   department: 1,
   level: 1,
