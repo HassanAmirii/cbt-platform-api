@@ -16,6 +16,10 @@ const attemptSchema = new mongoose.Schema(
     duration: { type: Number, required: true },
     courseCode: { type: String, required: true },
     level: { type: String, required: true },
+    department: { type: String, required: true },
+    semester: { type: Number, required: true },
+    weeks: { type: [Number], required: true },
+    topics: { type: [String], required: true },
     expiresAt: { type: Date, required: true },
     status: {
       type: String,

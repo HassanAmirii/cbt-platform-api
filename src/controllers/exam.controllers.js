@@ -9,18 +9,24 @@ exports.startExam = async function (req, res, next) {
     const { error } = startExamSchema.validate(req.body);
     if (error)
       return res.status(400).json({ message: error.details[0].message });
-    const { courseCode, limit } = req.body;
+    const { courseCode, limit, weeks } = req.body;
     const level = req.user.level;
     const student = req.user.id;
+    const department = req.user.department;
+    const semester = req.user.semester;
 
-    if (!level || !student)
-      return res
-        .status(400)
-        .json({ message: "bad request, level or student id missing " });
+    if (!level || !student || !department || !semester)
+      return res.status(400).json({
+        message:
+          "bad request, error in req.user importing :level, student, department and semester",
+      });
 
     const examData = await examServices.getExamQuestions(
-      courseCode,
+      department,
       level,
+      semester,
+      courseCode,
+      weeks, // Expects an array: [1, 2]
       limit,
       student,
     );
@@ -31,7 +37,7 @@ exports.startExam = async function (req, res, next) {
     }
     res.status(200).json({
       questions: examData.questions,
-      attemptId: examData.AttemptId,
+      metadata: examData.metadata,
     });
   } catch (err) {
     next(err);
