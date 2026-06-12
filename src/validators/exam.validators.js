@@ -3,6 +3,7 @@ const Joi = require("joi");
 const startExamSchema = Joi.object({
   courseCode: Joi.string().alphanum().uppercase().required(),
   limit: Joi.number().valid(35, 60, 100).required(),
+  weeks: Joi.array().items(Joi.number()).min(1).required(),
 });
 
 const submitExamSchema = Joi.object({
