@@ -4,9 +4,12 @@ services:
     container_name: courstella-mongo
     ports:
       - "27017:27017"
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all"]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
-      - mongo-data:/data/db
+      - mongo_data:/data/db
     restart: "no"
 
 volumes:
-  mongo-data:
+  mongo_data:
