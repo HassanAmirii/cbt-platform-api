@@ -25,7 +25,6 @@ const resultSchema = new mongoose.Schema(
       type: String,
       required: true,
       uppercase: true,
-      type: [Number],
     },
     topics: {
       type: [String],
