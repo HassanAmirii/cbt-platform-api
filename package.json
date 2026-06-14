@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node --watch src/server.js",
-    "seeder:import": "node src/seeders/question.seeder.js"
+    "seeder:import": "node src/seeders/question.seeder.js",
+    "create:index": "node scripts/create-indexes.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
