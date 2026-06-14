@@ -19,20 +19,16 @@ exports.register = async function (req, res, next) {
     if (error)
       return res.status(400).json({ message: error.details[0].message });
     const { username, email, department, semester, password, level } = req.body;
-    const [newUser] = await User.create(
-      [
-        {
-          username,
-          email,
-          department,
-          semester,
-          password,
-          level,
-        },
-      ],
-      { session },
-    );
+    const newUser = new User({
+      username,
+      email,
+      department,
+      semester,
+      password,
+      level,
+    });
 
+    await newUser.save({ session });
     const token = generateToken(newUser);
 
     await session.commitTransaction();
