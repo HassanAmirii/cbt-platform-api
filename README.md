@@ -13,9 +13,10 @@ This backend powers a CBT workflow where students:
 ## Features
 
 - JWT authentication for protected exam and user routes.
-- Level-based question selection by `department` + `courseCode` + `level`.
+- Level- and semester-based question selection by `department` + `courseCode` + `level` + `semester` + `weeks`.
 - Attempt tracking with expiration (`ongoing`, `submitted`, `expired`).
 - Immediate grading with detailed explanation per answer.
+- Start-exam metadata that returns the attempt context and expiry window.
 - Persistent, paginated result history per student.
 - Swagger UI for API exploration.
 - Centralized error handling for validation, duplicate keys, and JWT errors.
@@ -119,7 +120,8 @@ Validation rules:
 - `department`: required, one of many; eg, `computer science`, `mechanical engineering`...
 - `email`: required, valid email format (trimmed)
 - `password`: required, minimum 6 chars
-- `level`: required, one of `100`, `200`, `300`, `400`
+- `semester`: required, one of `1`, `2`
+- `level`: required, one of `100`, `200`, `300`, `400`, `500`
 
 Request:
 
@@ -129,6 +131,7 @@ Request:
   "department": "computer science",
   "email": "test@example.com",
   "password": "securepassword123",
+  "semester": 1,
   "level": "100"
 }
 ```
@@ -186,7 +189,8 @@ Request body:
 ```json
 {
   "courseCode": "CBT101",
-  "limit": 35
+  "limit": 35,
+  "weeks": [1, 2]
 }
 ```
 
@@ -194,6 +198,7 @@ Validation rules:
 
 - `courseCode`: required, uppercase alphanumeric string
 - `limit`: required, one of `35`, `60`, `100`
+- `weeks`: required array of week numbers to pull questions from
 
 `limit` is used as exam mode:
 
@@ -205,10 +210,27 @@ Response:
 
 ```json
 {
+  "metadata": {
+    "attemptId": "6600b...",
+    "totalQuestions": 35,
+    "duration": 15,
+    "expiresAt": "2026-06-15T12:00:00.000Z",
+    "courseCode": "CBT101",
+    "level": "100",
+    "department": "computer science",
+    "semester": 1,
+    "weeks": [1, 2],
+    "topics": ["computer basics"]
+  },
   "questions": [
     {
       "questionId": "6600a...",
+      "department": "computer science",
+      "level": "100",
+      "semester": 1,
       "questionText": "what is the primary function of an operating system?",
+      "topic": "computer basics",
+      "week": 1,
       "options": [
         {
           "optionsText": "To manage hardware and software resources",
@@ -219,8 +241,7 @@ Response:
         { "optionsText": "To run applications only", "optionsLabel": "D" }
       ]
     }
-  ],
-  "attemptId": "6600b..."
+  ]
 }
 ```
 
@@ -324,10 +345,10 @@ Response:
 
 ## Data Model Notes
 
-- `User`: authentication data + academic `level` + `isAdmin`.
-- `Question`: question text, topic, level, course code, exactly 4 options (`A-D`), `correctOption`, explanation.
-- `Attempt`: links student to selected question IDs with duration, expiry timestamp, and status.
-- `Result`: stores final score and explanation breakdown per submitted answer, including `correctOptionText` and `selectedOptionText`.
+- `User`: authentication data + academic `level` + `semester` + `isAdmin`.
+- `Question`: question text, topic, level, semester, week, course code, exactly 4 options (`A-D`), `correctOption`, explanation.
+- `Attempt`: links student to selected question IDs with duration, expiry timestamp, status, semester, and week filters.
+- `Result`: stores final score and explanation breakdown per submitted answer, including `correctOptionText`, `selectedOptionText`, `semester`, `courseCode`, `topics`, and `weeks`.
 
 ## Tech Stack
 

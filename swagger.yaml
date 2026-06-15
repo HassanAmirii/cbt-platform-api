@@ -17,7 +17,7 @@ components:
   schemas:
     RegisterRequest:
       type: object
-      required: [username, department, email, password, level]
+      required: [username, department, email, password, semester, level]
       properties:
         username:
           type: string
@@ -33,9 +33,12 @@ components:
         password:
           type: string
           minLength: 6
+        semester:
+          type: integer
+          enum: [1, 2]
         level:
           type: string
-          enum: ["100", "200", "300", "400"]
+          enum: ["100", "200", "300", "400", "500"]
     LoginRequest:
       type: object
       required: [email, password]
@@ -48,7 +51,7 @@ components:
           minLength: 6
     StartExamRequest:
       type: object
-      required: [courseCode, limit]
+      required: [courseCode, limit, weeks]
       properties:
         courseCode:
           type: string
@@ -57,6 +60,78 @@ components:
           description: questions count to send
           type: number
           enum: [35, 60, 100]
+        weeks:
+          type: array
+          description: Week numbers to include when pulling questions.
+          items:
+            type: integer
+          minItems: 1
+    QuestionOption:
+      type: object
+      properties:
+        optionsText:
+          type: string
+        optionsLabel:
+          type: string
+          enum: [A, B, C, D]
+    StartExamQuestion:
+      type: object
+      properties:
+        questionId:
+          type: string
+        department:
+          type: string
+        level:
+          type: string
+        semester:
+          type: integer
+        questionText:
+          type: string
+        topic:
+          type: string
+        week:
+          type: integer
+        options:
+          type: array
+          items:
+            $ref: "#/components/schemas/QuestionOption"
+    StartExamMetadata:
+      type: object
+      properties:
+        attemptId:
+          type: string
+        totalQuestions:
+          type: integer
+        duration:
+          type: integer
+        expiresAt:
+          type: string
+          format: date-time
+        courseCode:
+          type: string
+        level:
+          type: string
+        department:
+          type: string
+        semester:
+          type: integer
+        weeks:
+          type: array
+          items:
+            type: integer
+        topics:
+          type: array
+          items:
+            type: string
+    StartExamResponse:
+      type: object
+      properties:
+        metadata:
+          $ref: "#/components/schemas/StartExamMetadata"
+        questions:
+          type: array
+          items:
+            $ref: "#/components/schemas/StartExamQuestion"
     AnswerItem:
       type: object
       required: [questionId, selected]
@@ -85,13 +160,40 @@ components:
           description: Must contain exactly 35, 60, or 100 answers.
           items:
             $ref: "#/components/schemas/AnswerItem"
-          oneOf:
-            - minItems: 35
-              maxItems: 35
-            - minItems: 60
-              maxItems: 60
-            - minItems: 100
-              maxItems: 100
+          minItems: 35
+          maxItems: 100
+    SubmitExamExplanationItem:
+      type: object
+      properties:
+        questionId:
+          type: string
+        questionText:
+          type: string
+        correctOption:
+          type: string
+          enum: [A, B, C, D]
+        correctOptionText:
+          type: string
+        selectedOptionText:
+          type: string
+          nullable: true
+        explanation:
+          type: string
+        picked:
+          type: string
+          nullable: true
+          enum: [A, B, C, D, null]
+        isCorrect:
+          type: boolean
+    SubmitExamResponse:
+      type: object
+      properties:
+        score:
+          type: integer
+        explanation:
+          type: array
+          items:
+            $ref: "#/components/schemas/SubmitExamExplanationItem"
     ResultPagination:
       type: object
       properties:
@@ -180,6 +282,10 @@ paths:
       responses:
         "200":
           description: questions generated successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StartExamResponse"
         "400":
           description: Bad request, validation failed for request body.
         "401":
@@ -200,6 +306,10 @@ paths:
       responses:
         "200":
           description: exam submitted successfully, results returned
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SubmitExamResponse"
         "400":
           description: Bad request, validation failed for request body.
         "401":
