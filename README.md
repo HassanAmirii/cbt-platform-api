@@ -345,7 +345,7 @@ Response:
 
 ### `GET /api/v1/leaderboard` (Auth Required)
 
-Fetch the top 10 leaderboard entries ranked by average score. Results are grouped by student and course code.
+Fetch a paginated leaderboard for the authenticated student's cohort. The API always reads the requesting student's `level` and `department` from the JWT payload and only ranks students with matching result records.
 
 Request headers:
 
@@ -355,18 +355,22 @@ Authorization: Bearer <token>
 
 Query params (optional):
 
-- `courseCode`: filter leaderboard entries to a specific course, for example `CSC201`
-- `department`: filter leaderboard entries to students in a specific department, for example `COMP_SCI`
+- `courseCode`: filter leaderboard entries to a specific course, for example `CSC201`. When omitted, the API returns overall rankings across all courses and each entry uses `"courseCode": "ALL"`.
+- `timeline`: score window to rank within. Allowed values are `today` (last 24 hours), `lastMonth` (last 30 days), and `allTime` (no date filter). Defaults to `allTime`.
+- `page`: page number for paginated leaderboard results. Defaults to `1`.
+- `limit`: number of leaderboard entries per page. Defaults to `10`.
 
-If neither query param is provided, the endpoint returns the overall top 10 student/course entries across all courses.
+The previous `department` query param is no longer part of the contract. Department and level are enforced from the authenticated user instead.
+
+Default mode, without `courseCode`, calculates each matching student's average score across all courses. Course mode, with `courseCode`, calculates each matching student's average score in that course only. Both modes sort by `averageScore` descending before pagination.
 
 Example requests:
 
 ```text
 GET /api/v1/leaderboard
+GET /api/v1/leaderboard?timeline=today
 GET /api/v1/leaderboard?courseCode=CSC201
-GET /api/v1/leaderboard?department=COMP_SCI
-GET /api/v1/leaderboard?courseCode=CSC201&department=COMP_SCI
+GET /api/v1/leaderboard?courseCode=CSC201&timeline=lastMonth&page=2&limit=20
 ```
 
 Response:
@@ -378,12 +382,18 @@ Response:
     {
       "rank": 1,
       "studentName": "Hassan",
-      "department": "COMP_SCI",
-      "courseCode": "CSC201",
-      "averageScore": 88,
-      "totalSessions": 12
+      "department": "Computer Science",
+      "level": "100",
+      "courseCode": "ALL",
+      "averageScore": 87.5,
+      "totalSessions": 8
     }
-  ]
+  ],
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 3,
+    "totalResults": 25
+  }
 }
 ```
 
