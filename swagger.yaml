@@ -223,6 +223,37 @@ components:
             additionalProperties: true
         pagination:
           $ref: "#/components/schemas/ResultPagination"
+    LeaderboardEntry:
+      type: object
+      properties:
+        rank:
+          type: integer
+          example: 1
+        studentName:
+          type: string
+          example: Hassan
+        department:
+          type: string
+          example: COMP_SCI
+        courseCode:
+          type: string
+          example: CSC201
+        averageScore:
+          type: number
+          example: 88
+        totalSessions:
+          type: integer
+          example: 12
+    LeaderboardResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        leaderboard:
+          type: array
+          items:
+            $ref: "#/components/schemas/LeaderboardEntry"
 paths:
   /:
     get:
@@ -347,5 +378,35 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/StudentResultsResponse"
+        "401":
+          description: unauthorized invalid credentials
+  /api/v1/leaderboard:
+    get:
+      summary: Get top student leaderboard
+      description: Returns the top 10 student/course leaderboard entries ranked by average score. Results are grouped by student and course code.
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: query
+          name: courseCode
+          required: false
+          schema:
+            type: string
+            example: CSC201
+          description: Filter leaderboard entries to a specific course code.
+        - in: query
+          name: department
+          required: false
+          schema:
+            type: string
+            example: COMP_SCI
+          description: Filter leaderboard entries to students in a specific department.
+      responses:
+        "200":
+          description: Leaderboard fetched successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LeaderboardResponse"
         "401":
           description: unauthorized invalid credentials
