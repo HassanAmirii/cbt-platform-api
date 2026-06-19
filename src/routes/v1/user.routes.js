@@ -5,5 +5,6 @@ const { auth } = require("../../middleware/auth.middleware");
 const userController = require("../../controllers/user.controllers");
 
 router.get("/results", auth, userController.getStudentResult);
+router.get("/leaderboard", auth, userController.getLeaderboard);
 
 module.exports = router;

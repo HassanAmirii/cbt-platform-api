@@ -30,3 +30,73 @@ exports.getStudentResult = async (req, res, next) => {
     next(error);
   }
 };
+
+exports.getLeaderboard = async (req, res, next) => {
+  try {
+    const { courseCode, department } = req.query;
+
+    const pipeline = [];
+
+    if (courseCode) {
+      pipeline.push({
+        $match: { courseCode: courseCode.toUpperCase() },
+      });
+    }
+
+    pipeline.push(
+      {
+        $group: {
+          _id: {
+            student: "$student",
+            courseCode: "$courseCode",
+          },
+          averageScore: { $avg: "$score" },
+          totalSessions: { $sum: 1 },
+        },
+      },
+      {
+        $lookup: {
+          from: "users",
+          localField: "_id.student",
+          foreignField: "_id",
+          as: "student",
+        },
+      },
+      { $unwind: "$student" },
+    );
+
+    if (department) {
+      pipeline.push({
+        $match: { "student.department": department },
+      });
+    }
+
+    pipeline.push(
+      { $sort: { averageScore: -1 } },
+      { $limit: 10 },
+      {
+        $project: {
+          _id: 0,
+          studentName: "$student.username",
+          department: "$student.department",
+          courseCode: "$_id.courseCode",
+          averageScore: { $round: ["$averageScore", 0] },
+          totalSessions: 1,
+        },
+      },
+    );
+
+    const results = await Result.aggregate(pipeline);
+    const leaderboard = results.map((result, index) => ({
+      rank: index + 1,
+      ...result,
+    }));
+
+    return res.status(200).json({
+      success: true,
+      leaderboard,
+    });
+  } catch (error) {
+    next(error);
+  }
+};

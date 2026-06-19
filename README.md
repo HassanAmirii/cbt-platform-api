@@ -343,6 +343,50 @@ Response:
 }
 ```
 
+### `GET /api/v1/leaderboard` (Auth Required)
+
+Fetch the top 10 leaderboard entries ranked by average score. Results are grouped by student and course code.
+
+Request headers:
+
+```text
+Authorization: Bearer <token>
+```
+
+Query params (optional):
+
+- `courseCode`: filter leaderboard entries to a specific course, for example `CSC201`
+- `department`: filter leaderboard entries to students in a specific department, for example `COMP_SCI`
+
+If neither query param is provided, the endpoint returns the overall top 10 student/course entries across all courses.
+
+Example requests:
+
+```text
+GET /api/v1/leaderboard
+GET /api/v1/leaderboard?courseCode=CSC201
+GET /api/v1/leaderboard?department=COMP_SCI
+GET /api/v1/leaderboard?courseCode=CSC201&department=COMP_SCI
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "leaderboard": [
+    {
+      "rank": 1,
+      "studentName": "Hassan",
+      "department": "COMP_SCI",
+      "courseCode": "CSC201",
+      "averageScore": 88,
+      "totalSessions": 12
+    }
+  ]
+}
+```
+
 ## Data Model Notes
 
 - `User`: authentication data + academic `level` + `semester` + `isAdmin`.
