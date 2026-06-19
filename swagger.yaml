@@ -234,16 +234,21 @@ components:
           example: Hassan
         department:
           type: string
-          example: COMP_SCI
+          example: Computer Science
+        level:
+          type: string
+          example: "100"
         courseCode:
           type: string
-          example: CSC201
+          description: Specific course code in course mode, or ALL in default mode.
+          example: ALL
         averageScore:
           type: number
-          example: 88
+          format: float
+          example: 87.5
         totalSessions:
           type: integer
-          example: 12
+          example: 8
     LeaderboardResponse:
       type: object
       properties:
@@ -254,6 +259,18 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/LeaderboardEntry"
+        pagination:
+          type: object
+          properties:
+            currentPage:
+              type: integer
+              example: 1
+            totalPages:
+              type: integer
+              example: 3
+            totalResults:
+              type: integer
+              example: 25
 paths:
   /:
     get:
@@ -382,8 +399,8 @@ paths:
           description: unauthorized invalid credentials
   /api/v1/leaderboard:
     get:
-      summary: Get top student leaderboard
-      description: Returns the top 10 student/course leaderboard entries ranked by average score. Results are grouped by student and course code.
+      summary: Get authenticated cohort leaderboard
+      description: Returns a paginated leaderboard for students with the same level and department as the authenticated user. Without courseCode, ranks each student by average score across all courses and returns courseCode as ALL. With courseCode, ranks each student by average score for that course only.
       security:
         - bearerAuth: []
       parameters:
@@ -393,14 +410,31 @@ paths:
           schema:
             type: string
             example: CSC201
-          description: Filter leaderboard entries to a specific course code.
+          description: Optional course filter. When omitted, averages are calculated across all courses.
         - in: query
-          name: department
+          name: timeline
           required: false
           schema:
             type: string
-            example: COMP_SCI
-          description: Filter leaderboard entries to students in a specific department.
+            enum: [today, lastMonth, allTime]
+            default: allTime
+          description: Optional score window. today means last 24 hours; lastMonth means last 30 days; allTime applies no date filter.
+        - in: query
+          name: page
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          description: Page number for paginated leaderboard results.
+        - in: query
+          name: limit
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 10
+          description: Number of leaderboard entries per page.
       responses:
         "200":
           description: Leaderboard fetched successfully
@@ -408,5 +442,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/LeaderboardResponse"
+        "400":
+          description: Bad request, for example an invalid timeline or missing level/department in the token payload.
         "401":
           description: unauthorized invalid credentials
