@@ -66,3 +66,12 @@ exports.updateMentorProfile = async ({ userId, updates }) => {
 
   return mentor;
 };
+exports.getMentorProfile = async (userId) => {
+  const mentor = await Mentor.findOne({ user: userId });
+  if (!mentor) {
+    const error = new Error("Mentor profile not found");
+    error.status = 404;
+    throw error;
+  }
+  return mentor;
+};

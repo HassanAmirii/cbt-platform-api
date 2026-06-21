@@ -51,3 +51,11 @@ exports.updateMentorProfile = async (req, res, next) => {
     next(error);
   }
 };
+exports.getMentorProfile = async (req, res, next) => {
+  try {
+    const profile = await mentorService.getMentorProfile(req.user.id);
+    res.status(200).json({ success: true, mentor: profile });
+  } catch (err) {
+    next(err);
+  }
+};
