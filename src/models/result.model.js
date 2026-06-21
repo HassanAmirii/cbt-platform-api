@@ -11,6 +11,10 @@ const resultSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    aiFeedback: {
+      type: String,
+      default: null,
+    },
     level: {
       type: String,
       enum: ["100", "200", "300", "400"],

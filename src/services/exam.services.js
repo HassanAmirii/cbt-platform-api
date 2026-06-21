@@ -166,21 +166,6 @@ exports.submitExam = async (student, answers, attemptId) => {
 
   const score = Math.ceil((correctCount / attemptedQuestions.length) * 100);
 
-  await Result.create({
-    student: attempt.student,
-    courseCode: attempt.courseCode,
-    level: attempt.level,
-    semester: attempt.semester,
-    department: attempt.department,
-    weeks: attempt.weeks,
-    topics: attempt.topics,
-    score,
-    explanation: computedResults,
-  });
-
-  attempt.status = "submitted";
-  await attempt.save();
-
   // AI Feedback
   let aiFeedback = null;
   try {
@@ -209,6 +194,22 @@ Give short, direct, actionable study advice in 3-4 sentences. No fluff.`,
   } catch (err) {
     console.error("AI feedback failed:", err.message);
   }
+
+  await Result.create({
+    student: attempt.student,
+    courseCode: attempt.courseCode,
+    level: attempt.level,
+    semester: attempt.semester,
+    department: attempt.department,
+    weeks: attempt.weeks,
+    topics: attempt.topics,
+    score,
+    explanation: computedResults,
+    aiFeedback,
+  });
+
+  attempt.status = "submitted";
+  await attempt.save();
 
   return { score, explanation: computedResults, aiFeedback };
 };
