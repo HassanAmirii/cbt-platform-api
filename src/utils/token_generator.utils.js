@@ -8,6 +8,7 @@ exports.generateToken = (user) => {
       admin: user.isAdmin,
       level: user.level,
       semester: user.semester,
+      role: user.role,
     },
     process.env.JWT_SECRET,
     { expiresIn: "1h" },
