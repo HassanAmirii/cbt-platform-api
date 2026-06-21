@@ -57,12 +57,12 @@ exports.submitExam = async function (req, res, next) {
         .status(400)
         .json({ message: "bad request, student id missing in login payload" });
     const { answers, attemptId } = req.body;
-    const { score, explanation } = await examServices.submitExam(
+    const { score, explanation, aiFeedback } = await examServices.submitExam(
       student,
       answers,
       attemptId,
     );
-    res.status(200).json({ score, explanation });
+    res.status(200).json({ score, explanation, aiFeedback });
   } catch (err) {
     next(err);
   }
