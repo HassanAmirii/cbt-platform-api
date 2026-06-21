@@ -37,6 +37,7 @@ const userSchema = new mongoose.Schema(
       enum: ["100", "200", "300", "400", "500"],
     },
     semester: { type: Number, required: true, enum: [1, 2] },
+    role: { type: String, enum: ["student", "mentor"], default: "student" },
     isAdmin: { type: Boolean, required: true, default: false },
   },
   { timestamps: true },
