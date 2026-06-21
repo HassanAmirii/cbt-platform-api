@@ -55,10 +55,12 @@ const authRoutes = require("./routes/v1/auth.routes");
 const examRoutes = require("./routes/v1/exam.routes");
 const userRoutes = require("./routes/v1/user.routes");
 const leaderboardRoutes = require("./routes/v1/leaderboard.route");
+const mentorRoutes = require("./routes/v1/mentor.route");
 app.use("/api/v1", leaderboardRoutes);
 app.use("/api/v1", userRoutes);
 app.use("/api/v1", authRoutes);
 app.use("/api/v1", examRoutes);
+app.use("/api/v1", mentorRoutes);
 
 /*
 global error handler
