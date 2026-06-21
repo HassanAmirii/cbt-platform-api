@@ -181,5 +181,34 @@ exports.submitExam = async (student, answers, attemptId) => {
   attempt.status = "submitted";
   await attempt.save();
 
-  return { score, explanation: computedResults };
+  // AI Feedback
+  let aiFeedback = null;
+  try {
+    const Groq = require("groq-sdk");
+    const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+
+    const weakAreas = computedResults
+      .filter((item) => !item.isCorrect)
+      .map((item) => item.hint || item.questionText)
+      .slice(0, 5);
+
+    const completion = await groq.chat.completions.create({
+      model: "llama-3.3-70b-versatile",
+      max_tokens: 300,
+      messages: [
+        {
+          role: "user",
+          content: `A KWASU student just completed a ${attempt.courseCode} quiz and scored ${score}%.
+Weak areas based on wrong answers: ${weakAreas.join(", ") || "none identified"}.
+Give short, direct, actionable study advice in 3-4 sentences. No fluff.`,
+        },
+      ],
+    });
+
+    aiFeedback = completion.choices[0].message.content;
+  } catch (err) {
+    console.error("AI feedback failed:", err.message);
+  }
+
+  return { score, explanation: computedResults, aiFeedback };
 };
