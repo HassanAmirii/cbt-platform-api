@@ -67,3 +67,41 @@ exports.submitExam = async function (req, res, next) {
     next(err);
   }
 };
+exports.getTopics = async function (req, res, next) {
+  try {
+    const { course, weeks } = req.query;
+    const weekNumbers = weeks.split(",").map(Number);
+    const department = req.user.department;
+    const level = req.user.level;
+    const semester = req.user.semester;
+
+    const Question = require("../models/question.model");
+
+    const results = await Question.aggregate([
+      {
+        $match: {
+          courseCode: course.toUpperCase(),
+          department,
+          level,
+          semester,
+          week: { $in: weekNumbers },
+        },
+      },
+      {
+        $group: {
+          _id: "$week",
+          topic: { $first: "$topic" },
+        },
+      },
+    ]);
+
+    const topics = {};
+    results.forEach((r) => {
+      topics[r._id] = r.topic;
+    });
+
+    res.status(200).json({ success: true, data: { topics } });
+  } catch (err) {
+    next(err);
+  }
+};

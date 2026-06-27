@@ -6,4 +6,5 @@ const examController = require("../../controllers/exam.controllers");
 
 router.post("/start-exam", auth, examController.startExam);
 router.post("/submit-exam", auth, examController.submitExam);
+router.get("/questions/topics", auth, examController.getTopics);
 module.exports = router;
