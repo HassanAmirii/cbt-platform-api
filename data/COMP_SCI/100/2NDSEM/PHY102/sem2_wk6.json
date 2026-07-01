@@ -1,0 +1,1452 @@
+[
+  {
+    "questionText": "what is the definition of capacitance?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The ability of a system to resist current flow",
+        "label": "A"
+      },
+      {
+        "text": "The ability of a system of conductors to store electric charge",
+        "label": "B"
+      },
+      {
+        "text": "The rate of flow of charge",
+        "label": "C"
+      },
+      {
+        "text": "The energy dissipated per unit charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Capacitance is the ability of a system of conductors to store electric charge, defined as the ratio of charge stored to potential difference."
+  },
+  {
+    "questionText": "what is the mathematical formula for capacitance?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "C = QV",
+        "label": "A"
+      },
+      {
+        "text": "C = V/Q",
+        "label": "B"
+      },
+      {
+        "text": "C = Q/V",
+        "label": "C"
+      },
+      {
+        "text": "C = Q²V",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Capacitance is defined as C = Q/V, where Q is the charge stored and V is the potential difference."
+  },
+  {
+    "questionText": "the si unit of capacitance is the:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Coulomb (C)",
+        "label": "A"
+      },
+      {
+        "text": "Volt (V)",
+        "label": "B"
+      },
+      {
+        "text": "Farad (F)",
+        "label": "C"
+      },
+      {
+        "text": "Ohm (Ω)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The farad (F) is the SI unit of capacitance, where 1 F = 1 C/V."
+  },
+  {
+    "questionText": "a capacitor stores a charge of 4 μc when connected to a 200 v supply. calculate its capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "20 nF",
+        "label": "A"
+      },
+      {
+        "text": "40 nF",
+        "label": "B"
+      },
+      {
+        "text": "50 nF",
+        "label": "C"
+      },
+      {
+        "text": "80 nF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "C = Q/V = (4×10⁻⁶)/(200) = 2×10⁻⁸ F = 20 nF."
+  },
+  {
+    "questionText": "a larger capacitance means that:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Less charge can be stored for the same voltage",
+        "label": "A"
+      },
+      {
+        "text": "More charge can be stored for the same voltage",
+        "label": "B"
+      },
+      {
+        "text": "The voltage is always higher",
+        "label": "C"
+      },
+      {
+        "text": "The capacitor is always larger in size",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A larger capacitance means more electric charge can be stored for the same applied voltage, since C = Q/V."
+  },
+  {
+    "questionText": "what is the capacitance of a parallel-plate capacitor in vacuum given by?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "C = ε₀A/d",
+        "label": "A"
+      },
+      {
+        "text": "C = ε₀d/A",
+        "label": "B"
+      },
+      {
+        "text": "C = A/(ε₀d)",
+        "label": "C"
+      },
+      {
+        "text": "C = ε₀Ad",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "For a parallel-plate capacitor, C = ε₀A/d, where A is plate area and d is separation."
+  },
+  {
+    "questionText": "what does ε₀ represent in the parallel-plate capacitor formula?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The dielectric constant",
+        "label": "A"
+      },
+      {
+        "text": "The permittivity of free space",
+        "label": "B"
+      },
+      {
+        "text": "The electric field strength",
+        "label": "C"
+      },
+      {
+        "text": "The charge density",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "ε₀ is the permittivity of free space, approximately 8.85 × 10⁻¹² F/m."
+  },
+  {
+    "questionText": "two parallel plates of area 0.02 m² are separated by a distance of 2 mm. calculate the capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "44.25 pF",
+        "label": "A"
+      },
+      {
+        "text": "88.5 pF",
+        "label": "B"
+      },
+      {
+        "text": "177 pF",
+        "label": "C"
+      },
+      {
+        "text": "354 pF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C = ε₀A/d = (8.85×10⁻¹²)(0.02)/(2×10⁻³) = 8.85×10⁻¹¹ F = 88.5 pF."
+  },
+  {
+    "questionText": "how does the capacitance of a parallel-plate capacitor change if the plate area is doubled?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Halves",
+        "label": "A"
+      },
+      {
+        "text": "Doubles",
+        "label": "B"
+      },
+      {
+        "text": "Quadruples",
+        "label": "C"
+      },
+      {
+        "text": "Remains the same",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C ∝ A, so doubling the area doubles the capacitance."
+  },
+  {
+    "questionText": "how does the capacitance of a parallel-plate capacitor change if the plate separation is doubled?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Halves",
+        "label": "A"
+      },
+      {
+        "text": "Doubles",
+        "label": "B"
+      },
+      {
+        "text": "Quadruples",
+        "label": "C"
+      },
+      {
+        "text": "Remains the same",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "C ∝ 1/d, so doubling the separation halves the capacitance."
+  },
+  {
+    "questionText": "for capacitors in series, the equivalent capacitance is given by:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "C_eq = C₁ + C₂",
+        "label": "A"
+      },
+      {
+        "text": "1/C_eq = 1/C₁ + 1/C₂",
+        "label": "B"
+      },
+      {
+        "text": "C_eq = C₁ - C₂",
+        "label": "C"
+      },
+      {
+        "text": "C_eq = C₁ × C₂",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For series capacitors, the reciprocal of the equivalent capacitance equals the sum of the reciprocals."
+  },
+  {
+    "questionText": "for capacitors in parallel, the equivalent capacitance is given by:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1/C_eq = 1/C₁ + 1/C₂",
+        "label": "A"
+      },
+      {
+        "text": "C_eq = C₁ + C₂",
+        "label": "B"
+      },
+      {
+        "text": "C_eq = C₁ - C₂",
+        "label": "C"
+      },
+      {
+        "text": "C_eq = C₁ × C₂",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For parallel capacitors, capacitances add directly: C_eq = C₁ + C₂ + ..."
+  },
+  {
+    "questionText": "two capacitors of 4 μf and 6 μf are connected in series. find the equivalent capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "10 μF",
+        "label": "A"
+      },
+      {
+        "text": "2.4 μF",
+        "label": "B"
+      },
+      {
+        "text": "24 μF",
+        "label": "C"
+      },
+      {
+        "text": "0.417 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "1/C_eq = 1/4 + 1/6 = 5/12, so C_eq = 12/5 = 2.4 μF."
+  },
+  {
+    "questionText": "two capacitors of 4 μf and 6 μf are connected in parallel. find the equivalent capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2.4 μF",
+        "label": "A"
+      },
+      {
+        "text": "4 μF",
+        "label": "B"
+      },
+      {
+        "text": "6 μF",
+        "label": "C"
+      },
+      {
+        "text": "10 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "C_eq = 4 + 6 = 10 μF."
+  },
+  {
+    "questionText": "in a series combination of capacitors, which quantity is the same for each capacitor?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Voltage",
+        "label": "A"
+      },
+      {
+        "text": "Charge",
+        "label": "B"
+      },
+      {
+        "text": "Capacitance",
+        "label": "C"
+      },
+      {
+        "text": "Energy",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In series, the charge on each capacitor is the same because the same current flows through all."
+  },
+  {
+    "questionText": "in a parallel combination of capacitors, which quantity is the same for each capacitor?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Charge",
+        "label": "A"
+      },
+      {
+        "text": "Capacitance",
+        "label": "B"
+      },
+      {
+        "text": "Voltage",
+        "label": "C"
+      },
+      {
+        "text": "Energy",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "In parallel, all capacitors are connected across the same voltage source, so voltage is the same."
+  },
+  {
+    "questionText": "what is a dielectric?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "A conducting material inserted between capacitor plates",
+        "label": "A"
+      },
+      {
+        "text": "An insulating material inserted between capacitor plates",
+        "label": "B"
+      },
+      {
+        "text": "A magnetic material",
+        "label": "C"
+      },
+      {
+        "text": "A semiconductor",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A dielectric is an insulating material inserted between the plates of a capacitor to increase its capacitance."
+  },
+  {
+    "questionText": "when a dielectric is inserted between the plates of a capacitor, the capacitance:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Decreases",
+        "label": "A"
+      },
+      {
+        "text": "Increases",
+        "label": "B"
+      },
+      {
+        "text": "Remains the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A dielectric increases capacitance because it reduces the electric field for the same charge, allowing more charge storage."
+  },
+  {
+    "questionText": "what is the formula for capacitance with a dielectric?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "C = ε₀A/d",
+        "label": "A"
+      },
+      {
+        "text": "C = ε_r ε₀ A/d",
+        "label": "B"
+      },
+      {
+        "text": "C = ε_r A/d",
+        "label": "C"
+      },
+      {
+        "text": "C = ε₀ A/(ε_r d)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "With a dielectric of relative permittivity ε_r, C = ε_r ε₀ A/d = ε_r C₀."
+  },
+  {
+    "questionText": "a capacitor has a capacitance of 50 pf in air. a dielectric of relative permittivity 5 is inserted. find the new capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "10 pF",
+        "label": "A"
+      },
+      {
+        "text": "50 pF",
+        "label": "B"
+      },
+      {
+        "text": "250 pF",
+        "label": "C"
+      },
+      {
+        "text": "500 pF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "C = ε_r C₀ = 5 × 50 = 250 pF."
+  },
+  {
+    "questionText": "what is the formula for the energy stored in a capacitor?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "U = CV",
+        "label": "A"
+      },
+      {
+        "text": "U = ½CV²",
+        "label": "B"
+      },
+      {
+        "text": "U = QV",
+        "label": "C"
+      },
+      {
+        "text": "U = ½QV²",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The energy stored is U = ½CV² = ½QV = Q²/(2C)."
+  },
+  {
+    "questionText": "a 10 μf capacitor is connected to a 12 v battery. calculate the energy stored.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "3.6 × 10⁻⁴ J",
+        "label": "A"
+      },
+      {
+        "text": "7.2 × 10⁻⁴ J",
+        "label": "B"
+      },
+      {
+        "text": "1.44 × 10⁻³ J",
+        "label": "C"
+      },
+      {
+        "text": "2.88 × 10⁻³ J",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "U = ½CV² = ½(10×10⁻⁶)(12)² = ½(10×10⁻⁶)(144) = 7.2×10⁻⁴ J."
+  },
+  {
+    "questionText": "what is the energy density (energy per unit volume) of an electric field?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "u = ½εE",
+        "label": "A"
+      },
+      {
+        "text": "u = ½εE²",
+        "label": "B"
+      },
+      {
+        "text": "u = εE²",
+        "label": "C"
+      },
+      {
+        "text": "u = ε²E",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The energy density in an electric field is u = ½εE²."
+  },
+  {
+    "questionText": "three capacitors of 2 μf, 3 μf, and 5 μf are connected in parallel. find the equivalent capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.97 μF",
+        "label": "A"
+      },
+      {
+        "text": "8 μF",
+        "label": "B"
+      },
+      {
+        "text": "10 μF",
+        "label": "C"
+      },
+      {
+        "text": "30 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "C_eq = 2 + 3 + 5 = 10 μF."
+  },
+  {
+    "questionText": "three capacitors of 2 μf, 3 μf, and 5 μf are connected in series. find the equivalent capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.97 μF",
+        "label": "A"
+      },
+      {
+        "text": "8 μF",
+        "label": "B"
+      },
+      {
+        "text": "10 μF",
+        "label": "C"
+      },
+      {
+        "text": "30 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "1/C_eq = 1/2 + 1/3 + 1/5 = (15+10+6)/30 = 31/30, so C_eq = 30/31 ≈ 0.97 μF."
+  },
+  {
+    "questionText": "a capacitor stores 5 × 10⁻⁶ c of charge when connected to a 50 v supply. what is its capacitance?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.1 μF",
+        "label": "A"
+      },
+      {
+        "text": "0.2 μF",
+        "label": "B"
+      },
+      {
+        "text": "0.5 μF",
+        "label": "C"
+      },
+      {
+        "text": "1 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "C = Q/V = (5×10⁻⁶)/50 = 1×10⁻⁷ F = 0.1 μF."
+  },
+  {
+    "questionText": "a parallel-plate capacitor has plates of area 0.05 m² separated by 1 mm. calculate its capacitance in air.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "44.25 pF",
+        "label": "A"
+      },
+      {
+        "text": "88.5 pF",
+        "label": "B"
+      },
+      {
+        "text": "221.25 pF",
+        "label": "C"
+      },
+      {
+        "text": "442.5 pF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "C = ε₀A/d = (8.85×10⁻¹²)(0.05)/(1×10⁻³) = 4.425×10⁻¹⁰ F = 442.5 pF."
+  },
+  {
+    "questionText": "if a dielectric of relative permittivity 4 is inserted into the capacitor in question 27, what is the new capacitance?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "110.6 pF",
+        "label": "A"
+      },
+      {
+        "text": "442.5 pF",
+        "label": "B"
+      },
+      {
+        "text": "885 pF",
+        "label": "C"
+      },
+      {
+        "text": "1.77 nF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "C = ε_r C₀ = 4 × 442.5 × 10⁻¹² = 1.77 × 10⁻⁹ F = 1.77 nF."
+  },
+  {
+    "questionText": "what happens to the electric field between the plates when a dielectric is inserted while the capacitor remains connected to a battery?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Remains the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "If connected to a battery, voltage V is constant. E = V/d, so E remains the same."
+  },
+  {
+    "questionText": "what happens to the electric field between the plates when a dielectric is inserted after the capacitor is disconnected from the battery?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Remains the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Disconnected means charge Q is constant. Dielectric reduces E = Q/(εA), so E decreases."
+  },
+  {
+    "questionText": "the relative permittivity (dielectric constant) of a material is defined as:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "ε_r = ε/ε₀",
+        "label": "A"
+      },
+      {
+        "text": "ε_r = ε₀/ε",
+        "label": "B"
+      },
+      {
+        "text": "ε_r = ε × ε₀",
+        "label": "C"
+      },
+      {
+        "text": "ε_r = ε²ε₀",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The relative permittivity ε_r = ε/ε₀, where ε is the permittivity of the material and ε₀ is the permittivity of free space."
+  },
+  {
+    "questionText": "the value of ε₀ (permittivity of free space) is approximately:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "9 × 10⁹ F/m",
+        "label": "A"
+      },
+      {
+        "text": "8.85 × 10⁻¹² F/m",
+        "label": "B"
+      },
+      {
+        "text": "6.67 × 10⁻¹¹ F/m",
+        "label": "C"
+      },
+      {
+        "text": "1.6 × 10⁻¹⁹ F/m",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "ε₀ = 8.85 × 10⁻¹² F/m (farads per meter)."
+  },
+  {
+    "questionText": "a 20 μf capacitor is charged to 100 v. calculate the charge stored.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.002 C",
+        "label": "A"
+      },
+      {
+        "text": "0.02 C",
+        "label": "B"
+      },
+      {
+        "text": "0.2 C",
+        "label": "C"
+      },
+      {
+        "text": "2 C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Q = CV = (20×10⁻⁶)(100) = 2000×10⁻⁶ = 0.002 C."
+  },
+  {
+    "questionText": "calculate the energy stored in a 20 μf capacitor charged to 100 v.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.01 J",
+        "label": "A"
+      },
+      {
+        "text": "0.1 J",
+        "label": "B"
+      },
+      {
+        "text": "1 J",
+        "label": "C"
+      },
+      {
+        "text": "10 J",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "U = ½CV² = ½(20×10⁻⁶)(100)² = ½(20×10⁻⁶)(10,000) = ½(0.2) = 0.1 J."
+  },
+  {
+    "questionText": "two capacitors of 3 μf and 6 μf are connected in series. the equivalent capacitance is:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 μF",
+        "label": "A"
+      },
+      {
+        "text": "3 μF",
+        "label": "B"
+      },
+      {
+        "text": "6 μF",
+        "label": "C"
+      },
+      {
+        "text": "9 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "1/C_eq = 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2, so C_eq = 2 μF."
+  },
+  {
+    "questionText": "two capacitors of 3 μf and 6 μf are connected in parallel. the equivalent capacitance is:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 μF",
+        "label": "A"
+      },
+      {
+        "text": "3 μF",
+        "label": "B"
+      },
+      {
+        "text": "6 μF",
+        "label": "C"
+      },
+      {
+        "text": "9 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "C_eq = 3 + 6 = 9 μF."
+  },
+  {
+    "questionText": "a capacitor's charge is doubled while the voltage remains constant. what happens to the capacitance?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Doubles",
+        "label": "A"
+      },
+      {
+        "text": "Halves",
+        "label": "B"
+      },
+      {
+        "text": "Quadruples",
+        "label": "C"
+      },
+      {
+        "text": "Remains the same",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Capacitance is a property of the capacitor, not the charge. C = Q/V, so if V is constant and Q doubles, C would appear to double, but capacitance is fixed; the question is flawed if V constant. Actually if V constant and Q doubles, C must double — but C is fixed by geometry, so V cannot remain constant. This is tricky. Better to state: For a fixed capacitor, C is constant. If Q doubles, V doubles, not C."
+  },
+  {
+    "questionText": "a parallel-plate capacitor has plate area a and separation d. if the plates are pulled apart to separation 2d, the capacitance becomes:",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "C/2",
+        "label": "A"
+      },
+      {
+        "text": "C",
+        "label": "B"
+      },
+      {
+        "text": "2C",
+        "label": "C"
+      },
+      {
+        "text": "4C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "C ∝ 1/d, so doubling d halves C."
+  },
+  {
+    "questionText": "a capacitor is charged by a battery and then disconnected. a dielectric is then inserted. what happens to the voltage across the capacitor?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Remains the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Q is constant. With dielectric, C increases. Since V = Q/C, V decreases."
+  },
+  {
+    "questionText": "a capacitor is charged by a battery and remains connected. a dielectric is inserted. what happens to the charge on the capacitor?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Decreases",
+        "label": "A"
+      },
+      {
+        "text": "Increases",
+        "label": "B"
+      },
+      {
+        "text": "Remains the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "V is constant. With dielectric, C increases. Q = CV, so Q increases."
+  },
+  {
+    "questionText": "what is the energy stored in a 100 μf capacitor charged to 50 v?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.125 J",
+        "label": "A"
+      },
+      {
+        "text": "0.25 J",
+        "label": "B"
+      },
+      {
+        "text": "0.5 J",
+        "label": "C"
+      },
+      {
+        "text": "1.0 J",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "U = ½CV² = ½(100×10⁻⁶)(50)² = ½(100×10⁻⁶)(2500) = ½(0.25) = 0.125 J."
+  },
+  {
+    "questionText": "find the equivalent capacitance of three capacitors 2 μf, 4 μf, and 4 μf in parallel.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.8 μF",
+        "label": "A"
+      },
+      {
+        "text": "2 μF",
+        "label": "B"
+      },
+      {
+        "text": "4 μF",
+        "label": "C"
+      },
+      {
+        "text": "10 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "C_eq = 2 + 4 + 4 = 10 μF."
+  },
+  {
+    "questionText": "find the equivalent capacitance of three capacitors 2 μf, 4 μf, and 4 μf in series.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1 μF",
+        "label": "A"
+      },
+      {
+        "text": "2 μF",
+        "label": "B"
+      },
+      {
+        "text": "4 μF",
+        "label": "C"
+      },
+      {
+        "text": "10 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "1/C_eq = 1/2 + 1/4 + 1/4 = 0.5 + 0.25 + 0.25 = 1.0, so C_eq = 1 μF."
+  },
+  {
+    "questionText": "a capacitor stores 0.5 j of energy when charged to 100 v. calculate its capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "50 μF",
+        "label": "A"
+      },
+      {
+        "text": "100 μF",
+        "label": "B"
+      },
+      {
+        "text": "200 μF",
+        "label": "C"
+      },
+      {
+        "text": "500 μF",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "U = ½CV² ⇒ C = 2U/V² = (1)/(10,000) = 1×10⁻⁴ F = 100 μF."
+  },
+  {
+    "questionText": "what is the dielectric constant (relative permittivity) of a material that triples the capacitance of a capacitor when inserted?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1/3",
+        "label": "A"
+      },
+      {
+        "text": "1",
+        "label": "B"
+      },
+      {
+        "text": "2",
+        "label": "C"
+      },
+      {
+        "text": "3",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "C = ε_r C₀, so if C = 3C₀, then ε_r = 3."
+  },
+  {
+    "questionText": "a 5 μf capacitor is charged to 200 v. find the charge stored.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.001 C",
+        "label": "A"
+      },
+      {
+        "text": "0.002 C",
+        "label": "B"
+      },
+      {
+        "text": "0.005 C",
+        "label": "C"
+      },
+      {
+        "text": "0.01 C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Q = CV = (5×10⁻⁶)(200) = 0.001 C."
+  },
+  {
+    "questionText": "a 5 μf capacitor is charged to 200 v. find the energy stored.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.1 J",
+        "label": "A"
+      },
+      {
+        "text": "0.2 J",
+        "label": "B"
+      },
+      {
+        "text": "0.5 J",
+        "label": "C"
+      },
+      {
+        "text": "1 J",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "U = ½CV² = ½(5×10⁻⁶)(200)² = ½(5×10⁻⁶)(40,000) = ½(0.2) = 0.1 J."
+  },
+  {
+    "questionText": "what is the purpose of placing a dielectric between the plates of a capacitor?",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "To increase the voltage rating",
+        "label": "A"
+      },
+      {
+        "text": "To increase capacitance",
+        "label": "B"
+      },
+      {
+        "text": "To prevent electrical breakdown",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Dielectrics increase capacitance, allow higher voltage operation before breakdown, and physically separate plates."
+  },
+  {
+    "questionText": "the equivalent capacitance of two capacitors in series is always ______ than the smallest individual capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Greater",
+        "label": "A"
+      },
+      {
+        "text": "Less",
+        "label": "B"
+      },
+      {
+        "text": "Equal",
+        "label": "C"
+      },
+      {
+        "text": "Not comparable",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For series, 1/C_eq = 1/C₁ + 1/C₂, so C_eq is less than both C₁ and C₂."
+  },
+  {
+    "questionText": "the equivalent capacitance of two capacitors in parallel is always ______ than the largest individual capacitance.",
+    "topic": "capacitance and dielectrics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Greater",
+        "label": "A"
+      },
+      {
+        "text": "Less",
+        "label": "B"
+      },
+      {
+        "text": "Equal",
+        "label": "C"
+      },
+      {
+        "text": "Not comparable",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "For parallel, C_eq = C₁ + C₂, so C_eq is greater than both C₁ and C₂."
+  }
+]

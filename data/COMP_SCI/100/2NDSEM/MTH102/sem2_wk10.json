@@ -1,0 +1,1295 @@
+[
+  {
+    "questionText": "what is the main difference between a definite integral and an indefinite integral?",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      {
+        "text": "a definite integral includes a constant of integration, an indefinite does not",
+        "label": "A"
+      },
+      {
+        "text": "a definite integral produces a numerical value, an indefinite produces a family of functions",
+        "label": "B"
+      },
+      {
+        "text": "a definite integral is always positive, an indefinite is always negative",
+        "label": "C"
+      },
+      { "text": "there is no difference between them", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A definite integral produces a numerical value representing accumulated area, while an indefinite integral produces a family of functions (antiderivatives) with a constant of integration."
+  },
+  {
+    "questionText": "what does the definite integral ∫ₐᵇ f(x) dx represent geometrically?",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the slope of the tangent line", "label": "A" },
+      { "text": "the area under the curve between x=a and x=b", "label": "B" },
+      { "text": "the derivative of the function at a point", "label": "C" },
+      { "text": "the average value of the function", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The definite integral represents the net area under the curve f(x) from x = a to x = b."
+  },
+  {
+    "questionText": "what is the value of ∫ₐᵃ f(x) dx?",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "f(a)", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "When the upper and lower limits are the same, the integral is zero because no area is enclosed."
+  },
+  {
+    "questionText": "if ∫ₐᵇ f(x) dx = 5, what is ∫ᵇₐ f(x) dx?",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "-5", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "10", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Reversing the limits of integration changes the sign of the integral: ∫ᵇₐ f(x) dx = -∫ₐᵇ f(x) dx = -5."
+  },
+  {
+    "questionText": "what does the fundamental theorem of calculus part 2 state?",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      {
+        "text": "∫ₐᵇ f(x) dx = F(b) - F(a) where F is any antiderivative of f",
+        "label": "A"
+      },
+      {
+        "text": "∫ₐᵇ f(x) dx = F(b) + F(a) where F is any antiderivative of f",
+        "label": "B"
+      },
+      { "text": "∫ₐᵇ f(x) dx = f(b) - f(a)", "label": "C" },
+      { "text": "∫ₐᵇ f(x) dx = F'(b) - F'(a)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The Fundamental Theorem of Calculus Part 2 states that if F is any antiderivative of f, then ∫ₐᵇ f(x) dx = F(b) - F(a)."
+  },
+  {
+    "questionText": "if a function f(x) is continuous on [a,b], what can we conclude?",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the definite integral ∫ₐᵇ f(x) dx exists", "label": "A" },
+      {
+        "text": "the function must be differentiable everywhere",
+        "label": "B"
+      },
+      { "text": "the function has no critical points", "label": "C" },
+      { "text": "the function is always positive", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "If f is continuous on [a,b], then the definite integral exists and the Fundamental Theorem of Calculus applies."
+  },
+  {
+    "questionText": "evaluate ∫₀² 3x² dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "12", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² 3x² dx = [x³]₀² = 8 - 0 = 8."
+  },
+  {
+    "questionText": "evaluate ∫₁³ 2x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "10", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁³ 2x dx = [x²]₁³ = 9 - 1 = 8."
+  },
+  {
+    "questionText": "evaluate ∫₀⁴ x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "16", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀⁴ x dx = [x²/2]₀⁴ = 16/2 = 8."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ x² dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/3", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "2/3", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ x² dx = [x³/3]₀¹ = 1/3."
+  },
+  {
+    "questionText": "evaluate ∫₀² (x² + 1) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "14/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² (x² + 1) dx = [x³/3 + x]₀² = (8/3 + 2) = 14/3."
+  },
+  {
+    "questionText": "evaluate ∫₀³ (2x + 1) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12", "label": "A" },
+      { "text": "9", "label": "B" },
+      { "text": "15", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀³ (2x + 1) dx = [x² + x]₀³ = 9 + 3 = 12."
+  },
+  {
+    "questionText": "evaluate ∫₁⁴ (3x² - 2x) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "54", "label": "A" },
+      { "text": "48", "label": "B" },
+      { "text": "60", "label": "C" },
+      { "text": "42", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁⁴ (3x² - 2x) dx = [x³ - x²]₁⁴ = (64 - 16) - (1 - 1) = 48 - 0 = 48."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) sin x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) sin x dx = [-cos x]₀^(π/2) = 0 + 1 = 1."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) cos x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) cos x dx = [sin x]₀^(π/2) = 1 - 0 = 1."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ e^x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e - 1", "label": "A" },
+      { "text": "e", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "1/e", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ e^x dx = [e^x]₀¹ = e - 1."
+  },
+  {
+    "questionText": "evaluate ∫₁² 1/x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln 2", "label": "A" },
+      { "text": "ln 1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "1/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁² 1/x dx = [ln x]₁² = ln 2 - ln 1 = ln 2."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ 2x(x² + 1)³ dx using substitution.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "15/4", "label": "A" },
+      { "text": "13/4", "label": "B" },
+      { "text": "17/4", "label": "C" },
+      { "text": "11/4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² + 1, du = 2x dx. When x=0, u=1; when x=1, u=2. ∫₁² u³ du = [u⁴/4]₁² = 16/4 - 1/4 = 15/4."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ 2x cos(x²) dx using substitution.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin(1)", "label": "A" },
+      { "text": "cos(1)", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x², du = 2x dx. When x=0, u=0; when x=1, u=1. ∫₀¹ cos u du = [sin u]₀¹ = sin(1)."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ 3x²(x³ + 1)⁴ dx using substitution.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "31/5", "label": "A" },
+      { "text": "32/5", "label": "B" },
+      { "text": "33/5", "label": "C" },
+      { "text": "30/5", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³ + 1, du = 3x² dx. When x=0, u=1; when x=1, u=2. ∫₁² u⁴ du = [u⁵/5]₁² = 32/5 - 1/5 = 31/5."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) 2 sin x cos x dx using substitution.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "1/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x, du = cos x dx. When x=0, u=0; when x=π/2, u=1. ∫₀¹ 2u du = [u²]₀¹ = 1."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ 4x³(x⁴ + 2)² dx using substitution.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "26/3", "label": "A" },
+      { "text": "28/3", "label": "B" },
+      { "text": "24/3", "label": "C" },
+      { "text": "22/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x⁴ + 2, du = 4x³ dx. When x=0, u=2; when x=1, u=3. ∫₂³ u² du = [u³/3]₂³ = 27/3 - 8/3 = 19/3."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) 2x sin(x²) dx using substitution.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x², du = 2x dx. When x=0, u=0; when x=√(π/2), u=π/2. ∫₀^(π/2) sin u du = [-cos u]₀^(π/2) = 0 + 1 = 1."
+  },
+  {
+    "questionText": "evaluate ∫₋₂² x³ dx using symmetry.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "16", "label": "B" },
+      { "text": "8", "label": "C" },
+      { "text": "-8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = x³ is an odd function. For odd functions, ∫₋ₐᵃ f(x) dx = 0."
+  },
+  {
+    "questionText": "evaluate ∫₋₃³ x⁵ dx using symmetry.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "486", "label": "B" },
+      { "text": "243", "label": "C" },
+      { "text": "-486", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = x⁵ is an odd function. For odd functions, ∫₋ₐᵃ f(x) dx = 0."
+  },
+  {
+    "questionText": "evaluate ∫₋₂² x² dx using symmetry.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "4/3", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = x² is an even function. ∫₋₂² x² dx = 2∫₀² x² dx = 2[x³/3]₀² = 2(8/3) = 16/3."
+  },
+  {
+    "questionText": "evaluate ∫₋₁¹ x⁴ dx using symmetry.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2/5", "label": "A" },
+      { "text": "1/5", "label": "B" },
+      { "text": "4/5", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = x⁴ is an even function. ∫₋₁¹ x⁴ dx = 2∫₀¹ x⁴ dx = 2[x⁵/5]₀¹ = 2/5."
+  },
+  {
+    "questionText": "evaluate ∫₋₁¹ (x³ - x) dx using symmetry.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "-2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Both x³ and x are odd functions, so their sum is odd. For odd functions, ∫₋₁¹ f(x) dx = 0."
+  },
+  {
+    "questionText": "find the area under y = x² from x = 0 to x = 3.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9", "label": "A" },
+      { "text": "27", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "18", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀³ x² dx = [x³/3]₀³ = 27/3 = 9."
+  },
+  {
+    "questionText": "find the area under y = 2x from x = 0 to x = 4.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "32", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀⁴ 2x dx = [x²]₀⁴ = 16."
+  },
+  {
+    "questionText": "find the area under y = x + 2 from x = 0 to x = 3.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "21/2", "label": "A" },
+      { "text": "9/2", "label": "B" },
+      { "text": "15/2", "label": "C" },
+      { "text": "27/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀³ (x + 2) dx = [x²/2 + 2x]₀³ = 9/2 + 6 = 21/2."
+  },
+  {
+    "questionText": "find the area under y = sin x from x = 0 to x = π.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "π", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀^π sin x dx = [-cos x]₀^π = 1 + 1 = 2."
+  },
+  {
+    "questionText": "find the area under y = cos x from x = 0 to x = π/2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "π/2", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀^(π/2) cos x dx = [sin x]₀^(π/2) = 1 - 0 = 1."
+  },
+  {
+    "questionText": "find the area under y = x³ from x = 0 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "16", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² x³ dx = [x⁴/4]₀² = 16/4 = 4."
+  },
+  {
+    "questionText": "find the area under y = 4x - x² from x = 0 to x = 4.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "32/3", "label": "A" },
+      { "text": "16/3", "label": "B" },
+      { "text": "64/3", "label": "C" },
+      { "text": "8/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀⁴ (4x - x²) dx = [2x² - x³/3]₀⁴ = (32 - 64/3) = 32/3."
+  },
+  {
+    "questionText": "find the area between y = x + 2 and y = x² from x = 0 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "4/3", "label": "C" },
+      { "text": "2/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² [(x+2) - x²] dx = ∫₀² (x + 2 - x²) dx = [x²/2 + 2x - x³/3]₀² = (2 + 4 - 8/3) = 6 - 8/3 = 10/3."
+  },
+  {
+    "questionText": "find the area between y = x and y = x² from x = 0 to x = 1.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/6", "label": "A" },
+      { "text": "1/3", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "2/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀¹ (x - x²) dx = [x²/2 - x³/3]₀¹ = 1/2 - 1/3 = 1/6."
+  },
+  {
+    "questionText": "find the area between y = x² and y = 2x from x = 0 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "2/3", "label": "C" },
+      { "text": "1/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² (2x - x²) dx = [x² - x³/3]₀² = 4 - 8/3 = 4/3."
+  },
+  {
+    "questionText": "find the area between y = 4 - x² and y = 0 from x = -2 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "32/3", "label": "A" },
+      { "text": "16/3", "label": "B" },
+      { "text": "64/3", "label": "C" },
+      { "text": "8/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₋₂² (4 - x²) dx = [4x - x³/3]₋₂² = (8 - 8/3) - (-8 + 8/3) = (16/3) - (-16/3) = 32/3."
+  },
+  {
+    "questionText": "find the area between y = x² and y = 4 from x = -2 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "32/3", "label": "A" },
+      { "text": "16/3", "label": "B" },
+      { "text": "64/3", "label": "C" },
+      { "text": "8/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₋₂² (4 - x²) dx = [4x - x³/3]₋₂² = (8 - 8/3) - (-8 + 8/3) = (16/3) - (-16/3) = 32/3."
+  },
+  {
+    "questionText": "find the area between y = x² + 1 and y = 2x from x = 0 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8/3", "label": "A" },
+      { "text": "10/3", "label": "B" },
+      { "text": "4/3", "label": "C" },
+      { "text": "2/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² (x² + 1 - 2x) dx = ∫₀² (x² - 2x + 1) dx = ∫₀² (x - 1)² dx = [(x-1)³/3]₀² = 1/3 - (-1/3) = 2/3."
+  },
+  {
+    "questionText": "if v(t) = 2t, find the displacement from t = 0 to t = 3.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "18", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀³ 2t dt = [t²]₀³ = 9."
+  },
+  {
+    "questionText": "if v(t) = 3t², find the displacement from t = 0 to t = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀² 3t² dt = [t³]₀² = 8."
+  },
+  {
+    "questionText": "if v(t) = 4t + 1, find the displacement from t = 0 to t = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀² (4t + 1) dt = [2t² + t]₀² = (8 + 2) = 10."
+  },
+  {
+    "questionText": "if v(t) = 6t², find the displacement from t = 0 to t = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "24", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀² 6t² dt = [2t³]₀² = 16."
+  },
+  {
+    "questionText": "if v(t) = t² - 2t, find the displacement from t = 0 to t = 3.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "9", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀³ (t² - 2t) dt = [t³/3 - t²]₀³ = 9 - 9 = 0."
+  },
+  {
+    "questionText": "if v(t) = sin t, find the displacement from t = 0 to t = π.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "-2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀^π sin t dt = [-cos t]₀^π = 1 + 1 = 2."
+  },
+  {
+    "questionText": "if v(t) = cos t, find the displacement from t = 0 to t = π/2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "-1", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀^(π/2) cos t dt = [sin t]₀^(π/2) = 1."
+  },
+  {
+    "questionText": "if v(t) = 2t - 4, find the displacement from t = 0 to t = 4.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "-8", "label": "C" },
+      { "text": "16", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀⁴ (2t - 4) dt = [t² - 4t]₀⁴ = 16 - 16 = 0."
+  },
+  {
+    "questionText": "find the average value of f(x) = x² on [0, 2].",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "2/3", "label": "C" },
+      { "text": "1/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Average = 1/(2-0) ∫₀² x² dx = 1/2 [x³/3]₀² = 1/2 (8/3) = 4/3."
+  },
+  {
+    "questionText": "find the average value of f(x) = x on [0, 4].",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Average = 1/(4-0) ∫₀⁴ x dx = 1/4 [x²/2]₀⁴ = 1/4 (8) = 2."
+  },
+  {
+    "questionText": "find the average value of f(x) = 2x + 1 on [0, 3].",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Average = 1/(3-0) ∫₀³ (2x + 1) dx = 1/3 [x² + x]₀³ = 1/3 (9 + 3) = 4."
+  },
+  {
+    "questionText": "find the average value of f(x) = sin x on [0, π].",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2/π", "label": "A" },
+      { "text": "1/π", "label": "B" },
+      { "text": "π/2", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Average = 1/(π-0) ∫₀^π sin x dx = 1/π [-cos x]₀^π = 1/π (2) = 2/π."
+  },
+  {
+    "questionText": "find the average value of f(x) = cos x on [0, π/2].",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2/π", "label": "A" },
+      { "text": "1/π", "label": "B" },
+      { "text": "π/2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Average = 1/(π/2 - 0) ∫₀^(π/2) cos x dx = 2/π [sin x]₀^(π/2) = 2/π."
+  },
+  {
+    "questionText": "find the average value of f(x) = x³ on [0, 2].",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Average = 1/(2-0) ∫₀² x³ dx = 1/2 [x⁴/4]₀² = 1/2 (4) = 2."
+  },
+  {
+    "questionText": "evaluate ∫₀² (x² + 2x) dx using the fundamental theorem of calculus.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20/3", "label": "A" },
+      { "text": "16/3", "label": "B" },
+      { "text": "8/3", "label": "C" },
+      { "text": "4/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² (x² + 2x) dx = [x³/3 + x²]₀² = 8/3 + 4 = 20/3."
+  },
+  {
+    "questionText": "evaluate ∫₁² (x² - 2x) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2/3", "label": "A" },
+      { "text": "2/3", "label": "B" },
+      { "text": "1/3", "label": "C" },
+      { "text": "-1/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁² (x² - 2x) dx = [x³/3 - x²]₁² = (8/3 - 4) - (1/3 - 1) = (-4/3) - (-2/3) = -2/3."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ (2x + 1) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ (2x + 1) dx = [x² + x]₀¹ = 1 + 1 = 2."
+  },
+  {
+    "questionText": "evaluate ∫₁² (3x² - 4) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁² (3x² - 4) dx = [x³ - 4x]₁² = (8 - 8) - (1 - 4) = 0 - (-3) = 3."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) 2 sin x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "-2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) 2 sin x dx = 2[-cos x]₀^(π/2) = 2(0 + 1) = 2."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) 3 cos x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "-3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) 3 cos x dx = 3[sin x]₀^(π/2) = 3(1 - 0) = 3."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ 4x³ dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ 4x³ dx = [x⁴]₀¹ = 1."
+  },
+  {
+    "questionText": "evaluate ∫₀² 5x⁴ dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "32", "label": "A" },
+      { "text": "16", "label": "B" },
+      { "text": "8", "label": "C" },
+      { "text": "64", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² 5x⁴ dx = 5[x⁵/5]₀² = [x⁵]₀² = 32."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/4) sec² x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "π/4", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/4) sec² x dx = [tan x]₀^(π/4) = 1 - 0 = 1."
+  },
+  {
+    "questionText": "evaluate ∫₀^π cos x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "-1", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^π cos x dx = [sin x]₀^π = 0 - 0 = 0."
+  },
+  {
+    "questionText": "evaluate ∫₀^π sin x dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "-2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^π sin x dx = [-cos x]₀^π = 1 + 1 = 2."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ (x² + x) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5/6", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "2/3", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ (x² + x) dx = [x³/3 + x²/2]₀¹ = 1/3 + 1/2 = 5/6."
+  },
+  {
+    "questionText": "find the area under y = x³ + 1 from x = 0 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "8", "label": "C" },
+      { "text": "10", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² (x³ + 1) dx = [x⁴/4 + x]₀² = 4 + 2 = 6."
+  },
+  {
+    "questionText": "find the area under y = 2x + 1 from x = 0 to x = 3.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12", "label": "A" },
+      { "text": "9", "label": "B" },
+      { "text": "15", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀³ (2x + 1) dx = [x² + x]₀³ = 9 + 3 = 12."
+  },
+  {
+    "questionText": "find the area between y = x² and y = x + 2 from x = -1 to x = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9/2", "label": "A" },
+      { "text": "7/2", "label": "B" },
+      { "text": "11/2", "label": "C" },
+      { "text": "5/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₋₁² [(x+2) - x²] dx = [x²/2 + 2x - x³/3]₋₁² = (2 + 4 - 8/3) - (1/2 - 2 + 1/3) = 10/3 - (-7/6) = 9/2."
+  },
+  {
+    "questionText": "if v(t) = t² + 1, find the displacement from t = 0 to t = 2.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "14/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀² (t² + 1) dt = [t³/3 + t]₀² = 8/3 + 2 = 14/3."
+  },
+  {
+    "questionText": "find the average value of f(x) = 2x on [0, 3].",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Average = 1/(3-0) ∫₀³ 2x dx = 1/3 [x²]₀³ = 1/3 (9) = 3."
+  },
+  {
+    "questionText": "evaluate ∫₋₁¹ x dx using symmetry.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "-1", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = x is an odd function. For odd functions, ∫₋₁¹ x dx = 0."
+  },
+  {
+    "questionText": "evaluate ∫₋₂² x² dx using symmetry.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = x² is an even function. ∫₋₂² x² dx = 2∫₀² x² dx = 2(8/3) = 16/3."
+  },
+  {
+    "questionText": "evaluate ∫₀² (2x² + 3) dx.",
+    "topic": "definite integrals and applications",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 10,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "34/3", "label": "A" },
+      { "text": "16/3", "label": "B" },
+      { "text": "22/3", "label": "C" },
+      { "text": "10/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² (2x² + 3) dx = [2x³/3 + 3x]₀² = 16/3 + 6 = 34/3."
+  }
+]

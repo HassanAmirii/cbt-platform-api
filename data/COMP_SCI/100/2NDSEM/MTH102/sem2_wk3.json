@@ -1,0 +1,1739 @@
+[
+  {
+    "questionText": "what is the central concept that provides the foundation for understanding continuity, derivatives, and integrals in calculus?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "algebra", "label": "A" },
+      { "text": "trigonometry", "label": "B" },
+      { "text": "limits", "label": "C" },
+      { "text": "geometry", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "limits provide the foundation for understanding continuity, derivatives, and integrals in calculus."
+  },
+  {
+    "questionText": "the limit of a function describes what value the function ______ as the input approaches a specific point.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "equals", "label": "A" },
+      { "text": "approaches", "label": "B" },
+      { "text": "ignores", "label": "C" },
+      { "text": "diverges from", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the limit describes the value the function approaches as the input approaches a specific point, not necessarily what it equals at that point."
+  },
+  {
+    "questionText": "the notation lim_{x → a} f(x) = l means that as x approaches a, f(x) approaches:",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "a", "label": "A" },
+      { "text": "f(a)", "label": "B" },
+      { "text": "l", "label": "C" },
+      { "text": "infinity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the notation lim_{x → a} f(x) = l means that as x gets closer to a, the values of f(x) get closer to l."
+  },
+  {
+    "questionText": "for a two-sided limit to exist at x = a, what condition must be satisfied?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(a) must be defined", "label": "A" },
+      { "text": "the left-hand limit must exist", "label": "B" },
+      { "text": "the right-hand limit must exist", "label": "C" },
+      { "text": "both one-sided limits must exist and be equal", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "for a two-sided limit to exist, the left-hand limit and right-hand limit must both exist and be equal."
+  },
+  {
+    "questionText": "the left-hand limit of a function is the value it approaches as x approaches a from the:",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "right (x > a)", "label": "A" },
+      { "text": "left (x < a)", "label": "B" },
+      { "text": "origin", "label": "C" },
+      { "text": "infinity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the left-hand limit is the value the function approaches as x approaches a from the left, meaning values less than a."
+  },
+  {
+    "questionText": "the right-hand limit of a function is the value it approaches as x approaches a from the:",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "left (x < a)", "label": "A" },
+      { "text": "right (x > a)", "label": "B" },
+      { "text": "y-axis", "label": "C" },
+      { "text": "zero", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the right-hand limit is the value the function approaches as x approaches a from the right, meaning values greater than a."
+  },
+  {
+    "questionText": "the notation lim_{x → a^-} f(x) represents which type of limit?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "right-hand limit", "label": "A" },
+      { "text": "left-hand limit", "label": "B" },
+      { "text": "two-sided limit", "label": "C" },
+      { "text": "limit at infinity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the superscript minus (-) indicates approaching from the left (values less than a)."
+  },
+  {
+    "questionText": "the notation lim_{x → a^+} f(x) represents which type of limit?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "right-hand limit", "label": "A" },
+      { "text": "left-hand limit", "label": "B" },
+      { "text": "two-sided limit", "label": "C" },
+      { "text": "limit at infinity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the superscript plus (+) indicates approaching from the right (values greater than a)."
+  },
+  {
+    "questionText": "if lim_{x → 2^-} f(x) = 5 and lim_{x → 2^+} f(x) = 7, then the two-sided limit at x = 2:",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "equals 5", "label": "A" },
+      { "text": "equals 7", "label": "B" },
+      { "text": "equals 6", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "since the left-hand limit (5) and right-hand limit (7) are not equal, the two-sided limit does not exist."
+  },
+  {
+    "questionText": "the expression 0/0 is called an indeterminate form because:",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "it equals zero", "label": "A" },
+      { "text": "it equals one", "label": "B" },
+      { "text": "its value cannot be determined directly", "label": "C" },
+      { "text": "it is undefined", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "0/0 is an indeterminate form because its value cannot be determined directly and requires further simplification or techniques like l'hôpital's rule."
+  },
+  {
+    "questionText": "evaluate lim_{x → 3} (2x + 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "7", "label": "C" },
+      { "text": "8", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "lim_{x → 3} (2x + 1) = 2(3) + 1 = 6 + 1 = 7. direct substitution works for polynomial functions."
+  },
+  {
+    "questionText": "evaluate lim_{x → -1} (x² - 3x + 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "lim_{x → -1} (x² - 3x + 2) = (-1)² - 3(-1) + 2 = 1 + 3 + 2 = 6."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (x³ - 2x² + x - 5).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-5", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x → 0} (x³ - 2x² + x - 5) = 0 - 0 + 0 - 5 = -5."
+  },
+  {
+    "questionText": "evaluate lim_{x → 2} (3x² - 4x + 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "5", "label": "B" },
+      { "text": "7", "label": "C" },
+      { "text": "9", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "lim_{x → 2} (3x² - 4x + 1) = 3(4) - 4(2) + 1 = 12 - 8 + 1 = 5."
+  },
+  {
+    "questionText": "evaluate lim_{x → 2} (x² - 4)/(x - 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-2)(x+2)/(x-2) = x+2, so limit = 2+2 = 4."
+  },
+  {
+    "questionText": "evaluate lim_{x → 1} (x² - 1)/(x - 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-1)(x+1)/(x-1) = x+1, so limit = 1+1 = 2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 3} (x² - 9)/(x - 3).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "9", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "factor numerator: (x-3)(x+3)/(x-3) = x+3, so limit = 3+3 = 6."
+  },
+  {
+    "questionText": "evaluate lim_{x → 1} (x³ - 1)/(x - 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "3", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "factor numerator: (x-1)(x² + x + 1)/(x-1) = x² + x + 1, so limit = 1 + 1 + 1 = 3."
+  },
+  {
+    "questionText": "evaluate lim_{x → 2} (x³ - 8)/(x - 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "12", "label": "C" },
+      { "text": "16", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-2)(x² + 2x + 4)/(x-2) = x² + 2x + 4, so limit = 4 + 4 + 4 = 12."
+  },
+  {
+    "questionText": "evaluate lim_{x → 4} (x² - 16)/(x - 4).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "8", "label": "C" },
+      { "text": "10", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-4)(x+4)/(x-4) = x+4, so limit = 4+4 = 8."
+  },
+  {
+    "questionText": "evaluate lim_{x → -2} (x² - 4)/(x + 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-4", "label": "A" },
+      { "text": "-2", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-2)(x+2)/(x+2) = x-2, so limit = -2 - 2 = -4."
+  },
+  {
+    "questionText": "evaluate lim_{x → 5} (x² - 25)/(x - 5).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "10", "label": "B" },
+      { "text": "15", "label": "C" },
+      { "text": "20", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "factor numerator: (x-5)(x+5)/(x-5) = x+5, so limit = 5+5 = 10."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (√(x+1) - 1)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "multiply numerator and denominator by (√(x+1) + 1): (x+1 - 1)/(x(√(x+1)+1)) = x/(x(√(x+1)+1)) = 1/(√(x+1)+1) → 1/(1+1) = 1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 4} (√x - 2)/(x - 4).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/4", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "multiply numerator and denominator by (√x + 2): (x-4)/((x-4)(√x+2)) = 1/(√x+2) → 1/(2+2) = 1/4."
+  },
+  {
+    "questionText": "evaluate lim_{x → 9} (√x - 3)/(x - 9).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/6", "label": "B" },
+      { "text": "1/3", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "multiply numerator and denominator by (√x + 3): (x-9)/((x-9)(√x+3)) = 1/(√x+3) → 1/(3+3) = 1/6."
+  },
+  {
+    "questionText": "evaluate lim_{x → 1} (√x - 1)/(x - 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "multiply numerator and denominator by (√x + 1): (x-1)/((x-1)(√x+1)) = 1/(√x+1) → 1/(1+1) = 1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (√(x+4) - 2)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/4", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "multiply numerator and denominator by (√(x+4) + 2): (x)/(x(√(x+4)+2)) = 1/(√(x+4)+2) → 1/(2+2) = 1/4."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (sin x)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "lim_{x → 0} (sin x)/x = 1, a standard trigonometric limit."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (tan x)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "tan x/x = (sin x/x)(1/cos x) → 1 × 1 = 1 as x → 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (sin 2x)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "sin 2x/x = 2(sin 2x)/(2x) → 2 × 1 = 2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (sin 3x)/(2x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "3/2", "label": "C" },
+      { "text": "3", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "sin 3x/(2x) = (3/2)(sin 3x)/(3x) → (3/2) × 1 = 3/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (1 - cos x)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "using l'hôpital's rule: derivative of 1 - cos x is sin x, derivative of x is 1, so limit = sin(0)/1 = 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (1 - cos x)/x².",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "using l'hôpital's rule twice or the identity 1 - cos x = 2 sin²(x/2) gives limit = 1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (e^x - 1)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "e", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "using l'hôpital's rule: derivative of e^x - 1 is e^x, derivative of x is 1, so limit = e^0 = 1."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (a^x - 1)/x for a > 0.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "ln a", "label": "C" },
+      { "text": "e^a", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "using l'hôpital's rule: derivative of a^x is a^x ln a, so limit = ln a."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (ln(1 + x))/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "e", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "using l'hôpital's rule: derivative of ln(1+x) is 1/(1+x), derivative of x is 1, so limit = 1/(1+0) = 1."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} 1/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "as x becomes very large, 1/x gets closer and closer to 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → -∞} 1/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "-∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "as x becomes very negative, 1/x approaches 0 from below."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (2x + 1)/(3x - 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2/3", "label": "B" },
+      { "text": "3/2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x: (2 + 1/x)/(3 - 2/x) → 2/3 as x → ∞."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (3x² + 2x + 1)/(x² - 5).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "divide numerator and denominator by x²: (3 + 2/x + 1/x²)/(1 - 5/x²) → 3/1 = 3."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (5x³ - 2x + 1)/(2x³ + 4x²).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "5/2", "label": "B" },
+      { "text": "2/5", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x³: (5 - 2/x² + 1/x³)/(2 + 4/x) → 5/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (x² + 3x)/(4x² - x + 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/4", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x²: (1 + 3/x)/(4 - 1/x + 2/x²) → 1/4."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (2x⁴ - 3x² + 5)/(x⁴ + 2x² - 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "divide numerator and denominator by x⁴: (2 - 3/x² + 5/x⁴)/(1 + 2/x² - 1/x⁴) → 2/1 = 2."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (x³ + 1)/(x² + 2x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "degree of numerator (3) > degree of denominator (2), so as x → ∞, the expression grows without bound."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (2x + 1)/(x² - 3).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "degree of numerator (1) < degree of denominator (2), so as x → ∞, the expression approaches 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (√(x² + x) - x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "multiply by conjugate: (x² + x - x²)/(√(x²+x) + x) = x/(√(x²+x) + x) → 1/(1+1) = 1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → -∞} (2x³ - 5x² + 1)/(4x³ + 3x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x³: (2 - 5/x + 1/x³)/(4 + 3/x²) → 2/4 = 1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (x² sin(1/x))/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "simplify to lim_{x → 0} x sin(1/x). since -|x| ≤ x sin(1/x) ≤ |x|, by squeeze theorem limit = 0."
+  },
+  {
+    "questionText": "what is the horizontal asymptote of f(x) = 1/x?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 0", "label": "A" },
+      { "text": "y = 1", "label": "B" },
+      { "text": "x = 0", "label": "C" },
+      { "text": "no asymptote", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x → ±∞} 1/x = 0, so y = 0 is a horizontal asymptote."
+  },
+  {
+    "questionText": "what is the horizontal asymptote of f(x) = (2x² + 3)/(x² - 1)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 0", "label": "A" },
+      { "text": "y = 1", "label": "B" },
+      { "text": "y = 2", "label": "C" },
+      { "text": "no horizontal asymptote", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "divide numerator and denominator by x²: (2 + 3/x²)/(1 - 1/x²) → 2/1 = 2 as x → ∞."
+  },
+  {
+    "questionText": "what is the horizontal asymptote of f(x) = (x³ + 1)/(2x³ - x)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 0", "label": "A" },
+      { "text": "y = 1/2", "label": "B" },
+      { "text": "y = 1", "label": "C" },
+      { "text": "no horizontal asymptote", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x³: (1 + 1/x³)/(2 - 1/x²) → 1/2 as x → ∞."
+  },
+  {
+    "questionText": "what is the horizontal asymptote of f(x) = (2x + 1)/(x² - 4)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 0", "label": "A" },
+      { "text": "y = 2", "label": "B" },
+      { "text": "y = 1/2", "label": "C" },
+      { "text": "no horizontal asymptote", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "degree of numerator (1) < degree of denominator (2), so horizontal asymptote at y = 0."
+  },
+  {
+    "questionText": "what is the vertical asymptote of f(x) = 1/(x - 3)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = 0", "label": "A" },
+      { "text": "x = 1", "label": "B" },
+      { "text": "x = 3", "label": "C" },
+      { "text": "x = -3", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x approaches 3, the denominator approaches 0, creating a vertical asymptote at x = 3."
+  },
+  {
+    "questionText": "what is the vertical asymptote of f(x) = (x + 1)/(x - 2)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = -1", "label": "A" },
+      { "text": "x = 1", "label": "B" },
+      { "text": "x = 2", "label": "C" },
+      { "text": "x = -2", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the denominator is zero at x = 2 and the numerator is not zero there, creating a vertical asymptote at x = 2."
+  },
+  {
+    "questionText": "what is the vertical asymptote of f(x) = (x² - 9)/(x² - 4x + 3)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = 1 only", "label": "A" },
+      { "text": "x = 3 only", "label": "B" },
+      { "text": "x = 1 and x = 3", "label": "C" },
+      { "text": "x = -3 only", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor denominator: (x-1)(x-3). at x=3, numerator also zero (x²-9=0), so x=3 is a hole. at x=1, numerator ≠ 0, so vertical asymptote at x=1."
+  },
+  {
+    "questionText": "what is the vertical asymptote of f(x) = tan x?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = 0", "label": "A" },
+      { "text": "x = π/2 + nπ for integers n", "label": "B" },
+      { "text": "x = nπ for integers n", "label": "C" },
+      { "text": "no vertical asymptotes", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "tan x has vertical asymptotes at x = π/2 + nπ where cos x = 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 2^+} 1/(x - 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "+∞", "label": "B" },
+      { "text": "-∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "as x → 2^+, (x-2) → 0^+, so 1/(x-2) → +∞."
+  },
+  {
+    "questionText": "evaluate lim_{x → 2^-} 1/(x - 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "+∞", "label": "B" },
+      { "text": "-∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x → 2^-, (x-2) → 0^-, so 1/(x-2) → -∞."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0^+} 1/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "+∞", "label": "B" },
+      { "text": "-∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "as x → 0^+, 1/x → +∞."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0^-} 1/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "+∞", "label": "B" },
+      { "text": "-∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x → 0^-, 1/x → -∞."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0^+} ln x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "+∞", "label": "B" },
+      { "text": "-∞", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x → 0^+, ln x → -∞."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} e^{-x}.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "as x → ∞, e^{-x} = 1/e^x → 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} x ln x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "rewrite as lim_{x → 0} ln x / (1/x). using l'hôpital's rule gives 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (ln x)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "as x → ∞, ln x grows slower than x, so the ratio approaches 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (1 + x)^{1/x}.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "e", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "this is a standard limit equal to e ≈ 2.71828."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (1 + 1/x)^x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "e", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "this is a standard limit equal to e ≈ 2.71828."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (x² sin(1/x)).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "since -x² ≤ x² sin(1/x) ≤ x², by squeeze theorem limit = 0."
+  },
+  {
+    "questionText": "a function is continuous at x = a if which condition holds?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "lim_{x → a} f(x) exists", "label": "A" },
+      { "text": "f(a) exists", "label": "B" },
+      { "text": "lim_{x → a} f(x) = f(a)", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "continuity requires all three: limit exists, function exists, and they are equal."
+  },
+  {
+    "questionText": "if a function is continuous at x = a, then lim_{x → a} f(x) =:",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(a)", "label": "A" },
+      { "text": "f(a)", "label": "B" },
+      { "text": "a", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "continuity at a means lim_{x → a} f(x) = f(a)."
+  },
+  {
+    "questionText": "what type of discontinuity occurs when the left-hand and right-hand limits exist and are equal but f(a) is different or undefined?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "jump discontinuity", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "infinite discontinuity", "label": "C" },
+      { "text": "oscillating discontinuity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a removable discontinuity occurs when the limit exists but does not equal f(a) or f(a) is undefined."
+  },
+  {
+    "questionText": "if a function is differentiable at a point, what can we conclude about continuity?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "it must be continuous", "label": "A" },
+      { "text": "it may be discontinuous", "label": "B" },
+      { "text": "it is not continuous", "label": "C" },
+      { "text": "continuity is unrelated", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "differentiability implies continuity, but continuity does not guarantee differentiability."
+  },
+  {
+    "questionText": "the derivative of a function is defined as a limit. which limit defines the derivative?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(x) = lim_{h → 0} (f(x+h) - f(x))/h", "label": "A" },
+      { "text": "f'(x) = lim_{h → ∞} (f(x+h) - f(x))/h", "label": "B" },
+      { "text": "f'(x) = (f(x+h) - f(x))/h", "label": "C" },
+      { "text": "f'(x) = lim_{x → a} f(x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the derivative is defined as the limit of the difference quotient as h approaches 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 2} (x² - 4x + 4)/(x - 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-2)²/(x-2) = x-2, so limit = 2-2 = 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 1} (x^4 - 1)/(x - 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "factor numerator: (x-1)(x³+x²+x+1)/(x-1) = x³+x²+x+1, so limit = 1+1+1+1 = 4."
+  },
+  {
+    "questionText": "evaluate lim_{x → -1} (x² - 1)/(x + 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-1)(x+1)/(x+1) = x-1, so limit = -1 - 1 = -2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (sin 5x)/(sin 2x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2/5", "label": "B" },
+      { "text": "5/2", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "rewrite as (sin 5x)/(5x) × (2x)/(sin 2x) × (5/2) → 1 × 1 × 5/2 = 5/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (tan 3x)/(sin 4x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "3/4", "label": "B" },
+      { "text": "4/3", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "rewrite as (tan 3x)/(3x) × (4x)/(sin 4x) × (3/4) → 1 × 1 × 3/4 = 3/4."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (sin x - x)/x³.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "-1/6", "label": "B" },
+      { "text": "1/6", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "using series expansion: sin x = x - x³/6 + ... so (sin x - x)/x³ → -1/6."
+  },
+  {
+    "questionText": "evaluate lim_{x → 1} (x^n - 1)/(x - 1) for any positive integer n.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "n", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor as (x-1)(x^{n-1} + x^{n-2} + ... + 1)/(x-1) = n terms of 1, sum = n."
+  },
+  {
+    "questionText": "evaluate lim_{x → 3} (x² - 2x - 3)/(x - 3).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "5", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-3)(x+1)/(x-3) = x+1, so limit = 3+1 = 4."
+  },
+  {
+    "questionText": "evaluate lim_{x → 2} (x² + x - 6)/(x - 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-2)(x+3)/(x-2) = x+3, so limit = 2+3 = 5."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (sin x - tan x)/x³.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "-1/2", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "using series: sin x = x - x³/6, tan x = x + x³/3, difference = -x³/2, divided by x³ = -1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (e^{2x} - 1)/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "e", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "using l'hôpital's rule: derivative of e^{2x} - 1 is 2e^{2x}, so limit = 2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (1 - cos 2x)/(x²).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "1 - cos 2x = 2 sin² x, so limit = 2(sin x/x)² → 2 × 1 = 2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} x csc x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "x csc x = x/sin x → 1 as x → 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (x² + 1)/(2x² - 3x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x²: (1 + 1/x²)/(2 - 3/x) → 1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (3x³ - 2x + 1)/(5x³ + 4x² - x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "3/5", "label": "B" },
+      { "text": "5/3", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x³: (3 - 2/x² + 1/x³)/(5 + 4/x - 1/x²) → 3/5."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (4x² - 3x)/(x² + 2x + 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "divide numerator and denominator by x²: (4 - 3/x)/(1 + 2/x + 1/x²) → 4/1 = 4."
+  },
+  {
+    "questionText": "evaluate lim_{x → -∞} (2x² - 5x)/(x² + 3).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "-5", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "divide numerator and denominator by x²: (2 - 5/x)/(1 + 3/x²) → 2/1 = 2."
+  },
+  {
+    "questionText": "what is the horizontal asymptote of f(x) = (3x - 2)/(2x + 5)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 0", "label": "A" },
+      { "text": "y = 2/3", "label": "B" },
+      { "text": "y = 3/2", "label": "C" },
+      { "text": "no horizontal asymptote", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "divide numerator and denominator by x: (3 - 2/x)/(2 + 5/x) → 3/2 as x → ∞."
+  },
+  {
+    "questionText": "what is the vertical asymptote of f(x) = (x² + 1)/(x - 2)?",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = 1", "label": "A" },
+      { "text": "x = 2", "label": "B" },
+      { "text": "x = -1", "label": "C" },
+      { "text": "no vertical asymptote", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "denominator is zero at x = 2 and numerator is not zero there, so vertical asymptote at x = 2."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (csc x - cot x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "rewrite as (1/sin x - cos x/sin x) = (1 - cos x)/sin x → 0/1 = 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (tan x - x)/(x³).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/3", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "using series expansion: tan x = x + x³/3 + ..., so (tan x - x)/x³ → 1/3."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0^+} x^x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "write as e^{x ln x}. as x → 0^+, x ln x → 0, so e^0 = 1."
+  },
+  {
+    "questionText": "evaluate lim_{x → π/2} tan x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      {
+        "text": "does not exist but approaches +∞ from left and -∞ from right",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "as x → π/2 from left, tan x → +∞; from right, tan x → -∞. therefore the two-sided limit does not exist."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (sin x)/(x + x²).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "sin x/(x(1+x)) = (sin x/x) × 1/(1+x) → 1 × 1 = 1."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (1 - cos x)/(x sin x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "using 1 - cos x = 2 sin²(x/2), rewrite as 2 sin²(x/2)/(x sin x) → 1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (√(x² + 3x) - x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "3/2", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "multiply by conjugate: (3x)/(√(x²+3x) + x) → 3/(1+1) = 3/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → ∞} (√(4x² + 1) - 2x).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/4", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "multiply by conjugate: (1)/(√(4x²+1) + 2x) → 0 as x → ∞."
+  },
+  {
+    "questionText": "evaluate lim_{x → 1} (x² - 3x + 2)/(x² - 1).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "-1/2", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "factor numerator: (x-1)(x-2), denominator: (x-1)(x+1), so limit = (x-2)/(x+1) → (-1)/(2) = -1/2."
+  },
+  {
+    "questionText": "evaluate lim_{x → -1} (x² + 2x + 1)/(x² + 3x + 2).",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x+1)², denominator: (x+1)(x+2), so limit = (x+1)/(x+2) → 0/1 = 0."
+  },
+  {
+    "questionText": "evaluate lim_{x → 0} (2 - √(x+4))/x.",
+    "topic": "limits of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "-1/4", "label": "B" },
+      { "text": "1/4", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "multiply numerator and denominator by (2+√(x+4)): (4-(x+4))/(x(2+√(x+4))) = -x/(x(2+√(x+4))) = -1/(2+√(x+4)) → -1/4."
+  }
+]

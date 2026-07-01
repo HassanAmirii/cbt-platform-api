@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "what is a data source?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The final output of data analysis",
+        "label": "A"
+      },
+      {
+        "text": "The origin from which data is obtained",
+        "label": "B"
+      },
+      {
+        "text": "The method used to analyze data",
+        "label": "C"
+      },
+      {
+        "text": "The software used to store data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A data source is the origin from which data is obtained, such as a person, document, institution, database, or sensor."
+  },
+  {
+    "questionText": "what does data gathering refer to?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The process of deleting unnecessary data",
+        "label": "A"
+      },
+      {
+        "text": "The process of collecting, measuring, recording, or capturing data for a specific purpose",
+        "label": "B"
+      },
+      {
+        "text": "The process of analyzing data",
+        "label": "C"
+      },
+      {
+        "text": "The process of storing data in a database",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data gathering refers to the process of collecting, measuring, recording, or capturing data for a specific purpose."
+  },
+  {
+    "questionText": "according to the chapter, the quality of the final result in data analysis depends strongly on:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The software used",
+        "label": "A"
+      },
+      {
+        "text": "The reliability of the source and suitability of the gathering method",
+        "label": "B"
+      },
+      {
+        "text": "The number of researchers",
+        "label": "C"
+      },
+      {
+        "text": "The age of the data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The quality of the final result depends strongly on the reliability of the source and the suitability of the method used to gather the data."
+  },
+  {
+    "questionText": "which of the following can be a data source?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A person",
+        "label": "A"
+      },
+      {
+        "text": "A database",
+        "label": "B"
+      },
+      {
+        "text": "A sensor",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "A data source may be a person, document, institution, database, website, machine, digital platform, archive, or sensor."
+  },
+  {
+    "questionText": "a class register serving as a source for attendance analysis is an example of a:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data gathering method",
+        "label": "A"
+      },
+      {
+        "text": "Data source",
+        "label": "B"
+      },
+      {
+        "text": "Data analysis technique",
+        "label": "C"
+      },
+      {
+        "text": "Data visualization",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A class register is a data source because it provides records (attendance marks) for analysis."
+  },
+  {
+    "questionText": "the usefulness of a data source depends on whether it is:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Expensive to obtain",
+        "label": "A"
+      },
+      {
+        "text": "Relevant to the purpose, dependable in quality, and appropriate for the information sought",
+        "label": "B"
+      },
+      {
+        "text": "Large in size",
+        "label": "C"
+      },
+      {
+        "text": "Recently created",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The usefulness depends on whether it is relevant to the purpose, dependable in quality, and appropriate for the kind of information being sought."
+  },
+  {
+    "questionText": "what should data gathering be based on to be effective?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Random chance",
+        "label": "A"
+      },
+      {
+        "text": "A planned approach that supports the objective of the study",
+        "label": "B"
+      },
+      {
+        "text": "Whatever is easiest",
+        "label": "C"
+      },
+      {
+        "text": "The cheapest available method",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data gathering should be planned in a way that supports the objective of the study, not done casually."
+  },
+  {
+    "questionText": "what may happen when data is gathered carelessly?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Important values may be omitted, duplicated, distorted, or misunderstood",
+        "label": "A"
+      },
+      {
+        "text": "The data becomes more accurate",
+        "label": "B"
+      },
+      {
+        "text": "The analysis becomes faster",
+        "label": "C"
+      },
+      {
+        "text": "The data automatically corrects itself",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "When data is gathered carelessly, important values may be omitted, duplicated, distorted, or misunderstood."
+  },
+  {
+    "questionText": "if a lecturer wants to know why students perform poorly in a test, which method may provide richer data than relying only on final scores?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Using only final scores",
+        "label": "A"
+      },
+      {
+        "text": "Asking students directly through interviews or questionnaires",
+        "label": "B"
+      },
+      {
+        "text": "Ignoring the problem",
+        "label": "C"
+      },
+      {
+        "text": "Looking only at attendance records",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Asking students directly through interviews or questionnaires may provide richer data than relying only on final scores."
+  },
+  {
+    "questionText": "if a lecturer wants to study attendance patterns, which source may be more suitable?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Student interviews",
+        "label": "A"
+      },
+      {
+        "text": "Questionnaires about study habits",
+        "label": "B"
+      },
+      {
+        "text": "The class register",
+        "label": "C"
+      },
+      {
+        "text": "Final examination scores",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "For attendance patterns, the class register is the more suitable source because it directly records attendance data."
+  },
+  {
+    "questionText": "which of the following is not mentioned as a factor to consider when gathering data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The objective of the study",
+        "label": "A"
+      },
+      {
+        "text": "The kind of data required",
+        "label": "B"
+      },
+      {
+        "text": "The popularity of the researcher",
+        "label": "C"
+      },
+      {
+        "text": "The available time and cost",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Factors include objective, type of data required, resources, time, and required reliability. Popularity of researcher is not mentioned."
+  },
+  {
+    "questionText": "what is primary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data collected from textbooks",
+        "label": "A"
+      },
+      {
+        "text": "Data collected directly from the original source for a specific purpose",
+        "label": "B"
+      },
+      {
+        "text": "Data that has already been published",
+        "label": "C"
+      },
+      {
+        "text": "Data that is always numerical",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Primary data is data collected directly from the original source for a specific purpose; it is first-hand information."
+  },
+  {
+    "questionText": "which of the following is a common method of collecting primary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Reading a textbook",
+        "label": "A"
+      },
+      {
+        "text": "Observation",
+        "label": "B"
+      },
+      {
+        "text": "Downloading a government report",
+        "label": "C"
+      },
+      {
+        "text": "Using an archived database",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Observation is a primary data collection method. Textbooks, government reports, and archived databases are secondary data sources."
+  },
+  {
+    "questionText": "which of the following is not a method of collecting primary data mentioned in the chapter?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Questionnaire",
+        "label": "A"
+      },
+      {
+        "text": "Interview",
+        "label": "B"
+      },
+      {
+        "text": "Focus group discussion",
+        "label": "C"
+      },
+      {
+        "text": "Census document",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Census documents are secondary data. Primary methods include observation, interview, questionnaire, survey, focus group, and case study."
+  },
+  {
+    "questionText": "what is secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data collected directly from the field",
+        "label": "A"
+      },
+      {
+        "text": "Data that has already been collected, organised, analysed, or published by another person or institution",
+        "label": "B"
+      },
+      {
+        "text": "Data that is always inaccurate",
+        "label": "C"
+      },
+      {
+        "text": "Data that cannot be used for research",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data is data that has already been collected, organised, analysed, or published by another person, institution, or agency for an earlier purpose."
+  },
+  {
+    "questionText": "which of the following is an example of secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Responses collected from a live questionnaire",
+        "label": "A"
+      },
+      {
+        "text": "Direct observation of customer behaviour",
+        "label": "B"
+      },
+      {
+        "text": "A published government population report",
+        "label": "C"
+      },
+      {
+        "text": "Interview responses from study participants",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A published government population report is secondary data because it was collected by others for an earlier purpose."
+  },
+  {
+    "questionText": "which of the following is an advantage of primary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is always free",
+        "label": "A"
+      },
+      {
+        "text": "It is often more specific to the current purpose",
+        "label": "B"
+      },
+      {
+        "text": "It requires no effort to collect",
+        "label": "C"
+      },
+      {
+        "text": "It is always complete",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Primary data is often more specific to the current purpose because it is collected directly for the present investigation."
+  },
+  {
+    "questionText": "which of the following is a disadvantage of primary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It may be outdated",
+        "label": "A"
+      },
+      {
+        "text": "It may require more time, effort, and cost to collect",
+        "label": "B"
+      },
+      {
+        "text": "It is never relevant",
+        "label": "C"
+      },
+      {
+        "text": "It cannot be trusted",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Primary data may require more time, effort, and cost to collect compared to secondary data."
+  },
+  {
+    "questionText": "which of the following is an advantage of secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is always current",
+        "label": "A"
+      },
+      {
+        "text": "It is often easier and cheaper to obtain",
+        "label": "B"
+      },
+      {
+        "text": "It exactly matches the current objective",
+        "label": "C"
+      },
+      {
+        "text": "It requires primary collection methods",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data is often easier and cheaper to obtain, especially when background information, trend data, or historical records are needed."
+  },
+  {
+    "questionText": "which of the following is a disadvantage of secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It always requires new collection",
+        "label": "A"
+      },
+      {
+        "text": "It may not fully match the current objective or may be outdated",
+        "label": "B"
+      },
+      {
+        "text": "It is always more expensive",
+        "label": "C"
+      },
+      {
+        "text": "It cannot be used for any analysis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data may not fully match the current objective, may be outdated, or may contain limitations from the original collection process."
+  },
+  {
+    "questionText": "the major difference between primary and secondary data lies in:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The size of the data",
+        "label": "A"
+      },
+      {
+        "text": "The source and purpose of collection",
+        "label": "B"
+      },
+      {
+        "text": "The format of the data",
+        "label": "C"
+      },
+      {
+        "text": "The age of the data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The major difference lies in the source and purpose of collection. Primary is collected directly for the present study; secondary was collected for another purpose."
+  },
+  {
+    "questionText": "classify: responses collected from students through a live questionnaire are:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data",
+        "label": "B"
+      },
+      {
+        "text": "Raw data only",
+        "label": "C"
+      },
+      {
+        "text": "Contextualised data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Live questionnaire responses collected directly from students are primary data because they are gathered firsthand for the current purpose."
+  },
+  {
+    "questionText": "classify: a published government population report is:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data",
+        "label": "B"
+      },
+      {
+        "text": "Primary and secondary",
+        "label": "C"
+      },
+      {
+        "text": "Neither",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A published government population report is secondary data because it was collected and published by others for an earlier purpose."
+  },
+  {
+    "questionText": "classify: direct observation of customer behaviour in a supermarket is:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data",
+        "label": "B"
+      },
+      {
+        "text": "Literature review",
+        "label": "C"
+      },
+      {
+        "text": "Archival data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Direct observation is primary data because the researcher collects first-hand information."
+  },
+  {
+    "questionText": "classify: an archived annual university report is:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data",
+        "label": "B"
+      },
+      {
+        "text": "Raw data only",
+        "label": "C"
+      },
+      {
+        "text": "Experimental data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An archived university report is secondary data because it was produced earlier for institutional purposes."
+  },
+  {
+    "questionText": "classify: records downloaded from an existing online database are:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data",
+        "label": "B"
+      },
+      {
+        "text": "Both primary and secondary",
+        "label": "C"
+      },
+      {
+        "text": "Neither",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Records from an existing online database are secondary data because they were collected and stored by others."
+  },
+  {
+    "questionText": "what is raw data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data that has been fully interpreted",
+        "label": "A"
+      },
+      {
+        "text": "Data in its original, unprocessed, and unorganised form",
+        "label": "B"
+      },
+      {
+        "text": "Data that has been summarized",
+        "label": "C"
+      },
+      {
+        "text": "Data that is always numerical",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw data is data in its original, unprocessed, and unorganised form before any cleaning, grouping, summarising, or interpretation."
+  },
+  {
+    "questionText": "which of the following is an example of raw data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A summary report of sales",
+        "label": "A"
+      },
+      {
+        "text": "A chart showing best-selling products",
+        "label": "B"
+      },
+      {
+        "text": "Examination scores exactly as recorded",
+        "label": "C"
+      },
+      {
+        "text": "The class average calculated from scores",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Examination scores exactly as recorded are raw data; summaries, charts, and averages are processed forms."
+  },
+  {
+    "questionText": "what is contextualised data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data that is still in original form",
+        "label": "A"
+      },
+      {
+        "text": "Data that has been organised, interpreted, labelled, grouped, summarised, or explained in relation to a purpose",
+        "label": "B"
+      },
+      {
+        "text": "Data that cannot be analysed",
+        "label": "C"
+      },
+      {
+        "text": "Data that is always numerical",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Contextualised data has been organised, interpreted, labelled, grouped, summarised, compared, or explained in relation to a purpose."
+  },
+  {
+    "questionText": "which of the following is an example of contextualised data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A list of daily transaction entries",
+        "label": "A"
+      },
+      {
+        "text": "Raw sensor readings",
+        "label": "B"
+      },
+      {
+        "text": "The average score calculated from examination results",
+        "label": "C"
+      },
+      {
+        "text": "Unprocessed questionnaire responses",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The average score is contextualised because it processes raw scores into a meaningful summary."
+  },
+  {
+    "questionText": "a simple list of examination scores is:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Contextualised data",
+        "label": "A"
+      },
+      {
+        "text": "Raw data",
+        "label": "B"
+      },
+      {
+        "text": "Summarised data",
+        "label": "C"
+      },
+      {
+        "text": "Interpreted data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A simple list of examination scores is raw data because it is in its original, unprocessed form."
+  },
+  {
+    "questionText": "when raw scores are used to calculate the average, determine the pass rate, and classify performance levels, the result becomes:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Contextualised data",
+        "label": "B"
+      },
+      {
+        "text": "Unprocessed data",
+        "label": "C"
+      },
+      {
+        "text": "Primary data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When raw scores are processed into averages, pass rates, and classifications, meaning is added, making it contextualised data."
+  },
+  {
+    "questionText": "why might raw data not be easy to interpret immediately?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is always too large",
+        "label": "A"
+      },
+      {
+        "text": "Because it may contain missing values, duplicate records, irrelevant entries, or values that do not yet communicate clear meaning",
+        "label": "B"
+      },
+      {
+        "text": "Because it is always numerical",
+        "label": "C"
+      },
+      {
+        "text": "Because it cannot be stored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw data may contain missing values, duplicate records, irrelevant entries, or values that do not yet communicate clear meaning."
+  },
+  {
+    "questionText": "the key difference between raw and contextualised data is that:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data is processed; contextualised is unprocessed",
+        "label": "A"
+      },
+      {
+        "text": "Raw data presents facts in original state; contextualised data presents facts in a form that supports meaning",
+        "label": "B"
+      },
+      {
+        "text": "Raw data is more useful",
+        "label": "C"
+      },
+      {
+        "text": "Contextualised data is less reliable",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw data presents facts in their original state, while contextualised data presents those facts in a form that supports meaning and understanding."
+  },
+  {
+    "questionText": "in the supermarket case study, the transaction list is ________, while total daily sales and most purchased items are ________.",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Information, data",
+        "label": "A"
+      },
+      {
+        "text": "Raw data, contextualised data",
+        "label": "B"
+      },
+      {
+        "text": "Secondary data, primary data",
+        "label": "C"
+      },
+      {
+        "text": "Contextualised data, raw data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The transaction list is raw data; when organised into total sales and best-selling items, it becomes contextualised data."
+  },
+  {
+    "questionText": "why is raw data important despite being difficult to interpret?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is always accurate",
+        "label": "A"
+      },
+      {
+        "text": "Because it preserves the original evidence",
+        "label": "B"
+      },
+      {
+        "text": "Because it is always complete",
+        "label": "C"
+      },
+      {
+        "text": "Because it requires no storage",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw data is important because it preserves the original evidence before any processing or interpretation."
+  },
+  {
+    "questionText": "contextualised data is more useful for communication because:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is larger in size",
+        "label": "A"
+      },
+      {
+        "text": "It allows the analyst to explain what recorded values mean in relation to the problem being studied",
+        "label": "B"
+      },
+      {
+        "text": "It is always numerical",
+        "label": "C"
+      },
+      {
+        "text": "It requires no interpretation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Contextualised data allows the analyst to explain what the recorded values mean in relation to the problem being studied."
+  },
+  {
+    "questionText": "understanding data sources and gathering methods is essential because:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It makes analysis faster",
+        "label": "A"
+      },
+      {
+        "text": "Poor sources and weak collection methods can lead to inaccurate, incomplete, or misleading results",
+        "label": "B"
+      },
+      {
+        "text": "It guarantees perfect results",
+        "label": "C"
+      },
+      {
+        "text": "It eliminates the need for analysis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Poor sources and weak collection methods can lead to inaccurate, incomplete, or misleading results."
+  },
+  {
+    "questionText": "understanding these concepts helps the analyst select appropriate sources and gathering methods, which:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Increases the cost of analysis",
+        "label": "A"
+      },
+      {
+        "text": "Improves the quality and relevance of the dataset from the beginning",
+        "label": "B"
+      },
+      {
+        "text": "Slows down the analysis process",
+        "label": "C"
+      },
+      {
+        "text": "Eliminates the need for data cleaning",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Understanding these concepts improves the quality and relevance of the dataset from the beginning of the analytical process."
+  },
+  {
+    "questionText": "when learners understand the difference between raw and contextualised data, they are:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "More likely to draw quick conclusions",
+        "label": "A"
+      },
+      {
+        "text": "Less likely to draw conclusions too quickly from unprocessed figures",
+        "label": "B"
+      },
+      {
+        "text": "More likely to ignore data quality",
+        "label": "C"
+      },
+      {
+        "text": "Less likely to clean data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When learners understand the difference, they are less likely to draw conclusions too quickly from unprocessed figures."
+  },
+  {
+    "questionText": "good decision-making depends on data that is:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only available",
+        "label": "A"
+      },
+      {
+        "text": "Only numerical",
+        "label": "B"
+      },
+      {
+        "text": "Available, relevant, dependable, and properly understood",
+        "label": "C"
+      },
+      {
+        "text": "Only large in size",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Good decision-making depends on data that is not only available but also relevant, dependable, and properly understood."
+  },
+  {
+    "questionText": "what warning does the chapter give about using data without understanding its source?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is always safe",
+        "label": "A"
+      },
+      {
+        "text": "It may lead to weak interpretation, misleading analysis, and poor decision-making",
+        "label": "B"
+      },
+      {
+        "text": "It guarantees correct results",
+        "label": "C"
+      },
+      {
+        "text": "It eliminates the need for analysis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Using data without understanding its source, method of collection, or context may lead to weak interpretation, misleading analysis, and poor decision-making."
+  },
+  {
+    "questionText": "what questions should analysts always ask about data according to the chapter?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Who owns the data?",
+        "label": "A"
+      },
+      {
+        "text": "Where the data came from, how it was obtained, and what it truly represents",
+        "label": "B"
+      },
+      {
+        "text": "How much the data cost?",
+        "label": "C"
+      },
+      {
+        "text": "What color is the data?",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Analysts should always ask where the data came from, how it was obtained, and what it truly represents."
+  },
+  {
+    "questionText": "which of the following is a primary data collection method?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Reading a journal article",
+        "label": "A"
+      },
+      {
+        "text": "Interview",
+        "label": "B"
+      },
+      {
+        "text": "Using a census document",
+        "label": "C"
+      },
+      {
+        "text": "Downloading a government report",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Interview is a primary data collection method. Journal articles, census documents, and government reports are secondary sources."
+  },
+  {
+    "questionText": "which of the following is a primary data collection method?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Questionnaire",
+        "label": "A"
+      },
+      {
+        "text": "Focus group discussion",
+        "label": "B"
+      },
+      {
+        "text": "Case study",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Questionnaire, focus group discussion, and case study are all primary data collection methods."
+  },
+  {
+    "questionText": "observation as a data gathering method involves:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Asking questions verbally",
+        "label": "A"
+      },
+      {
+        "text": "Watching and recording behaviour, events, or conditions as they occur",
+        "label": "B"
+      },
+      {
+        "text": "Collecting written responses",
+        "label": "C"
+      },
+      {
+        "text": "Conducting experiments",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Observation involves watching and recording behaviour, events, or conditions as they occur."
+  },
+  {
+    "questionText": "an interview as a data gathering method involves:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Watching behaviour",
+        "label": "A"
+      },
+      {
+        "text": "Asking questions directly and receiving verbal responses",
+        "label": "B"
+      },
+      {
+        "text": "Distributing written forms",
+        "label": "C"
+      },
+      {
+        "text": "Reviewing documents",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An interview involves asking questions directly and receiving verbal responses from participants."
+  },
+  {
+    "questionText": "a questionnaire as a data gathering method involves:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Direct observation",
+        "label": "A"
+      },
+      {
+        "text": "Collecting written or digital responses in a structured format",
+        "label": "B"
+      },
+      {
+        "text": "Verbal interviews",
+        "label": "C"
+      },
+      {
+        "text": "Focus group discussions",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A questionnaire collects written or digital responses in a structured format."
+  },
+  {
+    "questionText": "a focus group discussion involves:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Collecting data from a single person",
+        "label": "A"
+      },
+      {
+        "text": "Observing behaviour secretly",
+        "label": "B"
+      },
+      {
+        "text": "Obtaining views from a selected group on a shared issue",
+        "label": "C"
+      },
+      {
+        "text": "Reviewing archival records",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A focus group involves obtaining views from a selected group on a shared issue."
+  },
+  {
+    "questionText": "a case study as a data gathering method involves:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Collecting data from many respondents",
+        "label": "A"
+      },
+      {
+        "text": "Conducting an in-depth examination of a person, event, or institution",
+        "label": "B"
+      },
+      {
+        "text": "Observing behaviour from a distance",
+        "label": "C"
+      },
+      {
+        "text": "Distributing questionnaires",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A case study involves conducting an in-depth examination of a person, event, or institution."
+  },
+  {
+    "questionText": "which of the following is not an example of secondary data mentioned in the chapter?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Textbooks",
+        "label": "A"
+      },
+      {
+        "text": "Journal articles",
+        "label": "B"
+      },
+      {
+        "text": "Direct interview responses",
+        "label": "C"
+      },
+      {
+        "text": "Government reports",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Direct interview responses are primary data. Textbooks, journal articles, and government reports are secondary data sources."
+  },
+  {
+    "questionText": "a survey as a primary data collection method involves:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Studying a single case in depth",
+        "label": "A"
+      },
+      {
+        "text": "Gathering information from many respondents systematically",
+        "label": "B"
+      },
+      {
+        "text": "Observing behaviour secretly",
+        "label": "C"
+      },
+      {
+        "text": "Conducting interviews with one person",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A survey involves gathering information from many respondents systematically."
+  },
+  {
+    "questionText": "why might secondary data be easier to obtain and yet still require careful checking?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is always accurate",
+        "label": "A"
+      },
+      {
+        "text": "Because it may not fully match the current objective, may be outdated, or may contain limitations from the original collection process",
+        "label": "B"
+      },
+      {
+        "text": "Because it is always complete",
+        "label": "C"
+      },
+      {
+        "text": "Because it is always current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data may not fully match the current objective, may be outdated, or may contain limitations from the original collection process."
+  },
+  {
+    "questionText": "why does a list of figures become more useful when it is arranged, explained, or compared with a specific purpose?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it becomes larger",
+        "label": "A"
+      },
+      {
+        "text": "Because it becomes contextualised data that supports meaning and understanding",
+        "label": "B"
+      },
+      {
+        "text": "Because it becomes primary data",
+        "label": "C"
+      },
+      {
+        "text": "Because it becomes raw data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When arranged, explained, or compared, it becomes contextualised data that supports meaning and understanding."
+  },
+  {
+    "questionText": "what may happen if data is collected from a weak source or gathered using an unsuitable method?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The data becomes more valuable",
+        "label": "A"
+      },
+      {
+        "text": "The analysis may produce inaccurate, incomplete, or misleading results",
+        "label": "B"
+      },
+      {
+        "text": "The data automatically corrects itself",
+        "label": "C"
+      },
+      {
+        "text": "The analysis becomes faster",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Poor sources and weak collection methods can lead to inaccurate, incomplete, or misleading results."
+  },
+  {
+    "questionText": "why is it risky to make decisions directly from raw data without first checking its source, relevance, and meaning?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because raw data is always large",
+        "label": "A"
+      },
+      {
+        "text": "Because raw data may contain errors, missing values, or lack context, leading to poor decisions",
+        "label": "B"
+      },
+      {
+        "text": "Because raw data is always accurate",
+        "label": "C"
+      },
+      {
+        "text": "Because raw data cannot be used for decisions",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw data may contain errors, missing values, or lack context. Using it directly without checking can lead to poor decisions."
+  },
+  {
+    "questionText": "when selecting a data source, what should the analyst consider?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only the cost",
+        "label": "A"
+      },
+      {
+        "text": "Only the size",
+        "label": "B"
+      },
+      {
+        "text": "Relevance to purpose, dependability in quality, and appropriateness for the information sought",
+        "label": "C"
+      },
+      {
+        "text": "Only the age of the data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The usefulness depends on relevance to purpose, dependability in quality, and appropriateness for the information sought."
+  },
+  {
+    "questionText": "what does data gathering require attention to?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only speed",
+        "label": "A"
+      },
+      {
+        "text": "Procedure, accuracy, timing, and suitability of method",
+        "label": "B"
+      },
+      {
+        "text": "Only cost",
+        "label": "C"
+      },
+      {
+        "text": "Only the number of people involved",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data gathering requires attention to procedure, accuracy, timing, and suitability of method."
+  },
+  {
+    "questionText": "a website log serving as a source for user behaviour analysis is an example of a:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data gathering method",
+        "label": "A"
+      },
+      {
+        "text": "Data source",
+        "label": "B"
+      },
+      {
+        "text": "Primary data only",
+        "label": "C"
+      },
+      {
+        "text": "Contextualised data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A website log is a data source because it provides records of user activity for analysis."
+  },
+  {
+    "questionText": "a sensor reading collected over time is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Contextualised data",
+        "label": "A"
+      },
+      {
+        "text": "Raw data",
+        "label": "B"
+      },
+      {
+        "text": "Secondary data",
+        "label": "C"
+      },
+      {
+        "text": "Summarised data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Sensor readings in their original form are raw data before any processing or interpretation."
+  },
+  {
+    "questionText": "when raw sensor readings are processed to show average temperature over a week, this becomes:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Contextualised data",
+        "label": "B"
+      },
+      {
+        "text": "Primary data",
+        "label": "C"
+      },
+      {
+        "text": "Unprocessed data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Processing raw sensor readings into an average adds meaning, making it contextualised data."
+  },
+  {
+    "questionText": "which of the following is a key factor to consider when gathering data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The colour of the data",
+        "label": "A"
+      },
+      {
+        "text": "The required level of reliability",
+        "label": "B"
+      },
+      {
+        "text": "The name of the researcher",
+        "label": "C"
+      },
+      {
+        "text": "The brand of computer used",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Factors include the objective, type of data required, resources, time, and required level of reliability."
+  },
+  {
+    "questionText": "a census document is an example of which type of data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data",
+        "label": "B"
+      },
+      {
+        "text": "Raw data only",
+        "label": "C"
+      },
+      {
+        "text": "Experimental data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Census documents are secondary data because they were collected and published by government agencies for earlier purposes."
+  },
+  {
+    "questionText": "which of the following best describes the relationship between raw and contextualised data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They are the same thing",
+        "label": "A"
+      },
+      {
+        "text": "Raw data is the foundation; contextualised data is what helps interpretation",
+        "label": "B"
+      },
+      {
+        "text": "Contextualised data is less useful",
+        "label": "C"
+      },
+      {
+        "text": "Raw data requires no processing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw data is essential as the foundation, but contextualised data is what helps interpretation and decision-making."
+  },
+  {
+    "questionText": "why does the chapter emphasize understanding data sources and gathering methods?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is required by law",
+        "label": "A"
+      },
+      {
+        "text": "Because it helps analysts make better decisions about what data to use, how to collect it, how to assess quality, and how to interpret it",
+        "label": "B"
+      },
+      {
+        "text": "Because it makes analysis more expensive",
+        "label": "C"
+      },
+      {
+        "text": "Because it slows down the process",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Understanding these helps analysts make better decisions about what data to use, how to collect it, how to assess quality, and how to interpret it."
+  },
+  {
+    "questionText": "in education, business, government, health care, and technology, understanding data sources and gathering methods:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Is unimportant",
+        "label": "A"
+      },
+      {
+        "text": "Improves the credibility and usefulness of analysis",
+        "label": "B"
+      },
+      {
+        "text": "Slows down decision-making",
+        "label": "C"
+      },
+      {
+        "text": "Increases errors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Such understanding improves the credibility and usefulness of analysis in all these fields."
+  },
+  {
+    "questionText": "which of the following is a characteristic of primary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is always free",
+        "label": "A"
+      },
+      {
+        "text": "It is first-hand information obtained directly from the original source",
+        "label": "B"
+      },
+      {
+        "text": "It is always outdated",
+        "label": "C"
+      },
+      {
+        "text": "It requires no collection effort",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Primary data is first-hand information obtained directly from the original source for a specific purpose."
+  },
+  {
+    "questionText": "which of the following is a characteristic of secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is collected directly for the current study",
+        "label": "A"
+      },
+      {
+        "text": "It has already been collected, organised, or published by another person or institution",
+        "label": "B"
+      },
+      {
+        "text": "It always matches the current objective exactly",
+        "label": "C"
+      },
+      {
+        "text": "It requires primary collection methods",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data has already been collected, organised, analysed, or published by another person or institution for an earlier purpose."
+  },
+  {
+    "questionText": "a researcher conducting an in-depth examination of a single hospital's patient care process is using which primary data method?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Survey",
+        "label": "A"
+      },
+      {
+        "text": "Case study",
+        "label": "B"
+      },
+      {
+        "text": "Questionnaire",
+        "label": "C"
+      },
+      {
+        "text": "Observation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An in-depth examination of a single person, event, or institution is a case study."
+  },
+  {
+    "questionText": "which primary data method would be most appropriate for understanding opinions of many students quickly?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Case study",
+        "label": "A"
+      },
+      {
+        "text": "Focus group",
+        "label": "B"
+      },
+      {
+        "text": "Questionnaire or survey",
+        "label": "C"
+      },
+      {
+        "text": "Observation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Questionnaires or surveys are efficient for gathering opinions from many respondents systematically."
+  },
+  {
+    "questionText": "a system login record showing timestamps of user access is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Contextualised data",
+        "label": "A"
+      },
+      {
+        "text": "Raw data",
+        "label": "B"
+      },
+      {
+        "text": "Secondary data",
+        "label": "C"
+      },
+      {
+        "text": "Summarised data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "System login records in their original form are raw data before processing or interpretation."
+  },
+  {
+    "questionText": "when system login records are processed to show peak usage hours, this becomes:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Contextualised data",
+        "label": "B"
+      },
+      {
+        "text": "Primary data",
+        "label": "C"
+      },
+      {
+        "text": "Unprocessed data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Processing raw records into peak usage hours adds meaning, making it contextualised data."
+  },
+  {
+    "questionText": "which of the following factors should guide the choice between primary and secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only cost",
+        "label": "A"
+      },
+      {
+        "text": "Only time",
+        "label": "B"
+      },
+      {
+        "text": "The purpose of the study, type of data needed, resources, time, and required reliability",
+        "label": "C"
+      },
+      {
+        "text": "Only availability",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The choice depends on the purpose, type of data needed, available resources, time, and required reliability."
+  },
+  {
+    "questionText": "a diary written by a research participant about their daily experiences is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Secondary data",
+        "label": "A"
+      },
+      {
+        "text": "Primary data",
+        "label": "B"
+      },
+      {
+        "text": "Published data",
+        "label": "C"
+      },
+      {
+        "text": "Archival data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A participant's diary is primary data because it is first-hand information collected directly from the source."
+  },
+  {
+    "questionText": "a biography written about a historical figure based on archived letters is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data",
+        "label": "B"
+      },
+      {
+        "text": "Raw data",
+        "label": "C"
+      },
+      {
+        "text": "Experimental data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A biography is secondary data because it interprets and synthesizes primary sources (letters) collected by others."
+  },
+  {
+    "questionText": "what does the chapter say about the relationship between data gathering and study objectives?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They are unrelated",
+        "label": "A"
+      },
+      {
+        "text": "Data gathering should be planned in a way that supports the objective of the study",
+        "label": "B"
+      },
+      {
+        "text": "Objectives should be ignored during gathering",
+        "label": "C"
+      },
+      {
+        "text": "Gathering comes before objectives",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data gathering should be planned in a way that supports the objective of the study."
+  },
+  {
+    "questionText": "a transaction list from a supermarket checkout is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Contextualised data",
+        "label": "A"
+      },
+      {
+        "text": "Raw data",
+        "label": "B"
+      },
+      {
+        "text": "Summarised data",
+        "label": "C"
+      },
+      {
+        "text": "Interpreted data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A transaction list in its original recorded form is raw data."
+  },
+  {
+    "questionText": "a report showing total daily sales and peak selling hours is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Contextualised data",
+        "label": "B"
+      },
+      {
+        "text": "Primary data only",
+        "label": "C"
+      },
+      {
+        "text": "Unprocessed data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A summary report processing raw sales data into meaningful insights is contextualised data."
+  },
+  {
+    "questionText": "why does the chapter state that 'data gathering should not be done casually'?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is expensive",
+        "label": "A"
+      },
+      {
+        "text": "Because careful gathering prevents omissions, duplications, distortions, and misunderstandings",
+        "label": "B"
+      },
+      {
+        "text": "Because it requires special equipment",
+        "label": "C"
+      },
+      {
+        "text": "Because it takes too long",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When data is gathered carelessly, important values may be omitted, duplicated, distorted, or misunderstood."
+  },
+  {
+    "questionText": "which of the following is an example of a primary data source?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A textbook on statistics",
+        "label": "A"
+      },
+      {
+        "text": "A government census report",
+        "label": "B"
+      },
+      {
+        "text": "A live interview with a participant",
+        "label": "C"
+      },
+      {
+        "text": "A published journal article",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A live interview is a primary data source because information is collected directly from the participant."
+  },
+  {
+    "questionText": "which of the following is an example of a secondary data source?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A survey you conduct yourself",
+        "label": "A"
+      },
+      {
+        "text": "Direct observation of behaviour",
+        "label": "B"
+      },
+      {
+        "text": "A government statistical abstract",
+        "label": "C"
+      },
+      {
+        "text": "An interview you record",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A government statistical abstract is secondary data because it was collected and published by others."
+  },
+  {
+    "questionText": "when using secondary data, what should the analyst check?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only the size",
+        "label": "A"
+      },
+      {
+        "text": "Whether it matches the current objective and whether it is current, reliable, and free from limitations",
+        "label": "B"
+      },
+      {
+        "text": "Only the author's name",
+        "label": "C"
+      },
+      {
+        "text": "Only the publication date",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Analysts should check whether secondary data matches the current objective and whether it is current, reliable, and free from limitations."
+  },
+  {
+    "questionText": "what does the chapter identify as the foundation of good analysis?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Expensive software",
+        "label": "A"
+      },
+      {
+        "text": "High-quality data from reliable sources gathered with suitable methods",
+        "label": "B"
+      },
+      {
+        "text": "Large teams of analysts",
+        "label": "C"
+      },
+      {
+        "text": "Fast computers",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The quality of analysis depends on reliable sources and suitable gathering methods producing high-quality data."
+  },
+  {
+    "questionText": "why might a researcher choose secondary data over primary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because secondary data is always more accurate",
+        "label": "A"
+      },
+      {
+        "text": "Because secondary data is often easier and cheaper to obtain, especially for background or historical information",
+        "label": "B"
+      },
+      {
+        "text": "Because secondary data requires no evaluation",
+        "label": "C"
+      },
+      {
+        "text": "Because secondary data is always current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data is often easier and cheaper to obtain, especially when background information, trend data, or historical records are needed."
+  },
+  {
+    "questionText": "why might a researcher choose primary data over secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because primary data is always free",
+        "label": "A"
+      },
+      {
+        "text": "Because primary data is often more specific to the current purpose",
+        "label": "B"
+      },
+      {
+        "text": "Because primary data requires less time",
+        "label": "C"
+      },
+      {
+        "text": "Because primary data is always complete",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Primary data is often more specific to the current purpose because it is collected directly for the present investigation."
+  },
+  {
+    "questionText": "a student's examination score of 75 is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Contextualised data",
+        "label": "A"
+      },
+      {
+        "text": "Raw data",
+        "label": "B"
+      },
+      {
+        "text": "Summarised data",
+        "label": "C"
+      },
+      {
+        "text": "Interpreted data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A single raw score is raw data before any processing or interpretation."
+  },
+  {
+    "questionText": "the statement 'the class average is 72%' is an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Contextualised data",
+        "label": "B"
+      },
+      {
+        "text": "Primary data",
+        "label": "C"
+      },
+      {
+        "text": "Unprocessed data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A class average is contextualised because it processes raw scores into a meaningful summary."
+  },
+  {
+    "questionText": "what does the chapter mean by 'raw data preserves the original evidence'?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data should never be processed",
+        "label": "A"
+      },
+      {
+        "text": "Raw data in its original form maintains the unaltered facts as they were recorded",
+        "label": "B"
+      },
+      {
+        "text": "Raw data is always more useful",
+        "label": "C"
+      },
+      {
+        "text": "Raw data cannot be stored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw data preserves the original evidence before any cleaning, grouping, summarising, or interpretation."
+  },
+  {
+    "questionText": "what is the role of contextualised data in decision-making?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It replaces the need for raw data",
+        "label": "A"
+      },
+      {
+        "text": "It helps decision-makers interpret what recorded values mean in relation to the problem being studied",
+        "label": "B"
+      },
+      {
+        "text": "It is less important than raw data",
+        "label": "C"
+      },
+      {
+        "text": "It should never be used",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Contextualised data helps decision-makers interpret what recorded values mean in relation to the problem being studied."
+  },
+  {
+    "questionText": "in the case study of a supermarket, what does 'peak selling hours' represent?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Contextualised data that supports better planning",
+        "label": "B"
+      },
+      {
+        "text": "Primary data only",
+        "label": "C"
+      },
+      {
+        "text": "Unprocessed transaction data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Peak selling hours is contextualised data that processes raw transaction times into meaningful insights for planning."
+  },
+  {
+    "questionText": "which of the following is a potential problem with secondary data mentioned in the chapter?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is always too large",
+        "label": "A"
+      },
+      {
+        "text": "It may be outdated or may not fully match the current objective",
+        "label": "B"
+      },
+      {
+        "text": "It is always inaccurate",
+        "label": "C"
+      },
+      {
+        "text": "It cannot be stored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data may not fully match the current objective, may be outdated, or may contain limitations from the original collection process."
+  },
+  {
+    "questionText": "according to the chapter, what should an analyst do before using secondary data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Assume it is perfect",
+        "label": "A"
+      },
+      {
+        "text": "Evaluate it carefully for relevance, currency, reliability, and limitations",
+        "label": "B"
+      },
+      {
+        "text": "Use it without checking",
+        "label": "C"
+      },
+      {
+        "text": "Delete it",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Secondary data should be used with careful evaluation of its relevance, currency, reliability, and limitations."
+  },
+  {
+    "questionText": "what is the main purpose of the 'factors to consider when gathering data' section?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To make data gathering more expensive",
+        "label": "A"
+      },
+      {
+        "text": "To help analysts make careful decisions that influence the quality and usefulness of the resulting dataset",
+        "label": "B"
+      },
+      {
+        "text": "To discourage data gathering",
+        "label": "C"
+      },
+      {
+        "text": "To promote casual collection",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "These factors help analysts make careful decisions because they influence the quality and usefulness of the resulting dataset."
+  },
+  {
+    "questionText": "which of the following best describes the relationship between data sources and data gathering?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They are unrelated concepts",
+        "label": "A"
+      },
+      {
+        "text": "Sources are origins of data; gathering is the process of collecting from those sources",
+        "label": "B"
+      },
+      {
+        "text": "Gathering comes before sources",
+        "label": "C"
+      },
+      {
+        "text": "Sources are methods; gathering is the origin",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A data source is the origin from which data is obtained, while data gathering refers to the process of collecting from those sources."
+  },
+  {
+    "questionText": "a hospital's patient admission records are an example of:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Primary data if collected by hospital staff for patient care",
+        "label": "A"
+      },
+      {
+        "text": "Secondary data if used by a researcher for a different study",
+        "label": "B"
+      },
+      {
+        "text": "Both A and B depending on purpose",
+        "label": "C"
+      },
+      {
+        "text": "Neither",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The same record can be primary for the hospital collecting it but secondary for a researcher using it for a different purpose."
+  },
+  {
+    "questionText": "the distinction between primary and secondary data depends on:",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The size of the data",
+        "label": "A"
+      },
+      {
+        "text": "The purpose of collection relative to the current study",
+        "label": "B"
+      },
+      {
+        "text": "The format of the data",
+        "label": "C"
+      },
+      {
+        "text": "The age of the data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The classification depends on whether the data was collected directly for the present study (primary) or for another purpose (secondary)."
+  },
+  {
+    "questionText": "what does the chapter identify as the first step in responsible data analysis?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Performing complex calculations",
+        "label": "A"
+      },
+      {
+        "text": "Understanding where data comes from, how it was gathered, and what form it is in",
+        "label": "B"
+      },
+      {
+        "text": "Buying software",
+        "label": "C"
+      },
+      {
+        "text": "Hiring analysts",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Understanding where data comes from, how it was gathered, and what form it is in is essential for responsible analysis."
+  },
+  {
+    "questionText": "why is it important to distinguish between raw and contextualised data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because raw data is always wrong",
+        "label": "A"
+      },
+      {
+        "text": "Because it helps avoid drawing conclusions too quickly from unprocessed figures",
+        "label": "B"
+      },
+      {
+        "text": "Because contextualised data cannot be trusted",
+        "label": "C"
+      },
+      {
+        "text": "Because raw data should never be used",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Understanding the difference helps learners avoid drawing conclusions too quickly from unprocessed figures."
+  },
+  {
+    "questionText": "according to the chapter, what should an analyst always verify about data?",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Its colour and size",
+        "label": "A"
+      },
+      {
+        "text": "Its source, method of collection, and what it truly represents",
+        "label": "B"
+      },
+      {
+        "text": "Its file format only",
+        "label": "C"
+      },
+      {
+        "text": "Its age only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Analysts should always ask where the data came from, how it was obtained, and what it truly represents."
+  },
+  {
+    "questionText": "complete the sentence from the chapter: understanding data sources and gathering methods is essential because poor sources and weak collection methods can lead to ________, ________, or ________ results.",
+    "topic": "data sources, gathering, and classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Fast, efficient, cheap",
+        "label": "A"
+      },
+      {
+        "text": "Accurate, complete, reliable",
+        "label": "B"
+      },
+      {
+        "text": "Inaccurate, incomplete, misleading",
+        "label": "C"
+      },
+      {
+        "text": "Large, complex, digital",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Poor sources and weak collection methods can lead to inaccurate, incomplete, or misleading results."
+  }
+]

@@ -1,0 +1,1725 @@
+[
+  {
+    "questionText": "what is the antiderivative of a function f(x)?",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "a function F(x) such that F'(x) = f(x)", "label": "A" },
+      { "text": "a function F(x) such that F(x) = f'(x)", "label": "B" },
+      { "text": "the derivative of f(x)", "label": "C" },
+      { "text": "the integral of f'(x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "An antiderivative of a function f(x) is another function F(x) such that F'(x) = f(x). This means differentiating F(x) gives back f(x)."
+  },
+  {
+    "questionText": "the indefinite integral of f(x) is written as ∫ f(x) dx = F(x) + C. what does C represent?",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the derivative of the function", "label": "A" },
+      { "text": "the constant of integration", "label": "B" },
+      { "text": "the area under the curve", "label": "C" },
+      { "text": "the variable of integration", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The constant of integration C is added to indefinite integrals because differentiation removes constant terms, so we include C to represent all possible antiderivatives."
+  },
+  {
+    "questionText": "what does the integral sign ∫ represent?",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the derivative operation", "label": "A" },
+      { "text": "the integration operation", "label": "B" },
+      { "text": "the limit operation", "label": "C" },
+      { "text": "the logarithm operation", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The integral sign ∫ represents the integration operation. In ∫ f(x) dx, the symbol ∫ indicates that we are finding the antiderivative (indefinite integral) of f(x)."
+  },
+  {
+    "questionText": "in the expression ∫ f(x) dx, what is f(x) called?",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the integrand", "label": "A" },
+      { "text": "the derivative", "label": "B" },
+      { "text": "the antiderivative", "label": "C" },
+      { "text": "the constant of integration", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "In the expression ∫ f(x) dx, f(x) is called the integrand. It is the function being integrated."
+  },
+  {
+    "questionText": "why is a constant of integration C added to indefinite integrals?",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      {
+        "text": "because differentiation removes constant terms",
+        "label": "A"
+      },
+      { "text": "because integration adds constant terms", "label": "B" },
+      { "text": "because the area is always positive", "label": "C" },
+      { "text": "because the function is always increasing", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "When differentiating, any constant term becomes zero. Therefore, when integrating, we cannot determine the original constant, so we add C to represent all possible antiderivatives."
+  },
+  {
+    "questionText": "integration is the inverse operation of:",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "addition", "label": "A" },
+      { "text": "multiplication", "label": "B" },
+      { "text": "differentiation", "label": "C" },
+      { "text": "exponentiation", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Integration is the inverse operation of differentiation. It reverses the process of differentiation to find the original function from its derivative."
+  },
+  {
+    "questionText": "find ∫ x² dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x³/3 + C", "label": "A" },
+      { "text": "2x + C", "label": "B" },
+      { "text": "x³ + C", "label": "C" },
+      { "text": "x³/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ x² dx = x^(2+1)/(2+1) + C = x³/3 + C."
+  },
+  {
+    "questionText": "find ∫ x⁵ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁶/6 + C", "label": "A" },
+      { "text": "5x⁴ + C", "label": "B" },
+      { "text": "x⁶ + C", "label": "C" },
+      { "text": "x⁶/5 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ x⁵ dx = x^(5+1)/(5+1) + C = x⁶/6 + C."
+  },
+  {
+    "questionText": "find ∫ 3x² dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x³ + C", "label": "A" },
+      { "text": "3x³/3 + C = x³ + C", "label": "B" },
+      { "text": "6x + C", "label": "C" },
+      { "text": "3x³ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 3x² dx = 3∫ x² dx = 3(x³/3) + C = x³ + C."
+  },
+  {
+    "questionText": "find ∫ 5x⁴ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁵ + C", "label": "A" },
+      { "text": "5x⁵/5 + C = x⁵ + C", "label": "B" },
+      { "text": "20x³ + C", "label": "C" },
+      { "text": "5x⁵ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 5x⁴ dx = 5∫ x⁴ dx = 5(x⁵/5) + C = x⁵ + C."
+  },
+  {
+    "questionText": "find ∫ 4x³ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁴ + C", "label": "A" },
+      { "text": "4x⁴/4 + C = x⁴ + C", "label": "B" },
+      { "text": "12x² + C", "label": "C" },
+      { "text": "4x⁴ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 4x³ dx = 4∫ x³ dx = 4(x⁴/4) + C = x⁴ + C."
+  },
+  {
+    "questionText": "find ∫ 2x⁶ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x⁷/7 + C", "label": "A" },
+      { "text": "x⁷/7 + C", "label": "B" },
+      { "text": "2x⁶ + C", "label": "C" },
+      { "text": "2x⁷ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 2x⁶ dx = 2(x⁷/7) + C = 2x⁷/7 + C."
+  },
+  {
+    "questionText": "find ∫ x⁷ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁸/8 + C", "label": "A" },
+      { "text": "7x⁶ + C", "label": "B" },
+      { "text": "x⁸ + C", "label": "C" },
+      { "text": "x⁸/7 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ x⁷ dx = x^(7+1)/(7+1) + C = x⁸/8 + C."
+  },
+  {
+    "questionText": "find ∫ 6x⁵ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁶ + C", "label": "A" },
+      { "text": "6x⁶/6 + C = x⁶ + C", "label": "B" },
+      { "text": "30x⁴ + C", "label": "C" },
+      { "text": "6x⁶ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 6x⁵ dx = 6(x⁶/6) + C = x⁶ + C."
+  },
+  {
+    "questionText": "find ∫ 8x⁷ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁸ + C", "label": "A" },
+      { "text": "8x⁸/8 + C = x⁸ + C", "label": "B" },
+      { "text": "56x⁶ + C", "label": "C" },
+      { "text": "8x⁸ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 8x⁷ dx = 8(x⁸/8) + C = x⁸ + C."
+  },
+  {
+    "questionText": "find ∫ (x² + 3x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x³/3 + 3x²/2 + C", "label": "A" },
+      { "text": "x³/3 + 3x² + C", "label": "B" },
+      { "text": "2x + 3 + C", "label": "C" },
+      { "text": "x³ + 3x²/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (x² + 3x) dx = ∫ x² dx + 3∫ x dx = x³/3 + 3x²/2 + C."
+  },
+  {
+    "questionText": "find ∫ (4x³ - 2x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁴ - x² + C", "label": "A" },
+      { "text": "4x⁴/4 - 2x²/2 + C = x⁴ - x² + C", "label": "B" },
+      { "text": "12x² - 2 + C", "label": "C" },
+      { "text": "x⁴ + x² + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (4x³ - 2x) dx = 4∫ x³ dx - 2∫ x dx = 4(x⁴/4) - 2(x²/2) + C = x⁴ - x² + C."
+  },
+  {
+    "questionText": "find ∫ (5x² - 3x + 2) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5x³/3 - 3x²/2 + 2x + C", "label": "A" },
+      { "text": "5x³/3 - 3x² + 2x + C", "label": "B" },
+      { "text": "10x - 3 + C", "label": "C" },
+      { "text": "5x³ - 3x² + 2x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (5x² - 3x + 2) dx = 5∫ x² dx - 3∫ x dx + 2∫ dx = 5x³/3 - 3x²/2 + 2x + C."
+  },
+  {
+    "questionText": "find ∫ (6x² + 4x - 3) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x³ + 2x² - 3x + C", "label": "A" },
+      { "text": "6x³/3 + 4x²/2 - 3x + C = 2x³ + 2x² - 3x + C", "label": "B" },
+      { "text": "12x + 4 + C", "label": "C" },
+      { "text": "6x³ + 4x² - 3x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (6x² + 4x - 3) dx = 6∫ x² dx + 4∫ x dx - 3∫ dx = 6(x³/3) + 4(x²/2) - 3x + C = 2x³ + 2x² - 3x + C."
+  },
+  {
+    "questionText": "find ∫ (2x⁴ - 5x² + 3) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x⁵/5 - 5x³/3 + 3x + C", "label": "A" },
+      { "text": "2x⁵/5 - 5x³/3 + 3 + C", "label": "B" },
+      { "text": "8x³ - 10x + C", "label": "C" },
+      { "text": "2x⁵ - 5x³ + 3x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (2x⁴ - 5x² + 3) dx = 2∫ x⁴ dx - 5∫ x² dx + 3∫ dx = 2x⁵/5 - 5x³/3 + 3x + C."
+  },
+  {
+    "questionText": "find ∫ 1/x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln x + C", "label": "A" },
+      { "text": "1/x² + C", "label": "B" },
+      { "text": "x ln x + C", "label": "C" },
+      { "text": "ln x² + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 1/x dx = ln x + C. This is a standard integral for x > 0."
+  },
+  {
+    "questionText": "find ∫ 2/x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2 ln x + C", "label": "A" },
+      { "text": "ln 2x + C", "label": "B" },
+      { "text": "2/x² + C", "label": "C" },
+      { "text": "ln x² + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 2/x dx = 2∫ 1/x dx = 2 ln x + C."
+  },
+  {
+    "questionText": "find ∫ 3/x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3 ln x + C", "label": "A" },
+      { "text": "ln 3x + C", "label": "B" },
+      { "text": "3/x² + C", "label": "C" },
+      { "text": "ln x³ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 3/x dx = 3∫ 1/x dx = 3 ln x + C."
+  },
+  {
+    "questionText": "find ∫ 1/(2x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/2 ln x + C", "label": "A" },
+      { "text": "ln 2x + C", "label": "B" },
+      { "text": "1/(2x²) + C", "label": "C" },
+      { "text": "ln x/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 1/(2x) dx = 1/2 ∫ 1/x dx = 1/2 ln x + C."
+  },
+  {
+    "questionText": "find ∫ 4/x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4 ln x + C", "label": "A" },
+      { "text": "ln 4x + C", "label": "B" },
+      { "text": "4/x² + C", "label": "C" },
+      { "text": "ln x⁴ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 4/x dx = 4∫ 1/x dx = 4 ln x + C."
+  },
+  {
+    "questionText": "find ∫ 5/x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5 ln x + C", "label": "A" },
+      { "text": "ln 5x + C", "label": "B" },
+      { "text": "5/x² + C", "label": "C" },
+      { "text": "ln x⁵ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 5/x dx = 5∫ 1/x dx = 5 ln x + C."
+  },
+  {
+    "questionText": "find ∫ e^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^x + C", "label": "A" },
+      { "text": "xe^(x-1) + C", "label": "B" },
+      { "text": "e^x/x + C", "label": "C" },
+      { "text": "ln x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ e^x dx = e^x + C. The exponential function is its own antiderivative."
+  },
+  {
+    "questionText": "find ∫ 2e^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2e^x + C", "label": "A" },
+      { "text": "e^(2x) + C", "label": "B" },
+      { "text": "2xe^(x-1) + C", "label": "C" },
+      { "text": "2 ln x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 2e^x dx = 2∫ e^x dx = 2e^x + C."
+  },
+  {
+    "questionText": "find ∫ 3e^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3e^x + C", "label": "A" },
+      { "text": "e^(3x) + C", "label": "B" },
+      { "text": "3xe^(x-1) + C", "label": "C" },
+      { "text": "3 ln x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 3e^x dx = 3∫ e^x dx = 3e^x + C."
+  },
+  {
+    "questionText": "find ∫ 4e^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4e^x + C", "label": "A" },
+      { "text": "e^(4x) + C", "label": "B" },
+      { "text": "4xe^(x-1) + C", "label": "C" },
+      { "text": "4 ln x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 4e^x dx = 4∫ e^x dx = 4e^x + C."
+  },
+  {
+    "questionText": "find ∫ 5e^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5e^x + C", "label": "A" },
+      { "text": "e^(5x) + C", "label": "B" },
+      { "text": "5xe^(x-1) + C", "label": "C" },
+      { "text": "5 ln x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 5e^x dx = 5∫ e^x dx = 5e^x + C."
+  },
+  {
+    "questionText": "find ∫ 6e^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6e^x + C", "label": "A" },
+      { "text": "e^(6x) + C", "label": "B" },
+      { "text": "6xe^(x-1) + C", "label": "C" },
+      { "text": "6 ln x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 6e^x dx = 6∫ e^x dx = 6e^x + C."
+  },
+  {
+    "questionText": "find ∫ 2^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2^x/ln 2 + C", "label": "A" },
+      { "text": "2^x + C", "label": "B" },
+      { "text": "x2^(x-1) + C", "label": "C" },
+      { "text": "2^x ln 2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 2^x dx = 2^x/ln 2 + C. For a^x, the integral is a^x/ln a + C."
+  },
+  {
+    "questionText": "find ∫ 3^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3^x/ln 3 + C", "label": "A" },
+      { "text": "3^x + C", "label": "B" },
+      { "text": "x3^(x-1) + C", "label": "C" },
+      { "text": "3^x ln 3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 3^x dx = 3^x/ln 3 + C. For a^x, the integral is a^x/ln a + C."
+  },
+  {
+    "questionText": "find ∫ 5^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5^x/ln 5 + C", "label": "A" },
+      { "text": "5^x + C", "label": "B" },
+      { "text": "x5^(x-1) + C", "label": "C" },
+      { "text": "5^x ln 5 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 5^x dx = 5^x/ln 5 + C. For a^x, the integral is a^x/ln a + C."
+  },
+  {
+    "questionText": "find ∫ 10^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10^x/ln 10 + C", "label": "A" },
+      { "text": "10^x + C", "label": "B" },
+      { "text": "x10^(x-1) + C", "label": "C" },
+      { "text": "10^x ln 10 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 10^x dx = 10^x/ln 10 + C. For a^x, the integral is a^x/ln a + C."
+  },
+  {
+    "questionText": "find ∫ sin x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-cos x + C", "label": "A" },
+      { "text": "cos x + C", "label": "B" },
+      { "text": "sin x + C", "label": "C" },
+      { "text": "-sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ sin x dx = -cos x + C. The derivative of -cos x is sin x."
+  },
+  {
+    "questionText": "find ∫ cos x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin x + C", "label": "A" },
+      { "text": "-sin x + C", "label": "B" },
+      { "text": "cos x + C", "label": "C" },
+      { "text": "-cos x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ cos x dx = sin x + C. The derivative of sin x is cos x."
+  },
+  {
+    "questionText": "find ∫ 2 sin x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2 cos x + C", "label": "A" },
+      { "text": "2 cos x + C", "label": "B" },
+      { "text": "2 sin x + C", "label": "C" },
+      { "text": "-2 sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 2 sin x dx = 2∫ sin x dx = 2(-cos x) + C = -2 cos x + C."
+  },
+  {
+    "questionText": "find ∫ 3 cos x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3 sin x + C", "label": "A" },
+      { "text": "-3 sin x + C", "label": "B" },
+      { "text": "3 cos x + C", "label": "C" },
+      { "text": "-3 cos x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 3 cos x dx = 3∫ cos x dx = 3 sin x + C."
+  },
+  {
+    "questionText": "find ∫ (sin x + cos x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-cos x + sin x + C", "label": "A" },
+      { "text": "cos x + sin x + C", "label": "B" },
+      { "text": "-cos x - sin x + C", "label": "C" },
+      { "text": "cos x - sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (sin x + cos x) dx = ∫ sin x dx + ∫ cos x dx = -cos x + sin x + C."
+  },
+  {
+    "questionText": "find ∫ 4 sin x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-4 cos x + C", "label": "A" },
+      { "text": "4 cos x + C", "label": "B" },
+      { "text": "4 sin x + C", "label": "C" },
+      { "text": "-4 sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 4 sin x dx = 4∫ sin x dx = 4(-cos x) + C = -4 cos x + C."
+  },
+  {
+    "questionText": "find ∫ 5 cos x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5 sin x + C", "label": "A" },
+      { "text": "-5 sin x + C", "label": "B" },
+      { "text": "5 cos x + C", "label": "C" },
+      { "text": "-5 cos x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 5 cos x dx = 5∫ cos x dx = 5 sin x + C."
+  },
+  {
+    "questionText": "find ∫ (2 sin x - 3 cos x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2 cos x - 3 sin x + C", "label": "A" },
+      { "text": "2 cos x - 3 sin x + C", "label": "B" },
+      { "text": "-2 cos x + 3 sin x + C", "label": "C" },
+      { "text": "2 cos x + 3 sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (2 sin x - 3 cos x) dx = 2∫ sin x dx - 3∫ cos x dx = 2(-cos x) - 3(sin x) + C = -2 cos x - 3 sin x + C."
+  },
+  {
+    "questionText": "find ∫ sec² x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "tan x + C", "label": "A" },
+      { "text": "-tan x + C", "label": "B" },
+      { "text": "sec x + C", "label": "C" },
+      { "text": "-sec x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ sec² x dx = tan x + C. The derivative of tan x is sec² x."
+  },
+  {
+    "questionText": "find ∫ csc² x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-cot x + C", "label": "A" },
+      { "text": "cot x + C", "label": "B" },
+      { "text": "csc x + C", "label": "C" },
+      { "text": "-csc x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ csc² x dx = -cot x + C. The derivative of -cot x is csc² x."
+  },
+  {
+    "questionText": "find ∫ 3 sec² x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3 tan x + C", "label": "A" },
+      { "text": "-3 tan x + C", "label": "B" },
+      { "text": "3 sec x + C", "label": "C" },
+      { "text": "-3 sec x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 3 sec² x dx = 3∫ sec² x dx = 3 tan x + C."
+  },
+  {
+    "questionText": "find ∫ 4 csc² x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-4 cot x + C", "label": "A" },
+      { "text": "4 cot x + C", "label": "B" },
+      { "text": "4 csc x + C", "label": "C" },
+      { "text": "-4 csc x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 4 csc² x dx = 4∫ csc² x dx = 4(-cot x) + C = -4 cot x + C."
+  },
+  {
+    "questionText": "find ∫ 1/(1+x²) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "tan^(-1) x + C", "label": "A" },
+      { "text": "sin^(-1) x + C", "label": "B" },
+      { "text": "cos^(-1) x + C", "label": "C" },
+      { "text": "cot^(-1) x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 1/(1+x²) dx = tan^(-1) x + C. This is the inverse tangent integral."
+  },
+  {
+    "questionText": "find ∫ 1/√(1-x²) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin^(-1) x + C", "label": "A" },
+      { "text": "cos^(-1) x + C", "label": "B" },
+      { "text": "tan^(-1) x + C", "label": "C" },
+      { "text": "cot^(-1) x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 1/√(1-x²) dx = sin^(-1) x + C. This is the inverse sine integral."
+  },
+  {
+    "questionText": "find ∫ 2/(1+x²) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2 tan^(-1) x + C", "label": "A" },
+      { "text": "tan^(-1) 2x + C", "label": "B" },
+      { "text": "2 sin^(-1) x + C", "label": "C" },
+      { "text": "sin^(-1) 2x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 2/(1+x²) dx = 2∫ 1/(1+x²) dx = 2 tan^(-1) x + C."
+  },
+  {
+    "questionText": "find ∫ 3/√(1-x²) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3 sin^(-1) x + C", "label": "A" },
+      { "text": "sin^(-1) 3x + C", "label": "B" },
+      { "text": "3 tan^(-1) x + C", "label": "C" },
+      { "text": "tan^(-1) 3x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 3/√(1-x²) dx = 3∫ 1/√(1-x²) dx = 3 sin^(-1) x + C."
+  },
+  {
+    "questionText": "find ∫ (3x² + 2x - 1) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x³ + x² - x + C", "label": "A" },
+      { "text": "3x³/3 + 2x²/2 - x + C = x³ + x² - x + C", "label": "B" },
+      { "text": "6x + 2 + C", "label": "C" },
+      { "text": "3x³ + 2x² - x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (3x² + 2x - 1) dx = 3∫ x² dx + 2∫ x dx - ∫ dx = x³ + x² - x + C."
+  },
+  {
+    "questionText": "find ∫ (4x³ - 6x² + 3) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁴ - 2x³ + 3x + C", "label": "A" },
+      { "text": "4x⁴/4 - 6x³/3 + 3x + C = x⁴ - 2x³ + 3x + C", "label": "B" },
+      { "text": "12x² - 12x + C", "label": "C" },
+      { "text": "4x⁴ - 6x³ + 3x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (4x³ - 6x² + 3) dx = 4∫ x³ dx - 6∫ x² dx + 3∫ dx = x⁴ - 2x³ + 3x + C."
+  },
+  {
+    "questionText": "find ∫ (2x⁵ + 5x³ - 4x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      {
+        "text": "2x⁶/6 + 5x⁴/4 - 2x² + C = x⁶/3 + 5x⁴/4 - 2x² + C",
+        "label": "A"
+      },
+      { "text": "2x⁶ + 5x⁴ - 2x² + C", "label": "B" },
+      { "text": "10x⁴ + 15x² - 4 + C", "label": "C" },
+      { "text": "2x⁶/6 + 5x⁴/4 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (2x⁵ + 5x³ - 4x) dx = 2∫ x⁵ dx + 5∫ x³ dx - 4∫ x dx = 2x⁶/6 + 5x⁴/4 - 2x² + C = x⁶/3 + 5x⁴/4 - 2x² + C."
+  },
+  {
+    "questionText": "find ∫ (e^x + sin x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^x - cos x + C", "label": "A" },
+      { "text": "e^x + cos x + C", "label": "B" },
+      { "text": "e^x + sin x + C", "label": "C" },
+      { "text": "e^x - sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (e^x + sin x) dx = ∫ e^x dx + ∫ sin x dx = e^x - cos x + C."
+  },
+  {
+    "questionText": "find ∫ (e^x + cos x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^x + sin x + C", "label": "A" },
+      { "text": "e^x - sin x + C", "label": "B" },
+      { "text": "e^x + cos x + C", "label": "C" },
+      { "text": "e^x - cos x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (e^x + cos x) dx = ∫ e^x dx + ∫ cos x dx = e^x + sin x + C."
+  },
+  {
+    "questionText": "find ∫ (3/x + 2e^x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3 ln x + 2e^x + C", "label": "A" },
+      { "text": "ln 3x + 2e^x + C", "label": "B" },
+      { "text": "3/x² + 2e^x + C", "label": "C" },
+      { "text": "3 ln x + e^(2x) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (3/x + 2e^x) dx = 3∫ 1/x dx + 2∫ e^x dx = 3 ln x + 2e^x + C."
+  },
+  {
+    "questionText": "find ∫ (4/x + 5 sin x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4 ln x - 5 cos x + C", "label": "A" },
+      { "text": "4 ln x + 5 cos x + C", "label": "B" },
+      { "text": "4/x² - 5 cos x + C", "label": "C" },
+      { "text": "4 ln x - 5 sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (4/x + 5 sin x) dx = 4∫ 1/x dx + 5∫ sin x dx = 4 ln x + 5(-cos x) + C = 4 ln x - 5 cos x + C."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ x² dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/3", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "2/3", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ x² dx = [x³/3]₀¹ = 1/3 - 0 = 1/3."
+  },
+  {
+    "questionText": "evaluate ∫₀² x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² x dx = [x²/2]₀² = 4/2 - 0 = 2."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ x³ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/4", "label": "A" },
+      { "text": "1/3", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "3/4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ x³ dx = [x⁴/4]₀¹ = 1/4 - 0 = 1/4."
+  },
+  {
+    "questionText": "evaluate ∫₀² (x² + 2x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20/3", "label": "A" },
+      { "text": "16/3", "label": "B" },
+      { "text": "8/3", "label": "C" },
+      { "text": "4/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² (x² + 2x) dx = [x³/3 + x²]₀² = (8/3 + 4) - 0 = 8/3 + 12/3 = 20/3."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ (3x² - 2x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "2/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ (3x² - 2x) dx = [x³ - x²]₀¹ = (1 - 1) - 0 = 0."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) sin x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) sin x dx = [-cos x]₀^(π/2) = -cos(π/2) + cos(0) = 0 + 1 = 1."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) cos x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) cos x dx = [sin x]₀^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ e^x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e - 1", "label": "A" },
+      { "text": "e", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "1/e", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ e^x dx = [e^x]₀¹ = e - 1."
+  },
+  {
+    "questionText": "evaluate ∫₁² 1/x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln 2", "label": "A" },
+      { "text": "ln 1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "1/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁² 1/x dx = [ln x]₁² = ln 2 - ln 1 = ln 2."
+  },
+  {
+    "questionText": "evaluate ∫₁³ 1/x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln 3", "label": "A" },
+      { "text": "ln 2", "label": "B" },
+      { "text": "ln 4", "label": "C" },
+      { "text": "1/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁³ 1/x dx = [ln x]₁³ = ln 3 - ln 1 = ln 3."
+  },
+  {
+    "questionText": "find the area under y = x² from x = 0 to x = 2.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8/3", "label": "A" },
+      { "text": "4/3", "label": "B" },
+      { "text": "2/3", "label": "C" },
+      { "text": "1/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² x² dx = [x³/3]₀² = 8/3."
+  },
+  {
+    "questionText": "find the area under y = x from x = 0 to x = 3.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9/2", "label": "A" },
+      { "text": "9", "label": "B" },
+      { "text": "3/2", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀³ x dx = [x²/2]₀³ = 9/2."
+  },
+  {
+    "questionText": "find the area under y = x³ from x = 0 to x = 1.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/4", "label": "A" },
+      { "text": "1/3", "label": "B" },
+      { "text": "1/2", "label": "C" },
+      { "text": "3/4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀¹ x³ dx = [x⁴/4]₀¹ = 1/4."
+  },
+  {
+    "questionText": "find the area under y = x² + 1 from x = 0 to x = 2.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "14/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² (x² + 1) dx = [x³/3 + x]₀² = (8/3 + 2) = 14/3."
+  },
+  {
+    "questionText": "find the area under y = 2x from x = 0 to x = 4.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "32", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀⁴ 2x dx = [x²]₀⁴ = 16."
+  },
+  {
+    "questionText": "find the area under y = sin x from x = 0 to x = π.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "π", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀^π sin x dx = [-cos x]₀^π = -cos(π) + cos(0) = 1 + 1 = 2."
+  },
+  {
+    "questionText": "find the area under y = cos x from x = 0 to x = π/2.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "π/2", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀^(π/2) cos x dx = [sin x]₀^(π/2) = 1."
+  },
+  {
+    "questionText": "find the area under y = x² + 2x from x = 0 to x = 3.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "18", "label": "A" },
+      { "text": "15", "label": "B" },
+      { "text": "12", "label": "C" },
+      { "text": "9", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀³ (x² + 2x) dx = [x³/3 + x²]₀³ = (27/3 + 9) = 9 + 9 = 18."
+  },
+  {
+    "questionText": "find the area under y = 3x² from x = 0 to x = 2.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "16", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Area = ∫₀² 3x² dx = [x³]₀² = 8."
+  },
+  {
+    "questionText": "if the velocity of a particle is v(t) = 2t, find the displacement from t = 0 to t = 3.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "18", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀³ 2t dt = [t²]₀³ = 9."
+  },
+  {
+    "questionText": "if the velocity of a particle is v(t) = 3t², find the displacement from t = 0 to t = 2.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀² 3t² dt = [t³]₀² = 8."
+  },
+  {
+    "questionText": "if the velocity of a particle is v(t) = 4t + 1, find the displacement from t = 0 to t = 2.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀² (4t + 1) dt = [2t² + t]₀² = (8 + 2) = 10."
+  },
+  {
+    "questionText": "if the velocity of a particle is v(t) = t² - 2t, find the displacement from t = 1 to t = 3.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "14/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "16/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₁³ (t² - 2t) dt = [t³/3 - t²]₁³ = (27/3 - 9) - (1/3 - 1) = (9 - 9) - (1/3 - 1) = 0 - (-2/3) = 2/3."
+  },
+  {
+    "questionText": "if the velocity of a particle is v(t) = 6t², find the displacement from t = 0 to t = 2.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "24", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Displacement = ∫₀² 6t² dt = [2t³]₀² = 16."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ (2x + 1) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀¹ (2x + 1) dx = [x² + x]₀¹ = 1 + 1 = 2."
+  },
+  {
+    "questionText": "evaluate ∫₁² (3x² - 2) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁² (3x² - 2) dx = [x³ - 2x]₁² = (8 - 4) - (1 - 2) = 4 - (-1) = 5."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/4) sec² x dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "π/4", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/4) sec² x dx = [tan x]₀^(π/4) = tan(π/4) - tan(0) = 1 - 0 = 1."
+  },
+  {
+    "questionText": "evaluate ∫₁² (1/x²) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "3/2", "label": "C" },
+      { "text": "1/4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₁² 1/x² dx = ∫₁² x^(-2) dx = [-1/x]₁² = -1/2 + 1 = 1/2."
+  },
+  {
+    "questionText": "find ∫ x^(1/2) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x^(3/2)/3 + C", "label": "A" },
+      { "text": "x^(3/2)/2 + C", "label": "B" },
+      { "text": "2x^(1/2) + C", "label": "C" },
+      { "text": "x^(3/2)/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ x^(1/2) dx = x^(3/2)/(3/2) + C = 2x^(3/2)/3 + C."
+  },
+  {
+    "questionText": "find ∫ x^(-2) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/x + C", "label": "A" },
+      { "text": "1/x + C", "label": "B" },
+      { "text": "-x + C", "label": "C" },
+      { "text": "x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ x^(-2) dx = x^(-1)/(-1) + C = -1/x + C."
+  },
+  {
+    "questionText": "find ∫ x^(-3) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(2x²) + C", "label": "A" },
+      { "text": "1/(2x²) + C", "label": "B" },
+      { "text": "-1/x² + C", "label": "C" },
+      { "text": "1/x² + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ x^(-3) dx = x^(-2)/(-2) + C = -1/(2x²) + C."
+  },
+  {
+    "questionText": "find ∫ (4x³ - 2x² + 1) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁴ - 2x³/3 + x + C", "label": "A" },
+      { "text": "4x⁴/4 - 2x³/3 + x + C = x⁴ - 2x³/3 + x + C", "label": "B" },
+      { "text": "12x² - 4x + C", "label": "C" },
+      { "text": "4x⁴ - 2x³ + x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (4x³ - 2x² + 1) dx = 4∫ x³ dx - 2∫ x² dx + ∫ dx = x⁴ - 2x³/3 + x + C."
+  },
+  {
+    "questionText": "find ∫ (3x² - 4x + 5) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x³ - 2x² + 5x + C", "label": "A" },
+      { "text": "3x³/3 - 4x²/2 + 5x + C = x³ - 2x² + 5x + C", "label": "B" },
+      { "text": "6x - 4 + C", "label": "C" },
+      { "text": "3x³ - 4x² + 5x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (3x² - 4x + 5) dx = 3∫ x² dx - 4∫ x dx + 5∫ dx = x³ - 2x² + 5x + C."
+  },
+  {
+    "questionText": "find the antiderivative of f(x) = 2x.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x² + C", "label": "A" },
+      { "text": "2x² + C", "label": "B" },
+      { "text": "x²/2 + C", "label": "C" },
+      { "text": "2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The antiderivative of 2x is x² + C because d/dx(x²) = 2x."
+  },
+  {
+    "questionText": "find the antiderivative of f(x) = 3x².",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x³ + C", "label": "A" },
+      { "text": "3x³ + C", "label": "B" },
+      { "text": "x³/3 + C", "label": "C" },
+      { "text": "3x² + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The antiderivative of 3x² is x³ + C because d/dx(x³) = 3x²."
+  },
+  {
+    "questionText": "find the antiderivative of f(x) = 4x³.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁴ + C", "label": "A" },
+      { "text": "4x⁴ + C", "label": "B" },
+      { "text": "x⁴/4 + C", "label": "C" },
+      { "text": "4x³ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The antiderivative of 4x³ is x⁴ + C because d/dx(x⁴) = 4x³."
+  },
+  {
+    "questionText": "find the antiderivative of f(x) = 5x⁴.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁵ + C", "label": "A" },
+      { "text": "5x⁵ + C", "label": "B" },
+      { "text": "x⁵/5 + C", "label": "C" },
+      { "text": "5x⁴ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The antiderivative of 5x⁴ is x⁵ + C because d/dx(x⁵) = 5x⁴."
+  },
+  {
+    "questionText": "evaluate ∫₀² (x² + 3) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "26/3", "label": "A" },
+      { "text": "14/3", "label": "B" },
+      { "text": "8/3", "label": "C" },
+      { "text": "20/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀² (x² + 3) dx = [x³/3 + 3x]₀² = (8/3 + 6) = 8/3 + 18/3 = 26/3."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) (sin x + cos x) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "π/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) (sin x + cos x) dx = [-cos x + sin x]₀^(π/2) = (-0 + 1) - (-1 + 0) = 1 + 1 = 2."
+  },
+  {
+    "questionText": "find ∫ 7x⁶ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁷ + C", "label": "A" },
+      { "text": "7x⁷/7 + C = x⁷ + C", "label": "B" },
+      { "text": "42x⁵ + C", "label": "C" },
+      { "text": "7x⁷ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 7x⁶ dx = 7(x⁷/7) + C = x⁷ + C."
+  },
+  {
+    "questionText": "find ∫ 9x⁸ dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁹ + C", "label": "A" },
+      { "text": "9x⁹/9 + C = x⁹ + C", "label": "B" },
+      { "text": "72x⁷ + C", "label": "C" },
+      { "text": "9x⁹ + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 9x⁸ dx = 9(x⁹/9) + C = x⁹ + C."
+  },
+  {
+    "questionText": "find ∫ (5x⁴ - 3x² + 2) dx.",
+    "topic": "integration as the inverse of differentiation",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x⁵ - x³ + 2x + C", "label": "A" },
+      { "text": "5x⁵/5 - 3x³/3 + 2x + C = x⁵ - x³ + 2x + C", "label": "B" },
+      { "text": "20x³ - 6x + C", "label": "C" },
+      { "text": "5x⁵ - 3x³ + 2x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (5x⁴ - 3x² + 2) dx = 5∫ x⁴ dx - 3∫ x² dx + 2∫ dx = x⁵ - x³ + 2x + C."
+  }
+]

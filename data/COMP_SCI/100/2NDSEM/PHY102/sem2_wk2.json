@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "how does electrostatics differ from the electricity used to power a mobile phone?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electrostatics deals with flowing charges",
+        "label": "A"
+      },
+      {
+        "text": "Electrostatics deals with stationary charges",
+        "label": "B"
+      },
+      {
+        "text": "Electrostatics only occurs in liquids",
+        "label": "C"
+      },
+      {
+        "text": "Electrostatics involves protons moving through wires",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Electrostatics is the study of electric charges that are at rest (stationary), whereas the electricity in phones involves flowing charges."
+  },
+  {
+    "questionText": "in bohr's atomic model, which particle is described as being 'travelers' responsible for charging objects?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Protons",
+        "label": "A"
+      },
+      {
+        "text": "Neutrons",
+        "label": "B"
+      },
+      {
+        "text": "Electrons",
+        "label": "C"
+      },
+      {
+        "text": "Nucleons",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Protons and neutrons are bound in the nucleus; electrons are lightweight and can be transferred between surfaces during charging."
+  },
+  {
+    "questionText": "what is the mass of an electron as specified in the course notes?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.67 x 10^-27 kg",
+        "label": "A"
+      },
+      {
+        "text": "1.602 x 10^-19 kg",
+        "label": "B"
+      },
+      {
+        "text": "9.11 x 10^-31 kg",
+        "label": "C"
+      },
+      {
+        "text": "6.67 x 10^-11 kg",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "As per the measured charge and mass table, an electron has a mass of approximately 9.11 x 10^-31 kg."
+  },
+  {
+    "questionText": "if an object has a net charge q, the principle of quantization states that q must be:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Any continuous value",
+        "label": "A"
+      },
+      {
+        "text": "An integer multiple of the elementary charge e",
+        "label": "B"
+      },
+      {
+        "text": "Exactly equal to 1 Coulomb",
+        "label": "C"
+      },
+      {
+        "text": "A multiple of the proton's mass",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Quantization means charge comes in discrete 'packets' defined by the formula Q = ne, where n is an integer."
+  },
+  {
+    "questionText": "a plastic rod gains a negative charge of -4.8 x 10^-18 c. using the elementary charge value, how many electrons were transferred?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "3 electrons",
+        "label": "A"
+      },
+      {
+        "text": "30 electrons",
+        "label": "B"
+      },
+      {
+        "text": "300 electrons",
+        "label": "C"
+      },
+      {
+        "text": "3000 electrons",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "n = Q/e = (-4.8 x 10^-18) / (-1.602 x 10^-19) ≈ 30 electrons."
+  },
+  {
+    "questionText": "the law of conservation of charge states that the total electric charge in an isolated system:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases over time",
+        "label": "A"
+      },
+      {
+        "text": "Decreases over time",
+        "label": "B"
+      },
+      {
+        "text": "Remains constant",
+        "label": "C"
+      },
+      {
+        "text": "Is always zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Charge is neither created nor destroyed; it is only transferred, meaning the net charge of an isolated system stays the same."
+  },
+  {
+    "questionText": "when rubbing a glass rod with silk, the rod becomes positive. what happened at the microscopic level?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The rod gained protons",
+        "label": "A"
+      },
+      {
+        "text": "The rod lost electrons to the silk",
+        "label": "B"
+      },
+      {
+        "text": "The silk gained protons",
+        "label": "C"
+      },
+      {
+        "text": "Protons moved from the silk to the rod",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Charging occurs via electron transfer. The rod becomes positive because it lost negatively charged electrons to the silk."
+  },
+  {
+    "questionText": "why are metals like copper considered 'conductors'?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Their electrons are tightly bound to atoms",
+        "label": "A"
+      },
+      {
+        "text": "They contain 'free electrons' that can move easily",
+        "label": "B"
+      },
+      {
+        "text": "They have zero resistance at room temperature",
+        "label": "C"
+      },
+      {
+        "text": "They are made of plastic",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In conductors, some electrons are not tied to specific atoms and form a 'sea of electrons' that can wander throughout the material."
+  },
+  {
+    "questionText": "which material is used in mri machine magnets because it can conduct electricity with zero resistance at low temperatures?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Semiconductors",
+        "label": "A"
+      },
+      {
+        "text": "Insulators",
+        "label": "B"
+      },
+      {
+        "text": "Superconductors",
+        "label": "C"
+      },
+      {
+        "text": "Electrolytes",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Superconductors allow electricity to flow with zero resistance, which is essential for creating the strong magnetic fields in MRI machines."
+  },
+  {
+    "questionText": "silicon and germanium are examples of which class of materials?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Conductors",
+        "label": "A"
+      },
+      {
+        "text": "Insulators",
+        "label": "B"
+      },
+      {
+        "text": "Semiconductors",
+        "label": "C"
+      },
+      {
+        "text": "Superconductors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Semiconductors like Silicon act as insulators normally but can conduct electricity under specific conditions (heat/impurities)."
+  },
+  {
+    "questionText": "which charging method involves the 'triboelectric effect'?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Conduction",
+        "label": "A"
+      },
+      {
+        "text": "Induction",
+        "label": "B"
+      },
+      {
+        "text": "Friction",
+        "label": "C"
+      },
+      {
+        "text": "Grounding",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Charging by friction, where rubbing two materials transfers electrons, is known as the triboelectric effect."
+  },
+  {
+    "questionText": "a neutral metal sphere is touched by a negatively charged rod. the sphere becomes negatively charged. this is an example of:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Charging by Friction",
+        "label": "A"
+      },
+      {
+        "text": "Charging by Induction",
+        "label": "B"
+      },
+      {
+        "text": "Charging by Conduction",
+        "label": "C"
+      },
+      {
+        "text": "Grounding",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Conduction is charging through direct physical contact; the neutral object acquires the same sign of charge as the charging body."
+  },
+  {
+    "questionText": "in charging by induction, what is the result of the 'polarization' step?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Charge is transferred to the rod",
+        "label": "A"
+      },
+      {
+        "text": "Charges in the neutral object redistribute without contact",
+        "label": "B"
+      },
+      {
+        "text": "The object is connected to the earth",
+        "label": "C"
+      },
+      {
+        "text": "Protons move to one side of the object",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Polarization occurs when a charged object near a neutral one causes electrons to move to or away from it, creating charge separation without contact."
+  },
+  {
+    "questionText": "unlike conduction, charging an object by induction results in a final charge that is:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The same sign as the rod",
+        "label": "A"
+      },
+      {
+        "text": "Neutral",
+        "label": "B"
+      },
+      {
+        "text": "Opposite in sign to the rod",
+        "label": "C"
+      },
+      {
+        "text": "Double the rod's charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Induction results in a charge opposite to that of the charging rod because of the grounding process."
+  },
+  {
+    "questionText": "what happens when you touch the metal knob of a charged gold-leaf electroscope with your finger?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The leaves diverge further",
+        "label": "A"
+      },
+      {
+        "text": "The leaves collapse due to grounding",
+        "label": "B"
+      },
+      {
+        "text": "The leaves become positively charged",
+        "label": "C"
+      },
+      {
+        "text": "The glass case shatters",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Touching the knob grounds the device, providing a path for excess charge to escape to the earth, causing the leaves to fall."
+  },
+  {
+    "questionText": "which instrument is used to detect and measure the relative amount of stationary electric charge?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Voltmeter",
+        "label": "A"
+      },
+      {
+        "text": "Ammeter",
+        "label": "B"
+      },
+      {
+        "text": "Gold-Leaf Electroscope",
+        "label": "C"
+      },
+      {
+        "text": "Thermometer",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The Gold-Leaf Electroscope is a classic instrument used in labs to detect rest charges."
+  },
+  {
+    "questionText": "calculate the charge of a sample that has lost 10^6 electrons.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "-1.602 x 10^-13 C",
+        "label": "A"
+      },
+      {
+        "text": "+1.602 x 10^-13 C",
+        "label": "B"
+      },
+      {
+        "text": "-1.602 x 10^-25 C",
+        "label": "C"
+      },
+      {
+        "text": "+1.602 x 10^-19 C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Q = ne. Since electrons (negative) were lost, the object becomes positive. Q = (10^6) * (1.602 x 10^-19) = +1.602 x 10^-13 C."
+  },
+  {
+    "questionText": "if a known positive rod is brought near a pre-charged electroscope and the leaves spread further, the electroscope was:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Negative",
+        "label": "A"
+      },
+      {
+        "text": "Positive",
+        "label": "B"
+      },
+      {
+        "text": "Neutral",
+        "label": "C"
+      },
+      {
+        "text": "Grounded",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "If the leaves diverge more, it indicates an increase in repulsion, meaning the electroscope already had a positive charge like the rod."
+  },
+  {
+    "questionText": "which of these is not an insulator?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Rubber",
+        "label": "A"
+      },
+      {
+        "text": "Glass",
+        "label": "B"
+      },
+      {
+        "text": "Tap Water",
+        "label": "C"
+      },
+      {
+        "text": "Dry Wood",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Tap water is listed as a conductor (due to ions), whereas rubber, glass, and dry wood are insulators."
+  },
+  {
+    "questionText": "the microscopic transfer of charge during friction involves only the movement of:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Protons",
+        "label": "A"
+      },
+      {
+        "text": "Neutrons",
+        "label": "B"
+      },
+      {
+        "text": "Electrons",
+        "label": "C"
+      },
+      {
+        "text": "Atoms",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Protons are locked in the nucleus; only electrons move between surfaces during charging."
+  },
+  {
+    "questionText": "what is the primary role of 'grounding' in the induction process?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "To heat the sphere",
+        "label": "A"
+      },
+      {
+        "text": "To provide a path for electrons to enter or leave",
+        "label": "B"
+      },
+      {
+        "text": "To increase the friction",
+        "label": "C"
+      },
+      {
+        "text": "To neutralize the inducing rod",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Grounding allows the object to gain or lose electrons to the earth, which is necessary to leave it with a net charge after the inducing rod is removed."
+  },
+  {
+    "questionText": "which medical device uses the principle of charging capacitors through induction to save lives?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "MRI Scanner",
+        "label": "A"
+      },
+      {
+        "text": "X-Ray Machine",
+        "label": "B"
+      },
+      {
+        "text": "Defibrillator",
+        "label": "C"
+      },
+      {
+        "text": "Stethoscope",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Defibrillators use induction principles to rapidly build up the energy needed to shock a patient's heart."
+  },
+  {
+    "questionText": "a material with 'loosely bound' outer electrons that form a 'sea' is a:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Insulator",
+        "label": "A"
+      },
+      {
+        "text": "Semiconductor",
+        "label": "B"
+      },
+      {
+        "text": "Metal (Conductor)",
+        "label": "C"
+      },
+      {
+        "text": "Non-metal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Metals are excellent conductors because their outer electrons are loosely bound and can move freely."
+  },
+  {
+    "questionText": "in electrostatics, what happens to the sign of the charge on a neutral object during conduction?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "It becomes opposite to the charging rod",
+        "label": "A"
+      },
+      {
+        "text": "It becomes the same as the charging rod",
+        "label": "B"
+      },
+      {
+        "text": "It remains neutral",
+        "label": "C"
+      },
+      {
+        "text": "It becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In conduction (charging by contact), the neutral object always acquires the same sign of charge as the charging body."
+  },
+  {
+    "questionText": "the elementary charge 'e' is approximately 1.602 x 10^-19 c. why can we not buy 1.5e of charge?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "It is too expensive",
+        "label": "A"
+      },
+      {
+        "text": "Charge is quantized",
+        "label": "B"
+      },
+      {
+        "text": "Charge is continuous",
+        "label": "C"
+      },
+      {
+        "text": "Charge is always positive",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Charge is quantized, meaning it only exists in integer multiples of the fundamental unit 'e'."
+  },
+  {
+    "questionText": "according to the notes, why do hair strands stand up after combing with a plastic comb?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Gravity pull",
+        "label": "A"
+      },
+      {
+        "text": "They have opposite charges",
+        "label": "B"
+      },
+      {
+        "text": "They have the same charge and repel each other",
+        "label": "C"
+      },
+      {
+        "text": "They are wet",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The strands become positively charged as the comb 'steals' electrons; since like charges repel, the strands spread apart."
+  },
+  {
+    "questionText": "an isolated system starts with zero net charge. if object a gains +5 c, object b in the same system must have:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+5 C",
+        "label": "A"
+      },
+      {
+        "text": "-5 C",
+        "label": "B"
+      },
+      {
+        "text": "0 C",
+        "label": "C"
+      },
+      {
+        "text": "+10 C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "By conservation of charge, the net sum must remain zero. If A is +5 C, B must be -5 C so that (+5) + (-5) = 0."
+  },
+  {
+    "questionText": "which particle is heavy, positively charged, and 'stays put' in the nucleus?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electron",
+        "label": "A"
+      },
+      {
+        "text": "Neutron",
+        "label": "B"
+      },
+      {
+        "text": "Proton",
+        "label": "C"
+      },
+      {
+        "text": "Quark",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Protons are heavy, positively charged, and reside in the nucleus, unlike the mobile electrons."
+  },
+  {
+    "questionText": "if you rub a plastic ruler and it becomes negatively charged, what happened to your hair?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Hair gained electrons",
+        "label": "A"
+      },
+      {
+        "text": "Hair lost electrons",
+        "label": "B"
+      },
+      {
+        "text": "Hair gained protons",
+        "label": "C"
+      },
+      {
+        "text": "Hair stayed neutral",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Only electrons move. If the ruler gained electrons to become negative, the hair must have lost those electrons, becoming positive."
+  },
+  {
+    "questionText": "electrostatics deals with how charges build up on the ______ of objects.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Center",
+        "label": "A"
+      },
+      {
+        "text": "Nucleus",
+        "label": "B"
+      },
+      {
+        "text": "Surface",
+        "label": "C"
+      },
+      {
+        "text": "Neutrons",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Electrostatics focuses on the buildup of stationary charges on the surface of objects."
+  },
+  {
+    "questionText": "identify the non-integer multiple of charge that is physically impossible:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.602 x 10^-19 C",
+        "label": "A"
+      },
+      {
+        "text": "3.204 x 10^-19 C",
+        "label": "B"
+      },
+      {
+        "text": "0.801 x 10^-19 C",
+        "label": "C"
+      },
+      {
+        "text": "4.806 x 10^-19 C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "0.801 is half of 1.602. Since charge is quantized (Q=ne), you cannot have 0.5e."
+  },
+  {
+    "questionText": "dry wood is a good example of a(n):",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Conductor",
+        "label": "A"
+      },
+      {
+        "text": "Insulator",
+        "label": "B"
+      },
+      {
+        "text": "Semiconductor",
+        "label": "C"
+      },
+      {
+        "text": "Superconductor",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Dry wood holds its electrons tightly and does not allow them to move freely, making it an insulator."
+  },
+  {
+    "questionText": "which analogy is used in the notes to describe the law of conservation of charge?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Buying eggs at the market",
+        "label": "A"
+      },
+      {
+        "text": "Money in a closed group of friends",
+        "label": "B"
+      },
+      {
+        "text": "A crowded market",
+        "label": "C"
+      },
+      {
+        "text": "A row of locked rooms",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The notes compare charge transfer to money moving between friends—the total sum remains the same."
+  },
+  {
+    "questionText": "in the induction process, which step must be done first to ensure a permanent charge remains?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Remove the inducing rod",
+        "label": "A"
+      },
+      {
+        "text": "Remove the ground path",
+        "label": "B"
+      },
+      {
+        "text": "Rub the sphere with fur",
+        "label": "C"
+      },
+      {
+        "text": "Touch the rod to the sphere",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "You must remove the ground path first. If you remove the rod first, the charges will simply flow back to earth and leave the object neutral."
+  },
+  {
+    "questionText": "the si unit of charge is named after which scientist?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Newton",
+        "label": "A"
+      },
+      {
+        "text": "Bohr",
+        "label": "B"
+      },
+      {
+        "text": "Coulomb",
+        "label": "C"
+      },
+      {
+        "text": "Ampere",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Electric charge is measured in Coulombs (C)."
+  },
+  {
+    "questionText": "a positively charged object has a ________ of electrons.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Excess",
+        "label": "A"
+      },
+      {
+        "text": "Deficit",
+        "label": "B"
+      },
+      {
+        "text": "Balance",
+        "label": "C"
+      },
+      {
+        "text": "Cloud",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A positive charge is the result of losing negative electrons, leaving a deficit."
+  },
+  {
+    "questionText": "which of these allows charge to move freely between stalls, as described in the market analogy?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Glass",
+        "label": "A"
+      },
+      {
+        "text": "Copper",
+        "label": "B"
+      },
+      {
+        "text": "Rubber",
+        "label": "C"
+      },
+      {
+        "text": "Dry Sand",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Copper is a conductor where 'free electrons' can wander throughout the material."
+  },
+  {
+    "questionText": "what happens if a semiconductor is heated?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "It becomes a perfect insulator",
+        "label": "A"
+      },
+      {
+        "text": "It begins to conduct electricity",
+        "label": "B"
+      },
+      {
+        "text": "It becomes a superconductor",
+        "label": "C"
+      },
+      {
+        "text": "It loses all charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Semiconductors normally act as insulators but begin to conduct if heat or impurities are added."
+  },
+  {
+    "questionText": "in the friction example of glass and silk, why does the silk become negative?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Protons moved to the silk",
+        "label": "A"
+      },
+      {
+        "text": "Electrons moved from the rod to the silk",
+        "label": "B"
+      },
+      {
+        "text": "The silk is a superconductor",
+        "label": "C"
+      },
+      {
+        "text": "Friction created new electrons",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Friction provides energy to scrape electrons off the glass rod and dump them onto the silk."
+  },
+  {
+    "questionText": "the divergence (spreading) of gold leaves in an electroscope is caused by:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Gravity",
+        "label": "A"
+      },
+      {
+        "text": "Magnetic attraction",
+        "label": "B"
+      },
+      {
+        "text": "Electrostatic repulsion",
+        "label": "C"
+      },
+      {
+        "text": "Air currents",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Since both leaves receive the same sign of charge, they repel each other and spread apart."
+  },
+  {
+    "questionText": "which of the following is the 'elementary charge' e?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.67 x 10^-27 C",
+        "label": "A"
+      },
+      {
+        "text": "9.11 x 10^-31 C",
+        "label": "B"
+      },
+      {
+        "text": "1.602 x 10^-19 C",
+        "label": "C"
+      },
+      {
+        "text": "8.988 x 10^9 C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "1.602 x 10^-19 C is the magnitude of the charge of a single electron or proton."
+  },
+  {
+    "questionText": "what does a 'neutral' atom imply?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "It has no protons",
+        "label": "A"
+      },
+      {
+        "text": "Number of protons equals number of electrons",
+        "label": "B"
+      },
+      {
+        "text": "It is made of plastic",
+        "label": "C"
+      },
+      {
+        "text": "It has no nucleus",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Neutrality means the positive and negative charges cancel each other out exactly."
+  },
+  {
+    "questionText": "if you want to charge a metal sphere negatively using induction, the inducing rod should be:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Negative",
+        "label": "A"
+      },
+      {
+        "text": "Positive",
+        "label": "B"
+      },
+      {
+        "text": "Neutral",
+        "label": "C"
+      },
+      {
+        "text": "Grounded",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Induction produces an opposite charge. To get a negative sphere, use a positive rod (which pulls electrons into the sphere from the ground)."
+  },
+  {
+    "questionText": "the 'sodium-potassium pump' in physiology is an example of which law in action?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Newton's Second Law",
+        "label": "A"
+      },
+      {
+        "text": "Law of Conservation of Charge",
+        "label": "B"
+      },
+      {
+        "text": "Quantization of Mass",
+        "label": "C"
+      },
+      {
+        "text": "Coulomb's Inverse Law",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Even in biological membranes, every charge moved must be accounted for, following conservation laws."
+  },
+  {
+    "questionText": "vertical metal rod, metal knob, and gold leaves are components of a(n):",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Capacitor",
+        "label": "A"
+      },
+      {
+        "text": "Electroscope",
+        "label": "B"
+      },
+      {
+        "text": "Generator",
+        "label": "C"
+      },
+      {
+        "text": "MRI",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "These are the standard components of a Gold-Leaf Electroscope."
+  },
+  {
+    "questionText": "moist soil is a better conductor than dry sand. this is relevant to which field mentioned in the notes?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Medicine",
+        "label": "A"
+      },
+      {
+        "text": "Engineering",
+        "label": "B"
+      },
+      {
+        "text": "Agriculture",
+        "label": "C"
+      },
+      {
+        "text": "Printing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Farmers must know soil conductivity for electrical fences and lightning protection."
+  },
+  {
+    "questionText": "a charge of -3.2 x 10^-19 c contains exactly how many extra electrons?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1",
+        "label": "A"
+      },
+      {
+        "text": "2",
+        "label": "B"
+      },
+      {
+        "text": "3",
+        "label": "C"
+      },
+      {
+        "text": "4",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "n = Q/e = 3.2 / 1.6 = 2 electrons."
+  },
+  {
+    "questionText": "why do electricians wear rubber gloves?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "To increase friction",
+        "label": "A"
+      },
+      {
+        "text": "Rubber is an insulator that blocks electron travel",
+        "label": "B"
+      },
+      {
+        "text": "Rubber is a superconductor",
+        "label": "C"
+      },
+      {
+        "text": "To look professional",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Rubber is an insulator where electrons are tightly bound, preventing them from traveling to the electrician's body."
+  },
+  {
+    "questionText": "in the egg market analogy, what does buy 1.5 eggs represent in physics?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Quantization",
+        "label": "A"
+      },
+      {
+        "text": "A physically impossible charge",
+        "label": "B"
+      },
+      {
+        "text": "Negative charge",
+        "label": "C"
+      },
+      {
+        "text": "Static buildup",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Since charge comes in packets (eggs), you cannot have a fraction of the fundamental unit 'e'."
+  },
+  {
+    "questionText": "static electricity is commonly associated with which 'harmattan' season observation?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Rain falling",
+        "label": "A"
+      },
+      {
+        "text": "Hair standing on end after pulling off a jersey",
+        "label": "B"
+      },
+      {
+        "text": "Metal rusting",
+        "label": "C"
+      },
+      {
+        "text": "Sound traveling faster",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Dry air during Harmattan facilitates the buildup of static charges (electrostatics)."
+  },
+  {
+    "questionText": "how many protons are in a neutral atom with 10 electrons?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "5",
+        "label": "A"
+      },
+      {
+        "text": "10",
+        "label": "B"
+      },
+      {
+        "text": "15",
+        "label": "C"
+      },
+      {
+        "text": "20",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In a neutral atom, protons must equal electrons to cancel out the charge."
+  },
+  {
+    "questionText": "which of these is the traveler that 'scrapes' off surfaces?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Proton",
+        "label": "A"
+      },
+      {
+        "text": "Neutron",
+        "label": "B"
+      },
+      {
+        "text": "Electron",
+        "label": "C"
+      },
+      {
+        "text": "Nucleus",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Electrons are tiny and move around the nucleus, making them the mobile charge carriers."
+  },
+  {
+    "questionText": "a negatively charged object has ________ electrons than protons.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Fewer",
+        "label": "A"
+      },
+      {
+        "text": "More",
+        "label": "B"
+      },
+      {
+        "text": "The same amount of",
+        "label": "C"
+      },
+      {
+        "text": "Zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A negative charge means there is an excess of negative electrons."
+  },
+  {
+    "questionText": "what is the charge of a neutron?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+1.6 C",
+        "label": "A"
+      },
+      {
+        "text": "-1.6 C",
+        "label": "B"
+      },
+      {
+        "text": "0 C",
+        "label": "C"
+      },
+      {
+        "text": "+1.6 x 10^-19 C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Neutrons are neutral neighbors of protons with no net charge."
+  },
+  {
+    "questionText": "if you are buying eggs, what does buy 12 eggs represent in charge formula q = ne?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Q",
+        "label": "A"
+      },
+      {
+        "text": "n",
+        "label": "B"
+      },
+      {
+        "text": "e",
+        "label": "C"
+      },
+      {
+        "text": "C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "n represents the integer count of the packets (eggs)."
+  },
+  {
+    "questionText": "charge is quantized. this means it is not ________.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Discrete",
+        "label": "A"
+      },
+      {
+        "text": "Continuous",
+        "label": "B"
+      },
+      {
+        "text": "Integer-based",
+        "label": "C"
+      },
+      {
+        "text": "Stationary",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Quantized means it comes in packets, as opposed to a continuous, undivided flow."
+  },
+  {
+    "questionText": "nature is described as a 'perfect accountant' regarding which law?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Quantization",
+        "label": "A"
+      },
+      {
+        "text": "Conservation of Charge",
+        "label": "B"
+      },
+      {
+        "text": "Bohr's Model",
+        "label": "C"
+      },
+      {
+        "text": "Coulomb's Law",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Because charge cannot be created or destroyed, every single unit must be accounted for in a transfer."
+  },
+  {
+    "questionText": "in a glass rod and silk experiment, before rubbing, the total charge is:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Positive",
+        "label": "A"
+      },
+      {
+        "text": "Negative",
+        "label": "B"
+      },
+      {
+        "text": "Zero (neutral)",
+        "label": "C"
+      },
+      {
+        "text": "Infinite",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Initially, both the rod and silk are neutral, so the sum of their charges is zero."
+  },
+  {
+    "questionText": "metals are great conductors because their outer electrons are ________ bound.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Tightly",
+        "label": "A"
+      },
+      {
+        "text": "Loosely",
+        "label": "B"
+      },
+      {
+        "text": "Never",
+        "label": "C"
+      },
+      {
+        "text": "Double",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Loose binding allows the electrons to leave the parent atom and move freely."
+  },
+  {
+    "questionText": "which material acts as a row of locked rooms for electrons?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Aluminum",
+        "label": "A"
+      },
+      {
+        "text": "Copper",
+        "label": "B"
+      },
+      {
+        "text": "Plastic",
+        "label": "C"
+      },
+      {
+        "text": "Tap water",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Plastic is an insulator where electrons are locked to their atoms and cannot flow."
+  },
+  {
+    "questionText": "charging by physical contact is also known as:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Induction",
+        "label": "A"
+      },
+      {
+        "text": "Friction",
+        "label": "B"
+      },
+      {
+        "text": "Conduction",
+        "label": "C"
+      },
+      {
+        "text": "Grounding",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Conduction is the direct transfer of charge through touch."
+  },
+  {
+    "questionText": "grounding provides a path to or from the:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Sun",
+        "label": "A"
+      },
+      {
+        "text": "Nucleus",
+        "label": "B"
+      },
+      {
+        "text": "Earth",
+        "label": "C"
+      },
+      {
+        "text": "Silk",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Earthing or grounding connects the object to the massive reservoir of the earth."
+  },
+  {
+    "questionText": "if you bring a negative rod near a neutral sphere, the electrons in the sphere will:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Be pulled toward the rod",
+        "label": "A"
+      },
+      {
+        "text": "Run away from the rod",
+        "label": "B"
+      },
+      {
+        "text": "Stay put",
+        "label": "C"
+      },
+      {
+        "text": "Disappear",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Like charges repel; the negative rod pushes the negative electrons to the far side of the sphere."
+  },
+  {
+    "questionText": "the 'magic' method of charging without touch is:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Conduction",
+        "label": "A"
+      },
+      {
+        "text": "Induction",
+        "label": "B"
+      },
+      {
+        "text": "Friction",
+        "label": "C"
+      },
+      {
+        "text": "Rubbing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Induction allows charging across a gap using polarization and grounding."
+  },
+  {
+    "questionText": "in an electroscope, the wider the leaves spread, the:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Smaller the charge",
+        "label": "A"
+      },
+      {
+        "text": "Greater the quantity of charge",
+        "label": "B"
+      },
+      {
+        "text": "Colder the temperature",
+        "label": "C"
+      },
+      {
+        "text": "Lighter the gold",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Leaf divergence is a visual measure of the repulsion force, which increases with more charge."
+  },
+  {
+    "questionText": "what happens if a positively charged object touches a neutral electroscope?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The leaves collapse",
+        "label": "A"
+      },
+      {
+        "text": "The leaves diverge and become negative",
+        "label": "B"
+      },
+      {
+        "text": "The leaves diverge and become positive",
+        "label": "C"
+      },
+      {
+        "text": "Nothing happens",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "In conduction, the electroscope acquires the same charge as the rod (positive), causing the leaves to repel each other."
+  },
+  {
+    "questionText": "which particle has a mass of 1.67 x 10^-27 kg?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electron",
+        "label": "A"
+      },
+      {
+        "text": "Proton",
+        "label": "B"
+      },
+      {
+        "text": "Graviton",
+        "label": "C"
+      },
+      {
+        "text": "Photon",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The proton is much heavier than the electron, with a mass of roughly 1.67 x 10^-27 kg."
+  },
+  {
+    "questionText": "if an atom loses 2 electrons, its net charge becomes:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+2e",
+        "label": "A"
+      },
+      {
+        "text": "-2e",
+        "label": "B"
+      },
+      {
+        "text": "Neutral",
+        "label": "C"
+      },
+      {
+        "text": "Zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Losing 2 negative charges leaves 2 unpaired positive protons."
+  },
+  {
+    "questionText": "silicon is used in smartphones because it is a:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Conductor",
+        "label": "A"
+      },
+      {
+        "text": "Insulator",
+        "label": "B"
+      },
+      {
+        "text": "Semiconductor",
+        "label": "C"
+      },
+      {
+        "text": "Superconductor",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Semiconductors are the building blocks of modern electronics like smartphones."
+  },
+  {
+    "questionText": "the study of charges at rest is:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electrodynamics",
+        "label": "A"
+      },
+      {
+        "text": "Electrostatics",
+        "label": "B"
+      },
+      {
+        "text": "Magnetism",
+        "label": "C"
+      },
+      {
+        "text": "Thermodynamics",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "This is the core definition of electrostatics."
+  },
+  {
+    "questionText": "which of these is not a primary method of charging mentioned?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Friction",
+        "label": "A"
+      },
+      {
+        "text": "Conduction",
+        "label": "B"
+      },
+      {
+        "text": "Induction",
+        "label": "C"
+      },
+      {
+        "text": "Radiation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "The three primary methods are friction, conduction, and induction."
+  },
+  {
+    "questionText": "in the formula q = ne, 'e' is called the:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electronic factor",
+        "label": "A"
+      },
+      {
+        "text": "Elementary charge",
+        "label": "B"
+      },
+      {
+        "text": "Energy constant",
+        "label": "C"
+      },
+      {
+        "text": "Earth constant",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "e (1.602 x 10^-19 C) is the elementary charge."
+  },
+  {
+    "questionText": "if a body has more protons than electrons, it is:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Negative",
+        "label": "A"
+      },
+      {
+        "text": "Positive",
+        "label": "B"
+      },
+      {
+        "text": "Neutral",
+        "label": "C"
+      },
+      {
+        "text": "Radioactive",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An excess of protons results in a net positive charge."
+  },
+  {
+    "questionText": "rubber gloves protect electricians because they are:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "High-speed lanes",
+        "label": "A"
+      },
+      {
+        "text": "Dead ends for electrons",
+        "label": "B"
+      },
+      {
+        "text": "Semiconductors",
+        "label": "C"
+      },
+      {
+        "text": "Superconductors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The notes use the 'dead end' analogy to describe insulators like rubber."
+  },
+  {
+    "questionText": "which field is the 'glue' that holds the world together according to the notes?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Gravity",
+        "label": "A"
+      },
+      {
+        "text": "Mechanics",
+        "label": "B"
+      },
+      {
+        "text": "Electricity/Electromagnetism",
+        "label": "C"
+      },
+      {
+        "text": "Chemistry",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The introduction states that electricity is the 'glue' for our world."
+  },
+  {
+    "questionText": "a 'cloud' of which particle swarms around the nucleus?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Protons",
+        "label": "A"
+      },
+      {
+        "text": "Neutrons",
+        "label": "B"
+      },
+      {
+        "text": "Electrons",
+        "label": "C"
+      },
+      {
+        "text": "Quarks",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Electrons form a cloud orbiting the heavy central nucleus."
+  },
+  {
+    "questionText": "if a plastic rod is rubbed with silk and becomes negative, the rod must have high electron:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Affinity",
+        "label": "A"
+      },
+      {
+        "text": "Repulsion",
+        "label": "B"
+      },
+      {
+        "text": "Mass",
+        "label": "C"
+      },
+      {
+        "text": "Quantization",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Materials with higher electron affinity gain electrons during friction."
+  },
+  {
+    "questionText": "the charge of a single electron is -e. what is the charge of a single proton?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "-e",
+        "label": "A"
+      },
+      {
+        "text": "+e",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "2e",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Protons have a charge equal in magnitude but opposite in sign to electrons."
+  },
+  {
+    "questionText": "can an object have a charge of 2.4 x 10^-19 c?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Yes, if it's a metal",
+        "label": "A"
+      },
+      {
+        "text": "No, because it is not an integer multiple of e",
+        "label": "B"
+      },
+      {
+        "text": "Yes, in a lab",
+        "label": "C"
+      },
+      {
+        "text": "Only if it is a superconductor",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "2.4 is 1.5 times 1.6. Since n must be an integer, this charge is physically impossible."
+  },
+  {
+    "questionText": "in the friend money analogy, lending money represents:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Creating charge",
+        "label": "A"
+      },
+      {
+        "text": "Destroying charge",
+        "label": "B"
+      },
+      {
+        "text": "Transferring charge",
+        "label": "C"
+      },
+      {
+        "text": "Quantizing charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Lending money changes who has the wealth but not the total amount, just like charge transfer."
+  },
+  {
+    "questionText": "which material is used for wiring homes because it is a conductor?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Plastic",
+        "label": "A"
+      },
+      {
+        "text": "Rubber",
+        "label": "B"
+      },
+      {
+        "text": "Copper",
+        "label": "C"
+      },
+      {
+        "text": "Silicon",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Copper is the standard material for electrical wiring due to its high conductivity."
+  },
+  {
+    "questionText": "to remove the charge from an electroscope, you should perform:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Friction",
+        "label": "A"
+      },
+      {
+        "text": "Induction",
+        "label": "B"
+      },
+      {
+        "text": "Grounding",
+        "label": "C"
+      },
+      {
+        "text": "Polarization",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Grounding allows the excess charge to flow away to the earth, neutralizing the device."
+  },
+  {
+    "questionText": "a 'deficit' of electrons results in which type of net charge?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Negative",
+        "label": "A"
+      },
+      {
+        "text": "Positive",
+        "label": "B"
+      },
+      {
+        "text": "Neutral",
+        "label": "C"
+      },
+      {
+        "text": "Infinite",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Losing electrons leaves more protons than electrons, resulting in a positive charge."
+  },
+  {
+    "questionText": "silicon is an insulator that becomes a conductor when ________ are added.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Protons",
+        "label": "A"
+      },
+      {
+        "text": "Neutrons",
+        "label": "B"
+      },
+      {
+        "text": "Impurities/Heat",
+        "label": "C"
+      },
+      {
+        "text": "Rubber",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The properties of semiconductors are changed by adding heat or specific impurities."
+  },
+  {
+    "questionText": "bohr's atomic model describes protons as being 'deep inside the nucleus' because they are:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Lightweight",
+        "label": "A"
+      },
+      {
+        "text": "Mobile",
+        "label": "B"
+      },
+      {
+        "text": "Heavy",
+        "label": "C"
+      },
+      {
+        "text": "Negative",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Protons are heavy particles that remain stationary in the nucleus."
+  },
+  {
+    "questionText": "an object ends up with a charge opposite to the charging rod in which method?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Friction",
+        "label": "A"
+      },
+      {
+        "text": "Conduction",
+        "label": "B"
+      },
+      {
+        "text": "Induction",
+        "label": "C"
+      },
+      {
+        "text": "Contact",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Induction results in an opposite sign of charge on the neutral object."
+  },
+  {
+    "questionText": "how many electrons are in a +3.204 x 10^-13 c charge deficit?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 million",
+        "label": "A"
+      },
+      {
+        "text": "200,000",
+        "label": "B"
+      },
+      {
+        "text": "20,000",
+        "label": "C"
+      },
+      {
+        "text": "2000",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "n = Q/e = (3.204 x 10^-13) / (1.602 x 10^-19) = 2 x 10^6 (2 million)."
+  },
+  {
+    "questionText": "static electricity 'zaps' occur because of:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Flowing current",
+        "label": "A"
+      },
+      {
+        "text": "Build up of charges at rest",
+        "label": "B"
+      },
+      {
+        "text": "MRI magnets",
+        "label": "C"
+      },
+      {
+        "text": "Superconductors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Static shocks are the rapid discharge of built-up stationary charges (electrostatics)."
+  },
+  {
+    "questionText": "if electrons move from a rod to silk, the silk becomes ________.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Positive",
+        "label": "A"
+      },
+      {
+        "text": "Negative",
+        "label": "B"
+      },
+      {
+        "text": "Neutral",
+        "label": "C"
+      },
+      {
+        "text": "Heavy",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Gaining negative electrons results in a net negative charge."
+  },
+  {
+    "questionText": "which of these is the most 'sacred' law mentioned in the physics notes?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Quantization",
+        "label": "A"
+      },
+      {
+        "text": "Conservation of Charge",
+        "label": "B"
+      },
+      {
+        "text": "Friction",
+        "label": "C"
+      },
+      {
+        "text": "Induction",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The notes describe the Law of Conservation of Charge as one of the most sacred in physics."
+  },
+  {
+    "questionText": "the 'sea of electrons' model explains why:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Metals conduct electricity",
+        "label": "A"
+      },
+      {
+        "text": "Rubber blocks electricity",
+        "label": "B"
+      },
+      {
+        "text": "Atoms are neutral",
+        "label": "C"
+      },
+      {
+        "text": "Protons move",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Loosely bound outer electrons move freely through the metal structure like a sea."
+  },
+  {
+    "questionText": "which of the following is a unit of mass, not charge?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Coulomb",
+        "label": "A"
+      },
+      {
+        "text": "kg",
+        "label": "B"
+      },
+      {
+        "text": "C",
+        "label": "C"
+      },
+      {
+        "text": "e",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "kg (kilogram) is the SI unit for mass."
+  },
+  {
+    "questionText": "the smallest packet of charge is the charge of a(n):",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Proton",
+        "label": "A"
+      },
+      {
+        "text": "Electron",
+        "label": "B"
+      },
+      {
+        "text": "Neutron",
+        "label": "C"
+      },
+      {
+        "text": "Both A and B",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Both the proton and electron carry the fundamental elementary charge 'e'."
+  },
+  {
+    "questionText": "induction involves which two main steps?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Rubbing and Touching",
+        "label": "A"
+      },
+      {
+        "text": "Polarization and Grounding",
+        "label": "B"
+      },
+      {
+        "text": "Heating and Cooling",
+        "label": "C"
+      },
+      {
+        "text": "Radiation and Conduction",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Induction requires polarizing the charges and then grounding the object."
+  },
+  {
+    "questionText": "the 'sharp zap' when touching a doorknob is a result of charges that were ________.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Moving through a wire",
+        "label": "A"
+      },
+      {
+        "text": "Stationary on your body",
+        "label": "B"
+      },
+      {
+        "text": "Created by the knob",
+        "label": "C"
+      },
+      {
+        "text": "Losing mass",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Stationary built-up charges on your body discharge when you touch the metal knob."
+  },
+  {
+    "questionText": "when a neutral object is charged by conduction, electrons ________.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Stay put",
+        "label": "A"
+      },
+      {
+        "text": "Jump between objects",
+        "label": "B"
+      },
+      {
+        "text": "Are created",
+        "label": "C"
+      },
+      {
+        "text": "Turn into protons",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "During direct contact, electrons 'flow' or jump from the charged object to the neutral one."
+  },
+  {
+    "questionText": "if an object is grounded, it is connected to the ________.",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Battery",
+        "label": "A"
+      },
+      {
+        "text": "Insulator",
+        "label": "B"
+      },
+      {
+        "text": "Earth",
+        "label": "C"
+      },
+      {
+        "text": "Inducing rod",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Grounding or earthing provides a connection to the massive, neutral reservoir of the earth."
+  },
+  {
+    "questionText": "which particle has a charge of +1.602 x 10^-19 c?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electron",
+        "label": "A"
+      },
+      {
+        "text": "Neutron",
+        "label": "B"
+      },
+      {
+        "text": "Proton",
+        "label": "C"
+      },
+      {
+        "text": "Positron",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Protons carry the fundamental positive unit of charge."
+  },
+  {
+    "questionText": "in a closed group, wealth moves around but total money is unchanged. this explains:",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Friction",
+        "label": "A"
+      },
+      {
+        "text": "Quantization",
+        "label": "B"
+      },
+      {
+        "text": "Conservation of Charge",
+        "label": "C"
+      },
+      {
+        "text": "Capacitance",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "This is the analogy used to explain the Law of Conservation of Charge."
+  },
+  {
+    "questionText": "wait, what happens if you bring a positive rod near a neutral metal sphere?",
+    "topic": "electrostatics: atomic origin, conservation, and charging methods",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electrons run away",
+        "label": "A"
+      },
+      {
+        "text": "Electrons are pulled toward the rod",
+        "label": "B"
+      },
+      {
+        "text": "Protons move to the rod",
+        "label": "C"
+      },
+      {
+        "text": "The sphere becomes positive immediately",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Opposites attract; the positive rod pulls negative electrons toward the side of the sphere closest to it."
+  }
+]

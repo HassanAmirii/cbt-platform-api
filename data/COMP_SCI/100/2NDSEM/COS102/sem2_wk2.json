@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "visual basic evolved from which earlier dos-based programming language?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "FORTRAN",
+        "label": "A"
+      },
+      {
+        "text": "BASIC",
+        "label": "B"
+      },
+      {
+        "text": "PASCAL",
+        "label": "C"
+      },
+      {
+        "text": "C++",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Visual Basic evolved from BASIC (Beginner All-Purpose Symbolic Instruction Code)."
+  },
+  {
+    "questionText": "unlike the original basic which was sequential, visual basic is described as:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Line-driven",
+        "label": "A"
+      },
+      {
+        "text": "Event-driven",
+        "label": "B"
+      },
+      {
+        "text": "Hardware-dependent",
+        "label": "C"
+      },
+      {
+        "text": "Text-only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "VB is a graphical and Event-driven language where objects respond to specific actions like clicks."
+  },
+  {
+    "questionText": "when invoking visual basic 6.0, which project icon is typically selected for a standard executable program?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "ActiveX DLL",
+        "label": "A"
+      },
+      {
+        "text": "Standard EXE",
+        "label": "B"
+      },
+      {
+        "text": "VB Application Wizard",
+        "label": "C"
+      },
+      {
+        "text": "Standard DLL",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Standard EXE is double-clicked to bring up the initial VB screen for a standard executable program."
+  },
+  {
+    "questionText": "which window shows where a user's window will be displayed relative to the screen during execution?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Project Window",
+        "label": "A"
+      },
+      {
+        "text": "Properties Window",
+        "label": "B"
+      },
+      {
+        "text": "Form Layout Window",
+        "label": "C"
+      },
+      {
+        "text": "Toolbox",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The Form Layout Window displays the position of the form on the screen upon execution."
+  },
+  {
+    "questionText": "the properties window in vb provides which two viewing options?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Vertical and Horizontal",
+        "label": "A"
+      },
+      {
+        "text": "Standard and Professional",
+        "label": "B"
+      },
+      {
+        "text": "Alphabetic and Categorized",
+        "label": "C"
+      },
+      {
+        "text": "New and Existing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The Properties Window allows users to view properties either alphabetically or by category."
+  },
+  {
+    "questionText": "which vb control is used to receive input from users and can be converted to numeric data using val()?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Label",
+        "label": "A"
+      },
+      {
+        "text": "Command Button",
+        "label": "B"
+      },
+      {
+        "text": "TextBox",
+        "label": "C"
+      },
+      {
+        "text": "List Box",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "TextBoxes receive string or numeric input. The Val() function is used to convert the string content into numeric data."
+  },
+  {
+    "questionText": "what is the primary difference between a picturebox and an imagebox?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "PictureBox can handle colors",
+        "label": "A"
+      },
+      {
+        "text": "ImageBox image is stretchable/resizable",
+        "label": "B"
+      },
+      {
+        "text": "PictureBox can receive user clicks",
+        "label": "C"
+      },
+      {
+        "text": "ImageBox cannot hold graphics",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "While both handle graphics, the ImageBox allows the image to be stretched or resized, whereas the PictureBox does not."
+  },
+  {
+    "questionText": "which control allows a user to select only one choice from a group because selecting one deselects others?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "CheckBox",
+        "label": "A"
+      },
+      {
+        "text": "ListBox",
+        "label": "B"
+      },
+      {
+        "text": "OptionBox",
+        "label": "C"
+      },
+      {
+        "text": "Directory ListBox",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "OptionBoxes (Radio Buttons) work together so that only one can be selected at a time."
+  },
+  {
+    "questionText": "in a checkbox, what value represents the 'unchecked' state?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "1",
+        "label": "A"
+      },
+      {
+        "text": "0",
+        "label": "B"
+      },
+      {
+        "text": "True",
+        "label": "C"
+      },
+      {
+        "text": "-1",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When a CheckBox is unchecked, its value is set to 0; when checked, it is set to 1."
+  },
+  {
+    "questionText": "which list-related control specifically displays the folders in a selected drive?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Drive List Box",
+        "label": "A"
+      },
+      {
+        "text": "Directory ListBox",
+        "label": "B"
+      },
+      {
+        "text": "File Listbox",
+        "label": "C"
+      },
+      {
+        "text": "Standard List Box",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Directory ListBox is used to display and select directories or folders."
+  },
+  {
+    "questionText": "what are the three primary steps in developing a visual basic application?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Code, Debug, Run",
+        "label": "A"
+      },
+      {
+        "text": "Interface, Properties, Code",
+        "label": "B"
+      },
+      {
+        "text": "Design, Math, Documentation",
+        "label": "C"
+      },
+      {
+        "text": "Input, Process, Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The steps are: 1. Create the interface, 2. Set properties, 3. Write/attach code."
+  },
+  {
+    "questionText": "in the code 'private sub cmdquit_click()', what does 'sub' indicate?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The end of a program",
+        "label": "A"
+      },
+      {
+        "text": "The beginning of an event procedure",
+        "label": "B"
+      },
+      {
+        "text": "A subordinate variable",
+        "label": "C"
+      },
+      {
+        "text": "The name of the object",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The word 'Sub' signals the beginning of the event procedure block."
+  },
+  {
+    "questionText": "a statement like 'txtwale.text = \"hello\"' is known as a(n):",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Logic Statement",
+        "label": "A"
+      },
+      {
+        "text": "Relational Statement",
+        "label": "B"
+      },
+      {
+        "text": "Assignment Statement",
+        "label": "C"
+      },
+      {
+        "text": "Event Procedure",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Assignment statements change the properties of an object while a program is running."
+  },
+  {
+    "questionText": "which keyword is used to stop or end a visual basic program within code?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Stop",
+        "label": "A"
+      },
+      {
+        "text": "Quit",
+        "label": "B"
+      },
+      {
+        "text": "End",
+        "label": "C"
+      },
+      {
+        "text": "Exit",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'End' statement is used to terminate program execution."
+  },
+  {
+    "questionText": "what is the correct vb color constant for the color yellow?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Color.Yellow",
+        "label": "A"
+      },
+      {
+        "text": "Yellow",
+        "label": "B"
+      },
+      {
+        "text": "vbYellow",
+        "label": "C"
+      },
+      {
+        "text": "vbYel",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Common colors in VB6 use the prefix 'vb', such as vbBlack, vbRed, and vbYellow."
+  },
+  {
+    "questionText": "which method is used to erase all text and graphics from a picturebox?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Delete",
+        "label": "A"
+      },
+      {
+        "text": "Erase",
+        "label": "B"
+      },
+      {
+        "text": "Cls",
+        "label": "C"
+      },
+      {
+        "text": "Clear",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'Cls' (Clear Screen) method erases content from a PictureBox or Form."
+  },
+  {
+    "questionText": "in vb arithmetic, what is the order of precedence for operations without parenthesis?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Add/Sub, Mult/Div, Exponent",
+        "label": "A"
+      },
+      {
+        "text": "Exponent, Add/Sub, Mult/Div",
+        "label": "B"
+      },
+      {
+        "text": "Exponent, Mult/Div, Add/Sub",
+        "label": "C"
+      },
+      {
+        "text": "Mult/Div, Exponent, Add/Sub",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The order is: 1. Exponentiations (^), 2. Multiplications and Divisions (*, /), 3. Additions and Subtractions (+, -)."
+  },
+  {
+    "questionText": "which error type occurs when you misspell a keyword like 'print' as 'primt'?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Run-time Error",
+        "label": "A"
+      },
+      {
+        "text": "Logic Error",
+        "label": "B"
+      },
+      {
+        "text": "Syntax Error",
+        "label": "C"
+      },
+      {
+        "text": "System Error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Syntax errors are grammatical or spelling errors caught while writing code."
+  },
+  {
+    "questionText": "what error occurs if a program attempts to divide a number by zero?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Syntax Error",
+        "label": "A"
+      },
+      {
+        "text": "Run-time Error",
+        "label": "B"
+      },
+      {
+        "text": "Logic Error",
+        "label": "C"
+      },
+      {
+        "text": "Design Error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Run-time errors occur during execution when the computer cannot carry out a specific task, such as division by zero."
+  },
+  {
+    "questionText": "if a program runs but produces '20' instead of the intended '10' because of a missing parenthesis, this is a:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Syntax Error",
+        "label": "A"
+      },
+      {
+        "text": "Run-time Error",
+        "label": "B"
+      },
+      {
+        "text": "Logic Error",
+        "label": "C"
+      },
+      {
+        "text": "Breakpoint Error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Logic errors occur when the application performs unexpectedly due to flaws in the programmer's logic."
+  },
+  {
+    "questionText": "when a run-time error occurs and you click 'debug', vb highlights the offending line in which color?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Red",
+        "label": "A"
+      },
+      {
+        "text": "Green",
+        "label": "B"
+      },
+      {
+        "text": "Yellow",
+        "label": "C"
+      },
+      {
+        "text": "Blue",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The line of code causing a run-time error is highlighted in yellow during Break Mode."
+  },
+  {
+    "questionText": "the operation used to combine two strings together is called:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Addition",
+        "label": "A"
+      },
+      {
+        "text": "Multiplication",
+        "label": "B"
+      },
+      {
+        "text": "Concatenation",
+        "label": "C"
+      },
+      {
+        "text": "Integration",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Concatenation is the joining of two strings using the ampersand (&) symbol."
+  },
+  {
+    "questionText": "which symbol is preferred for string concatenation to avoid ambiguity with numeric addition?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "+",
+        "label": "A"
+      },
+      {
+        "text": "&",
+        "label": "B"
+      },
+      {
+        "text": "$",
+        "label": "C"
+      },
+      {
+        "text": "#",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The ampersand (&) is the standard and preferred operator for concatenation in VB."
+  },
+  {
+    "questionText": "a storage location with an associated name used to hold information is a:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Constant",
+        "label": "A"
+      },
+      {
+        "text": "Variable",
+        "label": "B"
+      },
+      {
+        "text": "Event",
+        "label": "C"
+      },
+      {
+        "text": "Procedure",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Variables are identifiers used to store values that can change during program execution."
+  },
+  {
+    "questionText": "which of the following is a valid variable name in visual basic?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "2ndNumber",
+        "label": "A"
+      },
+      {
+        "text": "my Variable",
+        "label": "B"
+      },
+      {
+        "text": "number_Of_Cars",
+        "label": "C"
+      },
+      {
+        "text": "Print",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Variable names must start with a letter, cannot have spaces, and cannot be reserved words like 'Print'."
+  },
+  {
+    "questionText": "variable names in visual basic cannot exceed how many characters?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "8",
+        "label": "A"
+      },
+      {
+        "text": "32",
+        "label": "B"
+      },
+      {
+        "text": "255",
+        "label": "C"
+      },
+      {
+        "text": "1024",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "VB variable names have a limit of 255 characters."
+  },
+  {
+    "questionText": "which data type is assigned to a variable by default if no type is declared?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Integer",
+        "label": "A"
+      },
+      {
+        "text": "String",
+        "label": "B"
+      },
+      {
+        "text": "Variant",
+        "label": "C"
+      },
+      {
+        "text": "Boolean",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Variant is the default data type in Visual Basic."
+  },
+  {
+    "questionText": "in implicit declaration, which suffix is used to denote a string variable?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "%",
+        "label": "A"
+      },
+      {
+        "text": "&",
+        "label": "B"
+      },
+      {
+        "text": "!",
+        "label": "C"
+      },
+      {
+        "text": "$",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "The dollar sign ($) is the suffix for String variables in implicit declarations."
+  },
+  {
+    "questionText": "the suffix '%' represents which data type?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Long",
+        "label": "A"
+      },
+      {
+        "text": "Single",
+        "label": "B"
+      },
+      {
+        "text": "Integer",
+        "label": "C"
+      },
+      {
+        "text": "Currency",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The percent sign (%) represents an Integer data type."
+  },
+  {
+    "questionText": "what is the syntax for explicit variable declaration using the dim statement?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Dim variableName",
+        "label": "A"
+      },
+      {
+        "text": "Dim As DataType variableName",
+        "label": "B"
+      },
+      {
+        "text": "Dim variableName As DataType",
+        "label": "C"
+      },
+      {
+        "text": "variableName As DataType",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The standard syntax is 'Dim [VariableName] As [DataType]'."
+  },
+  {
+    "questionText": "what does 'dim' stand for in visual basic?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Declare In Memory",
+        "label": "A"
+      },
+      {
+        "text": "Dimension",
+        "label": "B"
+      },
+      {
+        "text": "Data In Module",
+        "label": "C"
+      },
+      {
+        "text": "Digital Input Method",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Dim stands for Dimension, which tells the computer to declare/reserve space in memory."
+  },
+  {
+    "questionText": "which numeric data type stores whole numbers in the range of 0 to 255?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Integer",
+        "label": "A"
+      },
+      {
+        "text": "Byte",
+        "label": "B"
+      },
+      {
+        "text": "Long",
+        "label": "C"
+      },
+      {
+        "text": "Single",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Byte data type stores small integers ranging from 0 to 255."
+  },
+  {
+    "questionText": "which statement forces a programmer to declare all variables before use, helping avoid typographical errors?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Option Explicit",
+        "label": "A"
+      },
+      {
+        "text": "Option Declare",
+        "label": "B"
+      },
+      {
+        "text": "Dim All",
+        "label": "C"
+      },
+      {
+        "text": "Private Sub",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Option Explicit forces explicit declaration, catching misspelled variable names as errors."
+  },
+  {
+    "questionText": "the range of an integer data type in vb is approximately:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "0 to 255",
+        "label": "A"
+      },
+      {
+        "text": "-32,768 to +32,767",
+        "label": "B"
+      },
+      {
+        "text": "-2 billion to +2 billion",
+        "label": "C"
+      },
+      {
+        "text": "-3.4x10^38 to +3.4x10^38",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Integers are 16-bit whole numbers ranging from -32,768 to 32,767."
+  },
+  {
+    "questionText": "which data type is used to store monetary values and supports 4 decimal places?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Single",
+        "label": "A"
+      },
+      {
+        "text": "Double",
+        "label": "B"
+      },
+      {
+        "text": "Currency",
+        "label": "C"
+      },
+      {
+        "text": "Decimal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The Currency data type is specifically designed for monetary calculations."
+  },
+  {
+    "questionText": "a boolean data type stores internal values as:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Yes/No",
+        "label": "A"
+      },
+      {
+        "text": "1 (True) or 0 (False)",
+        "label": "B"
+      },
+      {
+        "text": "A or B",
+        "label": "C"
+      },
+      {
+        "text": "String",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Boolean values represent True/False, stored internally as 1 and 0."
+  },
+  {
+    "questionText": "a word that has a specific function in vb and cannot be used as a variable name is called a:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Procedure",
+        "label": "A"
+      },
+      {
+        "text": "Event",
+        "label": "B"
+      },
+      {
+        "text": "Reserved Word (Keyword)",
+        "label": "C"
+      },
+      {
+        "text": "Operator",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Reserved words like 'Print' or 'Sub' cannot be used as identifiers."
+  },
+  {
+    "questionText": "which operator returns the remainder of an integer division (e.g., 15 ? 2 = 1)?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "/",
+        "label": "A"
+      },
+      {
+        "text": "\\",
+        "label": "B"
+      },
+      {
+        "text": "Mod",
+        "label": "C"
+      },
+      {
+        "text": "^",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The Mod (Modulus) operator returns the remainder of division."
+  },
+  {
+    "questionText": "the '\\' operator represents:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Standard Division",
+        "label": "A"
+      },
+      {
+        "text": "Integer Division",
+        "label": "B"
+      },
+      {
+        "text": "Backslash Concatenation",
+        "label": "C"
+      },
+      {
+        "text": "Root",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The backslash (\\) is used for integer division, which discards any remainder/decimal places."
+  },
+  {
+    "questionText": "what is the relational operator for 'not equal to'?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "!=",
+        "label": "A"
+      },
+      {
+        "text": "<>",
+        "label": "B"
+      },
+      {
+        "text": "~=",
+        "label": "C"
+      },
+      {
+        "text": "><",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The '<>' symbols represent 'not equal to' in Visual Basic."
+  },
+  {
+    "questionText": "in logical operators, xor results in true only if:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Both sides are true",
+        "label": "A"
+      },
+      {
+        "text": "Both sides are false",
+        "label": "B"
+      },
+      {
+        "text": "One side is true but not both",
+        "label": "C"
+      },
+      {
+        "text": "At least one side is true",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "XOR (Exclusive OR) requires exactly one operand to be true."
+  },
+  {
+    "questionText": "variables recognized only within the specific procedure where they are declared are:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Global variables",
+        "label": "A"
+      },
+      {
+        "text": "Local variables",
+        "label": "B"
+      },
+      {
+        "text": "Module-level variables",
+        "label": "C"
+      },
+      {
+        "text": "Public variables",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Local variables are scoped to a specific procedure and are lost once it ends."
+  },
+  {
+    "questionText": "which keyword allows a local variable to preserve its value even after the procedure ends?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Public",
+        "label": "A"
+      },
+      {
+        "text": "Private",
+        "label": "B"
+      },
+      {
+        "text": "Static",
+        "label": "C"
+      },
+      {
+        "text": "Persistent",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Static variables are not re-initialized and retain their values between procedure calls."
+  },
+  {
+    "questionText": "a public module-level variable is often described as a:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Method",
+        "label": "A"
+      },
+      {
+        "text": "Event",
+        "label": "B"
+      },
+      {
+        "text": "Property",
+        "label": "C"
+      },
+      {
+        "text": "Procedure",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Public variables in a module can be accessed from outside, acting as a property."
+  },
+  {
+    "questionText": "which control structure performs an action only when a condition is true and skips it otherwise?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "If...Then",
+        "label": "A"
+      },
+      {
+        "text": "If...Then...Else",
+        "label": "B"
+      },
+      {
+        "text": "Select Case",
+        "label": "C"
+      },
+      {
+        "text": "Do While",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The simple If...Then structure executes statements only for a True result."
+  },
+  {
+    "questionText": "the 'select case' structure is a more convenient alternative to which other structure?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Do...While",
+        "label": "A"
+      },
+      {
+        "text": "If...Then...Else If",
+        "label": "B"
+      },
+      {
+        "text": "For...Next",
+        "label": "C"
+      },
+      {
+        "text": "Function calls",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Select Case is used for multi-way branching as an alternative to complex Nested Ifs."
+  },
+  {
+    "questionText": "a programming structure that repeats instructions until a condition is met is called a:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Selection",
+        "label": "A"
+      },
+      {
+        "text": "Loop",
+        "label": "B"
+      },
+      {
+        "text": "Procedure",
+        "label": "C"
+      },
+      {
+        "text": "Module",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Loops (Repetitive structures) repeat code blocks based on conditions."
+  },
+  {
+    "questionText": "in a 'pre-test' loop, the condition is checked:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "After the first run",
+        "label": "A"
+      },
+      {
+        "text": "Before executing the body",
+        "label": "B"
+      },
+      {
+        "text": "Only at the end",
+        "label": "C"
+      },
+      {
+        "text": "Randomly",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Pre-test loops (like Do While) check the condition first; if false, the body may never run."
+  },
+  {
+    "questionText": "which loop structure is guaranteed to execute its body at least once?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Pre-test loop",
+        "label": "A"
+      },
+      {
+        "text": "Post-test loop",
+        "label": "B"
+      },
+      {
+        "text": "Entrance-controlled loop",
+        "label": "C"
+      },
+      {
+        "text": "Nested loop",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A Post-test loop (exit-controlled) runs the code before checking the condition."
+  },
+  {
+    "questionText": "what are the three essential parts of a loop?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Start, Middle, End",
+        "label": "A"
+      },
+      {
+        "text": "Dim, As, Type",
+        "label": "B"
+      },
+      {
+        "text": "Initialization, Terminating Condition, Body",
+        "label": "C"
+      },
+      {
+        "text": "Input, Print, Cls",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Every loop needs a starting value (Initialization), a check (Termination), and the logic to repeat (Body)."
+  },
+  {
+    "questionText": "a 'do until' loop repeats its statements as long as the condition evaluates to:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "False",
+        "label": "B"
+      },
+      {
+        "text": "1",
+        "label": "C"
+      },
+      {
+        "text": "Empty",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Do Until repeats while the condition is False and stops when it becomes True."
+  },
+  {
+    "questionText": "to change the background color of a picturebox named 'picwale' to green at runtime, you use:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "picWale.Green = True",
+        "label": "A"
+      },
+      {
+        "text": "picWale.BackColor = vbGreen",
+        "label": "B"
+      },
+      {
+        "text": "picWale.Color = Green",
+        "label": "C"
+      },
+      {
+        "text": "BackColor.picWale = vbGreen",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The syntax is Object.Property = Setting, using the vbGreen constant."
+  },
+  {
+    "questionText": "which function converts the text in a textbox to a numeric value?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Num()",
+        "label": "A"
+      },
+      {
+        "text": "Int()",
+        "label": "B"
+      },
+      {
+        "text": "Val()",
+        "label": "C"
+      },
+      {
+        "text": "Str()",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The Val() function extracts a numeric value from a string."
+  },
+  {
+    "questionText": "in a 'select case' statement, which keyword handles values that don't match any specific cases?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Case Default",
+        "label": "A"
+      },
+      {
+        "text": "Else",
+        "label": "B"
+      },
+      {
+        "text": "Case Else",
+        "label": "C"
+      },
+      {
+        "text": "Other",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "'Case Else' is the catch-all for remaining conditions in a Select Case block."
+  },
+  {
+    "questionText": "mixed numbers like '8 1/2' are allowed in visual basic code.",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "False",
+        "label": "B"
+      },
+      {
+        "text": "Only in strings",
+        "label": "C"
+      },
+      {
+        "text": "Only in variant types",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The notes state that mixed numbers are not allowed; they must be written in decimal or fractional form."
+  },
+  {
+    "questionText": "what happens if a pre-test loop's condition is false on the first pass?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The program crashes",
+        "label": "A"
+      },
+      {
+        "text": "The statements are never executed",
+        "label": "B"
+      },
+      {
+        "text": "The loop runs once anyway",
+        "label": "C"
+      },
+      {
+        "text": "The loop runs forever",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Pre-test loops (entrance-controlled) check the condition before the first run; if false, the body is skipped."
+  },
+  {
+    "questionText": "in the project window, what can a user obtain a view of besides the list of forms?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Hardware status",
+        "label": "A"
+      },
+      {
+        "text": "Code windows",
+        "label": "B"
+      },
+      {
+        "text": "Computer desktop",
+        "label": "C"
+      },
+      {
+        "text": "Toolbox icons",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The project window allows users to toggle between form view and the actual basic code window."
+  },
+  {
+    "questionText": "to add items to a 'list box' control, which method is used?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Add()",
+        "label": "A"
+      },
+      {
+        "text": "List()",
+        "label": "B"
+      },
+      {
+        "text": "AddItem",
+        "label": "C"
+      },
+      {
+        "text": "Append",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'AddItem' method is used to populate a list box."
+  },
+  {
+    "questionText": "the 'title bar' of the main window indicates the project name and which of the following?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "User's name",
+        "label": "A"
+      },
+      {
+        "text": "Operating Mode",
+        "label": "B"
+      },
+      {
+        "text": "Computer ID",
+        "label": "C"
+      },
+      {
+        "text": "CPU speed",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Title Bar shows the Project Name, current VB operating mode, and the current form."
+  },
+  {
+    "questionText": "a 'standard exe' icon is an abbreviation for:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Exclusive Program",
+        "label": "A"
+      },
+      {
+        "text": "Executable Program",
+        "label": "B"
+      },
+      {
+        "text": "Example Program",
+        "label": "C"
+      },
+      {
+        "text": "Extra Program",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "EXE stands for Executable Program."
+  },
+  {
+    "questionText": "what does a 'crosshair' cursor indicate when moving the mouse to the form window?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The program is running",
+        "label": "A"
+      },
+      {
+        "text": "A control is ready to be drawn",
+        "label": "B"
+      },
+      {
+        "text": "The program has an error",
+        "label": "C"
+      },
+      {
+        "text": "A variable is declared",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When you click a tool in the toolbox, the cursor becomes a crosshair to allow you to draw the control on the form."
+  },
+  {
+    "questionText": "to resize a control that has already been drawn, you should use the:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Properties Window",
+        "label": "A"
+      },
+      {
+        "text": "Sizing Handles",
+        "label": "B"
+      },
+      {
+        "text": "Crosshair",
+        "label": "C"
+      },
+      {
+        "text": "Code Window",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Clicking an object brings up sizing handles that can be dragged to change dimensions."
+  },
+  {
+    "questionText": "in the procedure 'private sub object_event()', the 'private' keyword means:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The code is hidden from the user",
+        "label": "A"
+      },
+      {
+        "text": "The code cannot be invoked from another form",
+        "label": "B"
+      },
+      {
+        "text": "The variable is static",
+        "label": "C"
+      },
+      {
+        "text": "The code is for professional editions only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Private scope limits the procedure's invocation to the current form only."
+  },
+  {
+    "questionText": "which arithmetic operator has the highest precedence in vb?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "*",
+        "label": "A"
+      },
+      {
+        "text": "/",
+        "label": "B"
+      },
+      {
+        "text": "^",
+        "label": "C"
+      },
+      {
+        "text": "+",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Exponentiation (^) is performed first in the order of mathematical operations."
+  },
+  {
+    "questionText": "mixed numbers are not allowed. how should '8 1/2' be correctly written in a vb math statement?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "8.5",
+        "label": "A"
+      },
+      {
+        "text": "8+1/2",
+        "label": "B"
+      },
+      {
+        "text": "8_1/2",
+        "label": "C"
+      },
+      {
+        "text": "Both A and B",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "One must use decimals or standard addition to represent fractions."
+  },
+  {
+    "questionText": "when a run-time error occurs, the program is said to be in:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Design Mode",
+        "label": "A"
+      },
+      {
+        "text": "Break Mode",
+        "label": "B"
+      },
+      {
+        "text": "Termination Mode",
+        "label": "C"
+      },
+      {
+        "text": "Explicit Mode",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Break Mode is the state where program execution is suspended due to an error or manual interruption."
+  },
+  {
+    "questionText": "string constants used in code must be surrounded by:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Parenthesis",
+        "label": "A"
+      },
+      {
+        "text": "Single quotes",
+        "label": "B"
+      },
+      {
+        "text": "Quotation marks",
+        "label": "C"
+      },
+      {
+        "text": "Ampersands",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "String literals/constants must be enclosed in double quotes (e.g., \"Hello\")."
+  },
+  {
+    "questionText": "a variable name must begin with which type of character?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Number",
+        "label": "A"
+      },
+      {
+        "text": "Symbol",
+        "label": "B"
+      },
+      {
+        "text": "Letter of the alphabet",
+        "label": "C"
+      },
+      {
+        "text": "Underscore",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The first character of a variable name must be a letter."
+  },
+  {
+    "questionText": "which statement is used to declare a string with a 'fixed length' of 20 characters?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Dim x As String(20)",
+        "label": "A"
+      },
+      {
+        "text": "Dim x As String * 20",
+        "label": "B"
+      },
+      {
+        "text": "Dim x As String = 20",
+        "label": "C"
+      },
+      {
+        "text": "Dim x As FixedString20",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The syntax 'String * n' creates a fixed-length string."
+  },
+  {
+    "questionText": "which numeric data type uses the suffix '#' in implicit declarations?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Single",
+        "label": "A"
+      },
+      {
+        "text": "Double",
+        "label": "B"
+      },
+      {
+        "text": "Currency",
+        "label": "C"
+      },
+      {
+        "text": "Long",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The hash/pound symbol (#) denotes a Double (large floating point) data type."
+  },
+  {
+    "questionText": "the suffix '!' represents which data type?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Single",
+        "label": "A"
+      },
+      {
+        "text": "Double",
+        "label": "B"
+      },
+      {
+        "text": "Integer",
+        "label": "C"
+      },
+      {
+        "text": "Boolean",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The exclamation mark (!) is the suffix for the Single data type."
+  },
+  {
+    "questionText": "the 'long' data type stores integer values in what range?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "0 to 255",
+        "label": "A"
+      },
+      {
+        "text": "-32,768 to 32,767",
+        "label": "B"
+      },
+      {
+        "text": "±2,147,483,648",
+        "label": "C"
+      },
+      {
+        "text": "Infinite",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Long integers are 32-bit and cover a range of approximately ±2.1 billion."
+  },
+  {
+    "questionText": "how many digits to the right of the decimal does the currency data type support?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "2",
+        "label": "A"
+      },
+      {
+        "text": "4",
+        "label": "B"
+      },
+      {
+        "text": "10",
+        "label": "C"
+      },
+      {
+        "text": "15",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Currency supports 4 digits to the right and 15 digits to the left of the decimal point."
+  },
+  {
+    "questionText": "a 'variable-length' string can store approximately how many characters?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "255",
+        "label": "A"
+      },
+      {
+        "text": "32,768",
+        "label": "B"
+      },
+      {
+        "text": "2 million",
+        "label": "C"
+      },
+      {
+        "text": "4 billion",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Variable-length strings are extremely large, holding up to 4 billion characters."
+  },
+  {
+    "questionText": "which data type isinternally stored as 'true' or 'false'?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Variant",
+        "label": "A"
+      },
+      {
+        "text": "String",
+        "label": "B"
+      },
+      {
+        "text": "Boolean",
+        "label": "C"
+      },
+      {
+        "text": "Date",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Boolean data types hold logical true/false values."
+  },
+  {
+    "questionText": "why can't you name a variable 'next'?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "It is too short",
+        "label": "A"
+      },
+      {
+        "text": "It is a Reserved Word",
+        "label": "B"
+      },
+      {
+        "text": "It starts with a capital letter",
+        "label": "C"
+      },
+      {
+        "text": "It is a mathematical symbol",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "'Next' is part of the For-Next loop syntax and is a reserved keyword."
+  },
+  {
+    "questionText": "the 'logical operator' that negates an operand is:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "AND",
+        "label": "A"
+      },
+      {
+        "text": "OR",
+        "label": "B"
+      },
+      {
+        "text": "NOT",
+        "label": "C"
+      },
+      {
+        "text": "XOR",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The NOT operator flips the Boolean value (True to False and vice versa)."
+  },
+  {
+    "questionText": "a variable declared in the 'general declaration' section of a form is:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Available to all procedures in the program",
+        "label": "A"
+      },
+      {
+        "text": "Only available to the first Sub",
+        "label": "B"
+      },
+      {
+        "text": "Static",
+        "label": "C"
+      },
+      {
+        "text": "A Reserved Word",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Variables declared at the top of a form module have scope over all procedures in that form."
+  },
+  {
+    "questionText": "once a non-static local procedure is finished executing, what happens to its variables?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "They are saved to the hard drive",
+        "label": "A"
+      },
+      {
+        "text": "Their values are lost and memory is freed",
+        "label": "B"
+      },
+      {
+        "text": "They become global",
+        "label": "C"
+      },
+      {
+        "text": "They are re-initialized to 1",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Normal local variables exist only while the procedure is running."
+  },
+  {
+    "questionText": "which keyword is used to create a module-level variable that cannot be accessed from outside the module?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Public",
+        "label": "A"
+      },
+      {
+        "text": "Private",
+        "label": "B"
+      },
+      {
+        "text": "Static",
+        "label": "C"
+      },
+      {
+        "text": "Dim",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Private module-level variables are hidden from other modules."
+  },
+  {
+    "questionText": "in a nested structure, an 'if' block is placed where?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "After the End Sub",
+        "label": "A"
+      },
+      {
+        "text": "Inside another If...Then...Else structure",
+        "label": "B"
+      },
+      {
+        "text": "In the Toolbox",
+        "label": "C"
+      },
+      {
+        "text": "Inside a variable",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Nesting involves placing one control structure inside another to test multiple cases."
+  },
+  {
+    "questionText": "a 'post-test' loop is also called a(n):",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Entrance controlled loop",
+        "label": "A"
+      },
+      {
+        "text": "Exit controlled loop",
+        "label": "B"
+      },
+      {
+        "text": "Infinite loop",
+        "label": "C"
+      },
+      {
+        "text": "Conditional selection",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Post-test loops are exit-controlled because they run once before checking the exit condition."
+  },
+  {
+    "questionText": "which part of a loop involves commands that setup counters to an initial value?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Body",
+        "label": "A"
+      },
+      {
+        "text": "Terminating Condition",
+        "label": "B"
+      },
+      {
+        "text": "Initialization",
+        "label": "C"
+      },
+      {
+        "text": "Update",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Initialization is the setup phase where starting values are assigned."
+  },
+  {
+    "questionText": "in the loop 'do while number <= 100', when is the condition tested?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "At the start of every iteration",
+        "label": "A"
+      },
+      {
+        "text": "Only at the end",
+        "label": "B"
+      },
+      {
+        "text": "After the number reaches 100",
+        "label": "C"
+      },
+      {
+        "text": "Every 5 seconds",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Do While is a pre-test loop; the condition is tested at the beginning of each cycle."
+  },
+  {
+    "questionText": "what is the primary function of a 'label' control?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Execute math",
+        "label": "A"
+      },
+      {
+        "text": "Provide instructions and guides to users",
+        "label": "B"
+      },
+      {
+        "text": "Resize images",
+        "label": "C"
+      },
+      {
+        "text": "Connect to a database",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Labels provide descriptive text and output on the form."
+  },
+  {
+    "questionText": "which control allows a user to select different hard drives on the computer?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "File Listbox",
+        "label": "A"
+      },
+      {
+        "text": "Directory Listbox",
+        "label": "B"
+      },
+      {
+        "text": "Drive List Box",
+        "label": "C"
+      },
+      {
+        "text": "ComboBox",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The Drive List Box lists all available drives on the PC."
+  },
+  {
+    "questionText": "a statement like 'picwale.print 3 + 2' will display which result?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "3 + 2",
+        "label": "A"
+      },
+      {
+        "text": "5",
+        "label": "B"
+      },
+      {
+        "text": "Error",
+        "label": "C"
+      },
+      {
+        "text": "True",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "VB evaluates arithmetic expressions inside a Print method before displaying the result."
+  },
+  {
+    "questionText": "semicolons in a 'print' statement are used to:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "End the line of code",
+        "label": "A"
+      },
+      {
+        "text": "Display several items one after another",
+        "label": "B"
+      },
+      {
+        "text": "Indicate a syntax error",
+        "label": "C"
+      },
+      {
+        "text": "Clear the screen",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Semicolons allow multiple outputs to be printed on the same line in a PictureBox."
+  },
+  {
+    "questionText": "typographical errors in code are caught immediately if which statement is used?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Option Explicit",
+        "label": "A"
+      },
+      {
+        "text": "Dim",
+        "label": "B"
+      },
+      {
+        "text": "Private Sub",
+        "label": "C"
+      },
+      {
+        "text": "End If",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Option Explicit alerts the user to any undeclared (often misspelled) variables."
+  },
+  {
+    "questionText": "variable identifiers are never surrounded by quotation marks in a print statement.",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "False",
+        "label": "B"
+      },
+      {
+        "text": "Only if numeric",
+        "label": "C"
+      },
+      {
+        "text": "Only if string",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Putting quotes around a variable name would print the literal name instead of the stored value."
+  },
+  {
+    "questionText": "which operator has the lowest precedence among the following?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "^",
+        "label": "A"
+      },
+      {
+        "text": "*",
+        "label": "B"
+      },
+      {
+        "text": "+",
+        "label": "C"
+      },
+      {
+        "text": "Mod",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Addition (+) and Subtraction are the last operations performed."
+  },
+  {
+    "questionText": "logical 'or' evaluates to true if:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Only both are true",
+        "label": "A"
+      },
+      {
+        "text": "Only both are false",
+        "label": "B"
+      },
+      {
+        "text": "At least one operand is true",
+        "label": "C"
+      },
+      {
+        "text": "Exactly one is true",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "OR is true if either or both operands are true."
+  },
+  {
+    "questionText": "how many project icons are visible in the professional and enterprise editions of vb6?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "3",
+        "label": "A"
+      },
+      {
+        "text": "5",
+        "label": "B"
+      },
+      {
+        "text": "13",
+        "label": "C"
+      },
+      {
+        "text": "255",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Professional editions show 13 icons, while Learning editions show only 3."
+  },
+  {
+    "questionText": "the main part of the vb startup window is a tabbed dialog box with which three tabs?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "File, Edit, Help",
+        "label": "A"
+      },
+      {
+        "text": "New, Existing, Recent",
+        "label": "B"
+      },
+      {
+        "text": "Code, Form, Project",
+        "label": "C"
+      },
+      {
+        "text": "Dim, Sub, End",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The startup tabs are New, Existing, and Recent."
+  },
+  {
+    "questionText": "in a flowchart for an 'if...then' structure, the 'no' branch usually leads to:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The next step after the 'End If'",
+        "label": "A"
+      },
+      {
+        "text": "A loop",
+        "label": "B"
+      },
+      {
+        "text": "An error",
+        "label": "C"
+      },
+      {
+        "text": "The start of the program",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "If the condition is false (No), the program simply skips the code block and continues with the next line."
+  },
+  {
+    "questionText": "which control displays files within a selected directory?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "ListBox",
+        "label": "A"
+      },
+      {
+        "text": "File Listbox",
+        "label": "B"
+      },
+      {
+        "text": "Drive List Box",
+        "label": "C"
+      },
+      {
+        "text": "Directory Listbox",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The File Listbox is used to list files available in a specific folder."
+  },
+  {
+    "questionText": "the value of a checked checkbox is internally represented as:",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "1",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "Check",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Internally, a Checked value is 1."
+  },
+  {
+    "questionText": "what does a 'select case 100 to 75' catch?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Exactly 100",
+        "label": "A"
+      },
+      {
+        "text": "Exactly 75",
+        "label": "B"
+      },
+      {
+        "text": "Any value between 75 and 100 inclusive",
+        "label": "C"
+      },
+      {
+        "text": "Numbers larger than 100",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'To' keyword defines a range of values in a Case statement."
+  },
+  {
+    "questionText": "the term 'iteration' refers to which programming structure?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Selection",
+        "label": "A"
+      },
+      {
+        "text": "Logic",
+        "label": "B"
+      },
+      {
+        "text": "Loop",
+        "label": "C"
+      },
+      {
+        "text": "Initialization",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Iteration is another term for looping or repetitive processes."
+  },
+  {
+    "questionText": "which operator is used to discard decimal places in division?",
+    "topic": "visual basic environment, programming logic, and structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "/",
+        "label": "A"
+      },
+      {
+        "text": "Mod",
+        "label": "B"
+      },
+      {
+        "text": "\\",
+        "label": "C"
+      },
+      {
+        "text": "Div",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The integer division operator (\\) discards any decimal result."
+  }
+]

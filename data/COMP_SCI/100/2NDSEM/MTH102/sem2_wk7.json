@@ -1,0 +1,1654 @@
+[
+  {
+    "questionText": "what does it mean if f'(x) > 0 over an interval?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the function is decreasing on that interval", "label": "A" },
+      { "text": "the function is increasing on that interval", "label": "B" },
+      { "text": "the function is constant on that interval", "label": "C" },
+      {
+        "text": "the function has a stationary point on that interval",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "If f'(x) > 0, the tangent slopes upwards and the function is increasing on that interval."
+  },
+  {
+    "questionText": "what does it mean if f'(x) < 0 over an interval?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the function is increasing on that interval", "label": "A" },
+      { "text": "the function is decreasing on that interval", "label": "B" },
+      { "text": "the function has a maximum on that interval", "label": "C" },
+      { "text": "the function is constant on that interval", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "If f'(x) < 0, the tangent slopes downwards and the function is decreasing on that interval."
+  },
+  {
+    "questionText": "a stationary point of a function occurs where:",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(x) > 0", "label": "A" },
+      { "text": "f'(x) < 0", "label": "B" },
+      { "text": "f'(x) = 0", "label": "C" },
+      { "text": "f''(x) > 0", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "A stationary point occurs where the derivative is zero (f'(x) = 0), indicating a horizontal tangent and a potential maximum, minimum, or inflection point."
+  },
+  {
+    "questionText": "if f''(x) > 0 at a stationary point, what type of point is it?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "local maximum", "label": "A" },
+      { "text": "local minimum", "label": "B" },
+      { "text": "point of inflection", "label": "C" },
+      { "text": "cannot be determined", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "If f''(x) > 0 at a stationary point, the function is concave up, indicating a local minimum."
+  },
+  {
+    "questionText": "if f''(x) < 0 at a stationary point, what type of point is it?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "local maximum", "label": "A" },
+      { "text": "local minimum", "label": "B" },
+      { "text": "point of inflection", "label": "C" },
+      { "text": "cannot be determined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "If f''(x) < 0 at a stationary point, the function is concave down, indicating a local maximum."
+  },
+  {
+    "questionText": "a point of inflection occurs where:",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(x) = 0 and f''(x) > 0", "label": "A" },
+      { "text": "f'(x) = 0 and f''(x) < 0", "label": "B" },
+      { "text": "f''(x) = 0 and the sign of f''(x) changes", "label": "C" },
+      { "text": "f'(x) > 0 and f''(x) > 0", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "A point of inflection occurs where the second derivative is zero (or undefined) and the sign of f''(x) changes, indicating a change in concavity."
+  },
+  {
+    "questionText": "a function is concave up on an interval where:",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f''(x) > 0", "label": "A" },
+      { "text": "f''(x) < 0", "label": "B" },
+      { "text": "f'(x) > 0", "label": "C" },
+      { "text": "f'(x) < 0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A function is concave up on an interval where f''(x) > 0, meaning the graph bends upward like a cup."
+  },
+  {
+    "questionText": "a function is concave down on an interval where:",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f''(x) > 0", "label": "A" },
+      { "text": "f''(x) < 0", "label": "B" },
+      { "text": "f'(x) > 0", "label": "C" },
+      { "text": "f'(x) < 0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A function is concave down on an interval where f''(x) < 0, meaning the graph bends downward like a cap."
+  },
+  {
+    "questionText": "if the first derivative test shows f'(x) changes from positive to negative at a critical point, what type of point is it?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "local maximum", "label": "A" },
+      { "text": "local minimum", "label": "B" },
+      { "text": "point of inflection", "label": "C" },
+      { "text": "not a stationary point", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "If f'(x) changes from positive to negative, the function rises then falls, indicating a local maximum."
+  },
+  {
+    "questionText": "find the intervals where f(x) = x² - 6x + 8 is increasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x > 3", "label": "A" },
+      { "text": "x < 3", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x - 6. Set f'(x) > 0: 2x - 6 > 0 → x > 3. The function is increasing for x > 3."
+  },
+  {
+    "questionText": "find the intervals where f(x) = x² - 6x + 8 is decreasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x > 3", "label": "A" },
+      { "text": "x < 3", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f'(x) = 2x - 6. Set f'(x) < 0: 2x - 6 < 0 → x < 3. The function is decreasing for x < 3."
+  },
+  {
+    "questionText": "find the intervals where f(x) = x² + 4x - 5 is increasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x > -2", "label": "A" },
+      { "text": "x < -2", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x + 4. Set f'(x) > 0: 2x + 4 > 0 → x > -2."
+  },
+  {
+    "questionText": "find the intervals where f(x) = -x² + 4x + 1 is increasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x > 2", "label": "A" },
+      { "text": "x < 2", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f'(x) = -2x + 4. Set f'(x) > 0: -2x + 4 > 0 → x < 2."
+  },
+  {
+    "questionText": "find the intervals where f(x) = x³ - 3x² + 2 is increasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x < 0 or x > 2", "label": "A" },
+      { "text": "0 < x < 2", "label": "B" },
+      { "text": "x > 1", "label": "C" },
+      { "text": "x < 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 6x = 3x(x - 2). f'(x) > 0 when x < 0 or x > 2."
+  },
+  {
+    "questionText": "find the intervals where f(x) = x³ - 3x² + 2 is decreasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x < 0 or x > 2", "label": "A" },
+      { "text": "0 < x < 2", "label": "B" },
+      { "text": "x > 1", "label": "C" },
+      { "text": "x < 1", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f'(x) = 3x² - 6x = 3x(x - 2). f'(x) < 0 when 0 < x < 2."
+  },
+  {
+    "questionText": "find the stationary point of y = x² - 4x + 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2, -1)", "label": "A" },
+      { "text": "(2, 1)", "label": "B" },
+      { "text": "(-2, -1)", "label": "C" },
+      { "text": "(-2, 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x - 4 = 0 → x = 2. f(2) = 4 - 8 + 3 = -1. Stationary point: (2, -1)."
+  },
+  {
+    "questionText": "find the stationary point of y = x² + 6x + 5.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-3, -4)", "label": "A" },
+      { "text": "(-3, 4)", "label": "B" },
+      { "text": "(3, -4)", "label": "C" },
+      { "text": "(3, 4)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x + 6 = 0 → x = -3. f(-3) = 9 - 18 + 5 = -4. Stationary point: (-3, -4)."
+  },
+  {
+    "questionText": "find the stationary point of y = -x² + 4x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2, 5)", "label": "A" },
+      { "text": "(2, 1)", "label": "B" },
+      { "text": "(-2, 5)", "label": "C" },
+      { "text": "(-2, 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -2x + 4 = 0 → x = 2. f(2) = -4 + 8 + 1 = 5. Stationary point: (2, 5)."
+  },
+  {
+    "questionText": "find the stationary points of y = x³ - 3x² + 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(0, 2) and (2, -2)", "label": "A" },
+      { "text": "(0, -2) and (2, 2)", "label": "B" },
+      { "text": "(1, 0) and (2, -2)", "label": "C" },
+      { "text": "(0, 2) and (1, 0)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 6x = 3x(x - 2) = 0 → x = 0, 2. f(0) = 2, f(2) = 8 - 12 + 2 = -2. Points: (0, 2) and (2, -2)."
+  },
+  {
+    "questionText": "find the stationary points of y = x³ - 6x² + 9x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, 5) and (3, 1)", "label": "A" },
+      { "text": "(1, 1) and (3, 5)", "label": "B" },
+      { "text": "(-1, -1) and (3, 1)", "label": "C" },
+      { "text": "(1, 5) and (-3, 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 12x + 9 = 3(x² - 4x + 3) = 3(x - 1)(x - 3) = 0 → x = 1, 3. f(1) = 1 - 6 + 9 + 1 = 5, f(3) = 27 - 54 + 27 + 1 = 1. Points: (1, 5) and (3, 1)."
+  },
+  {
+    "questionText": "classify the stationary point of y = x² - 4x + 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "maximum at (2, -1)", "label": "A" },
+      { "text": "minimum at (2, -1)", "label": "B" },
+      { "text": "inflection at (2, -1)", "label": "C" },
+      { "text": "no stationary point", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f'(x) = 2x - 4, f''(x) = 2 > 0. Since f''(x) > 0, the point (2, -1) is a local minimum."
+  },
+  {
+    "questionText": "classify the stationary point of y = -x² + 4x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "maximum at (2, 5)", "label": "A" },
+      { "text": "minimum at (2, 5)", "label": "B" },
+      { "text": "inflection at (2, 5)", "label": "C" },
+      { "text": "no stationary point", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -2x + 4, f''(x) = -2 < 0. Since f''(x) < 0, the point (2, 5) is a local maximum."
+  },
+  {
+    "questionText": "classify the stationary points of y = x³ - 3x² + 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(0, 2) is maximum, (2, -2) is minimum", "label": "A" },
+      { "text": "(0, 2) is minimum, (2, -2) is maximum", "label": "B" },
+      { "text": "both are maxima", "label": "C" },
+      { "text": "both are minima", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 6. At x = 0: f''(0) = -6 < 0 → maximum at (0, 2). At x = 2: f''(2) = 6 > 0 → minimum at (2, -2)."
+  },
+  {
+    "questionText": "classify the stationary points of y = x³ - 6x² + 9x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, 5) is maximum, (3, 1) is minimum", "label": "A" },
+      { "text": "(1, 5) is minimum, (3, 1) is maximum", "label": "B" },
+      { "text": "both are maxima", "label": "C" },
+      { "text": "both are minima", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 12. At x = 1: f''(1) = -6 < 0 → maximum at (1, 5). At x = 3: f''(3) = 6 > 0 → minimum at (3, 1)."
+  },
+  {
+    "questionText": "find where f(x) = x³ - 3x² + 2 is concave up.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x > 1", "label": "A" },
+      { "text": "x < 1", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 6. Set f''(x) > 0: 6x - 6 > 0 → x > 1. The function is concave up for x > 1."
+  },
+  {
+    "questionText": "find where f(x) = x³ - 3x² + 2 is concave down.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x > 1", "label": "A" },
+      { "text": "x < 1", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f''(x) = 6x - 6. Set f''(x) < 0: 6x - 6 < 0 → x < 1. The function is concave down for x < 1."
+  },
+  {
+    "questionText": "find where f(x) = x³ - 6x² + 9x + 1 is concave up.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x > 2", "label": "A" },
+      { "text": "x < 2", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 12. Set f''(x) > 0: 6x - 12 > 0 → x > 2."
+  },
+  {
+    "questionText": "find the point of inflection of y = x³ - 3x² + 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, 0)", "label": "A" },
+      { "text": "(0, 2)", "label": "B" },
+      { "text": "(2, -2)", "label": "C" },
+      { "text": "(-1, -2)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 6 = 0 → x = 1. f(1) = 1 - 3 + 2 = 0. Point of inflection: (1, 0). Sign of f'' changes from negative to positive at x = 1."
+  },
+  {
+    "questionText": "find the point of inflection of y = x³ - 6x² + 9x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2, 3)", "label": "A" },
+      { "text": "(1, 5)", "label": "B" },
+      { "text": "(3, 1)", "label": "C" },
+      { "text": "(0, 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 12 = 0 → x = 2. f(2) = 8 - 24 + 18 + 1 = 3. Point of inflection: (2, 3)."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x² at x = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 4x - 4", "label": "A" },
+      { "text": "y = 4x + 4", "label": "B" },
+      { "text": "y = 2x - 4", "label": "C" },
+      { "text": "y = 4x - 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(2) = 4, f'(x) = 2x, f'(2) = 4. Tangent: y - 4 = 4(x - 2) → y = 4x - 4."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x² at x = 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 6x - 9", "label": "A" },
+      { "text": "y = 6x + 9", "label": "B" },
+      { "text": "y = 3x - 9", "label": "C" },
+      { "text": "y = 6x - 3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(3) = 9, f'(3) = 6. Tangent: y - 9 = 6(x - 3) → y = 6x - 9."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x³ at x = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 3x - 2", "label": "A" },
+      { "text": "y = 3x + 2", "label": "B" },
+      { "text": "y = x - 2", "label": "C" },
+      { "text": "y = 3x - 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(1) = 1, f'(x) = 3x², f'(1) = 3. Tangent: y - 1 = 3(x - 1) → y = 3x - 2."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x² - 4x + 3 at x = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = -1", "label": "A" },
+      { "text": "y = 1", "label": "B" },
+      { "text": "y = 2x - 1", "label": "C" },
+      { "text": "y = -2x - 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(2) = -1, f'(x) = 2x - 4, f'(2) = 0. Tangent: y = -1 (horizontal)."
+  },
+  {
+    "questionText": "find the equation of the normal to y = x² at x = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = -1/4 x + 1/2", "label": "A" },
+      { "text": "y = -1/4 x + 3/2", "label": "B" },
+      { "text": "y = 4x - 4", "label": "C" },
+      { "text": "y = -4x + 4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(2) = 4, f'(2) = 4. Slope of normal = -1/4. Normal: y - 4 = -1/4(x - 2) → y = -1/4 x + 1/2 + 4 → y = -1/4 x + 9/2."
+  },
+  {
+    "questionText": "find the equation of the normal to y = x² at x = 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = -1/6 x + 1/2", "label": "A" },
+      { "text": "y = -1/6 x + 19/2", "label": "B" },
+      { "text": "y = 6x - 9", "label": "C" },
+      { "text": "y = -6x + 9", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(3) = 9, f'(3) = 6. Slope of normal = -1/6. Normal: y - 9 = -1/6(x - 3) → y = -1/6 x + 1/2 + 9 → y = -1/6 x + 19/2."
+  },
+  {
+    "questionText": "if s(t) = t² - 4t + 3, find the velocity at t = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "-2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "v(t) = s'(t) = 2t - 4. v(2) = 4 - 4 = 0."
+  },
+  {
+    "questionText": "if s(t) = t² - 4t + 3, find the acceleration.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "v(t) = s'(t) = 2t - 4. a(t) = v'(t) = 2."
+  },
+  {
+    "questionText": "if s(t) = 3t² + 2t + 1, find the velocity at t = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "14", "label": "A" },
+      { "text": "12", "label": "B" },
+      { "text": "10", "label": "C" },
+      { "text": "8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "v(t) = s'(t) = 6t + 2. v(2) = 12 + 2 = 14."
+  },
+  {
+    "questionText": "if s(t) = 3t² + 2t + 1, find the acceleration.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "v(t) = 6t + 2. a(t) = 6."
+  },
+  {
+    "questionText": "if s(t) = 4t³ - 2t² + 5t, find the velocity at t = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "13", "label": "A" },
+      { "text": "11", "label": "B" },
+      { "text": "9", "label": "C" },
+      { "text": "7", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "v(t) = s'(t) = 12t² - 4t + 5. v(1) = 12 - 4 + 5 = 13."
+  },
+  {
+    "questionText": "if the total cost function is C(q) = 500 + 20q + 0.1q², find the marginal cost.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20 + 0.2q", "label": "A" },
+      { "text": "20 + 0.1q", "label": "B" },
+      { "text": "500 + 20q", "label": "C" },
+      { "text": "0.2q", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Marginal cost = C'(q) = 20 + 0.2q."
+  },
+  {
+    "questionText": "if the total cost function is C(q) = 200 + 15q + 0.2q², find the marginal cost at q = 10.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "19", "label": "A" },
+      { "text": "20", "label": "B" },
+      { "text": "21", "label": "C" },
+      { "text": "22", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "C'(q) = 15 + 0.4q. C'(10) = 15 + 4 = 19."
+  },
+  {
+    "questionText": "if revenue is R(q) = 100q - q², find the marginal revenue at q = 30.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "40", "label": "A" },
+      { "text": "50", "label": "B" },
+      { "text": "60", "label": "C" },
+      { "text": "70", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "R'(q) = 100 - 2q. R'(30) = 100 - 60 = 40."
+  },
+  {
+    "questionText": "a rectangular field is to be enclosed with 100 m of fencing. what dimensions maximize the area?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "25 m × 25 m", "label": "A" },
+      { "text": "30 m × 20 m", "label": "B" },
+      { "text": "40 m × 10 m", "label": "C" },
+      { "text": "50 m × 0 m", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A = x(50 - x) = 50x - x². A'(x) = 50 - 2x = 0 → x = 25. Dimensions: 25 m × 25 m."
+  },
+  {
+    "questionText": "a farmer has 80 m of fencing to enclose a rectangular field. what dimensions maximize the area?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20 m × 20 m", "label": "A" },
+      { "text": "25 m × 15 m", "label": "B" },
+      { "text": "30 m × 10 m", "label": "C" },
+      { "text": "40 m × 0 m", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A = x(40 - x) = 40x - x². A'(x) = 40 - 2x = 0 → x = 20. Dimensions: 20 m × 20 m."
+  },
+  {
+    "questionText": "a rectangular field is to be enclosed with 200 m of fencing. what dimensions maximize the area?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "50 m × 50 m", "label": "A" },
+      { "text": "60 m × 40 m", "label": "B" },
+      { "text": "70 m × 30 m", "label": "C" },
+      { "text": "100 m × 0 m", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A = x(100 - x) = 100x - x². A'(x) = 100 - 2x = 0 → x = 50. Dimensions: 50 m × 50 m."
+  },
+  {
+    "questionText": "a box with a square base is to have a volume of 1000 cm³. find the dimensions that minimize the surface area.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10 cm × 10 cm × 10 cm", "label": "A" },
+      { "text": "5 cm × 5 cm × 40 cm", "label": "B" },
+      { "text": "20 cm × 20 cm × 2.5 cm", "label": "C" },
+      { "text": "8 cm × 8 cm × 15.625 cm", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "V = x²h = 1000 → h = 1000/x². S = x² + 4xh = x² + 4000/x. S'(x) = 2x - 4000/x² = 0 → 2x³ = 4000 → x = 10. h = 10. Dimensions: 10 × 10 × 10."
+  },
+  {
+    "questionText": "find the maximum value of f(x) = -x² + 4x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -2x + 4 = 0 → x = 2. f(2) = -4 + 8 + 1 = 5."
+  },
+  {
+    "questionText": "find the minimum value of f(x) = x² - 4x + 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "-2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x - 4 = 0 → x = 2. f(2) = 4 - 8 + 3 = -1."
+  },
+  {
+    "questionText": "find the maximum value of f(x) = -2x² + 8x + 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "11", "label": "A" },
+      { "text": "9", "label": "B" },
+      { "text": "7", "label": "C" },
+      { "text": "13", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -4x + 8 = 0 → x = 2. f(2) = -8 + 16 + 3 = 11."
+  },
+  {
+    "questionText": "find the stationary points of y = x³ + 3x² - 9x + 5.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, 0) and (-3, 32)", "label": "A" },
+      { "text": "(1, 32) and (-3, 0)", "label": "B" },
+      { "text": "(-1, 16) and (3, 32)", "label": "C" },
+      { "text": "(1, 0) and (3, 32)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² + 6x - 9 = 3(x² + 2x - 3) = 3(x - 1)(x + 3) = 0 → x = 1, -3. f(1) = 1 + 3 - 9 + 5 = 0. f(-3) = -27 + 27 + 27 + 5 = 32. Points: (1, 0) and (-3, 32)."
+  },
+  {
+    "questionText": "classify the stationary points of y = x³ + 3x² - 9x + 5.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, 0) is minimum, (-3, 32) is maximum", "label": "A" },
+      { "text": "(1, 0) is maximum, (-3, 32) is minimum", "label": "B" },
+      { "text": "both are maxima", "label": "C" },
+      { "text": "both are minima", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x + 6. At x = 1: f''(1) = 12 > 0 → minimum. At x = -3: f''(-3) = -12 < 0 → maximum."
+  },
+  {
+    "questionText": "find the stationary points of y = 2x³ - 9x² + 12x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, 6) and (2, 5)", "label": "A" },
+      { "text": "(1, 5) and (2, 6)", "label": "B" },
+      { "text": "(-1, -2) and (2, 5)", "label": "C" },
+      { "text": "(1, 6) and (-2, -3)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 6x² - 18x + 12 = 6(x² - 3x + 2) = 6(x - 1)(x - 2) = 0 → x = 1, 2. f(1) = 2 - 9 + 12 + 1 = 6. f(2) = 16 - 36 + 24 + 1 = 5. Points: (1, 6) and (2, 5)."
+  },
+  {
+    "questionText": "classify the stationary points of y = 2x³ - 9x² + 12x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, 6) is maximum, (2, 5) is minimum", "label": "A" },
+      { "text": "(1, 6) is minimum, (2, 5) is maximum", "label": "B" },
+      { "text": "both are maxima", "label": "C" },
+      { "text": "both are minima", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 12x - 18. At x = 1: f''(1) = -6 < 0 → maximum. At x = 2: f''(2) = 6 > 0 → minimum."
+  },
+  {
+    "questionText": "find the point of inflection of y = x³ + 3x² - 9x + 5.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-1, 16)", "label": "A" },
+      { "text": "(1, 0)", "label": "B" },
+      { "text": "(-3, 32)", "label": "C" },
+      { "text": "(0, 5)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x + 6 = 0 → x = -1. f(-1) = -1 + 3 + 9 + 5 = 16. Point of inflection: (-1, 16)."
+  },
+  {
+    "questionText": "find the point of inflection of y = 2x³ - 9x² + 12x + 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1.5, 5.5)", "label": "A" },
+      { "text": "(1, 6)", "label": "B" },
+      { "text": "(2, 5)", "label": "C" },
+      { "text": "(0, 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 12x - 18 = 0 → x = 1.5. f(1.5) = 2(3.375) - 9(2.25) + 12(1.5) + 1 = 6.75 - 20.25 + 18 + 1 = 5.5. Point of inflection: (1.5, 5.5)."
+  },
+  {
+    "questionText": "if s(t) = t³ - 6t² + 9t + 2, find the velocity at t = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "9", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "v(t) = s'(t) = 3t² - 12t + 9. v(1) = 3 - 12 + 9 = 0."
+  },
+  {
+    "questionText": "if s(t) = t³ - 6t² + 9t + 2, find the acceleration at t = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-6", "label": "A" },
+      { "text": "-3", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "a(t) = v'(t) = 6t - 12. a(1) = 6 - 12 = -6."
+  },
+  {
+    "questionText": "if the profit function is P(x) = -2x² + 40x - 100, find the production level that maximizes profit.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10", "label": "A" },
+      { "text": "15", "label": "B" },
+      { "text": "20", "label": "C" },
+      { "text": "25", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "P'(x) = -4x + 40 = 0 → x = 10."
+  },
+  {
+    "questionText": "if the profit function is P(x) = -3x² + 60x - 200, find the production level that maximizes profit.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "10", "label": "B" },
+      { "text": "15", "label": "C" },
+      { "text": "20", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "P'(x) = -6x + 60 = 0 → x = 10."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x² - 2x + 1 at x = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 0", "label": "A" },
+      { "text": "y = 1", "label": "B" },
+      { "text": "y = 2x - 2", "label": "C" },
+      { "text": "y = 2x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(1) = 0, f'(x) = 2x - 2, f'(1) = 0. Tangent: y = 0."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x³ - 3x at x = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 9x - 20", "label": "A" },
+      { "text": "y = 9x + 20", "label": "B" },
+      { "text": "y = 3x - 20", "label": "C" },
+      { "text": "y = 9x - 10", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(2) = 8 - 6 = 2, f'(x) = 3x² - 3, f'(2) = 12 - 3 = 9. Tangent: y - 2 = 9(x - 2) → y = 9x - 16."
+  },
+  {
+    "questionText": "find the equation of the normal to y = x³ - 3x at x = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = -1/9 x + 2/9", "label": "A" },
+      { "text": "y = -1/9 x + 20/9", "label": "B" },
+      { "text": "y = 9x - 16", "label": "C" },
+      { "text": "y = -9x + 16", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(2) = 2, f'(2) = 9. Slope of normal = -1/9. Normal: y - 2 = -1/9(x - 2) → y = -1/9 x + 2/9 + 2 → y = -1/9 x + 20/9."
+  },
+  {
+    "questionText": "find where f(x) = x³ - 9x² + 24x - 16 is increasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x < 2 or x > 4", "label": "A" },
+      { "text": "2 < x < 4", "label": "B" },
+      { "text": "x > 3", "label": "C" },
+      { "text": "x < 3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 18x + 24 = 3(x² - 6x + 8) = 3(x - 2)(x - 4). f'(x) > 0 when x < 2 or x > 4."
+  },
+  {
+    "questionText": "find where f(x) = x³ - 9x² + 24x - 16 is decreasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x < 2 or x > 4", "label": "A" },
+      { "text": "2 < x < 4", "label": "B" },
+      { "text": "x > 3", "label": "C" },
+      { "text": "x < 3", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f'(x) = 3(x - 2)(x - 4). f'(x) < 0 when 2 < x < 4."
+  },
+  {
+    "questionText": "find the stationary points of y = x³ - 9x² + 24x - 16.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2, 4) and (4, 0)", "label": "A" },
+      { "text": "(2, 0) and (4, 4)", "label": "B" },
+      { "text": "(-2, -4) and (4, 0)", "label": "C" },
+      { "text": "(2, 4) and (-4, 0)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3(x - 2)(x - 4) = 0 → x = 2, 4. f(2) = 8 - 36 + 48 - 16 = 4. f(4) = 64 - 144 + 96 - 16 = 0. Points: (2, 4) and (4, 0)."
+  },
+  {
+    "questionText": "classify the stationary points of y = x³ - 9x² + 24x - 16.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2, 4) is maximum, (4, 0) is minimum", "label": "A" },
+      { "text": "(2, 4) is minimum, (4, 0) is maximum", "label": "B" },
+      { "text": "both are maxima", "label": "C" },
+      { "text": "both are minima", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 18. At x = 2: f''(2) = -6 < 0 → maximum. At x = 4: f''(4) = 6 > 0 → minimum."
+  },
+  {
+    "questionText": "find the point of inflection of y = x³ - 9x² + 24x - 16.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(3, 2)", "label": "A" },
+      { "text": "(2, 4)", "label": "B" },
+      { "text": "(4, 0)", "label": "C" },
+      { "text": "(0, -16)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x - 18 = 0 → x = 3. f(3) = 27 - 81 + 72 - 16 = 2. Point of inflection: (3, 2)."
+  },
+  {
+    "questionText": "a rectangular field is to be enclosed with 120 m of fencing. what dimensions maximize the area?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "30 m × 30 m", "label": "A" },
+      { "text": "40 m × 20 m", "label": "B" },
+      { "text": "50 m × 10 m", "label": "C" },
+      { "text": "60 m × 0 m", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A = x(60 - x) = 60x - x². A'(x) = 60 - 2x = 0 → x = 30. Dimensions: 30 m × 30 m."
+  },
+  {
+    "questionText": "a rectangular garden is to be fenced on three sides with one side along a wall. if 80 m of fencing is available, find the dimensions that maximize the area.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "width = 20 m, length = 40 m", "label": "A" },
+      { "text": "width = 40 m, length = 20 m", "label": "B" },
+      { "text": "width = 10 m, length = 60 m", "label": "C" },
+      { "text": "width = 30 m, length = 20 m", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let width = x, length = y. 2x + y = 80 → y = 80 - 2x. A = xy = x(80 - 2x) = 80x - 2x². A'(x) = 80 - 4x = 0 → x = 20, y = 40."
+  },
+  {
+    "questionText": "if s(t) = 2t³ - 3t² + 4t + 1, find the velocity at t = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "5", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "v(t) = s'(t) = 6t² - 6t + 4. v(1) = 6 - 6 + 4 = 4."
+  },
+  {
+    "questionText": "if s(t) = 2t³ - 3t² + 4t + 1, find the acceleration at t = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "8", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "a(t) = v'(t) = 12t - 6. a(1) = 12 - 6 = 6."
+  },
+  {
+    "questionText": "find the maximum value of f(x) = -3x² + 12x - 5.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "7", "label": "A" },
+      { "text": "8", "label": "B" },
+      { "text": "9", "label": "C" },
+      { "text": "10", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -6x + 12 = 0 → x = 2. f(2) = -12 + 24 - 5 = 7."
+  },
+  {
+    "questionText": "find the minimum value of f(x) = 2x² - 8x + 6.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 4x - 8 = 0 → x = 2. f(2) = 8 - 16 + 6 = -2."
+  },
+  {
+    "questionText": "if the total cost function is C(q) = 1000 + 10q + 0.5q², find the marginal cost at q = 20.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20", "label": "A" },
+      { "text": "25", "label": "B" },
+      { "text": "30", "label": "C" },
+      { "text": "35", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "C'(q) = 10 + q. C'(20) = 10 + 20 = 30."
+  },
+  {
+    "questionText": "if revenue is R(q) = 200q - 2q², find the marginal revenue at q = 40.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20", "label": "A" },
+      { "text": "30", "label": "B" },
+      { "text": "40", "label": "C" },
+      { "text": "50", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "R'(q) = 200 - 4q. R'(40) = 200 - 160 = 40."
+  },
+  {
+    "questionText": "a box with a square base is to have a volume of 500 cm³. find the dimensions that minimize the surface area.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5 cm × 5 cm × 20 cm", "label": "A" },
+      { "text": "10 cm × 10 cm × 5 cm", "label": "B" },
+      { "text": "√500 × √500 × √500", "label": "C" },
+      { "text": "8 cm × 8 cm × 7.8125 cm", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "V = x²h = 500 → h = 500/x². S = x² + 4xh = x² + 2000/x. S'(x) = 2x - 2000/x² = 0 → 2x³ = 2000 → x = 10. h = 5. Dimensions: 10 × 10 × 5."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x² + 1 at x = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 2x", "label": "A" },
+      { "text": "y = 2x + 1", "label": "B" },
+      { "text": "y = 2x - 1", "label": "C" },
+      { "text": "y = 2x + 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(1) = 2, f'(x) = 2x, f'(1) = 2. Tangent: y - 2 = 2(x - 1) → y = 2x."
+  },
+  {
+    "questionText": "find the equation of the tangent to y = x² + 1 at x = 2.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = 4x - 3", "label": "A" },
+      { "text": "y = 4x + 3", "label": "B" },
+      { "text": "y = 2x - 3", "label": "C" },
+      { "text": "y = 4x - 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(2) = 5, f'(2) = 4. Tangent: y - 5 = 4(x - 2) → y = 4x - 3."
+  },
+  {
+    "questionText": "find where f(x) = x² - 4x + 3 is concave up.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "for all x", "label": "A" },
+      { "text": "x > 2", "label": "B" },
+      { "text": "x < 2", "label": "C" },
+      { "text": "x = 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 2 > 0 for all x, so f is concave up everywhere."
+  },
+  {
+    "questionText": "find where f(x) = -x² + 4x + 1 is concave down.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "for all x", "label": "A" },
+      { "text": "x > 2", "label": "B" },
+      { "text": "x < 2", "label": "C" },
+      { "text": "x = 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = -2 < 0 for all x, so f is concave down everywhere."
+  },
+  {
+    "questionText": "find the stationary point of y = x³ - 3x.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, -2) and (-1, 2)", "label": "A" },
+      { "text": "(1, 2) and (-1, -2)", "label": "B" },
+      { "text": "(0, 0) and (1, -2)", "label": "C" },
+      { "text": "(-1, 2) and (0, 0)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 3 = 3(x² - 1) = 0 → x = ±1. f(1) = 1 - 3 = -2, f(-1) = -1 + 3 = 2. Points: (1, -2) and (-1, 2)."
+  },
+  {
+    "questionText": "classify the stationary points of y = x³ - 3x.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1, -2) is minimum, (-1, 2) is maximum", "label": "A" },
+      { "text": "(1, -2) is maximum, (-1, 2) is minimum", "label": "B" },
+      { "text": "both are maxima", "label": "C" },
+      { "text": "both are minima", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x. At x = 1: f''(1) = 6 > 0 → minimum. At x = -1: f''(-1) = -6 < 0 → maximum."
+  },
+  {
+    "questionText": "find the point of inflection of y = x³ - 3x.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(0, 0)", "label": "A" },
+      { "text": "(1, -2)", "label": "B" },
+      { "text": "(-1, 2)", "label": "C" },
+      { "text": "(2, 2)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x = 0 → x = 0. f(0) = 0. Point of inflection: (0, 0)."
+  },
+  {
+    "questionText": "if s(t) = t² - 6t + 8, find the velocity at t = 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "-2", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "v(t) = s'(t) = 2t - 6. v(3) = 6 - 6 = 0."
+  },
+  {
+    "questionText": "if s(t) = t² - 6t + 8, find the acceleration.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "-2", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "a(t) = v'(t) = 2."
+  },
+  {
+    "questionText": "if revenue is R(q) = 150q - 3q², find the production level that maximizes revenue.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "15", "label": "A" },
+      { "text": "20", "label": "B" },
+      { "text": "25", "label": "C" },
+      { "text": "30", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "R'(q) = 150 - 6q = 0 → q = 25."
+  },
+  {
+    "questionText": "if profit is P(x) = -x² + 30x - 200, find the production level that maximizes profit.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10", "label": "A" },
+      { "text": "15", "label": "B" },
+      { "text": "20", "label": "C" },
+      { "text": "25", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "P'(x) = -2x + 30 = 0 → x = 15."
+  },
+  {
+    "questionText": "find the equation of the normal to y = x² + 1 at x = 1.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "y = -1/2 x + 3/2", "label": "A" },
+      { "text": "y = -1/2 x + 5/2", "label": "B" },
+      { "text": "y = 2x", "label": "C" },
+      { "text": "y = -2x + 4", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(1) = 2, f'(1) = 2. Slope of normal = -1/2. Normal: y - 2 = -1/2(x - 1) → y = -1/2 x + 1/2 + 2 → y = -1/2 x + 5/2."
+  },
+  {
+    "questionText": "find where f(x) = x³ - 12x + 3 is increasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x < -2 or x > 2", "label": "A" },
+      { "text": "-2 < x < 2", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 12 = 3(x² - 4) = 3(x - 2)(x + 2). f'(x) > 0 when x < -2 or x > 2."
+  },
+  {
+    "questionText": "find where f(x) = x³ - 12x + 3 is decreasing.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x < -2 or x > 2", "label": "A" },
+      { "text": "-2 < x < 2", "label": "B" },
+      { "text": "x > 0", "label": "C" },
+      { "text": "x < 0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f'(x) = 3(x - 2)(x + 2). f'(x) < 0 when -2 < x < 2."
+  },
+  {
+    "questionText": "find the stationary points of y = x³ - 12x + 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2, -13) and (-2, 19)", "label": "A" },
+      { "text": "(2, 19) and (-2, -13)", "label": "B" },
+      { "text": "(0, 3) and (2, -13)", "label": "C" },
+      { "text": "(-2, 19) and (0, 3)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 12 = 0 → x = ±2. f(2) = 8 - 24 + 3 = -13, f(-2) = -8 + 24 + 3 = 19. Points: (2, -13) and (-2, 19)."
+  },
+  {
+    "questionText": "classify the stationary points of y = x³ - 12x + 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2, -13) is minimum, (-2, 19) is maximum", "label": "A" },
+      { "text": "(2, -13) is maximum, (-2, 19) is minimum", "label": "B" },
+      { "text": "both are maxima", "label": "C" },
+      { "text": "both are minima", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x. At x = 2: f''(2) = 12 > 0 → minimum. At x = -2: f''(-2) = -12 < 0 → maximum."
+  },
+  {
+    "questionText": "find the point of inflection of y = x³ - 12x + 3.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(0, 3)", "label": "A" },
+      { "text": "(2, -13)", "label": "B" },
+      { "text": "(-2, 19)", "label": "C" },
+      { "text": "(1, -8)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f''(x) = 6x = 0 → x = 0. f(0) = 3. Point of inflection: (0, 3)."
+  },
+  {
+    "questionText": "if the total cost function is C(q) = 300 + 8q + 0.3q², find the marginal cost at q = 10.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "11", "label": "A" },
+      { "text": "12", "label": "B" },
+      { "text": "13", "label": "C" },
+      { "text": "14", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "C'(q) = 8 + 0.6q. C'(10) = 8 + 6 = 14."
+  },
+  {
+    "questionText": "a rectangular field is to be enclosed with 150 m of fencing. what dimensions maximize the area?",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "37.5 m × 37.5 m", "label": "A" },
+      { "text": "40 m × 35 m", "label": "B" },
+      { "text": "50 m × 25 m", "label": "C" },
+      { "text": "75 m × 0 m", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A = x(75 - x) = 75x - x². A'(x) = 75 - 2x = 0 → x = 37.5. Dimensions: 37.5 m × 37.5 m."
+  },
+  {
+    "questionText": "if revenue is R(q) = 120q - 4q², find the marginal revenue at q = 10.",
+    "topic": "techniques of differentiation (ii)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "40", "label": "A" },
+      { "text": "50", "label": "B" },
+      { "text": "60", "label": "C" },
+      { "text": "70", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "R'(q) = 120 - 8q. R'(10) = 120 - 80 = 40."
+  }
+]

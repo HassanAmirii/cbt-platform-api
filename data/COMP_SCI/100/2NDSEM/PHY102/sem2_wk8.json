@@ -1,0 +1,2389 @@
+[
+  {
+    "questionText": "which statement correctly describes the behavior of magnetic poles?",
+    "topic": "the nature of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "like poles attract each other", "label": "A" },
+      { "text": "opposite poles repel each other", "label": "B" },
+      { "text": "like poles repel and opposite poles attract", "label": "C" },
+      { "text": "magnetic poles have no effect on each other", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Like magnetic poles (N-N or S-S) repel each other, while opposite poles (N-S) attract. This mirrors the behavior of electric charges."
+  },
+  {
+    "questionText": "what happens when you break a bar magnet in half?",
+    "topic": "the nature of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "you get one north piece and one south piece", "label": "A" },
+      {
+        "text": "you get two smaller magnets each with a north and south pole",
+        "label": "B"
+      },
+      { "text": "both pieces lose their magnetism", "label": "C" },
+      { "text": "one piece keeps all the magnetism", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Breaking a magnet in half does not isolate a single pole. Each half becomes a complete smaller magnet with its own north and south pole, demonstrating the no-monopole rule."
+  },
+  {
+    "questionText": "which direction do magnetic field lines travel outside a magnet?",
+    "topic": "magnetic field lines",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "from south pole to north pole", "label": "A" },
+      { "text": "from north pole to south pole", "label": "B" },
+      { "text": "randomly in all directions", "label": "C" },
+      { "text": "parallel to the surface of the magnet", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "By convention, magnetic field lines exit the north pole and enter the south pole, forming closed continuous loops that also pass through the inside of the magnet."
+  },
+  {
+    "questionText": "what does the spacing of magnetic field lines indicate?",
+    "topic": "magnetic field lines",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the polarity of the field", "label": "A" },
+      { "text": "the direction of current flow", "label": "B" },
+      { "text": "the strength of the magnetic field", "label": "C" },
+      { "text": "the speed of charged particles", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Closely spaced field lines indicate a stronger magnetic field (like near the poles), while widely spaced lines indicate a weaker field."
+  },
+  {
+    "questionText": "can two magnetic field lines ever cross each other?",
+    "topic": "magnetic field lines",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "yes, at the poles only", "label": "A" },
+      { "text": "yes, at the center of the magnet", "label": "B" },
+      { "text": "no, field lines never cross", "label": "C" },
+      { "text": "only if both magnets are identical", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Magnetic field lines never cross each other because at any given point in space, the magnetic field can only have one direction. Crossing lines would imply two directions at a single point, which is physically impossible."
+  },
+  {
+    "questionText": "the SI unit of magnetic field strength is:",
+    "topic": "magnetic field strength",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "ampere (A)", "label": "A" },
+      { "text": "gauss (G)", "label": "B" },
+      { "text": "tesla (T)", "label": "C" },
+      { "text": "weber (Wb)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The Tesla (T) is the SI unit for magnetic field strength (B). The Gauss is an older CGS unit where 1 T = 10,000 G."
+  },
+  {
+    "questionText": "a magnetic field of 0.5 T expressed in gauss is:",
+    "topic": "magnetic field strength",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "50 G", "label": "A" },
+      { "text": "500 G", "label": "B" },
+      { "text": "5,000 G", "label": "C" },
+      { "text": "50,000 G", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Using the conversion 1 T = 10,000 G: 0.5 T × 10,000 = 5,000 Gauss."
+  },
+  {
+    "questionText": "why does the geographic north pole of the earth actually correspond to a magnetic south pole?",
+    "topic": "the nature of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "because magnetic poles do not follow the attraction rule",
+        "label": "A"
+      },
+      {
+        "text": "because the north end of a compass is attracted there, meaning opposite poles attract",
+        "label": "B"
+      },
+      { "text": "because the earth rotates counterclockwise", "label": "C" },
+      {
+        "text": "because geographic north has a stronger gravitational field",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The north end of a compass needle points toward geographic north. Since opposite poles attract, geographic north must be a magnetic south pole to attract the compass needle's north end."
+  },
+  {
+    "questionText": "the earth's magnetic field strength is approximately:",
+    "topic": "magnetic field strength",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.05 T", "label": "A" },
+      { "text": "0.5 T", "label": "B" },
+      { "text": "0.00005 T", "label": "C" },
+      { "text": "5 T", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The Earth's magnetic field is quite weak at approximately 5 × 10⁻⁵ T (0.00005 T), compared to a medical MRI machine which uses 1.5 to 3.0 T."
+  },
+  {
+    "questionText": "which organisms use magnetite particles in their bodies for navigation, as mentioned in the notes?",
+    "topic": "the nature of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "sharks and dolphins", "label": "A" },
+      { "text": "migratory birds and honeybees", "label": "B" },
+      { "text": "bacteria and fungi", "label": "C" },
+      { "text": "humans and primates", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Migratory birds and honeybees have tiny particles of magnetite in their bodies that act as biological GPS systems, allowing them to sense the Earth's magnetic field lines — a phenomenon called magnetoreception."
+  },
+  {
+    "questionText": "what is the lorentz force?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the gravitational force on a charged particle", "label": "A" },
+      {
+        "text": "the force exerted on a moving charge by a magnetic field",
+        "label": "B"
+      },
+      { "text": "the force between two stationary charges", "label": "C" },
+      { "text": "the electric force between parallel plates", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The Lorentz force is the magnetic force exerted on a moving charged particle when it passes through a magnetic field. A stationary charge experiences no magnetic force."
+  },
+  {
+    "questionText": "the formula for the magnitude of the magnetic lorentz force is:",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "FB = qvB cos(θ)", "label": "A" },
+      { "text": "FB = qvB sin(θ)", "label": "B" },
+      { "text": "FB = qvB / sin(θ)", "label": "C" },
+      { "text": "FB = q²vB sin(θ)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The Lorentz force formula is FB = qvB sin(θ), where q is charge, v is speed, B is field strength, and θ is the angle between the velocity vector and the magnetic field vector."
+  },
+  {
+    "questionText": "when is the lorentz magnetic force on a moving charge at its maximum?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "when the charge moves parallel to the field", "label": "A" },
+      { "text": "when the charge moves at 45° to the field", "label": "B" },
+      {
+        "text": "when the charge moves perpendicular to the field",
+        "label": "C"
+      },
+      { "text": "when the charge is stationary", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The force is maximum when θ = 90° (perpendicular), because sin(90°) = 1. When the velocity is parallel to B, θ = 0° and sin(0°) = 0, so there is no force."
+  },
+  {
+    "questionText": "a proton moves parallel to a magnetic field. what is the magnetic force on it?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "qvB", "label": "A" },
+      { "text": "qvB/2", "label": "B" },
+      { "text": "2qvB", "label": "C" },
+      { "text": "zero", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "When a charge moves parallel to a magnetic field, θ = 0°, and sin(0°) = 0. Therefore FB = qvB sin(0°) = 0. No force acts on the proton."
+  },
+  {
+    "questionText": "a proton (q = 1.6×10⁻¹⁹ C) moves at 3.0×10⁷ m/s perpendicular to a 2.0 T field. calculate the magnetic force on it.",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "4.8×10⁻¹² N", "label": "A" },
+      { "text": "9.6×10⁻¹² N", "label": "B" },
+      { "text": "3.2×10⁻¹² N", "label": "C" },
+      { "text": "1.6×10⁻¹² N", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "FB = qvB sin(90°) = (1.6×10⁻¹⁹)(3.0×10⁷)(2.0)(1) = 9.6×10⁻¹² N."
+  },
+  {
+    "questionText": "in the right-hand rule for the lorentz force (RHR-1), what does your thumb represent?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the direction of the magnetic field B", "label": "A" },
+      { "text": "the direction of the velocity v", "label": "B" },
+      {
+        "text": "the direction of the magnetic force FB for a positive charge",
+        "label": "C"
+      },
+      { "text": "the direction of the electric field", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "In RHR-1, you point your fingers in the direction of v, curl them toward B, and your thumb points in the direction of the magnetic force FB for a positive charge."
+  },
+  {
+    "questionText": "if the lorentz force applies to a negative charge (like an electron), in which direction does the force act compared to the right-hand rule thumb direction?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the same direction as the thumb", "label": "A" },
+      { "text": "perpendicular to the thumb", "label": "B" },
+      { "text": "opposite to the direction of the thumb", "label": "C" },
+      { "text": "at 45° to the thumb direction", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "For a negative charge, the force is reversed compared to a positive charge. So the magnetic force on an electron points opposite to the direction indicated by the right-hand rule thumb."
+  },
+  {
+    "questionText": "why does the magnetic force not change the speed of a charged particle?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "because the force is too weak", "label": "A" },
+      {
+        "text": "because the force is always perpendicular to the velocity",
+        "label": "B"
+      },
+      {
+        "text": "because the force acts opposite to the velocity",
+        "label": "C"
+      },
+      {
+        "text": "because magnetic fields only affect stationary charges",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The magnetic force is always perpendicular to the velocity. A perpendicular force can only change direction, not speed (it does no work on the particle). This causes circular or helical motion."
+  },
+  {
+    "questionText": "a charged particle moving in a uniform magnetic field follows what kind of path?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "a straight line", "label": "A" },
+      { "text": "a parabola", "label": "B" },
+      { "text": "a circular or helical path", "label": "C" },
+      { "text": "an ellipse", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Since the magnetic force is always perpendicular to the velocity, it continuously changes the direction of the particle without doing work, causing it to follow a circular path (or helix if it has a velocity component along B)."
+  },
+  {
+    "questionText": "mass spectrometry works by measuring:",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the electric charge of atoms directly", "label": "A" },
+      {
+        "text": "how much different ions curve in a known magnetic field",
+        "label": "B"
+      },
+      { "text": "the gravitational force on ions", "label": "C" },
+      { "text": "the speed of neutral atoms", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In a mass spectrometer, ions are shot into a known magnetic field and the radius of their circular path is measured. Since FB = mv²/r = qvB, heavier ions curve less than lighter ones, enabling mass identification."
+  },
+  {
+    "questionText": "an electron (q = 1.6×10⁻¹⁹ C) moves at 1.0×10⁶ m/s at 30° to a 0.5 T field. calculate the magnetic force magnitude.",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "4.0×10⁻¹⁴ N", "label": "A" },
+      { "text": "8.0×10⁻¹⁴ N", "label": "B" },
+      { "text": "4.0×10⁻¹³ N", "label": "C" },
+      { "text": "8.0×10⁻¹³ N", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "FB = qvB sin(θ) = (1.6×10⁻¹⁹)(1.0×10⁶)(0.5)(sin 30°) = (1.6×10⁻¹⁹)(1.0×10⁶)(0.5)(0.5) = 4.0×10⁻¹⁴ N."
+  },
+  {
+    "questionText": "calculate the magnetic force on a proton (q = 1.6×10⁻¹⁹ C) moving at 2.5×10⁶ m/s perpendicular to a 1.2 T magnetic field.",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "3.2×10⁻¹³ N", "label": "A" },
+      { "text": "4.8×10⁻¹³ N", "label": "B" },
+      { "text": "6.4×10⁻¹³ N", "label": "C" },
+      { "text": "9.6×10⁻¹³ N", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "FB = qvB = (1.6×10⁻¹⁹)(2.5×10⁶)(1.2) = 4.8×10⁻¹³ N."
+  },
+  {
+    "questionText": "an alpha particle (q = 3.2×10⁻¹⁹ C) moves at 4.0×10⁶ m/s perpendicular to a 0.5 T magnetic field. calculate the magnetic force.",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "3.2×10⁻¹³ N", "label": "A" },
+      { "text": "6.4×10⁻¹³ N", "label": "B" },
+      { "text": "1.28×10⁻¹² N", "label": "C" },
+      { "text": "2.56×10⁻¹² N", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "FB = qvB = (3.2×10⁻¹⁹)(4.0×10⁶)(0.5) = 6.4×10⁻¹³ N."
+  },
+  {
+    "questionText": "a charge of 2.0×10⁻⁶ C moves at 500 m/s at 60° to a 0.3 T field. calculate the magnetic force.",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.3×10⁻⁴ N", "label": "A" },
+      { "text": "2.6×10⁻⁴ N", "label": "B" },
+      { "text": "3.0×10⁻⁴ N", "label": "C" },
+      { "text": "5.2×10⁻⁴ N", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "FB = qvB sin(60°) = (2.0×10⁻⁶)(500)(0.3)(0.866) = 2.6×10⁻⁴ N."
+  },
+  {
+    "questionText": "what is the force on a current-carrying wire of length L placed in a magnetic field B at angle θ?",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "F = ILB cos(θ)", "label": "A" },
+      { "text": "F = ILB sin(θ)", "label": "B" },
+      { "text": "F = IL/B sin(θ)", "label": "C" },
+      { "text": "F = I²LB sin(θ)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The magnetic force on a current-carrying wire is F = ILB sin(θ), where I is the current, L is the wire length, B is the magnetic field, and θ is the angle between the current direction and B."
+  },
+  {
+    "questionText": "a wire carries 10 A in a 0.3 T field at 90°. calculate the force per meter on the wire.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.5 N/m", "label": "A" },
+      { "text": "3.0 N/m", "label": "B" },
+      { "text": "0.3 N/m", "label": "C" },
+      { "text": "30 N/m", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "F/L = IB sin(90°) = 10 × 0.3 × 1 = 3.0 N/m."
+  },
+  {
+    "questionText": "what physical quantity causes rotation in an electric motor?",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "magnetic dipole moment", "label": "A" },
+      { "text": "torque on a current-carrying loop", "label": "B" },
+      { "text": "the lorentz force on a stationary charge", "label": "C" },
+      { "text": "the electric field between coil windings", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In an electric motor, opposite forces act on opposite sides of a current loop in a magnetic field, creating a torque (τ = NIABsin(θ)) that causes the loop to rotate."
+  },
+  {
+    "questionText": "the torque on a current loop in a magnetic field is given by:",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "τ = NIABcos(θ)", "label": "A" },
+      { "text": "τ = NIABsin(θ)", "label": "B" },
+      { "text": "τ = NIAB / sin(θ)", "label": "C" },
+      { "text": "τ = N²IABsin(θ)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The torque is τ = NIABsin(θ), where N is the number of turns, I is the current, A is the loop area, B is the field, and θ is the angle between the magnetic dipole moment and the field."
+  },
+  {
+    "questionText": "the magnetic dipole moment μ of a coil is defined as:",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "μ = NI/A", "label": "A" },
+      { "text": "μ = NIA", "label": "B" },
+      { "text": "μ = NA/I", "label": "C" },
+      { "text": "μ = NI²A", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The magnetic dipole moment is μ = NIA, where N is the number of turns, I is the current, and A is the area enclosed by the loop. It is a vector perpendicular to the plane of the loop."
+  },
+  {
+    "questionText": "a 50-turn coil of area 0.01 m² carries a current of 2 A in a 0.5 T field at 90°. calculate the torque on the coil.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.25 N·m", "label": "A" },
+      { "text": "0.5 N·m", "label": "B" },
+      { "text": "0.05 N·m", "label": "C" },
+      { "text": "1.0 N·m", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "τ = NIABsin(90°) = 50 × 2 × 0.01 × 0.5 × 1 = 0.5 N·m."
+  },
+  {
+    "questionText": "what direction does the right-hand rule for a current loop indicate for the magnetic dipole moment μ?",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "in the direction of the current flow", "label": "A" },
+      {
+        "text": "perpendicular to the loop face, in the direction the thumb points when fingers curl with the current",
+        "label": "B"
+      },
+      { "text": "opposite to the current direction", "label": "C" },
+      { "text": "parallel to the plane of the loop", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "To find μ direction: curl the fingers of your right hand in the direction of current flow around the loop, and your thumb points in the direction of μ, perpendicular to the loop's face."
+  },
+  {
+    "questionText": "a horizontal wire carries 50 A eastward in earth's field (5×10⁻⁵ T northward). calculate the force per meter on the wire.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.0×10⁻³ N/m upward", "label": "A" },
+      { "text": "2.5×10⁻³ N/m upward", "label": "B" },
+      { "text": "2.5×10⁻³ N/m downward", "label": "C" },
+      { "text": "5.0×10⁻³ N/m northward", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "F/L = IB sin(90°) = 50 × 5×10⁻⁵ × 1 = 2.5×10⁻³ N/m. The RHR (East curled toward North) gives a thumb pointing upward, so the force acts vertically upward."
+  },
+  {
+    "questionText": "two parallel wires are separated by 0.04 m. Wire 1 carries 6 A and Wire 2 carries 9 A in the same direction. calculate the force per unit length between them.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.35×10⁻⁴ N/m, attractive", "label": "A" },
+      { "text": "2.70×10⁻⁴ N/m, attractive", "label": "B" },
+      { "text": "1.35×10⁻⁴ N/m, repulsive", "label": "C" },
+      { "text": "2.70×10⁻⁴ N/m, repulsive", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "F/L = μ₀I₁I₂/(2πd) = (4π×10⁻⁷ × 6 × 9)/(2π × 0.04) = (216π×10⁻⁷)/(0.08π) = 2.70×10⁻⁴ N/m. Same direction currents attract."
+  },
+  {
+    "questionText": "two parallel wires carry 4 A and 7 A in opposite directions, separated by 0.03 m. calculate the force per unit length.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.87×10⁻⁴ N/m, attractive", "label": "A" },
+      { "text": "3.73×10⁻⁴ N/m, attractive", "label": "B" },
+      { "text": "1.87×10⁻⁴ N/m, repulsive", "label": "C" },
+      { "text": "3.73×10⁻⁴ N/m, repulsive", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "F/L = μ₀I₁I₂/(2πd) = (4π×10⁻⁷ × 4 × 7)/(2π × 0.03) = (112π×10⁻⁷)/(0.06π) = 1.87×10⁻⁴ N/m. Opposite direction currents repel."
+  },
+  {
+    "questionText": "a 30-turn coil of area 0.02 m² carries 1.5 A in a 0.4 T field. calculate the maximum torque.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.18 N·m", "label": "A" },
+      { "text": "0.36 N·m", "label": "B" },
+      { "text": "0.72 N·m", "label": "C" },
+      { "text": "1.44 N·m", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "τ_max = NIAB = 30 × 1.5 × 0.02 × 0.4 = 0.36 N·m."
+  },
+  {
+    "questionText": "a wire of length 0.4 m carries 12 A in a 0.7 T field at 30°. calculate the force on the wire.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.68 N", "label": "A" },
+      { "text": "2.94 N", "label": "B" },
+      { "text": "3.36 N", "label": "C" },
+      { "text": "5.88 N", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "F = ILBsin(30°) = 12 × 0.4 × 0.7 × 0.5 = 1.68 N."
+  },
+  {
+    "questionText": "who discovered that a compass needle deflects near a current-carrying wire?",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "michael faraday", "label": "A" },
+      { "text": "hans christian ørsted", "label": "B" },
+      { "text": "james clerk maxwell", "label": "C" },
+      { "text": "andre-marie ampère", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In 1820, Hans Christian Ørsted discovered that a compass needle deflects when placed near a current-carrying wire, proving that moving charges create magnetic fields."
+  },
+  {
+    "questionText": "the biot-savart law is best described as the magnetic equivalent of:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "faraday's law", "label": "A" },
+      { "text": "ampere's law", "label": "B" },
+      { "text": "coulomb's law", "label": "C" },
+      { "text": "gauss's law", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The Biot-Savart Law calculates the magnetic field contribution from a tiny wire segment, in the same way Coulomb's Law calculates the electric field from a tiny charge element — it is the magnetic equivalent of Coulomb's Law."
+  },
+  {
+    "questionText": "the value of the permeability of free space μ₀ is:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "8.85×10⁻¹² T·m/A", "label": "A" },
+      { "text": "4π×10⁻⁷ T·m/A", "label": "B" },
+      { "text": "9×10⁹ T·m/A", "label": "C" },
+      { "text": "1.6×10⁻¹⁹ T·m/A", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The permeability of free space is μ₀ = 4π×10⁻⁷ T·m/A. This constant appears in both the Biot-Savart Law and Ampère's Law."
+  },
+  {
+    "questionText": "the magnetic field from a long straight wire at distance r is:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "B = μ₀I / (4πr)", "label": "A" },
+      { "text": "B = μ₀I / (2πr)", "label": "B" },
+      { "text": "B = μ₀I / (2r)", "label": "C" },
+      { "text": "B = μ₀I / (πr²)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Integrating the Biot-Savart Law over an infinite straight wire yields B = μ₀I / (2πr), where r is the perpendicular distance from the wire."
+  },
+  {
+    "questionText": "the shape of magnetic field lines around a long straight current-carrying wire is:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "radial lines pointing outward", "label": "A" },
+      { "text": "concentric circles centered on the wire", "label": "B" },
+      { "text": "straight lines parallel to the wire", "label": "C" },
+      { "text": "spiral patterns", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The magnetic field lines around a long straight wire form concentric circles in planes perpendicular to the wire. The right-hand grip rule gives the direction: thumb points along current, fingers show field direction."
+  },
+  {
+    "questionText": "a straight wire carries 4 A. calculate the magnetic field strength 10 cm away.",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "4×10⁻⁶ T", "label": "A" },
+      { "text": "8×10⁻⁶ T", "label": "B" },
+      { "text": "16×10⁻⁶ T", "label": "C" },
+      { "text": "2×10⁻⁶ T", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "B = μ₀I/(2πr) = (4π×10⁻⁷ × 4)/(2π × 0.1) = (16π×10⁻⁷)/(0.2π) = 8×10⁻⁶ T = 8 μT."
+  },
+  {
+    "questionText": "the magnetic field at the center of a single circular loop of radius R carrying current I is:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "B = μ₀I / (4R)", "label": "A" },
+      { "text": "B = μ₀I / (2R)", "label": "B" },
+      { "text": "B = μ₀I / (2πR)", "label": "C" },
+      { "text": "B = μ₀I / (πR)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "At the center of a circular current loop, all field contributions add constructively. The result is B = μ₀I/(2R). For N turns, multiply by N."
+  },
+  {
+    "questionText": "how does doubling the number of turns N in a circular coil affect the magnetic field at its center?",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the field is halved", "label": "A" },
+      { "text": "the field is unchanged", "label": "B" },
+      { "text": "the field is doubled", "label": "C" },
+      { "text": "the field is quadrupled", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "For N turns, B = Nμ₀I/(2R). The field is directly proportional to N, so doubling the number of turns doubles the magnetic field at the center."
+  },
+  {
+    "questionText": "what does the right-hand grip rule help determine for a straight current-carrying wire?",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the direction of current flow", "label": "A" },
+      {
+        "text": "the direction of the magnetic field lines circling the wire",
+        "label": "B"
+      },
+      { "text": "the magnitude of the magnetic force", "label": "C" },
+      { "text": "whether the wire is a conductor or insulator", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Point the right thumb in the direction of the current; the curled fingers show the direction in which the concentric magnetic field circles around the wire."
+  },
+  {
+    "questionText": "calculate the magnetic field 0.08 m from a wire carrying 6 A.",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.5×10⁻⁵ T", "label": "A" },
+      { "text": "3.0×10⁻⁵ T", "label": "B" },
+      { "text": "6.0×10⁻⁵ T", "label": "C" },
+      { "text": "1.2×10⁻⁴ T", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "B = μ₀I/(2πr) = (4π×10⁻⁷ × 6)/(2π × 0.08) = (24π×10⁻⁷)/(0.16π) = 1.5×10⁻⁵ T."
+  },
+  {
+    "questionText": "a circular loop of radius 0.15 m carries 8 A. calculate the field at its center.",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.67×10⁻⁵ T", "label": "A" },
+      { "text": "3.35×10⁻⁵ T", "label": "B" },
+      { "text": "6.70×10⁻⁵ T", "label": "C" },
+      { "text": "1.34×10⁻⁴ T", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "B = μ₀I/(2R) = (4π×10⁻⁷ × 8)/(2 × 0.15) = (32π×10⁻⁷)/(0.3) = 3.35×10⁻⁵ T."
+  },
+  {
+    "questionText": "a circular loop has 50 turns, radius 0.02 m, and carries 3 A. calculate the field at its center.",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "4.71×10⁻³ T", "label": "A" },
+      { "text": "9.42×10⁻³ T", "label": "B" },
+      { "text": "1.88×10⁻² T", "label": "C" },
+      { "text": "3.77×10⁻² T", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "B = Nμ₀I/(2R) = 50 × (4π×10⁻⁷ × 3)/(2 × 0.02) = 50 × (12π×10⁻⁷)/(0.04) = 50 × 9.42×10⁻⁵ = 4.71×10⁻³ T."
+  },
+  {
+    "questionText": "ampère's law is the magnetic equivalent of which electric law?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "coulomb's law", "label": "A" },
+      { "text": "gauss's law", "label": "B" },
+      { "text": "faraday's law", "label": "C" },
+      { "text": "ohm's law", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Ampère's Law is the magnetic equivalent of Gauss's Law. Both exploit symmetry to simplify calculations: Gauss uses a closed surface, Ampère uses a closed loop (Ampèrian loop)."
+  },
+  {
+    "questionText": "ampère's law states that the line integral of B around a closed loop equals:",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "μ₀ × total charge enclosed", "label": "A" },
+      { "text": "μ₀ × net current enclosed by the loop", "label": "B" },
+      { "text": "the magnetic flux through the loop", "label": "C" },
+      { "text": "the electric potential at the loop", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Ampère's Law: ∮B·dl = μ₀Ienc. The line integral of the magnetic field around a closed loop equals μ₀ times the net current passing through the area enclosed by that loop."
+  },
+  {
+    "questionText": "a solenoid is:",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "a single circular loop of wire", "label": "A" },
+      { "text": "a long coil of wire with many turns", "label": "B" },
+      { "text": "a solenoid bent into a doughnut shape", "label": "C" },
+      { "text": "a straight wire wound around a core", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A solenoid is a long coil of wire with many turns. When current flows through it, the magnetic fields from individual turns superpose to create a strong, nearly uniform field inside."
+  },
+  {
+    "questionText": "the magnetic field inside an ideal solenoid is given by:",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "B = μ₀NI", "label": "A" },
+      { "text": "B = μ₀nI", "label": "B" },
+      { "text": "B = μ₀I/(2πr)", "label": "C" },
+      { "text": "B = μ₀NI/(2R)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "B = μ₀nI, where n = N/L is the number of turns per unit length. The field inside a solenoid is uniform and does not depend on position within the solenoid or its radius."
+  },
+  {
+    "questionText": "for a solenoid, n represents:",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "total number of turns", "label": "A" },
+      { "text": "number of turns per unit length", "label": "B" },
+      { "text": "the radius of the solenoid", "label": "C" },
+      { "text": "net current enclosed", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In the solenoid formula B = μ₀nI, n = N/L is the turn density (turns per meter), not the total number of turns N. A solenoid with more turns packed per meter produces a stronger field."
+  },
+  {
+    "questionText": "a solenoid 0.5 m long has 2000 turns and carries 5 A. calculate the field inside.",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.0126 T", "label": "A" },
+      { "text": "0.0251 T", "label": "B" },
+      { "text": "0.0503 T", "label": "C" },
+      { "text": "0.1257 T", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "n = 2000/0.5 = 4000 turns/m. B = μ₀nI = 4π×10⁻⁷ × 4000 × 5 = 4π×10⁻⁷ × 20000 ≈ 0.0251 T."
+  },
+  {
+    "questionText": "how does changing the radius of a solenoid affect the magnetic field inside it, assuming n and I stay constant?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the field increases with larger radius", "label": "A" },
+      { "text": "the field decreases with larger radius", "label": "B" },
+      { "text": "the field does not change", "label": "C" },
+      { "text": "the field is proportional to radius squared", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "B = μ₀nI has no dependence on the solenoid's radius. The field inside an ideal solenoid depends only on the turn density n and the current I, not on the coil's dimensions."
+  },
+  {
+    "questionText": "what is the main advantage of a toroid over a solenoid?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "a toroid produces a stronger field", "label": "A" },
+      {
+        "text": "a toroid traps the magnetic field inside with no stray field outside",
+        "label": "B"
+      },
+      { "text": "a toroid uses less current", "label": "C" },
+      { "text": "a toroid is easier to manufacture", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A toroid (solenoid bent into a doughnut shape) confines the magnetic field entirely within its ring structure. There is essentially no magnetic field outside the toroid, making it ideal for sensitive electronics like transformers."
+  },
+  {
+    "questionText": "you need B = 0.02 T in a solenoid 50 cm long with 1000 turns. calculate the current needed.",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "3.98 A", "label": "A" },
+      { "text": "7.96 A", "label": "B" },
+      { "text": "15.92 A", "label": "C" },
+      { "text": "1.99 A", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "n = 1000/0.5 = 2000 turns/m. I = B/(μ₀n) = 0.02/(4π×10⁻⁷ × 2000) = 0.02/0.002513 ≈ 7.96 A."
+  },
+  {
+    "questionText": "a solenoid has 3000 turns per meter and carries 4 A. calculate the magnetic field inside.",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.51×10⁻² T", "label": "A" },
+      { "text": "3.01×10⁻² T", "label": "B" },
+      { "text": "4.52×10⁻² T", "label": "C" },
+      { "text": "6.03×10⁻² T", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "B = μ₀nI = 4π×10⁻⁷ × 3000 × 4 = 4π×10⁻⁷ × 12000 = 1.51×10⁻² T."
+  },
+  {
+    "questionText": "a solenoid is 0.3 m long with 1500 turns carrying 2.5 A. calculate the field inside.",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.0157 T", "label": "A" },
+      { "text": "0.0314 T", "label": "B" },
+      { "text": "0.0471 T", "label": "C" },
+      { "text": "0.0628 T", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "n = 1500/0.3 = 5000 turns/m. B = μ₀nI = 4π×10⁻⁷ × 5000 × 2.5 = 4π×10⁻⁷ × 12500 = 0.0157 T."
+  },
+  {
+    "questionText": "how many turns per meter are needed in a solenoid to produce 0.05 T with 3 A current?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "13,263 turns/m", "label": "A" },
+      { "text": "26,526 turns/m", "label": "B" },
+      { "text": "39,789 turns/m", "label": "C" },
+      { "text": "53,052 turns/m", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "n = B/(μ₀I) = 0.05/(4π×10⁻⁷ × 3) = 0.05/(3.77×10⁻⁶) = 13,263 turns/m."
+  },
+  {
+    "questionText": "diamagnetism is characterized by materials that:",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "strongly attract to magnets and remain magnetized",
+        "label": "A"
+      },
+      {
+        "text": "weakly align with an external field but demagnetize when field is removed",
+        "label": "B"
+      },
+      {
+        "text": "create a tiny opposing field when placed in an external magnetic field",
+        "label": "C"
+      },
+      {
+        "text": "contain large regions of aligned atomic dipoles called domains",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Diamagnetic materials develop a tiny induced magnetic field in the direction opposite to the applied external field — a slight 'allergic reaction' to magnets. This effect is present in all materials but is very weak."
+  },
+  {
+    "questionText": "which of the following is an example of a paramagnetic material?",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "iron", "label": "A" },
+      { "text": "cobalt", "label": "B" },
+      { "text": "aluminum", "label": "C" },
+      { "text": "nickel", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Aluminum is paramagnetic — it has permanent atomic dipoles that weakly align with an external field, but this alignment disappears when the field is removed. Iron, cobalt, and nickel are ferromagnetic."
+  },
+  {
+    "questionText": "what are magnetic domains?",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "regions where the magnetic field is zero", "label": "A" },
+      {
+        "text": "large groups of atoms with aligned magnetic dipoles in ferromagnetic materials",
+        "label": "B"
+      },
+      { "text": "the spaces between atoms in a crystal", "label": "C" },
+      { "text": "individual spinning electrons", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In ferromagnetic materials (Fe, Co, Ni), large groups of atoms spontaneously align their atomic dipoles in the same direction, forming magnetic domains. These domains make permanent magnetization possible."
+  },
+  {
+    "questionText": "which category of magnetism is found in iron, cobalt, and nickel?",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "diamagnetism", "label": "A" },
+      { "text": "paramagnetism", "label": "B" },
+      { "text": "ferromagnetism", "label": "C" },
+      { "text": "electromagnetism", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Iron, cobalt, and nickel are ferromagnetic materials. They contain magnetic domains and can remain permanently magnetized even after an external field is removed."
+  },
+  {
+    "questionText": "the magnetic energy density stored in a field B in a vacuum is:",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "uB = B² × μ₀ / 2", "label": "A" },
+      { "text": "uB = B / (2μ₀)", "label": "B" },
+      { "text": "uB = B² / (2μ₀)", "label": "C" },
+      { "text": "uB = 2B² / μ₀", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The magnetic energy density is uB = B²/(2μ₀), where B is the field strength and μ₀ is the permeability of free space. This is analogous to the electric energy density uE = ε₀E²/2."
+  },
+  {
+    "questionText": "calculate the magnetic energy density in a 2.0 T field.",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "7.96×10⁵ J/m³", "label": "A" },
+      { "text": "1.59×10⁶ J/m³", "label": "B" },
+      { "text": "3.18×10⁶ J/m³", "label": "C" },
+      { "text": "6.28×10⁵ J/m³", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "uB = B²/(2μ₀) = (2.0)²/(2 × 4π×10⁻⁷) = 4/(8π×10⁻⁷) ≈ 4/2.513×10⁻⁶ ≈ 1.59×10⁶ J/m³."
+  },
+  {
+    "questionText": "calculate the magnetic energy density in a 0.5 T magnetic field.",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "9.95×10⁴ J/m³", "label": "A" },
+      { "text": "1.99×10⁵ J/m³", "label": "B" },
+      { "text": "3.98×10⁵ J/m³", "label": "C" },
+      { "text": "7.96×10⁵ J/m³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "uB = B²/(2μ₀) = (0.5)²/(2 × 4π×10⁻⁷) = 0.25/(8π×10⁻⁷) = 9.95×10⁴ J/m³."
+  },
+  {
+    "questionText": "why does a spark sometimes appear when you quickly unplug a high-power device?",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "static electricity builds up on the plug", "label": "A" },
+      {
+        "text": "the collapsing magnetic field of the inductor releases stored energy rapidly",
+        "label": "B"
+      },
+      { "text": "the capacitor discharges suddenly", "label": "C" },
+      { "text": "the resistance of the wire increases suddenly", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Inductors (like solenoids) store energy in their magnetic fields. When you suddenly break the circuit, the magnetic field collapses rapidly and releases that stored energy all at once, which can cause a visible spark."
+  },
+  {
+    "questionText": "a solenoid has a uniform field of 1.2 T inside a volume of 0.005 m³. calculate the total magnetic energy stored.",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1,432 J", "label": "A" },
+      { "text": "2,865 J", "label": "B" },
+      { "text": "5,730 J", "label": "C" },
+      { "text": "11,460 J", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "E = B²V/(2μ₀) = (1.2)² × 0.005 / (2 × 4π×10⁻⁷) = 0.0072 / (2.513×10⁻⁶) = 2,865 J."
+  },
+  {
+    "questionText": "calculate the total energy stored in a 0.8 T field occupying a volume of 0.002 m³.",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "509 J", "label": "A" },
+      { "text": "1,018 J", "label": "B" },
+      { "text": "2,036 J", "label": "C" },
+      { "text": "4,072 J", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "E = B²V/(2μ₀) = (0.8)² × 0.002 / (2 × 4π×10⁻⁷) = 0.00128 / (2.513×10⁻⁶) = 509 J."
+  },
+  {
+    "questionText": "which of these medical devices relies directly on strong magnetic fields?",
+    "topic": "applications of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "x-ray machine", "label": "A" },
+      { "text": "ultrasound scanner", "label": "B" },
+      { "text": "MRI machine", "label": "C" },
+      { "text": "electrocardiogram (ECG)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "MRI (Magnetic Resonance Imaging) machines use extremely strong superconducting magnetic fields (1.5–3.0 T) to image the body. The other devices use sound waves, X-rays, or electrical signals respectively."
+  },
+  {
+    "questionText": "what phenomenon allows honeybees to navigate using the earth's magnetic field?",
+    "topic": "applications of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "ferromagnetism", "label": "A" },
+      { "text": "magnetoreception", "label": "B" },
+      { "text": "diamagnetism", "label": "C" },
+      { "text": "the lorentz effect", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Magnetoreception is the biological ability to sense magnetic fields for navigation. Honeybees and migratory birds use tiny magnetite particles in their bodies as internal compasses."
+  },
+  {
+    "questionText": "which engineering device uses toroids to avoid stray magnetic fields interfering with other electronics?",
+    "topic": "applications of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "mass spectrometers", "label": "A" },
+      { "text": "high-quality power transformers", "label": "B" },
+      { "text": "MRI scanners", "label": "C" },
+      { "text": "electric motors", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "High-quality power transformers use toroidal cores because the doughnut shape confines the magnetic field entirely inside the toroid, preventing interference with nearby electronic components."
+  },
+  {
+    "questionText": "an MRI machine typically operates at a field strength of:",
+    "topic": "applications of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.00005 T to 0.001 T", "label": "A" },
+      { "text": "0.01 T to 0.1 T", "label": "B" },
+      { "text": "1.5 T to 3.0 T", "label": "C" },
+      { "text": "100 T to 200 T", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Clinical MRI machines use superconducting magnets producing fields of 1.5 T to 3.0 T, which is about 30,000 to 60,000 times stronger than the Earth's magnetic field."
+  },
+  {
+    "questionText": "a magnetic monopole is:",
+    "topic": "the nature of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "a north pole without a paired south pole", "label": "A" },
+      {
+        "text": "a magnet with very strong north and south poles",
+        "label": "B"
+      },
+      { "text": "a compass needle's north end", "label": "C" },
+      { "text": "another term for an electromagnet", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A magnetic monopole would be an isolated north or south pole with no complementary opposite. Unlike electric charges which can exist alone, magnetic monopoles have never been observed. Magnets always have both poles."
+  },
+  {
+    "questionText": "the magnetic field lines inside a magnet travel from:",
+    "topic": "magnetic field lines",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "north to south pole (inside the magnet)", "label": "A" },
+      { "text": "south to north pole (inside the magnet)", "label": "B" },
+      { "text": "they do not exist inside the magnet", "label": "C" },
+      { "text": "they circle around the outside only", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Magnetic field lines form complete closed loops. Inside the magnet, they travel from the south pole to the north pole, completing the circuit with lines that go from north to south outside the magnet."
+  },
+  {
+    "questionText": "which quantity does NOT appear in the lorentz force formula FB = qvBsin(θ)?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the mass of the particle", "label": "A" },
+      { "text": "the charge of the particle", "label": "B" },
+      { "text": "the speed of the particle", "label": "C" },
+      { "text": "the magnetic field strength", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The Lorentz force formula FB = qvBsin(θ) involves charge (q), speed (v), field strength (B), and angle (θ). Mass does not appear in this formula — the force is independent of the particle's mass."
+  },
+  {
+    "questionText": "if the angle between a particle's velocity and the magnetic field is 0°, the magnetic force is:",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "maximum", "label": "A" },
+      { "text": "equal to qvB", "label": "B" },
+      { "text": "zero", "label": "C" },
+      { "text": "equal to qvB/√2", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "sin(0°) = 0, so FB = qvB sin(0°) = 0. A charge moving parallel to a magnetic field experiences no magnetic force."
+  },
+  {
+    "questionText": "a wire carrying current westward is placed in a magnetic field pointing downward (into the ground). using the right-hand rule, the force on the wire is directed:",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "northward", "label": "A" },
+      { "text": "southward", "label": "B" },
+      { "text": "upward", "label": "C" },
+      { "text": "eastward", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Using RHR: Point fingers West (current direction), curl them downward (field direction). The thumb points South. Therefore the magnetic force on the wire acts southward."
+  },
+  {
+    "questionText": "how does the magnetic field inside a solenoid compare to the field outside it?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the field outside is stronger", "label": "A" },
+      { "text": "the field is the same inside and outside", "label": "B" },
+      {
+        "text": "the field inside is strong and uniform; the field outside is essentially zero",
+        "label": "C"
+      },
+      { "text": "there is no field inside", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "An ideal solenoid produces a strong, uniform field inside and essentially zero field outside. This is why solenoids are used in electromagnets — all the useful field is concentrated where needed."
+  },
+  {
+    "questionText": "what is the atomic origin of magnetism in materials?",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the mass of protons in the nucleus", "label": "A" },
+      {
+        "text": "the spin and orbital motion of electrons creating tiny magnetic dipoles",
+        "label": "B"
+      },
+      { "text": "the attractive force between neutrons", "label": "C" },
+      { "text": "the vibration of atoms at high temperature", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Electrons spinning about their own axes and orbiting the nucleus are moving charges, which create tiny magnetic dipoles. How these dipoles interact and align determines whether a material is diamagnetic, paramagnetic, or ferromagnetic."
+  },
+  {
+    "questionText": "paramagnetic materials differ from ferromagnetic materials because paramagnetic materials:",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "repel all magnetic fields", "label": "A" },
+      {
+        "text": "lose their magnetization when the external field is removed",
+        "label": "B"
+      },
+      { "text": "form permanent magnets easily", "label": "C" },
+      { "text": "have very strong magnetic domains", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Paramagnetic materials align weakly with an external field but lose this alignment when the field is removed. Ferromagnetic materials, by contrast, can retain magnetization permanently due to their magnetic domain structure."
+  },
+  {
+    "questionText": "a circular loop of radius 0.1 m carries 5 A with 10 turns. calculate the field at the center.",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.57×10⁻⁴ T", "label": "A" },
+      { "text": "3.14×10⁻⁴ T", "label": "B" },
+      { "text": "6.28×10⁻⁴ T", "label": "C" },
+      { "text": "3.14×10⁻³ T", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "B = Nμ₀I/(2R) = 10 × (4π×10⁻⁷) × 5 / (2 × 0.1) = 10 × 20π×10⁻⁷ / 0.2 = 200π×10⁻⁷ / 0.2 = π×10⁻⁴ × 10 = 3.14×10⁻³ T."
+  },
+  {
+    "questionText": "calculate the energy density in a 1.0 T magnetic field.",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.99×10⁵ J/m³", "label": "A" },
+      { "text": "3.98×10⁵ J/m³", "label": "B" },
+      { "text": "7.96×10⁵ J/m³", "label": "C" },
+      { "text": "1.59×10⁶ J/m³", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "uB = B²/(2μ₀) = (1.0)²/(2 × 4π×10⁻⁷) = 1/(8π×10⁻⁷) ≈ 1/2.513×10⁻⁶ ≈ 3.98×10⁵ J/m³."
+  },
+  {
+    "questionText": "the biot-savart law formula for the field contribution from a small wire element is:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "dB = (μ₀/4π)(Idl sin θ)/r²", "label": "A" },
+      { "text": "dB = (μ₀/2π)(Idl sin θ)/r", "label": "B" },
+      { "text": "dB = (μ₀/4π)(Idl cos θ)/r²", "label": "C" },
+      { "text": "dB = (μ₀/4π)(I²dl)/r²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The Biot-Savart Law is dB = (μ₀/4π)(Idl sin θ)/r², where dl is the wire element length, θ is the angle between dl and the position vector r, and r is the distance to the field point."
+  },
+  {
+    "questionText": "two parallel wires each carry 10 A in the same direction. they will:",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "repel each other", "label": "A" },
+      { "text": "attract each other", "label": "B" },
+      { "text": "experience no force", "label": "C" },
+      { "text": "attract only if the currents are very large", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Parallel wires with currents in the same direction attract each other. Wire 1's field (by RHG rule) produces a force on wire 2 that points toward wire 1. The reverse is also true for wire 1 in wire 2's field."
+  },
+  {
+    "questionText": "which statement about the field of a solenoid is true?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "it is strongest near the ends of the solenoid", "label": "A" },
+      {
+        "text": "it depends on the distance from the central axis",
+        "label": "B"
+      },
+      {
+        "text": "it is uniform throughout the interior of an ideal solenoid",
+        "label": "C"
+      },
+      { "text": "it is zero inside the solenoid", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "By Ampère's Law applied to an ideal solenoid, B = μ₀nI everywhere inside the solenoid. The field is perfectly uniform in magnitude and direction throughout the interior."
+  },
+  {
+    "questionText": "what type of charge motion creates a magnetic field?",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "stationary charges only", "label": "A" },
+      { "text": "moving charges (electric current)", "label": "B" },
+      { "text": "negative charges only", "label": "C" },
+      { "text": "charges at rest in a conductor", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "As Ørsted demonstrated in 1820, moving charges (i.e., electric current) create magnetic fields. Stationary charges create only electric fields, not magnetic fields."
+  },
+  {
+    "questionText": "a 100-turn coil of area 4×10⁻³ m² carries 3 A. calculate its magnetic dipole moment.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.12 A·m²", "label": "A" },
+      { "text": "0.6 A·m²", "label": "B" },
+      { "text": "1.2 A·m²", "label": "C" },
+      { "text": "12 A·m²", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "μ = NIA = 100 × 3 × 4×10⁻³ = 1.2 A·m²."
+  },
+  {
+    "questionText": "a 200-turn coil of area 5×10⁻³ m² carries 2.5 A. calculate its magnetic dipole moment.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.5 A·m²", "label": "A" },
+      { "text": "1.0 A·m²", "label": "B" },
+      { "text": "2.5 A·m²", "label": "C" },
+      { "text": "5.0 A·m²", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "μ = NIA = 200 × 2.5 × 5×10⁻³ = 2.5 A·m²."
+  },
+  {
+    "questionText": "why is a toroid used in high-quality power transformers rather than a solenoid?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "toroids can carry more current", "label": "A" },
+      { "text": "toroids produce a stronger field per turn", "label": "B" },
+      {
+        "text": "toroids confine the field internally, eliminating electromagnetic interference",
+        "label": "C"
+      },
+      { "text": "toroids are cheaper to manufacture", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "A toroid's closed doughnut geometry means the magnetic field is completely contained within the toroid ring, with essentially zero field outside. This eliminates electromagnetic interference with nearby circuits."
+  },
+  {
+    "questionText": "in a mass spectrometer, a heavier ion compared to a lighter ion (same charge, same speed) will curve:",
+    "topic": "applications of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "more, tracing a tighter circle", "label": "A" },
+      { "text": "less, tracing a larger circle", "label": "B" },
+      { "text": "the same amount as the lighter ion", "label": "C" },
+      { "text": "more if moving faster", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "From qvB = mv²/r, the radius r = mv/(qB). A heavier ion (larger m) traces a larger radius, curving less. A lighter ion traces a smaller radius, curving more."
+  },
+  {
+    "questionText": "which of the following fields is described as continuous closed loops?",
+    "topic": "magnetic field lines",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "electric field lines from a positive point charge",
+        "label": "A"
+      },
+      { "text": "gravitational field lines", "label": "B" },
+      { "text": "magnetic field lines", "label": "C" },
+      { "text": "electric field lines between parallel plates", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Magnetic field lines always form continuous closed loops — they never start or end on a pole (unlike electric field lines which begin and end on charges). They exit the north pole and reenter the south pole, continuing through the magnet itself."
+  },
+  {
+    "questionText": "what is the torque on a magnetic dipole aligned perpendicular to an external magnetic field?",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "τ = 0", "label": "A" },
+      { "text": "τ = μB/2", "label": "B" },
+      { "text": "τ = μB (maximum torque)", "label": "C" },
+      { "text": "τ = μB cos(90°)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "τ = μBsin(θ). When θ = 90° (dipole perpendicular to B), sin(90°) = 1, so τ = μB, which is the maximum possible torque. The torque is zero when the dipole is aligned with B (θ = 0°)."
+  },
+  {
+    "questionText": "a solenoid with n = 3000 turns/m carries 2 A. calculate the field inside.",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "3.77×10⁻³ T", "label": "A" },
+      { "text": "7.54×10⁻³ T", "label": "B" },
+      { "text": "1.51×10⁻² T", "label": "C" },
+      { "text": "2.51×10⁻² T", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "B = μ₀nI = 4π×10⁻⁷ × 3000 × 2 = 4π×10⁻⁷ × 6000 = 24000π×10⁻⁷ ≈ 7.54×10⁻³ T."
+  },
+  {
+    "questionText": "which law allows you to calculate the magnetic field from a short segment of current-carrying wire?",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "ampère's law", "label": "A" },
+      { "text": "faraday's law", "label": "B" },
+      { "text": "biot-savart law", "label": "C" },
+      { "text": "gauss's law for magnetism", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The Biot-Savart Law gives the field contribution dB from an infinitesimal current element Idl. Ampère's Law requires high symmetry and gives the total field for symmetric configurations."
+  },
+  {
+    "questionText": "how many gauss is 0.00005 T (the earth's approximate field)?",
+    "topic": "magnetic field strength",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.05 G", "label": "A" },
+      { "text": "0.5 G", "label": "B" },
+      { "text": "5 G", "label": "C" },
+      { "text": "50 G", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "0.00005 T × 10,000 G/T = 0.5 Gauss. This confirms that the Earth's field is very weak at only half a Gauss."
+  },
+  {
+    "questionText": "convert 2.5 T to gauss.",
+    "topic": "magnetic field strength",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "2,500 G", "label": "A" },
+      { "text": "25,000 G", "label": "B" },
+      { "text": "250,000 G", "label": "C" },
+      { "text": "25 G", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "2.5 T × 10,000 G/T = 25,000 G."
+  },
+  {
+    "questionText": "convert 12,000 G to Tesla.",
+    "topic": "magnetic field strength",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.12 T", "label": "A" },
+      { "text": "1.2 T", "label": "B" },
+      { "text": "12 T", "label": "C" },
+      { "text": "0.012 T", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "12,000 G ÷ 10,000 G/T = 1.2 T."
+  },
+  {
+    "questionText": "the magnetic field lines inside a solenoid are:",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "circular loops around the axis", "label": "A" },
+      { "text": "radial lines pointing outward", "label": "B" },
+      {
+        "text": "straight, parallel, and evenly spaced (uniform field)",
+        "label": "C"
+      },
+      {
+        "text": "concentrated at the coil wires and zero between them",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Inside an ideal solenoid, the field lines are straight, parallel to the solenoid axis, and uniformly spaced — indicating a uniform (constant) magnetic field throughout the interior."
+  },
+  {
+    "questionText": "the force on a current-carrying wire in a magnetic field is zero when:",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the current is very large", "label": "A" },
+      { "text": "the wire is perpendicular to the field", "label": "B" },
+      { "text": "the wire is parallel to the field", "label": "C" },
+      { "text": "the wire is curved", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "F = ILBsin(θ). When the current is parallel to B, θ = 0°, so sin(0°) = 0, and F = 0. No force acts on the wire when it lies along the field direction."
+  },
+  {
+    "questionText": "which material would NOT be attracted to a magnet?",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "iron", "label": "A" },
+      { "text": "nickel", "label": "B" },
+      { "text": "cobalt", "label": "C" },
+      { "text": "wood", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Wood is neither ferromagnetic nor paramagnetic in any practically significant way. Iron, nickel, and cobalt are all ferromagnetic and will be strongly attracted to a permanent magnet."
+  },
+  {
+    "questionText": "the 'quenching' of an MRI magnet refers to:",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "switching the magnet to repulsion mode", "label": "A" },
+      {
+        "text": "the sudden loss and release of the stored magnetic field energy",
+        "label": "B"
+      },
+      { "text": "cooling the magnet with water", "label": "C" },
+      { "text": "reversing the current to demagnetize", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Quenching occurs when a superconducting MRI magnet suddenly loses superconductivity and its magnetic field collapses rapidly, releasing enormous stored energy — enough to boil hundreds of liters of liquid helium."
+  },
+  {
+    "questionText": "a wire of length 0.5 m carrying 8 A is placed in a 0.6 T field at 60°. calculate the force on the wire.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.2 N", "label": "A" },
+      { "text": "1.66 N", "label": "B" },
+      { "text": "2.08 N", "label": "C" },
+      { "text": "2.4 N", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "F = ILBsin(θ) = 8 × 0.5 × 0.6 × sin(60°) = 2.4 × (√3/2) = 2.4 × 0.866 ≈ 2.08 N."
+  },
+  {
+    "questionText": "a wire of length 0.3 m carries 15 A in a 0.8 T field at 45°. calculate the force on the wire.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.27 N", "label": "A" },
+      { "text": "2.55 N", "label": "B" },
+      { "text": "3.60 N", "label": "C" },
+      { "text": "5.09 N", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "F = ILBsin(45°) = 15 × 0.3 × 0.8 × 0.707 = 3.6 × 0.707 = 2.55 N."
+  },
+  {
+    "questionText": "according to the right-hand grip rule, if current flows upward in a wire, the magnetic field to the right of the wire points:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "upward", "label": "A" },
+      { "text": "away from the wire", "label": "B" },
+      { "text": "into the page (or screen)", "label": "C" },
+      { "text": "out of the page (or screen)", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "With current flowing upward, the right-hand grip rule (thumb up, fingers curl) shows the field circles counterclockwise when viewed from above. To the right of the wire, the field points out of the page."
+  },
+  {
+    "questionText": "the potential energy U of a magnetic dipole μ in a field B is minimum when:",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the dipole is perpendicular to the field", "label": "A" },
+      {
+        "text": "the dipole is anti-parallel (opposite) to the field",
+        "label": "B"
+      },
+      { "text": "the dipole is aligned parallel to the field", "label": "C" },
+      { "text": "the current through the coil is zero", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "U = -μBcos(θ). U is minimum (most negative, most stable) when θ = 0°, i.e., when the dipole moment is aligned parallel to B. This is why a compass needle rotates to align with the Earth's field."
+  },
+  {
+    "questionText": "which law states ∮B·dl = μ₀Ienc?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "faraday's law", "label": "A" },
+      { "text": "gauss's law", "label": "B" },
+      { "text": "biot-savart law", "label": "C" },
+      { "text": "ampère's law", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "The equation ∮B·dl = μ₀Ienc is Ampère's Law. The closed line integral of B around any loop equals μ₀ times the net current threading through the loop."
+  },
+  {
+    "questionText": "why does increasing the number of turns per meter (n) in a solenoid increase the field inside?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "each turn adds a contribution to the magnetic field, and more turns per meter means more contributions per unit length",
+        "label": "A"
+      },
+      {
+        "text": "more turns increase the resistance, reducing current",
+        "label": "B"
+      },
+      {
+        "text": "more turns reduce the radius, concentrating the field",
+        "label": "C"
+      },
+      {
+        "text": "each extra turn opposes the field of adjacent turns",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "B = μ₀nI. More turns per unit length means more current-loops contributing to the field per meter of solenoid. All contributions point in the same direction, so the field adds up proportionally."
+  },
+  {
+    "questionText": "a proton enters a region of magnetic field perpendicular to its velocity. the radius of its circular path depends on:",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "only the charge and field strength", "label": "A" },
+      {
+        "text": "the mass, velocity, charge, and field strength",
+        "label": "B"
+      },
+      { "text": "only the velocity and charge", "label": "C" },
+      { "text": "only the field strength and mass", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Setting qvB = mv²/r gives r = mv/(qB). The radius depends on mass (m), velocity (v), charge (q), and field strength (B). This is the principle behind mass spectrometry."
+  },
+  {
+    "questionText": "which situation best describes why electric motors rely on magnetic fields?",
+    "topic": "applications of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "magnetic fields accelerate electrons in one direction",
+        "label": "A"
+      },
+      {
+        "text": "opposite magnetic forces on the two sides of a current loop create a torque that causes rotation",
+        "label": "B"
+      },
+      {
+        "text": "magnetic fields charge a capacitor that drives the motor",
+        "label": "C"
+      },
+      {
+        "text": "the lorentz force increases the current in the coil",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In an electric motor, a current loop in a magnetic field experiences forces pushing one side up and the other down. This torque (τ = NIABsinθ) causes continuous rotation, converting electrical energy into mechanical energy."
+  },
+  {
+    "questionText": "a singly charged ion (q = 1.6×10⁻¹⁹ C) with mass 3.2×10⁻²⁶ kg enters a 1.5 T magnetic field at 4.0×10⁵ m/s perpendicular to the field. calculate the radius of its path.",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.027 m", "label": "A" },
+      { "text": "0.053 m", "label": "B" },
+      { "text": "0.107 m", "label": "C" },
+      { "text": "0.213 m", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "r = mv/(qB) = (3.2×10⁻²⁶ × 4.0×10⁵)/(1.6×10⁻¹⁹ × 1.5) = (1.28×10⁻²⁰)/(2.4×10⁻¹⁹) = 0.053 m."
+  },
+  {
+    "questionText": "what is 3,500 Gauss converted to Tesla?",
+    "topic": "magnetic field strength",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.035 T", "label": "A" },
+      { "text": "0.35 T", "label": "B" },
+      { "text": "3.5 T", "label": "C" },
+      { "text": "35 T", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Using 1 T = 10,000 G: 3,500 G ÷ 10,000 = 0.35 T."
+  },
+  {
+    "questionText": "the concept of an 'ampèrian loop' is used to:",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "enclose electric charge for applying gauss's law",
+        "label": "A"
+      },
+      {
+        "text": "define a closed path around current for applying ampère's law",
+        "label": "B"
+      },
+      {
+        "text": "create a magnetic monopole for calculation purposes",
+        "label": "C"
+      },
+      { "text": "measure the magnetic flux through a surface", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "An Ampèrian loop is a closed mathematical path chosen around a current distribution. The shape is chosen to exploit symmetry (circles for wires, rectangles for solenoids) to make the line integral ∮B·dl easy to evaluate."
+  },
+  {
+    "questionText": "a student breaks a permanent magnet into 4 pieces. how many magnetic poles result?",
+    "topic": "the nature of magnetism",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "2 poles (1 north, 1 south)", "label": "A" },
+      { "text": "4 poles (all north)", "label": "B" },
+      { "text": "8 poles (4 north and 4 south)", "label": "C" },
+      { "text": "0 poles — the pieces demagnetize", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Each piece becomes a complete magnet with its own north and south pole, following the no-monopole rule. Breaking into 4 pieces yields 4 magnets × 2 poles each = 8 poles total."
+  },
+  {
+    "questionText": "oxygen is a paramagnetic gas. this means it:",
+    "topic": "magnetic materials",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "strongly repels magnets", "label": "A" },
+      {
+        "text": "weakly aligns with external magnetic fields but loses alignment when the field is removed",
+        "label": "B"
+      },
+      { "text": "forms large magnetic domains", "label": "C" },
+      { "text": "has no magnetic properties", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Paramagnetic materials like oxygen have unpaired electrons that create permanent atomic dipoles. These weakly align with an applied external field but randomize again due to thermal motion once the field is removed."
+  },
+  {
+    "questionText": "the current required to produce a field B inside a solenoid can be found from:",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "I = B / (μ₀N)", "label": "A" },
+      { "text": "I = B / (μ₀n)", "label": "B" },
+      { "text": "I = μ₀nB", "label": "C" },
+      { "text": "I = Bn / μ₀", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Rearranging B = μ₀nI gives I = B/(μ₀n). Notice n is turns per meter (N/L), not total turns N — using N instead of n is a common error."
+  },
+  {
+    "questionText": "what happens to the magnetic force on a charged particle if its speed is doubled?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the force stays the same", "label": "A" },
+      { "text": "the force is halved", "label": "B" },
+      { "text": "the force is doubled", "label": "C" },
+      { "text": "the force is quadrupled", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "FB = qvBsin(θ). The force is directly proportional to v. If v doubles, the force doubles. This is why faster particles experience a much stronger deflection in magnetic fields."
+  },
+  {
+    "questionText": "a proton (q = 1.6×10⁻¹⁹ C) moves at 2.0×10⁷ m/s at 30° to a 0.8 T field. calculate the magnetic force.",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.28×10⁻¹² N", "label": "A" },
+      { "text": "2.56×10⁻¹² N", "label": "B" },
+      { "text": "5.12×10⁻¹² N", "label": "C" },
+      { "text": "1.28×10⁻¹³ N", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "FB = qvB sin(30°) = (1.6×10⁻¹⁹)(2.0×10⁷)(0.8)(0.5) = 1.28×10⁻¹² N."
+  },
+  {
+    "questionText": "what does it mean that the magnetic energy density uB = B²/(2μ₀) in a solenoid?",
+    "topic": "energy in magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "energy is stored in the current-carrying wire material",
+        "label": "A"
+      },
+      {
+        "text": "energy is stored per unit volume in the magnetic field itself, throughout the solenoid's interior",
+        "label": "B"
+      },
+      {
+        "text": "energy is stored only at the surface of the solenoid",
+        "label": "C"
+      },
+      {
+        "text": "energy is stored as electric potential in the coil",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "uB = B²/(2μ₀) gives the energy per unit volume stored in the magnetic field. This energy is distributed throughout the space inside the solenoid where the field exists, not in the wire material itself."
+  },
+  {
+    "questionText": "which of the following best explains why a compass needle aligns with the earth's field?",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "the lorentz force pushes the needle perpendicular to the field",
+        "label": "A"
+      },
+      {
+        "text": "the torque on the compass's magnetic dipole moment drives it to minimize potential energy by aligning with B",
+        "label": "B"
+      },
+      {
+        "text": "gravitational attraction pulls the needle toward geographic north",
+        "label": "C"
+      },
+      {
+        "text": "the needle's electric charge interacts with the earth's electric field",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A compass needle is a magnetic dipole. The torque τ = μBsin(θ) rotates it until θ = 0° (aligned with B), minimizing potential energy U = -μBcos(θ). This equilibrium position has the needle pointing toward the Earth's magnetic south (geographic north)."
+  },
+  {
+    "questionText": "two wires carry currents in opposite directions (anti-parallel). they will:",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "attract each other", "label": "A" },
+      { "text": "repel each other", "label": "B" },
+      { "text": "experience no force", "label": "C" },
+      { "text": "attract only at high current values", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Parallel wires with anti-parallel currents repel each other. Wire 1's field (by RHG) produces a force on wire 2 pointing away from wire 1. This is the opposite of same-direction currents which attract."
+  },
+  {
+    "questionText": "the magnetic field at the center of a loop is directly proportional to:",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the square of the radius", "label": "A" },
+      {
+        "text": "the current I and inversely proportional to the radius R",
+        "label": "B"
+      },
+      {
+        "text": "the current I and directly proportional to the radius R",
+        "label": "C"
+      },
+      { "text": "the voltage across the loop", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "B = μ₀I/(2R). The field at the center of a circular loop is proportional to I (more current → stronger field) and inversely proportional to R (larger loop → weaker center field)."
+  },
+  {
+    "questionText": "a 50-turn coil of area 0.015 m² carries 2 A in a 0.6 T field. calculate the maximum torque.",
+    "topic": "magnetic force on currents",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.45 N·m", "label": "A" },
+      { "text": "0.90 N·m", "label": "B" },
+      { "text": "1.35 N·m", "label": "C" },
+      { "text": "1.80 N·m", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "τ_max = NIAB = 50 × 2 × 0.015 × 0.6 = 0.90 N·m."
+  },
+  {
+    "questionText": "what is the physical significance of the constant μ₀ = 4π×10⁻⁷ T·m/A?",
+    "topic": "sources of magnetic fields",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "it represents the electric permittivity of free space",
+        "label": "A"
+      },
+      {
+        "text": "it is a universal constant relating magnetic field strength to the current that produces it in a vacuum",
+        "label": "B"
+      },
+      { "text": "it represents the speed of light", "label": "C" },
+      {
+        "text": "it represents the magnetic force per unit charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "μ₀ is the permeability of free space — a fundamental constant that quantifies how easily a magnetic field is established in a vacuum. It appears in all formulas relating B to the current producing it (Biot-Savart, Ampère, solenoid formula)."
+  },
+  {
+    "questionText": "an electron (negative charge) moves north in a magnetic field pointing east. in which direction is the magnetic force on it?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "upward", "label": "A" },
+      { "text": "downward", "label": "B" },
+      { "text": "westward", "label": "C" },
+      { "text": "eastward", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "For a positive charge moving North in a field pointing East, the RHR gives a force pointing upward. But the electron is negative, so the force is reversed: downward."
+  },
+  {
+    "questionText": "which field line property guarantees that isolated magnetic poles cannot exist?",
+    "topic": "magnetic field lines",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "field lines exit north poles only", "label": "A" },
+      {
+        "text": "field lines are always closed loops with no starting or ending point",
+        "label": "B"
+      },
+      { "text": "field lines are strongest near the poles", "label": "C" },
+      { "text": "field lines can sometimes cross", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Because magnetic field lines are always closed loops (never starting or ending), there is no point where field lines can 'begin' (as they would for an isolated north monopole) or 'end' (as for an isolated south). This is mathematically expressed as ∇·B = 0."
+  },
+  {
+    "questionText": "a solenoid has length 20 cm and 400 turns. what is n (turns per meter)?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "80 turns/m", "label": "A" },
+      { "text": "200 turns/m", "label": "B" },
+      { "text": "400 turns/m", "label": "C" },
+      { "text": "2000 turns/m", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "n = N/L = 400 / 0.20 m = 2000 turns/m."
+  },
+  {
+    "questionText": "which of these quantities does the magnetic field inside an ideal solenoid NOT depend on?",
+    "topic": "ampere's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the current I", "label": "A" },
+      { "text": "the turn density n", "label": "B" },
+      { "text": "the radius of the solenoid", "label": "C" },
+      { "text": "the permeability μ₀", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "B = μ₀nI. The field inside a solenoid depends on μ₀, n (turns/meter), and I (current), but not on the radius of the coil. This is a key result from applying Ampère's Law."
+  },
+  {
+    "questionText": "a proton has speed 3.0×10⁶ m/s perpendicular to a 0.2 T field. if q = 1.6×10⁻¹⁹ C, what is the magnetic force?",
+    "topic": "the lorentz force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 8,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "4.8×10⁻¹⁴ N", "label": "A" },
+      { "text": "9.6×10⁻¹⁴ N", "label": "B" },
+      { "text": "1.92×10⁻¹³ N", "label": "C" },
+      { "text": "3.84×10⁻¹³ N", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "FB = qvB = (1.6×10⁻¹⁹)(3.0×10⁶)(0.2) = 9.6×10⁻¹⁴ N."
+  }
+]

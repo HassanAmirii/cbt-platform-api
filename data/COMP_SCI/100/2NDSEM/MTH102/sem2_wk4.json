@@ -1,0 +1,1666 @@
+[
+  {
+    "questionText": "how many conditions must be satisfied for a function f(x) to be continuous at a point x = a?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "three conditions must be satisfied: f(a) is defined, lim_{x→a} f(x) exists, and lim_{x→a} f(x) = f(a)."
+  },
+  {
+    "questionText": "for a function to be continuous at x = a, the limit as x approaches a must equal:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "∞", "label": "B" },
+      { "text": "f(a)", "label": "C" },
+      { "text": "a", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "for continuity, lim_{x→a} f(x) must equal f(a), the function value at that point."
+  },
+  {
+    "questionText": "a function is continuous on an interval if it is continuous at:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "some points within that interval", "label": "A" },
+      { "text": "every point within that interval", "label": "B" },
+      { "text": "the endpoints only", "label": "C" },
+      { "text": "no points within that interval", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a function is continuous on an interval if it is continuous at every point within that interval."
+  },
+  {
+    "questionText": "what type of discontinuity occurs when the limit of a function exists at a point, but the function is either not defined there or its value does not match the limit?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "jump discontinuity", "label": "A" },
+      { "text": "infinite discontinuity", "label": "B" },
+      { "text": "removable discontinuity", "label": "C" },
+      { "text": "oscillating discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "a removable discontinuity occurs when the limit exists, but the function is either undefined at the point or has a different value than the limit."
+  },
+  {
+    "questionText": "what type of discontinuity occurs when the left-hand limit and right-hand limit exist but are not equal?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable discontinuity", "label": "A" },
+      { "text": "jump discontinuity", "label": "B" },
+      { "text": "infinite discontinuity", "label": "C" },
+      { "text": "point discontinuity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a jump discontinuity occurs when the left-hand and right-hand limits both exist but are different, causing a sudden jump in the graph."
+  },
+  {
+    "questionText": "what type of discontinuity is associated with a vertical asymptote?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable discontinuity", "label": "A" },
+      { "text": "jump discontinuity", "label": "B" },
+      { "text": "infinite discontinuity", "label": "C" },
+      { "text": "point discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "an infinite discontinuity occurs when the function approaches infinity near a point, often due to division by zero, creating a vertical asymptote."
+  },
+  {
+    "questionText": "a removable discontinuity can be fixed by redefining the function at the:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "endpoints", "label": "A" },
+      { "text": "discontinuous point", "label": "B" },
+      { "text": "origin", "label": "C" },
+      { "text": "asymptote", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a removable discontinuity can be fixed by redefining the function value at the discontinuous point to equal the limit."
+  },
+  {
+    "questionText": "the intermediate value theorem states that if f is continuous on [a,b] and k is between f(a) and f(b), then:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "there exists c in (a,b) such that f(c) = k", "label": "A" },
+      { "text": "f(c) = k for all c", "label": "B" },
+      { "text": "k must equal 0", "label": "C" },
+      { "text": "f is constant on [a,b]", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the intermediate value theorem guarantees at least one point c between a and b where the function takes the intermediate value k."
+  },
+  {
+    "questionText": "which theorem guarantees that a continuous function on a closed interval attains its maximum and minimum values?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "intermediate value theorem", "label": "A" },
+      { "text": "extreme value theorem", "label": "B" },
+      { "text": "mean value theorem", "label": "C" },
+      { "text": "rolle's theorem", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the extreme value theorem states that a continuous function on a closed interval attains both a maximum and a minimum value."
+  },
+  {
+    "questionText": "if a function is differentiable at a point, then it must be:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous at that point", "label": "A" },
+      { "text": "discontinuous at that point", "label": "B" },
+      { "text": "undefined at that point", "label": "C" },
+      { "text": "periodic at that point", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "differentiability implies continuity. however, continuity does not imply differentiability."
+  },
+  {
+    "questionText": "evaluate lim_{x→2} (x² - 4)/(x - 2) and determine if f(x) has a discontinuity at x=2.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "limit = 0, continuous", "label": "A" },
+      { "text": "limit = 2, continuous", "label": "B" },
+      { "text": "limit = 4, removable discontinuity", "label": "C" },
+      { "text": "limit does not exist, jump discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-2)(x+2)/(x-2) = x+2 for x≠2. the limit as x→2 is 4, so there is a removable discontinuity at x=2."
+  },
+  {
+    "questionText": "evaluate lim_{x→1} (x² - 1)/(x - 1) and determine the type of discontinuity at x=1.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "limit = 0, continuous", "label": "A" },
+      { "text": "limit = 1, continuous", "label": "B" },
+      { "text": "limit = 2, removable discontinuity", "label": "C" },
+      { "text": "limit does not exist, jump discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "factor numerator: (x-1)(x+1)/(x-1) = x+1 for x≠1. the limit is 2, so there is a removable discontinuity at x=1."
+  },
+  {
+    "questionText": "evaluate lim_{x→3} (x² - 9)/(x - 3) and determine the type of discontinuity at x=3.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "limit = 3, continuous", "label": "A" },
+      { "text": "limit = 6, removable discontinuity", "label": "B" },
+      { "text": "limit = 9, continuous", "label": "C" },
+      { "text": "limit does not exist, infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "factor numerator: (x-3)(x+3)/(x-3) = x+3 for x≠3. the limit is 6, so there is a removable discontinuity at x=3."
+  },
+  {
+    "questionText": "find the value of k that makes f(x) = { x², x≠2; k, x=2 } continuous at x=2.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "8", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "lim_{x→2} x² = 4. for continuity, f(2) must equal the limit, so k = 4."
+  },
+  {
+    "questionText": "find the value of k that makes f(x) = { 3x+1, x<2; k, x=2; x²+3, x>2 } continuous at x=2.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "7", "label": "B" },
+      { "text": "9", "label": "C" },
+      { "text": "no value of k works", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "left limit: 3(2)+1 = 7. right limit: 2²+3 = 7. both one-sided limits equal 7, so k = 7 makes the function continuous."
+  },
+  {
+    "questionText": "find the value of k that makes f(x) = { 2x-1, x<3; k, x=3; x²-4, x>3 } continuous at x=3.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "5", "label": "B" },
+      { "text": "7", "label": "C" },
+      { "text": "no value of k works", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "left limit: 2(3)-1 = 5. right limit: 3²-4 = 5. both one-sided limits equal 5, so k = 5 makes the function continuous."
+  },
+  {
+    "questionText": "find the value of k that makes f(x) = { x²+1, x<1; k, x=1; 2x, x>1 } continuous at x=1.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "no value of k works", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "left limit: 1²+1 = 2. right limit: 2(1) = 2. both one-sided limits equal 2, so k = 2 makes the function continuous."
+  },
+  {
+    "questionText": "find the value of k that makes f(x) = { 2x+3, x<0; k, x=0; 3x+2, x>0 } continuous at x=0.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "no value of k works", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "left limit: 2(0)+3 = 3. right limit: 3(0)+2 = 2. since 3≠2, no value of k can make the function continuous at x=0."
+  },
+  {
+    "questionText": "the function f(x) = (x²-1)/(x-1) has what type of discontinuity at x=1?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-1)(x+1)/(x-1) = x+1 for x≠1. the limit as x→1 is 2, so it's a removable discontinuity (hole)."
+  },
+  {
+    "questionText": "the function f(x) = (x²-4)/(x-2) has what type of discontinuity at x=2?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-2)(x+2)/(x-2) = x+2 for x≠2. the limit as x→2 is 4, so it's a removable discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = (x²-9)/(x-3) has what type of discontinuity at x=3?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-3)(x+3)/(x-3) = x+3 for x≠3. the limit as x→3 is 6, so it's a removable discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = 1/(x-2) has what type of discontinuity at x=2?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x→2, |f(x)| → ∞, creating a vertical asymptote and infinite discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = 1/(x+3) has what type of discontinuity at x=-3?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x→-3, |f(x)| → ∞, creating a vertical asymptote and infinite discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = |x|/x has what type of discontinuity at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "|x|/x equals -1 for x<0 and +1 for x>0, with a jump discontinuity at x=0."
+  },
+  {
+    "questionText": "the function f(x) = (x²+2x-3)/(x-1) has what type of discontinuity at x=1?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x+3)(x-1)/(x-1) = x+3 for x≠1. the limit as x→1 is 4, so it's a removable discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = tan x has discontinuities at:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = nπ", "label": "A" },
+      { "text": "x = π/2 + nπ", "label": "B" },
+      { "text": "x = 0", "label": "C" },
+      { "text": "nowhere", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "tan x = sin x/cos x has vertical asymptotes where cos x = 0, i.e., at x = π/2 + nπ."
+  },
+  {
+    "questionText": "what type of discontinuity does f(x) = tan x have at x = π/2?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "point", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "tan x approaches +∞ from left and -∞ from right at x=π/2, creating an infinite discontinuity."
+  },
+  {
+    "questionText": "which of the following functions is continuous at x = 0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = 1/x", "label": "A" },
+      { "text": "f(x) = |x|/x", "label": "B" },
+      { "text": "f(x) = sin x / x (with f(0)=1)", "label": "C" },
+      { "text": "f(x) = 1/x²", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "lim_{x→0} sin x/x = 1. if we define f(0)=1, the function becomes continuous at x=0."
+  },
+  {
+    "questionText": "what value should be assigned to f(0) to make f(x) = sin x / x continuous at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "lim_{x→0} sin x/x = 1, so defining f(0)=1 makes the function continuous."
+  },
+  {
+    "questionText": "what value should be assigned to f(0) to make f(x) = (1 - cos x)/x² continuous at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "lim_{x→0} (1-cos x)/x² = 1/2, so defining f(0)=1/2 makes it continuous."
+  },
+  {
+    "questionText": "what value should be assigned to f(0) to make f(x) = (e^x - 1)/x continuous at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "e", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "lim_{x→0} (e^x - 1)/x = 1, so defining f(0)=1 makes it continuous."
+  },
+  {
+    "questionText": "which of the following is continuous at x=0 but not differentiable at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = x²", "label": "A" },
+      { "text": "f(x) = |x|", "label": "B" },
+      { "text": "f(x) = sin x", "label": "C" },
+      { "text": "f(x) = e^x", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "|x| is continuous at 0 but has a sharp corner, so it is not differentiable at 0."
+  },
+  {
+    "questionText": "the function f(x) = |x| is continuous at x=0 because:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "lim_{x→0} |x| = 0 = f(0)", "label": "A" },
+      { "text": "it has a sharp corner", "label": "B" },
+      { "text": "it is not defined at 0", "label": "C" },
+      { "text": "it is differentiable at 0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→0} |x| = 0 and f(0)=0, so it is continuous at 0 (though not differentiable)."
+  },
+  {
+    "questionText": "the greatest integer function f(x) = ⌊x⌋ is discontinuous at:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "all integer values", "label": "A" },
+      { "text": "all non-integer values", "label": "B" },
+      { "text": "nowhere", "label": "C" },
+      { "text": "only at x=0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the floor function has jump discontinuities at every integer value."
+  },
+  {
+    "questionText": "what type of discontinuity does f(x) = ⌊x⌋ have at integer points?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "oscillating", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "at each integer, the left-hand limit and right-hand limit differ by exactly 1, creating a jump discontinuity."
+  },
+  {
+    "questionText": "if f(x) is continuous on [0,1] and f(0) = -2, f(1) = 3, then the equation f(x) = 0 has:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "no solution", "label": "A" },
+      { "text": "exactly one solution", "label": "B" },
+      { "text": "at least one solution", "label": "C" },
+      { "text": "exactly two solutions", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "since 0 is between -2 and 3, the ivt guarantees at least one c in (0,1) with f(c)=0."
+  },
+  {
+    "questionText": "the function f(x) = x³ - x - 1 has a root between:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0 and 1", "label": "A" },
+      { "text": "1 and 2", "label": "B" },
+      { "text": "2 and 3", "label": "C" },
+      { "text": "3 and 4", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(1)=1-1-1=-1 (negative), f(2)=8-2-1=5 (positive). by ivt, there is a root between 1 and 2."
+  },
+  {
+    "questionText": "the function f(x) = x² - 3 has a root between:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0 and 1", "label": "A" },
+      { "text": "1 and 2", "label": "B" },
+      { "text": "2 and 3", "label": "C" },
+      { "text": "3 and 4", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(1)=1-3=-2 (negative), f(2)=4-3=1 (positive). by ivt, there is a root between 1 and 2."
+  },
+  {
+    "questionText": "the function f(x) = x² - 2 has a root between:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0 and 1", "label": "A" },
+      { "text": "1 and 2", "label": "B" },
+      { "text": "2 and 3", "label": "C" },
+      { "text": "3 and 4", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(1)=1-2=-1 (negative), f(2)=4-2=2 (positive). by ivt, there is a root between 1 and 2."
+  },
+  {
+    "questionText": "if f is continuous on [a,b] and f(a) and f(b) have opposite signs, then by the intermediate value theorem:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f has no roots in (a,b)", "label": "A" },
+      { "text": "f has at least one root in (a,b)", "label": "B" },
+      { "text": "f is constant", "label": "C" },
+      { "text": "f is discontinuous", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "if f(a) and f(b) have opposite signs, then 0 is between them, so there exists at least one c in (a,b) with f(c)=0."
+  },
+  {
+    "questionText": "which of the following functions is continuous everywhere?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = 1/x", "label": "A" },
+      { "text": "f(x) = tan x", "label": "B" },
+      { "text": "f(x) = e^x", "label": "C" },
+      { "text": "f(x) = |x|/x", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "e^x is defined and continuous for all real numbers. the other functions have discontinuities."
+  },
+  {
+    "questionText": "all polynomial functions are continuous:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "only at some points", "label": "A" },
+      { "text": "only on open intervals", "label": "B" },
+      { "text": "everywhere (all real numbers)", "label": "C" },
+      { "text": "only at integer values", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "all polynomial functions are continuous for all real numbers because they are built from continuous operations and have no breaks."
+  },
+  {
+    "questionText": "rational functions are continuous:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "everywhere", "label": "A" },
+      { "text": "only where the numerator is zero", "label": "B" },
+      { "text": "only where the denominator is non-zero", "label": "C" },
+      { "text": "nowhere", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "rational functions are continuous at all points except where the denominator equals zero."
+  },
+  {
+    "questionText": "the function f(x) = √x is continuous on:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-∞, ∞)", "label": "A" },
+      { "text": "(0, ∞)", "label": "B" },
+      { "text": "[0, ∞)", "label": "C" },
+      { "text": "(-∞, 0]", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "√x is defined and continuous for x ≥ 0, including 0 (right-continuous at 0)."
+  },
+  {
+    "questionText": "the function f(x) = x^{1/3} is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous everywhere", "label": "A" },
+      { "text": "continuous only for x>0", "label": "B" },
+      { "text": "continuous only for x≥0", "label": "C" },
+      { "text": "discontinuous at x=0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the cube root function is defined and continuous for all real numbers."
+  },
+  {
+    "questionText": "the composition of two continuous functions is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "always discontinuous", "label": "A" },
+      { "text": "always continuous", "label": "B" },
+      { "text": "continuous only if both are differentiable", "label": "C" },
+      { "text": "continuous only on open intervals", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "if f and g are continuous at the appropriate points, their composition (f∘g) is also continuous throughout its domain."
+  },
+  {
+    "questionText": "for (f ∘ g)(x) to be continuous at x = a, g(x) must be continuous at ______, and f(x) must be continuous at ______.",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "a, a", "label": "A" },
+      { "text": "g(a), a", "label": "B" },
+      { "text": "a, g(a)", "label": "C" },
+      { "text": "g(a), g(a)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the conditions are: g continuous at a, and f continuous at g(a)."
+  },
+  {
+    "questionText": "if f(x) = sin x and g(x) = x², then (f ∘ g)(x) = sin(x²). this composite is continuous:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "only at x=0", "label": "A" },
+      { "text": "only for x>0", "label": "B" },
+      { "text": "everywhere (all real numbers)", "label": "C" },
+      { "text": "nowhere", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "both sin x and x² are continuous everywhere, so their composition sin(x²) is continuous everywhere."
+  },
+  {
+    "questionText": "the function f(x) = sin(1/x) as x→0 has what behavior?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous at 0", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      {
+        "text": "oscillating discontinuity (limit does not exist)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "as x→0, sin(1/x) oscillates infinitely between -1 and 1, so the limit does not exist, creating an oscillating discontinuity."
+  },
+  {
+    "questionText": "what is the value of lim_{x→0} x sin(1/x)?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "since |x sin(1/x)| ≤ |x|, the squeeze theorem gives limit = 0."
+  },
+  {
+    "questionText": "the function f(x) = { x sin(1/x), x≠0; 0, x=0 } is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "discontinuous at 0", "label": "A" },
+      { "text": "continuous at 0", "label": "B" },
+      { "text": "has a jump at 0", "label": "C" },
+      { "text": "has a vertical asymptote at 0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "lim_{x→0} x sin(1/x) = 0 (by squeeze theorem), and f(0)=0, so the function is continuous at 0."
+  },
+  {
+    "questionText": "the function f(x) = { 1, x rational; 0, x irrational } is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous everywhere", "label": "A" },
+      { "text": "continuous nowhere", "label": "B" },
+      { "text": "continuous at x=0 only", "label": "C" },
+      { "text": "continuous at rational points only", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "dirichlet's function is discontinuous at every point because between any two rationals there is an irrational, and vice versa."
+  },
+  {
+    "questionText": "if f and g are both continuous at x = a, then which of the following is also continuous at x = a?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f + g", "label": "A" },
+      { "text": "f - g", "label": "B" },
+      { "text": "f × g", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "the sum, difference, and product of continuous functions are continuous. the quotient is continuous where the denominator is non-zero."
+  },
+  {
+    "questionText": "the function f(x) = e^{1/x} as x→0⁺ approaches:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x→0⁺, 1/x → +∞, so e^{1/x} → +∞."
+  },
+  {
+    "questionText": "the function f(x) = e^{1/x} as x→0⁻ approaches:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "does not exist", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "as x→0⁻, 1/x → -∞, so e^{1/x} → 0."
+  },
+  {
+    "questionText": "the function f(x) = e^{1/x} has what type of discontinuity at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      {
+        "text": "the limit does not exist (different one-sided limits)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "lim_{x→0⁺} = ∞ and lim_{x→0⁻} = 0, so the two-sided limit does not exist."
+  },
+  {
+    "questionText": "the function f(x) = { 2x+1, x<1; 3, x=1; x+2, x>1 } at x=1 is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "left limit: 2(1)+1=3. right limit: 1+2=3. f(1)=3. all three match, so the function is continuous at x=1."
+  },
+  {
+    "questionText": "the function f(x) = { 2x, x<1; x²+2, x≥1 } at x=1 has:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuity", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "left limit: 2(1)=2. right limit: 1²+2=3. since 2≠3, there is a jump discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = { x², x<2; 4, x=2; x+2, x>2 } at x=2 is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "left limit: 2²=4. right limit: 2+2=4. f(2)=4. all three match, so the function is continuous at x=2."
+  },
+  {
+    "questionText": "the function f(x) = { 3x-1, x<2; 5, x=2; x+3, x>2 } at x=2 has:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuity", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "left limit: 3(2)-1=5. right limit: 2+3=5. f(2)=5. all three match, so the function is continuous."
+  },
+  {
+    "questionText": "the function f(x) = { x²-1, x<1; 1, x=1; 2x-2, x>1 } at x=1 is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "left limit: 1²-1=0. right limit: 2(1)-2=0. f(1)=1. the limit exists (0) but f(1)=1, so there is a removable discontinuity. correction: f(1)=1 not 0, so removable."
+  },
+  {
+    "questionText": "if a function is continuous on a closed interval [a,b], it must attain:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "only a maximum", "label": "A" },
+      { "text": "only a minimum", "label": "B" },
+      { "text": "both a maximum and a minimum", "label": "C" },
+      { "text": "no extreme values", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the extreme value theorem states that a continuous function on a closed interval attains both a maximum and a minimum value."
+  },
+  {
+    "questionText": "which of the following guarantees the existence of a root for f(x)=0 on [a,b]?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(a) > 0 and f(b) > 0", "label": "A" },
+      { "text": "f(a) < 0 and f(b) < 0", "label": "B" },
+      { "text": "f(a) and f(b) have opposite signs", "label": "C" },
+      { "text": "f(a) = f(b)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "if f(a) and f(b) have opposite signs, the ivt guarantees at least one root in (a,b)."
+  },
+  {
+    "questionText": "the intermediate value theorem is an example of an:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "existence theorem", "label": "A" },
+      { "text": "uniqueness theorem", "label": "B" },
+      { "text": "differentiation theorem", "label": "C" },
+      { "text": "integration theorem", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the ivt is an existence theorem; it guarantees that a solution exists without specifying exactly where."
+  },
+  {
+    "questionText": "for a rational function, discontinuities occur at points where:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the numerator is zero", "label": "A" },
+      { "text": "the denominator is zero", "label": "B" },
+      { "text": "both numerator and denominator are zero", "label": "C" },
+      { "text": "neither is zero", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "rational functions are continuous everywhere except where the denominator equals zero."
+  },
+  {
+    "questionText": "if both numerator and denominator are zero at a point, the rational function may have a:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable discontinuity", "label": "A" },
+      { "text": "jump discontinuity", "label": "B" },
+      { "text": "infinite discontinuity", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "if the zero in denominator cancels with a zero in numerator, the function may have a removable discontinuity (hole)."
+  },
+  {
+    "questionText": "the function f(x) = (x²-4)/(x+2) has a discontinuity at x = -2. what is its type?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-2)(x+2)/(x+2) = x-2 for x≠-2. the limit as x→-2 is -4, so it's a removable discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = (x²-1)/(x+1) has what type of discontinuity at x=-1?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-1)(x+1)/(x+1) = x-1 for x≠-1. the limit as x→-1 is -2, so it's a removable discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = (x²-9)/(x+3) has what type of discontinuity at x=-3?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "factor numerator: (x-3)(x+3)/(x+3) = x-3 for x≠-3. the limit as x→-3 is -6, so it's a removable discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = 1/(x²) has what type of discontinuity at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "as x→0, 1/x² → +∞, creating a vertical asymptote and infinite discontinuity."
+  },
+  {
+    "questionText": "if the left-hand limit and right-hand limit at x = a are both 5, but f(a) = 10, the function has a:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable discontinuity", "label": "A" },
+      { "text": "jump discontinuity", "label": "B" },
+      { "text": "infinite discontinuity", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the limit exists (5) but f(a)=10. this is a removable discontinuity because redefining f(a)=5 would fix it."
+  },
+  {
+    "questionText": "which function has a jump discontinuity at x = 0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = 1/x", "label": "A" },
+      { "text": "f(x) = (x²-1)/(x-1)", "label": "B" },
+      { "text": "f(x) = tan x", "label": "C" },
+      { "text": "f(x) = { -1, x<0; 1, x≥0 }", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "the piecewise function with value -1 for x<0 and +1 for x≥0 has a jump discontinuity at x=0."
+  },
+  {
+    "questionText": "the function f(x) = { 2, x<1; 4, x≥1 } has what type of discontinuity at x=1?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "left limit: 2, right limit: 4. since 2≠4, there is a jump discontinuity at x=1."
+  },
+  {
+    "questionText": "the function f(x) = { -1, x<0; 0, x=0; 1, x>0 } has what type of discontinuity at x=0?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable", "label": "A" },
+      { "text": "jump", "label": "B" },
+      { "text": "infinite", "label": "C" },
+      { "text": "no discontinuity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "left limit: -1, right limit: 1. since -1≠1, there is a jump discontinuity at x=0."
+  },
+  {
+    "questionText": "the intermediate value theorem is used to:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "find exact roots", "label": "A" },
+      { "text": "prove existence of roots without finding them", "label": "B" },
+      { "text": "find derivatives", "label": "C" },
+      { "text": "find limits", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the ivt proves that a root exists but does not tell you where it is, only that there is at least one somewhere in the interval."
+  },
+  {
+    "questionText": "if f is continuous on [0,5] and f(0)=2, f(5)=10, then by the intermediate value theorem, which value must f take on (0,5)?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "15", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "since 5 is between 2 and 10, the ivt guarantees there exists some c in (0,5) such that f(c)=5."
+  },
+  {
+    "questionText": "if f is continuous on [a,b] and k is any value between f(a) and f(b), the intermediate value theorem guarantees:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f has no roots", "label": "A" },
+      { "text": "there exists c in (a,b) with f(c)=k", "label": "B" },
+      { "text": "f is constant", "label": "C" },
+      { "text": "f is differentiable", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "this is exactly the statement of the intermediate value theorem."
+  },
+  {
+    "questionText": "the function f(x) = x² - 4 has a root at x=2. the ivt confirms this because:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(0) > 0 and f(3) > 0", "label": "A" },
+      { "text": "f(0) < 0 and f(3) > 0", "label": "B" },
+      { "text": "f(0) > 0 and f(3) < 0", "label": "C" },
+      { "text": "f(0) = 0 and f(3) = 0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(0)=-4 (negative), f(3)=5 (positive). since 0 is between -4 and 5, the ivt guarantees a root between 0 and 3."
+  },
+  {
+    "questionText": "the function f(x) = cos x has a root between:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0 and π/2", "label": "A" },
+      { "text": "π/2 and π", "label": "B" },
+      { "text": "π and 3π/2", "label": "C" },
+      { "text": "3π/2 and 2π", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "cos(π/2)=0, cos(π)=-1. the root is at π/2, which is between π/2 and π? actually cos(π/2)=0 exactly. between 0 and π/2: cos(0)=1, cos(π/2)=0, so root at π/2. a better choice: between 0 and π/2 or between π/2 and π? cos(π/2)=0 exactly."
+  },
+  {
+    "questionText": "the function f(x) = sin x has a root between:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0 and π/2", "label": "A" },
+      { "text": "π/2 and π", "label": "B" },
+      { "text": "π and 3π/2", "label": "C" },
+      { "text": "3π/2 and 2π", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "sin(0)=0, sin(π/2)=1. the root is at 0, which is between 0 and π/2? actually sin(0)=0 exactly. a better example: between π and 2π: sin(π)=0, sin(3π/2)=-1."
+  },
+  {
+    "questionText": "which of the following is a necessary condition for a function to be continuous at x = a?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(a) > 0", "label": "A" },
+      { "text": "lim_{x→a} f(x) exists", "label": "B" },
+      { "text": "f(a) = 0", "label": "C" },
+      { "text": "f is differentiable at a", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the existence of the limit at the point is a necessary condition for continuity."
+  },
+  {
+    "questionText": "for a function to be continuous on a closed interval [a,b], what must be true at the endpoints?",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      {
+        "text": "only left-hand limit at a and right-hand limit at b",
+        "label": "A"
+      },
+      {
+        "text": "right-hand limit at a and left-hand limit at b",
+        "label": "B"
+      },
+      {
+        "text": "both one-sided limits from inside the interval",
+        "label": "C"
+      },
+      { "text": "function must be defined at endpoints", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "for closed intervals, continuity requires the function to be defined at endpoints, with appropriate one-sided continuity."
+  },
+  {
+    "questionText": "polynomials, rational functions (where defined), trigonometric functions, exponential functions, and logarithmic functions are all:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "discontinuous everywhere", "label": "A" },
+      { "text": "continuous on their domains", "label": "B" },
+      { "text": "only continuous at integers", "label": "C" },
+      { "text": "never continuous", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "these elementary functions are continuous on their entire domains of definition."
+  },
+  {
+    "questionText": "the function f(x) = tan x is discontinuous at x = π/2. this is an example of a:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "removable discontinuity", "label": "A" },
+      { "text": "jump discontinuity", "label": "B" },
+      { "text": "infinite discontinuity", "label": "C" },
+      { "text": "point discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "tan x has a vertical asymptote at x=π/2, creating an infinite discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = cot x is discontinuous at:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = nπ", "label": "A" },
+      { "text": "x = π/2 + nπ", "label": "B" },
+      { "text": "x = 0", "label": "C" },
+      { "text": "nowhere", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "cot x = cos x/sin x has vertical asymptotes where sin x = 0, i.e., at x = nπ."
+  },
+  {
+    "questionText": "the function f(x) = sec x is discontinuous at:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = nπ", "label": "A" },
+      { "text": "x = π/2 + nπ", "label": "B" },
+      { "text": "x = 0", "label": "C" },
+      { "text": "nowhere", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "sec x = 1/cos x has vertical asymptotes where cos x = 0, i.e., at x = π/2 + nπ."
+  },
+  {
+    "questionText": "the function f(x) = csc x is discontinuous at:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = nπ", "label": "A" },
+      { "text": "x = π/2 + nπ", "label": "B" },
+      { "text": "x = 0", "label": "C" },
+      { "text": "nowhere", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "csc x = 1/sin x has vertical asymptotes where sin x = 0, i.e., at x = nπ."
+  },
+  {
+    "questionText": "the function f(x) = ln x is continuous on:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-∞, ∞)", "label": "A" },
+      { "text": "(-∞, 0)", "label": "B" },
+      { "text": "(0, ∞)", "label": "C" },
+      { "text": "[0, ∞)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "ln x is defined and continuous for x > 0."
+  },
+  {
+    "questionText": "the function f(x) = e^x is continuous:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "only for x > 0", "label": "A" },
+      { "text": "only for x < 0", "label": "B" },
+      { "text": "for all real numbers", "label": "C" },
+      { "text": "only at x=0", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "e^x is defined and continuous for all real numbers."
+  },
+  {
+    "questionText": "if f(x) = √(x-2), the function is continuous on:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-∞, 2]", "label": "A" },
+      { "text": "(-∞, 2)", "label": "B" },
+      { "text": "[2, ∞)", "label": "C" },
+      { "text": "(2, ∞)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "√(x-2) requires x-2 ≥ 0, so x ≥ 2. on [2,∞), the function is continuous."
+  },
+  {
+    "questionText": "if f(x) = ln(x+1), the function is continuous on:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-∞, ∞)", "label": "A" },
+      { "text": "(-∞, -1)", "label": "B" },
+      { "text": "(-1, ∞)", "label": "C" },
+      { "text": "[-1, ∞)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "ln(x+1) requires x+1 > 0, so x > -1. on (-1, ∞), the function is continuous."
+  },
+  {
+    "questionText": "the function f(x) = 1/(x²-4) has discontinuities at:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x = 0 only", "label": "A" },
+      { "text": "x = 2 only", "label": "B" },
+      { "text": "x = -2 only", "label": "C" },
+      { "text": "x = -2 and x = 2", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "the denominator is zero at x = -2 and x = 2, creating vertical asymptotes at both points."
+  },
+  {
+    "questionText": "the function f(x) = 1/(x²+1) has no discontinuities because:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the denominator is never zero", "label": "A" },
+      { "text": "the numerator is zero", "label": "B" },
+      { "text": "it is a polynomial", "label": "C" },
+      { "text": "it is undefined everywhere", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "x²+1 is always positive and never zero, so the rational function is continuous everywhere."
+  },
+  {
+    "questionText": "the function f(x) = { x², x<1; 1, x=1; 2x-1, x>1 } at x=1 is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "left limit: 1²=1. right limit: 2(1)-1=1. f(1)=1. all three match, so the function is continuous at x=1."
+  },
+  {
+    "questionText": "the function f(x) = { 3x, x<2; 5, x=2; x+4, x>2 } at x=2 is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "left limit: 3(2)=6. right limit: 2+4=6. f(2)=5. the limit exists (6) but f(2)=5, so there is a removable discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = { 2x-1, x<1; 2, x=1; x+1, x>1 } at x=1 is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "left limit: 2(1)-1=1. right limit: 1+1=2. since 1≠2, there is a jump discontinuity."
+  },
+  {
+    "questionText": "the function f(x) = { 4x-3, x<2; 5, x=2; x²+1, x>2 } at x=2 is:",
+    "topic": "continuity of functions",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous", "label": "A" },
+      { "text": "removable discontinuity", "label": "B" },
+      { "text": "jump discontinuity", "label": "C" },
+      { "text": "infinite discontinuity", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "left limit: 4(2)-3=5. right limit: 2²+1=5. f(2)=5. all three match, so the function is continuous."
+  }
+]

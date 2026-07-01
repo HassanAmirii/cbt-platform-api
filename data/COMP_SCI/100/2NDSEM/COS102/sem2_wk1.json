@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "according to the notes, why is a recipe considered a good example of a plan?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "It is written by a professional",
+        "label": "A"
+      },
+      {
+        "text": "The output determines the input and processing",
+        "label": "B"
+      },
+      {
+        "text": "It is always used in computers",
+        "label": "C"
+      },
+      {
+        "text": "It has no errors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A recipe is a plan where the desired output dictates what ingredients (inputs) and steps (processing) are required."
+  },
+  {
+    "questionText": "what is the primary reason the responsibility of programming is placed on the user/programmer?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The computer has a high IQ",
+        "label": "A"
+      },
+      {
+        "text": "The computer has no IQ",
+        "label": "B"
+      },
+      {
+        "text": "Computers are electronic",
+        "label": "C"
+      },
+      {
+        "text": "Programs are complex",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Because a computer has no IQ, it only performs tasks exactly as instructed; therefore, the programmer must be precise."
+  },
+  {
+    "questionText": "which stage of the program development cycle involves identifying the input, output, and processing requirements?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Design",
+        "label": "A"
+      },
+      {
+        "text": "Coding",
+        "label": "B"
+      },
+      {
+        "text": "Analysis",
+        "label": "C"
+      },
+      {
+        "text": "Testing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Analysis (Definition of the problem) involves understanding what the program should do, including I/O and memory requirements."
+  },
+  {
+    "questionText": "what is an algorithm?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "A type of computer hardware",
+        "label": "A"
+      },
+      {
+        "text": "A finite sequence of well-defined instructions",
+        "label": "B"
+      },
+      {
+        "text": "A programming language",
+        "label": "C"
+      },
+      {
+        "text": "A graphical symbol",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Algorithms are finite sequences of well-defined computer implementable instructions to solve a problem."
+  },
+  {
+    "questionText": "which characteristic of an algorithm ensures that it terminates in a finite number of steps?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Definiteness",
+        "label": "A"
+      },
+      {
+        "text": "Effectiveness",
+        "label": "B"
+      },
+      {
+        "text": "Finiteness",
+        "label": "C"
+      },
+      {
+        "text": "Generality",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Finiteness means the algorithm must end after a specific number of steps."
+  },
+  {
+    "questionText": "which method of implementing an algorithm is also referred to as a hipo chart?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Flowchart",
+        "label": "A"
+      },
+      {
+        "text": "Pseudocode",
+        "label": "B"
+      },
+      {
+        "text": "Hierarchy Chart",
+        "label": "C"
+      },
+      {
+        "text": "Logic path",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Hierarchy Charts are also called HIPO (Hierarchy Plus Input-Process-Output) charts."
+  },
+  {
+    "questionText": "in a hierarchy chart, how is the chart read?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Bottom to top",
+        "label": "A"
+      },
+      {
+        "text": "Left to right only",
+        "label": "B"
+      },
+      {
+        "text": "Top to bottom and left to right",
+        "label": "C"
+      },
+      {
+        "text": "Right to left",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Hierarchy charts are read from top to bottom and from left to right."
+  },
+  {
+    "questionText": "using the 'stamp' rule (1 stamp for every 5 sheets), how many stamps are needed for 16 sheets of paper?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "3 stamps",
+        "label": "A"
+      },
+      {
+        "text": "3.2 stamps",
+        "label": "B"
+      },
+      {
+        "text": "4 stamps",
+        "label": "C"
+      },
+      {
+        "text": "5 stamps",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "16 divided by 5 is 3.2. Rounding up to the next whole number gives 4 stamps."
+  },
+  {
+    "questionText": "which flowchart symbol is represented by a parallelogram?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Process",
+        "label": "A"
+      },
+      {
+        "text": "Decision",
+        "label": "B"
+      },
+      {
+        "text": "Input/Output",
+        "label": "C"
+      },
+      {
+        "text": "Terminal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Parallelogram shapes are used specifically for input and output operations like reading and printing."
+  },
+  {
+    "questionText": "what does the diamond-shaped symbol represent in a flowchart?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Processing",
+        "label": "A"
+      },
+      {
+        "text": "Terminal",
+        "label": "B"
+      },
+      {
+        "text": "Decision",
+        "label": "C"
+      },
+      {
+        "text": "Connector",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The decision symbol (diamond) is used for logic or comparison operations with two exit paths (Yes/No)."
+  },
+  {
+    "questionText": "what is the main disadvantage of flowcharts for large programs?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "They are too easy to follow",
+        "label": "A"
+      },
+      {
+        "text": "They may extend for many pages and become difficult to modify",
+        "label": "B"
+      },
+      {
+        "text": "They look too much like code",
+        "label": "C"
+      },
+      {
+        "text": "They use English-like statements",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For large programs, flowcharts can become cumbersome, spanning many pages and becoming hard to follow."
+  },
+  {
+    "questionText": "pseudocode is best described as:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Actual computer code",
+        "label": "A"
+      },
+      {
+        "text": "A graphical diagram",
+        "label": "B"
+      },
+      {
+        "text": "An abbreviated version of actual computer code using English-like statements",
+        "label": "C"
+      },
+      {
+        "text": "A hardware specification",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Pseudocode is an abstract form of a program that uses English-like statements instead of geometric symbols."
+  },
+  {
+    "questionText": "in the program development cycle, what does 'debugging' refer to?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Writing the code",
+        "label": "A"
+      },
+      {
+        "text": "Designing the hierarchy chart",
+        "label": "B"
+      },
+      {
+        "text": "Finding and fixing errors in the program",
+        "label": "C"
+      },
+      {
+        "text": "Documenting the results",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Testing and Debugging is the stage where errors are identified and corrected."
+  },
+  {
+    "questionText": "which structure involves moving from one line to the next without skipping any lines?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Decision structure",
+        "label": "A"
+      },
+      {
+        "text": "Sequence structure",
+        "label": "B"
+      },
+      {
+        "text": "Loop structure",
+        "label": "C"
+      },
+      {
+        "text": "Manual structure",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A sequence structure executes instructions one after the other in order."
+  },
+  {
+    "questionText": "in the algorithm to compute wages, what is the formula used?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Wages = hours + rate",
+        "label": "A"
+      },
+      {
+        "text": "Wages = hours * rate",
+        "label": "B"
+      },
+      {
+        "text": "Wages = hours / rate",
+        "label": "C"
+      },
+      {
+        "text": "Wages = (hours * rate) / 100",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The notes state: Wage = hours * rate per hour."
+  },
+  {
+    "questionText": "which flowchart symbol represents the beginning or end of a task?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Rectangle",
+        "label": "A"
+      },
+      {
+        "text": "Diamond",
+        "label": "B"
+      },
+      {
+        "text": "Oval/Terminal",
+        "label": "C"
+      },
+      {
+        "text": "Parallelogram",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The terminal symbol is used to represent the start and stop of a task."
+  },
+  {
+    "questionText": "the 'divide and conquer' method is associated with which planning tool?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Flowchart",
+        "label": "A"
+      },
+      {
+        "text": "Hierarchy Chart",
+        "label": "B"
+      },
+      {
+        "text": "Manual Loop",
+        "label": "C"
+      },
+      {
+        "text": "Sort Symbol",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Hierarchy charts use the 'divide and conquer' method by breaking major parts into detailed sub-modules."
+  },
+  {
+    "questionText": "what symbol is used for a break in a flowchart that continues on a second page?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "On Page Connector",
+        "label": "A"
+      },
+      {
+        "text": "Off Page Connector",
+        "label": "B"
+      },
+      {
+        "text": "Annotation Symbol",
+        "label": "C"
+      },
+      {
+        "text": "Merge Symbol",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Off Page Connector marks where an algorithm ends on one page and continues on another."
+  },
+  {
+    "questionText": "in the temperature conversion example, what is the formula to convert fahrenheit (f) to celsius (c)?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "C = 9/5 * (F-32)",
+        "label": "A"
+      },
+      {
+        "text": "C = 5/9 * (F-32)",
+        "label": "B"
+      },
+      {
+        "text": "C = (F-32) * 100",
+        "label": "C"
+      },
+      {
+        "text": "C = 5/9 * F + 32",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The notes specify the formula: C = 5/9 * (F - 32)."
+  },
+  {
+    "questionText": "if a student's average grade is 60 and the passing condition is 'grade > 60', what is the output?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Pass",
+        "label": "A"
+      },
+      {
+        "text": "Fail",
+        "label": "B"
+      },
+      {
+        "text": "Error",
+        "label": "C"
+      },
+      {
+        "text": "None",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "If the condition is strictly 'greater than 60', then 60 itself results in a 'Fail' based on the logic provided in example 6."
+  },
+  {
+    "questionText": "what is the purpose of the annotation symbol in a flowchart?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "To make a decision",
+        "label": "A"
+      },
+      {
+        "text": "To provide additional information about another symbol",
+        "label": "B"
+      },
+      {
+        "text": "To start the program",
+        "label": "C"
+      },
+      {
+        "text": "To show the direction of flow",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The annotation symbol is used to provide extra descriptive info for other symbols."
+  },
+  {
+    "questionText": "a 'manual loop' symbol indicates:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "A sequence that repeats until stopped manually",
+        "label": "A"
+      },
+      {
+        "text": "A sequence that repeats 5 times",
+        "label": "B"
+      },
+      {
+        "text": "A database search",
+        "label": "C"
+      },
+      {
+        "text": "An automated decision",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The manual loop indicates a repetition that continues until a user stops it manually."
+  },
+  {
+    "questionText": "which flowchart symbol is used for arithmetic operations like 'wages = hours * rate'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Parallelogram",
+        "label": "A"
+      },
+      {
+        "text": "Diamond",
+        "label": "B"
+      },
+      {
+        "text": "Rectangle (Processing)",
+        "label": "C"
+      },
+      {
+        "text": "Connector",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Arithmetic and data-manipulation activities are listed inside the Processing (rectangle) symbol."
+  },
+  {
+    "questionText": "what is the 'top-down' design approach?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Starting with details and moving to the general plan",
+        "label": "A"
+      },
+      {
+        "text": "Starting with the major parts and refining them into details",
+        "label": "B"
+      },
+      {
+        "text": "Writing code before planning",
+        "label": "C"
+      },
+      {
+        "text": "Using only flowcharts",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Top-down design (used in hierarchy charts) starts with the big picture and breaks it down."
+  },
+  {
+    "questionText": "what symbol shows that information was stored in memory in a program?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Database Symbol",
+        "label": "A"
+      },
+      {
+        "text": "Internal Input Symbol",
+        "label": "B"
+      },
+      {
+        "text": "Manual Input Symbol",
+        "label": "C"
+      },
+      {
+        "text": "Merge Symbol",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Internal Input Symbol is used in software design to show storage in memory."
+  },
+  {
+    "questionText": "in the simple interest example, what are the three inputs required?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "P, R, S",
+        "label": "A"
+      },
+      {
+        "text": "P, R, T",
+        "label": "B"
+      },
+      {
+        "text": "I, R, T",
+        "label": "C"
+      },
+      {
+        "text": "P, S, T",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The inputs for Simple Interest are Principal (P), Rate (R), and Time (T)."
+  },
+  {
+    "questionText": "what does a 'merge' symbol represent?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "A break in the flowchart",
+        "label": "A"
+      },
+      {
+        "text": "Where two or more sub-processes become one",
+        "label": "B"
+      },
+      {
+        "text": "The end of a program",
+        "label": "C"
+      },
+      {
+        "text": "A manual input",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The merge symbol is used where sub-lists or processes join together."
+  },
+  {
+    "questionText": "why do programmers often prefer pseudocode over flowcharts for large programs?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "It uses more shapes",
+        "label": "A"
+      },
+      {
+        "text": "It is more colorful",
+        "label": "B"
+      },
+      {
+        "text": "It is more compact and looks like the actual code",
+        "label": "C"
+      },
+      {
+        "text": "It is easier for non-programmers to read",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Pseudocode is compact and resembles the final code structure, making it a favorite for developers."
+  },
+  {
+    "questionText": "an algorithm must be 'effective'. this means each step must be:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Primitive and easily convertible into program statements",
+        "label": "A"
+      },
+      {
+        "text": "Very complex",
+        "label": "B"
+      },
+      {
+        "text": "Written in Python",
+        "label": "C"
+      },
+      {
+        "text": "Graphical",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Effectiveness means steps are simple enough to be converted directly into programming language."
+  },
+  {
+    "questionText": "according to the auditor's forum promotion, a gift voucher is awarded if spending increases by more than $15,000 and:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Spending is less than $10,000",
+        "label": "A"
+      },
+      {
+        "text": "Current month bill is exactly $15,000",
+        "label": "B"
+      },
+      {
+        "text": "Last month spending is not less than $10,000",
+        "label": "C"
+      },
+      {
+        "text": "The customer has a credit card",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The two conditions are: spending > $15,000 increase AND last month spending ≥ $10,000."
+  },
+  {
+    "questionText": "the phrase 'one stamp for every 5 sheets or fraction thereof' implies which mathematical operation?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Rounding down",
+        "label": "A"
+      },
+      {
+        "text": "Rounding to the nearest even number",
+        "label": "B"
+      },
+      {
+        "text": "Rounding up (Ceiling)",
+        "label": "C"
+      },
+      {
+        "text": "Truncating",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Because it says 'or fraction thereof', even a tiny bit over requires a full new stamp, which is rounding up."
+  },
+  {
+    "questionText": "what is the role of 'testing the logic' before coding?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "To check for computer hardware errors",
+        "label": "A"
+      },
+      {
+        "text": "To ensure the algorithm is correct using representative data",
+        "label": "B"
+      },
+      {
+        "text": "To practice typing",
+        "label": "C"
+      },
+      {
+        "text": "To decrease the memory requirement",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Testing logic by hand with data helps catch mistakes before they are programmed."
+  },
+  {
+    "questionText": "what is the specific purpose of the 'subroutine predefined' symbol in a flowchart?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "To show a simple math step",
+        "label": "A"
+      },
+      {
+        "text": "To indicate a task described in more detail in another flowchart",
+        "label": "B"
+      },
+      {
+        "text": "To represent a manual input",
+        "label": "C"
+      },
+      {
+        "text": "To end the program",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "This symbol represents a sequence of actions that perform a specific task embedded within a larger process, detailed elsewhere."
+  },
+  {
+    "questionText": "the sort symbol in a flowchart is used to:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Add numbers together",
+        "label": "A"
+      },
+      {
+        "text": "Organize a list of items into a sequence based on criteria",
+        "label": "B"
+      },
+      {
+        "text": "Join two flowlines",
+        "label": "C"
+      },
+      {
+        "text": "Store data in the database",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The sort symbol indicates a step that organizes items into a sequence based on predefined criteria."
+  },
+  {
+    "questionText": "which flowchart symbol represents a list of information with a standard structure that allows for searching?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Manual Input",
+        "label": "A"
+      },
+      {
+        "text": "Internal Input",
+        "label": "B"
+      },
+      {
+        "text": "Database Symbol",
+        "label": "C"
+      },
+      {
+        "text": "Annotation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The database symbol indicates a structured list of information allowing for operations like searching and sorting."
+  },
+  {
+    "questionText": "in the program development cycle, what is the 'documentation' stage?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Writing the algorithm",
+        "label": "A"
+      },
+      {
+        "text": "Keeping a detailed record of the program's logic and user manuals",
+        "label": "B"
+      },
+      {
+        "text": "Fixing bugs",
+        "label": "C"
+      },
+      {
+        "text": "Translating code to English",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Documentation is the final stage where records of the software's logic, usage, and development are preserved."
+  },
+  {
+    "questionText": "a computer is defined as an electronic device that accepts data in a ______ format.",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Random",
+        "label": "A"
+      },
+      {
+        "text": "Prescribed",
+        "label": "B"
+      },
+      {
+        "text": "Complex",
+        "label": "C"
+      },
+      {
+        "text": "English",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "According to the notes, a computer accepts data in a prescribed format."
+  },
+  {
+    "questionText": "in the hierarchy chart, if a module is subdivided, the branches under it are called:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Super-modules",
+        "label": "A"
+      },
+      {
+        "text": "Sub-modules",
+        "label": "B"
+      },
+      {
+        "text": "Flowlines",
+        "label": "C"
+      },
+      {
+        "text": "Connectors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The hierarchy chart allows modules to be subdivided into a succession of submodules."
+  },
+  {
+    "questionText": "when following a hierarchy chart, after the submodules in a sequence are completed, which module is considered next?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The one directly above",
+        "label": "A"
+      },
+      {
+        "text": "The one to the left",
+        "label": "B"
+      },
+      {
+        "text": "The one to the right of the original module",
+        "label": "C"
+      },
+      {
+        "text": "The start module",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The notes state that after submodules are carried out, the module to the right of the original is considered."
+  },
+  {
+    "questionText": "in the formula 'total cost = unit cost * number of units', what is the 'total cost'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Input",
+        "label": "A"
+      },
+      {
+        "text": "Output",
+        "label": "B"
+      },
+      {
+        "text": "Process",
+        "label": "C"
+      },
+      {
+        "text": "Hardware",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The total cost is the result generated (output) based on the inputs provided."
+  },
+  {
+    "questionText": "what is the 'top-down' design's primary goal?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "To avoid planning",
+        "label": "A"
+      },
+      {
+        "text": "To ensure every detail is solved at the very beginning",
+        "label": "B"
+      },
+      {
+        "text": "To break the problem into smaller, manageable tasks",
+        "label": "C"
+      },
+      {
+        "text": "To use the most complex code possible",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Top-down design allows a programmer to avoid mistakes by breaking the problem into small tasks the computer can perform."
+  },
+  {
+    "questionText": "the 'manual input' symbol is used when:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Data is read from a disk",
+        "label": "A"
+      },
+      {
+        "text": "A user is prompted to enter information manually",
+        "label": "B"
+      },
+      {
+        "text": "The computer finishes a task",
+        "label": "C"
+      },
+      {
+        "text": "A decision is made by the CPU",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "This symbol represents a step where a user must manually enter data at the prompt."
+  },
+  {
+    "questionText": "which flowchart symbol joins different flowlines on the same page?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Off Page Connector",
+        "label": "A"
+      },
+      {
+        "text": "Decision Symbol",
+        "label": "B"
+      },
+      {
+        "text": "On Page Connector",
+        "label": "C"
+      },
+      {
+        "text": "Annotation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The on page connector (usually a small circle) is used to join different flowlines."
+  },
+  {
+    "questionText": "algorithm: 'step 1: set sum to 0'. this is an example of:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Initialization",
+        "label": "A"
+      },
+      {
+        "text": "Decision",
+        "label": "B"
+      },
+      {
+        "text": "Output",
+        "label": "C"
+      },
+      {
+        "text": "Termination",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Setting a variable to a starting value (like 0) is called initialization."
+  },
+  {
+    "questionText": "in the simple interest formula si = (prt)/100, what does 'r' represent?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Ratio",
+        "label": "A"
+      },
+      {
+        "text": "Range",
+        "label": "B"
+      },
+      {
+        "text": "Rate",
+        "label": "C"
+      },
+      {
+        "text": "Result",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "In the simple interest calculation, R stands for Rate."
+  },
+  {
+    "questionText": "what does a flowchart arrow indicate?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Input data",
+        "label": "A"
+      },
+      {
+        "text": "Processing speed",
+        "label": "B"
+      },
+      {
+        "text": "The direction of flow/logic path",
+        "label": "C"
+      },
+      {
+        "text": "The end of the program",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The flowline (arrow) indicates the direction in which the algorithm's logic moves."
+  },
+  {
+    "questionText": "in a decision structure, how many exit paths does the decision symbol have?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "One",
+        "label": "A"
+      },
+      {
+        "text": "Two",
+        "label": "B"
+      },
+      {
+        "text": "Three",
+        "label": "C"
+      },
+      {
+        "text": "Zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The decision symbol has one entry path and exactly two exit paths (Yes/No)."
+  },
+  {
+    "questionText": "the algorithm step 'round the quotient up to the next highest whole number' is used in which example?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Fahrenheit to Celsius",
+        "label": "A"
+      },
+      {
+        "text": "Postage Stamps",
+        "label": "B"
+      },
+      {
+        "text": "Simple Interest",
+        "label": "C"
+      },
+      {
+        "text": "Volume of a Cube",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The rounding logic is specifically used for the Postage Stamp algorithm."
+  },
+  {
+    "questionText": "what is the formula for the volume of a cube as per the notes?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "L + W + H",
+        "label": "A"
+      },
+      {
+        "text": "L * W * H",
+        "label": "B"
+      },
+      {
+        "text": "L * W",
+        "label": "C"
+      },
+      {
+        "text": "L^2",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Volume = length * width * height."
+  },
+  {
+    "questionText": "what is the average grade formula for 4 courses?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Sum / 2",
+        "label": "A"
+      },
+      {
+        "text": "Sum / 4",
+        "label": "B"
+      },
+      {
+        "text": "Sum * 4",
+        "label": "C"
+      },
+      {
+        "text": "(M1 + M4) / 2",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Average grade = Sum of the scores / 4."
+  },
+  {
+    "questionText": "if a programmer underlined phrases in a problem statement to find inputs/outputs, which stage are they in?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Design",
+        "label": "A"
+      },
+      {
+        "text": "Coding",
+        "label": "B"
+      },
+      {
+        "text": "Analysis",
+        "label": "C"
+      },
+      {
+        "text": "Documentation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Underlining phrases to identify variables is a technique used in the Analysis stage."
+  },
+  {
+    "questionText": "which tool depicts the organization of a program but omits specific processing logic?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Flowchart",
+        "label": "A"
+      },
+      {
+        "text": "Pseudocode",
+        "label": "B"
+      },
+      {
+        "text": "Hierarchy Chart",
+        "label": "C"
+      },
+      {
+        "text": "Algorithm",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Hierarchy charts describe modules and relationships but omit specific logic details."
+  },
+  {
+    "questionText": "what does a 'manual' operation mean in a loop symbol?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The computer stops it automatically",
+        "label": "A"
+      },
+      {
+        "text": "It is stopped by a user action",
+        "label": "B"
+      },
+      {
+        "text": "It never stops",
+        "label": "C"
+      },
+      {
+        "text": "It stops after 100 steps",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A manual loop continues until the user manually intervenes to stop it."
+  },
+  {
+    "questionText": "what is the relationship between 'algorithm' and 'program'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "They are the same thing",
+        "label": "A"
+      },
+      {
+        "text": "An algorithm is a logical plan, a program is the implementation in code",
+        "label": "B"
+      },
+      {
+        "text": "An algorithm is graphical, a program is English",
+        "label": "C"
+      },
+      {
+        "text": "Programs are written before algorithms",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An algorithm is the plan/logic; a program is the set of instructions written in a specific language."
+  },
+  {
+    "questionText": "in the example of 'below freezing point', what is the threshold temperature used?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "0 degrees",
+        "label": "A"
+      },
+      {
+        "text": "32 degrees",
+        "label": "B"
+      },
+      {
+        "text": "100 degrees",
+        "label": "C"
+      },
+      {
+        "text": "273 degrees",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The logic checks if temperature is less than 32 (Fahrenheit)."
+  },
+  {
+    "questionText": "which programming structure represents 'moving from one line to the next without skipping'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Selection",
+        "label": "A"
+      },
+      {
+        "text": "Iteration",
+        "label": "B"
+      },
+      {
+        "text": "Sequence",
+        "label": "C"
+      },
+      {
+        "text": "Recursion",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "This is the definition of a sequence structure."
+  },
+  {
+    "questionText": "in pseudocode, the keyword 'else' is used in which structure?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Sequence",
+        "label": "A"
+      },
+      {
+        "text": "Decision",
+        "label": "B"
+      },
+      {
+        "text": "Input",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "'Else' is part of the decision structure (If-Else-EndIf)."
+  },
+  {
+    "questionText": "a computer accepts data, stores it, and processes it to produce:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Meaningless output",
+        "label": "A"
+      },
+      {
+        "text": "More data",
+        "label": "B"
+      },
+      {
+        "text": "Meaningful and logical conclusion",
+        "label": "C"
+      },
+      {
+        "text": "New hardware",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The output is meant for deriving meaningful and logical conclusions."
+  },
+  {
+    "questionText": "in the 'five stage' cycle, which stage follows design?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Analysis",
+        "label": "A"
+      },
+      {
+        "text": "Coding",
+        "label": "B"
+      },
+      {
+        "text": "Testing",
+        "label": "C"
+      },
+      {
+        "text": "Documentation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The cycle is: Analysis -> Design -> Coding -> Testing -> Documentation."
+  },
+  {
+    "questionText": "what is a 'well-defined' instruction in an algorithm?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "One that is very long",
+        "label": "A"
+      },
+      {
+        "text": "One that is clear and unambiguous",
+        "label": "B"
+      },
+      {
+        "text": "One written in Python",
+        "label": "C"
+      },
+      {
+        "text": "One that uses many colors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Algorithms must be unambiguous, meaning each step is clearly defined."
+  },
+  {
+    "questionText": "if a student underlines 'number of pounds' in a problem, they are identifying a:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Output",
+        "label": "A"
+      },
+      {
+        "text": "Formula",
+        "label": "B"
+      },
+      {
+        "text": "Input",
+        "label": "C"
+      },
+      {
+        "text": "Decision",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The quantity/number of items is a problem input."
+  },
+  {
+    "questionText": "the main advantage of hierarchy charts is seen in:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Final coding",
+        "label": "A"
+      },
+      {
+        "text": "Initial planning",
+        "label": "B"
+      },
+      {
+        "text": "Debugging",
+        "label": "C"
+      },
+      {
+        "text": "Manual input",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Their main advantage is initial planning to see what must be done in general."
+  },
+  {
+    "questionText": "in the sum of five numbers algorithm, what is 'increment counter by 1'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "A decision",
+        "label": "A"
+      },
+      {
+        "text": "A processing step",
+        "label": "B"
+      },
+      {
+        "text": "A terminal step",
+        "label": "C"
+      },
+      {
+        "text": "An input",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Arithmetic updates like incrementing a counter are processing operations."
+  },
+  {
+    "questionText": "if a loop condition 'counter < 5' is false, the next step in the notes is:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Go back to step 2",
+        "label": "A"
+      },
+      {
+        "text": "Print sum",
+        "label": "B"
+      },
+      {
+        "text": "Input number",
+        "label": "C"
+      },
+      {
+        "text": "Stop the computer",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When the condition is no longer met, the program prints the result (sum)."
+  },
+  {
+    "questionText": "a flowchart symbol containing 'wages = hours * rate' should be a:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Diamond",
+        "label": "A"
+      },
+      {
+        "text": "Circle",
+        "label": "B"
+      },
+      {
+        "text": "Rectangle",
+        "label": "C"
+      },
+      {
+        "text": "Parallelogram",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Calculation/Assignment steps belong in a processing rectangle."
+  },
+  {
+    "questionText": "pseudocode is neither an algorithm nor a program; it is an ______ form of a program.",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Exact",
+        "label": "A"
+      },
+      {
+        "text": "Abstract",
+        "label": "B"
+      },
+      {
+        "text": "Incorrect",
+        "label": "C"
+      },
+      {
+        "text": "Physical",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The notes define pseudocode as an abstract form of a program."
+  },
+  {
+    "questionText": "the 'testing and debugging' stage ensures the program is free of:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Inputs",
+        "label": "A"
+      },
+      {
+        "text": "Algorithms",
+        "label": "B"
+      },
+      {
+        "text": "Errors",
+        "label": "C"
+      },
+      {
+        "text": "Formulas",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Debugging is the process of finding and removing errors."
+  },
+  {
+    "questionText": "what does a computer do with the data it accepts?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Deletes it",
+        "label": "A"
+      },
+      {
+        "text": "Ignores it",
+        "label": "B"
+      },
+      {
+        "text": "Stores and processes it",
+        "label": "C"
+      },
+      {
+        "text": "Changes it to a recipe",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A computer accepts, stores, and processes data."
+  },
+  {
+    "questionText": "in the fahrenheit to celsius flowchart, the 'print' operation uses which symbol?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Rectangle",
+        "label": "A"
+      },
+      {
+        "text": "Parallelogram",
+        "label": "B"
+      },
+      {
+        "text": "Diamond",
+        "label": "C"
+      },
+      {
+        "text": "Oval",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Printing is an output operation, which uses a parallelogram."
+  },
+  {
+    "questionText": "algorithms must produce ______ output value(s).",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Zero",
+        "label": "A"
+      },
+      {
+        "text": "Exactly ten",
+        "label": "B"
+      },
+      {
+        "text": "One or more",
+        "label": "C"
+      },
+      {
+        "text": "Negative",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "An algorithm must produce at least one output value."
+  },
+  {
+    "questionText": "the 'else' path in a flowchart is usually triggered when a decision is:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Yes/True",
+        "label": "A"
+      },
+      {
+        "text": "No/False",
+        "label": "B"
+      },
+      {
+        "text": "Maybe",
+        "label": "C"
+      },
+      {
+        "text": "Start",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In logic structures, the 'Else' path corresponds to the 'No' or 'False' branch."
+  },
+  {
+    "questionText": "problem solving is the means of reaching a ______ situation from a current situation.",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Difficult",
+        "label": "A"
+      },
+      {
+        "text": "Desired",
+        "label": "B"
+      },
+      {
+        "text": "Complex",
+        "label": "C"
+      },
+      {
+        "text": "Input",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Problem solving is the process of moving from a current state to a desired state."
+  },
+  {
+    "questionText": "in a flowchart, every flowline must have a(n) ______.",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Circle",
+        "label": "A"
+      },
+      {
+        "text": "Arrow",
+        "label": "B"
+      },
+      {
+        "text": "Color",
+        "label": "C"
+      },
+      {
+        "text": "Number",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Every line must have an arrow to indicate direction."
+  },
+  {
+    "questionText": "what is the result of '16 / 5' before rounding in the postage stamp algorithm?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "3",
+        "label": "A"
+      },
+      {
+        "text": "3.2",
+        "label": "B"
+      },
+      {
+        "text": "4",
+        "label": "C"
+      },
+      {
+        "text": "3.5",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "16 divided by 5 is 3.2."
+  },
+  {
+    "questionText": "why should a programmer avoid attempting to solve every detail at the beginning?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "To save electricity",
+        "label": "A"
+      },
+      {
+        "text": "To avoid mistakes (discipline via top-down design)",
+        "label": "B"
+      },
+      {
+        "text": "Because computers solve details automatically",
+        "label": "C"
+      },
+      {
+        "text": "Because details are not important",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Using top-down design avoids mistakes by focusing on general structure first."
+  },
+  {
+    "questionText": "in pseudocode, the end of a decision structure is marked by:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Stop",
+        "label": "A"
+      },
+      {
+        "text": "End",
+        "label": "B"
+      },
+      {
+        "text": "EndIf",
+        "label": "C"
+      },
+      {
+        "text": "Exit",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The keyword 'EndIf' is used to close a decision structure."
+  },
+  {
+    "questionText": "the 'current month spending bill' is which part of the auditor's assignment?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Input",
+        "label": "A"
+      },
+      {
+        "text": "Output",
+        "label": "B"
+      },
+      {
+        "text": "Formula",
+        "label": "C"
+      },
+      {
+        "text": "Annotation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Spending bills are inputs provided to determine eligibility for the voucher."
+  },
+  {
+    "questionText": "what does 'hipo' stand for?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "High Input Process Output",
+        "label": "A"
+      },
+      {
+        "text": "Hierarchy Plus Input-Process-Output",
+        "label": "B"
+      },
+      {
+        "text": "Hierarchy In Programming Operations",
+        "label": "C"
+      },
+      {
+        "text": "Hidden Input Process Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "HIPO stands for Hierarchy Plus Input-Process-Output."
+  },
+  {
+    "questionText": "which stage of the cycle produces the actual executable file?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Analysis",
+        "label": "A"
+      },
+      {
+        "text": "Design",
+        "label": "B"
+      },
+      {
+        "text": "Coding",
+        "label": "C"
+      },
+      {
+        "text": "Documentation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Coding is where the design is translated into a machine-readable programming language."
+  },
+  {
+    "questionText": "a flowchart rectangle usually has how many exit flowlines?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "One",
+        "label": "A"
+      },
+      {
+        "text": "Two",
+        "label": "B"
+      },
+      {
+        "text": "Three",
+        "label": "C"
+      },
+      {
+        "text": "Zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Unlike decision symbols, processing symbols (rectangles) have one entry and one exit."
+  },
+  {
+    "questionText": "the 'simple interest' algorithm uses which arithmetic operator for 'prt'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Addition",
+        "label": "A"
+      },
+      {
+        "text": "Subtraction",
+        "label": "B"
+      },
+      {
+        "text": "Multiplication",
+        "label": "C"
+      },
+      {
+        "text": "Division",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The asterisk (*) represents multiplication."
+  },
+  {
+    "questionText": "which flowchart symbol would you use to 'read hours'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Rectangle",
+        "label": "A"
+      },
+      {
+        "text": "Diamond",
+        "label": "B"
+      },
+      {
+        "text": "Parallelogram",
+        "label": "C"
+      },
+      {
+        "text": "Terminal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Reading data is an input operation, requiring a parallelogram."
+  },
+  {
+    "questionText": "an algorithm must be 'primitive'. this relates to which characteristic?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Finiteness",
+        "label": "A"
+      },
+      {
+        "text": "Definiteness",
+        "label": "B"
+      },
+      {
+        "text": "Effectiveness",
+        "label": "C"
+      },
+      {
+        "text": "Input",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Effectiveness means steps must be primitive enough to be easily converted to code."
+  },
+  {
+    "questionText": "if a computer is tasked with baking a cake, the 'ingredients' represent:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Processing",
+        "label": "A"
+      },
+      {
+        "text": "Output",
+        "label": "B"
+      },
+      {
+        "text": "Input",
+        "label": "C"
+      },
+      {
+        "text": "Memory",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "In the recipe analogy, ingredients are the inputs."
+  },
+  {
+    "questionText": "the process of 'incrementing a counter' is an example of:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Data manipulation",
+        "label": "A"
+      },
+      {
+        "text": "Decision making",
+        "label": "B"
+      },
+      {
+        "text": "Inputting",
+        "label": "C"
+      },
+      {
+        "text": "Stopping",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Updating a variable value (like a counter) is a data manipulation/processing activity."
+  },
+  {
+    "questionText": "pseudocodes are often preferred by programmers because:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "They are more artistic",
+        "label": "A"
+      },
+      {
+        "text": "They look like the actual code to be written",
+        "label": "B"
+      },
+      {
+        "text": "They are harder to follow",
+        "label": "C"
+      },
+      {
+        "text": "They require geometric tools",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Programmers prefer them because the abstract plan resembles the final code structure."
+  },
+  {
+    "questionText": "what is the threshold for 'spending increase' to receive a gift voucher in assignment 8?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "$10,000",
+        "label": "A"
+      },
+      {
+        "text": "$500",
+        "label": "B"
+      },
+      {
+        "text": "$15,000",
+        "label": "C"
+      },
+      {
+        "text": "$1,000",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Customers must spend $15,000 more than their previous month's spending."
+  },
+  {
+    "questionText": "which flowchart symbol would contain the word 'start'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Rectangle",
+        "label": "A"
+      },
+      {
+        "text": "Terminal (Oval)",
+        "label": "B"
+      },
+      {
+        "text": "Diamond",
+        "label": "C"
+      },
+      {
+        "text": "Circle",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Terminals are used for Start and Stop."
+  },
+  {
+    "questionText": "if an algorithm finishes all its steps, it has satisfied the ______ characteristic.",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Effective",
+        "label": "A"
+      },
+      {
+        "text": "Finite",
+        "label": "B"
+      },
+      {
+        "text": "Defined",
+        "label": "C"
+      },
+      {
+        "text": "Input",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Finiteness requires that the algorithm terminates in a specific number of steps."
+  },
+  {
+    "questionText": "the formula c = 5/9 * (f - 32) is part of which program development stage?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Analysis (Identifying the formula)",
+        "label": "A"
+      },
+      {
+        "text": "Coding",
+        "label": "B"
+      },
+      {
+        "text": "Testing",
+        "label": "C"
+      },
+      {
+        "text": "Documentation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Developing a list of formulas to specify relationships is part of the Analysis stage."
+  },
+  {
+    "questionText": "what is the primary function of a 'hierarchy chart'?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "To show the logic of a loop",
+        "label": "A"
+      },
+      {
+        "text": "To depict the organization of a program modules",
+        "label": "B"
+      },
+      {
+        "text": "To write actual code",
+        "label": "C"
+      },
+      {
+        "text": "To fix errors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Hierarchy charts organize programs into modules and show their relationships."
+  },
+  {
+    "questionText": "in a 'decision structure', when the answer to a question is 'no', what happens?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The program stops",
+        "label": "A"
+      },
+      {
+        "text": "A different set of instructions may be executed",
+        "label": "B"
+      },
+      {
+        "text": "The program restarts",
+        "label": "C"
+      },
+      {
+        "text": "The computer ignores the data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A decision structure uses the result (Yes/No) to determine which path of instructions to follow."
+  },
+  {
+    "questionText": "the phrase 'divide and conquer' means:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Making the program more complex",
+        "label": "A"
+      },
+      {
+        "text": "Breaking a large problem into smaller parts",
+        "label": "B"
+      },
+      {
+        "text": "Ignoring the problem",
+        "label": "C"
+      },
+      {
+        "text": "Multiplying variables",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "It refers to the process of refining modules into more detailed sub-plans."
+  },
+  {
+    "questionText": "which flowchart symbol has one entry and two exit paths?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Process",
+        "label": "A"
+      },
+      {
+        "text": "Input/Output",
+        "label": "B"
+      },
+      {
+        "text": "Decision",
+        "label": "C"
+      },
+      {
+        "text": "Terminal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The decision symbol is the only one with two exit flowlines (representing Yes and No)."
+  },
+  {
+    "questionText": "pseudocode replaces geometric symbols with ______ statements.",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Mathematical",
+        "label": "A"
+      },
+      {
+        "text": "English-like",
+        "label": "B"
+      },
+      {
+        "text": "Greek",
+        "label": "C"
+      },
+      {
+        "text": "Encrypted",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Pseudocode uses English-like statements to outline the process."
+  },
+  {
+    "questionText": "if you input '30' for temperature in the 'below freezing point' algorithm, the output is:",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Freezing point",
+        "label": "A"
+      },
+      {
+        "text": "Below freezing point",
+        "label": "B"
+      },
+      {
+        "text": "Hot",
+        "label": "C"
+      },
+      {
+        "text": "No output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Since 30 < 32, the condition is true, so it displays 'Below freezing point'."
+  },
+  {
+    "questionText": "the computer performs tasks ______ as instructed by the programmer.",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Randomly",
+        "label": "A"
+      },
+      {
+        "text": "Exactly",
+        "label": "B"
+      },
+      {
+        "text": "Approximately",
+        "label": "C"
+      },
+      {
+        "text": "Differently",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Computers have no IQ and follow instructions exactly as given."
+  },
+  {
+    "questionText": "which symbol is used for joining different flowlines on the same page?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "On Page Connector",
+        "label": "A"
+      },
+      {
+        "text": "Off Page Connector",
+        "label": "B"
+      },
+      {
+        "text": "Annotation",
+        "label": "C"
+      },
+      {
+        "text": "Sort",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The On Page Connector is used to join flowlines on a single page."
+  },
+  {
+    "questionText": "what is the final stage of the program development cycle?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Testing",
+        "label": "A"
+      },
+      {
+        "text": "Coding",
+        "label": "B"
+      },
+      {
+        "text": "Documentation",
+        "label": "C"
+      },
+      {
+        "text": "Design",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Documentation is listed as the 5th and final stage."
+  },
+  {
+    "questionText": "in the wage algorithm, 'print wage' is which step?",
+    "topic": "problem solving techniques and program development cycle",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Input",
+        "label": "A"
+      },
+      {
+        "text": "Processing",
+        "label": "B"
+      },
+      {
+        "text": "Output",
+        "label": "C"
+      },
+      {
+        "text": "Decision",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Printing/Displaying a result is the output step."
+  }
+]

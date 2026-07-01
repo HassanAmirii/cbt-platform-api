@@ -1,0 +1,1770 @@
+[
+  {
+    "questionText": "who discovered electromagnetic induction in 1831?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "james clerk maxwell", "label": "A" },
+      { "text": "michael faraday", "label": "B" },
+      { "text": "hans christian oersted", "label": "C" },
+      { "text": "andre-marie ampere", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Michael Faraday discovered electromagnetic induction in 1831, proving that electricity can be produced from magnetism."
+  },
+  {
+    "questionText": "what is electromagnetic induction?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "the production of a magnetic field from an electric current",
+        "label": "A"
+      },
+      {
+        "text": "the production of an electromotive force in a conductor due to changing magnetic flux",
+        "label": "B"
+      },
+      { "text": "the force between two magnets", "label": "C" },
+      { "text": "the attraction between electric charges", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Electromagnetic induction is the process in which an electromotive force (e.m.f.) is produced in a conductor whenever there is a change in the magnetic flux linked with it."
+  },
+  {
+    "questionText": "what is magnetic flux a measure of?",
+    "topic": "magnetic flux",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the strength of the magnetic field only", "label": "A" },
+      {
+        "text": "how much magnetic field passes through a surface",
+        "label": "B"
+      },
+      { "text": "the speed of magnetic field lines", "label": "C" },
+      { "text": "the force between two magnets", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Magnetic flux (Φ) measures how much magnetic field passes through a surface. It depends on the magnetic field strength, area, and the angle between them."
+  },
+  {
+    "questionText": "what is the formula for magnetic flux?",
+    "topic": "magnetic flux",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "Φ = B/A cos(θ)", "label": "A" },
+      { "text": "Φ = B A sin(θ)", "label": "B" },
+      { "text": "Φ = B A cos(θ)", "label": "C" },
+      { "text": "Φ = B/A sin(θ)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Magnetic flux is Φ = BA cos(θ), where B is the magnetic field strength, A is the area of the loop, and θ is the angle between the field and the normal to the surface."
+  },
+  {
+    "questionText": "when is magnetic flux maximum?",
+    "topic": "magnetic flux",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "when θ = 90° (field parallel to surface)", "label": "A" },
+      { "text": "when θ = 0° (field perpendicular to surface)", "label": "B" },
+      { "text": "when θ = 45°", "label": "C" },
+      { "text": "when θ = 180°", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Flux is maximum when θ = 0° because cos(0°) = 1, meaning the magnetic field lines pass perpendicularly through the surface area."
+  },
+  {
+    "questionText": "when is magnetic flux zero?",
+    "topic": "magnetic flux",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "when θ = 0°", "label": "A" },
+      { "text": "when θ = 30°", "label": "B" },
+      { "text": "when θ = 45°", "label": "C" },
+      { "text": "when θ = 90°", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Flux is zero when θ = 90° because cos(90°) = 0, meaning the magnetic field lines are parallel to the surface and do not pass through it."
+  },
+  {
+    "questionText": "what three quantities can change to produce electromagnetic induction?",
+    "topic": "magnetic flux",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "magnetic field, area, and angle", "label": "A" },
+      { "text": "magnetic field, temperature, and pressure", "label": "B" },
+      { "text": "area, volume, and density", "label": "C" },
+      { "text": "angle, speed, and mass", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A change in any of these three quantities - magnetic field (B), area (A), or angle (θ) - produces electromagnetic induction."
+  },
+  {
+    "questionText": "what happens when magnetic flux through a coil changes?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "no current is produced", "label": "A" },
+      { "text": "an induced current is produced", "label": "B" },
+      { "text": "the magnetic field disappears", "label": "C" },
+      { "text": "the coil becomes demagnetized", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "If flux changes, an induced e.m.f. and hence current is produced in a closed circuit. If flux is constant, no current is produced."
+  },
+  {
+    "questionText": "what happens when a magnet is moved toward a coil?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "magnetic flux decreases and current reverses", "label": "A" },
+      {
+        "text": "magnetic flux increases and current is produced",
+        "label": "B"
+      },
+      { "text": "no current is produced", "label": "C" },
+      { "text": "the magnet stops moving", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "When a magnet moves toward a coil, the magnetic flux through the coil increases, and an induced current is produced."
+  },
+  {
+    "questionText": "what happens when a magnet is moved away from a coil?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "magnetic flux increases", "label": "A" },
+      {
+        "text": "magnetic flux decreases and current reverses direction",
+        "label": "B"
+      },
+      { "text": "current remains the same", "label": "C" },
+      { "text": "no current is produced", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "When the magnet moves away from the coil, the magnetic flux decreases, causing the induced current to reverse direction."
+  },
+  {
+    "questionText": "what happens when a magnet is held stationary near a coil?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "maximum current is induced", "label": "A" },
+      { "text": "a small current is induced", "label": "B" },
+      { "text": "no current is induced", "label": "C" },
+      { "text": "current reverses continuously", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "When the magnet is stationary, there is no change in magnetic flux, so no current is induced."
+  },
+  {
+    "questionText": "which instrument is used to detect induced current?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "voltmeter", "label": "A" },
+      { "text": "ammeter", "label": "B" },
+      { "text": "galvanometer", "label": "C" },
+      { "text": "ohmmeter", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "A galvanometer is used to detect induced current. Deflection shows the presence of current, while no deflection means no current."
+  },
+  {
+    "questionText": "what does deflection of a galvanometer indicate?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the presence of induced current", "label": "A" },
+      { "text": "the strength of the magnet", "label": "B" },
+      { "text": "the temperature of the coil", "label": "C" },
+      { "text": "the resistance of the circuit", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Deflection of a galvanometer shows the presence of induced current. No deflection means no current is flowing."
+  },
+  {
+    "questionText": "which of the following is NOT an application of electromagnetic induction?",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "electric generators", "label": "A" },
+      { "text": "transformers", "label": "B" },
+      { "text": "wireless charging systems", "label": "C" },
+      { "text": "electric heaters", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Electric generators, transformers, wireless charging systems, and induction cookers all use electromagnetic induction. Electric heaters use resistive heating, not induction."
+  },
+  {
+    "questionText": "faraday's law states that induced e.m.f. is proportional to:",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the magnetic field strength", "label": "A" },
+      { "text": "the rate of change of magnetic flux", "label": "B" },
+      { "text": "the area of the coil", "label": "C" },
+      { "text": "the number of turns in the coil", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Faraday's law states that the induced e.m.f. in a circuit is directly proportional to the rate of change of magnetic flux linking the circuit."
+  },
+  {
+    "questionText": "what is the mathematical expression for faraday's law?",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "E = -N dΦ/dt", "label": "A" },
+      { "text": "E = -N Φ/t", "label": "B" },
+      { "text": "E = -N dI/dt", "label": "C" },
+      { "text": "E = -N B A", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Faraday's law is expressed as E = -N dΦ/dt, where E is the induced e.m.f., N is the number of turns, and dΦ/dt is the rate of change of magnetic flux."
+  },
+  {
+    "questionText": "what does the negative sign in faraday's law represent?",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "that e.m.f. is always negative", "label": "A" },
+      { "text": "lenz's law (direction of induced current)", "label": "B" },
+      { "text": "that flux is always decreasing", "label": "C" },
+      { "text": "that energy is being created", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The negative sign in Faraday's law is given by Lenz's law, which indicates the direction of the induced current (opposing the change in flux)."
+  },
+  {
+    "questionText": "a faster change in magnetic flux produces:",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "a smaller induced e.m.f.", "label": "A" },
+      { "text": "a larger induced e.m.f.", "label": "B" },
+      { "text": "no induced e.m.f.", "label": "C" },
+      { "text": "a constant induced e.m.f.", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Induced e.m.f. depends on the rate of change of magnetic flux. Faster change in flux produces a larger e.m.f., while a slow change produces a smaller e.m.f."
+  },
+  {
+    "questionText": "a magnetic flux through a coil changes from 0.5 Wb to 0.1 Wb in 0.2 s. calculate the induced e.m.f. for a single turn coil.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.0 V", "label": "A" },
+      { "text": "2.0 V", "label": "B" },
+      { "text": "0.5 V", "label": "C" },
+      { "text": "4.0 V", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "E = -dΦ/dt = -(0.1 - 0.5)/0.2 = -(-0.4)/0.2 = 2.0 V. The negative sign indicates direction only."
+  },
+  {
+    "questionText": "a magnetic flux through a coil changes from 0.8 Wb to 0.2 Wb in 0.3 s. calculate the induced e.m.f. for a single turn coil.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.0 V", "label": "A" },
+      { "text": "1.5 V", "label": "B" },
+      { "text": "2.0 V", "label": "C" },
+      { "text": "3.0 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = -dΦ/dt = -(0.2 - 0.8)/0.3 = -(-0.6)/0.3 = 2.0 V."
+  },
+  {
+    "questionText": "a coil of 50 turns experiences a change in magnetic flux of 0.03 Wb in 0.1 s. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "5 V", "label": "A" },
+      { "text": "10 V", "label": "B" },
+      { "text": "15 V", "label": "C" },
+      { "text": "20 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "For a coil: E = -N dΦ/dt = -50 × (0.03/0.1) = -50 × 0.3 = -15 V. The magnitude is 15 V."
+  },
+  {
+    "questionText": "a coil of 100 turns experiences a change in magnetic flux of 0.05 Wb in 0.2 s. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "10 V", "label": "A" },
+      { "text": "15 V", "label": "B" },
+      { "text": "20 V", "label": "C" },
+      { "text": "25 V", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = -N dΦ/dt = -100 × (0.05/0.2) = -100 × 0.25 = -25 V. The magnitude is 25 V."
+  },
+  {
+    "questionText": "a coil of 200 turns experiences a change in magnetic flux from 0.4 Wb to 0.1 Wb in 0.5 s. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "60 V", "label": "A" },
+      { "text": "80 V", "label": "B" },
+      { "text": "100 V", "label": "C" },
+      { "text": "120 V", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = -N dΦ/dt = -200 × (0.1 - 0.4)/0.5 = -200 × (-0.3/0.5) = -200 × (-0.6) = 120 V."
+  },
+  {
+    "questionText": "a coil is placed in a constant magnetic field. what is the induced e.m.f.?",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "maximum e.m.f.", "label": "A" },
+      { "text": "zero e.m.f.", "label": "B" },
+      { "text": "a small e.m.f.", "label": "C" },
+      { "text": "an alternating e.m.f.", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Since flux is constant (dΦ/dt = 0), the induced e.m.f. is zero. No e.m.f. is produced when the magnetic field is constant."
+  },
+  {
+    "questionText": "what is the induced e.m.f. in a 50-turn coil if the magnetic flux changes from 0.6 Wb to 0.2 Wb in 0.4 s?",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "25 V", "label": "A" },
+      { "text": "40 V", "label": "B" },
+      { "text": "50 V", "label": "C" },
+      { "text": "75 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = -N dΦ/dt = -50 × (0.2 - 0.6)/0.4 = -50 × (-0.4/0.4) = -50 × (-1) = 50 V."
+  },
+  {
+    "questionText": "what does lenz's law state about the direction of induced current?",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "it flows in the same direction as the change in flux",
+        "label": "A"
+      },
+      {
+        "text": "it opposes the change in magnetic flux that produced it",
+        "label": "B"
+      },
+      { "text": "it is always clockwise", "label": "C" },
+      { "text": "it is always counterclockwise", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Lenz's law states that the induced current always flows in a direction that opposes the change in magnetic flux that produced it."
+  },
+  {
+    "questionText": "lenz's law is based on which conservation principle?",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "conservation of momentum", "label": "A" },
+      { "text": "conservation of energy", "label": "B" },
+      { "text": "conservation of charge", "label": "C" },
+      { "text": "conservation of mass", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Lenz's law is based on the law of conservation of energy. If the induced current aided the change, energy would be created from nothing. Nature ensures opposition to maintain energy balance."
+  },
+  {
+    "questionText": "when a magnet approaches a coil, the induced magnetic field:",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "attracts the magnet", "label": "A" },
+      { "text": "repels the magnet", "label": "B" },
+      { "text": "has no effect on the magnet", "label": "C" },
+      { "text": "alternates between attraction and repulsion", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "When a magnet approaches a coil, the magnetic flux increases. The coil produces a magnetic field that opposes this increase, causing the coil to repel the magnet."
+  },
+  {
+    "questionText": "when a magnet moves away from a coil, the induced magnetic field:",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "repels the magnet", "label": "A" },
+      { "text": "attracts the magnet", "label": "B" },
+      { "text": "has no effect on the magnet", "label": "C" },
+      { "text": "alternates between attraction and repulsion", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "When a magnet moves away from a coil, the magnetic flux decreases. The coil acts to maintain the flux by producing a magnetic field in the same direction, which attracts the magnet."
+  },
+  {
+    "questionText": "the induced magnetic field always opposes:",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the magnetic field itself", "label": "A" },
+      {
+        "text": "the change in flux, not necessarily the field itself",
+        "label": "B"
+      },
+      { "text": "the direction of current flow", "label": "C" },
+      { "text": "the motion of the magnet", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The induced magnetic field always opposes the change in flux, not necessarily the field itself. This is the key principle of Lenz's law."
+  },
+  {
+    "questionText": "which rule is used to determine the direction of induced current in generators?",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "left-hand rule", "label": "A" },
+      { "text": "right-hand grip rule", "label": "B" },
+      { "text": "fleming's right-hand rule", "label": "C" },
+      { "text": "fleming's left-hand rule", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Fleming's Right-Hand Rule is used to determine the direction of induced current in generators. Thumb → motion, First finger → magnetic field, Second finger → induced current."
+  },
+  {
+    "questionText": "in fleming's right-hand rule, the thumb represents:",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "direction of magnetic field", "label": "A" },
+      { "text": "direction of motion", "label": "B" },
+      { "text": "direction of induced current", "label": "C" },
+      { "text": "direction of force", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In Fleming's Right-Hand Rule, the thumb represents the direction of motion of the conductor relative to the magnetic field."
+  },
+  {
+    "questionText": "in fleming's right-hand rule, the first finger represents:",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "direction of magnetic field", "label": "A" },
+      { "text": "direction of motion", "label": "B" },
+      { "text": "direction of induced current", "label": "C" },
+      { "text": "direction of force", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "In Fleming's Right-Hand Rule, the first finger represents the direction of the magnetic field."
+  },
+  {
+    "questionText": "in fleming's right-hand rule, the second finger represents:",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "direction of magnetic field", "label": "A" },
+      { "text": "direction of motion", "label": "B" },
+      { "text": "direction of induced current", "label": "C" },
+      { "text": "direction of force", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "In Fleming's Right-Hand Rule, the second finger represents the direction of the induced current."
+  },
+  {
+    "questionText": "what is electromotive force (e.m.f.) defined as?",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the force that moves charges in a circuit", "label": "A" },
+      {
+        "text": "the energy supplied per unit charge in a circuit",
+        "label": "B"
+      },
+      { "text": "the power consumed by a device", "label": "C" },
+      { "text": "the resistance in a circuit", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Despite its name, e.m.f. is not actually a force. It is defined as the energy supplied per unit charge in a circuit (E = W/Q)."
+  },
+  {
+    "questionText": "what is the formula for electromotive force?",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "E = W × Q", "label": "A" },
+      { "text": "E = W/Q", "label": "B" },
+      { "text": "E = Q/W", "label": "C" },
+      { "text": "E = W + Q", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "E.m.f. is defined as E = W/Q, where W is the work done or energy supplied (in Joules) and Q is the charge (in Coulombs)."
+  },
+  {
+    "questionText": "what is the unit of electromotive force?",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "joule (J)", "label": "A" },
+      { "text": "coulomb (C)", "label": "B" },
+      { "text": "volt (V)", "label": "C" },
+      { "text": "watt (W)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The unit of e.m.f. is the Volt (V), which is equivalent to Joules per Coulomb (J/C)."
+  },
+  {
+    "questionText": "a source supplies 60 J of energy to move 5 C of charge. calculate the e.m.f.",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "6 V", "label": "A" },
+      { "text": "12 V", "label": "B" },
+      { "text": "30 V", "label": "C" },
+      { "text": "300 V", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "E = W/Q = 60/5 = 12 V."
+  },
+  {
+    "questionText": "a battery supplies 100 J of energy to move 8 C of charge. calculate the e.m.f.",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "8.0 V", "label": "A" },
+      { "text": "10.0 V", "label": "B" },
+      { "text": "12.5 V", "label": "C" },
+      { "text": "25.0 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = W/Q = 100/8 = 12.5 V."
+  },
+  {
+    "questionText": "which of the following is NOT a type of e.m.f.?",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "induced e.m.f.", "label": "A" },
+      { "text": "chemical e.m.f.", "label": "B" },
+      { "text": "thermoelectric e.m.f.", "label": "C" },
+      { "text": "resistive e.m.f.", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "The types of e.m.f. include induced e.m.f. (from changing flux), chemical e.m.f. (in batteries), and thermoelectric e.m.f. (from temperature differences). Resistive e.m.f. is not a recognized type."
+  },
+  {
+    "questionText": "what is inductance?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "the property that allows current to flow freely",
+        "label": "A"
+      },
+      {
+        "text": "the property of a circuit that opposes any change in current",
+        "label": "B"
+      },
+      { "text": "the resistance to current flow", "label": "C" },
+      { "text": "the ability to store electric charge", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Inductance is the property of a circuit that opposes any change in current flowing through it. It does not stop current but resists sudden changes."
+  },
+  {
+    "questionText": "what is self-inductance?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "inductance between two separate coils", "label": "A" },
+      {
+        "text": "inductance in a single coil when current changes",
+        "label": "B"
+      },
+      { "text": "inductance caused by external magnets", "label": "C" },
+      { "text": "inductance in a straight wire", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Self-inductance occurs in a single coil when current in the coil changes, causing the magnetic field to change and inducing an e.m.f. in the same coil."
+  },
+  {
+    "questionText": "what is the formula for self-induced e.m.f.?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "E = -L dI/dt", "label": "A" },
+      { "text": "E = -L I/t", "label": "B" },
+      { "text": "E = -L dΦ/dt", "label": "C" },
+      { "text": "E = -L dQ/dt", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Self-induced e.m.f. is given by E = -L dI/dt, where L is self-inductance (in Henrys) and dI/dt is the rate of change of current."
+  },
+  {
+    "questionText": "what is the SI unit of inductance?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "tesla (T)", "label": "A" },
+      { "text": "henry (H)", "label": "B" },
+      { "text": "farad (F)", "label": "C" },
+      { "text": "ohm (Ω)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The SI unit of inductance is the Henry (H). 1 H = 1 V·s/A."
+  },
+  {
+    "questionText": "a coil of inductance 4 H experiences a change in current from 2 A to 6 A in 0.5 s. calculate the induced e.m.f.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "16 V", "label": "A" },
+      { "text": "24 V", "label": "B" },
+      { "text": "32 V", "label": "C" },
+      { "text": "48 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = -L dI/dt = -4 × (6-2)/0.5 = -4 × (4/0.5) = -4 × 8 = -32 V. The magnitude is 32 V."
+  },
+  {
+    "questionText": "a coil of inductance 2 H experiences a change in current from 3 A to 7 A in 0.4 s. calculate the induced e.m.f.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "10 V", "label": "A" },
+      { "text": "15 V", "label": "B" },
+      { "text": "20 V", "label": "C" },
+      { "text": "25 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = -L dI/dt = -2 × (7-3)/0.4 = -2 × (4/0.4) = -2 × 10 = -20 V. The magnitude is 20 V."
+  },
+  {
+    "questionText": "a coil of inductance 5 H experiences a change in current from 1 A to 4 A in 0.3 s. calculate the induced e.m.f.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "25 V", "label": "A" },
+      { "text": "30 V", "label": "B" },
+      { "text": "40 V", "label": "C" },
+      { "text": "50 V", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = -L dI/dt = -5 × (4-1)/0.3 = -5 × (3/0.3) = -5 × 10 = -50 V. The magnitude is 50 V."
+  },
+  {
+    "questionText": "inductance depends on which factors?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "number of turns, area, and core material", "label": "A" },
+      { "text": "color of the wire and temperature", "label": "B" },
+      { "text": "length of wire and voltage applied", "label": "C" },
+      { "text": "current and resistance", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Inductance depends on the number of turns of the coil, the area of the coil, and the nature of the core material. It does NOT depend on the color of the wire."
+  },
+  {
+    "questionText": "what is the formula for energy stored in an inductor?",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "U = 1/2 LI²", "label": "A" },
+      { "text": "U = LI²", "label": "B" },
+      { "text": "U = 1/2 L²I", "label": "C" },
+      { "text": "U = L²I²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The energy stored in an inductor is U = 1/2 LI², where L is the inductance and I is the current."
+  },
+  {
+    "questionText": "an inductor has inductance 2 H and carries a current of 4 A. calculate the energy stored.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "4 J", "label": "A" },
+      { "text": "8 J", "label": "B" },
+      { "text": "16 J", "label": "C" },
+      { "text": "32 J", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "U = 1/2 LI² = 1/2 × 2 × 4² = 1/2 × 2 × 16 = 16 J."
+  },
+  {
+    "questionText": "an inductor has inductance 3 H and carries a current of 5 A. calculate the energy stored.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "25.5 J", "label": "A" },
+      { "text": "30.0 J", "label": "B" },
+      { "text": "37.5 J", "label": "C" },
+      { "text": "45.0 J", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "U = 1/2 LI² = 1/2 × 3 × 5² = 1/2 × 3 × 25 = 37.5 J."
+  },
+  {
+    "questionText": "an inductor has inductance 0.5 H and carries a current of 2 A. calculate the energy stored.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.5 J", "label": "A" },
+      { "text": "1.0 J", "label": "B" },
+      { "text": "1.5 J", "label": "C" },
+      { "text": "2.0 J", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "U = 1/2 LI² = 1/2 × 0.5 × 2² = 1/2 × 0.5 × 4 = 1.0 J."
+  },
+  {
+    "questionText": "what is mutual inductance?",
+    "topic": "mutual inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "inductance within a single coil", "label": "A" },
+      {
+        "text": "inductance between two separate coils placed close together",
+        "label": "B"
+      },
+      {
+        "text": "inductance caused by an external magnetic field",
+        "label": "C"
+      },
+      { "text": "inductance of a straight wire", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Mutual inductance occurs between two coils placed close to each other. A changing current in one coil induces an e.m.f. in the second coil."
+  },
+  {
+    "questionText": "which device uses mutual inductance as its operating principle?",
+    "topic": "mutual inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "electric motor", "label": "A" },
+      { "text": "transformer", "label": "B" },
+      { "text": "battery", "label": "C" },
+      { "text": "resistor", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Transformers specifically work based on mutual inductance. A changing current in the primary coil induces an e.m.f. in the secondary coil."
+  },
+  {
+    "questionText": "which of the following is an application of mutual inductance?",
+    "topic": "mutual inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "wireless charging systems", "label": "A" },
+      { "text": "electric heaters", "label": "B" },
+      { "text": "incandescent light bulbs", "label": "C" },
+      { "text": "batteries", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Wireless charging systems use mutual inductance between two coils to transfer energy without physical contact. Transformers also use mutual inductance."
+  },
+  {
+    "questionText": "what is the relationship between magnetic flux and current in an inductor?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "flux is inversely proportional to current", "label": "A" },
+      { "text": "flux is proportional to current (Φ ∝ I)", "label": "B" },
+      { "text": "flux is independent of current", "label": "C" },
+      { "text": "flux is proportional to the square of current", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Magnetic flux is proportional to current (Φ ∝ I). The constant of proportionality is the inductance L, so Φ = LI."
+  },
+  {
+    "questionText": "how is self-inductance derived from flux and current?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "L = Φ/I", "label": "A" },
+      { "text": "L = Φ × I", "label": "B" },
+      { "text": "L = I/Φ", "label": "C" },
+      { "text": "L = Φ²/I", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Since Φ = LI, the self-inductance is L = Φ/I. This shows inductance as the ratio of magnetic flux to current."
+  },
+  {
+    "questionText": "a magnetic flux of 0.4 Wb is produced by a current of 2 A in a coil. calculate the inductance.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.1 H", "label": "A" },
+      { "text": "0.2 H", "label": "B" },
+      { "text": "0.4 H", "label": "C" },
+      { "text": "0.8 H", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "L = Φ/I = 0.4/2 = 0.2 H."
+  },
+  {
+    "questionText": "a magnetic flux of 1.5 Wb is produced by a current of 3 A in a coil. calculate the inductance.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.2 H", "label": "A" },
+      { "text": "0.5 H", "label": "B" },
+      { "text": "1.0 H", "label": "C" },
+      { "text": "1.5 H", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "L = Φ/I = 1.5/3 = 0.5 H."
+  },
+  {
+    "questionText": "a coil of 100 turns has a magnetic flux of 0.02 Wb when a current of 4 A flows. calculate the inductance.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.2 H", "label": "A" },
+      { "text": "0.5 H", "label": "B" },
+      { "text": "1.0 H", "label": "C" },
+      { "text": "2.0 H", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "For N turns, L = NΦ/I = 100 × 0.02/4 = 2/4 = 0.5 H."
+  },
+  {
+    "questionText": "a changing magnetic flux through a coil induces:",
+    "topic": "introduction to electromagnetic induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "a magnetic field only", "label": "A" },
+      { "text": "an electromotive force and current", "label": "B" },
+      { "text": "an electric charge", "label": "C" },
+      { "text": "a temperature change", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A changing magnetic flux induces an e.m.f. and, in a closed circuit, a current. This is the fundamental principle of electromagnetic induction."
+  },
+  {
+    "questionText": "a coil has 50 turns and experiences a change in flux of 0.02 Wb in 0.1 s. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "5 V", "label": "A" },
+      { "text": "10 V", "label": "B" },
+      { "text": "15 V", "label": "C" },
+      { "text": "20 V", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "E = -N dΦ/dt = -50 × (0.02/0.1) = -50 × 0.2 = -10 V. The magnitude is 10 V."
+  },
+  {
+    "questionText": "a generator converts mechanical energy into electrical energy using:",
+    "topic": "applications of induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "electrostatic induction", "label": "A" },
+      { "text": "electromagnetic induction", "label": "B" },
+      { "text": "chemical reaction", "label": "C" },
+      { "text": "thermal expansion", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Electric generators convert mechanical energy into electrical energy using the principle of electromagnetic induction."
+  },
+  {
+    "questionText": "an induction cooker works on the principle of:",
+    "topic": "applications of induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "electromagnetic induction", "label": "A" },
+      { "text": "resistive heating", "label": "B" },
+      { "text": "chemical reaction", "label": "C" },
+      { "text": "thermal conduction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Induction cookers use electromagnetic induction to directly heat the cooking vessel through induced eddy currents."
+  },
+  {
+    "questionText": "what is the function of a transformer?",
+    "topic": "applications of induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "to convert AC voltage to DC voltage", "label": "A" },
+      { "text": "to change the voltage level of AC power", "label": "B" },
+      { "text": "to generate electricity from magnetism", "label": "C" },
+      { "text": "to store electrical energy", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A transformer uses mutual inductance to change the voltage level of AC power, either stepping it up (increasing) or stepping it down (decreasing)."
+  },
+  {
+    "questionText": "why does the induced current oppose the change in magnetic flux?",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "because the magnetic field is too weak", "label": "A" },
+      { "text": "to conserve energy", "label": "B" },
+      { "text": "because electrons move randomly", "label": "C" },
+      { "text": "to increase the magnetic field", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The induced current opposes the change to conserve energy. If it aided the change, energy would be created from nothing, violating the conservation of energy."
+  },
+  {
+    "questionText": "if the number of turns in a coil is doubled, the induced e.m.f. for the same rate of flux change:",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "is halved", "label": "A" },
+      { "text": "is unchanged", "label": "B" },
+      { "text": "is doubled", "label": "C" },
+      { "text": "is quadrupled", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = -N dΦ/dt, so e.m.f. is directly proportional to the number of turns N. Doubling N doubles the induced e.m.f."
+  },
+  {
+    "questionText": "a magnetic flux of 0.2 Wb passes through a coil of area 0.05 m². if the flux is reduced to 0.05 Wb in 0.25 s, calculate the average induced e.m.f. in a 40-turn coil.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "12 V", "label": "A" },
+      { "text": "16 V", "label": "B" },
+      { "text": "20 V", "label": "C" },
+      { "text": "24 V", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = -N dΦ/dt = -40 × (0.05 - 0.2)/0.25 = -40 × (-0.15/0.25) = -40 × (-0.6) = 24 V."
+  },
+  {
+    "questionText": "a magnetic flux of 0.6 Wb passes through a 30-turn coil. if the flux changes to 0.1 Wb in 0.2 s, calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "45 V", "label": "A" },
+      { "text": "60 V", "label": "B" },
+      { "text": "75 V", "label": "C" },
+      { "text": "90 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = -N dΦ/dt = -30 × (0.1 - 0.6)/0.2 = -30 × (-0.5/0.2) = -30 × (-2.5) = 75 V."
+  },
+  {
+    "questionText": "the induced e.m.f. in a coil is 15 V. if the number of turns is 75 and the time interval is 0.3 s, what is the change in magnetic flux?",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.03 Wb", "label": "A" },
+      { "text": "0.06 Wb", "label": "B" },
+      { "text": "0.09 Wb", "label": "C" },
+      { "text": "0.12 Wb", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "E = N ΔΦ/Δt → ΔΦ = E × Δt/N = 15 × 0.3/75 = 4.5/75 = 0.06 Wb."
+  },
+  {
+    "questionText": "the induced e.m.f. in a 100-turn coil is 40 V. if the flux changes by 0.2 Wb, what is the time interval?",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "0.2 s", "label": "A" },
+      { "text": "0.3 s", "label": "B" },
+      { "text": "0.4 s", "label": "C" },
+      { "text": "0.5 s", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = N ΔΦ/Δt → Δt = N ΔΦ/E = 100 × 0.2/40 = 20/40 = 0.5 s."
+  },
+  {
+    "questionText": "when current in a coil changes from 5 A to 1 A in 0.2 s, the induced e.m.f. is 40 V. calculate the inductance.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.0 H", "label": "A" },
+      { "text": "1.5 H", "label": "B" },
+      { "text": "2.0 H", "label": "C" },
+      { "text": "2.5 H", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = L|dI/dt| → L = E/|dI/dt| = 40/(4/0.2) = 40/20 = 2.0 H."
+  },
+  {
+    "questionText": "when current in a coil changes from 2 A to 8 A in 0.3 s, the induced e.m.f. is 50 V. calculate the inductance.",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.5 H", "label": "A" },
+      { "text": "2.0 H", "label": "B" },
+      { "text": "2.5 H", "label": "C" },
+      { "text": "3.0 H", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "L = E/|dI/dt| = 50/(6/0.3) = 50/20 = 2.5 H."
+  },
+  {
+    "questionText": "an inductor stores 50 J of energy when carrying a current of 5 A. calculate the inductance.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "2 H", "label": "A" },
+      { "text": "3 H", "label": "B" },
+      { "text": "4 H", "label": "C" },
+      { "text": "5 H", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "U = 1/2 LI² → L = 2U/I² = 2 × 50/25 = 100/25 = 4 H."
+  },
+  {
+    "questionText": "an inductor stores 18 J of energy when carrying a current of 3 A. calculate the inductance.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "2 H", "label": "A" },
+      { "text": "3 H", "label": "B" },
+      { "text": "4 H", "label": "C" },
+      { "text": "6 H", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "L = 2U/I² = 2 × 18/9 = 36/9 = 4 H."
+  },
+  {
+    "questionText": "a 0.8 H inductor carries a current of 6 A. calculate the energy stored.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "12.8 J", "label": "A" },
+      { "text": "14.4 J", "label": "B" },
+      { "text": "16.0 J", "label": "C" },
+      { "text": "19.2 J", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "U = 1/2 LI² = 1/2 × 0.8 × 36 = 0.4 × 36 = 14.4 J."
+  },
+  {
+    "questionText": "a 1.5 H inductor carries a current of 2 A. calculate the energy stored.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.5 J", "label": "A" },
+      { "text": "2.0 J", "label": "B" },
+      { "text": "3.0 J", "label": "C" },
+      { "text": "4.5 J", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "U = 1/2 LI² = 1/2 × 1.5 × 4 = 0.75 × 4 = 3.0 J."
+  },
+  {
+    "questionText": "the induced e.m.f. in a coil is directly proportional to:",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "the total magnetic flux", "label": "A" },
+      { "text": "the rate of change of magnetic flux", "label": "B" },
+      { "text": "the magnetic field strength only", "label": "C" },
+      { "text": "the area of the coil only", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Faraday's law states that the induced e.m.f. is directly proportional to the rate of change of magnetic flux (dΦ/dt), not just the flux itself."
+  },
+  {
+    "questionText": "if the time rate of change of flux doubles, the induced e.m.f.:",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "is halved", "label": "A" },
+      { "text": "stays the same", "label": "B" },
+      { "text": "doubles", "label": "C" },
+      { "text": "quadruples", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = -N dΦ/dt, so e.m.f. is directly proportional to the rate of change of flux. If dΦ/dt doubles, E doubles."
+  },
+  {
+    "questionText": "what is the direction of the induced current when a north pole of a magnet moves into a coil?",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "clockwise when viewed from the magnet", "label": "A" },
+      { "text": "counterclockwise when viewed from the magnet", "label": "B" },
+      { "text": "the current alternates direction", "label": "C" },
+      { "text": "no current is induced", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "When a north pole approaches, the coil creates a north pole to repel it (opposing the increase). Using the right-hand rule, this requires a clockwise current when viewed from the approaching magnet."
+  },
+  {
+    "questionText": "a coil of 200 turns has a magnetic flux of 0.03 Wb linked with it. if the flux is reduced to zero in 0.5 s, calculate the average induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "6 V", "label": "A" },
+      { "text": "9 V", "label": "B" },
+      { "text": "12 V", "label": "C" },
+      { "text": "15 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = N ΔΦ/Δt = 200 × (0.03 - 0)/0.5 = 200 × 0.03/0.5 = 6/0.5 = 12 V."
+  },
+  {
+    "questionText": "a changing current in coil A induces a current in coil B. this is an example of:",
+    "topic": "mutual inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "self-inductance", "label": "A" },
+      { "text": "mutual inductance", "label": "B" },
+      { "text": "electrostatic induction", "label": "C" },
+      { "text": "magnetic resonance", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Mutual inductance occurs when a changing current in one coil induces an e.m.f. in a second coil placed close to it."
+  },
+  {
+    "questionText": "a 150-turn coil experiences a change in flux of 0.04 Wb in 0.1 s. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "30 V", "label": "A" },
+      { "text": "45 V", "label": "B" },
+      { "text": "60 V", "label": "C" },
+      { "text": "75 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = N ΔΦ/Δt = 150 × 0.04/0.1 = 150 × 0.4 = 60 V."
+  },
+  {
+    "questionText": "a 250-turn coil experiences a change in flux from 0.05 Wb to 0.01 Wb in 0.2 s. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "25 V", "label": "A" },
+      { "text": "35 V", "label": "B" },
+      { "text": "45 V", "label": "C" },
+      { "text": "50 V", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = N ΔΦ/Δt = 250 × (0.05 - 0.01)/0.2 = 250 × 0.04/0.2 = 250 × 0.2 = 50 V."
+  },
+  {
+    "questionText": "which of the following correctly describes the role of e.m.f. in a circuit?",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "it is the voltage drop across a resistor", "label": "A" },
+      {
+        "text": "it is the energy per unit charge supplied by a source",
+        "label": "B"
+      },
+      { "text": "it is the power consumed by the circuit", "label": "C" },
+      { "text": "it is the current flowing through the circuit", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "E.m.f. is the energy per unit charge supplied by a source (E = W/Q). It is not a voltage drop (which is potential difference) or power."
+  },
+  {
+    "questionText": "the energy stored in an inductor is in the form of:",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "electric field", "label": "A" },
+      { "text": "magnetic field", "label": "B" },
+      { "text": "thermal energy", "label": "C" },
+      { "text": "kinetic energy", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "When current flows through a coil (inductor), energy is stored in the magnetic field created around the coil. This energy is U = 1/2 LI²."
+  },
+  {
+    "questionText": "a magnetic flux changes from 0.3 Wb to 0.5 Wb in 0.2 s in a 30-turn coil. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "15 V", "label": "A" },
+      { "text": "20 V", "label": "B" },
+      { "text": "25 V", "label": "C" },
+      { "text": "30 V", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = N ΔΦ/Δt = 30 × (0.5 - 0.3)/0.2 = 30 × 0.2/0.2 = 30 × 1 = 30 V."
+  },
+  {
+    "questionText": "a source supplies 240 J of energy to move 12 C of charge. calculate the e.m.f.",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "10 V", "label": "A" },
+      { "text": "15 V", "label": "B" },
+      { "text": "20 V", "label": "C" },
+      { "text": "25 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = W/Q = 240/12 = 20 V."
+  },
+  {
+    "questionText": "a source supplies 75 J of energy to move 15 C of charge. calculate the e.m.f.",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "3 V", "label": "A" },
+      { "text": "4 V", "label": "B" },
+      { "text": "5 V", "label": "C" },
+      { "text": "6 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = W/Q = 75/15 = 5 V."
+  },
+  {
+    "questionText": "a source supplies 180 J of energy to move 6 C of charge. calculate the e.m.f.",
+    "topic": "electromotive force",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "20 V", "label": "A" },
+      { "text": "25 V", "label": "B" },
+      { "text": "30 V", "label": "C" },
+      { "text": "35 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = W/Q = 180/6 = 30 V."
+  },
+  {
+    "questionText": "the induced current in a coil when a magnet is moved toward it flows in a direction that:",
+    "topic": "lenz's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "attracts the magnet", "label": "A" },
+      { "text": "repels the magnet", "label": "B" },
+      { "text": "has no effect on the magnet", "label": "C" },
+      { "text": "alternates rapidly", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "According to Lenz's law, when a magnet approaches, the induced current flows in a direction that opposes the increase in flux. This creates a magnetic field that repels the approaching magnet."
+  },
+  {
+    "questionText": "transformers rely on which principle to operate?",
+    "topic": "mutual inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "self-inductance only", "label": "A" },
+      { "text": "mutual inductance", "label": "B" },
+      { "text": "electrostatic induction", "label": "C" },
+      { "text": "resistive heating", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Transformers operate on the principle of mutual inductance. A changing current in the primary coil creates a changing magnetic flux that induces an e.m.f. in the secondary coil."
+  },
+  {
+    "questionText": "if the rate of change of flux doubles and the number of turns triples, the induced e.m.f. becomes:",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "2 times the original", "label": "A" },
+      { "text": "3 times the original", "label": "B" },
+      { "text": "5 times the original", "label": "C" },
+      { "text": "6 times the original", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "E = N dΦ/dt. If dΦ/dt doubles (×2) and N triples (×3), the e.m.f. becomes 2 × 3 = 6 times the original."
+  },
+  {
+    "questionText": "a coil has inductance 6 H and stores 27 J of energy. calculate the current flowing through it.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1 A", "label": "A" },
+      { "text": "2 A", "label": "B" },
+      { "text": "3 A", "label": "C" },
+      { "text": "4 A", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "U = 1/2 LI² → I = √(2U/L) = √(2 × 27/6) = √(54/6) = √9 = 3 A."
+  },
+  {
+    "questionText": "a coil has inductance 8 H and stores 64 J of energy. calculate the current flowing through it.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "2 A", "label": "A" },
+      { "text": "3 A", "label": "B" },
+      { "text": "4 A", "label": "C" },
+      { "text": "5 A", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "I = √(2U/L) = √(2 × 64/8) = √(128/8) = √16 = 4 A."
+  },
+  {
+    "questionText": "a coil has inductance 2 H and stores 9 J of energy. calculate the current flowing through it.",
+    "topic": "energy in inductors",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "1.5 A", "label": "A" },
+      { "text": "2.0 A", "label": "B" },
+      { "text": "2.5 A", "label": "C" },
+      { "text": "3.0 A", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "I = √(2U/L) = √(2 × 9/2) = √(18/2) = √9 = 3.0 A."
+  },
+  {
+    "questionText": "which of the following devices uses electromagnetic induction to generate electricity?",
+    "topic": "applications of induction",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "battery", "label": "A" },
+      { "text": "solar panel", "label": "B" },
+      { "text": "electric generator", "label": "C" },
+      { "text": "thermocouple", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Electric generators use electromagnetic induction to convert mechanical energy into electrical energy. Batteries use chemical reactions, solar panels use the photoelectric effect, and thermocouples use temperature differences."
+  },
+  {
+    "questionText": "if the magnetic flux through a coil is constant, the induced e.m.f. is:",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "maximum", "label": "A" },
+      { "text": "zero", "label": "B" },
+      { "text": "equal to the flux", "label": "C" },
+      { "text": "equal to the number of turns times the flux", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Since E = -N dΦ/dt, if the flux is constant (dΦ/dt = 0), the induced e.m.f. is zero."
+  },
+  {
+    "questionText": "what is the effect of using an iron core in an inductor?",
+    "topic": "self-inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "it decreases the inductance", "label": "A" },
+      { "text": "it increases the inductance", "label": "B" },
+      { "text": "it has no effect on inductance", "label": "C" },
+      { "text": "it changes the color of the coil", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Using an iron core in an inductor increases the inductance because iron has high magnetic permeability, which concentrates and strengthens the magnetic field for the same current."
+  },
+  {
+    "questionText": "a 120-turn coil has a change in flux of 0.015 Wb in 0.03 s. calculate the induced e.m.f.",
+    "topic": "faraday's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "40 V", "label": "A" },
+      { "text": "50 V", "label": "B" },
+      { "text": "60 V", "label": "C" },
+      { "text": "80 V", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "E = N ΔΦ/Δt = 120 × 0.015/0.03 = 120 × 0.5 = 60 V."
+  },
+  {
+    "questionText": "what is the main difference between self-inductance and mutual inductance?",
+    "topic": "self-inductance vs mutual inductance",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      { "text": "self-inductance uses AC, mutual uses DC", "label": "A" },
+      {
+        "text": "self-inductance involves one coil, mutual involves two coils",
+        "label": "B"
+      },
+      {
+        "text": "self-inductance stores energy, mutual does not",
+        "label": "C"
+      },
+      { "text": "self-inductance is always larger", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Self-inductance occurs in a single coil when its own current changes. Mutual inductance occurs between two separate coils placed close together."
+  }
+]

@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "what is the primary reason the chapter begins with everyday examples rather than formal definitions?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Formal definitions are always incorrect",
+        "label": "A"
+      },
+      {
+        "text": "Examples help learners connect abstract ideas to familiar experiences",
+        "label": "B"
+      },
+      {
+        "text": "Examples are easier to write in textbooks",
+        "label": "C"
+      },
+      {
+        "text": "Formal definitions are not important in data science",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When learners first meet a topic such as data science, formal definitions may sound distant or overly technical. Examples help connect abstract ideas to experiences you already know."
+  },
+  {
+    "questionText": "which of the following is not listed as an environment where data is generated?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "University",
+        "label": "A"
+      },
+      {
+        "text": "Hospital",
+        "label": "B"
+      },
+      {
+        "text": "Gas station",
+        "label": "C"
+      },
+      {
+        "text": "Supermarket",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The chapter mentions universities, banks, hospitals, supermarkets, transport systems, and mobile applications as data-generating environments."
+  },
+  {
+    "questionText": "in a university setting, which of these is mentioned as a source of data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Admission records",
+        "label": "A"
+      },
+      {
+        "text": "Library use",
+        "label": "B"
+      },
+      {
+        "text": "Assessment scores",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "The chapter states: 'In a university setting alone, data is generated through admission records, course registration, attendance, assessment scores, library use, fee payment, and learning platform activity.'"
+  },
+  {
+    "questionText": "according to the banking example, analyzing bank records can help with which of the following?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Detect suspicious patterns",
+        "label": "A"
+      },
+      {
+        "text": "Improve service delivery",
+        "label": "B"
+      },
+      {
+        "text": "Guide strategic decisions",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Analyzing bank records can help detect suspicious patterns, improve service delivery, and guide strategic decisions."
+  },
+  {
+    "questionText": "what can supermarket managers learn from analyzing sales data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Customer names",
+        "label": "A"
+      },
+      {
+        "text": "Employee salaries",
+        "label": "B"
+      },
+      {
+        "text": "Fast-moving items and restocking needs",
+        "label": "C"
+      },
+      {
+        "text": "Supplier addresses",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "From sales records, managers can identify fast-moving items, estimate when goods should be restocked, and reduce waste caused by overstocking."
+  },
+  {
+    "questionText": "complete the sentence: data becomes more useful when it is ________ and analyzed rather than left as disconnected records.",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Deleted",
+        "label": "A"
+      },
+      {
+        "text": "Organized",
+        "label": "B"
+      },
+      {
+        "text": "Hidden",
+        "label": "C"
+      },
+      {
+        "text": "Duplicated",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The chapter states: 'Data becomes more useful when it is organised and analysed rather than left as disconnected records.'"
+  },
+  {
+    "questionText": "what is the formal definition of data science according to the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The study of computer hardware",
+        "label": "A"
+      },
+      {
+        "text": "The discipline concerned with collecting, preparing, analysing, interpreting, and communicating data",
+        "label": "B"
+      },
+      {
+        "text": "The practice of storing large files",
+        "label": "C"
+      },
+      {
+        "text": "The art of creating databases",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science is the discipline concerned with collecting, preparing, analysing, interpreting, and communicating data in order to solve problems and support informed decisions."
+  },
+  {
+    "questionText": "why is data science described as a 'multidisciplinary' field?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it uses only one tool",
+        "label": "A"
+      },
+      {
+        "text": "Because it brings together ideas from statistics, computer science, domain knowledge, and communication",
+        "label": "B"
+      },
+      {
+        "text": "Because it is taught in many schools",
+        "label": "C"
+      },
+      {
+        "text": "Because it is very difficult to learn",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science brings together ideas and methods from several areas including statistics, computer science, mathematics, domain knowledge, and communication."
+  },
+  {
+    "questionText": "what does 'domain knowledge' refer to in data science?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Knowledge about computer domains",
+        "label": "A"
+      },
+      {
+        "text": "Understanding of the specific field in which data is being used",
+        "label": "B"
+      },
+      {
+        "text": "Knowledge of programming domains",
+        "label": "C"
+      },
+      {
+        "text": "Understanding of internet domains",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Domain knowledge means understanding the specific field in which the data is being used, such as healthcare, banking, or education."
+  },
+  {
+    "questionText": "what is the first stage in the simple data science workflow described in the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data Collection",
+        "label": "A"
+      },
+      {
+        "text": "Data Analysis",
+        "label": "B"
+      },
+      {
+        "text": "Problem Definition",
+        "label": "C"
+      },
+      {
+        "text": "Communication",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The process begins with Problem Definition — a clear question or problem. Without a useful question, data analysis may become unfocused."
+  },
+  {
+    "questionText": "which stage of the data science workflow involves cleaning, organizing, and correcting data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data Collection",
+        "label": "A"
+      },
+      {
+        "text": "Data Preparation",
+        "label": "B"
+      },
+      {
+        "text": "Data Analysis",
+        "label": "C"
+      },
+      {
+        "text": "Communication",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data Preparation is the stage where data is cleaned, organised, corrected where necessary, and prepared for analysis."
+  },
+  {
+    "questionText": "what is the main difference between data science and statistics as presented in the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They are exactly the same",
+        "label": "A"
+      },
+      {
+        "text": "Data science excludes statistics",
+        "label": "B"
+      },
+      {
+        "text": "Data science includes statistics but extends into data preparation, computation, visualisation, and scalable handling",
+        "label": "C"
+      },
+      {
+        "text": "Statistics is newer than data science",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Data science includes statistics but extends more deeply into data preparation, computation, visualisation, and scalable data handling."
+  },
+  {
+    "questionText": "what is big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Any data stored in a computer",
+        "label": "A"
+      },
+      {
+        "text": "Data environments whose size, speed, and diversity make them difficult to manage with traditional tools",
+        "label": "B"
+      },
+      {
+        "text": "Data that is always unstructured",
+        "label": "C"
+      },
+      {
+        "text": "Small datasets that are easy to analyze",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Big data refers to data environments whose size, speed of generation, and diversity make them difficult to store, process, and analyse effectively using only traditional tools and methods."
+  },
+  {
+    "questionText": "the 3vs of big data are volume, velocity, and ________.",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Value",
+        "label": "A"
+      },
+      {
+        "text": "Veracity",
+        "label": "B"
+      },
+      {
+        "text": "Variety",
+        "label": "C"
+      },
+      {
+        "text": "Viability",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The most common introductory description of big data uses three key characteristics: Volume, Velocity, and Variety."
+  },
+  {
+    "questionText": "what does 'volume' refer to in the context of big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The speed of data generation",
+        "label": "A"
+      },
+      {
+        "text": "The amount of data generated and stored",
+        "label": "B"
+      },
+      {
+        "text": "The different forms of data",
+        "label": "C"
+      },
+      {
+        "text": "The accuracy of data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Volume refers to the amount of data generated and stored. Modern systems may collect large quantities of records over time."
+  },
+  {
+    "questionText": "what does 'velocity' refer to in the context of big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The amount of data",
+        "label": "A"
+      },
+      {
+        "text": "The speed at which data is created and transmitted",
+        "label": "B"
+      },
+      {
+        "text": "The variety of data forms",
+        "label": "C"
+      },
+      {
+        "text": "The value of data insights",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Velocity refers to the speed at which data is created, transmitted, and sometimes analysed. Real-time transactions and social media streams are examples."
+  },
+  {
+    "questionText": "what does 'variety' refer to in the context of big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The amount of storage needed",
+        "label": "A"
+      },
+      {
+        "text": "The different forms in which data exists",
+        "label": "B"
+      },
+      {
+        "text": "The speed of analysis",
+        "label": "C"
+      },
+      {
+        "text": "The number of users",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Variety refers to the different forms in which data exists — numbers, text, images, audio, video, documents, or machine-generated records."
+  },
+  {
+    "questionText": "a spreadsheet of student scores is an example of which type of data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Unstructured data",
+        "label": "A"
+      },
+      {
+        "text": "Semi-structured data",
+        "label": "B"
+      },
+      {
+        "text": "Structured data",
+        "label": "C"
+      },
+      {
+        "text": "Meta data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Structured data has a clear and predefined format, often in rows and columns, commonly stored in spreadsheets and relational databases."
+  },
+  {
+    "questionText": "json and xml are examples of which type of data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Structured data",
+        "label": "A"
+      },
+      {
+        "text": "Semi-structured data",
+        "label": "B"
+      },
+      {
+        "text": "Unstructured data",
+        "label": "C"
+      },
+      {
+        "text": "Binary data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Semi-structured data does not fully follow a rigid table format, but contains tags, labels, or markers that help describe and organise it. JSON and XML are examples."
+  },
+  {
+    "questionText": "a video recording of a lecture is an example of which type of data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Structured data",
+        "label": "A"
+      },
+      {
+        "text": "Semi-structured data",
+        "label": "B"
+      },
+      {
+        "text": "Unstructured data",
+        "label": "C"
+      },
+      {
+        "text": "Numerical data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Unstructured data has no fixed schema. Examples include text files, scanned documents, images, videos, audio files, and social media posts."
+  },
+  {
+    "questionText": "what is the main reason big data matters according to the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is a popular term",
+        "label": "A"
+      },
+      {
+        "text": "Because organisations can learn more from their operations when they can manage and analyse large datasets effectively",
+        "label": "B"
+      },
+      {
+        "text": "Because it replaces traditional databases",
+        "label": "C"
+      },
+      {
+        "text": "Because it is required by law",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Big data matters because organisations can learn more from their operations, users, customers, and systems when they can manage and analyse large and varied datasets effectively."
+  },
+  {
+    "questionText": "which statement best describes the early foundations of data science?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data science emerged suddenly in 2020",
+        "label": "A"
+      },
+      {
+        "text": "Scholars in statistics and data analysis were already working on learning from data long before the term became popular",
+        "label": "B"
+      },
+      {
+        "text": "Data science began with artificial intelligence",
+        "label": "C"
+      },
+      {
+        "text": "Data science originated in social media companies",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Long before the term data science became popular, scholars in statistics and data analysis were already working on methods for learning from data."
+  },
+  {
+    "questionText": "what technological change helped transform data from 'a static archive' to 'a resource that could guide planning and decision-making'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The invention of the printing press",
+        "label": "A"
+      },
+      {
+        "text": "The growth of computing power and digital databases",
+        "label": "B"
+      },
+      {
+        "text": "The discovery of electricity",
+        "label": "C"
+      },
+      {
+        "text": "The development of the telephone",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "As computers became more powerful and organisations increasingly stored records digitally, data became a resource that could guide planning, forecasting, and decision-making."
+  },
+  {
+    "questionText": "what caused the dramatic increase in data generation that led to the big data era?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Improved farming techniques",
+        "label": "A"
+      },
+      {
+        "text": "The rapid growth of the internet, mobile devices, social media, cloud platforms, and sensor-rich systems",
+        "label": "B"
+      },
+      {
+        "text": "Increased paper production",
+        "label": "C"
+      },
+      {
+        "text": "Better libraries",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The rapid growth of the internet, mobile devices, social media, cloud platforms, and sensor-rich systems caused a dramatic increase in data generation."
+  },
+  {
+    "questionText": "according to the chapter, when does an environment enter the domain of big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "When data is stored in the cloud",
+        "label": "A"
+      },
+      {
+        "text": "When ordinary tools such as simple spreadsheets or limited local systems are no longer enough to manage the data efficiently",
+        "label": "B"
+      },
+      {
+        "text": "When data contains personal information",
+        "label": "C"
+      },
+      {
+        "text": "When data is collected from mobile devices",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When ordinary tools such as simple spreadsheets or limited local systems are no longer enough to manage the data efficiently, the environment may be entering the domain of big data."
+  },
+  {
+    "questionText": "in the hospital example, how can data be used to improve service?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "By replacing doctors",
+        "label": "A"
+      },
+      {
+        "text": "By tracking patient wait times to reduce them",
+        "label": "B"
+      },
+      {
+        "text": "By eliminating patient records",
+        "label": "C"
+      },
+      {
+        "text": "By reducing staff numbers",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Hospital data can be used to improve service planning, manage resources, and monitor recurring health trends, including reducing patient waiting times."
+  },
+  {
+    "questionText": "complete the statement: data science helps organisations move from using ________ alone to using evidence-based understanding.",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Intuition",
+        "label": "A"
+      },
+      {
+        "text": "Computers",
+        "label": "B"
+      },
+      {
+        "text": "Spreadsheets",
+        "label": "C"
+      },
+      {
+        "text": "Reports",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "In practical settings, data science helps organisations make decisions using evidence rather than intuition alone."
+  },
+  {
+    "questionText": "what role does statistics play in the multidisciplinary nature of data science?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It provides methods for organising data, summarising patterns, measuring variation, and drawing conclusions",
+        "label": "A"
+      },
+      {
+        "text": "It only handles data storage",
+        "label": "B"
+      },
+      {
+        "text": "It is unrelated to data science",
+        "label": "C"
+      },
+      {
+        "text": "It replaces all other disciplines",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics provides methods for organising data, summarising patterns, measuring variation, and drawing conclusions in data science."
+  },
+  {
+    "questionText": "a single classroom register is described as not being big data. why?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it contains no useful information",
+        "label": "A"
+      },
+      {
+        "text": "Because its scale and complexity are small enough for traditional tools",
+        "label": "B"
+      },
+      {
+        "text": "Because only digital data counts",
+        "label": "C"
+      },
+      {
+        "text": "Because it is handwritten",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A single classroom register is not big data because it does not present the scale, speed, or complexity that requires special tools."
+  },
+  {
+    "questionText": "millions of social media posts generated continuously may create a big data situation due to which characteristic?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Volume only",
+        "label": "A"
+      },
+      {
+        "text": "Volume and Velocity",
+        "label": "B"
+      },
+      {
+        "text": "Variety only",
+        "label": "C"
+      },
+      {
+        "text": "None of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Millions of posts represent large Volume, and continuous generation represents high Velocity, creating a big data situation."
+  },
+  {
+    "questionText": "what is the purpose of the communication stage in the data science workflow?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To collect more data",
+        "label": "A"
+      },
+      {
+        "text": "To present findings in a clear form so decisions can be made",
+        "label": "B"
+      },
+      {
+        "text": "To delete unnecessary data",
+        "label": "C"
+      },
+      {
+        "text": "To write programming code",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The final step is to present the findings in a clear form so that decisions can be made. Reports, tables, visualisations, and dashboards help at this stage."
+  },
+  {
+    "questionText": "why does the chapter state that 'data is not something abstract reserved for specialists'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because only scientists use data",
+        "label": "A"
+      },
+      {
+        "text": "Because data is generated in everyday systems and experiences that students already know",
+        "label": "B"
+      },
+      {
+        "text": "Because data is only found in laboratories",
+        "label": "C"
+      },
+      {
+        "text": "Because data cannot be understood by beginners",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data is generated in everyday systems and experiences such as university records, banking, supermarkets, and mobile applications, making it part of daily life."
+  },
+  {
+    "questionText": "according to the university example, what can data analysis help reveal when many students perform poorly in a topic?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Which students should be expelled",
+        "label": "A"
+      },
+      {
+        "text": "Whether the issue is linked to attendance, prerequisite knowledge, teaching pace, or assessment design",
+        "label": "B"
+      },
+      {
+        "text": "How to reduce the number of students",
+        "label": "C"
+      },
+      {
+        "text": "Which teachers should be fired",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data analysis can help reveal whether poor performance is linked to attendance, prerequisite knowledge, teaching pace, or assessment design."
+  },
+  {
+    "questionText": "what does computer science contribute to data science?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only programming languages",
+        "label": "A"
+      },
+      {
+        "text": "Tools for storing, processing, managing, and analysing data efficiently including programming, databases, algorithms, and computational thinking",
+        "label": "B"
+      },
+      {
+        "text": "Only database design",
+        "label": "C"
+      },
+      {
+        "text": "Only algorithm analysis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Computer science provides tools for storing, processing, managing, and analysing data efficiently. Programming, databases, algorithms, and computational thinking are all important."
+  },
+  {
+    "questionText": "what does the chapter identify as the 'value of big data'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Having more records than competitors",
+        "label": "A"
+      },
+      {
+        "text": "Using appropriate methods to discover patterns, improve planning, detect risks, and support better decisions",
+        "label": "B"
+      },
+      {
+        "text": "Storing data in the cloud",
+        "label": "C"
+      },
+      {
+        "text": "Using expensive software",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The value of big data lies in using appropriate methods to discover patterns, improve planning, detect risks, and support better decisions."
+  },
+  {
+    "questionText": "which of the following is an example of a semi-structured data format mentioned in the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "CSV file",
+        "label": "A"
+      },
+      {
+        "text": "JSON",
+        "label": "B"
+      },
+      {
+        "text": "WAV file",
+        "label": "C"
+      },
+      {
+        "text": "BMP file",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "JSON (JavaScript Object Notation) is explicitly mentioned as an example of semi-structured data."
+  },
+  {
+    "questionText": "complete the reflection prompt from the summary: data science becomes necessary when organisations need to move from raw ________ to meaningful ________ and better ________.",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Numbers, charts, reports",
+        "label": "A"
+      },
+      {
+        "text": "Data, knowledge, decisions",
+        "label": "B"
+      },
+      {
+        "text": "Files, storage, systems",
+        "label": "C"
+      },
+      {
+        "text": "Inputs, outputs, processes",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The summary reflection states: 'Data science becomes necessary when organisations need to move from raw data to meaningful knowledge and better decisions.'"
+  },
+  {
+    "questionText": "what does the chapter say about the relationship between data science and big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They are the same thing",
+        "label": "A"
+      },
+      {
+        "text": "Data science includes big data as one of its areas of concern, especially when data environments become large, fast, and varied",
+        "label": "B"
+      },
+      {
+        "text": "Big Data replaces Data Science",
+        "label": "C"
+      },
+      {
+        "text": "They are completely unrelated",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Big data became an important concept as data environments grew, and data science emerged as a distinct field that handles such large-scale data challenges."
+  },
+  {
+    "questionText": "according to the glossary, what is 'variety' in big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The amount of data",
+        "label": "A"
+      },
+      {
+        "text": "The diversity of data forms in a big data environment",
+        "label": "B"
+      },
+      {
+        "text": "The speed of data generation",
+        "label": "C"
+      },
+      {
+        "text": "The accuracy of data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The glossary defines Variety as 'the diversity of data forms in a big data environment.'"
+  },
+  {
+    "questionText": "what makes an email with headers and message body an example of semi-structured data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It contains only text",
+        "label": "A"
+      },
+      {
+        "text": "It has a subject line",
+        "label": "B"
+      },
+      {
+        "text": "It contains both structured fields (headers) and unstructured content (message body)",
+        "label": "C"
+      },
+      {
+        "text": "It is always short",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "An email includes structured elements like headers (from, to, date) alongside unstructured content in the message body, making it semi-structured."
+  },
+  {
+    "questionText": "what does the chapter identify as necessary for proper data interpretation?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Advanced mathematics only",
+        "label": "A"
+      },
+      {
+        "text": "Domain knowledge — understanding of the specific field where data is being used",
+        "label": "B"
+      },
+      {
+        "text": "High-speed computers only",
+        "label": "C"
+      },
+      {
+        "text": "Large storage systems only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data from a hospital, bank, school, or agricultural project cannot be interpreted properly without some knowledge of that environment — domain knowledge."
+  },
+  {
+    "questionText": "according to the chapter, when did big data become an important concept?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "In the 1950s",
+        "label": "A"
+      },
+      {
+        "text": "After the rapid growth of the internet, mobile devices, social media, and sensor-rich systems",
+        "label": "B"
+      },
+      {
+        "text": "In the 1980s",
+        "label": "C"
+      },
+      {
+        "text": "After the invention of the printing press",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The rapid growth of the internet, mobile devices, social media, cloud platforms, and sensor-rich systems caused a dramatic increase in data generation, making big data an important concept."
+  },
+  {
+    "questionText": "what does the term 'unstructured data' mean according to the glossary?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data that follows a strict format",
+        "label": "A"
+      },
+      {
+        "text": "Data that has no fixed schema, such as text, audio, video, and scanned documents",
+        "label": "B"
+      },
+      {
+        "text": "Data that is not useful",
+        "label": "C"
+      },
+      {
+        "text": "Data that cannot be stored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The glossary defines Unstructured Data as 'data that has no fixed schema, such as text, audio, video, scanned documents, and social media content.'"
+  },
+  {
+    "questionText": "in the simple data science workflow, why is data preparation considered important?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is the most fun stage",
+        "label": "A"
+      },
+      {
+        "text": "Because poor-quality data leads to poor-quality conclusions",
+        "label": "B"
+      },
+      {
+        "text": "Because it requires no effort",
+        "label": "C"
+      },
+      {
+        "text": "Because it is optional",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data Preparation is important because poor-quality data leads to poor-quality conclusions."
+  },
+  {
+    "questionText": "the chapter states that 'even an excellent analysis may have little value if the results are not communicated clearly.' this emphasizes the importance of what?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Statistics",
+        "label": "A"
+      },
+      {
+        "text": "Programming",
+        "label": "B"
+      },
+      {
+        "text": "Communication and visualisation",
+        "label": "C"
+      },
+      {
+        "text": "Data collection",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Communication and visualisation are essential because even excellent analysis has little value if results are not communicated clearly."
+  },
+  {
+    "questionText": "according to the examples, what type of data do social media platforms generate?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only text data",
+        "label": "A"
+      },
+      {
+        "text": "Only numerical data",
+        "label": "B"
+      },
+      {
+        "text": "Very large and varied forms of data",
+        "label": "C"
+      },
+      {
+        "text": "Only structured data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Social media environments often produce very large and varied forms of data, making them useful examples when discussing big data."
+  },
+  {
+    "questionText": "what is the main idea conveyed by the 'case illustration' about online learning platforms?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Online platforms are expensive",
+        "label": "A"
+      },
+      {
+        "text": "Student login records can reveal study patterns and help lecturers know where extra support is needed",
+        "label": "B"
+      },
+      {
+        "text": "Students should not use online platforms",
+        "label": "C"
+      },
+      {
+        "text": "Lecturers should ignore platform data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The illustration shows that records of login time, duration, pages visited, and quiz attempts can reveal study patterns and help lecturers decide where extra support is needed."
+  },
+  {
+    "questionText": "complete this statement from the chapter: 'data is generated in many environments, not only in ________ or large technology companies.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Government offices",
+        "label": "A"
+      },
+      {
+        "text": "Scientific laboratories",
+        "label": "B"
+      },
+      {
+        "text": "Educational institutions",
+        "label": "C"
+      },
+      {
+        "text": "Small businesses",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The chapter states that data is generated in many environments, not only in scientific laboratories or large technology companies."
+  },
+  {
+    "questionText": "based on the supermarket example, what problem can data help reduce?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Employee salaries",
+        "label": "A"
+      },
+      {
+        "text": "Waste caused by overstocking or poor planning",
+        "label": "B"
+      },
+      {
+        "text": "Customer complaints",
+        "label": "C"
+      },
+      {
+        "text": "Store opening hours",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "From sales records, managers can reduce waste caused by overstocking or poor planning."
+  },
+  {
+    "questionText": "what is the relationship between traditional tools and big data according to the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Traditional tools work better for big data",
+        "label": "A"
+      },
+      {
+        "text": "Big data makes traditional tools faster",
+        "label": "B"
+      },
+      {
+        "text": "Traditional tools are no longer enough to manage big data environments effectively",
+        "label": "C"
+      },
+      {
+        "text": "Traditional tools and big data are the same",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Big data environments are difficult to store, process, and analyse effectively using only traditional tools and methods."
+  },
+  {
+    "questionText": "what does the chapter identify as the benefit of analyzing university attendance data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To punish absent students",
+        "label": "A"
+      },
+      {
+        "text": "To help lecturers identify weak performance patterns and help management improve student support services",
+        "label": "B"
+      },
+      {
+        "text": "To reduce the number of courses",
+        "label": "C"
+      },
+      {
+        "text": "To increase tuition fees",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Analyzed properly, attendance data can help lecturers identify weak performance patterns, help departments monitor progression, and help management improve student support services."
+  },
+  {
+    "questionText": "complete the sentence from the chapter: 'data science is not limited to one tool, one programming language, or one ________.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Profession",
+        "label": "A"
+      },
+      {
+        "text": "Classroom",
+        "label": "B"
+      },
+      {
+        "text": "Country",
+        "label": "C"
+      },
+      {
+        "text": "Year",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Data science is not limited to one tool, one programming language, or one profession. It is a broad field that helps people turn raw data into useful knowledge."
+  },
+  {
+    "questionText": "according to the chapter, what is a practical way to understand data science?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "As the organized process of moving from a question to a useful answer with the help of data",
+        "label": "A"
+      },
+      {
+        "text": "As a programming language",
+        "label": "B"
+      },
+      {
+        "text": "As a type of database",
+        "label": "C"
+      },
+      {
+        "text": "As a hardware system",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "A good practical way to understand data science is to see it as the organised process of moving from a question to a useful answer with the help of data."
+  },
+  {
+    "questionText": "in the simple data science workflow, what comes after data collection?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Problem Definition",
+        "label": "A"
+      },
+      {
+        "text": "Data Preparation",
+        "label": "B"
+      },
+      {
+        "text": "Data Analysis",
+        "label": "C"
+      },
+      {
+        "text": "Communication",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The workflow order is: Problem Definition → Data Collection → Data Preparation → Data Analysis → Communication."
+  },
+  {
+    "questionText": "what is the role of 'visualisation' in data science according to the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To make data look attractive",
+        "label": "A"
+      },
+      {
+        "text": "To help transform technical findings into usable knowledge for others",
+        "label": "B"
+      },
+      {
+        "text": "To replace numerical analysis",
+        "label": "C"
+      },
+      {
+        "text": "To slow down the analysis process",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Tables, charts, dashboards, reports, and verbal explanation all help transform technical findings into usable knowledge for others."
+  },
+  {
+    "questionText": "what distinguishes big data from regular data according to the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Big Data is always about people",
+        "label": "A"
+      },
+      {
+        "text": "Big Data environments are difficult to manage with traditional tools due to size, speed, and diversity",
+        "label": "B"
+      },
+      {
+        "text": "Big Data is only found on the internet",
+        "label": "C"
+      },
+      {
+        "text": "Big Data cannot be stored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Big data refers to data environments whose size, speed of generation, and diversity make them difficult to store, process, and analyse effectively using only traditional tools and methods."
+  },
+  {
+    "questionText": "social media posts, search queries, and video uploads are examples of data generated in which environment?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Banking",
+        "label": "A"
+      },
+      {
+        "text": "Healthcare",
+        "label": "B"
+      },
+      {
+        "text": "Mobile and Social Media",
+        "label": "C"
+      },
+      {
+        "text": "Education",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Every message, search, video upload, online comment, or location update on mobile and social media platforms may generate data."
+  },
+  {
+    "questionText": "what does the chapter say about the relationship between data science and decision-making?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data science replaces all decision-making",
+        "label": "A"
+      },
+      {
+        "text": "Data science helps organisations make decisions using evidence rather than intuition alone",
+        "label": "B"
+      },
+      {
+        "text": "Data science is irrelevant to decision-making",
+        "label": "C"
+      },
+      {
+        "text": "Only managers can use data science for decisions",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In practical settings, data science helps organisations make decisions using evidence rather than intuition alone."
+  },
+  {
+    "questionText": "complete the statement: 'data science includes statistics, but it also gives stronger attention to data ________, computational tools, and the communication of results.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Storage",
+        "label": "A"
+      },
+      {
+        "text": "Preparation",
+        "label": "B"
+      },
+      {
+        "text": "Deletion",
+        "label": "C"
+      },
+      {
+        "text": "Duplication",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science includes statistics but extends more deeply into data preparation, computation, visualisation, and scalable data handling."
+  },
+  {
+    "questionText": "what is an example of a 'real-time' data environment mentioned in the velocity discussion?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Annual census",
+        "label": "A"
+      },
+      {
+        "text": "Monthly bank statement",
+        "label": "B"
+      },
+      {
+        "text": "Real-time transactions and social media streams",
+        "label": "C"
+      },
+      {
+        "text": "Year-end report",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Real-time transactions, social media streams, sensor readings, and network logs are common examples of high-velocity data."
+  },
+  {
+    "questionText": "according to the chapter, what makes an image file an example of unstructured data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It contains only text",
+        "label": "A"
+      },
+      {
+        "text": "It has rows and columns",
+        "label": "B"
+      },
+      {
+        "text": "It has no fixed schema or predefined format",
+        "label": "C"
+      },
+      {
+        "text": "It is always small",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Unstructured data has no fixed schema. Image files do not follow a row-and-column format, making them unstructured."
+  },
+  {
+    "questionText": "in the banking example, what data is generated from customer accounts?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Deposits, withdrawals, transfers, account logins, ATM activity, mobile banking sessions",
+        "label": "A"
+      },
+      {
+        "text": "Employee salaries only",
+        "label": "B"
+      },
+      {
+        "text": "Building maintenance records",
+        "label": "C"
+      },
+      {
+        "text": "Marketing brochures",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Banks generate data from deposits, withdrawals, transfers, account logins, ATM activity, mobile banking sessions, and customer complaints."
+  },
+  {
+    "questionText": "what does the chapter mean by 'the field gradually expanded towards a richer idea of learning from data in realistic settings'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data analysis expanded beyond formal calculations to include preparation, exploration, interpretation, visualisation, and problem-solving",
+        "label": "A"
+      },
+      {
+        "text": "Data analysis became more mathematical",
+        "label": "B"
+      },
+      {
+        "text": "Data analysis became less useful",
+        "label": "C"
+      },
+      {
+        "text": "Data analysis focused only on theory",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The broadening view included data preparation, exploration, interpretation, visualisation, and practical problem-solving, not just formal calculations."
+  },
+  {
+    "questionText": "according to the chapter, when did the role of data change from 'a static archive' to 'a resource for planning'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "When paper records were introduced",
+        "label": "A"
+      },
+      {
+        "text": "When computers became more powerful and organisations stored records digitally",
+        "label": "B"
+      },
+      {
+        "text": "When the first book was written",
+        "label": "C"
+      },
+      {
+        "text": "When libraries were established",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "As computers became more powerful and organisations increasingly stored records digitally, data became a resource that could guide planning, forecasting, and decision-making."
+  },
+  {
+    "questionText": "complete the sentence: 'the value of big data lies not merely in having more records, but in using appropriate methods to ________ patterns, improve planning, detect risks, and support better decisions.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Hide",
+        "label": "A"
+      },
+      {
+        "text": "Discover",
+        "label": "B"
+      },
+      {
+        "text": "Delete",
+        "label": "C"
+      },
+      {
+        "text": "Ignore",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The value of big data lies in using appropriate methods to discover patterns, improve planning, detect risks, and support better decisions."
+  },
+  {
+    "questionText": "what is the purpose of the 'chapter activity' that asks students to choose an environment and identify data generated there?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To memorize definitions",
+        "label": "A"
+      },
+      {
+        "text": "To apply concepts by connecting them to real-world settings",
+        "label": "B"
+      },
+      {
+        "text": "To complete a graded test",
+        "label": "C"
+      },
+      {
+        "text": "To read the next chapter",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The activity helps students apply what they learned by identifying data types and potential uses in familiar environments."
+  },
+  {
+    "questionText": "according to the glossary, what is 'data science'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The study of computer hardware",
+        "label": "A"
+      },
+      {
+        "text": "The multidisciplinary field concerned with collecting, preparing, analysing, interpreting, and communicating data",
+        "label": "B"
+      },
+      {
+        "text": "The practice of programming",
+        "label": "C"
+      },
+      {
+        "text": "The art of database design",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The glossary defines Data Science as 'the multidisciplinary field concerned with collecting, preparing, analysing, interpreting, and communicating data in order to solve problems and support decisions.'"
+  },
+  {
+    "questionText": "what does the 'quick check' after the university example ask students to identify?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The name of their university",
+        "label": "A"
+      },
+      {
+        "text": "Activities that may have generated data that day",
+        "label": "B"
+      },
+      {
+        "text": "The best programming language",
+        "label": "C"
+      },
+      {
+        "text": "The history of computers",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Quick Check asks: 'Which of them may have generated data?' — encouraging students to connect data generation to their daily activities."
+  },
+  {
+    "questionText": "the chapter mentions that statistics provides methods for which of the following?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only data storage",
+        "label": "A"
+      },
+      {
+        "text": "Organising data, summarising patterns, measuring variation, and drawing conclusions",
+        "label": "B"
+      },
+      {
+        "text": "Only data visualisation",
+        "label": "C"
+      },
+      {
+        "text": "Only programming",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Statistics provides methods for organising data, summarising patterns, measuring variation, and drawing conclusions."
+  },
+  {
+    "questionText": "what challenge does the chapter identify with 'unstructured data'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It cannot be stored",
+        "label": "A"
+      },
+      {
+        "text": "It has no fixed schema, making it more difficult to analyse with traditional table-based methods",
+        "label": "B"
+      },
+      {
+        "text": "It is always too large",
+        "label": "C"
+      },
+      {
+        "text": "It is always too small",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Unstructured data has no fixed schema, which can make it more challenging to process with traditional row-and-column methods."
+  },
+  {
+    "questionText": "according to the chapter, how can a department identify if poor performance is linked to attendance?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "By guessing",
+        "label": "A"
+      },
+      {
+        "text": "By analyzing data on attendance and performance together",
+        "label": "B"
+      },
+      {
+        "text": "By asking students",
+        "label": "C"
+      },
+      {
+        "text": "By reading textbooks",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data analysis can help reveal whether poor performance is linked to attendance by comparing attendance records with assessment scores."
+  },
+  {
+    "questionText": "what does the chapter mean by 'scalable data handling' as part of data science?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Handling data that cannot grow",
+        "label": "A"
+      },
+      {
+        "text": "Managing and processing data as it grows to very large sizes",
+        "label": "B"
+      },
+      {
+        "text": "Only handling small datasets",
+        "label": "C"
+      },
+      {
+        "text": "Deleting data regularly",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science extends into scalable data handling, meaning the ability to manage and process data as it grows to very large sizes."
+  },
+  {
+    "questionText": "complete the statement from the 'quick check' after the data science definition: 'data science helps to turn raw ________ into useful ________ for action and decision-making.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Numbers, charts",
+        "label": "A"
+      },
+      {
+        "text": "Data, knowledge",
+        "label": "B"
+      },
+      {
+        "text": "Files, reports",
+        "label": "C"
+      },
+      {
+        "text": "Inputs, outputs",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science helps to turn raw data into useful knowledge for action and decision-making."
+  },
+  {
+    "questionText": "what is the significance of the 'case illustration' about online learning platforms?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It shows that online learning is better than classroom learning",
+        "label": "A"
+      },
+      {
+        "text": "It demonstrates how system records can reveal study patterns and help lecturers provide targeted support",
+        "label": "B"
+      },
+      {
+        "text": "It proves that students do not study online",
+        "label": "C"
+      },
+      {
+        "text": "It shows that data from platforms is useless",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The illustration shows that records of login time, pages visited, and quiz attempts can reveal study patterns and help lecturers decide where extra support is needed."
+  },
+  {
+    "questionText": "according to the chapter, why do organisations depend on data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is required by law",
+        "label": "A"
+      },
+      {
+        "text": "To improve decisions, monitor performance, identify problems, and plan future actions",
+        "label": "B"
+      },
+      {
+        "text": "Because competitors have data",
+        "label": "C"
+      },
+      {
+        "text": "Because data is cheap",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Organisations depend on data to improve decisions, monitor performance, identify problems, and plan future actions."
+  },
+  {
+    "questionText": "what is the main message of the 'timeline of evolution of data science' described in chapter 4?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data science emerged suddenly",
+        "label": "A"
+      },
+      {
+        "text": "Data science developed from statistics and data analysis through database growth, internet expansion, to big data and modern AI-driven data science",
+        "label": "B"
+      },
+      {
+        "text": "Data science is only about artificial intelligence",
+        "label": "C"
+      },
+      {
+        "text": "Data science started in 2020",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The timeline shows the evolution from early statistics and data analysis, through database growth, internet expansion, the big data era, to modern data science and AI."
+  },
+  {
+    "questionText": "in the hospital example, what types of data are generated according to the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Patient registration, diagnosis records, laboratory results, medicine use, appointment schedules, admission history",
+        "label": "A"
+      },
+      {
+        "text": "Only patient names",
+        "label": "B"
+      },
+      {
+        "text": "Only hospital addresses",
+        "label": "C"
+      },
+      {
+        "text": "Only doctor salaries",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Hospitals generate data through patient registration, diagnosis records, laboratory results, medicine use, appointment schedules, and admission history."
+  },
+  {
+    "questionText": "what does the glossary define as 'domain knowledge'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Knowledge about computers",
+        "label": "A"
+      },
+      {
+        "text": "Understanding of the specific field or context in which data is being used",
+        "label": "B"
+      },
+      {
+        "text": "Knowledge about programming",
+        "label": "C"
+      },
+      {
+        "text": "Knowledge about mathematics",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The glossary defines Domain Knowledge as 'understanding of the specific field or context in which data is being used.'"
+  },
+  {
+    "questionText": "according to the chapter, what is the purpose of the 'final reflection prompt' in the summary?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To test memory of facts",
+        "label": "A"
+      },
+      {
+        "text": "To encourage students to complete a sentence showing their understanding of why data science is necessary",
+        "label": "B"
+      },
+      {
+        "text": "To assign homework",
+        "label": "C"
+      },
+      {
+        "text": "To introduce new topics",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The reflection prompt helps students articulate their understanding: 'Data science becomes necessary when organisations need to move from raw data to meaningful knowledge and better decisions.'"
+  },
+  {
+    "questionText": "what does the chapter identify as the three main ideas illustrated by the everyday examples?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data is rare, difficult, and expensive",
+        "label": "A"
+      },
+      {
+        "text": "Data is generated in many environments, becomes more useful when organized, and helps organisations improve decisions",
+        "label": "B"
+      },
+      {
+        "text": "Data is only for scientists, only for computers, and only for large companies",
+        "label": "C"
+      },
+      {
+        "text": "Data is always numerical, always structured, and always small",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The examples show: 1) Data is generated in many environments, 2) Data becomes more useful when organized and analysed, 3) Organisations depend on data to improve decisions."
+  },
+  {
+    "questionText": "in the simple data science workflow, what occurs during the data analysis stage?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data is deleted",
+        "label": "A"
+      },
+      {
+        "text": "The prepared data is explored and studied to identify patterns, trends, relationships, or anomalies",
+        "label": "B"
+      },
+      {
+        "text": "Data is collected from sources",
+        "label": "C"
+      },
+      {
+        "text": "Findings are presented",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "During Data Analysis, the prepared data is explored and studied to identify patterns, trends, relationships, or anomalies."
+  },
+  {
+    "questionText": "what does the chapter say about the relationship between 'structured', 'semi-structured', and 'unstructured' data in big data environments?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Big data environments contain only structured data",
+        "label": "A"
+      },
+      {
+        "text": "Big data environments often contain more than one kind of data structure",
+        "label": "B"
+      },
+      {
+        "text": "Big data environments contain only unstructured data",
+        "label": "C"
+      },
+      {
+        "text": "Big data environments contain no data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Big data environments often contain more than one kind of data structure, including structured, semi-structured, and unstructured data."
+  },
+  {
+    "questionText": "according to the chapter, a 'live traffic monitoring system' would have which v as strongest?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Volume only",
+        "label": "A"
+      },
+      {
+        "text": "Velocity (speed of data generation from sensors)",
+        "label": "B"
+      },
+      {
+        "text": "Variety only",
+        "label": "C"
+      },
+      {
+        "text": "None of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Live traffic monitoring systems generate data continuously and rapidly, making Velocity the dominant characteristic."
+  },
+  {
+    "questionText": "what does the chapter mean by 'data-driven decision-making'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Making decisions randomly",
+        "label": "A"
+      },
+      {
+        "text": "Making decisions using evidence from data rather than intuition alone",
+        "label": "B"
+      },
+      {
+        "text": "Making decisions without any information",
+        "label": "C"
+      },
+      {
+        "text": "Making decisions based on opinions",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science helps organisations make decisions using evidence rather than intuition alone, which is data-driven decision-making."
+  },
+  {
+    "questionText": "complete this statement from the chapter: 'even an excellent analysis may have little value if the results are not ________ clearly.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Stored",
+        "label": "A"
+      },
+      {
+        "text": "Hidden",
+        "label": "B"
+      },
+      {
+        "text": "Communicated",
+        "label": "C"
+      },
+      {
+        "text": "Deleted",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Even an excellent analysis may have little value if the results are not communicated clearly."
+  },
+  {
+    "questionText": "why does the chapter include a section on 'why begin with examples'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To make the chapter longer",
+        "label": "A"
+      },
+      {
+        "text": "Because formal definitions may sound distant or overly technical, so examples create a better starting point",
+        "label": "B"
+      },
+      {
+        "text": "Because examples are easier to write",
+        "label": "C"
+      },
+      {
+        "text": "Because definitions are not important",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When learners first meet a topic such as data science, formal definitions may sound distant or overly technical, so examples provide a better starting point."
+  },
+  {
+    "questionText": "according to the glossary, what is 'velocity' in big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The amount of data",
+        "label": "A"
+      },
+      {
+        "text": "The speed at which data is generated and moved",
+        "label": "B"
+      },
+      {
+        "text": "The diversity of data forms",
+        "label": "C"
+      },
+      {
+        "text": "The accuracy of data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The glossary defines Velocity as 'the speed at which data is generated and moved.'"
+  },
+  {
+    "questionText": "in the banking example, analyzing records can help 'detect suspicious patterns'. what might this refer to?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Employee break times",
+        "label": "A"
+      },
+      {
+        "text": "Fraudulent transactions or unusual account activity",
+        "label": "B"
+      },
+      {
+        "text": "Customer names",
+        "label": "C"
+      },
+      {
+        "text": "Bank building maintenance",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Analyzing bank records can help detect suspicious patterns such as fraudulent transactions or unusual account activity."
+  },
+  {
+    "questionText": "what does the chapter identify as necessary for the proper interpretation of data from a specific field?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Advanced programming skills only",
+        "label": "A"
+      },
+      {
+        "text": "Domain knowledge — understanding of that specific environment",
+        "label": "B"
+      },
+      {
+        "text": "Large storage systems only",
+        "label": "C"
+      },
+      {
+        "text": "Fast computers only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data from a hospital, bank, school, or agricultural project cannot be interpreted properly without some knowledge of that environment — domain knowledge."
+  },
+  {
+    "questionText": "according to the chapter, what is the relationship between 'data' and 'decisions'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Decisions should never use data",
+        "label": "A"
+      },
+      {
+        "text": "Data helps move from uncertainty to evidence-based understanding for better decisions",
+        "label": "B"
+      },
+      {
+        "text": "Data makes decisions more difficult",
+        "label": "C"
+      },
+      {
+        "text": "Data is irrelevant to decisions",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science offers ways to move from uncertainty to evidence-based understanding, which supports better decision-making."
+  },
+  {
+    "questionText": "what does the chapter say about the 'internet expansion and big data' era?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The internet reduced data generation",
+        "label": "A"
+      },
+      {
+        "text": "The internet, mobile devices, and social media caused a dramatic increase in data generation, creating the need for scalable storage and faster processing",
+        "label": "B"
+      },
+      {
+        "text": "The internet had no effect on data",
+        "label": "C"
+      },
+      {
+        "text": "Big data existed before the internet",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The rapid growth of the internet, mobile devices, social media, cloud platforms, and sensor-rich systems caused a dramatic increase in data generation and created the need for scalable storage and faster processing systems."
+  },
+  {
+    "questionText": "in the supermarket example, what can data help managers identify besides fast-moving items?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Employee personal information",
+        "label": "A"
+      },
+      {
+        "text": "When goods should be restocked",
+        "label": "B"
+      },
+      {
+        "text": "Customer home addresses",
+        "label": "C"
+      },
+      {
+        "text": "Supplier family details",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "From sales records, managers can identify fast-moving items and estimate when goods should be restocked."
+  },
+  {
+    "questionText": "what is the main idea of the 'data science, statistics, and decision-making' section?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Statistics and data science are identical",
+        "label": "A"
+      },
+      {
+        "text": "Data science includes statistics but extends further into data preparation, computation, visualisation, and scalable handling",
+        "label": "B"
+      },
+      {
+        "text": "Data science replaced statistics",
+        "label": "C"
+      },
+      {
+        "text": "Statistics is more important than data science",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data science includes statistics but extends more deeply into data preparation, computation, visualisation, and scalable data handling."
+  },
+  {
+    "questionText": "according to the chapter, what does the 'volume' characteristic of big data refer to?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The speed of data",
+        "label": "A"
+      },
+      {
+        "text": "The amount of data generated and stored",
+        "label": "B"
+      },
+      {
+        "text": "The variety of data forms",
+        "label": "C"
+      },
+      {
+        "text": "The value of data insights",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Volume refers to the amount of data generated and stored. Modern systems may collect large quantities of records over time."
+  },
+  {
+    "questionText": "complete the statement from the chapter: 'in a university setting alone, data is generated through admission records, course registration, attendance, assessment scores, library use, fee payment, and ________ activity.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Learning platform",
+        "label": "A"
+      },
+      {
+        "text": "Sports",
+        "label": "B"
+      },
+      {
+        "text": "Cafeteria",
+        "label": "C"
+      },
+      {
+        "text": "Transport",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The chapter mentions 'learning platform activity' as a source of data in university settings."
+  },
+  {
+    "questionText": "what does the chapter identify as the role of 'domain knowledge' in the school attendance example?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Understanding computer programming",
+        "label": "A"
+      },
+      {
+        "text": "Understanding educational contexts helps interpret the real causes of low attendance",
+        "label": "B"
+      },
+      {
+        "text": "Understanding mathematics",
+        "label": "C"
+      },
+      {
+        "text": "Understanding database design",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Educational knowledge helps interpret the causes of low attendance, such as course difficulty, scheduling issues, or student motivation."
+  },
+  {
+    "questionText": "according to the chapter, why is a 'single classroom register' not considered big data?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it is handwritten",
+        "label": "A"
+      },
+      {
+        "text": "Because its size, speed, and complexity are small enough for traditional tools like spreadsheets",
+        "label": "B"
+      },
+      {
+        "text": "Because it contains no useful information",
+        "label": "C"
+      },
+      {
+        "text": "Because it is only used once",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A single classroom register is not big data because ordinary tools such as simple spreadsheets are enough to manage it efficiently."
+  },
+  {
+    "questionText": "what is the significance of the 'figure placeholder' prompts in the chapter?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They indicate missing pages",
+        "label": "A"
+      },
+      {
+        "text": "They suggest ideas for illustrations to support learning",
+        "label": "B"
+      },
+      {
+        "text": "They are errors in the text",
+        "label": "C"
+      },
+      {
+        "text": "They are advertisements",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Figure Placeholder prompts provide AI prompt suggestions for creating educational illustrations to support the concepts in each section."
+  },
+  {
+    "questionText": "what does the chapter mean by 'data is not something abstract reserved for specialists'?",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only specialists can use data",
+        "label": "A"
+      },
+      {
+        "text": "Data is generated in everyday systems and experiences that everyone encounters",
+        "label": "B"
+      },
+      {
+        "text": "Data cannot be understood by ordinary people",
+        "label": "C"
+      },
+      {
+        "text": "Data is only found in laboratories",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data is generated in everyday systems like university registration, banking, supermarkets, and mobile apps — experiences that students already know."
+  },
+  {
+    "questionText": "complete the final reflection from the chapter summary: 'data science becomes necessary when organisations need to move from raw ________ to meaningful ________ and better ________.'",
+    "topic": "introduction to data science and big data",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Numbers, charts, reports",
+        "label": "A"
+      },
+      {
+        "text": "Data, knowledge, decisions",
+        "label": "B"
+      },
+      {
+        "text": "Files, folders, systems",
+        "label": "C"
+      },
+      {
+        "text": "Inputs, processes, outputs",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The summary reflection states that data science becomes necessary when organisations need to move from raw data to meaningful knowledge and better decisions."
+  }
+]

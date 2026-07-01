@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "who is credited with the development of the c programming language at bell labs in the early 1970s?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Bjarne Stroustrup",
+        "label": "A"
+      },
+      {
+        "text": "James Gosling",
+        "label": "B"
+      },
+      {
+        "text": "Dennis Ritchie",
+        "label": "C"
+      },
+      {
+        "text": "Guido van Rossum",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Dennis Ritchie developed C at Bell Labs in the early 1970s, primarily for use with the UNIX operating system."
+  },
+  {
+    "questionText": "which of the following is a primary application area for the c language?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Web front-end design",
+        "label": "A"
+      },
+      {
+        "text": "System programming and compilers",
+        "label": "B"
+      },
+      {
+        "text": "Android UI development",
+        "label": "C"
+      },
+      {
+        "text": "Spreadsheet management",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C is highly efficient for low-level system programming, including operating systems (UNIX) and compiler design."
+  },
+  {
+    "questionText": "in c, every statement must terminate with which character?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": ":",
+        "label": "A"
+      },
+      {
+        "text": ".",
+        "label": "B"
+      },
+      {
+        "text": ";",
+        "label": "C"
+      },
+      {
+        "text": "!",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The semicolon (;) is the statement terminator in C."
+  },
+  {
+    "questionText": "which data type would you use to store a single character like 'a'?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "int",
+        "label": "A"
+      },
+      {
+        "text": "float",
+        "label": "B"
+      },
+      {
+        "text": "char",
+        "label": "C"
+      },
+      {
+        "text": "double",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'char' data type is used to store individual characters."
+  },
+  {
+    "questionText": "identify the 'equality' operator used in c conditional statements.",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "=",
+        "label": "A"
+      },
+      {
+        "text": "==",
+        "label": "B"
+      },
+      {
+        "text": "===",
+        "label": "C"
+      },
+      {
+        "text": "!=",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In C, '=' is for assignment, while '==' is the relational operator used to check for equality."
+  },
+  {
+    "questionText": "which function is standard in c for displaying output to the screen?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "print()",
+        "label": "A"
+      },
+      {
+        "text": "cout <<",
+        "label": "B"
+      },
+      {
+        "text": "printf()",
+        "label": "C"
+      },
+      {
+        "text": "System.out.print()",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The printf() function is part of the standard I/O library in C used for formatted output."
+  },
+  {
+    "questionText": "what does a 'pointer' variable store in c?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The value of a constant",
+        "label": "A"
+      },
+      {
+        "text": "A character string",
+        "label": "B"
+      },
+      {
+        "text": "A memory address",
+        "label": "C"
+      },
+      {
+        "text": "A large floating-point number",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Pointers are special variables that hold the memory address of another variable."
+  },
+  {
+    "questionText": "which loop structure is guaranteed to execute at least once?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "for",
+        "label": "A"
+      },
+      {
+        "text": "while",
+        "label": "B"
+      },
+      {
+        "text": "do-while",
+        "label": "C"
+      },
+      {
+        "text": "nested-if",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The do-while loop is a post-test loop, meaning the condition is checked after the body executes once."
+  },
+  {
+    "questionText": "in a c program, what is the entry point where execution begins?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "#include <stdio.h>",
+        "label": "A"
+      },
+      {
+        "text": "main() function",
+        "label": "B"
+      },
+      {
+        "text": "void start()",
+        "label": "C"
+      },
+      {
+        "text": "The first variable declaration",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Every C program must have a main() function, as this is where execution starts."
+  },
+  {
+    "questionText": "which keyword is used to exit a loop or a switch-case immediately?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "continue",
+        "label": "A"
+      },
+      {
+        "text": "stop",
+        "label": "B"
+      },
+      {
+        "text": "break",
+        "label": "C"
+      },
+      {
+        "text": "exit",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'break' statement terminates the current loop or switch block and moves to the next statement outside it."
+  },
+  {
+    "questionText": "how do you correctly declare an integer variable 'count' and assign it the value 10?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "count = 10 int;",
+        "label": "A"
+      },
+      {
+        "text": "int count := 10;",
+        "label": "B"
+      },
+      {
+        "text": "int count = 10;",
+        "label": "C"
+      },
+      {
+        "text": "dim count as integer = 10;",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The syntax is: [type] [name] = [value];"
+  },
+  {
+    "questionText": "complete the code to check if 'x' is greater than 5: if (x > 5) { _____ }",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "printf(\"High\");",
+        "label": "A"
+      },
+      {
+        "text": "print \"High\"",
+        "label": "B"
+      },
+      {
+        "text": "display High",
+        "label": "C"
+      },
+      {
+        "text": "val(High)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Standard C syntax requires printf() and a semicolon inside the code block."
+  },
+  {
+    "questionText": "which header file must be included to use printf()?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "#include <conio.h>",
+        "label": "A"
+      },
+      {
+        "text": "#include <stdlib.h>",
+        "label": "B"
+      },
+      {
+        "text": "#include <stdio.h>",
+        "label": "C"
+      },
+      {
+        "text": "#include <math.h>",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "stdio.h (Standard Input Output) contains the definition for printf()."
+  },
+  {
+    "questionText": "what is the purpose of the 'continue' statement?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "To terminate the program",
+        "label": "A"
+      },
+      {
+        "text": "To skip the current iteration and move to the next one",
+        "label": "B"
+      },
+      {
+        "text": "To jump to a specific label",
+        "label": "C"
+      },
+      {
+        "text": "To stop the loop entirely",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Continue skips the remaining code in the loop body for the current iteration and starts the next pass."
+  },
+  {
+    "questionText": "a 'switch' statement is used for:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Single-pass loops",
+        "label": "A"
+      },
+      {
+        "text": "Binary logic only",
+        "label": "B"
+      },
+      {
+        "text": "Multi-branch selection based on a variable's value",
+        "label": "C"
+      },
+      {
+        "text": "Memory allocation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Switch allows for multiple branches of execution based on the value of an integer or character expression."
+  },
+  {
+    "questionText": "which operator is used for 'unconditional jump' to another part of the program (though usually discouraged)?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "break",
+        "label": "A"
+      },
+      {
+        "text": "continue",
+        "label": "B"
+      },
+      {
+        "text": "goto",
+        "label": "C"
+      },
+      {
+        "text": "switch",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'goto' statement jumps to a labeled section of code without checking any condition."
+  },
+  {
+    "questionText": "which of these is a valid 'float' declaration?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "float price = 10.50;",
+        "label": "A"
+      },
+      {
+        "text": "price float = 10.50;",
+        "label": "B"
+      },
+      {
+        "text": "int price = 10.50;",
+        "label": "C"
+      },
+      {
+        "text": "char price = 10.50;",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Floats are used for decimal numbers. Option A follows C syntax rules."
+  },
+  {
+    "questionText": "what is the result of the expression: 10 % 3?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "3",
+        "label": "A"
+      },
+      {
+        "text": "3.33",
+        "label": "B"
+      },
+      {
+        "text": "1",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The % (modulus) operator returns the remainder. 10 divided by 3 is 3 with a remainder of 1."
+  },
+  {
+    "questionText": "in the code: for(int i=0; i<3; i++), how many times will the loop run?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "2",
+        "label": "A"
+      },
+      {
+        "text": "3",
+        "label": "B"
+      },
+      {
+        "text": "4",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The loop runs for i=0, i=1, and i=2. When i reaches 3, the condition i<3 becomes false."
+  },
+  {
+    "questionText": "what is the correct syntax for a multi-line comment in c?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "// comment",
+        "label": "A"
+      },
+      {
+        "text": "/* comment */",
+        "label": "B"
+      },
+      {
+        "text": "' comment",
+        "label": "C"
+      },
+      {
+        "text": "# comment",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Multi-line comments start with /* and end with */."
+  },
+  {
+    "questionText": "which of the following is not a reserved keyword in c?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "auto",
+        "label": "A"
+      },
+      {
+        "text": "main",
+        "label": "B"
+      },
+      {
+        "text": "while",
+        "label": "C"
+      },
+      {
+        "text": "else",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "While 'main' is a special function name, it is technically an identifier, not a reserved keyword like auto, while, or else."
+  },
+  {
+    "questionText": "complete the snippet to result in 5.0: float result = 10 / ___ ;",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "2",
+        "label": "A"
+      },
+      {
+        "text": "2.0",
+        "label": "B"
+      },
+      {
+        "text": "3",
+        "label": "C"
+      },
+      {
+        "text": "int(2)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "To get a float result without losing precision through integer division, at least one operand should be a float (2.0)."
+  },
+  {
+    "questionText": "in c, 'double' stores:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Twice as much text as char",
+        "label": "A"
+      },
+      {
+        "text": "Whole numbers only",
+        "label": "B"
+      },
+      {
+        "text": "Large floating-point numbers with higher precision than float",
+        "label": "C"
+      },
+      {
+        "text": "Memory addresses",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The double data type is a double-precision floating-point type."
+  },
+  {
+    "questionText": "what is the output of: printf(\"%d\", 5 == 5);?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "1",
+        "label": "B"
+      },
+      {
+        "text": "5",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In C, true relational expressions evaluate to the integer 1."
+  },
+  {
+    "questionText": "a 'while' loop is a _____ loop.",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Post-test",
+        "label": "A"
+      },
+      {
+        "text": "Entrance-controlled",
+        "label": "B"
+      },
+      {
+        "text": "Unconditional",
+        "label": "C"
+      },
+      {
+        "text": "Infinite only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "While loops check the condition at the beginning (entrance) before executing the body."
+  },
+  {
+    "questionText": "identify the incorrect variable name:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "_value",
+        "label": "A"
+      },
+      {
+        "text": "totalAmount",
+        "label": "B"
+      },
+      {
+        "text": "2ndValue",
+        "label": "C"
+      },
+      {
+        "text": "price_unit",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Identifiers cannot begin with a number."
+  },
+  {
+    "questionText": "what happens in a 'nested if-else' structure?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The program crashes",
+        "label": "A"
+      },
+      {
+        "text": "An if statement is placed inside another if or else block",
+        "label": "B"
+      },
+      {
+        "text": "The code runs sequentially only",
+        "label": "C"
+      },
+      {
+        "text": "Only one condition is checked",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Nesting involves placing one control structure inside another to check multiple levels of conditions."
+  },
+  {
+    "questionText": "the character set of c primarily uses which encoding system?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Unicode",
+        "label": "A"
+      },
+      {
+        "text": "ASCII",
+        "label": "B"
+      },
+      {
+        "text": "Binary",
+        "label": "C"
+      },
+      {
+        "text": "Hexadecimal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Standard C fundamentals are built around the ASCII character set."
+  },
+  {
+    "questionText": "which operator is used to access the value at the address stored in a pointer?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "&",
+        "label": "A"
+      },
+      {
+        "text": "*",
+        "label": "B"
+      },
+      {
+        "text": "%",
+        "label": "C"
+      },
+      {
+        "text": "#",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The asterisk (*) is the dereference operator used to get the value at a pointer's address."
+  },
+  {
+    "questionText": "what is the output of: printf(\"result: %d\", 15 / 2);?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Result: 7.5",
+        "label": "A"
+      },
+      {
+        "text": "Result: 7",
+        "label": "B"
+      },
+      {
+        "text": "Result: 8",
+        "label": "C"
+      },
+      {
+        "text": "Error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Integer division (int / int) discards the fractional part, so 15 / 2 = 7."
+  },
+  {
+    "questionText": "to receive a character input from the user, which format specifier is used in scanf()?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "%d",
+        "label": "A"
+      },
+      {
+        "text": "%f",
+        "label": "B"
+      },
+      {
+        "text": "%c",
+        "label": "C"
+      },
+      {
+        "text": "%s",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "%c is the format specifier for characters."
+  },
+  {
+    "questionText": "in a switch statement, what is used to separate different logic branches?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "branch",
+        "label": "A"
+      },
+      {
+        "text": "option",
+        "label": "B"
+      },
+      {
+        "text": "case",
+        "label": "C"
+      },
+      {
+        "text": "if",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Each possibility in a switch statement is labeled with the 'case' keyword."
+  },
+  {
+    "questionText": "which of these is an assignment statement?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "x == 5;",
+        "label": "A"
+      },
+      {
+        "text": "x = 5;",
+        "label": "B"
+      },
+      {
+        "text": "x equals 5;",
+        "label": "C"
+      },
+      {
+        "text": "set x 5;",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The single '=' sign is the assignment operator in C."
+  },
+  {
+    "questionText": "c is known as a 'middle-level' language because:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "It is only for experts",
+        "label": "A"
+      },
+      {
+        "text": "It combines low-level hardware access with high-level features",
+        "label": "B"
+      },
+      {
+        "text": "It is only used in middle schools",
+        "label": "C"
+      },
+      {
+        "text": "It has no speed",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C allows direct memory/hardware manipulation (low-level) while offering structured programming features (high-level)."
+  },
+  {
+    "questionText": "what does the 'default' keyword do in a switch statement?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Stops the program",
+        "label": "A"
+      },
+      {
+        "text": "Executes if no other case matches",
+        "label": "B"
+      },
+      {
+        "text": "Resets the variable",
+        "label": "C"
+      },
+      {
+        "text": "Always runs first",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The default block acts like the final 'else' in an if-ladder, running when no cases are met."
+  },
+  {
+    "questionText": "what is the result of the following? int a = 5; printf(\"%d\", ++a);",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "5",
+        "label": "A"
+      },
+      {
+        "text": "6",
+        "label": "B"
+      },
+      {
+        "text": "4",
+        "label": "C"
+      },
+      {
+        "text": "Error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The pre-increment operator (++a) increases the value before it is used in the expression."
+  },
+  {
+    "questionText": "which of these loops checks the condition at the end?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "while",
+        "label": "A"
+      },
+      {
+        "text": "for",
+        "label": "B"
+      },
+      {
+        "text": "do-while",
+        "label": "C"
+      },
+      {
+        "text": "None of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The do-while loop evaluates its condition after the body has executed."
+  },
+  {
+    "questionText": "the 'ladder' structure refers to which implementation?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "for loop",
+        "label": "A"
+      },
+      {
+        "text": "if-else-if",
+        "label": "B"
+      },
+      {
+        "text": "goto",
+        "label": "C"
+      },
+      {
+        "text": "struct",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An if-else-if ladder allows for checking multiple sequential conditions."
+  },
+  {
+    "questionText": "a pointer declaration looks like:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "int &ptr;",
+        "label": "A"
+      },
+      {
+        "text": "ptr int;",
+        "label": "B"
+      },
+      {
+        "text": "int *ptr;",
+        "label": "C"
+      },
+      {
+        "text": "point int ptr;",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The asterisk (*) denotes a pointer type during declaration."
+  },
+  {
+    "questionText": "what will printf(\"hello\\nworld\"); display?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Hello\\nWorld",
+        "label": "A"
+      },
+      {
+        "text": "HelloWorld",
+        "label": "B"
+      },
+      {
+        "text": "Hello and World on separate lines",
+        "label": "C"
+      },
+      {
+        "text": "Hello World",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "\\n is the escape sequence for a new line."
+  },
+  {
+    "questionText": "which of the following describes the c character set?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Only numbers",
+        "label": "A"
+      },
+      {
+        "text": "Letters, digits, and special characters",
+        "label": "B"
+      },
+      {
+        "text": "Only Greek letters",
+        "label": "C"
+      },
+      {
+        "text": "Pictures and emojis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C's character set includes uppercase/lowercase letters, digits 0-9, and symbols like +, -, *, / etc."
+  },
+  {
+    "questionText": "in a 'for' loop, which part is used to update the counter variable?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Initialization",
+        "label": "A"
+      },
+      {
+        "text": "Condition",
+        "label": "B"
+      },
+      {
+        "text": "Increment/Decrement",
+        "label": "C"
+      },
+      {
+        "text": "Body",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The third expression in the for loop header (e.g., i++) is the update/increment part."
+  },
+  {
+    "questionText": "what is the return type of the main() function in modern c standards?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "void",
+        "label": "A"
+      },
+      {
+        "text": "int",
+        "label": "B"
+      },
+      {
+        "text": "char",
+        "label": "C"
+      },
+      {
+        "text": "float",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Standard C requires main() to return an int (usually 0 for success)."
+  },
+  {
+    "questionText": "which operator is used to find the address of a variable?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "*",
+        "label": "A"
+      },
+      {
+        "text": "&",
+        "label": "B"
+      },
+      {
+        "text": "@",
+        "label": "C"
+      },
+      {
+        "text": "addr",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The ampersand (&) is the address-of operator."
+  },
+  {
+    "questionText": "which c feature allows code to be executed 'fast'?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Rich formatting",
+        "label": "A"
+      },
+      {
+        "text": "Compilation to machine code",
+        "label": "B"
+      },
+      {
+        "text": "Easy syntax",
+        "label": "C"
+      },
+      {
+        "text": "Verbose error messages",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C is a compiled language that translates code directly into efficient machine instructions."
+  },
+  {
+    "questionText": "what is the output of: int x=10; if(x=20) printf(\"a\"); else printf(\"b\");?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "A",
+        "label": "A"
+      },
+      {
+        "text": "B",
+        "label": "B"
+      },
+      {
+        "text": "10",
+        "label": "C"
+      },
+      {
+        "text": "Error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Because '=' is assignment, x becomes 20. In C, any non-zero value is 'True', so 'A' is printed."
+  },
+  {
+    "questionText": "logical 'and' in c is represented by:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "&",
+        "label": "A"
+      },
+      {
+        "text": "AND",
+        "label": "B"
+      },
+      {
+        "text": "&&",
+        "label": "C"
+      },
+      {
+        "text": "|",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "&& is the logical AND operator; & is the bitwise AND/address-of operator."
+  },
+  {
+    "questionText": "in a switch statement, what happens if a 'break' is missing after a case?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The program stops",
+        "label": "A"
+      },
+      {
+        "text": "Execution 'falls through' to the next case",
+        "label": "B"
+      },
+      {
+        "text": "The next case is skipped",
+        "label": "C"
+      },
+      {
+        "text": "A syntax error occurs",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without a break, C continues executing the code in the subsequent cases until a break or the end of the switch is reached."
+  },
+  {
+    "questionText": "which data type has the smallest memory size?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "int",
+        "label": "A"
+      },
+      {
+        "text": "double",
+        "label": "B"
+      },
+      {
+        "text": "float",
+        "label": "C"
+      },
+      {
+        "text": "char",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "A char typically takes 1 byte, which is smaller than int, float, or double."
+  },
+  {
+    "questionText": "the 'goto' statement requires a _____ to jump to.",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Variable",
+        "label": "A"
+      },
+      {
+        "text": "Function",
+        "label": "B"
+      },
+      {
+        "text": "Label",
+        "label": "C"
+      },
+      {
+        "text": "Constant",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Goto jumps to a specific label (a name followed by a colon) defined in the same function."
+  },
+  {
+    "questionText": "complete this for loop to count down from 10 to 1: for(int i=10; i>0; ___)",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "i++",
+        "label": "A"
+      },
+      {
+        "text": "i--",
+        "label": "B"
+      },
+      {
+        "text": "i=0",
+        "label": "C"
+      },
+      {
+        "text": "i-1",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "To count down, the decrement operator (i--) must be used."
+  },
+  {
+    "questionText": "which of these is a 'rich operator' in c used for shorthand addition?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "+=",
+        "label": "A"
+      },
+      {
+        "text": "=+",
+        "label": "B"
+      },
+      {
+        "text": "++",
+        "label": "C"
+      },
+      {
+        "text": "add=",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "x += 5 is shorthand for x = x + 5."
+  },
+  {
+    "questionText": "in c, '0' (zero) is interpreted as:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "False",
+        "label": "B"
+      },
+      {
+        "text": "Empty",
+        "label": "C"
+      },
+      {
+        "text": "Null",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C treats 0 as false and any non-zero value as true."
+  },
+  {
+    "questionText": "what is the correct syntax for declaring a constant in c?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "const int limit = 100;",
+        "label": "A"
+      },
+      {
+        "text": "constant int limit = 100;",
+        "label": "B"
+      },
+      {
+        "text": "int limit = 100 const;",
+        "label": "C"
+      },
+      {
+        "text": "limit = 100;",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The 'const' keyword is used to declare variables whose values cannot change."
+  },
+  {
+    "questionText": "the 'else' block in an if-else statement is:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Mandatory",
+        "label": "A"
+      },
+      {
+        "text": "Optional",
+        "label": "B"
+      },
+      {
+        "text": "Only for errors",
+        "label": "C"
+      },
+      {
+        "text": "Used for loops",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "You can have an 'if' statement without an 'else'."
+  },
+  {
+    "questionText": "what format specifier is used for 'double' in printf()?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "%d",
+        "label": "A"
+      },
+      {
+        "text": "%f",
+        "label": "B"
+      },
+      {
+        "text": "%lf",
+        "label": "C"
+      },
+      {
+        "text": "%c",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "%lf (Long Float) is used for double precision numbers."
+  },
+  {
+    "questionText": "how do you start a c program with the standard i/o library?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "start stdio.h",
+        "label": "A"
+      },
+      {
+        "text": "#include <stdio.h>",
+        "label": "B"
+      },
+      {
+        "text": "import stdio",
+        "label": "C"
+      },
+      {
+        "text": "using stdio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "#include is the preprocessor directive to pull in header files."
+  },
+  {
+    "questionText": "which of these is a floating-point literal?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "10",
+        "label": "A"
+      },
+      {
+        "text": "'10'",
+        "label": "B"
+      },
+      {
+        "text": "10.0",
+        "label": "C"
+      },
+      {
+        "text": "\"10\"",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Decimal points indicate floating-point numbers."
+  },
+  {
+    "questionText": "the result of (5 > 2 && 3 < 1) is:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "False",
+        "label": "B"
+      },
+      {
+        "text": "1",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "(True && False) evaluates to False, which is 0 in C."
+  },
+  {
+    "questionText": "which function allows the user to provide input from the keyboard?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "printf()",
+        "label": "A"
+      },
+      {
+        "text": "scanf()",
+        "label": "B"
+      },
+      {
+        "text": "input()",
+        "label": "C"
+      },
+      {
+        "text": "get()",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "scanf() is used for formatted input from the standard input (keyboard)."
+  },
+  {
+    "questionText": "what is 'versatility' in c?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "It only runs on UNIX",
+        "label": "A"
+      },
+      {
+        "text": "It can be used for both high-level and low-level tasks",
+        "label": "B"
+      },
+      {
+        "text": "It is very hard to learn",
+        "label": "C"
+      },
+      {
+        "text": "It is outdated",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C is versatile because it can be used for everything from OS kernels to application software."
+  },
+  {
+    "questionText": "if you have: int *p; int x = 5; p = &x; what is stored in 'p'?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "5",
+        "label": "A"
+      },
+      {
+        "text": "The word 'x'",
+        "label": "B"
+      },
+      {
+        "text": "The memory address of x",
+        "label": "C"
+      },
+      {
+        "text": "An error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "p is a pointer assigned the address (&) of x."
+  },
+  {
+    "questionText": "which loop is best when you know exactly how many iterations you need?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "while",
+        "label": "A"
+      },
+      {
+        "text": "do-while",
+        "label": "B"
+      },
+      {
+        "text": "for",
+        "label": "C"
+      },
+      {
+        "text": "goto",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The 'for' loop is traditionally used when the number of iterations is fixed or known."
+  },
+  {
+    "questionText": "logical 'or' is represented by:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "||",
+        "label": "A"
+      },
+      {
+        "text": "&&",
+        "label": "B"
+      },
+      {
+        "text": "!",
+        "label": "C"
+      },
+      {
+        "text": "|",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "|| is the logical OR operator."
+  },
+  {
+    "questionText": "what is the value of 'y' after: int x=10, y; y = x--;?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "9",
+        "label": "A"
+      },
+      {
+        "text": "10",
+        "label": "B"
+      },
+      {
+        "text": "11",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Post-decrement (x--) uses the current value (10) for the assignment to y first, then decreases x to 9."
+  },
+  {
+    "questionText": "which keyword defines a block of code to run only if a condition is false in an 'if' statement?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "then",
+        "label": "A"
+      },
+      {
+        "text": "else",
+        "label": "B"
+      },
+      {
+        "text": "otherwise",
+        "label": "C"
+      },
+      {
+        "text": "ifnot",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The 'else' block executes when the 'if' condition fails."
+  },
+  {
+    "questionText": "c is a _____ language.",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Interpreted",
+        "label": "A"
+      },
+      {
+        "text": "Compiled",
+        "label": "B"
+      },
+      {
+        "text": "Scripting",
+        "label": "C"
+      },
+      {
+        "text": "Visual",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C code must be processed by a compiler to create an executable."
+  },
+  {
+    "questionText": "what is the maximum number of 'cases' allowed in a switch statement?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "255",
+        "label": "A"
+      },
+      {
+        "text": "10",
+        "label": "B"
+      },
+      {
+        "text": "Depends on the compiler/memory",
+        "label": "C"
+      },
+      {
+        "text": "Exactly 100",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "There is no fixed limit in the language spec, though physical memory and compiler limits apply."
+  },
+  {
+    "questionText": "the '! (not)' operator:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Multiplies values",
+        "label": "A"
+      },
+      {
+        "text": "Reverses the logical state (True to False)",
+        "label": "B"
+      },
+      {
+        "text": "Adds 1",
+        "label": "C"
+      },
+      {
+        "text": "Finds the remainder",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The logical NOT (!) operator negates the truth value."
+  },
+  {
+    "questionText": "which block is used to group multiple c statements together?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "( )",
+        "label": "A"
+      },
+      {
+        "text": "[ ]",
+        "label": "B"
+      },
+      {
+        "text": "{ }",
+        "label": "C"
+      },
+      {
+        "text": "< >",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Curly braces { } define a code block or scope."
+  },
+  {
+    "questionText": "in the printf() format \"%0.2f\", what does the .2 do?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Multiplies the number by 2",
+        "label": "A"
+      },
+      {
+        "text": "Displays 2 digits after the decimal point",
+        "label": "B"
+      },
+      {
+        "text": "Adds 2 to the result",
+        "label": "C"
+      },
+      {
+        "text": "Makes the number twice as large",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The precision modifier (.n) limits the number of decimal places displayed."
+  },
+  {
+    "questionText": "what is the output of: printf(\"%c\", 65);? (hint: 65 is the ascii for 'a')",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "65",
+        "label": "A"
+      },
+      {
+        "text": "A",
+        "label": "B"
+      },
+      {
+        "text": "Error",
+        "label": "C"
+      },
+      {
+        "text": "B",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Using %c with an integer prints the corresponding ASCII character."
+  },
+  {
+    "questionText": "an 'infinite loop' occurs when:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The program ends early",
+        "label": "A"
+      },
+      {
+        "text": "The terminating condition is never met",
+        "label": "B"
+      },
+      {
+        "text": "The loop runs 100 times",
+        "label": "C"
+      },
+      {
+        "text": "The user stops the program",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "If a loop condition always stays True, it repeats forever."
+  },
+  {
+    "questionText": "which of these is used to include a library for mathematical functions like sqrt()?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "#include <stdio.h>",
+        "label": "A"
+      },
+      {
+        "text": "#include <math.h>",
+        "label": "B"
+      },
+      {
+        "text": "#include <calc.h>",
+        "label": "C"
+      },
+      {
+        "text": "#include <logic.h>",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "math.h contains the prototypes for mathematical functions."
+  },
+  {
+    "questionText": "which operator has the lowest priority?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "*",
+        "label": "A"
+      },
+      {
+        "text": "+",
+        "label": "B"
+      },
+      {
+        "text": "=",
+        "label": "C"
+      },
+      {
+        "text": "==",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Assignment (=) has one of the lowest precedence levels, ensuring expressions are calculated before being stored."
+  },
+  {
+    "questionText": "what is the effect of: x = x * 2 + 5; vs x *= 2 + 5;?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "They are the same",
+        "label": "A"
+      },
+      {
+        "text": "The first is x*2 then +5; the second is x*(2+5)",
+        "label": "B"
+      },
+      {
+        "text": "The first is x*7; the second is x*2+5",
+        "label": "C"
+      },
+      {
+        "text": "Both result in an error",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "x *= (2+5) behaves like x = x * (2+5) because the right side is evaluated first."
+  },
+  {
+    "questionText": "which c structure is often used to implement a 'menu' system?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "for loop",
+        "label": "A"
+      },
+      {
+        "text": "if-else ladder",
+        "label": "B"
+      },
+      {
+        "text": "switch statement",
+        "label": "C"
+      },
+      {
+        "text": "do-while loop",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Switch is ideal for menus where a user selects a specific option (1, 2, 3...)."
+  },
+  {
+    "questionText": "what does 'system programming' mean in the context of c?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Making websites",
+        "label": "A"
+      },
+      {
+        "text": "Developing OS, drivers, and low-level software",
+        "label": "B"
+      },
+      {
+        "text": "Using a computer system",
+        "label": "C"
+      },
+      {
+        "text": "Programming in binary",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "System programming involves writing software that manages hardware and system resources."
+  },
+  {
+    "questionText": "what is the output? int x=5; printf(\"%d\", x > 10 ? 1 : 0);",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "1",
+        "label": "A"
+      },
+      {
+        "text": "0",
+        "label": "B"
+      },
+      {
+        "text": "5",
+        "label": "C"
+      },
+      {
+        "text": "10",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "This is a ternary operator. Since 5 > 10 is false, it returns the value after the colon (0)."
+  },
+  {
+    "questionText": "in the c character set, what is '\\t'?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "A terminator",
+        "label": "A"
+      },
+      {
+        "text": "A tab space",
+        "label": "B"
+      },
+      {
+        "text": "A total sum",
+        "label": "C"
+      },
+      {
+        "text": "A table",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "\\t is the escape sequence for a horizontal tab."
+  },
+  {
+    "questionText": "if you divide an integer by zero in c, what usually happens at runtime?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The result is 0",
+        "label": "A"
+      },
+      {
+        "text": "The program crashes/terminates unexpectedly",
+        "label": "B"
+      },
+      {
+        "text": "The result is infinity",
+        "label": "C"
+      },
+      {
+        "text": "The compiler fixes it",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Division by zero is an undefined operation that typically causes a runtime exception/crash."
+  },
+  {
+    "questionText": "which loop is essentially a 'while' loop with built-in initialization and increment?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "do-while",
+        "label": "A"
+      },
+      {
+        "text": "for",
+        "label": "B"
+      },
+      {
+        "text": "goto",
+        "label": "C"
+      },
+      {
+        "text": "switch",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The 'for' loop combines initialization, condition, and increment in one line."
+  },
+  {
+    "questionText": "variables in c are 'case-sensitive'. this means:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "They must be in uppercase",
+        "label": "A"
+      },
+      {
+        "text": "total and TOTAL are different variables",
+        "label": "B"
+      },
+      {
+        "text": "They cannot contain numbers",
+        "label": "C"
+      },
+      {
+        "text": "They must be long",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C distinguishes between uppercase and lowercase letters in identifiers."
+  },
+  {
+    "questionText": "what is the size of an 'int' on a standard 32-bit system?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "1 byte",
+        "label": "A"
+      },
+      {
+        "text": "2 bytes",
+        "label": "B"
+      },
+      {
+        "text": "4 bytes",
+        "label": "C"
+      },
+      {
+        "text": "8 bytes",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "On most modern 32-bit systems, int is 4 bytes (32 bits)."
+  },
+  {
+    "questionText": "the logical operator for inequality is:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "<>",
+        "label": "A"
+      },
+      {
+        "text": "!=",
+        "label": "B"
+      },
+      {
+        "text": "==",
+        "label": "C"
+      },
+      {
+        "text": "!",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "!= is the relational operator for 'Not equal to'."
+  },
+  {
+    "questionText": "a 'global variable' is one that is declared:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Inside main()",
+        "label": "A"
+      },
+      {
+        "text": "Outside of all functions",
+        "label": "B"
+      },
+      {
+        "text": "Inside a loop",
+        "label": "C"
+      },
+      {
+        "text": "In the printf() function",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Global variables are declared outside any function and are accessible throughout the file."
+  },
+  {
+    "questionText": "to stop an infinite loop during execution, you usually press:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Alt + F4",
+        "label": "A"
+      },
+      {
+        "text": "Ctrl + C",
+        "label": "B"
+      },
+      {
+        "text": "Ctrl + Z",
+        "label": "C"
+      },
+      {
+        "text": "Enter",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Ctrl + C is the standard interrupt signal to stop a running process in most consoles."
+  },
+  {
+    "questionText": "what will: int x=5; x++; printf(\"%d\", x); print?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "4",
+        "label": "A"
+      },
+      {
+        "text": "5",
+        "label": "B"
+      },
+      {
+        "text": "6",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "x++ increments x by 1, so 5 becomes 6."
+  },
+  {
+    "questionText": "the 'unix' operating system was famously rewritten using which language?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Assembly",
+        "label": "A"
+      },
+      {
+        "text": "Pascal",
+        "label": "B"
+      },
+      {
+        "text": "C",
+        "label": "C"
+      },
+      {
+        "text": "BASIC",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "C was created specifically to rewrite the UNIX kernel for portability."
+  },
+  {
+    "questionText": "which of these allows 'nested' decision making?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "switch",
+        "label": "A"
+      },
+      {
+        "text": "if-else",
+        "label": "B"
+      },
+      {
+        "text": "for",
+        "label": "C"
+      },
+      {
+        "text": "Both A and B",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Both if-else and switch can be nested inside other structures."
+  },
+  {
+    "questionText": "what does 'void' mean in 'void main()'?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "The function returns nothing",
+        "label": "A"
+      },
+      {
+        "text": "The function is empty",
+        "label": "B"
+      },
+      {
+        "text": "The function is an error",
+        "label": "C"
+      },
+      {
+        "text": "The function is global",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Void indicates that the function does not return a value to the caller."
+  },
+  {
+    "questionText": "the expression: x = 5 + 3 * 2; results in:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "16",
+        "label": "A"
+      },
+      {
+        "text": "11",
+        "label": "B"
+      },
+      {
+        "text": "10",
+        "label": "C"
+      },
+      {
+        "text": "13",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Multiplication (*) has higher precedence than addition (+), so 3*2=6, then 6+5=11."
+  },
+  {
+    "questionText": "what is the purpose of the '&' in scanf(\"%d\", &x)?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "It is a separator",
+        "label": "A"
+      },
+      {
+        "text": "It passes the address of x so scanf can store the input there",
+        "label": "B"
+      },
+      {
+        "text": "It stands for 'and'",
+        "label": "C"
+      },
+      {
+        "text": "It makes x a pointer",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "scanf needs the memory address of the variable to modify its value."
+  },
+  {
+    "questionText": "which keyword is used to define a new block of code for every possible outcome of an if-statement?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "else",
+        "label": "A"
+      },
+      {
+        "text": "then",
+        "label": "B"
+      },
+      {
+        "text": "case",
+        "label": "C"
+      },
+      {
+        "text": "ifnot",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The 'else' keyword handles the 'false' outcome of the 'if' condition."
+  },
+  {
+    "questionText": "an 'operator' in c is a:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "Variable",
+        "label": "A"
+      },
+      {
+        "text": "Function",
+        "label": "B"
+      },
+      {
+        "text": "Symbol that performs a specific mathematical or logical manipulation",
+        "label": "C"
+      },
+      {
+        "text": "Programmer",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Operators are symbols like +, -, &&, == etc."
+  },
+  {
+    "questionText": "what is the output? int x=5; while(x > 0) { x--; } printf(\"%d\", x);",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "5",
+        "label": "A"
+      },
+      {
+        "text": "1",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "-1",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The loop runs until x becomes 0. Once x is 0, the condition x > 0 is false, and it prints 0."
+  },
+  {
+    "questionText": "which of these is a 'literal'?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "int x",
+        "label": "A"
+      },
+      {
+        "text": "150",
+        "label": "B"
+      },
+      {
+        "text": "printf",
+        "label": "C"
+      },
+      {
+        "text": "main",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Literals are fixed values like numbers (150) or characters ('a')."
+  },
+  {
+    "questionText": "in a switch statement, if the expression is 'char grade = 'a'', the case should be:",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "case A:",
+        "label": "A"
+      },
+      {
+        "text": "case 'A':",
+        "label": "B"
+      },
+      {
+        "text": "case \"A\":",
+        "label": "C"
+      },
+      {
+        "text": "case (A):",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Character constants in C must be enclosed in single quotes."
+  },
+  {
+    "questionText": "what happens if a program has a 'syntax error'?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "It runs but gives wrong output",
+        "label": "A"
+      },
+      {
+        "text": "It won't compile",
+        "label": "B"
+      },
+      {
+        "text": "It runs very slowly",
+        "label": "C"
+      },
+      {
+        "text": "It deletes files",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Compilers cannot translate code that violates the grammatical rules of the language."
+  },
+  {
+    "questionText": "which of these is the 'foundational' reason c was created?",
+    "topic": "features and foundations of c programming",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 3,
+    "semester": 2,
+    "courseCode": "COS102",
+    "options": [
+      {
+        "text": "For graphics and gaming",
+        "label": "A"
+      },
+      {
+        "text": "To replace assembly language for systems software",
+        "label": "B"
+      },
+      {
+        "text": "For artificial intelligence",
+        "label": "C"
+      },
+      {
+        "text": "To build websites",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "C was designed to be a high-level language that still provided the efficiency of assembly for OS development."
+  }
+]

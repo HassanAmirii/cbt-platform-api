@@ -1,0 +1,1311 @@
+[
+  {
+    "questionText": "the substitution method for integration is based on reversing which differentiation rule?",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the power rule", "label": "A" },
+      { "text": "the product rule", "label": "B" },
+      { "text": "the chain rule", "label": "C" },
+      { "text": "the quotient rule", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "The substitution method is based on reversing the chain rule from differentiation. It replaces a complex expression with a new variable to simplify integration."
+  },
+  {
+    "questionText": "the formula for integration by parts is:",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "∫ u dv = uv - ∫ v du", "label": "A" },
+      { "text": "∫ u dv = uv + ∫ v du", "label": "B" },
+      { "text": "∫ u dv = u/v - ∫ du", "label": "C" },
+      { "text": "∫ u dv = uv - ∫ du", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Integration by parts is derived from the product rule. The formula is ∫ u dv = uv - ∫ v du, where u is chosen to differentiate and dv is integrated."
+  },
+  {
+    "questionText": "according to the LIATE rule, which type of function should be chosen as u first?",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "exponential", "label": "A" },
+      { "text": "algebraic", "label": "B" },
+      { "text": "logarithmic", "label": "C" },
+      { "text": "trigonometric", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "LIATE stands for Logarithmic, Inverse trigonometric, Algebraic, Trigonometric, Exponential. Logarithmic functions should be chosen as u first."
+  },
+  {
+    "questionText": "partial fraction decomposition is used to integrate:",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "exponential functions", "label": "A" },
+      { "text": "rational functions", "label": "B" },
+      { "text": "trigonometric functions", "label": "C" },
+      { "text": "logarithmic functions", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Partial fraction decomposition is used to simplify the integration of rational functions (ratios of polynomials) by breaking them into simpler fractions."
+  },
+  {
+    "questionText": "find ∫ 2x(x² + 1)³ dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x² + 1)⁴/4 + C", "label": "A" },
+      { "text": "(x² + 1)⁴ + C", "label": "B" },
+      { "text": "(x² + 1)³/4 + C", "label": "C" },
+      { "text": "(x² + 1)⁴/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² + 1, du = 2x dx. ∫ 2x(x² + 1)³ dx = ∫ u³ du = u⁴/4 + C = (x² + 1)⁴/4 + C."
+  },
+  {
+    "questionText": "find ∫ 3x²(x³ + 2)⁴ dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x³ + 2)⁵/5 + C", "label": "A" },
+      { "text": "(x³ + 2)⁵ + C", "label": "B" },
+      { "text": "(x³ + 2)⁴/5 + C", "label": "C" },
+      { "text": "(x³ + 2)⁵/15 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³ + 2, du = 3x² dx. ∫ 3x²(x³ + 2)⁴ dx = ∫ u⁴ du = u⁵/5 + C = (x³ + 2)⁵/5 + C."
+  },
+  {
+    "questionText": "find ∫ 2x cos(x²) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin(x²) + C", "label": "A" },
+      { "text": "-sin(x²) + C", "label": "B" },
+      { "text": "2sin(x²) + C", "label": "C" },
+      { "text": "cos(x²) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x², du = 2x dx. ∫ 2x cos(x²) dx = ∫ cos u du = sin u + C = sin(x²) + C."
+  },
+  {
+    "questionText": "find ∫ 4x³ sin(x⁴) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-cos(x⁴) + C", "label": "A" },
+      { "text": "cos(x⁴) + C", "label": "B" },
+      { "text": "4sin(x⁴) + C", "label": "C" },
+      { "text": "-4cos(x⁴) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x⁴, du = 4x³ dx. ∫ 4x³ sin(x⁴) dx = ∫ sin u du = -cos u + C = -cos(x⁴) + C."
+  },
+  {
+    "questionText": "find ∫ 6x² e^(x³) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2e^(x³) + C", "label": "A" },
+      { "text": "6e^(x³) + C", "label": "B" },
+      { "text": "e^(x³) + C", "label": "C" },
+      { "text": "2x³ e^(x³) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³, du = 3x² dx. ∫ 6x² e^(x³) dx = 2∫ e^u du = 2e^u + C = 2e^(x³) + C."
+  },
+  {
+    "questionText": "find ∫ 8x(x² - 3)⁵ dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x² - 3)⁶/6 + C", "label": "A" },
+      { "text": "(x² - 3)⁶ + C", "label": "B" },
+      { "text": "4(x² - 3)⁶/6 + C = 2(x² - 3)⁶/3 + C", "label": "C" },
+      { "text": "(x² - 3)⁵/6 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² - 3, du = 2x dx. ∫ 8x(x² - 3)⁵ dx = 4∫ u⁵ du = 4(u⁶/6) + C = 2u⁶/3 + C = 2(x² - 3)⁶/3 + C."
+  },
+  {
+    "questionText": "find ∫ 10x(x² + 5)⁴ dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x² + 5)⁵ + C", "label": "A" },
+      { "text": "(x² + 5)⁵/5 + C", "label": "B" },
+      { "text": "5(x² + 5)⁴ + C", "label": "C" },
+      { "text": "(x² + 5)⁵/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² + 5, du = 2x dx. ∫ 10x(x² + 5)⁴ dx = 5∫ u⁴ du = 5(u⁵/5) + C = u⁵ + C = (x² + 5)⁵ + C."
+  },
+  {
+    "questionText": "find ∫ 2x/(x² + 1) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln(x² + 1) + C", "label": "A" },
+      { "text": "ln(x² + 1)/2 + C", "label": "B" },
+      { "text": "2ln(x² + 1) + C", "label": "C" },
+      { "text": "1/(x² + 1) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² + 1, du = 2x dx. ∫ 2x/(x² + 1) dx = ∫ 1/u du = ln|u| + C = ln(x² + 1) + C."
+  },
+  {
+    "questionText": "find ∫ 3x²/(x³ + 2) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln(x³ + 2) + C", "label": "A" },
+      { "text": "3ln(x³ + 2) + C", "label": "B" },
+      { "text": "ln(x³ + 2)/3 + C", "label": "C" },
+      { "text": "1/(x³ + 2) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³ + 2, du = 3x² dx. ∫ 3x²/(x³ + 2) dx = ∫ 1/u du = ln|u| + C = ln(x³ + 2) + C."
+  },
+  {
+    "questionText": "find ∫ 4x/(2x² + 3) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln(2x² + 3) + C", "label": "A" },
+      { "text": "2ln(2x² + 3) + C", "label": "B" },
+      { "text": "ln(2x² + 3)/2 + C", "label": "C" },
+      { "text": "4ln(2x² + 3) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x² + 3, du = 4x dx. ∫ 4x/(2x² + 3) dx = ∫ 1/u du = ln|u| + C = ln(2x² + 3) + C."
+  },
+  {
+    "questionText": "find ∫ 6x²/(2x³ - 1) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln(2x³ - 1) + C", "label": "A" },
+      { "text": "2ln(2x³ - 1) + C", "label": "B" },
+      { "text": "3ln(2x³ - 1) + C", "label": "C" },
+      { "text": "ln(2x³ - 1)/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x³ - 1, du = 6x² dx. ∫ 6x²/(2x³ - 1) dx = ∫ 1/u du = ln|u| + C = ln(2x³ - 1) + C."
+  },
+  {
+    "questionText": "find ∫ 2x√(x² + 1) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2(x² + 1)^(3/2)/3 + C", "label": "A" },
+      { "text": "(x² + 1)^(3/2)/3 + C", "label": "B" },
+      { "text": "(x² + 1)^(1/2) + C", "label": "C" },
+      { "text": "2(x² + 1)^(1/2) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² + 1, du = 2x dx. ∫ 2x√(x² + 1) dx = ∫ √u du = ∫ u^(1/2) du = 2u^(3/2)/3 + C = 2(x² + 1)^(3/2)/3 + C."
+  },
+  {
+    "questionText": "find ∫ 4x² √(x³ + 1) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8(x³ + 1)^(3/2)/9 + C", "label": "A" },
+      { "text": "4(x³ + 1)^(3/2)/3 + C", "label": "B" },
+      { "text": "(x³ + 1)^(3/2)/3 + C", "label": "C" },
+      { "text": "4(x³ + 1)^(1/2) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³ + 1, du = 3x² dx. ∫ 4x²√(x³ + 1) dx = 4/3 ∫ √u du = 4/3 · 2u^(3/2)/3 + C = 8u^(3/2)/9 + C = 8(x³ + 1)^(3/2)/9 + C."
+  },
+  {
+    "questionText": "find ∫ x e^x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "xe^x - e^x + C", "label": "A" },
+      { "text": "xe^x + e^x + C", "label": "B" },
+      { "text": "e^x(x - 1) + C", "label": "C" },
+      { "text": "e^x(x + 1) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x, dv = e^x dx → du = dx, v = e^x. ∫ x e^x dx = xe^x - ∫ e^x dx = xe^x - e^x + C."
+  },
+  {
+    "questionText": "find ∫ x cos x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x sin x + cos x + C", "label": "A" },
+      { "text": "x sin x - cos x + C", "label": "B" },
+      { "text": "x cos x + sin x + C", "label": "C" },
+      { "text": "-x sin x + cos x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x, dv = cos x dx → du = dx, v = sin x. ∫ x cos x dx = x sin x - ∫ sin x dx = x sin x + cos x + C."
+  },
+  {
+    "questionText": "find ∫ x sin x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-x cos x + sin x + C", "label": "A" },
+      { "text": "x cos x + sin x + C", "label": "B" },
+      { "text": "x sin x + cos x + C", "label": "C" },
+      { "text": "-x cos x - sin x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x, dv = sin x dx → du = dx, v = -cos x. ∫ x sin x dx = -x cos x + ∫ cos x dx = -x cos x + sin x + C."
+  },
+  {
+    "questionText": "find ∫ ln x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x ln x - x + C", "label": "A" },
+      { "text": "x ln x + x + C", "label": "B" },
+      { "text": "ln x/x + C", "label": "C" },
+      { "text": "x ln x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = ln x, dv = dx → du = 1/x dx, v = x. ∫ ln x dx = x ln x - ∫ x(1/x) dx = x ln x - ∫ dx = x ln x - x + C."
+  },
+  {
+    "questionText": "find ∫ x² e^x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^x(x² - 2x + 2) + C", "label": "A" },
+      { "text": "e^x(x² + 2x + 2) + C", "label": "B" },
+      { "text": "e^x(x² - 2x) + C", "label": "C" },
+      { "text": "e^x(x² + 2x) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x², dv = e^x dx → du = 2x dx, v = e^x. ∫ x² e^x dx = x²e^x - 2∫ x e^x dx = x²e^x - 2(xe^x - e^x) + C = e^x(x² - 2x + 2) + C."
+  },
+  {
+    "questionText": "find ∫ x ln x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x²/2 ln x - x²/4 + C", "label": "A" },
+      { "text": "x²/2 ln x + x²/4 + C", "label": "B" },
+      { "text": "x ln x/2 + C", "label": "C" },
+      { "text": "x² ln x - x²/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = ln x, dv = x dx → du = 1/x dx, v = x²/2. ∫ x ln x dx = x²/2 ln x - ∫ x²/2 · 1/x dx = x²/2 ln x - 1/2∫ x dx = x²/2 ln x - x²/4 + C."
+  },
+  {
+    "questionText": "find ∫ x² ln x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x³/3 ln x - x³/9 + C", "label": "A" },
+      { "text": "x³/3 ln x + x³/9 + C", "label": "B" },
+      { "text": "x³ ln x/3 + C", "label": "C" },
+      { "text": "x³ ln x - x³/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = ln x, dv = x² dx → du = 1/x dx, v = x³/3. ∫ x² ln x dx = x³/3 ln x - ∫ x³/3 · 1/x dx = x³/3 ln x - 1/3∫ x² dx = x³/3 ln x - x³/9 + C."
+  },
+  {
+    "questionText": "find ∫ x e^(2x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "xe^(2x)/2 - e^(2x)/4 + C", "label": "A" },
+      { "text": "xe^(2x)/2 + e^(2x)/4 + C", "label": "B" },
+      { "text": "e^(2x)(x/2 - 1) + C", "label": "C" },
+      { "text": "e^(2x)(x/2 + 1) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x, dv = e^(2x) dx → du = dx, v = e^(2x)/2. ∫ x e^(2x) dx = xe^(2x)/2 - ∫ e^(2x)/2 dx = xe^(2x)/2 - e^(2x)/4 + C."
+  },
+  {
+    "questionText": "find ∫ x cos(2x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x sin(2x)/2 + cos(2x)/4 + C", "label": "A" },
+      { "text": "x sin(2x)/2 - cos(2x)/4 + C", "label": "B" },
+      { "text": "x cos(2x)/2 + sin(2x)/4 + C", "label": "C" },
+      { "text": "-x sin(2x)/2 + cos(2x)/4 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x, dv = cos(2x) dx → du = dx, v = sin(2x)/2. ∫ x cos(2x) dx = x sin(2x)/2 - ∫ sin(2x)/2 dx = x sin(2x)/2 + cos(2x)/4 + C."
+  },
+  {
+    "questionText": "find ∫ x sin(3x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-x cos(3x)/3 + sin(3x)/9 + C", "label": "A" },
+      { "text": "x cos(3x)/3 + sin(3x)/9 + C", "label": "B" },
+      { "text": "-x cos(3x)/3 - sin(3x)/9 + C", "label": "C" },
+      { "text": "x sin(3x)/3 + cos(3x)/9 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x, dv = sin(3x) dx → du = dx, v = -cos(3x)/3. ∫ x sin(3x) dx = -x cos(3x)/3 + ∫ cos(3x)/3 dx = -x cos(3x)/3 + sin(3x)/9 + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+1)(x+2)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln|(x+1)/(x+2)| + C", "label": "A" },
+      { "text": "ln|(x+2)/(x+1)| + C", "label": "B" },
+      { "text": "ln|x+1| + ln|x+2| + C", "label": "C" },
+      { "text": "ln|(x+1)(x+2)| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x+1)(x+2)] = A/(x+1) + B/(x+2). A = 1, B = -1. ∫ [1/(x+1) - 1/(x+2)] dx = ln|x+1| - ln|x+2| + C = ln|(x+1)/(x+2)| + C."
+  },
+  {
+    "questionText": "find ∫ 1/[x(x+1)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln|x| - ln|x+1| + C", "label": "A" },
+      { "text": "ln|x| + ln|x+1| + C", "label": "B" },
+      { "text": "ln|x/(x+1)| + C", "label": "C" },
+      { "text": "ln|(x+1)/x| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[x(x+1)] = A/x + B/(x+1). A = 1, B = -1. ∫ [1/x - 1/(x+1)] dx = ln|x| - ln|x+1| + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x-1)(x+3)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/4 ln|(x-1)/(x+3)| + C", "label": "A" },
+      { "text": "1/4 ln|(x+3)/(x-1)| + C", "label": "B" },
+      { "text": "ln|(x-1)/(x+3)| + C", "label": "C" },
+      { "text": "1/4 ln|(x-1)(x+3)| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x-1)(x+3)] = A/(x-1) + B/(x+3). A = 1/4, B = -1/4. ∫ [1/4(x-1) - 1/4(x+3)] dx = 1/4 ln|x-1| - 1/4 ln|x+3| + C = 1/4 ln|(x-1)/(x+3)| + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+2)(x-3)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/5 ln|(x-3)/(x+2)| + C", "label": "A" },
+      { "text": "1/5 ln|(x+2)/(x-3)| + C", "label": "B" },
+      { "text": "ln|(x-3)/(x+2)| + C", "label": "C" },
+      { "text": "1/5 ln|(x+2)(x-3)| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x+2)(x-3)] = A/(x+2) + B/(x-3). A = -1/5, B = 1/5. ∫ [-1/5(x+2) + 1/5(x-3)] dx = 1/5 ln|x-3| - 1/5 ln|x+2| + C = 1/5 ln|(x-3)/(x+2)| + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+2)(x+5)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/3 ln|(x+2)/(x+5)| + C", "label": "A" },
+      { "text": "1/3 ln|(x+5)/(x+2)| + C", "label": "B" },
+      { "text": "ln|(x+2)/(x+5)| + C", "label": "C" },
+      { "text": "1/3 ln|(x+2)(x+5)| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x+2)(x+5)] = A/(x+2) + B/(x+5). A = 1/3, B = -1/3. ∫ [1/3(x+2) - 1/3(x+5)] dx = 1/3 ln|x+2| - 1/3 ln|x+5| + C = 1/3 ln|(x+2)/(x+5)| + C."
+  },
+  {
+    "questionText": "find ∫ x/[(x+1)(x+2)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-ln|x+1| + 2ln|x+2| + C", "label": "A" },
+      { "text": "ln|x+1| - 2ln|x+2| + C", "label": "B" },
+      { "text": "2ln|x+1| - ln|x+2| + C", "label": "C" },
+      { "text": "-2ln|x+1| + ln|x+2| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "x/[(x+1)(x+2)] = A/(x+1) + B/(x+2). A = -1, B = 2. ∫ [-1/(x+1) + 2/(x+2)] dx = -ln|x+1| + 2ln|x+2| + C."
+  },
+  {
+    "questionText": "find ∫ (2x+3)/[(x+1)(x+2)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln|x+1| + ln|x+2| + C", "label": "A" },
+      { "text": "-ln|x+1| + ln|x+2| + C", "label": "B" },
+      { "text": "ln|x+1| - ln|x+2| + C", "label": "C" },
+      { "text": "-ln|x+1| - ln|x+2| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "(2x+3)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). A = 1, B = 1. ∫ [1/(x+1) + 1/(x+2)] dx = ln|x+1| + ln|x+2| + C."
+  },
+  {
+    "questionText": "find ∫ (3x+2)/[(x+2)(x+3)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4ln|x+2| - ln|x+3| + C", "label": "A" },
+      { "text": "4ln|x+2| + ln|x+3| + C", "label": "B" },
+      { "text": "-4ln|x+2| + ln|x+3| + C", "label": "C" },
+      { "text": "4ln|x+3| - ln|x+2| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "(3x+2)/[(x+2)(x+3)] = A/(x+2) + B/(x+3). A = 4, B = -1. ∫ [4/(x+2) - 1/(x+3)] dx = 4ln|x+2| - ln|x+3| + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+1)²] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x+1) + C", "label": "A" },
+      { "text": "1/(x+1) + C", "label": "B" },
+      { "text": "ln|x+1| + C", "label": "C" },
+      { "text": "-ln|x+1| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (x+1)^(-2) dx = -(x+1)^(-1) + C = -1/(x+1) + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+2)²] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x+2) + C", "label": "A" },
+      { "text": "1/(x+2) + C", "label": "B" },
+      { "text": "ln|x+2| + C", "label": "C" },
+      { "text": "-ln|x+2| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (x+2)^(-2) dx = -(x+2)^(-1) + C = -1/(x+2) + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+3)²] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x+3) + C", "label": "A" },
+      { "text": "1/(x+3) + C", "label": "B" },
+      { "text": "ln|x+3| + C", "label": "C" },
+      { "text": "-ln|x+3| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (x+3)^(-2) dx = -(x+3)^(-1) + C = -1/(x+3) + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+4)²] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x+4) + C", "label": "A" },
+      { "text": "1/(x+4) + C", "label": "B" },
+      { "text": "ln|x+4| + C", "label": "C" },
+      { "text": "-ln|x+4| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (x+4)^(-2) dx = -(x+4)^(-1) + C = -1/(x+4) + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+1)(x+2)²] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln|x+1| - ln|x+2| - 1/(x+2) + C", "label": "A" },
+      { "text": "ln|x+1| + ln|x+2| + 1/(x+2) + C", "label": "B" },
+      { "text": "ln|x+2| - ln|x+1| + 1/(x+2) + C", "label": "C" },
+      { "text": "-ln|x+1| + ln|x+2| - 1/(x+2) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x+1)(x+2)²] = A/(x+1) + B/(x+2) + C/(x+2)². A = 1, B = -1, C = -1. ∫ [1/(x+1) - 1/(x+2) - 1/(x+2)²] dx = ln|x+1| - ln|x+2| + 1/(x+2) + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x²+1)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "tan^(-1) x + C", "label": "A" },
+      { "text": "sin^(-1) x + C", "label": "B" },
+      { "text": "cos^(-1) x + C", "label": "C" },
+      { "text": "cot^(-1) x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 1/(x²+1) dx = tan^(-1) x + C. This is a standard inverse trigonometric integral."
+  },
+  {
+    "questionText": "find ∫ 1/[(x²+4)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/2 tan^(-1)(x/2) + C", "label": "A" },
+      { "text": "tan^(-1)(x/2) + C", "label": "B" },
+      { "text": "1/2 sin^(-1)(x/2) + C", "label": "C" },
+      { "text": "sin^(-1)(x/2) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 1/(x²+4) dx = 1/2 tan^(-1)(x/2) + C. Using substitution u = x/2."
+  },
+  {
+    "questionText": "find ∫ 1/[(x²+9)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/3 tan^(-1)(x/3) + C", "label": "A" },
+      { "text": "tan^(-1)(x/3) + C", "label": "B" },
+      { "text": "1/3 sin^(-1)(x/3) + C", "label": "C" },
+      { "text": "sin^(-1)(x/3) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ 1/(x²+9) dx = 1/3 tan^(-1)(x/3) + C."
+  },
+  {
+    "questionText": "find ∫ (2x+1)/[(x²+1)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln(x²+1) + tan^(-1) x + C", "label": "A" },
+      { "text": "ln(x²+1) + C", "label": "B" },
+      { "text": "tan^(-1) x + C", "label": "C" },
+      { "text": "ln(x²+1) - tan^(-1) x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫ (2x+1)/(x²+1) dx = ∫ 2x/(x²+1) dx + ∫ 1/(x²+1) dx = ln(x²+1) + tan^(-1) x + C."
+  },
+  {
+    "questionText": "find ∫ sin² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x/2 - sin(2x)/4 + C", "label": "A" },
+      { "text": "x/2 + sin(2x)/4 + C", "label": "B" },
+      { "text": "-cos²x/2 + C", "label": "C" },
+      { "text": "sin²x/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "sin²x = (1 - cos2x)/2. ∫ sin²x dx = ∫ (1 - cos2x)/2 dx = x/2 - sin(2x)/4 + C."
+  },
+  {
+    "questionText": "find ∫ cos² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x/2 + sin(2x)/4 + C", "label": "A" },
+      { "text": "x/2 - sin(2x)/4 + C", "label": "B" },
+      { "text": "sin²x/2 + C", "label": "C" },
+      { "text": "-sin²x/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "cos²x = (1 + cos2x)/2. ∫ cos²x dx = ∫ (1 + cos2x)/2 dx = x/2 + sin(2x)/4 + C."
+  },
+  {
+    "questionText": "find ∫ sin²(2x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x/2 - sin(4x)/8 + C", "label": "A" },
+      { "text": "x/2 + sin(4x)/8 + C", "label": "B" },
+      { "text": "x/4 - sin(4x)/8 + C", "label": "C" },
+      { "text": "x/4 + sin(4x)/8 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "sin²(2x) = (1 - cos4x)/2. ∫ sin²(2x) dx = ∫ (1 - cos4x)/2 dx = x/2 - sin(4x)/8 + C."
+  },
+  {
+    "questionText": "find ∫ cos²(3x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x/2 + sin(6x)/12 + C", "label": "A" },
+      { "text": "x/2 - sin(6x)/12 + C", "label": "B" },
+      { "text": "x/6 + sin(6x)/12 + C", "label": "C" },
+      { "text": "x/6 - sin(6x)/12 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "cos²(3x) = (1 + cos6x)/2. ∫ cos²(3x) dx = ∫ (1 + cos6x)/2 dx = x/2 + sin(6x)/12 + C."
+  },
+  {
+    "questionText": "find ∫ sin x cos x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin²x/2 + C", "label": "A" },
+      { "text": "-cos²x/2 + C", "label": "B" },
+      { "text": "cos²x/2 + C", "label": "C" },
+      { "text": "-sin²x/2 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x, du = cos x dx. ∫ sin x cos x dx = ∫ u du = u²/2 + C = sin²x/2 + C."
+  },
+  {
+    "questionText": "find ∫ sin(3x) cos(3x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin²(3x)/6 + C", "label": "A" },
+      { "text": "sin²(3x)/2 + C", "label": "B" },
+      { "text": "-cos²(3x)/6 + C", "label": "C" },
+      { "text": "cos²(3x)/6 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin(3x), du = 3cos(3x) dx. ∫ sin(3x) cos(3x) dx = 1/3 ∫ u du = u²/6 + C = sin²(3x)/6 + C."
+  },
+  {
+    "questionText": "find ∫ sin(2x) cos(2x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin²(2x)/4 + C", "label": "A" },
+      { "text": "sin²(2x)/2 + C", "label": "B" },
+      { "text": "-cos²(2x)/4 + C", "label": "C" },
+      { "text": "cos²(2x)/4 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin(2x), du = 2cos(2x) dx. ∫ sin(2x) cos(2x) dx = 1/2 ∫ u du = u²/4 + C = sin²(2x)/4 + C."
+  },
+  {
+    "questionText": "find ∫ sin x cos² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-cos³x/3 + C", "label": "A" },
+      { "text": "cos³x/3 + C", "label": "B" },
+      { "text": "sin³x/3 + C", "label": "C" },
+      { "text": "-sin³x/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = cos x, du = -sin x dx. ∫ sin x cos² x dx = -∫ u² du = -u³/3 + C = -cos³x/3 + C."
+  },
+  {
+    "questionText": "find ∫ cos x sin² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin³x/3 + C", "label": "A" },
+      { "text": "-sin³x/3 + C", "label": "B" },
+      { "text": "cos³x/3 + C", "label": "C" },
+      { "text": "-cos³x/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x, du = cos x dx. ∫ cos x sin² x dx = ∫ u² du = u³/3 + C = sin³x/3 + C."
+  },
+  {
+    "questionText": "evaluate ∫₀^π sin² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "π/2", "label": "A" },
+      { "text": "π", "label": "B" },
+      { "text": "π/4", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^π sin²x dx = ∫₀^π (1 - cos2x)/2 dx = [x/2 - sin2x/4]₀^π = π/2."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) sin x cos x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "1/4", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) sin x cos x dx = [sin²x/2]₀^(π/2) = 1/2 - 0 = 1/2."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) cos² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "π/4", "label": "A" },
+      { "text": "π/2", "label": "B" },
+      { "text": "π", "label": "C" },
+      { "text": "π/8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/2) cos²x dx = ∫₀^(π/2) (1 + cos2x)/2 dx = [x/2 + sin2x/4]₀^(π/2) = π/4."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/4) sin² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "π/8 - 1/4", "label": "A" },
+      { "text": "π/8 + 1/4", "label": "B" },
+      { "text": "π/4 - 1/2", "label": "C" },
+      { "text": "π/4 + 1/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "∫₀^(π/4) sin²x dx = [x/2 - sin2x/4]₀^(π/4) = π/8 - 1/4."
+  },
+  {
+    "questionText": "find ∫ 2x(x² + 1)^(-1/2) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2√(x²+1) + C", "label": "A" },
+      { "text": "√(x²+1) + C", "label": "B" },
+      { "text": "1/√(x²+1) + C", "label": "C" },
+      { "text": "2/√(x²+1) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+1, du = 2x dx. ∫ 2x(x²+1)^(-1/2) dx = ∫ u^(-1/2) du = 2u^(1/2) + C = 2√(x²+1) + C."
+  },
+  {
+    "questionText": "find ∫ 4x³(x⁴+2)^(1/2) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x⁴+2)^(3/2)/3 + C", "label": "A" },
+      { "text": "2(x⁴+2)^(3/2)/3 + C", "label": "B" },
+      { "text": "(x⁴+2)^(1/2) + C", "label": "C" },
+      { "text": "4(x⁴+2)^(3/2)/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x⁴+2, du = 4x³ dx. ∫ 4x³(x⁴+2)^(1/2) dx = ∫ u^(1/2) du = 2u^(3/2)/3 + C = 2(x⁴+2)^(3/2)/3 + C."
+  },
+  {
+    "questionText": "find ∫ 3x²/(x³+5) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln(x³+5) + C", "label": "A" },
+      { "text": "3ln(x³+5) + C", "label": "B" },
+      { "text": "ln(x³+5)/3 + C", "label": "C" },
+      { "text": "1/(x³+5) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³+5, du = 3x² dx. ∫ 3x²/(x³+5) dx = ∫ 1/u du = ln|u| + C = ln(x³+5) + C."
+  },
+  {
+    "questionText": "find ∫ sin x cos³ x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-cos⁴x/4 + C", "label": "A" },
+      { "text": "cos⁴x/4 + C", "label": "B" },
+      { "text": "sin⁴x/4 + C", "label": "C" },
+      { "text": "-sin⁴x/4 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = cos x, du = -sin x dx. ∫ sin x cos³ x dx = -∫ u³ du = -u⁴/4 + C = -cos⁴x/4 + C."
+  },
+  {
+    "questionText": "find ∫ cos x sin³ x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin⁴x/4 + C", "label": "A" },
+      { "text": "-sin⁴x/4 + C", "label": "B" },
+      { "text": "cos⁴x/4 + C", "label": "C" },
+      { "text": "-cos⁴x/4 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x, du = cos x dx. ∫ cos x sin³ x dx = ∫ u³ du = u⁴/4 + C = sin⁴x/4 + C."
+  },
+  {
+    "questionText": "find ∫ x² e^(x³) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^(x³)/3 + C", "label": "A" },
+      { "text": "e^(x³) + C", "label": "B" },
+      { "text": "x³ e^(x³)/3 + C", "label": "C" },
+      { "text": "3e^(x³) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³, du = 3x² dx. ∫ x² e^(x³) dx = 1/3 ∫ e^u du = e^u/3 + C = e^(x³)/3 + C."
+  },
+  {
+    "questionText": "find ∫ x/(x²+1) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/2 ln(x²+1) + C", "label": "A" },
+      { "text": "ln(x²+1) + C", "label": "B" },
+      { "text": "1/(x²+1) + C", "label": "C" },
+      { "text": "tan^(-1) x + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+1, du = 2x dx. ∫ x/(x²+1) dx = 1/2 ∫ 1/u du = 1/2 ln|u| + C = 1/2 ln(x²+1) + C."
+  },
+  {
+    "questionText": "find ∫ 1/[x(x+2)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/2 ln|x| - 1/2 ln|x+2| + C", "label": "A" },
+      { "text": "ln|x| - ln|x+2| + C", "label": "B" },
+      { "text": "1/2 ln|x| + 1/2 ln|x+2| + C", "label": "C" },
+      { "text": "ln|x| + ln|x+2| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[x(x+2)] = A/x + B/(x+2). A = 1/2, B = -1/2. ∫ [1/2x - 1/2(x+2)] dx = 1/2 ln|x| - 1/2 ln|x+2| + C."
+  },
+  {
+    "questionText": "find ∫ x e^(x²) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^(x²)/2 + C", "label": "A" },
+      { "text": "e^(x²) + C", "label": "B" },
+      { "text": "x² e^(x²)/2 + C", "label": "C" },
+      { "text": "2e^(x²) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x², du = 2x dx. ∫ x e^(x²) dx = 1/2 ∫ e^u du = e^u/2 + C = e^(x²)/2 + C."
+  },
+  {
+    "questionText": "find ∫ cos x e^(sin x) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^(sin x) + C", "label": "A" },
+      { "text": "e^(sin x)/2 + C", "label": "B" },
+      { "text": "sin x e^(sin x) + C", "label": "C" },
+      { "text": "cos x e^(sin x) + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x, du = cos x dx. ∫ cos x e^(sin x) dx = ∫ e^u du = e^u + C = e^(sin x) + C."
+  },
+  {
+    "questionText": "find ∫ 2x/(x²+1)² dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x²+1) + C", "label": "A" },
+      { "text": "1/(x²+1) + C", "label": "B" },
+      { "text": "-1/2(x²+1)² + C", "label": "C" },
+      { "text": "1/2(x²+1)² + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+1, du = 2x dx. ∫ 2x/(x²+1)² dx = ∫ u^(-2) du = -u^(-1) + C = -1/(x²+1) + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+3)(x+5)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/2 ln|(x+3)/(x+5)| + C", "label": "A" },
+      { "text": "1/2 ln|(x+5)/(x+3)| + C", "label": "B" },
+      { "text": "ln|(x+3)/(x+5)| + C", "label": "C" },
+      { "text": "1/2 ln|(x+3)(x+5)| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x+3)(x+5)] = A/(x+3) + B/(x+5). A = 1/2, B = -1/2. ∫ [1/2(x+3) - 1/2(x+5)] dx = 1/2 ln|x+3| - 1/2 ln|x+5| + C = 1/2 ln|(x+3)/(x+5)| + C."
+  },
+  {
+    "questionText": "find ∫ x² e^(x³) dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^(x³)/3 + C", "label": "A" },
+      { "text": "e^(x³) + C", "label": "B" },
+      { "text": "3e^(x³) + C", "label": "C" },
+      { "text": "x³ e^(x³)/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³, du = 3x² dx. ∫ x² e^(x³) dx = 1/3 ∫ e^u du = e^u/3 + C = e^(x³)/3 + C."
+  },
+  {
+    "questionText": "find ∫ sin³ x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-cos x + cos³x/3 + C", "label": "A" },
+      { "text": "cos x - cos³x/3 + C", "label": "B" },
+      { "text": "-cos x - cos³x/3 + C", "label": "C" },
+      { "text": "cos x + cos³x/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "sin³x = sin x(1 - cos²x). ∫ sin³x dx = ∫ sin x dx - ∫ sin x cos²x dx = -cos x + cos³x/3 + C."
+  },
+  {
+    "questionText": "find ∫ cos³ x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin x - sin³x/3 + C", "label": "A" },
+      { "text": "sin x + sin³x/3 + C", "label": "B" },
+      { "text": "-sin x + sin³x/3 + C", "label": "C" },
+      { "text": "-sin x - sin³x/3 + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "cos³x = cos x(1 - sin²x). ∫ cos³x dx = ∫ cos x dx - ∫ cos x sin²x dx = sin x - sin³x/3 + C."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ 2x(x²+1)³ dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "15/4", "label": "A" },
+      { "text": "13/4", "label": "B" },
+      { "text": "17/4", "label": "C" },
+      { "text": "11/4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+1, du = 2x dx. When x=0, u=1; when x=1, u=2. ∫₁² u³ du = [u⁴/4]₁² = 16/4 - 1/4 = 15/4."
+  },
+  {
+    "questionText": "evaluate ∫₀¹ 3x²(x³+1)² dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "7/3", "label": "A" },
+      { "text": "8/3", "label": "B" },
+      { "text": "5/3", "label": "C" },
+      { "text": "10/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³+1, du = 3x² dx. When x=0, u=1; when x=1, u=2. ∫₁² u² du = [u³/3]₁² = 8/3 - 1/3 = 7/3."
+  },
+  {
+    "questionText": "evaluate ∫₀^(π/2) sin x cos² x dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/3", "label": "A" },
+      { "text": "2/3", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "1/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = cos x, du = -sin x dx. When x=0, u=1; when x=π/2, u=0. ∫₁⁰ -u² du = ∫₀¹ u² du = [u³/3]₀¹ = 1/3."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+4)(x-1)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/5 ln|(x-1)/(x+4)| + C", "label": "A" },
+      { "text": "1/5 ln|(x+4)/(x-1)| + C", "label": "B" },
+      { "text": "ln|(x-1)/(x+4)| + C", "label": "C" },
+      { "text": "1/5 ln|(x+4)(x-1)| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x+4)(x-1)] = A/(x+4) + B/(x-1). A = -1/5, B = 1/5. ∫ [-1/5(x+4) + 1/5(x-1)] dx = 1/5 ln|x-1| - 1/5 ln|x+4| + C = 1/5 ln|(x-1)/(x+4)| + C."
+  },
+  {
+    "questionText": "find ∫ 1/[(x+1)(x-2)] dx.",
+    "topic": "techniques of integration",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 9,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/3 ln|(x-2)/(x+1)| + C", "label": "A" },
+      { "text": "1/3 ln|(x+1)/(x-2)| + C", "label": "B" },
+      { "text": "ln|(x-2)/(x+1)| + C", "label": "C" },
+      { "text": "1/3 ln|(x+1)(x-2)| + C", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "1/[(x+1)(x-2)] = A/(x+1) + B/(x-2). A = -1/3, B = 1/3. ∫ [-1/3(x+1) + 1/3(x-2)] dx = 1/3 ln|x-2| - 1/3 ln|x+1| + C = 1/3 ln|(x-2)/(x+1)| + C."
+  }
+]

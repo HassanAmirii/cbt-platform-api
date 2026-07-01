@@ -1,0 +1,1779 @@
+[
+  {
+    "questionText": "what is a function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "a set of random numbers", "label": "A" },
+      {
+        "text": "a correspondence between two sets where each input has a unique output",
+        "label": "B"
+      },
+      { "text": "a type of graph", "label": "C" },
+      { "text": "a mathematical operation with no rules", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a function is a correspondence between two sets, x and y, where each element in x is assigned to a unique element in y."
+  },
+  {
+    "questionText": "what is the domain of a function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the set of all possible outputs", "label": "A" },
+      { "text": "the set of all possible inputs", "label": "B" },
+      { "text": "the set of all real numbers", "label": "C" },
+      { "text": "the graph of the function", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the domain of a function is the set of all possible input values (x-values) for which the function is defined."
+  },
+  {
+    "questionText": "what is the range of a function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the set of all possible outputs", "label": "A" },
+      { "text": "the set of all possible inputs", "label": "B" },
+      { "text": "the set of all real numbers", "label": "C" },
+      { "text": "the domain of the inverse", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the range of a function is the set of all actual output values (y-values) that the function produces."
+  },
+  {
+    "questionText": "what is the co-domain of a function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      {
+        "text": "the set of all possible outputs the function could map to",
+        "label": "A"
+      },
+      { "text": "the set of all possible inputs", "label": "B" },
+      { "text": "the actual outputs of the function", "label": "C" },
+      { "text": "the graph of the function", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the co-domain is the set of all possible outputs that the function could map to, which may be larger than the actual range."
+  },
+  {
+    "questionText": "which of the following is a polynomial function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = 2x + 3", "label": "A" },
+      { "text": "f(x) = 1/x", "label": "B" },
+      { "text": "f(x) = e^x", "label": "C" },
+      { "text": "f(x) = sin x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "a polynomial function is of the form f(x) = a₀ + a₁x + a₂x² + ... + aₙxⁿ. f(x) = 2x + 3 is a linear polynomial."
+  },
+  {
+    "questionText": "which of the following is a rational function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = x²", "label": "A" },
+      { "text": "f(x) = (x+1)/(x-2)", "label": "B" },
+      { "text": "f(x) = e^x", "label": "C" },
+      { "text": "f(x) = sin x", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a rational function is the ratio of two polynomial functions, such as f(x) = (x+1)/(x-2)."
+  },
+  {
+    "questionText": "which of the following is an exponential function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = x²", "label": "A" },
+      { "text": "f(x) = 2x + 3", "label": "B" },
+      { "text": "f(x) = 2^x", "label": "C" },
+      { "text": "f(x) = ln x", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "an exponential function has the variable in the exponent, such as f(x) = a^x where a > 0 and a ≠ 1."
+  },
+  {
+    "questionText": "the algebraic representation f(x) = 2x + 3 is an example of which type of representation?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "graphical", "label": "A" },
+      { "text": "algebraic", "label": "B" },
+      { "text": "tabular", "label": "C" },
+      { "text": "numerical", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "an algebraic representation uses mathematical symbols and operations to express the relationship between variables."
+  },
+  {
+    "questionText": "what is the shape of the graph of f(x) = x²?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "a straight line", "label": "A" },
+      { "text": "a circle", "label": "B" },
+      { "text": "a parabola opening upwards", "label": "C" },
+      { "text": "a hyperbola", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the graph of the quadratic function f(x) = x² is a parabola that opens upwards."
+  },
+  {
+    "questionText": "what is the shape of the graph of f(x) = 2x + 3?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "a straight line", "label": "A" },
+      { "text": "a parabola", "label": "B" },
+      { "text": "a circle", "label": "C" },
+      { "text": "a hyperbola", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the graph of a linear function f(x) = 2x + 3 is a straight line with slope 2 and y-intercept 3."
+  },
+  {
+    "questionText": "for which type of data is a tabular representation especially useful?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "continuous data", "label": "A" },
+      { "text": "discrete data", "label": "B" },
+      { "text": "infinite data", "label": "C" },
+      { "text": "random data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "tabular representations are particularly useful when dealing with discrete data or when plotting graphs manually."
+  },
+  {
+    "questionText": "a graphical representation of a function is plotted on a:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "number line", "label": "A" },
+      { "text": "coordinate plane", "label": "B" },
+      { "text": "table", "label": "C" },
+      { "text": "hierarchy chart", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "functions are graphed by plotting (x, y) coordinates on a cartesian coordinate plane."
+  },
+  {
+    "questionText": "what operation is defined as (f + g)(x) = f(x) + g(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "multiplication", "label": "A" },
+      { "text": "subtraction", "label": "B" },
+      { "text": "division", "label": "C" },
+      { "text": "addition", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "this represents the addition of two functions, where the outputs of f and g are summed."
+  },
+  {
+    "questionText": "what operation is defined as (f - g)(x) = f(x) - g(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "addition", "label": "A" },
+      { "text": "subtraction", "label": "B" },
+      { "text": "multiplication", "label": "C" },
+      { "text": "division", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "this represents the subtraction of two functions, where the output of g is subtracted from the output of f."
+  },
+  {
+    "questionText": "what operation is defined as (f · g)(x) = f(x) × g(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "addition", "label": "A" },
+      { "text": "subtraction", "label": "B" },
+      { "text": "multiplication", "label": "C" },
+      { "text": "division", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the notation (f · g)(x) = f(x) × g(x) represents the multiplication of two functions."
+  },
+  {
+    "questionText": "what operation is defined as (f/g)(x) = f(x)/g(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "addition", "label": "A" },
+      { "text": "subtraction", "label": "B" },
+      { "text": "multiplication", "label": "C" },
+      { "text": "division", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "the notation (f/g)(x) = f(x)/g(x) represents the division of two functions, provided that g(x) ≠ 0."
+  },
+  {
+    "questionText": "what does the notation (f ∘ g)(x) represent?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "applying f to the output of g", "label": "A" },
+      { "text": "applying g to the output of f", "label": "B" },
+      { "text": "multiplying f by g", "label": "C" },
+      { "text": "subtracting g from f", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "composition (f ∘ g)(x) means f(g(x)), or applying the function f to the result of function g."
+  },
+  {
+    "questionText": "if f(x) = 2x and g(x) = x + 1, what is (f ∘ g)(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x + 1", "label": "A" },
+      { "text": "2(x + 1)", "label": "B" },
+      { "text": "2x² + 2", "label": "C" },
+      { "text": "x + 3", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(g(x)) = f(x + 1) = 2(x + 1)."
+  },
+  {
+    "questionText": "if f(x) = x + 2 and g(x) = x², what is (f ∘ g)(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x² + 2", "label": "A" },
+      { "text": "(x + 2)²", "label": "B" },
+      { "text": "x² + 2x + 2", "label": "C" },
+      { "text": "x² + x + 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(g(x)) = f(x²) = x² + 2."
+  },
+  {
+    "questionText": "if f(x) = x² and g(x) = x + 2, what is (f ∘ g)(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x² + 2", "label": "A" },
+      { "text": "(x + 2)²", "label": "B" },
+      { "text": "x² + 4x + 4", "label": "C" },
+      { "text": "x² + x + 2", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(g(x)) = f(x + 2) = (x + 2)²."
+  },
+  {
+    "questionText": "if f(x) = 2x + 3, what is f(2)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "5", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "7", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "f(2) = 2(2) + 3 = 4 + 3 = 7."
+  },
+  {
+    "questionText": "if f(x) = 3x - 1, what is f(0)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "-1", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "3", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(0) = 3(0) - 1 = -1."
+  },
+  {
+    "questionText": "a function must be ________ to have an inverse.",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "linear", "label": "A" },
+      { "text": "bijective", "label": "B" },
+      { "text": "continuous", "label": "C" },
+      { "text": "periodic", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a function has an inverse only if it is bijective, meaning it is both one-to-one and onto."
+  },
+  {
+    "questionText": "what is the first step to find the inverse of f(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "swap x and y", "label": "A" },
+      { "text": "solve for y", "label": "B" },
+      { "text": "replace f(x) with y", "label": "C" },
+      { "text": "replace y with f⁻¹(x)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the first step in finding an inverse is replacing the function notation f(x) with the variable y."
+  },
+  {
+    "questionText": "what is the second step to find the inverse of f(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "replace f(x) with y", "label": "A" },
+      { "text": "swap x and y", "label": "B" },
+      { "text": "solve for y", "label": "C" },
+      { "text": "replace y with f⁻¹(x)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "after replacing f(x) with y, the second step is to swap the positions of x and y."
+  },
+  {
+    "questionText": "what is the third step to find the inverse of f(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "replace f(x) with y", "label": "A" },
+      { "text": "swap x and y", "label": "B" },
+      { "text": "solve for y", "label": "C" },
+      { "text": "replace y with f⁻¹(x)", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "after swapping x and y, you must isolate (solve for) the new y."
+  },
+  {
+    "questionText": "what is the fourth step to find the inverse of f(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "replace f(x) with y", "label": "A" },
+      { "text": "swap x and y", "label": "B" },
+      { "text": "solve for y", "label": "C" },
+      { "text": "replace y with f⁻¹(x)", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "the final step is to relabel the isolated y as the inverse function f⁻¹(x)."
+  },
+  {
+    "questionText": "if f(x) = 2x + 3, what is its inverse function f⁻¹(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x - 3", "label": "A" },
+      { "text": "(x - 3)/2", "label": "B" },
+      { "text": "x/2 + 3", "label": "C" },
+      { "text": "(x + 3)/2", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "replacing f(x) with y, swapping x and y (x = 2y + 3), and solving for y gives y = (x - 3)/2."
+  },
+  {
+    "questionText": "if f(x) = x + 2, what is its inverse function f⁻¹(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x - 2", "label": "A" },
+      { "text": "x + 2", "label": "B" },
+      { "text": "2x", "label": "C" },
+      { "text": "x/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "y = x + 2 → x = y + 2 → y = x - 2."
+  },
+  {
+    "questionText": "if f(x) = 3x, what is its inverse function f⁻¹(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x", "label": "A" },
+      { "text": "x/3", "label": "B" },
+      { "text": "x - 3", "label": "C" },
+      { "text": "x + 3", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "y = 3x → x = 3y → y = x/3."
+  },
+  {
+    "questionText": "if f(x) = x - 5, what is its inverse function f⁻¹(x)?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x - 5", "label": "A" },
+      { "text": "x + 5", "label": "B" },
+      { "text": "5 - x", "label": "C" },
+      { "text": "x/5", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "y = x - 5 → x = y - 5 → y = x + 5."
+  },
+  {
+    "questionText": "a function is considered 'even' if it satisfies which condition?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(-x) = -f(x)", "label": "A" },
+      { "text": "f(-x) = f(x)", "label": "B" },
+      { "text": "f(x + p) = f(x)", "label": "C" },
+      { "text": "f(x) = 1/x", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "even functions satisfy f(-x) = f(x) and are symmetric about the y-axis."
+  },
+  {
+    "questionText": "which function is a typical example of an 'odd' function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = x²", "label": "A" },
+      { "text": "f(x) = x³", "label": "B" },
+      { "text": "f(x) = |x|", "label": "C" },
+      { "text": "f(x) = cos x", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(x) = x³ is an odd function because f(-x) = (-x)³ = -x³ = -f(x)."
+  },
+  {
+    "questionText": "an even function is symmetric about which axis?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the x-axis", "label": "A" },
+      { "text": "the y-axis", "label": "B" },
+      { "text": "the origin", "label": "C" },
+      { "text": "the line y = x", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "even functions, like f(x) = x², show symmetry across the y-axis."
+  },
+  {
+    "questionText": "an odd function is symmetric about which point?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the x-axis", "label": "A" },
+      { "text": "the y-axis", "label": "B" },
+      { "text": "the origin", "label": "C" },
+      { "text": "the line y = x", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "odd functions, like f(x) = x³, are symmetric about the origin."
+  },
+  {
+    "questionText": "which of the following is an even function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = x³", "label": "A" },
+      { "text": "f(x) = x²", "label": "B" },
+      { "text": "f(x) = 2x + 3", "label": "C" },
+      { "text": "f(x) = 1/x", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(x) = x² is an even function because f(-x) = (-x)² = x² = f(x)."
+  },
+  {
+    "questionText": "which of the following is an odd function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x) = x²", "label": "A" },
+      { "text": "f(x) = x³", "label": "B" },
+      { "text": "f(x) = |x|", "label": "C" },
+      { "text": "f(x) = 2", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(x) = x³ is an odd function because f(-x) = -x³ = -f(x)."
+  },
+  {
+    "questionText": "in a decreasing function, what happens to the output as the input increases?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the output increases", "label": "A" },
+      { "text": "the output decreases", "label": "B" },
+      { "text": "the output stays the same", "label": "C" },
+      { "text": "the output becomes periodic", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "by definition, a decreasing function satisfies f(x₁) > f(x₂) whenever x₁ < x₂."
+  },
+  {
+    "questionText": "in an increasing function, what happens to the output as the input increases?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the output increases", "label": "A" },
+      { "text": "the output decreases", "label": "B" },
+      { "text": "the output stays the same", "label": "C" },
+      { "text": "the output becomes periodic", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "by definition, an increasing function satisfies f(x₁) < f(x₂) whenever x₁ < x₂."
+  },
+  {
+    "questionText": "a function is increasing if f(x₁) < f(x₂) whenever:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x₁ > x₂", "label": "A" },
+      { "text": "x₁ < x₂", "label": "B" },
+      { "text": "x₁ = x₂", "label": "C" },
+      { "text": "x₁ ≠ x₂", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a function is increasing if f(x₁) < f(x₂) whenever x₁ < x₂."
+  },
+  {
+    "questionText": "a function is decreasing if f(x₁) > f(x₂) whenever:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x₁ > x₂", "label": "A" },
+      { "text": "x₁ < x₂", "label": "B" },
+      { "text": "x₁ = x₂", "label": "C" },
+      { "text": "x₁ ≠ x₂", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a function is decreasing if f(x₁) > f(x₂) whenever x₁ < x₂."
+  },
+  {
+    "questionText": "what is a function called if its output values stay within a fixed range?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "periodic", "label": "A" },
+      { "text": "bounded", "label": "B" },
+      { "text": "bijective", "label": "C" },
+      { "text": "rational", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a function is bounded if there exists a positive constant m such that |f(x)| ≤ m for all x."
+  },
+  {
+    "questionText": "the smallest positive interval after which a periodic function repeats is called its:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "domain", "label": "A" },
+      { "text": "amplitude", "label": "B" },
+      { "text": "period", "label": "C" },
+      { "text": "range", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the smallest positive interval p such that f(x + p) = f(x) is known as the period."
+  },
+  {
+    "questionText": "which representation is best for observing patterns like symmetry and intercepts most easily?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "algebraic", "label": "A" },
+      { "text": "graphical", "label": "B" },
+      { "text": "tabular", "label": "C" },
+      { "text": "numerical", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "graphical representations provide a visual form to easily see behavioral patterns like symmetry and intercepts."
+  },
+  {
+    "questionText": "which representation is most useful for performing calculations and deriving properties analytically?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "algebraic", "label": "A" },
+      { "text": "graphical", "label": "B" },
+      { "text": "tabular", "label": "C" },
+      { "text": "numerical", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the algebraic form (f(x) = 2x + 3) is best for analytical derivation and calculation."
+  },
+  {
+    "questionText": "which of the following are common examples of periodic functions?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x² and x³", "label": "A" },
+      { "text": "2x + 3 and x + 2", "label": "B" },
+      { "text": "sin x and cos x", "label": "C" },
+      { "text": "ln x and e^x", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the sine and cosine functions are classic examples of periodic functions with a period of 2π."
+  },
+  {
+    "questionText": "if f(x) = sin x, it is bounded between which two values?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0 and 1", "label": "A" },
+      { "text": "-1 and 1", "label": "B" },
+      { "text": "-∞ and +∞", "label": "C" },
+      { "text": "-2π and 2π", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the function f(x) = sin x is a bounded function that never exceeds 1 and never goes below -1."
+  },
+  {
+    "questionText": "if f(x) = cos x, it is bounded between which two values?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0 and 1", "label": "A" },
+      { "text": "-1 and 1", "label": "B" },
+      { "text": "-∞ and +∞", "label": "C" },
+      { "text": "-π and π", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the function f(x) = cos x is a bounded function that never exceeds 1 and never goes below -1."
+  },
+  {
+    "questionText": "a function is bounded above if:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "it has no maximum", "label": "A" },
+      { "text": "there is a minimum it does not go below", "label": "B" },
+      { "text": "there is a maximum value it does not exceed", "label": "C" },
+      { "text": "it is symmetric", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "bounded above means there is a ceiling (maximum) that the function's output never crosses."
+  },
+  {
+    "questionText": "a bijective function is both:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even and odd", "label": "A" },
+      { "text": "one-to-one and onto", "label": "B" },
+      { "text": "increasing and decreasing", "label": "C" },
+      { "text": "linear and quadratic", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "bijectivity requires a function to be both injective (one-to-one) and surjective (onto)."
+  },
+  {
+    "questionText": "a function is one-to-one if:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(x₁) = f(x₂) implies x₁ = x₂", "label": "A" },
+      { "text": "f(x₁) ≠ f(x₂) for all x₁ ≠ x₂", "label": "B" },
+      { "text": "the range equals the co-domain", "label": "C" },
+      { "text": "the function is periodic", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "a function is one-to-one if different inputs always produce different outputs."
+  },
+  {
+    "questionText": "a function is onto if:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      {
+        "text": "every element in the domain maps to a unique output",
+        "label": "A"
+      },
+      { "text": "the range equals the co-domain", "label": "B" },
+      { "text": "the function is periodic", "label": "C" },
+      { "text": "the function is bounded", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "a function is onto if every element in the co-domain is the image of at least one element in the domain."
+  },
+  {
+    "questionText": "what is the value of f(x) = x + 2 at x = -1?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "3", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(-1) = -1 + 2 = 1."
+  },
+  {
+    "questionText": "what is the value of f(x) = x + 2 at x = 2?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "4", "label": "C" },
+      { "text": "5", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "f(2) = 2 + 2 = 4."
+  },
+  {
+    "questionText": "what is the value of f(x) = x + 2 at x = 0?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "3", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "f(0) = 0 + 2 = 2."
+  },
+  {
+    "questionText": "what is the value of f(x) = x + 2 at x = 3?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "4", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "6", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "f(3) = 3 + 2 = 5."
+  },
+  {
+    "questionText": "the algebraic representation f(x) = 2x + 3 describes an input being transformed by:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "multiplying by 3, adding 2", "label": "A" },
+      { "text": "multiplying by 2, adding 3", "label": "B" },
+      { "text": "squaring and adding 3", "label": "C" },
+      { "text": "dividing by 2", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the formula explicitly shows multiplication by 2 followed by addition of 3."
+  },
+  {
+    "questionText": "graphical representations use input-output pairs plotted on a:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "table", "label": "A" },
+      { "text": "coordinate plane", "label": "B" },
+      { "text": "number line", "label": "C" },
+      { "text": "hierarchy chart", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "functions are graphed by plotting (x, y) coordinates on a cartesian plane."
+  },
+  {
+    "questionText": "if x increases and f(x) decreases, the function is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "increasing", "label": "A" },
+      { "text": "decreasing", "label": "B" },
+      { "text": "constant", "label": "C" },
+      { "text": "even", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "this inverse relationship between input and output defines a decreasing function."
+  },
+  {
+    "questionText": "if x increases and f(x) also increases, the function is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "increasing", "label": "A" },
+      { "text": "decreasing", "label": "B" },
+      { "text": "constant", "label": "C" },
+      { "text": "odd", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "this direct relationship between input and output defines an increasing function."
+  },
+  {
+    "questionText": "the sine function is an example of which type of function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "periodic", "label": "A" },
+      { "text": "linear", "label": "B" },
+      { "text": "polynomial", "label": "C" },
+      { "text": "rational", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "the sine function repeats its values at regular intervals, making it a periodic function."
+  },
+  {
+    "questionText": "which arithmetic operation on functions requires the condition g(x) ≠ 0?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "addition", "label": "A" },
+      { "text": "subtraction", "label": "B" },
+      { "text": "multiplication", "label": "C" },
+      { "text": "division", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "division (f/g)(x) is defined as f(x)/g(x), provided that g(x) ≠ 0."
+  },
+  {
+    "questionText": "the notation f⁻¹(x) represents the:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "reciprocal of f", "label": "A" },
+      { "text": "inverse of f", "label": "B" },
+      { "text": "negative of f", "label": "C" },
+      { "text": "derivative of f", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f⁻¹(x) is the standard notation for the inverse function."
+  },
+  {
+    "questionText": "combining functions can involve how many basic arithmetic operations?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "two", "label": "A" },
+      { "text": "three", "label": "B" },
+      { "text": "four", "label": "C" },
+      { "text": "five", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "there are four basic arithmetic operations on functions: addition, subtraction, multiplication, and division."
+  },
+  {
+    "questionText": "a parabola opening upwards (f(x) = x²) is a characteristic of which type of function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "linear functions", "label": "A" },
+      { "text": "quadratic functions", "label": "B" },
+      { "text": "cubic functions", "label": "C" },
+      { "text": "exponential functions", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "quadratic functions (like x²) produce parabolic curves."
+  },
+  {
+    "questionText": "the domain of a function refers to the set of all possible:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "outputs", "label": "A" },
+      { "text": "inputs", "label": "B" },
+      { "text": "co-domains", "label": "C" },
+      { "text": "ranges", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "domain is the set of all allowed input values."
+  },
+  {
+    "questionText": "the range of a function refers to the set of all actual:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "inputs", "label": "A" },
+      { "text": "outputs", "label": "B" },
+      { "text": "constants", "label": "C" },
+      { "text": "inverses", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "range is the set of values that the function actually produces as outputs."
+  },
+  {
+    "questionText": "which operation is common in nested processes or multi-step transformations?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "addition", "label": "A" },
+      { "text": "subtraction", "label": "B" },
+      { "text": "composition", "label": "C" },
+      { "text": "multiplication", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "composition of functions (f ∘ g) is ideal for modeling multi-step or nested mathematical processes."
+  },
+  {
+    "questionText": "x² is an example of which type of function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even", "label": "A" },
+      { "text": "odd", "label": "B" },
+      { "text": "inverse", "label": "C" },
+      { "text": "bounded", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = x² is the quintessential example of an even function because f(-x) = f(x)."
+  },
+  {
+    "questionText": "x³ is an example of which type of function?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even", "label": "A" },
+      { "text": "odd", "label": "B" },
+      { "text": "periodic", "label": "C" },
+      { "text": "constant", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(x) = x³ is an odd function because f(-x) = -x³ = -f(x)."
+  },
+  {
+    "questionText": "which graph shows symmetry about the origin?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "an even function", "label": "A" },
+      { "text": "an odd function", "label": "B" },
+      { "text": "an increasing function", "label": "C" },
+      { "text": "a periodic function", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "symmetry about the origin is the defining graphical characteristic of an odd function."
+  },
+  {
+    "questionText": "which graph shows symmetry about the y-axis?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "an even function", "label": "A" },
+      { "text": "an odd function", "label": "B" },
+      { "text": "an increasing function", "label": "C" },
+      { "text": "a decreasing function", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "symmetry about the y-axis is the defining graphical characteristic of an even function."
+  },
+  {
+    "questionText": "a function is bounded below if there is a ________ it does not go below.",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "maximum", "label": "A" },
+      { "text": "minimum", "label": "B" },
+      { "text": "origin", "label": "C" },
+      { "text": "variable", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "bounded below means there is a lower limit or minimum value."
+  },
+  {
+    "questionText": "a function is bounded above if there is a ________ it does not exceed.",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "maximum", "label": "A" },
+      { "text": "minimum", "label": "B" },
+      { "text": "origin", "label": "C" },
+      { "text": "variable", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "bounded above means there is an upper limit or maximum value."
+  },
+  {
+    "questionText": "which function is bounded below but not above?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin x", "label": "A" },
+      { "text": "cos x", "label": "B" },
+      { "text": "x²", "label": "C" },
+      { "text": "x³", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "f(x) = x² never goes below 0 (bounded below) but increases infinitely (not bounded above)."
+  },
+  {
+    "questionText": "which function is bounded above but not below?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin x", "label": "A" },
+      { "text": "-x²", "label": "B" },
+      { "text": "x²", "label": "C" },
+      { "text": "x³", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "f(x) = -x² never goes above 0 (bounded above) but decreases infinitely (not bounded below)."
+  },
+  {
+    "questionText": "a function that repeats values at regular intervals is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "bounded", "label": "A" },
+      { "text": "periodic", "label": "B" },
+      { "text": "inverse", "label": "C" },
+      { "text": "quadratic", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "repeatability at regular intervals is the definition of periodicity."
+  },
+  {
+    "questionText": "the period of sine is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "π", "label": "A" },
+      { "text": "2π", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "sine repeats its values every 2π units."
+  },
+  {
+    "questionText": "the period of cosine is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "π", "label": "A" },
+      { "text": "2π", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "0", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "cosine repeats its values every 2π units."
+  },
+  {
+    "questionText": "for the function f(x) = x + 2, if x = 1, then f(x) is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "f(1) = 1 + 2 = 3."
+  },
+  {
+    "questionText": "arithmetic operations on functions help model:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "nested processes", "label": "A" },
+      { "text": "combined effects", "label": "B" },
+      { "text": "symmetry", "label": "C" },
+      { "text": "boundedness", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "operations like addition and multiplication are useful for modeling combined effects."
+  },
+  {
+    "questionText": "if f(-x) = -f(x), the function is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even", "label": "A" },
+      { "text": "odd", "label": "B" },
+      { "text": "bounded", "label": "C" },
+      { "text": "increasing", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "this is the mathematical definition of an odd function."
+  },
+  {
+    "questionText": "if f(-x) = f(x), the function is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even", "label": "A" },
+      { "text": "odd", "label": "B" },
+      { "text": "bounded", "label": "C" },
+      { "text": "decreasing", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "this is the mathematical definition of an even function."
+  },
+  {
+    "questionText": "a function that flips over the y-axis (f(-x) = f(x)) is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even", "label": "A" },
+      { "text": "odd", "label": "B" },
+      { "text": "increasing", "label": "C" },
+      { "text": "periodic", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "y-axis symmetry is a property of even functions."
+  },
+  {
+    "questionText": "a function that flips over the origin (f(-x) = -f(x)) is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even", "label": "A" },
+      { "text": "odd", "label": "B" },
+      { "text": "increasing", "label": "C" },
+      { "text": "periodic", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "origin symmetry is a property of odd functions."
+  },
+  {
+    "questionText": "composition f ∘ g is common in which application?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "discrete data", "label": "A" },
+      { "text": "symmetry", "label": "B" },
+      { "text": "nested processes", "label": "C" },
+      { "text": "domain mapping", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "composition is frequently applied to nested real-world processes."
+  },
+  {
+    "questionText": "inverse functions ________ the effect of the original function.",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "double", "label": "A" },
+      { "text": "cancel", "label": "B" },
+      { "text": "reverse", "label": "C" },
+      { "text": "amplify", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "inversion reverses the mapping, taking y back to x."
+  },
+  {
+    "questionText": "if f(x) is bounded, its outputs stay within a ________ range.",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "fixed", "label": "A" },
+      { "text": "infinite", "label": "B" },
+      { "text": "growing", "label": "C" },
+      { "text": "random", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "boundedness implies a restricted or fixed output range."
+  },
+  {
+    "questionText": "a 'one-to-one and onto' function is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "injective", "label": "A" },
+      { "text": "surjective", "label": "B" },
+      { "text": "bijective", "label": "C" },
+      { "text": "periodic", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "bijectivity is the combination of being one-to-one and onto."
+  },
+  {
+    "questionText": "if f(x) = 2x + 3, the output for x=1 is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "7", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "f(1) = 2(1) + 3 = 5."
+  },
+  {
+    "questionText": "if f(x) = 2x + 3, the output for x=0 is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "5", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "f(0) = 2(0) + 3 = 3."
+  },
+  {
+    "questionText": "which representation uses a coordinate plane?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "algebraic", "label": "A" },
+      { "text": "tabular", "label": "B" },
+      { "text": "graphical", "label": "C" },
+      { "text": "numerical", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "graphs are plotted on cartesian coordinate planes."
+  },
+  {
+    "questionText": "in an even function, f(-2) is equal to:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(2)", "label": "A" },
+      { "text": "-f(2)", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "for even functions, f(-x) = f(x)."
+  },
+  {
+    "questionText": "in an odd function, f(-2) is equal to:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f(2)", "label": "A" },
+      { "text": "-f(2)", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "1", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "for odd functions, f(-x) = -f(x)."
+  },
+  {
+    "questionText": "the smallest positive interval of repetition is the:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "domain", "label": "A" },
+      { "text": "range", "label": "B" },
+      { "text": "period", "label": "C" },
+      { "text": "limit", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "this is the formal definition of a function's period."
+  },
+  {
+    "questionText": "which function is bounded between -1 and 1?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x²", "label": "A" },
+      { "text": "x³", "label": "B" },
+      { "text": "sin x", "label": "C" },
+      { "text": "2x + 3", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the sine function is bounded within the range [-1, 1]."
+  },
+  {
+    "questionText": "which function is bounded between -1 and 1?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x²", "label": "A" },
+      { "text": "x³", "label": "B" },
+      { "text": "cos x", "label": "C" },
+      { "text": "2x + 3", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "the cosine function is bounded within the range [-1, 1]."
+  },
+  {
+    "questionText": "a bijective function must be both injective and:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "even", "label": "A" },
+      { "text": "onto", "label": "B" },
+      { "text": "periodic", "label": "C" },
+      { "text": "bounded", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "bijective = injective (1-to-1) + surjective (onto)."
+  },
+  {
+    "questionText": "in composition (f ∘ g)(x), g(x) is the ________ function.",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "outer", "label": "A" },
+      { "text": "inner", "label": "B" },
+      { "text": "inverse", "label": "C" },
+      { "text": "result", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "g(x) is inside the parentheses of f, making it the inner function."
+  },
+  {
+    "questionText": "in composition (f ∘ g)(x), f(x) is the ________ function.",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "outer", "label": "A" },
+      { "text": "inner", "label": "B" },
+      { "text": "inverse", "label": "C" },
+      { "text": "result", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) is applied to the output of g(x), making it the outer function."
+  },
+  {
+    "questionText": "if f(x₁) > f(x₂) for x₁ < x₂, the function is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "increasing", "label": "A" },
+      { "text": "decreasing", "label": "B" },
+      { "text": "even", "label": "C" },
+      { "text": "odd", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "this defines a decreasing function trend."
+  },
+  {
+    "questionText": "if f(x₁) < f(x₂) for x₁ < x₂, the function is:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "increasing", "label": "A" },
+      { "text": "decreasing", "label": "B" },
+      { "text": "even", "label": "C" },
+      { "text": "odd", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "this defines an increasing function trend."
+  },
+  {
+    "questionText": "which operation models combined effects?",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "arithmetic operations", "label": "A" },
+      { "text": "composition", "label": "B" },
+      { "text": "inversion", "label": "C" },
+      { "text": "symmetry", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "basic addition, subtraction, multiplication, and division are used for combined effect modeling."
+  },
+  {
+    "questionText": "the algebraic representation f(x) = 2x + 3 is useful for performing:",
+    "topic": "functions, operations, and special classes",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 1,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "drawings", "label": "A" },
+      { "text": "calculations", "label": "B" },
+      { "text": "tables", "label": "C" },
+      { "text": "manual plots", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "the formulaic algebraic form is intended for calculation and analysis."
+  }
+]

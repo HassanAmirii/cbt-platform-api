@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "what is the definition of data according to the chapter?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Organized information ready for decision-making",
+        "label": "A"
+      },
+      {
+        "text": "Representations of facts, concepts, observations, or instructions in a form that can be communicated, interpreted, or processed",
+        "label": "B"
+      },
+      {
+        "text": "Only numerical values used in calculations",
+        "label": "C"
+      },
+      {
+        "text": "The final output of a computer system",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data is defined as representations of facts, concepts, observations, or instructions in a form that can be communicated, interpreted, or processed."
+  },
+  {
+    "questionText": "which of the following is an example of data mentioned in the chapter?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A chart showing best-selling products",
+        "label": "A"
+      },
+      {
+        "text": "A summary report",
+        "label": "B"
+      },
+      {
+        "text": "A list of student scores",
+        "label": "C"
+      },
+      {
+        "text": "A class average calculation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A list of student scores is raw data. The chart, summary, and average are processed forms that become information."
+  },
+  {
+    "questionText": "what is the difference between data and information?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data is always numerical; information is always textual",
+        "label": "A"
+      },
+      {
+        "text": "Data refers to raw recorded facts; information refers to data that has been processed, organized, or interpreted",
+        "label": "B"
+      },
+      {
+        "text": "Data and information are exactly the same",
+        "label": "C"
+      },
+      {
+        "text": "Data comes from computers; information comes from humans",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data refers to raw recorded facts, while information refers to data that has been processed, organized, or interpreted so that it becomes meaningful and useful."
+  },
+  {
+    "questionText": "a sheet containing fifty examination scores is considered:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Information",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "A conclusion",
+        "label": "C"
+      },
+      {
+        "text": "A recommendation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw examination scores are data because they are unprocessed recorded facts."
+  },
+  {
+    "questionText": "if scores are arranged to show the class average, highest score, lowest score, and pass rate, this becomes:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Information",
+        "label": "B"
+      },
+      {
+        "text": "Unprocessed facts",
+        "label": "C"
+      },
+      {
+        "text": "Qualitative data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When raw scores are processed and summarized, they become information because they now answer useful questions."
+  },
+  {
+    "questionText": "a class register showing individual attendance marks is an example of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Information",
+        "label": "A"
+      },
+      {
+        "text": "A summary",
+        "label": "B"
+      },
+      {
+        "text": "Data",
+        "label": "C"
+      },
+      {
+        "text": "A chart",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A class register with individual marks is raw data, not yet interpreted or summarized."
+  },
+  {
+    "questionText": "a summary stating that attendance dropped from 82% to 64% over three weeks is an example of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Information",
+        "label": "B"
+      },
+      {
+        "text": "Unprocessed records",
+        "label": "C"
+      },
+      {
+        "text": "Qualitative data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The summary is information because the raw records have been interpreted in a meaningful form."
+  },
+  {
+    "questionText": "complete the sentence: raw facts become more useful when they are organized and interpreted into ________.",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Information",
+        "label": "B"
+      },
+      {
+        "text": "Numbers",
+        "label": "C"
+      },
+      {
+        "text": "Codes",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw facts become more useful when they are organized and interpreted into information that people can use."
+  },
+  {
+    "questionText": "which of the following is not an example of data according to the chapter?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A student's matriculation number",
+        "label": "A"
+      },
+      {
+        "text": "A patient's identification number",
+        "label": "B"
+      },
+      {
+        "text": "A receipt total",
+        "label": "C"
+      },
+      {
+        "text": "A conclusion drawn from a survey",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "A conclusion drawn from a survey is information, not raw data."
+  },
+  {
+    "questionText": "according to the chapter, where does data appear?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only in laboratories",
+        "label": "A"
+      },
+      {
+        "text": "Only in large technology companies",
+        "label": "B"
+      },
+      {
+        "text": "In education, business, health, transport, finance, administration, and personal digital activity",
+        "label": "C"
+      },
+      {
+        "text": "Only in government records",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Data appears in education, business, health, transport, finance, administration, and personal digital activity."
+  },
+  {
+    "questionText": "qualitative data is also known as:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Numerical data",
+        "label": "A"
+      },
+      {
+        "text": "Categorical data",
+        "label": "B"
+      },
+      {
+        "text": "Continuous data",
+        "label": "C"
+      },
+      {
+        "text": "Discrete data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Qualitative data describes qualities, categories, labels, or attributes, and is often called categorical data."
+  },
+  {
+    "questionText": "which of the following is an example of qualitative data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Age",
+        "label": "A"
+      },
+      {
+        "text": "Weight",
+        "label": "B"
+      },
+      {
+        "text": "Blood group",
+        "label": "C"
+      },
+      {
+        "text": "Test score",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Blood group is qualitative because it describes a category (A, B, AB, O) rather than a numerical measurement."
+  },
+  {
+    "questionText": "which of the following is an example of quantitative data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Gender",
+        "label": "A"
+      },
+      {
+        "text": "Department",
+        "label": "B"
+      },
+      {
+        "text": "Number of students in a class",
+        "label": "C"
+      },
+      {
+        "text": "Eye color",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Number of students is quantitative because it is a numerical value obtained by counting."
+  },
+  {
+    "questionText": "quantitative data is especially useful for:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Describing categories",
+        "label": "A"
+      },
+      {
+        "text": "Mathematical and statistical analysis",
+        "label": "B"
+      },
+      {
+        "text": "Labeling attributes",
+        "label": "C"
+      },
+      {
+        "text": "Creating codes",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Quantitative data expresses amount, size, frequency, or measurement, making it especially useful for mathematical and statistical analysis."
+  },
+  {
+    "questionText": "discrete data arises from:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Measurement",
+        "label": "A"
+      },
+      {
+        "text": "Counting",
+        "label": "B"
+      },
+      {
+        "text": "Observation of qualities",
+        "label": "C"
+      },
+      {
+        "text": "Estimation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Discrete data arises from counting and can take only specific separate values, often whole numbers."
+  },
+  {
+    "questionText": "continuous data arises from:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Counting",
+        "label": "A"
+      },
+      {
+        "text": "Measurement",
+        "label": "B"
+      },
+      {
+        "text": "Categorization",
+        "label": "C"
+      },
+      {
+        "text": "Labelling",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Continuous data arises from measurement and can take any value within a range depending on precision."
+  },
+  {
+    "questionText": "which of the following is an example of discrete data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Height",
+        "label": "A"
+      },
+      {
+        "text": "Weight",
+        "label": "B"
+      },
+      {
+        "text": "Number of phone calls received",
+        "label": "C"
+      },
+      {
+        "text": "Temperature",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Number of phone calls is discrete because it involves counting whole units."
+  },
+  {
+    "questionText": "which of the following is an example of continuous data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Number of students",
+        "label": "A"
+      },
+      {
+        "text": "Number of books borrowed",
+        "label": "B"
+      },
+      {
+        "text": "Height",
+        "label": "C"
+      },
+      {
+        "text": "Number of goals scored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Height is continuous because it can be measured with increasing precision (e.g., 1.75 m, 1.753 m, etc.)."
+  },
+  {
+    "questionText": "classify: number of students in a class is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "C"
+      },
+      {
+        "text": "Ordinal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Number of students is quantitative and discrete because it involves counting whole individuals."
+  },
+  {
+    "questionText": "classify: body temperature measured in degrees celsius is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "C"
+      },
+      {
+        "text": "Nominal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Body temperature is quantitative continuous because it can take any value within a range and is measured."
+  },
+  {
+    "questionText": "classify: student department (e.g., computer science, physics) is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Quantitative discrete",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "B"
+      },
+      {
+        "text": "Qualitative",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Department is qualitative because it describes a category, not a numerical value."
+  },
+  {
+    "questionText": "the nominal scale is used for data that:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Has natural order with equal intervals",
+        "label": "A"
+      },
+      {
+        "text": "Has a true zero point",
+        "label": "B"
+      },
+      {
+        "text": "Places observations into categories with no natural order",
+        "label": "C"
+      },
+      {
+        "text": "Shows ranking with unknown spacing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The nominal scale is used for data that places observations into categories with no natural order."
+  },
+  {
+    "questionText": "which of the following is an example of nominal scale data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Examination grade (A, B, C)",
+        "label": "A"
+      },
+      {
+        "text": "Class position (1st, 2nd, 3rd)",
+        "label": "B"
+      },
+      {
+        "text": "Blood group (A, B, AB, O)",
+        "label": "C"
+      },
+      {
+        "text": "Temperature in Celsius",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Blood group is nominal because categories have no natural order or ranking."
+  },
+  {
+    "questionText": "the ordinal scale is used for data that:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Has categories with no order",
+        "label": "A"
+      },
+      {
+        "text": "Has categories with meaningful order but unknown spacing between categories",
+        "label": "B"
+      },
+      {
+        "text": "Has equal intervals and a true zero",
+        "label": "C"
+      },
+      {
+        "text": "Has equal intervals but no true zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The ordinal scale is used for data that falls into categories with a meaningful order or ranking, but where the exact size of difference is not known."
+  },
+  {
+    "questionText": "which of the following is an example of ordinal scale data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Blood group",
+        "label": "A"
+      },
+      {
+        "text": "Department name",
+        "label": "B"
+      },
+      {
+        "text": "Satisfaction rating (poor, fair, good, excellent)",
+        "label": "C"
+      },
+      {
+        "text": "Weight in kilograms",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Satisfaction rating is ordinal because it has order (poor < fair < good < excellent) but the differences are not equal."
+  },
+  {
+    "questionText": "the interval scale is characterized by:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Categories with no order",
+        "label": "A"
+      },
+      {
+        "text": "Order with unknown spacing",
+        "label": "B"
+      },
+      {
+        "text": "Equal differences between values are meaningful, but no true zero",
+        "label": "C"
+      },
+      {
+        "text": "Equal differences and a true zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The interval scale has equal differences between values, but no true zero that represents complete absence of the quantity."
+  },
+  {
+    "questionText": "which of the following is an example of interval scale data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Age",
+        "label": "A"
+      },
+      {
+        "text": "Weight",
+        "label": "B"
+      },
+      {
+        "text": "Temperature in degrees Celsius",
+        "label": "C"
+      },
+      {
+        "text": "Number of students",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Temperature in Celsius is interval scale because 0°C does not mean 'no temperature' and equal differences are meaningful."
+  },
+  {
+    "questionText": "the ratio scale has all features of the interval scale plus:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Categories with order",
+        "label": "A"
+      },
+      {
+        "text": "Equal intervals",
+        "label": "B"
+      },
+      {
+        "text": "A true zero point",
+        "label": "C"
+      },
+      {
+        "text": "Unknown spacing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The ratio scale includes a true zero point, allowing meaningful ratios to be formed."
+  },
+  {
+    "questionText": "which of the following is an example of ratio scale data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Temperature in Celsius",
+        "label": "A"
+      },
+      {
+        "text": "Satisfaction rating",
+        "label": "B"
+      },
+      {
+        "text": "Blood group",
+        "label": "C"
+      },
+      {
+        "text": "Age in years",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Age in years is ratio scale because it has a true zero (0 years means no age) and ratios are meaningful (20 is twice 10)."
+  },
+  {
+    "questionText": "according to the four levels of measurement, which level adds order to categories?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Ordinal adds order to categories beyond nominal (which only identifies categories)."
+  },
+  {
+    "questionText": "according to the four levels of measurement, which level adds equal spacing to ordered values?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Interval adds equal spacing to ordered values beyond ordinal."
+  },
+  {
+    "questionText": "according to the four levels of measurement, which level adds a true zero to equal spacing?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Ratio adds a true zero to the interval properties, allowing meaningful ratios."
+  },
+  {
+    "questionText": "what is accuracy in data quality?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "How closely data matches the real-world fact it represents",
+        "label": "A"
+      },
+      {
+        "text": "Whether all required values are present",
+        "label": "B"
+      },
+      {
+        "text": "Whether data conforms to expected formats",
+        "label": "C"
+      },
+      {
+        "text": "Whether data is current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Accuracy refers to how closely data matches the real-world fact, event, or value it is supposed to represent."
+  },
+  {
+    "questionText": "if a student's score is wrongly entered as 78 instead of 87, the record suffers from lack of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Completeness",
+        "label": "A"
+      },
+      {
+        "text": "Accuracy",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Timeliness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "This is an accuracy problem because the data does not correctly represent the true score."
+  },
+  {
+    "questionText": "what is completeness in data quality?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "How closely data matches reality",
+        "label": "A"
+      },
+      {
+        "text": "Whether all required values are present",
+        "label": "B"
+      },
+      {
+        "text": "Whether data conforms to expected formats",
+        "label": "C"
+      },
+      {
+        "text": "Whether data is free from duplication",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Completeness refers to whether all required values are present in the data record."
+  },
+  {
+    "questionText": "if a registration form is missing a matriculation number, the record suffers from lack of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Consistency",
+        "label": "B"
+      },
+      {
+        "text": "Completeness",
+        "label": "C"
+      },
+      {
+        "text": "Timeliness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Missing a required field means the record is incomplete, lacking completeness."
+  },
+  {
+    "questionText": "what is consistency in data quality?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "How closely data matches reality",
+        "label": "A"
+      },
+      {
+        "text": "Whether all required values are present",
+        "label": "B"
+      },
+      {
+        "text": "Whether the same data does not conflict across records or systems",
+        "label": "C"
+      },
+      {
+        "text": "Whether data is current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Consistency means that the same data does not conflict across records or systems."
+  },
+  {
+    "questionText": "if a student is listed as 200-level in one system and 300-level in another for the same semester, this violates:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Timeliness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Contradictory information across systems is an inconsistency problem."
+  },
+  {
+    "questionText": "what is timeliness in data quality?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "How closely data matches reality",
+        "label": "A"
+      },
+      {
+        "text": "Whether all required values are present",
+        "label": "B"
+      },
+      {
+        "text": "Whether the same data does not conflict",
+        "label": "C"
+      },
+      {
+        "text": "Whether data is current and available when needed",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Timeliness refers to whether data is current and available when needed for decision-making."
+  },
+  {
+    "questionText": "a report prepared from outdated registration records may not support present decision-making due to lack of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Timeliness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Outdated information is not timely; it may not reflect the current situation for decision-making."
+  },
+  {
+    "questionText": "what is validity in data quality?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "How closely data matches reality",
+        "label": "A"
+      },
+      {
+        "text": "Whether data conforms to expected formats, rules, or acceptable ranges",
+        "label": "B"
+      },
+      {
+        "text": "Whether all required values are present",
+        "label": "C"
+      },
+      {
+        "text": "Whether data is current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Validity means that data conforms to expected formats, rules, or acceptable ranges."
+  },
+  {
+    "questionText": "putting letters in a field meant only for numbers is a violation of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Validity",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "This violates validity because the data does not conform to the expected format (numbers only)."
+  },
+  {
+    "questionText": "what is uniqueness in data quality?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Whether each record appears only once where duplication is not intended",
+        "label": "A"
+      },
+      {
+        "text": "Whether data is current",
+        "label": "B"
+      },
+      {
+        "text": "Whether data conforms to expected formats",
+        "label": "C"
+      },
+      {
+        "text": "Whether all required values are present",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Uniqueness means that each real-world entity or record appears only once where duplication is not intended."
+  },
+  {
+    "questionText": "if the same student is entered twice in a class list without reason, this violates:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Uniqueness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Duplicate entries violate the uniqueness characteristic of data quality."
+  },
+  {
+    "questionText": "according to the chapter, the six key data quality characteristics are:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy, Completeness, Consistency, Timeliness, Validity, Uniqueness",
+        "label": "A"
+      },
+      {
+        "text": "Precision, Recall, Speed, Size, Format, Color",
+        "label": "B"
+      },
+      {
+        "text": "Mean, Median, Mode, Range, Variance, Standard Deviation",
+        "label": "C"
+      },
+      {
+        "text": "Input, Output, Processing, Storage, Retrieval, Deletion",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The six main data quality characteristics are accuracy, completeness, consistency, timeliness, validity, and uniqueness."
+  },
+  {
+    "questionText": "a student record with the correct name but missing matriculation number is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accurate but incomplete",
+        "label": "A"
+      },
+      {
+        "text": "Complete but inaccurate",
+        "label": "B"
+      },
+      {
+        "text": "Consistent but invalid",
+        "label": "C"
+      },
+      {
+        "text": "Timely but duplicate",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The name is correct (accurate) but the missing number makes it incomplete."
+  },
+  {
+    "questionText": "a student record with the matriculation number entered wrongly is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Complete but inaccurate",
+        "label": "A"
+      },
+      {
+        "text": "Accurate but incomplete",
+        "label": "B"
+      },
+      {
+        "text": "Valid but inconsistent",
+        "label": "C"
+      },
+      {
+        "text": "Timely but duplicate",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The record may have all fields filled (complete), but the wrong number makes it inaccurate."
+  },
+  {
+    "questionText": "a student record that appears twice in the same database violates:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Uniqueness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Duplicate records violate the uniqueness characteristic."
+  },
+  {
+    "questionText": "according to the chapter, what should you do before analysing data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Ignore data quality issues",
+        "label": "A"
+      },
+      {
+        "text": "Ask whether data is sufficiently accurate, complete, consistent, timely, valid, and unique",
+        "label": "B"
+      },
+      {
+        "text": "Assume all data is perfect",
+        "label": "C"
+      },
+      {
+        "text": "Delete all data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Before analysing data, it is important to ask whether the data is sufficiently accurate, complete, consistent, timely, valid, and free from unnecessary duplication."
+  },
+  {
+    "questionText": "complete the sentence: data is most useful when it is properly classified and when its quality is sufficiently ________ for analysis and decision-making.",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "High",
+        "label": "A"
+      },
+      {
+        "text": "Low",
+        "label": "B"
+      },
+      {
+        "text": "Average",
+        "label": "C"
+      },
+      {
+        "text": "Unmeasured",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Data is most useful when its quality is sufficiently high for analysis and decision-making."
+  },
+  {
+    "questionText": "a student's religious affiliation is an example of which type of data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Quantitative discrete",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "B"
+      },
+      {
+        "text": "Qualitative nominal",
+        "label": "C"
+      },
+      {
+        "text": "Ordinal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Religious affiliation is qualitative and nominal because it names categories with no natural order."
+  },
+  {
+    "questionText": "a student's examination grade (a, b, c, d, f) is an example of which measurement level?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Letter grades are ordinal because they have order (A > B > C) but differences between grades are not equal."
+  },
+  {
+    "questionText": "time taken to complete an examination is an example of which measurement level?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Time has a true zero (zero time means no time) and equal intervals are meaningful, making it ratio scale."
+  },
+  {
+    "questionText": "class position (1st, 2nd, 3rd) is an example of which measurement level?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Class position is ordinal because it shows order (1st is better than 2nd) but differences between positions are not necessarily equal."
+  },
+  {
+    "questionText": "which characteristic of data is affected when a score is recorded as 700 instead of 70?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Completeness",
+        "label": "A"
+      },
+      {
+        "text": "Accuracy",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Timeliness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A wrong value affects accuracy because the data does not match the true value."
+  },
+  {
+    "questionText": "which characteristic of data is affected when some scores are missing from a class record?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Timeliness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Missing values affect completeness because not all required data is present."
+  },
+  {
+    "questionText": "if a student's birth date is entered as '32/13/2024', which data quality characteristic is violated?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Validity",
+        "label": "C"
+      },
+      {
+        "text": "Uniqueness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Invalid date (32nd day, 13th month) violates validity because it does not conform to expected format/rules."
+  },
+  {
+    "questionText": "what does the transformation of data into information enable?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw facts",
+        "label": "A"
+      },
+      {
+        "text": "Meaningful answers to questions, decisions, and pattern recognition",
+        "label": "B"
+      },
+      {
+        "text": "More data collection",
+        "label": "C"
+      },
+      {
+        "text": "Data deletion",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When data is organized and interpreted, it becomes information that can help answer questions, support decisions, and reveal patterns."
+  },
+  {
+    "questionText": "which of the following best describes the difference between discrete and continuous data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Discrete is measured; continuous is counted",
+        "label": "A"
+      },
+      {
+        "text": "Discrete is counted; continuous is measured",
+        "label": "B"
+      },
+      {
+        "text": "Both are counted",
+        "label": "C"
+      },
+      {
+        "text": "Both are measured",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Discrete data arises from counting, while continuous data arises from measurement."
+  },
+  {
+    "questionText": "according to the chapter, which of the following is not a typical data quality characteristic?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Popularity",
+        "label": "C"
+      },
+      {
+        "text": "Consistency",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Popularity is not a standard data quality characteristic. The main ones are accuracy, completeness, consistency, timeliness, validity, and uniqueness."
+  },
+  {
+    "questionText": "a student's gpa (grade point average) is an example of which data type?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "C"
+      },
+      {
+        "text": "Nominal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "GPA is quantitative continuous because it can take values like 3.45, 3.50, 3.55, etc., within a range."
+  },
+  {
+    "questionText": "the number of computers in a laboratory is an example of which data type?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "C"
+      },
+      {
+        "text": "Ordinal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Number of computers is discrete because it involves counting whole units."
+  },
+  {
+    "questionText": "which level of measurement allows you to say 'twice as much' meaningfully?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Only ratio scale has a true zero, allowing meaningful ratio statements like 'twice as much'."
+  },
+  {
+    "questionText": "why does temperature in celsius not allow the statement '20°c is twice as hot as 10°c'?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because Celsius has no true zero",
+        "label": "A"
+      },
+      {
+        "text": "Because Celsius is ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Because Celsius is nominal",
+        "label": "C"
+      },
+      {
+        "text": "Because Celsius is discrete",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "0°C does not mean 'no temperature', so ratios are not meaningful in Celsius. Kelvin scale has a true zero."
+  },
+  {
+    "questionText": "which level of measurement provides the most information about a variable?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Ratio scale provides the most information because it has order, equal intervals, and a true zero."
+  },
+  {
+    "questionText": "which level of measurement provides the least information about a variable?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Nominal provides the least information because it only names categories with no order or numerical meaning."
+  },
+  {
+    "questionText": "a patient's blood pressure reading (e.g., 120/80 mmhg) is an example of which data type?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "C"
+      },
+      {
+        "text": "Nominal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Blood pressure is measured and can take a range of values, making it quantitative continuous."
+  },
+  {
+    "questionText": "a patient's blood pressure classification (normal, elevated, high) is an example of which measurement level?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Blood pressure categories have order (Normal < Elevated < High) but differences are not equal, so it is ordinal."
+  },
+  {
+    "questionText": "when a cashier scans products at a supermarket, what is being generated?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Information",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "Conclusions",
+        "label": "C"
+      },
+      {
+        "text": "Recommendations",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The scanning process generates raw data about products sold, quantities, and prices."
+  },
+  {
+    "questionText": "a chart showing the best-selling products for the week is an example of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Information",
+        "label": "B"
+      },
+      {
+        "text": "Unprocessed facts",
+        "label": "C"
+      },
+      {
+        "text": "Qualitative data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The chart is information because it organizes and interprets raw sales data into a meaningful visual."
+  },
+  {
+    "questionText": "according to the chapter, the four levels of measurement in order from least to most informative are:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal, Ordinal, Interval, Ratio",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal, Nominal, Ratio, Interval",
+        "label": "B"
+      },
+      {
+        "text": "Interval, Ratio, Nominal, Ordinal",
+        "label": "C"
+      },
+      {
+        "text": "Ratio, Interval, Ordinal, Nominal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The levels increase in information: Nominal (categories) → Ordinal (order) → Interval (equal spacing) → Ratio (true zero)."
+  },
+  {
+    "questionText": "a variable measured on a nominal scale can be:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Counted per category",
+        "label": "A"
+      },
+      {
+        "text": "Ordered from highest to lowest",
+        "label": "B"
+      },
+      {
+        "text": "Averaged",
+        "label": "C"
+      },
+      {
+        "text": "Used to form ratios",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Nominal data can only be counted per category (frequencies). Means and ratios are not meaningful."
+  },
+  {
+    "questionText": "which data quality characteristic ensures that data is free from contradictions across systems?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Consistency",
+        "label": "C"
+      },
+      {
+        "text": "Timeliness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Consistency ensures that the same data does not conflict across different records or systems."
+  },
+  {
+    "questionText": "what does the 'validity' characteristic of data ensure?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data is current",
+        "label": "A"
+      },
+      {
+        "text": "Data follows expected formats and rules",
+        "label": "B"
+      },
+      {
+        "text": "Data is unique",
+        "label": "C"
+      },
+      {
+        "text": "Data is complete",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Validity ensures that data conforms to expected formats, rules, or acceptable ranges."
+  },
+  {
+    "questionText": "according to the chapter, why do data characteristics matter?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because they make data look better",
+        "label": "A"
+      },
+      {
+        "text": "Because high-quality data supports reliable analysis, stronger conclusions, and better decisions",
+        "label": "B"
+      },
+      {
+        "text": "Because they are required by law",
+        "label": "C"
+      },
+      {
+        "text": "Because they increase storage requirements",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "High-quality data supports reliable analysis, stronger conclusions, and better decisions, while poor-quality data can produce weak results."
+  },
+  {
+    "questionText": "a student's height in meters is an example of which data type?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "C"
+      },
+      {
+        "text": "Nominal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Height is measured and can take any value within a range, making it quantitative continuous."
+  },
+  {
+    "questionText": "a student's year of study (100, 200, 300, 400) is an example of which measurement level?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal",
+        "label": "B"
+      },
+      {
+        "text": "Interval",
+        "label": "C"
+      },
+      {
+        "text": "Ratio",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Year of study has order (100 < 200 < 300 < 400) but the differences represent progression levels, not equal intervals in a mathematical sense."
+  },
+  {
+    "questionText": "if a dataset contains the same student listed three times, which data quality characteristic is violated?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Accuracy",
+        "label": "A"
+      },
+      {
+        "text": "Completeness",
+        "label": "B"
+      },
+      {
+        "text": "Timeliness",
+        "label": "C"
+      },
+      {
+        "text": "Uniqueness",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Duplicate records violate uniqueness, which requires each entity to appear only once."
+  },
+  {
+    "questionText": "according to the chapter, what is the first step in understanding data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Performing complex calculations",
+        "label": "A"
+      },
+      {
+        "text": "Recognizing that data is generated in everyday environments",
+        "label": "B"
+      },
+      {
+        "text": "Buying expensive software",
+        "label": "C"
+      },
+      {
+        "text": "Hiring data scientists",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The chapter begins by showing that data is generated in everyday environments, making the topic relatable and accessible."
+  },
+  {
+    "questionText": "why does the chapter emphasize the difference between data and information?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because they are exactly the same",
+        "label": "A"
+      },
+      {
+        "text": "Because much of data analysis involves transforming raw data into information that people can use",
+        "label": "B"
+      },
+      {
+        "text": "Because information is less important",
+        "label": "C"
+      },
+      {
+        "text": "Because data cannot be processed",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Understanding the difference is important because much of data analysis involves transforming raw data into information that people can use."
+  },
+  {
+    "questionText": "a list of daily supermarket sales is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Information",
+        "label": "A"
+      },
+      {
+        "text": "A summary",
+        "label": "B"
+      },
+      {
+        "text": "Data",
+        "label": "C"
+      },
+      {
+        "text": "A decision",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A list of daily sales is raw data, not yet organized or interpreted into meaningful information."
+  },
+  {
+    "questionText": "a report showing the total sales for the month is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Information",
+        "label": "B"
+      },
+      {
+        "text": "Unprocessed facts",
+        "label": "C"
+      },
+      {
+        "text": "Qualitative data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A summary report is information because it organizes raw data into a meaningful format."
+  },
+  {
+    "questionText": "classify: a student's marital status is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Quantitative continuous",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "B"
+      },
+      {
+        "text": "Qualitative nominal",
+        "label": "C"
+      },
+      {
+        "text": "Ordinal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Marital status is qualitative and nominal because it names categories (Single, Married, etc.) with no natural order."
+  },
+  {
+    "questionText": "classify: the time spent studying for an exam in minutes is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "C"
+      },
+      {
+        "text": "Nominal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Time spent is measured and can take any value within a range, making it quantitative continuous."
+  },
+  {
+    "questionText": "classify: the number of goals scored in a football match is:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Qualitative",
+        "label": "A"
+      },
+      {
+        "text": "Quantitative discrete",
+        "label": "B"
+      },
+      {
+        "text": "Quantitative continuous",
+        "label": "C"
+      },
+      {
+        "text": "Ordinal",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Goals are counted in whole numbers, making it quantitative discrete."
+  },
+  {
+    "questionText": "which measurement level allows you to calculate a mean (average) meaningfully?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal only",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal only",
+        "label": "B"
+      },
+      {
+        "text": "Interval and Ratio",
+        "label": "C"
+      },
+      {
+        "text": "All levels",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Means are meaningful for interval and ratio data. For nominal and ordinal, means are not meaningful."
+  },
+  {
+    "questionText": "which measurement level allows you to calculate a median meaningfully?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Nominal only",
+        "label": "A"
+      },
+      {
+        "text": "Ordinal, Interval, and Ratio",
+        "label": "B"
+      },
+      {
+        "text": "Interval only",
+        "label": "C"
+      },
+      {
+        "text": "Ratio only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Median is meaningful for ordinal, interval, and ratio data because it requires order. Nominal has no order."
+  },
+  {
+    "questionText": "what is the main limitation of nominal scale data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Cannot be counted",
+        "label": "A"
+      },
+      {
+        "text": "Cannot be ordered or ranked",
+        "label": "B"
+      },
+      {
+        "text": "Cannot be categorized",
+        "label": "C"
+      },
+      {
+        "text": "Cannot be stored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Nominal data can be counted per category but cannot be meaningfully ordered or ranked."
+  },
+  {
+    "questionText": "if a dataset has 0°c recorded, what does this represent?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The absence of temperature",
+        "label": "A"
+      },
+      {
+        "text": "A true zero",
+        "label": "B"
+      },
+      {
+        "text": "A specific temperature value, not absence",
+        "label": "C"
+      },
+      {
+        "text": "An invalid reading",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "0°C is a specific temperature (freezing point of water), not the absence of temperature, so Celsius is interval scale."
+  },
+  {
+    "questionText": "if a dataset has 0 kg recorded for weight, what does this represent?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A specific weight value only",
+        "label": "A"
+      },
+      {
+        "text": "The absence of weight (true zero)",
+        "label": "B"
+      },
+      {
+        "text": "An invalid reading",
+        "label": "C"
+      },
+      {
+        "text": "The average weight",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "0 kg means no weight, a true zero, making weight ratio scale."
+  },
+  {
+    "questionText": "according to the chapter, what is the relationship between data quality and analysis?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Analysis is independent of data quality",
+        "label": "A"
+      },
+      {
+        "text": "Analysis is only as good as the data on which it depends",
+        "label": "B"
+      },
+      {
+        "text": "Poor data quality improves analysis",
+        "label": "C"
+      },
+      {
+        "text": "Data quality only affects storage, not analysis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Analysis is only as good as the data on which it depends. Poor-quality data produces weak results even with good methods."
+  },
+  {
+    "questionText": "what should a good data practice include according to the chapter?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Ignoring data errors",
+        "label": "A"
+      },
+      {
+        "text": "Careful collection, checking, cleaning, and maintenance",
+        "label": "B"
+      },
+      {
+        "text": "Deleting all data after use",
+        "label": "C"
+      },
+      {
+        "text": "Only collecting data once",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Good data practice requires careful collection, checking, cleaning, and maintenance of data."
+  },
+  {
+    "questionText": "which of the following best describes 'information'?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw, unprocessed facts",
+        "label": "A"
+      },
+      {
+        "text": "Data that has been processed, organized, or interpreted to become meaningful",
+        "label": "B"
+      },
+      {
+        "text": "Only numerical values",
+        "label": "C"
+      },
+      {
+        "text": "Only text-based records",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Information is data that has been processed, organized, or interpreted so that it becomes meaningful and useful."
+  },
+  {
+    "questionText": "which of the following best describes 'data'?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Interpreted and meaningful facts",
+        "label": "A"
+      },
+      {
+        "text": "Raw, unprocessed records or values",
+        "label": "B"
+      },
+      {
+        "text": "Only charts and graphs",
+        "label": "C"
+      },
+      {
+        "text": "Only final reports",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data consists of raw, unprocessed facts or recorded values that describe something."
+  },
+  {
+    "questionText": "a patient's appointment date in a hospital system is an example of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Information",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "A conclusion",
+        "label": "C"
+      },
+      {
+        "text": "A recommendation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An appointment date is a raw recorded fact, making it data."
+  },
+  {
+    "questionText": "a summary report showing the average waiting time for patients is an example of:",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Raw data",
+        "label": "A"
+      },
+      {
+        "text": "Information",
+        "label": "B"
+      },
+      {
+        "text": "Unprocessed facts",
+        "label": "C"
+      },
+      {
+        "text": "Qualitative data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The summary report is information because it processes raw appointment data into meaningful insights."
+  },
+  {
+    "questionText": "in the classroom environment, which of the following is an example of raw data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The class average",
+        "label": "A"
+      },
+      {
+        "text": "A chart of attendance trends",
+        "label": "B"
+      },
+      {
+        "text": "Individual student scores",
+        "label": "C"
+      },
+      {
+        "text": "A summary of pass rates",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Individual student scores are raw data; averages, charts, and summaries are processed information."
+  },
+  {
+    "questionText": "how can a supermarket's daily sales records be turned into information?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "By deleting them",
+        "label": "A"
+      },
+      {
+        "text": "By summarizing them to show best-selling products or daily revenue",
+        "label": "B"
+      },
+      {
+        "text": "By ignoring them",
+        "label": "C"
+      },
+      {
+        "text": "By storing them without changes",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Raw sales data becomes information when summarized or interpreted, such as identifying best-selling products or calculating daily revenue."
+  },
+  {
+    "questionText": "why does the chapter distinguish between discrete and continuous data?",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because they look different",
+        "label": "A"
+      },
+      {
+        "text": "Because they influence the kind of summaries and statistical methods that can be used",
+        "label": "B"
+      },
+      {
+        "text": "Because one is more important than the other",
+        "label": "C"
+      },
+      {
+        "text": "Because discrete data is always better",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "These distinctions matter because they influence the kind of summaries and statistical methods that can be used later."
+  },
+  {
+    "questionText": "complete the sentence from the glossary: data is ________ of facts, concepts, observations, or instructions in a form suitable for communication, interpretation, or processing.",
+    "topic": "data, information, and data classification",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 2,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Representations",
+        "label": "A"
+      },
+      {
+        "text": "Summaries",
+        "label": "B"
+      },
+      {
+        "text": "Calculations",
+        "label": "C"
+      },
+      {
+        "text": "Conclusions",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The glossary defines Data as 'representations of facts, concepts, observations, or instructions in a form suitable for communication, interpretation, or processing.'"
+  }
+]

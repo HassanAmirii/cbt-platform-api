@@ -1,0 +1,1452 @@
+[
+  {
+    "questionText": "what is the central role of data in modern business?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "to replace human workers", "label": "A" },
+      {
+        "text": "to provide evidence for understanding customers and supporting decisions",
+        "label": "B"
+      },
+      { "text": "to increase the cost of operations", "label": "C" },
+      { "text": "to reduce the need for managers", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Data provides evidence for understanding customers, monitoring performance, improving operations, and supporting decision-making in modern business."
+  },
+  {
+    "questionText": "which of the following is a source of business data?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "sales records only", "label": "A" },
+      { "text": "customer feedback forms", "label": "B" },
+      { "text": "social media platforms", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Businesses generate data from sales records, customer profiles, financial reports, inventory systems, websites, social media platforms, feedback forms, staff records, and operational activities."
+  },
+  {
+    "questionText": "in the past, many business decisions were based mainly on:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "data analysis", "label": "A" },
+      { "text": "personal experience, intuition, or guesswork", "label": "B" },
+      { "text": "scientific research", "label": "C" },
+      { "text": "government reports", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In the past, many business decisions were based mainly on personal experience, intuition, or guesswork. Today, businesses increasingly rely on data."
+  },
+  {
+    "questionText": "what is one of the most important uses of data in business?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "increasing employee salaries", "label": "A" },
+      { "text": "decision-making", "label": "B" },
+      { "text": "reducing office space", "label": "C" },
+      { "text": "changing company logos", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "One of the most important uses of data in business is decision-making. Managers need reliable information before making decisions about pricing, staffing, production, marketing, customer service, and investment."
+  },
+  {
+    "questionText": "how does data help business managers make decisions?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "by replacing managers entirely", "label": "A" },
+      { "text": "by providing evidence rather than assumptions", "label": "B" },
+      { "text": "by eliminating all risks", "label": "C" },
+      { "text": "by making decisions automatically", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Data helps managers make decisions based on evidence rather than assumptions. This leads to more reliable and effective business outcomes."
+  },
+  {
+    "questionText": "businesses use data to understand their customers better through:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "ignoring customer feedback", "label": "A" },
+      { "text": "analysing purchase history and preferences", "label": "B" },
+      { "text": "guessing customer needs", "label": "C" },
+      { "text": "increasing prices randomly", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Businesses use customer data including purchase history, complaints, preferences, feedback, website visits, location, age group, and service usage to understand their customers better."
+  },
+  {
+    "questionText": "data supports operational efficiency by helping businesses identify:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "delays, waste, and bottlenecks", "label": "A" },
+      { "text": "new employee uniforms", "label": "B" },
+      { "text": "office decorations", "label": "C" },
+      { "text": "company picnic locations", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "By analysing operational data, businesses can identify delays, waste, poor resource use, and bottlenecks. For example, delivery data may reveal that orders are frequently delayed in a particular location."
+  },
+  {
+    "questionText": "data supports risk management by helping organisations:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "detect fraud and monitor financial exposure", "label": "A" },
+      { "text": "increase employee turnover", "label": "B" },
+      { "text": "reduce customer satisfaction", "label": "C" },
+      { "text": "ignore market changes", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Data supports risk management by helping organisations detect fraud, monitor financial exposure, and respond to market changes."
+  },
+  {
+    "questionText": "data promotes innovation by helping businesses discover:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "opportunities for new products and services", "label": "A" },
+      { "text": "ways to ignore customers", "label": "B" },
+      { "text": "methods to increase prices without reason", "label": "C" },
+      { "text": "reasons to reduce quality", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "By studying feedback, complaints, and market demand, businesses may discover opportunities for new products, improved services, better pricing models, or more efficient delivery systems."
+  },
+  {
+    "questionText": "which of the following is a major area where data is applicable in business?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "customer understanding", "label": "A" },
+      { "text": "operational improvement", "label": "B" },
+      { "text": "risk management", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Data is applicable in many business areas including customer understanding, operational improvement, risk management, marketing, innovation, and decision-making."
+  },
+  {
+    "questionText": "what is business analytics?",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "the use of intuition to make decisions", "label": "A" },
+      {
+        "text": "the use of data and analytical tools to understand business performance",
+        "label": "B"
+      },
+      { "text": "the use of guesswork in business", "label": "C" },
+      { "text": "the use of personal opinion in management", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Business analytics refers to the use of data, statistical methods, quantitative analysis, and analytical tools to understand business performance and support better decisions."
+  },
+  {
+    "questionText": "a business that uses analytics is often described as:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "intuition-driven", "label": "A" },
+      { "text": "data-driven", "label": "B" },
+      { "text": "opinion-driven", "label": "C" },
+      { "text": "guesswork-driven", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A business that uses analytics is often described as data-driven, meaning the organisation uses evidence from data to guide its decisions rather than relying only on guesswork or personal opinion."
+  },
+  {
+    "questionText": "what is data-driven decision-making?",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "making decisions based on personal feelings", "label": "A" },
+      {
+        "text": "using data evidence to guide choices and actions",
+        "label": "B"
+      },
+      { "text": "making decisions randomly", "label": "C" },
+      { "text": "ignoring all data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Data-driven decision-making is the process of using data evidence to guide choices and actions. This may involve analysing sales figures, customer behaviour, financial performance, product demand, and operational records."
+  },
+  {
+    "questionText": "which of the following is an example of transactional data?",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "customer age and location", "label": "A" },
+      { "text": "sales records, payments, and invoices", "label": "B" },
+      { "text": "employee attendance records", "label": "C" },
+      { "text": "website visits and comments", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Transactional data includes sales records, payments, invoices, and orders. It captures the day-to-day business transactions."
+  },
+  {
+    "questionText": "which type of data includes demographics, purchase history, and complaints?",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "financial data", "label": "A" },
+      { "text": "customer data", "label": "B" },
+      { "text": "machine data", "label": "C" },
+      { "text": "third-party data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Customer data includes demographics, purchase history, complaints, and feedback. It helps businesses understand their customers better."
+  },
+  {
+    "questionText": "inventory levels, delivery records, and production activities are examples of:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "financial data", "label": "A" },
+      { "text": "operational data", "label": "B" },
+      { "text": "customer data", "label": "C" },
+      { "text": "web data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Operational data includes inventory levels, delivery records, and production activities. It helps businesses monitor and improve operations."
+  },
+  {
+    "questionText": "income, expenses, profit, loss, and forecasts are examples of:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "financial data", "label": "A" },
+      { "text": "customer data", "label": "B" },
+      { "text": "operational data", "label": "C" },
+      { "text": "machine data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Financial data includes income, expenses, profit, loss, and forecasts. It helps businesses track their financial health and plan for the future."
+  },
+  {
+    "questionText": "website visits, online engagement, and customer comments are examples of:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "financial data", "label": "A" },
+      { "text": "web and social data", "label": "B" },
+      { "text": "human resource data", "label": "C" },
+      { "text": "machine data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Web and social data includes website visits, online engagement, and customer comments. It helps businesses understand online behaviour and sentiment."
+  },
+  {
+    "questionText": "sensor readings and equipment performance records are examples of:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "customer data", "label": "A" },
+      { "text": "machine or IoT data", "label": "B" },
+      { "text": "financial data", "label": "C" },
+      { "text": "human resource data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Machine or IoT data includes sensor readings and equipment performance records. It helps businesses monitor equipment and predict maintenance needs."
+  },
+  {
+    "questionText": "staff records, attendance, payroll, and performance information are examples of:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "machine data", "label": "A" },
+      { "text": "financial data", "label": "B" },
+      { "text": "human resource data", "label": "C" },
+      { "text": "web data", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Human resource data includes staff records, attendance, payroll, and performance information. It helps businesses manage their workforce."
+  },
+  {
+    "questionText": "which of the following is a benefit of business analytics?",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "improved decision-making", "label": "A" },
+      { "text": "increased operational efficiency", "label": "B" },
+      { "text": "better customer satisfaction", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Business analytics improves decision-making, increases operational efficiency, supports customer satisfaction, strengthens marketing, reduces risk, and helps organisations identify opportunities for growth."
+  },
+  {
+    "questionText": "why is data-driven decision-making usually more reliable than decision-making based only on personal opinion?",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "personal opinion is always correct", "label": "A" },
+      {
+        "text": "data provides evidence and reduces assumptions",
+        "label": "B"
+      },
+      { "text": "data is always 100% accurate", "label": "C" },
+      { "text": "personal opinion is based on facts", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Data-driven decision-making is more reliable because it uses evidence from data rather than assumptions or personal opinion. Data provides objective information that can be verified and analysed."
+  },
+  {
+    "questionText": "a company may decide to discontinue a product only after analysing sales trends, customer feedback, production cost, and profitability. this is an example of:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "guesswork", "label": "A" },
+      { "text": "data-driven decision-making", "label": "B" },
+      { "text": "random selection", "label": "C" },
+      { "text": "personal preference", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A company deciding to discontinue a product only after analysing multiple data sources is an example of data-driven decision-making, using evidence rather than assumptions."
+  },
+  {
+    "questionText": "what is a data structure?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "a random collection of data", "label": "A" },
+      {
+        "text": "a systematic way of organising, storing, and managing data",
+        "label": "B"
+      },
+      { "text": "a type of business report", "label": "C" },
+      { "text": "a method of data destruction", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A data structure is a systematic way of organising, storing, and managing data in a computer system so that it can be accessed, modified, processed, and retrieved efficiently."
+  },
+  {
+    "questionText": "why are data structures important in computing?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "they make data look attractive", "label": "A" },
+      {
+        "text": "they allow efficient access, processing, and retrieval of data",
+        "label": "B"
+      },
+      { "text": "they replace the need for databases", "label": "C" },
+      { "text": "they increase data storage costs", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Data structures are important because raw data must be arranged properly before it can be used effectively by software applications, databases, and analytical systems."
+  },
+  {
+    "questionText": "without proper data structures, data may become:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "easy to search and process", "label": "A" },
+      {
+        "text": "difficult to search, slow to process, and hard to maintain",
+        "label": "B"
+      },
+      { "text": "perfect for analysis", "label": "C" },
+      { "text": "automatically organised", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Without proper data structures, data may become difficult to search, slow to process, and hard to maintain. This is why data structures form an important foundation in computing."
+  },
+  {
+    "questionText": "a linear data structure arranges data elements in:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "a hierarchical form", "label": "A" },
+      { "text": "a sequential order", "label": "B" },
+      { "text": "a random order", "label": "C" },
+      { "text": "a circular form", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A linear data structure arranges data elements in a sequential order, where each element is connected to the next. Examples include arrays, lists, stacks, and queues."
+  },
+  {
+    "questionText": "which of the following is an example of a linear data structure?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "tree", "label": "A" },
+      { "text": "graph", "label": "B" },
+      { "text": "array", "label": "C" },
+      { "text": "network", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Arrays are examples of linear data structures. They arrange data in a sequential order. Trees and graphs are non-linear data structures."
+  },
+  {
+    "questionText": "a non-linear data structure does NOT arrange data in:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "a hierarchical or network-like form", "label": "A" },
+      { "text": "a simple sequence", "label": "B" },
+      { "text": "branches and levels", "label": "C" },
+      { "text": "complex relationships", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A non-linear data structure does not arrange data in a simple sequence. Instead, data may be connected in hierarchical or network-like forms. Examples include trees and graphs."
+  },
+  {
+    "questionText": "which of the following is an example of a non-linear data structure?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "queue", "label": "A" },
+      { "text": "stack", "label": "B" },
+      { "text": "linked list", "label": "C" },
+      { "text": "tree", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Trees are examples of non-linear data structures. They represent hierarchical relationships. Queues, stacks, and linked lists are linear data structures."
+  },
+  {
+    "questionText": "a static data structure has:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "a flexible size that can change during execution",
+        "label": "A"
+      },
+      { "text": "a fixed size once it is created", "label": "B" },
+      { "text": "no size limit", "label": "C" },
+      { "text": "an unlimited capacity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A static data structure has a fixed size once it is created. This means the amount of memory allocated to it does not easily change during program execution. Arrays are common examples."
+  },
+  {
+    "questionText": "which of the following is an example of a static data structure?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "linked list", "label": "A" },
+      { "text": "tree", "label": "B" },
+      { "text": "array", "label": "C" },
+      { "text": "graph", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Arrays are common examples of static data structures. They have a fixed size that cannot be changed during program execution."
+  },
+  {
+    "questionText": "a dynamic data structure can:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "only decrease in size", "label": "A" },
+      { "text": "grow or shrink during program execution", "label": "B" },
+      { "text": "remain fixed in size", "label": "C" },
+      { "text": "never change", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A dynamic data structure can grow or shrink during program execution. This is useful when the amount of data is not known in advance. Examples include linked lists and trees."
+  },
+  {
+    "questionText": "which of the following is an example of a dynamic data structure?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "array", "label": "A" },
+      { "text": "linked list", "label": "B" },
+      { "text": "static array", "label": "C" },
+      { "text": "fixed-size matrix", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Linked lists are examples of dynamic data structures. They can grow or shrink as elements are added or removed, making them flexible for applications where data size is not known in advance."
+  },
+  {
+    "questionText": "what does time complexity refer to?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "the amount of memory used by a data structure", "label": "A" },
+      {
+        "text": "the amount of time an operation takes as data size increases",
+        "label": "B"
+      },
+      { "text": "the correctness of a data structure", "label": "C" },
+      { "text": "the visual appearance of data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Time complexity refers to the amount of time an operation takes as the size of the data increases. Common operations include searching, inserting, deleting, sorting, and updating."
+  },
+  {
+    "questionText": "what does space complexity refer to?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "the amount of time an operation takes", "label": "A" },
+      {
+        "text": "the amount of memory required to store and process data",
+        "label": "B"
+      },
+      { "text": "the speed of data processing", "label": "C" },
+      { "text": "the number of operations performed", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Space complexity refers to the amount of memory required to store and process data. A suitable data structure should use memory efficiently without unnecessary waste."
+  },
+  {
+    "questionText": "what does correctness mean in the context of data structures?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "the data structure looks visually correct", "label": "A" },
+      {
+        "text": "the data structure behaves according to its intended rules",
+        "label": "B"
+      },
+      { "text": "the data structure uses the least memory", "label": "C" },
+      { "text": "the data structure processes data the fastest", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Correctness means that a data structure should behave according to its intended rules. For example, a queue should follow the first-in-first-out principle, while a stack should follow the last-in-first-out principle."
+  },
+  {
+    "questionText": "a queue should follow which principle?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "last-in-first-out (LIFO)", "label": "A" },
+      { "text": "first-in-first-out (FIFO)", "label": "B" },
+      { "text": "random access", "label": "C" },
+      { "text": "priority-based access", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A queue should follow the first-in-first-out (FIFO) principle, meaning the first element added to the queue is the first one to be removed."
+  },
+  {
+    "questionText": "a stack should follow which principle?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "first-in-first-out (FIFO)", "label": "A" },
+      { "text": "last-in-first-out (LIFO)", "label": "B" },
+      { "text": "random access", "label": "C" },
+      { "text": "priority-based access", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A stack should follow the last-in-first-out (LIFO) principle, meaning the last element added to the stack is the first one to be removed."
+  },
+  {
+    "questionText": "trees and graphs are examples of:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "linear data structures", "label": "A" },
+      { "text": "non-linear data structures", "label": "B" },
+      { "text": "static data structures", "label": "C" },
+      { "text": "primitive data structures", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Trees and graphs are examples of non-linear data structures. They represent complex relationships with hierarchical or network-like connections."
+  },
+  {
+    "questionText": "arrays, lists, stacks, and queues are examples of:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "non-linear data structures", "label": "A" },
+      { "text": "linear data structures", "label": "B" },
+      { "text": "dynamic data structures", "label": "C" },
+      { "text": "complex data structures", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Arrays, lists, stacks, and queues are examples of linear data structures. They arrange data in a sequential order where each element is connected to the next."
+  },
+  {
+    "questionText": "which characteristic of data structures is most important for a system with unpredictable data growth?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "being static", "label": "A" },
+      { "text": "being dynamic", "label": "B" },
+      { "text": "being linear", "label": "C" },
+      { "text": "being non-linear", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Dynamic data structures can grow or shrink during program execution, making them ideal for systems where data growth is unpredictable."
+  },
+  {
+    "questionText": "what is the relationship between business data and data structures?",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "they are completely unrelated", "label": "A" },
+      {
+        "text": "data structures provide the foundation for storing and processing business data efficiently",
+        "label": "B"
+      },
+      {
+        "text": "business data replaces the need for data structures",
+        "label": "C"
+      },
+      {
+        "text": "data structures are only used in scientific research",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data structures provide the technical foundation that allows business data to be stored and processed efficiently. The usefulness of business data depends greatly on how well it is organised."
+  },
+  {
+    "questionText": "why does business data need to be structured?",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "to make it look attractive", "label": "A" },
+      {
+        "text": "to allow efficient searching, updating, and retrieval",
+        "label": "B"
+      },
+      { "text": "to increase data duplication", "label": "C" },
+      { "text": "to slow down processing", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Business data needs structure because organisations must frequently search, update, compare, summarise, and retrieve records. Proper structure enables efficient data handling."
+  },
+  {
+    "questionText": "data structures support business operations by improving:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "speed, accuracy, reliability, and efficiency", "label": "A" },
+      { "text": "only speed", "label": "B" },
+      { "text": "only accuracy", "label": "C" },
+      { "text": "only reliability", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Data structures support business operations by improving speed, accuracy, reliability, and efficiency. They make it easier for systems to store records, locate information, update values, organise transactions, and generate reports."
+  },
+  {
+    "questionText": "in data analysis, data structures affect how easily data can be:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "prepared, cleaned, processed, and interpreted", "label": "A" },
+      { "text": "ignored", "label": "B" },
+      { "text": "deleted", "label": "C" },
+      { "text": "hidden", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "In data analysis, data structures affect how easily data can be prepared, cleaned, processed, and interpreted. A well-structured dataset is easier to analyse than a poorly organised one."
+  },
+  {
+    "questionText": "collecting large amounts of business data without proper structure can lead to:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "confusion, duplication, slow processing, and unreliable analysis",
+        "label": "A"
+      },
+      { "text": "perfect data analysis", "label": "B" },
+      { "text": "efficient data handling", "label": "C" },
+      { "text": "automatic data organisation", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Collecting large amounts of business data without proper structure can lead to confusion, duplication, slow processing, and unreliable analysis. Data must be organised properly before it can support meaningful business decisions."
+  },
+  {
+    "questionText": "how can poor data organisation affect the quality of business analysis?",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "it has no effect on analysis quality", "label": "A" },
+      {
+        "text": "it can lead to inaccurate reports and unreliable insights",
+        "label": "B"
+      },
+      { "text": "it always improves analysis quality", "label": "C" },
+      { "text": "it makes analysis faster", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Poor data organisation can lead to inaccurate reports, unreliable insights, and poor business decisions. Proper data structure is essential for quality analysis."
+  },
+  {
+    "questionText": "a bank needs efficient data structures to:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "store customer accounts and process transactions",
+        "label": "A"
+      },
+      { "text": "reduce customer service", "label": "B" },
+      { "text": "increase transaction errors", "label": "C" },
+      { "text": "slow down processing", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A bank needs efficient structures to store customer accounts and process transactions. This ensures fast, accurate, and reliable banking services."
+  },
+  {
+    "questionText": "a hospital needs organised data structures to:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "manage patient records efficiently", "label": "A" },
+      { "text": "increase medical errors", "label": "B" },
+      { "text": "lose patient information", "label": "C" },
+      { "text": "slow down patient care", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A hospital needs organised structures to manage patient records efficiently, ensuring accurate and timely healthcare delivery."
+  },
+  {
+    "questionText": "an online store must store customer information, product details, order records, payment details, and delivery status. this data needs to be:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "properly structured for fast and accurate processing",
+        "label": "A"
+      },
+      { "text": "stored randomly", "label": "B" },
+      { "text": "ignored", "label": "C" },
+      { "text": "deleted after each transaction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "An online store must store data properly structured so it can process transactions quickly and accurately. Without proper structure, customer service may suffer and reports may be inaccurate."
+  },
+  {
+    "questionText": "a student management system where new students are enrolled every semester would benefit most from:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "a static data structure", "label": "A" },
+      { "text": "a dynamic data structure", "label": "B" },
+      { "text": "a linear data structure only", "label": "C" },
+      { "text": "a non-linear data structure only", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A student management system with new students enrolled every semester would benefit from a dynamic data structure that can grow as more records are added."
+  },
+  {
+    "questionText": "which of the following best describes the connection between business data and data structures?",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "business data does not need structure", "label": "A" },
+      {
+        "text": "data structures help businesses convert data into useful and manageable information",
+        "label": "B"
+      },
+      {
+        "text": "data structures make business data more confusing",
+        "label": "C"
+      },
+      {
+        "text": "business data and data structures are identical",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data structures help businesses convert large volumes of data into useful and manageable information. They provide the foundation for efficient storage and processing of business data."
+  },
+  {
+    "questionText": "a business that ignores data in decision-making is likely to:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "make better decisions", "label": "A" },
+      { "text": "rely on guesswork and make poorer decisions", "label": "B" },
+      { "text": "automatically succeed", "label": "C" },
+      { "text": "reduce operational costs", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Businesses that ignore data often rely on guesswork, intuition, or personal opinion, which can lead to poorer decisions compared to evidence-based approaches."
+  },
+  {
+    "questionText": "a properly structured dataset enables:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "faster and more accurate business analysis", "label": "A" },
+      { "text": "slower data processing", "label": "B" },
+      { "text": "increased data duplication", "label": "C" },
+      { "text": "unreliable business decisions", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A properly structured dataset enables faster and more accurate business analysis, leading to better decision-making and improved business outcomes."
+  },
+  {
+    "questionText": "which of the following correctly describes the importance of data in modern business?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "data is only important for large corporations", "label": "A" },
+      {
+        "text": "data helps businesses understand customers, improve operations, and make better decisions",
+        "label": "B"
+      },
+      { "text": "data is only useful for academic research", "label": "C" },
+      { "text": "data has no practical value in business", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Data helps businesses understand customers, improve operations, make better decisions, manage risks, and identify opportunities for innovation and growth."
+  },
+  {
+    "questionText": "what is an example of using data for operational improvement?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "analysing delivery data to identify frequently delayed locations",
+        "label": "A"
+      },
+      { "text": "ignoring customer feedback", "label": "B" },
+      { "text": "increasing prices without reason", "label": "C" },
+      { "text": "reducing product quality", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Analysing delivery data to identify frequently delayed locations and improving logistics is an example of using data for operational improvement."
+  },
+  {
+    "questionText": "which of the following is a characteristic of data structures?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "they are always static", "label": "A" },
+      { "text": "they are always linear", "label": "B" },
+      {
+        "text": "they can be classified as linear or non-linear",
+        "label": "C"
+      },
+      { "text": "they cannot be dynamic", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Data structures can be classified as linear or non-linear. This is one of the key characteristics of data structures."
+  },
+  {
+    "questionText": "a telecommunications company designing better subscription plans after studying customer usage patterns is using data for:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "customer understanding and service improvement",
+        "label": "A"
+      },
+      { "text": "employee management", "label": "B" },
+      { "text": "building maintenance", "label": "C" },
+      { "text": "office decoration", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A telecommunications company studying customer usage patterns to design better subscription plans is using data for customer understanding and service improvement."
+  },
+  {
+    "questionText": "a common operation in data handling that time complexity measures includes:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "searching, inserting, deleting, sorting, and updating",
+        "label": "A"
+      },
+      { "text": "only searching", "label": "B" },
+      { "text": "only inserting", "label": "C" },
+      { "text": "only deleting", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Time complexity refers to the amount of time operations take as data size increases. Common operations include searching, inserting, deleting, sorting, and updating."
+  },
+  {
+    "questionText": "a good data structure should use memory efficiently without unnecessary waste. this describes:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "time complexity", "label": "A" },
+      { "text": "space complexity", "label": "B" },
+      { "text": "correctness", "label": "C" },
+      { "text": "linearity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Space complexity refers to the amount of memory required to store and process data. A suitable data structure should use memory efficiently without unnecessary waste."
+  },
+  {
+    "questionText": "if a queue is wrongly implemented and follows LIFO instead of FIFO, it violates:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "time complexity", "label": "A" },
+      { "text": "space complexity", "label": "B" },
+      { "text": "correctness", "label": "C" },
+      { "text": "linearity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Correctness means a data structure should behave according to its intended rules. A queue should follow FIFO; if it follows LIFO instead, it violates correctness."
+  },
+  {
+    "questionText": "a supermarket analysing sales data to identify fast-moving products is an example of:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "guesswork", "label": "A" },
+      { "text": "data-driven decision-making", "label": "B" },
+      { "text": "random selection", "label": "C" },
+      { "text": "personal preference", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A supermarket analysing sales data to identify fast-moving products and decide when to restock them is an example of data-driven decision-making."
+  },
+  {
+    "questionText": "a bank may analyse transaction records to:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "increase customer complaints", "label": "A" },
+      { "text": "detect suspicious activities", "label": "B" },
+      { "text": "reduce employee salaries", "label": "C" },
+      { "text": "close all accounts", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A bank may analyse transaction records to detect suspicious activities, helping in risk management and fraud prevention."
+  },
+  {
+    "questionText": "a university may use enrolment and performance data to:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "plan classrooms and staffing", "label": "A" },
+      { "text": "cancel all courses", "label": "B" },
+      { "text": "reduce student admissions", "label": "C" },
+      { "text": "increase tuition fees randomly", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A university may use enrolment and performance data to plan classrooms, staffing, and academic support services."
+  },
+  {
+    "questionText": "if a business notices from sales data that customers buy more bottled water during hot weather, it can:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "reduce stock of bottled water", "label": "A" },
+      {
+        "text": "increase stock before periods of high temperature",
+        "label": "B"
+      },
+      { "text": "stop selling bottled water", "label": "C" },
+      { "text": "ignore the data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "If a business notices from sales data that customers buy more bottled water during hot weather, it can increase stock before periods of high temperature. This decision is based on evidence from data."
+  },
+  {
+    "questionText": "an online store recommending products based on previous purchases is an example of:",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "random guessing", "label": "A" },
+      { "text": "using data to improve customer experience", "label": "B" },
+      { "text": "ignoring customer preferences", "label": "C" },
+      { "text": "increasing prices", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "An online store may recommend products based on a customer's previous purchases, using data to improve customer experience and service."
+  },
+  {
+    "questionText": "a retail store studying monthly sales data to increase stock before resumption is an example of:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "random guessing", "label": "A" },
+      { "text": "business analytics supporting better planning", "label": "B" },
+      { "text": "ignoring customer behaviour", "label": "C" },
+      { "text": "reducing sales performance", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A retail store studying monthly sales data and discovering that students buy more stationery at the beginning of each semester uses this information to increase stock, showing how business analytics supports better planning."
+  },
+  {
+    "questionText": "a queue of customers waiting for service is an example of:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "a non-linear structure", "label": "A" },
+      { "text": "a linear structure", "label": "B" },
+      { "text": "a random structure", "label": "C" },
+      { "text": "a circular structure", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A queue of customers waiting for service is an example of a linear structure because the first person to arrive is expected to be served first (FIFO principle)."
+  },
+  {
+    "questionText": "a university organisational chart is closer to:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "a linear structure", "label": "A" },
+      { "text": "a non-linear structure", "label": "B" },
+      { "text": "a random structure", "label": "C" },
+      { "text": "a circular structure", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A university organisational chart is closer to a non-linear structure because it has levels and branches, representing hierarchical relationships."
+  },
+  {
+    "questionText": "why might a dynamic data structure be useful in an application where users can keep adding new records?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "it has a fixed size", "label": "A" },
+      { "text": "it can grow as more records are added", "label": "B" },
+      { "text": "it cannot store new records", "label": "C" },
+      { "text": "it deletes old records automatically", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Dynamic data structures are flexible because they can adjust as more records are added or removed. This makes them useful in applications where the amount of data is not known in advance."
+  },
+  {
+    "questionText": "if a data structure is wrongly implemented, the system may:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "produce incorrect results", "label": "A" },
+      { "text": "automatically fix the error", "label": "B" },
+      { "text": "store data correctly anyway", "label": "C" },
+      { "text": "improve performance", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "If a data structure is wrongly implemented, the system may produce incorrect results. For example, if a queue violates FIFO or a stack violates LIFO, operations will not behave as expected."
+  },
+  {
+    "questionText": "a search engine needs to quickly find information among billions of web pages. the most important characteristic is:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "space complexity", "label": "A" },
+      { "text": "time complexity", "label": "B" },
+      { "text": "correctness", "label": "C" },
+      { "text": "linearity", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A search engine needs fast search operations, so time complexity is the most important characteristic. Operations should be efficient even as data size grows."
+  },
+  {
+    "questionText": "a system that processes financial transactions must handle data with high accuracy. this emphasizes the importance of:",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "time complexity only", "label": "A" },
+      { "text": "space complexity only", "label": "B" },
+      { "text": "correctness", "label": "C" },
+      { "text": "linearity", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "A system processing financial transactions must follow the correct rules (e.g., no data loss, correct order of operations). This emphasizes the importance of correctness in data structures."
+  },
+  {
+    "questionText": "how does data support marketing activities?",
+    "topic": "applicability of data to business",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "by identifying which products are most attractive",
+        "label": "A"
+      },
+      {
+        "text": "by identifying which customer groups should be targeted",
+        "label": "B"
+      },
+      { "text": "by analysing advertising performance", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Data supports marketing by helping businesses analyse customer behaviour, advertising performance, and market trends to identify attractive products and customer groups to target."
+  },
+  {
+    "questionText": "a business that uses evidence from data to guide its decisions rather than relying on guesswork is described as:",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "intuition-driven", "label": "A" },
+      { "text": "data-driven", "label": "B" },
+      { "text": "opinion-driven", "label": "C" },
+      { "text": "emotion-driven", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A data-driven business uses evidence from data to guide its decisions rather than relying only on guesswork or personal opinion."
+  },
+  {
+    "questionText": "which of the following is NOT a common business data type?",
+    "topic": "business analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "transactional data", "label": "A" },
+      { "text": "customer data", "label": "B" },
+      { "text": "astronomical data", "label": "C" },
+      { "text": "financial data", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "Astronomical data is not a common business data type. Common business data includes transactional, customer, operational, financial, web, machine, and human resource data."
+  },
+  {
+    "questionText": "linked lists and trees are examples of:",
+    "topic": "relationship between business data and data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "static data structures", "label": "A" },
+      { "text": "dynamic data structures", "label": "B" },
+      { "text": "linear data structures only", "label": "C" },
+      { "text": "non-linear data structures only", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Linked lists and trees are examples of dynamic data structures because they can grow or shrink during program execution as elements are added or removed."
+  },
+  {
+    "questionText": "in data structures, what does FIFO stand for?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "fast-in-fast-out", "label": "A" },
+      { "text": "first-in-first-out", "label": "B" },
+      { "text": "final-in-final-out", "label": "C" },
+      { "text": "first-in-final-out", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "FIFO stands for First-In-First-Out, which is the principle followed by queues where the first element added is the first one to be removed."
+  },
+  {
+    "questionText": "in data structures, what does LIFO stand for?",
+    "topic": "characteristics of data structures",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "last-in-first-out", "label": "A" },
+      { "text": "first-in-first-out", "label": "B" },
+      { "text": "last-in-last-out", "label": "C" },
+      { "text": "least-in-first-out", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "LIFO stands for Last-In-First-Out, which is the principle followed by stacks where the last element added is the first one to be removed."
+  }
+]

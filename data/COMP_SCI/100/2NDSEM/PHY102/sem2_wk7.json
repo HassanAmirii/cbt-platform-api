@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "what is electric current?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The rate at which charge flows through a cross-section of a conductor",
+        "label": "A"
+      },
+      {
+        "text": "The potential difference between two points",
+        "label": "B"
+      },
+      {
+        "text": "The opposition to the flow of charge",
+        "label": "C"
+      },
+      {
+        "text": "The energy stored in a battery",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Electric current I is the rate at which charge flows: I = ΔQ/Δt."
+  },
+  {
+    "questionText": "the si unit of electric current is the:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Volt (V)",
+        "label": "A"
+      },
+      {
+        "text": "Ohm (Ω)",
+        "label": "B"
+      },
+      {
+        "text": "Ampere (A)",
+        "label": "C"
+      },
+      {
+        "text": "Coulomb (C)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Current is measured in amperes (A), where 1 A = 1 C/s."
+  },
+  {
+    "questionText": "conventional current flows from:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Negative to positive",
+        "label": "A"
+      },
+      {
+        "text": "Positive to negative",
+        "label": "B"
+      },
+      {
+        "text": "Both directions simultaneously",
+        "label": "C"
+      },
+      {
+        "text": "It does not flow",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "By convention, current flows from positive to negative terminals, even though electrons actually flow opposite."
+  },
+  {
+    "questionText": "a car battery is connected to a headlight. if 120 c of charge passes through the bulb in 1 minute, what is the current?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.5 A",
+        "label": "A"
+      },
+      {
+        "text": "1 A",
+        "label": "B"
+      },
+      {
+        "text": "2 A",
+        "label": "C"
+      },
+      {
+        "text": "120 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "I = ΔQ/Δt = 120 C / 60 s = 2 A."
+  },
+  {
+    "questionText": "what is voltage (potential difference)?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The rate of flow of charge",
+        "label": "A"
+      },
+      {
+        "text": "The opposition to current flow",
+        "label": "B"
+      },
+      {
+        "text": "The electrical pressure that pushes charges",
+        "label": "C"
+      },
+      {
+        "text": "The energy dissipated as heat",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Voltage is the electrical pressure or potential difference that causes charges to move."
+  },
+  {
+    "questionText": "what is resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The rate of charge flow",
+        "label": "A"
+      },
+      {
+        "text": "The opposition to the flow of current",
+        "label": "B"
+      },
+      {
+        "text": "The electrical pressure",
+        "label": "C"
+      },
+      {
+        "text": "The energy stored per unit charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Resistance is the opposition to current flow, measured in ohms (Ω)."
+  },
+  {
+    "questionText": "the resistance of a wire depends on which factors?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Length only",
+        "label": "A"
+      },
+      {
+        "text": "Cross-sectional area only",
+        "label": "B"
+      },
+      {
+        "text": "Material only",
+        "label": "C"
+      },
+      {
+        "text": "Length, cross-sectional area, and resistivity",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "R = ρL/A, so resistance depends on length (L), area (A), and resistivity (ρ)."
+  },
+  {
+    "questionText": "the formula for resistance in terms of resistivity is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "R = ρA/L",
+        "label": "A"
+      },
+      {
+        "text": "R = ρL/A",
+        "label": "B"
+      },
+      {
+        "text": "R = L/(ρA)",
+        "label": "C"
+      },
+      {
+        "text": "R = A/(ρL)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "R = ρL/A, where ρ is resistivity, L is length, and A is cross-sectional area."
+  },
+  {
+    "questionText": "if the length of a wire is doubled, what happens to its resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Halves",
+        "label": "A"
+      },
+      {
+        "text": "Doubles",
+        "label": "B"
+      },
+      {
+        "text": "Quadruples",
+        "label": "C"
+      },
+      {
+        "text": "Remains the same",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "R ∝ L, so doubling L doubles the resistance."
+  },
+  {
+    "questionText": "if the cross-sectional area of a wire is doubled, what happens to its resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Halves",
+        "label": "A"
+      },
+      {
+        "text": "Doubles",
+        "label": "B"
+      },
+      {
+        "text": "Quadruples",
+        "label": "C"
+      },
+      {
+        "text": "Remains the same",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "R ∝ 1/A, so doubling A halves the resistance."
+  },
+  {
+    "questionText": "state ohm's law.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "V = I/R",
+        "label": "A"
+      },
+      {
+        "text": "V = IR",
+        "label": "B"
+      },
+      {
+        "text": "I = VR",
+        "label": "C"
+      },
+      {
+        "text": "R = IV",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Ohm's Law states that V = IR, where voltage is proportional to current."
+  },
+  {
+    "questionText": "an electric iron has a resistance of 50 ω and is plugged into a 240 v socket. how much current does it draw?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2.4 A",
+        "label": "A"
+      },
+      {
+        "text": "4.8 A",
+        "label": "B"
+      },
+      {
+        "text": "12 A",
+        "label": "C"
+      },
+      {
+        "text": "24 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "I = V/R = 240/50 = 4.8 A."
+  },
+  {
+    "questionText": "a 12 v battery produces a current of 0.5 a through a resistor. what is the resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "6 Ω",
+        "label": "A"
+      },
+      {
+        "text": "12 Ω",
+        "label": "B"
+      },
+      {
+        "text": "24 Ω",
+        "label": "C"
+      },
+      {
+        "text": "48 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "R = V/I = 12/0.5 = 24 Ω."
+  },
+  {
+    "questionText": "what is the formula for electric power?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "P = I/V",
+        "label": "A"
+      },
+      {
+        "text": "P = IV",
+        "label": "B"
+      },
+      {
+        "text": "P = I²V",
+        "label": "C"
+      },
+      {
+        "text": "P = V/I",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Power P = IV = I²R = V²/R."
+  },
+  {
+    "questionText": "a device has a voltage of 24 v and a current of 2 a. what is the power?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "12 W",
+        "label": "A"
+      },
+      {
+        "text": "24 W",
+        "label": "B"
+      },
+      {
+        "text": "48 W",
+        "label": "C"
+      },
+      {
+        "text": "96 W",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "P = IV = 2 × 24 = 48 W."
+  },
+  {
+    "questionText": "a surgical lamp has a resistance of 12 ω and operates on a 24 v dc supply. what is the power rating?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "24 W",
+        "label": "A"
+      },
+      {
+        "text": "36 W",
+        "label": "B"
+      },
+      {
+        "text": "48 W",
+        "label": "C"
+      },
+      {
+        "text": "72 W",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "P = V²/R = (24)²/12 = 576/12 = 48 W."
+  },
+  {
+    "questionText": "a resistor has a current of 3 a and a resistance of 10 ω. what is the power dissipated?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "30 W",
+        "label": "A"
+      },
+      {
+        "text": "60 W",
+        "label": "B"
+      },
+      {
+        "text": "90 W",
+        "label": "C"
+      },
+      {
+        "text": "120 W",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "P = I²R = (3)² × 10 = 9 × 10 = 90 W."
+  },
+  {
+    "questionText": "what is the formula for electrical energy?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = P/t",
+        "label": "A"
+      },
+      {
+        "text": "E = P × t",
+        "label": "B"
+      },
+      {
+        "text": "E = V/I × t",
+        "label": "C"
+      },
+      {
+        "text": "E = I/R × t",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Energy = Power × time. E = P × t."
+  },
+  {
+    "questionText": "a 1000 w electric heater is used for 3 hours. how much energy is consumed in kwh?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.33 kWh",
+        "label": "A"
+      },
+      {
+        "text": "1 kWh",
+        "label": "B"
+      },
+      {
+        "text": "3 kWh",
+        "label": "C"
+      },
+      {
+        "text": "9 kWh",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "1000 W = 1 kW. Energy = 1 kW × 3 h = 3 kWh."
+  },
+  {
+    "questionText": "if electricity costs ₦50 per kwh, how much does it cost to run a 1000 w heater for 3 hours?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "₦50",
+        "label": "A"
+      },
+      {
+        "text": "₦100",
+        "label": "B"
+      },
+      {
+        "text": "₦150",
+        "label": "C"
+      },
+      {
+        "text": "₦300",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Cost = 3 kWh × ₦50/kWh = ₦150."
+  },
+  {
+    "questionText": "for resistors in series, the equivalent resistance is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "R_eq = R₁ + R₂ + ...",
+        "label": "A"
+      },
+      {
+        "text": "1/R_eq = 1/R₁ + 1/R₂ + ...",
+        "label": "B"
+      },
+      {
+        "text": "R_eq = R₁ × R₂",
+        "label": "C"
+      },
+      {
+        "text": "R_eq = (R₁ + R₂)/2",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "For series, resistances add directly: R_eq = R₁ + R₂ + ..."
+  },
+  {
+    "questionText": "for resistors in parallel, the equivalent resistance is given by:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "R_eq = R₁ + R₂ + ...",
+        "label": "A"
+      },
+      {
+        "text": "1/R_eq = 1/R₁ + 1/R₂ + ...",
+        "label": "B"
+      },
+      {
+        "text": "R_eq = R₁ × R₂",
+        "label": "C"
+      },
+      {
+        "text": "R_eq = (R₁ + R₂)/2",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For parallel, the reciprocal of equivalent resistance equals the sum of reciprocals."
+  },
+  {
+    "questionText": "three resistors of 2 ω, 3 ω, and 5 ω are connected in series. find the equivalent resistance.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.97 Ω",
+        "label": "A"
+      },
+      {
+        "text": "8 Ω",
+        "label": "B"
+      },
+      {
+        "text": "10 Ω",
+        "label": "C"
+      },
+      {
+        "text": "30 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "R_eq = 2 + 3 + 5 = 10 Ω."
+  },
+  {
+    "questionText": "three resistors of 2 ω, 3 ω, and 5 ω are connected in parallel. find the equivalent resistance.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.97 Ω",
+        "label": "A"
+      },
+      {
+        "text": "8 Ω",
+        "label": "B"
+      },
+      {
+        "text": "10 Ω",
+        "label": "C"
+      },
+      {
+        "text": "30 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "1/R_eq = 1/2 + 1/3 + 1/5 = (15+10+6)/30 = 31/30, so R_eq = 30/31 ≈ 0.97 Ω."
+  },
+  {
+    "questionText": "two resistors, 6 ω and 3 ω, are connected in parallel. this combination is then connected in series with a 4 ω resistor. find the total resistance.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 Ω",
+        "label": "A"
+      },
+      {
+        "text": "4 Ω",
+        "label": "B"
+      },
+      {
+        "text": "6 Ω",
+        "label": "C"
+      },
+      {
+        "text": "9 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Parallel: 1/R_p = 1/6 + 1/3 = 1/2, so R_p = 2 Ω. Series with 4 Ω gives R_eq = 2 + 4 = 6 Ω."
+  },
+  {
+    "questionText": "in a series circuit, the current through each resistor is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Different",
+        "label": "A"
+      },
+      {
+        "text": "The same",
+        "label": "B"
+      },
+      {
+        "text": "Zero",
+        "label": "C"
+      },
+      {
+        "text": "Inversely proportional to resistance",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In series, there is only one path, so the same current flows through all components."
+  },
+  {
+    "questionText": "in a parallel circuit, the voltage across each branch is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Different",
+        "label": "A"
+      },
+      {
+        "text": "The same",
+        "label": "B"
+      },
+      {
+        "text": "Zero",
+        "label": "C"
+      },
+      {
+        "text": "Proportional to resistance",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In parallel, all branches are connected across the same two points, so voltage is the same."
+  },
+  {
+    "questionText": "what is electromotive force (emf)?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The actual voltage measured across battery terminals",
+        "label": "A"
+      },
+      {
+        "text": "The total potential energy per unit charge a battery can provide",
+        "label": "B"
+      },
+      {
+        "text": "The current produced by a battery",
+        "label": "C"
+      },
+      {
+        "text": "The internal resistance of a battery",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "EMF (E) is the total potential energy per unit charge a battery can provide, measured when no current flows."
+  },
+  {
+    "questionText": "what is terminal voltage?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The emf of the battery",
+        "label": "A"
+      },
+      {
+        "text": "The actual voltage measured across battery terminals when delivering current",
+        "label": "B"
+      },
+      {
+        "text": "The voltage lost inside the battery",
+        "label": "C"
+      },
+      {
+        "text": "The voltage of a disconnected battery",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Terminal voltage V is the actual voltage across the battery terminals when current is flowing."
+  },
+  {
+    "questionText": "the relationship between emf (e), terminal voltage (v), current (i), and internal resistance (r) is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "V = E + Ir",
+        "label": "A"
+      },
+      {
+        "text": "V = E - Ir",
+        "label": "B"
+      },
+      {
+        "text": "E = V - Ir",
+        "label": "C"
+      },
+      {
+        "text": "I = E/(Vr)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Terminal voltage V = E - Ir, where Ir is the voltage drop due to internal resistance."
+  },
+  {
+    "questionText": "a battery has an emf of 9.0 v and an internal resistance of 0.5 ω. it is connected to a lightbulb of resistance 4.0 ω. find the current.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.5 A",
+        "label": "A"
+      },
+      {
+        "text": "1.8 A",
+        "label": "B"
+      },
+      {
+        "text": "2.0 A",
+        "label": "C"
+      },
+      {
+        "text": "2.25 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Total resistance = 4.0 + 0.5 = 4.5 Ω. I = E/R_total = 9.0/4.5 = 2.0 A."
+  },
+  {
+    "questionText": "for the battery in question 31, find the terminal voltage.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "7.0 V",
+        "label": "A"
+      },
+      {
+        "text": "8.0 V",
+        "label": "B"
+      },
+      {
+        "text": "9.0 V",
+        "label": "C"
+      },
+      {
+        "text": "10.0 V",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "V = E - Ir = 9.0 - (2.0 × 0.5) = 9.0 - 1.0 = 8.0 V."
+  },
+  {
+    "questionText": "why does a battery get warm when used for a long time?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Chemical reactions absorb heat",
+        "label": "A"
+      },
+      {
+        "text": "Power dissipated as heat due to internal resistance (P = I²r)",
+        "label": "B"
+      },
+      {
+        "text": "The external circuit is cold",
+        "label": "C"
+      },
+      {
+        "text": "Voltage increases",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Internal resistance dissipates power as heat: P = I²r, causing the battery to warm up."
+  },
+  {
+    "questionText": "kirchhoff's current law (kcl) is based on the conservation of:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Energy",
+        "label": "A"
+      },
+      {
+        "text": "Charge",
+        "label": "B"
+      },
+      {
+        "text": "Momentum",
+        "label": "C"
+      },
+      {
+        "text": "Mass",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "KCL is based on conservation of charge: current entering a junction equals current leaving."
+  },
+  {
+    "questionText": "kirchhoff's voltage law (kvl) is based on the conservation of:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Charge",
+        "label": "A"
+      },
+      {
+        "text": "Current",
+        "label": "B"
+      },
+      {
+        "text": "Energy",
+        "label": "C"
+      },
+      {
+        "text": "Resistance",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "KVL is based on conservation of energy: the sum of voltage changes around a closed loop is zero."
+  },
+  {
+    "questionText": "kirchhoff's current law states that:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "∑V = 0",
+        "label": "A"
+      },
+      {
+        "text": "∑I_in = ∑I_out",
+        "label": "B"
+      },
+      {
+        "text": "V = IR",
+        "label": "C"
+      },
+      {
+        "text": "P = IV",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "KCL: The total current entering a junction equals the total current leaving it."
+  },
+  {
+    "questionText": "kirchhoff's voltage law states that:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "∑I_in = ∑I_out",
+        "label": "A"
+      },
+      {
+        "text": "∑ΔV = 0 around a closed loop",
+        "label": "B"
+      },
+      {
+        "text": "V = IR",
+        "label": "C"
+      },
+      {
+        "text": "P = I²R",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "KVL: The sum of all voltage changes around any closed loop is zero."
+  },
+  {
+    "questionText": "in kvl, when moving through a resistor in the direction of the current, the voltage change is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+IR",
+        "label": "A"
+      },
+      {
+        "text": "-IR",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "+V",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When moving with the current across a resistor, the potential decreases, so ΔV = -IR."
+  },
+  {
+    "questionText": "in kvl, when moving through a battery from the negative terminal to the positive terminal, the voltage change is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+E",
+        "label": "A"
+      },
+      {
+        "text": "-E",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "+IR",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Moving from - to + increases potential, so ΔV = +E."
+  },
+  {
+    "questionText": "what is a galvanometer?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "A device that measures voltage",
+        "label": "A"
+      },
+      {
+        "text": "A sensitive device that detects tiny currents",
+        "label": "B"
+      },
+      {
+        "text": "A type of battery",
+        "label": "C"
+      },
+      {
+        "text": "A resistor used to limit current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A galvanometer is a sensitive instrument used to detect and measure small electric currents."
+  },
+  {
+    "questionText": "how is a galvanometer converted into an ammeter?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Connect a high resistance (multiplier) in series",
+        "label": "A"
+      },
+      {
+        "text": "Connect a low resistance (shunt) in parallel",
+        "label": "B"
+      },
+      {
+        "text": "Connect a capacitor in series",
+        "label": "C"
+      },
+      {
+        "text": "Connect an inductor in parallel",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "To make an ammeter, connect a low-resistance shunt in parallel with the galvanometer."
+  },
+  {
+    "questionText": "how is a galvanometer converted into a voltmeter?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Connect a low resistance (shunt) in parallel",
+        "label": "A"
+      },
+      {
+        "text": "Connect a high resistance (multiplier) in series",
+        "label": "B"
+      },
+      {
+        "text": "Connect a capacitor in parallel",
+        "label": "C"
+      },
+      {
+        "text": "Connect an inductor in series",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "To make a voltmeter, connect a high-resistance multiplier in series with the galvanometer."
+  },
+  {
+    "questionText": "an ideal ammeter should have:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Zero resistance",
+        "label": "A"
+      },
+      {
+        "text": "Infinite resistance",
+        "label": "B"
+      },
+      {
+        "text": "Very high resistance",
+        "label": "C"
+      },
+      {
+        "text": "Resistance equal to the load",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "An ammeter is connected in series and should have zero resistance to avoid affecting the current."
+  },
+  {
+    "questionText": "an ideal voltmeter should have:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Zero resistance",
+        "label": "A"
+      },
+      {
+        "text": "Infinite resistance",
+        "label": "B"
+      },
+      {
+        "text": "Very low resistance",
+        "label": "C"
+      },
+      {
+        "text": "Resistance equal to the load",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A voltmeter is connected in parallel and should have infinite resistance to avoid drawing current."
+  },
+  {
+    "questionText": "an ammeter must be connected in ______ with the component whose current is being measured.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Series",
+        "label": "A"
+      },
+      {
+        "text": "Parallel",
+        "label": "B"
+      },
+      {
+        "text": "Both series and parallel",
+        "label": "C"
+      },
+      {
+        "text": "Neither",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Ammeters are connected in series to measure the current flowing through a branch."
+  },
+  {
+    "questionText": "a voltmeter must be connected in ______ with the component whose voltage is being measured.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Series",
+        "label": "A"
+      },
+      {
+        "text": "Parallel",
+        "label": "B"
+      },
+      {
+        "text": "Both series and parallel",
+        "label": "C"
+      },
+      {
+        "text": "Neither",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Voltmeters are connected in parallel to measure potential difference across a component."
+  },
+  {
+    "questionText": "what is a fuse?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "A device that stores charge",
+        "label": "A"
+      },
+      {
+        "text": "A thin wire that melts if current exceeds a safe value",
+        "label": "B"
+      },
+      {
+        "text": "A type of switch",
+        "label": "C"
+      },
+      {
+        "text": "A voltage regulator",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A fuse contains a thin wire that melts and breaks the circuit when current exceeds its rating."
+  },
+  {
+    "questionText": "what is earthing (grounding)?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Connecting a circuit to the Earth to provide a safe path for stray currents",
+        "label": "A"
+      },
+      {
+        "text": "Digging a hole for the battery",
+        "label": "B"
+      },
+      {
+        "text": "Insulating all wires",
+        "label": "C"
+      },
+      {
+        "text": "Increasing voltage",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Grounding provides a low-resistance path for stray electricity to go safely into the earth."
+  },
+  {
+    "questionText": "a galvanometer has internal resistance 50 ω and gives full-scale deflection at 2 ma. find the shunt resistance needed to measure up to 5 a.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.01 Ω",
+        "label": "A"
+      },
+      {
+        "text": "0.02 Ω",
+        "label": "B"
+      },
+      {
+        "text": "0.04 Ω",
+        "label": "C"
+      },
+      {
+        "text": "0.08 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "V_g = I_g R_g = (0.002)(50) = 0.1 V. Shunt current = 5 - 0.002 = 4.998 A. R_shunt = 0.1/4.998 ≈ 0.02 Ω."
+  },
+  {
+    "questionText": "a current of 0.5 a flows through a 10 ω resistor. what is the voltage across it?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.05 V",
+        "label": "A"
+      },
+      {
+        "text": "5 V",
+        "label": "B"
+      },
+      {
+        "text": "10 V",
+        "label": "C"
+      },
+      {
+        "text": "20 V",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "V = IR = 0.5 × 10 = 5 V."
+  },
+  {
+    "questionText": "a 60 w light bulb operates at 120 v. what current does it draw?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.2 A",
+        "label": "A"
+      },
+      {
+        "text": "0.5 A",
+        "label": "B"
+      },
+      {
+        "text": "1.0 A",
+        "label": "C"
+      },
+      {
+        "text": "2.0 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "I = P/V = 60/120 = 0.5 A."
+  },
+  {
+    "questionText": "a 60 w light bulb operates at 120 v. what is its resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "120 Ω",
+        "label": "A"
+      },
+      {
+        "text": "240 Ω",
+        "label": "B"
+      },
+      {
+        "text": "360 Ω",
+        "label": "C"
+      },
+      {
+        "text": "720 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "R = V²/P = (120)²/60 = 14,400/60 = 240 Ω."
+  },
+  {
+    "questionText": "a 1.5 v battery delivers 0.3 a to a small motor. what is the power delivered?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.15 W",
+        "label": "A"
+      },
+      {
+        "text": "0.45 W",
+        "label": "B"
+      },
+      {
+        "text": "1.5 W",
+        "label": "C"
+      },
+      {
+        "text": "4.5 W",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "P = IV = 0.3 × 1.5 = 0.45 W."
+  },
+  {
+    "questionText": "a 100 w bulb is used for 10 hours. how many kwh are consumed?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.1 kWh",
+        "label": "A"
+      },
+      {
+        "text": "1 kWh",
+        "label": "B"
+      },
+      {
+        "text": "10 kWh",
+        "label": "C"
+      },
+      {
+        "text": "100 kWh",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "100 W = 0.1 kW. Energy = 0.1 kW × 10 h = 1 kWh."
+  },
+  {
+    "questionText": "a wire has resistance 10 ω. if its length is tripled and cross-sectional area is halved, what is the new resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "15 Ω",
+        "label": "A"
+      },
+      {
+        "text": "30 Ω",
+        "label": "B"
+      },
+      {
+        "text": "60 Ω",
+        "label": "C"
+      },
+      {
+        "text": "90 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "R ∝ L/A. New R = R₀ × (3) × (2) = 10 × 6 = 60 Ω."
+  },
+  {
+    "questionText": "which material would have the highest resistivity?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Copper",
+        "label": "A"
+      },
+      {
+        "text": "Aluminum",
+        "label": "B"
+      },
+      {
+        "text": "Rubber",
+        "label": "C"
+      },
+      {
+        "text": "Gold",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Rubber is an insulator with very high resistivity; copper and aluminum are conductors with low resistivity."
+  },
+  {
+    "questionText": "a 12 v battery delivers 2 a to a resistor. what is the resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 Ω",
+        "label": "A"
+      },
+      {
+        "text": "4 Ω",
+        "label": "B"
+      },
+      {
+        "text": "6 Ω",
+        "label": "C"
+      },
+      {
+        "text": "8 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "R = V/I = 12/2 = 6 Ω."
+  },
+  {
+    "questionText": "a 240 v electric kettle draws 10 a. what is its power?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "240 W",
+        "label": "A"
+      },
+      {
+        "text": "1200 W",
+        "label": "B"
+      },
+      {
+        "text": "2400 W",
+        "label": "C"
+      },
+      {
+        "text": "4800 W",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "P = IV = 10 × 240 = 2400 W = 2.4 kW."
+  },
+  {
+    "questionText": "a 240 v kettle uses 2.4 kw. how much energy does it use in 30 minutes?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.8 kWh",
+        "label": "A"
+      },
+      {
+        "text": "1.2 kWh",
+        "label": "B"
+      },
+      {
+        "text": "2.4 kWh",
+        "label": "C"
+      },
+      {
+        "text": "4.8 kWh",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Energy = P × t = 2.4 kW × 0.5 h = 1.2 kWh."
+  },
+  {
+    "questionText": "the cost of electricity is ₦60 per kwh. how much does it cost to run a 2.4 kw kettle for 30 minutes?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "₦18",
+        "label": "A"
+      },
+      {
+        "text": "₦36",
+        "label": "B"
+      },
+      {
+        "text": "₦72",
+        "label": "C"
+      },
+      {
+        "text": "₦144",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Energy = 1.2 kWh. Cost = 1.2 × ₦60 = ₦72."
+  },
+  {
+    "questionText": "three 6 ω resistors are connected in parallel. find the equivalent resistance.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 Ω",
+        "label": "A"
+      },
+      {
+        "text": "6 Ω",
+        "label": "B"
+      },
+      {
+        "text": "12 Ω",
+        "label": "C"
+      },
+      {
+        "text": "18 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "1/R_eq = 1/6 + 1/6 + 1/6 = 3/6 = 1/2, so R_eq = 2 Ω."
+  },
+  {
+    "questionText": "three 6 ω resistors are connected in series. find the equivalent resistance.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 Ω",
+        "label": "A"
+      },
+      {
+        "text": "6 Ω",
+        "label": "B"
+      },
+      {
+        "text": "12 Ω",
+        "label": "C"
+      },
+      {
+        "text": "18 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "R_eq = 6 + 6 + 6 = 18 Ω."
+  },
+  {
+    "questionText": "two resistors of 4 ω and 12 ω are connected in parallel. the equivalent resistance is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "3 Ω",
+        "label": "A"
+      },
+      {
+        "text": "6 Ω",
+        "label": "B"
+      },
+      {
+        "text": "8 Ω",
+        "label": "C"
+      },
+      {
+        "text": "16 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "1/R_eq = 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3, so R_eq = 3 Ω."
+  },
+  {
+    "questionText": "a 10 ω and 20 ω resistor are in parallel. what is the equivalent resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "6.67 Ω",
+        "label": "A"
+      },
+      {
+        "text": "10 Ω",
+        "label": "B"
+      },
+      {
+        "text": "15 Ω",
+        "label": "C"
+      },
+      {
+        "text": "30 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "1/R_eq = 1/10 + 1/20 = 2/20 + 1/20 = 3/20, so R_eq = 20/3 ≈ 6.67 Ω."
+  },
+  {
+    "questionText": "a 10 ω and 20 ω resistor are in series. what is the equivalent resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "6.67 Ω",
+        "label": "A"
+      },
+      {
+        "text": "10 Ω",
+        "label": "B"
+      },
+      {
+        "text": "20 Ω",
+        "label": "C"
+      },
+      {
+        "text": "30 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "R_eq = 10 + 20 = 30 Ω."
+  },
+  {
+    "questionText": "a battery with emf 12 v and internal resistance 1 ω is connected to a 5 ω load. find the current.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.5 A",
+        "label": "A"
+      },
+      {
+        "text": "2 A",
+        "label": "B"
+      },
+      {
+        "text": "2.4 A",
+        "label": "C"
+      },
+      {
+        "text": "12 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "I = E/(R + r) = 12/(5 + 1) = 12/6 = 2 A."
+  },
+  {
+    "questionText": "for the battery in question 66, find the terminal voltage.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "10 V",
+        "label": "A"
+      },
+      {
+        "text": "11 V",
+        "label": "B"
+      },
+      {
+        "text": "12 V",
+        "label": "C"
+      },
+      {
+        "text": "13 V",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "V = E - Ir = 12 - (2 × 1) = 12 - 2 = 10 V."
+  },
+  {
+    "questionText": "if a battery has internal resistance 0.2 ω and delivers 5 a, the internal voltage drop is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.1 V",
+        "label": "A"
+      },
+      {
+        "text": "1 V",
+        "label": "B"
+      },
+      {
+        "text": "5 V",
+        "label": "C"
+      },
+      {
+        "text": "25 V",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Internal voltage drop = I × r = 5 × 0.2 = 1 V."
+  },
+  {
+    "questionText": "a junction has currents entering: 2 a and 3 a. currents leaving: i and 1 a. find i.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2 A",
+        "label": "A"
+      },
+      {
+        "text": "3 A",
+        "label": "B"
+      },
+      {
+        "text": "4 A",
+        "label": "C"
+      },
+      {
+        "text": "5 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "∑I_in = ∑I_out ⇒ 2 + 3 = I + 1 ⇒ 5 = I + 1 ⇒ I = 4 A."
+  },
+  {
+    "questionText": "a loop contains a 12 v battery and two resistors 2 ω and 4 ω in series. find the current.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1 A",
+        "label": "A"
+      },
+      {
+        "text": "2 A",
+        "label": "B"
+      },
+      {
+        "text": "3 A",
+        "label": "C"
+      },
+      {
+        "text": "6 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "R_total = 2 + 4 = 6 Ω. I = V/R = 12/6 = 2 A."
+  },
+  {
+    "questionText": "what is a circuit breaker?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "A fuse that cannot be reset",
+        "label": "A"
+      },
+      {
+        "text": "A reusable switch that trips during overload",
+        "label": "B"
+      },
+      {
+        "text": "A type of resistor",
+        "label": "C"
+      },
+      {
+        "text": "A voltage source",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A circuit breaker is a reusable protective device that opens the circuit when current exceeds a safe level."
+  },
+  {
+    "questionText": "why are electrical appliances in a house connected in parallel?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "To reduce total current",
+        "label": "A"
+      },
+      {
+        "text": "So each appliance gets the same voltage and can operate independently",
+        "label": "B"
+      },
+      {
+        "text": "To increase resistance",
+        "label": "C"
+      },
+      {
+        "text": "To save energy",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Parallel connection ensures each appliance receives the same voltage and can be switched independently."
+  },
+  {
+    "questionText": "if you add more resistors in series, the total resistance:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Stays the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "In series, resistances add, so total resistance increases."
+  },
+  {
+    "questionText": "if you add more resistors in parallel, the total resistance:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Stays the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes infinite",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In parallel, adding more paths decreases the total resistance."
+  },
+  {
+    "questionText": "a 0.5 a current flows through a 100 ω resistor. what is the voltage?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "20 V",
+        "label": "A"
+      },
+      {
+        "text": "50 V",
+        "label": "B"
+      },
+      {
+        "text": "100 V",
+        "label": "C"
+      },
+      {
+        "text": "200 V",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "V = IR = 0.5 × 100 = 50 V."
+  },
+  {
+    "questionText": "a 240 v toaster draws 5 a. what is its resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "12 Ω",
+        "label": "A"
+      },
+      {
+        "text": "24 Ω",
+        "label": "B"
+      },
+      {
+        "text": "48 Ω",
+        "label": "C"
+      },
+      {
+        "text": "120 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "R = V/I = 240/5 = 48 Ω."
+  },
+  {
+    "questionText": "a 240 v toaster draws 5 a. what is its power?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "480 W",
+        "label": "A"
+      },
+      {
+        "text": "960 W",
+        "label": "B"
+      },
+      {
+        "text": "1200 W",
+        "label": "C"
+      },
+      {
+        "text": "2400 W",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "P = IV = 5 × 240 = 1200 W = 1.2 kW."
+  },
+  {
+    "questionText": "in a circuit with two resistors in parallel, the resistor with lower resistance has:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Lower current",
+        "label": "A"
+      },
+      {
+        "text": "Higher current",
+        "label": "B"
+      },
+      {
+        "text": "Same current",
+        "label": "C"
+      },
+      {
+        "text": "No current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Current divides inversely with resistance; lower resistance gets more current."
+  },
+  {
+    "questionText": "in a circuit with two resistors in series, the resistor with higher resistance has:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Lower voltage",
+        "label": "A"
+      },
+      {
+        "text": "Higher voltage",
+        "label": "B"
+      },
+      {
+        "text": "Same voltage",
+        "label": "C"
+      },
+      {
+        "text": "Zero voltage",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Voltage divides proportionally to resistance; higher resistance gets more voltage."
+  },
+  {
+    "questionText": "a galvanometer with 100 ω internal resistance and 1 ma full-scale deflection is to be used as a voltmeter to measure 10 v. find the multiplier resistance.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "9.9 kΩ",
+        "label": "A"
+      },
+      {
+        "text": "10 kΩ",
+        "label": "B"
+      },
+      {
+        "text": "100 kΩ",
+        "label": "C"
+      },
+      {
+        "text": "1 MΩ",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "V = I_g(R_g + R_m) ⇒ 10 = 0.001(100 + R_m) ⇒ 10,000 = 100 + R_m ⇒ R_m = 9,900 Ω = 9.9 kΩ."
+  },
+  {
+    "questionText": "what is the function of a shunt resistor in an ammeter?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "To increase the voltage range",
+        "label": "A"
+      },
+      {
+        "text": "To bypass most of the current around the galvanometer",
+        "label": "B"
+      },
+      {
+        "text": "To increase sensitivity",
+        "label": "C"
+      },
+      {
+        "text": "To convert AC to DC",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The shunt is a low-resistance path that diverts most of the current around the galvanometer."
+  },
+  {
+    "questionText": "what is the function of a multiplier resistor in a voltmeter?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "To bypass current",
+        "label": "A"
+      },
+      {
+        "text": "To drop most of the voltage",
+        "label": "B"
+      },
+      {
+        "text": "To increase sensitivity",
+        "label": "C"
+      },
+      {
+        "text": "To convert AC to DC",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The multiplier is a high-resistance resistor in series that drops most of the voltage, allowing the galvanometer to measure higher voltages."
+  },
+  {
+    "questionText": "a 9 v battery has internal resistance 0.5 ω. if a short circuit (r=0) is connected, what is the short-circuit current?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "4.5 A",
+        "label": "A"
+      },
+      {
+        "text": "9 A",
+        "label": "B"
+      },
+      {
+        "text": "18 A",
+        "label": "C"
+      },
+      {
+        "text": "90 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "I = E/r = 9/0.5 = 18 A."
+  },
+  {
+    "questionText": "what is the maximum current a 12 v battery with internal resistance 0.2 ω can supply (short-circuit)?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2.4 A",
+        "label": "A"
+      },
+      {
+        "text": "12 A",
+        "label": "B"
+      },
+      {
+        "text": "24 A",
+        "label": "C"
+      },
+      {
+        "text": "60 A",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "I_sc = E/r = 12/0.2 = 60 A."
+  },
+  {
+    "questionText": "two 10 ω resistors in parallel are connected in series with a 5 ω resistor. find the total resistance.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "5 Ω",
+        "label": "A"
+      },
+      {
+        "text": "10 Ω",
+        "label": "B"
+      },
+      {
+        "text": "15 Ω",
+        "label": "C"
+      },
+      {
+        "text": "20 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Parallel pair: 1/R_p = 1/10 + 1/10 = 2/10 = 1/5, so R_p = 5 Ω. Series with 5 Ω gives R_eq = 5 + 5 = 10 Ω."
+  },
+  {
+    "questionText": "a resistor dissipates 100 w when 10 v is applied. what is its resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.1 Ω",
+        "label": "A"
+      },
+      {
+        "text": "1 Ω",
+        "label": "B"
+      },
+      {
+        "text": "10 Ω",
+        "label": "C"
+      },
+      {
+        "text": "100 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "P = V²/R ⇒ R = V²/P = 100/100 = 1 Ω."
+  },
+  {
+    "questionText": "a resistor dissipates 100 w when 10 a flows. what is its resistance?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.1 Ω",
+        "label": "A"
+      },
+      {
+        "text": "1 Ω",
+        "label": "B"
+      },
+      {
+        "text": "10 Ω",
+        "label": "C"
+      },
+      {
+        "text": "100 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "P = I²R ⇒ R = P/I² = 100/100 = 1 Ω."
+  },
+  {
+    "questionText": "a 100 w bulb and a 60 w bulb are connected in parallel to a 120 v supply. which bulb draws more current?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "100 W bulb",
+        "label": "A"
+      },
+      {
+        "text": "60 W bulb",
+        "label": "B"
+      },
+      {
+        "text": "Both draw same current",
+        "label": "C"
+      },
+      {
+        "text": "Neither draws current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "I = P/V, so higher wattage bulb draws more current. 100/120 > 60/120."
+  },
+  {
+    "questionText": "a 100 w bulb and a 60 w bulb are connected in series to a 120 v supply. which bulb glows brighter?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "100 W bulb",
+        "label": "A"
+      },
+      {
+        "text": "60 W bulb",
+        "label": "B"
+      },
+      {
+        "text": "Both equally bright",
+        "label": "C"
+      },
+      {
+        "text": "Neither glows",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In series, same current flows. P = I²R, so higher resistance dissipates more power. For same voltage rating, lower wattage bulb has higher resistance, so 60 W bulb glows brighter in series."
+  },
+  {
+    "questionText": "what happens to total resistance when you add a resistor in parallel with an existing circuit?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Remains the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes infinite",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Adding a parallel branch provides an additional path, decreasing total resistance."
+  },
+  {
+    "questionText": "what happens to total current drawn from a battery when you add a resistor in parallel?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Remains the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Total resistance decreases, so total current from the battery increases (I = V/R)."
+  },
+  {
+    "questionText": "the resistivity of copper is 1.68 × 10⁻⁸ ω·m. a copper wire of length 10 m and cross-sectional area 2 × 10⁻⁶ m² has resistance:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.084 Ω",
+        "label": "A"
+      },
+      {
+        "text": "0.168 Ω",
+        "label": "B"
+      },
+      {
+        "text": "0.336 Ω",
+        "label": "C"
+      },
+      {
+        "text": "0.672 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "R = ρL/A = (1.68×10⁻⁸ × 10)/(2×10⁻⁶) = 1.68×10⁻⁷/2×10⁻⁶ = 0.084 Ω."
+  },
+  {
+    "questionText": "a wire has resistance r. if both its length and cross-sectional area are doubled, the new resistance is:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "R/2",
+        "label": "A"
+      },
+      {
+        "text": "R",
+        "label": "B"
+      },
+      {
+        "text": "2R",
+        "label": "C"
+      },
+      {
+        "text": "4R",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "R ∝ L/A. New R = R₀ × (2L₀)/(2A₀) = R₀ × 1 = R."
+  },
+  {
+    "questionText": "a galvanometer has a full-scale deflection current of 1 ma and internal resistance 100 ω. what shunt is needed for a 10 a ammeter?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.001 Ω",
+        "label": "A"
+      },
+      {
+        "text": "0.01 Ω",
+        "label": "B"
+      },
+      {
+        "text": "0.1 Ω",
+        "label": "C"
+      },
+      {
+        "text": "1 Ω",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "V_g = 0.001 × 100 = 0.1 V. Shunt current = 10 - 0.001 ≈ 10 A. R_shunt = 0.1/10 = 0.01 Ω."
+  },
+  {
+    "questionText": "what is the purpose of earthing in household wiring?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "To complete the circuit",
+        "label": "A"
+      },
+      {
+        "text": "To provide a low-resistance path for fault currents to prevent electric shock",
+        "label": "B"
+      },
+      {
+        "text": "To increase voltage",
+        "label": "C"
+      },
+      {
+        "text": "To reduce current",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Earthing provides a safe path for fault currents to flow to the ground, preventing electric shock."
+  },
+  {
+    "questionText": "a 240 v, 1000 w heater is used for 5 hours. how many kwh are consumed?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0.5 kWh",
+        "label": "A"
+      },
+      {
+        "text": "2 kWh",
+        "label": "B"
+      },
+      {
+        "text": "5 kWh",
+        "label": "C"
+      },
+      {
+        "text": "50 kWh",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "1000 W = 1 kW. Energy = 1 kW × 5 h = 5 kWh."
+  },
+  {
+    "questionText": "what is the cost of running a 2 kw air conditioner for 8 hours at ₦50 per kwh?",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "₦400",
+        "label": "A"
+      },
+      {
+        "text": "₦800",
+        "label": "B"
+      },
+      {
+        "text": "₦1600",
+        "label": "C"
+      },
+      {
+        "text": "₦3200",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Energy = 2 kW × 8 h = 16 kWh. Cost = 16 × ₦50 = ₦800."
+  },
+  {
+    "questionText": "kirchhoff's laws are used to analyze circuits that:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Have only one battery",
+        "label": "A"
+      },
+      {
+        "text": "Have only resistors in series",
+        "label": "B"
+      },
+      {
+        "text": "Are too complex for simple series-parallel reduction",
+        "label": "C"
+      },
+      {
+        "text": "Have only one loop",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Kirchhoff's laws are essential for analyzing complex circuits with multiple batteries and branches."
+  },
+  {
+    "questionText": "in kvl, the sum of voltage rises equals the sum of voltage drops around a loop. this is equivalent to:",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "∑ΔV = 0",
+        "label": "A"
+      },
+      {
+        "text": "∑I_in = ∑I_out",
+        "label": "B"
+      },
+      {
+        "text": "V = IR",
+        "label": "C"
+      },
+      {
+        "text": "P = IV",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "KVL states that the algebraic sum of all voltage changes around a closed loop is zero."
+  },
+  {
+    "questionText": "complete the sentence: in a dc circuit, conventional current flows from ______ potential to ______ potential, while electrons flow from ______ to ______.",
+    "topic": "dc circuits",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 7,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "higher, lower, lower, higher",
+        "label": "A"
+      },
+      {
+        "text": "lower, higher, higher, lower",
+        "label": "B"
+      },
+      {
+        "text": "higher, lower, higher, lower",
+        "label": "C"
+      },
+      {
+        "text": "lower, higher, lower, higher",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Conventional current flows from higher (+) to lower (-) potential. Electrons (negative charge) flow opposite: from lower to higher potential."
+  }
+]

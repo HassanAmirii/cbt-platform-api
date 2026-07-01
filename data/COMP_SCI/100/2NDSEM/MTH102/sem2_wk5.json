@@ -1,0 +1,1856 @@
+[
+  {
+    "questionText": "what is the derivative of a function at a point defined as?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the average rate of change over an interval", "label": "A" },
+      {
+        "text": "the limit of the difference quotient as the increment approaches zero",
+        "label": "B"
+      },
+      { "text": "the area under the curve", "label": "C" },
+      { "text": "the inverse of the function", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The derivative is defined as the limit of the difference quotient [f(x+h) - f(x)]/h as h approaches zero. It represents the instantaneous rate of change of a function at a point."
+  },
+  {
+    "questionText": "geometrically, what does the derivative of a function at a point represent?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the area under the curve", "label": "A" },
+      {
+        "text": "the slope of the tangent line to the curve at that point",
+        "label": "B"
+      },
+      { "text": "the y-intercept of the function", "label": "C" },
+      { "text": "the average value of the function", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Geometrically, the derivative represents the slope of the tangent line to the curve at a given point. This slope indicates how steep the curve is at that point."
+  },
+  {
+    "questionText": "what does the derivative of a position function s(t) with respect to time represent?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "acceleration", "label": "A" },
+      { "text": "velocity", "label": "B" },
+      { "text": "displacement", "label": "C" },
+      { "text": "speed", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "In physical terms, the derivative often represents rate of change. If s(t) is the position of an object over time, then s'(t) gives its velocity at time t."
+  },
+  {
+    "questionText": "for a function to be differentiable at a point, what must it first be?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "increasing", "label": "A" },
+      { "text": "decreasing", "label": "B" },
+      { "text": "continuous", "label": "C" },
+      { "text": "positive", "label": "D" }
+    ],
+    "correctOption": "C",
+    "explanation": "For a function to be differentiable at a point, it must first be continuous at that point. Differentiability implies continuity, but the converse is not always true."
+  },
+  {
+    "questionText": "what is the difference quotient used to approximate?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the area under a curve", "label": "A" },
+      { "text": "the derivative of a function", "label": "B" },
+      { "text": "the integral of a function", "label": "C" },
+      { "text": "the inverse of a function", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The difference quotient [f(x+h) - f(x)]/h measures the average rate of change of a function over an interval of length h. It forms the basis for calculating the derivative from first principles."
+  },
+  {
+    "questionText": "a function that has a sharp corner at a point is:",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "always differentiable at that point", "label": "A" },
+      { "text": "not differentiable at that point", "label": "B" },
+      { "text": "always continuous at that point", "label": "C" },
+      { "text": "both continuous and differentiable", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A function is not differentiable at a point if it has a sharp corner or cusp there. The left-hand and right-hand derivatives exist but are not equal, so the limit of the difference quotient does not exist."
+  },
+  {
+    "questionText": "a vertical tangent to a curve at a point indicates that the derivative at that point is:",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "zero", "label": "A" },
+      { "text": "undefined", "label": "B" },
+      { "text": "positive", "label": "C" },
+      { "text": "negative", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A vertical tangent implies that the slope at that point is infinite, meaning the derivative is undefined. A function is not differentiable at a point where it has a vertical tangent."
+  },
+  {
+    "questionText": "what is the limit definition of the derivative at x = a?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(a) = lim_{h → 0} [f(a+h) - f(a)]/h", "label": "A" },
+      { "text": "f'(a) = lim_{h → ∞} [f(a+h) - f(a)]/h", "label": "B" },
+      { "text": "f'(a) = [f(a+h) - f(a)]/h", "label": "C" },
+      { "text": "f'(a) = lim_{h → 0} [f(a) - f(a+h)]/h", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The derivative at x = a is defined as f'(a) = lim_{h → 0} [f(a+h) - f(a)]/h. This is the limit of the difference quotient as h approaches zero."
+  },
+  {
+    "questionText": "using the limit definition f'(x) = lim_{h→0} [f(x+h) - f(x)]/h, find f'(x) for f(x) = x².",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x", "label": "A" },
+      { "text": "2x + h", "label": "B" },
+      { "text": "x²", "label": "C" },
+      { "text": "2x + 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [(x+h)² - x²]/h = lim_{h→0} [x² + 2xh + h² - x²]/h = lim_{h→0} [2xh + h²]/h = lim_{h→0} (2x + h) = 2x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 3x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x", "label": "A" },
+      { "text": "3x", "label": "B" },
+      { "text": "6x + 3h", "label": "C" },
+      { "text": "3x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [3(x+h)² - 3x²]/h = lim_{h→0} [3(x² + 2xh + h²) - 3x²]/h = lim_{h→0} [3x² + 6xh + 3h² - 3x²]/h = lim_{h→0} [6xh + 3h²]/h = lim_{h→0} (6x + 3h) = 6x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x³ using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x²", "label": "A" },
+      { "text": "3x² + 3xh + h²", "label": "B" },
+      { "text": "x³", "label": "C" },
+      { "text": "2x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [(x+h)³ - x³]/h = lim_{h→0} [x³ + 3x²h + 3xh² + h³ - x³]/h = lim_{h→0} [3x²h + 3xh² + h³]/h = lim_{h→0} (3x² + 3xh + h²) = 3x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x³ using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x²", "label": "A" },
+      { "text": "2x²", "label": "B" },
+      { "text": "3x²", "label": "C" },
+      { "text": "6x² + 6xh + 2h²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [2(x+h)³ - 2x³]/h = lim_{h→0} [2(x³ + 3x²h + 3xh² + h³) - 2x³]/h = lim_{h→0} [6x²h + 6xh² + 2h³]/h = lim_{h→0} (6x² + 6xh + 2h²) = 6x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x⁴ using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x³", "label": "A" },
+      { "text": "3x³", "label": "B" },
+      { "text": "4x⁴", "label": "C" },
+      { "text": "x³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [(x+h)⁴ - x⁴]/h = lim_{h→0} [4x³h + 6x²h² + 4xh³ + h⁴]/h = lim_{h→0} (4x³ + 6x²h + 4xh² + h³) = 4x³."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 5x³ using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "15x²", "label": "A" },
+      { "text": "5x²", "label": "B" },
+      { "text": "15x³", "label": "C" },
+      { "text": "3x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [5(x+h)³ - 5x³]/h = 5 × 3x² = 15x²."
+  },
+  {
+    "questionText": "using the limit definition, find f'(x) for f(x) = 4x² - 3x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8x - 3", "label": "A" },
+      { "text": "8x + 3", "label": "B" },
+      { "text": "4x - 3", "label": "C" },
+      { "text": "8x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [4(x+h)² - 3(x+h) - (4x² - 3x)]/h = lim_{h→0} [4x² + 8xh + 4h² - 3x - 3h - 4x² + 3x]/h = lim_{h→0} [8xh + 4h² - 3h]/h = lim_{h→0} (8x + 4h - 3) = 8x - 3."
+  },
+  {
+    "questionText": "using the limit definition, find f'(x) for f(x) = 2x² + 5x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x + 5", "label": "A" },
+      { "text": "4x - 5", "label": "B" },
+      { "text": "2x + 5", "label": "C" },
+      { "text": "4x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [2(x+h)² + 5(x+h) - (2x² + 5x)]/h = lim_{h→0} [2x² + 4xh + 2h² + 5x + 5h - 2x² - 5x]/h = lim_{h→0} [4xh + 2h² + 5h]/h = lim_{h→0} (4x + 2h + 5) = 4x + 5."
+  },
+  {
+    "questionText": "using the limit definition, find f'(x) for f(x) = 3x² - 2x + 1.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x - 2", "label": "A" },
+      { "text": "6x + 2", "label": "B" },
+      { "text": "3x - 2", "label": "C" },
+      { "text": "6x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [3(x+h)² - 2(x+h) + 1 - (3x² - 2x + 1)]/h = lim_{h→0} [3x² + 6xh + 3h² - 2x - 2h + 1 - 3x² + 2x - 1]/h = lim_{h→0} [6xh + 3h² - 2h]/h = lim_{h→0} (6x + 3h - 2) = 6x - 2."
+  },
+  {
+    "questionText": "using the limit definition, find f'(x) for f(x) = x² + 4x - 5.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x + 4", "label": "A" },
+      { "text": "2x - 4", "label": "B" },
+      { "text": "x + 4", "label": "C" },
+      { "text": "2x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [(x+h)² + 4(x+h) - 5 - (x² + 4x - 5)]/h = lim_{h→0} [x² + 2xh + h² + 4x + 4h - 5 - x² - 4x + 5]/h = lim_{h→0} [2xh + h² + 4h]/h = lim_{h→0} (2x + h + 4) = 2x + 4."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 1/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/x²", "label": "A" },
+      { "text": "1/x²", "label": "B" },
+      { "text": "-1/x", "label": "C" },
+      { "text": "1/x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [1/(x+h) - 1/x]/h = lim_{h→0} [x - (x+h)]/[x(x+h)h] = lim_{h→0} [-h]/[x(x+h)h] = lim_{h→0} -1/[x(x+h)] = -1/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 1/(x+1) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x+1)²", "label": "A" },
+      { "text": "1/(x+1)²", "label": "B" },
+      { "text": "-1/(x+1)", "label": "C" },
+      { "text": "1/(x+1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [1/(x+h+1) - 1/(x+1)]/h = lim_{h→0} [(x+1) - (x+h+1)]/[(x+h+1)(x+1)h] = lim_{h→0} [-h]/[(x+h+1)(x+1)h] = lim_{h→0} -1/[(x+h+1)(x+1)] = -1/(x+1)²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2/x²", "label": "A" },
+      { "text": "2/x²", "label": "B" },
+      { "text": "-1/x²", "label": "C" },
+      { "text": "1/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2 × (-1/x²) = -2/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 3/(x-1) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-3/(x-1)²", "label": "A" },
+      { "text": "3/(x-1)²", "label": "B" },
+      { "text": "-3/(x-1)", "label": "C" },
+      { "text": "3/(x-1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3 × (-1/(x-1)²) = -3/(x-1)²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = √x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/(2√x)", "label": "A" },
+      { "text": "1/√x", "label": "B" },
+      { "text": "2√x", "label": "C" },
+      { "text": "1/(2x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [√(x+h) - √x]/h = lim_{h→0} [(√(x+h) - √x)(√(x+h) + √x)]/[h(√(x+h) + √x)] = lim_{h→0} [(x+h) - x]/[h(√(x+h) + √x)] = lim_{h→0} h/[h(√(x+h) + √x)] = lim_{h→0} 1/(√(x+h) + √x) = 1/(2√x)."
+  },
+  {
+    "questionText": "find the derivative of f(x) = √(x+1) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/(2√(x+1))", "label": "A" },
+      { "text": "1/√(x+1)", "label": "B" },
+      { "text": "2√(x+1)", "label": "C" },
+      { "text": "1/(2(x+1))", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [√(x+h+1) - √(x+1)]/h = 1/(2√(x+1))."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2√x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/√x", "label": "A" },
+      { "text": "2/√x", "label": "B" },
+      { "text": "1/(2√x)", "label": "C" },
+      { "text": "2√x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2 × 1/(2√x) = 1/√x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x² + 3x - 4 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x + 3", "label": "A" },
+      { "text": "2x - 3", "label": "B" },
+      { "text": "x + 3", "label": "C" },
+      { "text": "2x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [(x+h)² + 3(x+h) - 4 - (x² + 3x - 4)]/h = lim_{h→0} [2xh + h² + 3h]/h = lim_{h→0} (2x + h + 3) = 2x + 3."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = x² at x = 2.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "6", "label": "C" },
+      { "text": "8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x. At x = 2, f'(2) = 2(2) = 4. The slope of the tangent is 4."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 3x² at x = 1.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "9", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 6x. At x = 1, f'(1) = 6(1) = 6."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = x³ at x = 2.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "8", "label": "C" },
+      { "text": "24", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x². At x = 2, f'(2) = 3(4) = 12."
+  },
+  {
+    "questionText": "using the limit definition, find f'(x) for f(x) = ax² + bx + c.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2ax + b", "label": "A" },
+      { "text": "2ax", "label": "B" },
+      { "text": "ax + b", "label": "C" },
+      { "text": "2ax + bx", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = lim_{h→0} [a(x+h)² + b(x+h) + c - (ax² + bx + c)]/h = lim_{h→0} [a(2xh + h²) + bh]/h = lim_{h→0} (2ax + ah + b) = 2ax + b."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x² - 5x + 3 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x - 5", "label": "A" },
+      { "text": "4x + 5", "label": "B" },
+      { "text": "2x - 5", "label": "C" },
+      { "text": "4x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the formula f'(x) = 2ax + b with a = 2, b = -5, f'(x) = 2(2)x - 5 = 4x - 5."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 4x² + 3x - 2 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8x + 3", "label": "A" },
+      { "text": "8x - 3", "label": "B" },
+      { "text": "4x + 3", "label": "C" },
+      { "text": "8x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 4, b = 3, f'(x) = 2(4)x + 3 = 8x + 3."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x² - 6x + 8 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x - 6", "label": "A" },
+      { "text": "2x + 6", "label": "B" },
+      { "text": "x - 6", "label": "C" },
+      { "text": "2x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 1, b = -6, f'(x) = 2(1)x - 6 = 2x - 6."
+  },
+  {
+    "questionText": "find the derivative of f(x) = -x² + 4x - 1 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2x + 4", "label": "A" },
+      { "text": "2x + 4", "label": "B" },
+      { "text": "-2x - 4", "label": "C" },
+      { "text": "-x + 4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = -1, b = 4, f'(x) = 2(-1)x + 4 = -2x + 4."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 6x² - 7 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12x", "label": "A" },
+      { "text": "6x", "label": "B" },
+      { "text": "12x - 7", "label": "C" },
+      { "text": "6x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 6, b = 0, f'(x) = 2(6)x = 12x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 8x² + 2x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16x + 2", "label": "A" },
+      { "text": "16x - 2", "label": "B" },
+      { "text": "8x + 2", "label": "C" },
+      { "text": "16x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 8, b = 2, f'(x) = 2(8)x + 2 = 16x + 2."
+  },
+  {
+    "questionText": "find the derivative of f(x) = (x² + 1)/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1 - 1/x²", "label": "A" },
+      { "text": "1 + 1/x²", "label": "B" },
+      { "text": "x - 1/x²", "label": "C" },
+      { "text": "x + 1/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = (x² + 1)/x = x + 1/x. Using the limit definition, f'(x) = 1 - 1/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x + 1/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1 - 1/x²", "label": "A" },
+      { "text": "1 + 1/x²", "label": "B" },
+      { "text": "x - 1/x²", "label": "C" },
+      { "text": "x + 1/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = derivative of x + derivative of 1/x = 1 - 1/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x - 1/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1 + 1/x²", "label": "A" },
+      { "text": "1 - 1/x²", "label": "B" },
+      { "text": "x + 1/x²", "label": "C" },
+      { "text": "x - 1/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = derivative of x - derivative of 1/x = 1 - (-1/x²) = 1 + 1/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x² + 1/x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x - 2/x³", "label": "A" },
+      { "text": "2x + 2/x³", "label": "B" },
+      { "text": "x - 2/x³", "label": "C" },
+      { "text": "2x - 1/x³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x + (-2/x³) = 2x - 2/x³."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x³ - x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x² - 2x", "label": "A" },
+      { "text": "3x² + 2x", "label": "B" },
+      { "text": "x² - 2x", "label": "C" },
+      { "text": "3x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = derivative of x³ - derivative of x² = 3x² - 2x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x⁴ - 3x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8x³ - 6x", "label": "A" },
+      { "text": "8x³ + 6x", "label": "B" },
+      { "text": "2x³ - 3x", "label": "C" },
+      { "text": "8x³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2(4x³) - 3(2x) = 8x³ - 6x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 5/x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-10/x³", "label": "A" },
+      { "text": "10/x³", "label": "B" },
+      { "text": "-5/x³", "label": "C" },
+      { "text": "5/x³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 5 × (-2/x³) = -10/x³."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 3/x³ using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-9/x⁴", "label": "A" },
+      { "text": "9/x⁴", "label": "B" },
+      { "text": "-3/x⁴", "label": "C" },
+      { "text": "3/x⁴", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3 × (-3/x⁴) = -9/x⁴."
+  },
+  {
+    "questionText": "find the derivative of f(x) = √(x) + 1/√(x) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/(2√x) - 1/(2x√x)", "label": "A" },
+      { "text": "1/(2√x) + 1/(2x√x)", "label": "B" },
+      { "text": "1/(2√x) - 1/(2x)", "label": "C" },
+      { "text": "1/(2√x) + 1/(2x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 1/(2√x) - 1/(2x√x)."
+  },
+  {
+    "questionText": "find the derivative of f(x) = (x² - 1)/(x) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1 + 1/x²", "label": "A" },
+      { "text": "1 - 1/x²", "label": "B" },
+      { "text": "x + 1/x²", "label": "C" },
+      { "text": "x - 1/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = (x² - 1)/x = x - 1/x. f'(x) = 1 + 1/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = (x² + 2x)/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "x + 2", "label": "C" },
+      { "text": "1 + 2/x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = (x² + 2x)/x = x + 2. f'(x) = 1."
+  },
+  {
+    "questionText": "find the derivative of f(x) = (x³ + x)/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x", "label": "A" },
+      { "text": "2x + 1", "label": "B" },
+      { "text": "3x² + 1", "label": "C" },
+      { "text": "x² + 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = (x³ + x)/x = x² + 1. f'(x) = 2x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = (x⁴ + 2x²)/x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x", "label": "A" },
+      { "text": "2x + 1", "label": "B" },
+      { "text": "4x² + 2", "label": "C" },
+      { "text": "x² + 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f(x) = (x⁴ + 2x²)/x² = x² + 2. f'(x) = 2x."
+  },
+  {
+    "questionText": "find the limit: lim_{x→2} (x² - 4)/(x - 2).",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "2", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→2} (x² - 4)/(x - 2) = lim_{x→2} (x-2)(x+2)/(x-2) = lim_{x→2} (x+2) = 4."
+  },
+  {
+    "questionText": "find the limit: lim_{x→3} (x² - 9)/(x - 3).",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→3} (x² - 9)/(x - 3) = lim_{x→3} (x-3)(x+3)/(x-3) = lim_{x→3} (x+3) = 6."
+  },
+  {
+    "questionText": "find the limit: lim_{x→1} (x² - 1)/(x - 1).",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "0", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→1} (x² - 1)/(x - 1) = lim_{x→1} (x-1)(x+1)/(x-1) = lim_{x→1} (x+1) = 2."
+  },
+  {
+    "questionText": "find the limit: lim_{x→0} (x² + 3x)/x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→0} (x² + 3x)/x = lim_{x→0} (x + 3) = 3."
+  },
+  {
+    "questionText": "find the limit: lim_{x→0} (2x² - 4x)/x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-4", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→0} (2x² - 4x)/x = lim_{x→0} (2x - 4) = -4."
+  },
+  {
+    "questionText": "find the limit: lim_{x→0} (x² - 5x)/x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-5", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "1", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→0} (x² - 5x)/x = lim_{x→0} (x - 5) = -5."
+  },
+  {
+    "questionText": "find the limit: lim_{x→0} (sin x)/x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→0} (sin x)/x = 1. This is a standard limit result."
+  },
+  {
+    "questionText": "find the limit: lim_{x→0} (1 - cos x)/x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "0", "label": "A" },
+      { "text": "1", "label": "B" },
+      { "text": "∞", "label": "C" },
+      { "text": "undefined", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→0} (1 - cos x)/x = 0. This is a standard limit result."
+  },
+  {
+    "questionText": "find the limit: lim_{x→0} (e^x - 1)/x.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "e", "label": "C" },
+      { "text": "∞", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "lim_{x→0} (e^x - 1)/x = 1. This is a standard limit result."
+  },
+  {
+    "questionText": "find the derivative of f(x) = sin x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "cos x", "label": "A" },
+      { "text": "-cos x", "label": "B" },
+      { "text": "sin x", "label": "C" },
+      { "text": "-sin x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the limit definition with the identity sin(A+B) = sin A cos B + cos A sin B, we get f'(x) = cos x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = cos x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-sin x", "label": "A" },
+      { "text": "sin x", "label": "B" },
+      { "text": "cos x", "label": "C" },
+      { "text": "-cos x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the limit definition with the identity cos(A+B) = cos A cos B - sin A sin B, we get f'(x) = -sin x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = tan x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sec² x", "label": "A" },
+      { "text": "-sec² x", "label": "B" },
+      { "text": "csc² x", "label": "C" },
+      { "text": "-csc² x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the limit definition, the derivative of tan x is sec² x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = e^x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^x", "label": "A" },
+      { "text": "xe^(x-1)", "label": "B" },
+      { "text": "e^x + 1", "label": "C" },
+      { "text": "x e^x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the limit definition and the fact that lim_{h→0} (e^h - 1)/h = 1, we get f'(x) = e^x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = ln x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/x", "label": "A" },
+      { "text": "x", "label": "B" },
+      { "text": "-1/x", "label": "C" },
+      { "text": "ln x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the limit definition, the derivative of ln x is 1/x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x² + 1/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x - 1/x²", "label": "A" },
+      { "text": "2x + 1/x²", "label": "B" },
+      { "text": "x - 1/x²", "label": "C" },
+      { "text": "2x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = derivative of x² + derivative of 1/x = 2x - 1/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x³ - 1/x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x² + 1/x²", "label": "A" },
+      { "text": "3x² - 1/x²", "label": "B" },
+      { "text": "x² + 1/x²", "label": "C" },
+      { "text": "3x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = derivative of x³ - derivative of 1/x = 3x² - (-1/x²) = 3x² + 1/x²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 4x² - 7x + 2 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8x - 7", "label": "A" },
+      { "text": "8x + 7", "label": "B" },
+      { "text": "4x - 7", "label": "C" },
+      { "text": "8x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the formula f'(x) = 2ax + b with a = 4, b = -7, f'(x) = 8x - 7."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 3x² + 2x - 1 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x + 2", "label": "A" },
+      { "text": "6x - 2", "label": "B" },
+      { "text": "3x + 2", "label": "C" },
+      { "text": "6x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 3, b = 2, f'(x) = 6x + 2."
+  },
+  {
+    "questionText": "find the derivative of f(x) = -2x² + 5x - 3 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-4x + 5", "label": "A" },
+      { "text": "-4x - 5", "label": "B" },
+      { "text": "4x + 5", "label": "C" },
+      { "text": "-2x + 5", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = -2, b = 5, f'(x) = -4x + 5."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 5x² - 3x + 4 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10x - 3", "label": "A" },
+      { "text": "10x + 3", "label": "B" },
+      { "text": "5x - 3", "label": "C" },
+      { "text": "10x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 5, b = -3, f'(x) = 10x - 3."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 7x² - 4 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "14x", "label": "A" },
+      { "text": "7x", "label": "B" },
+      { "text": "14x - 4", "label": "C" },
+      { "text": "7x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 7, b = 0, f'(x) = 14x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2/x - 3/x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2/x² + 6/x³", "label": "A" },
+      { "text": "2/x² - 6/x³", "label": "B" },
+      { "text": "-2/x² - 6/x³", "label": "C" },
+      { "text": "2/x² + 6/x³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2(-1/x²) - 3(-2/x³) = -2/x² + 6/x³."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 3/x² + 2/x³ using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-6/x³ - 6/x⁴", "label": "A" },
+      { "text": "6/x³ + 6/x⁴", "label": "B" },
+      { "text": "-6/x³ + 6/x⁴", "label": "C" },
+      { "text": "6/x³ - 6/x⁴", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3(-2/x³) + 2(-3/x⁴) = -6/x³ - 6/x⁴."
+  },
+  {
+    "questionText": "find the derivative of f(x) = √(2x) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/√(2x)", "label": "A" },
+      { "text": "1/(2√x)", "label": "B" },
+      { "text": "√(2x)/x", "label": "C" },
+      { "text": "1/(√(2x))", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the chain rule concept from first principles, f'(x) = (1/2)(2x)^(-1/2) × 2 = 1/√(2x)."
+  },
+  {
+    "questionText": "find the derivative of f(x) = √(x² + 1) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x/√(x² + 1)", "label": "A" },
+      { "text": "1/√(x² + 1)", "label": "B" },
+      { "text": "√(x² + 1)/x", "label": "C" },
+      { "text": "x/(x² + 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the limit definition, f'(x) = x/√(x² + 1)."
+  },
+  {
+    "questionText": "find the derivative of f(x) = √(x - 1) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/(2√(x - 1))", "label": "A" },
+      { "text": "1/√(x - 1)", "label": "B" },
+      { "text": "2√(x - 1)", "label": "C" },
+      { "text": "1/(2(x - 1))", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 1/(2√(x - 1))."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 1/√x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(2x√x)", "label": "A" },
+      { "text": "1/(2x√x)", "label": "B" },
+      { "text": "-1/(2√x)", "label": "C" },
+      { "text": "1/(2√x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -1/(2x√x)."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x² + 3x + 5 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x + 3", "label": "A" },
+      { "text": "4x - 3", "label": "B" },
+      { "text": "2x + 3", "label": "C" },
+      { "text": "4x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 2, b = 3, f'(x) = 4x + 3."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x² - 8x + 15 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x - 8", "label": "A" },
+      { "text": "2x + 8", "label": "B" },
+      { "text": "x - 8", "label": "C" },
+      { "text": "2x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 1, b = -8, f'(x) = 2x - 8."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = x² - 2x at x = 3.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "3", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x - 2. At x = 3, f'(3) = 6 - 2 = 4."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 2x² + 1 at x = 2.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8", "label": "A" },
+      { "text": "6", "label": "B" },
+      { "text": "10", "label": "C" },
+      { "text": "4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 4x. At x = 2, f'(2) = 8."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 3x² - 1 at x = 1.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "9", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 6x. At x = 1, f'(1) = 6."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = x² + 3x at x = 1.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "7", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2x + 3. At x = 1, f'(1) = 5."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 4x² - 5x at x = 2.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "11", "label": "A" },
+      { "text": "16", "label": "B" },
+      { "text": "8", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 8x - 5. At x = 2, f'(2) = 16 - 5 = 11."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 5x² + 2x at x = 0.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2", "label": "A" },
+      { "text": "0", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "10", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 10x + 2. At x = 0, f'(0) = 2."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = x³ - 2x at x = 1.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "5", "label": "C" },
+      { "text": "2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 2. At x = 1, f'(1) = 3 - 2 = 1."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 2x³ at x = 1.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6", "label": "A" },
+      { "text": "3", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 6x². At x = 1, f'(1) = 6."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 1/x at x = 2.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/4", "label": "A" },
+      { "text": "1/4", "label": "B" },
+      { "text": "-1/2", "label": "C" },
+      { "text": "1/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -1/x². At x = 2, f'(2) = -1/4."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = √x at x = 4.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/4", "label": "A" },
+      { "text": "1/2", "label": "B" },
+      { "text": "2", "label": "C" },
+      { "text": "1/8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 1/(2√x). At x = 4, f'(4) = 1/(2×2) = 1/4."
+  },
+  {
+    "questionText": "using the limit definition, find the slope of the tangent to f(x) = 1/x at x = 3.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/9", "label": "A" },
+      { "text": "1/9", "label": "B" },
+      { "text": "-1/3", "label": "C" },
+      { "text": "1/3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -1/x². At x = 3, f'(3) = -1/9."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 1/(x²) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2/x³", "label": "A" },
+      { "text": "2/x³", "label": "B" },
+      { "text": "-1/x³", "label": "C" },
+      { "text": "1/x³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -2/x³."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 1/(x³) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-3/x⁴", "label": "A" },
+      { "text": "3/x⁴", "label": "B" },
+      { "text": "-1/x⁴", "label": "C" },
+      { "text": "1/x⁴", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -3/x⁴."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 1/(x + 2) using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x+2)²", "label": "A" },
+      { "text": "1/(x+2)²", "label": "B" },
+      { "text": "-1/(x+2)", "label": "C" },
+      { "text": "1/(x+2)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = -1/(x+2)²."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x² - 3x + 1 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x - 3", "label": "A" },
+      { "text": "4x + 3", "label": "B" },
+      { "text": "2x - 3", "label": "C" },
+      { "text": "4x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 2, b = -3, f'(x) = 4x - 3."
+  },
+  {
+    "questionText": "find the derivative of f(x) = -x² + 6x - 9 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2x + 6", "label": "A" },
+      { "text": "-2x - 6", "label": "B" },
+      { "text": "2x + 6", "label": "C" },
+      { "text": "-x + 6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = -1, b = 6, f'(x) = -2x + 6."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 4x² + 5x - 8 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8x + 5", "label": "A" },
+      { "text": "8x - 5", "label": "B" },
+      { "text": "4x + 5", "label": "C" },
+      { "text": "8x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 4, b = 5, f'(x) = 8x + 5."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 6x² - x + 2 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12x - 1", "label": "A" },
+      { "text": "12x + 1", "label": "B" },
+      { "text": "6x - 1", "label": "C" },
+      { "text": "12x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 6, b = -1, f'(x) = 12x - 1."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 3x² - 4x + 7 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x - 4", "label": "A" },
+      { "text": "6x + 4", "label": "B" },
+      { "text": "3x - 4", "label": "C" },
+      { "text": "6x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 3, b = -4, f'(x) = 6x - 4."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x² + 8x - 5 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x + 8", "label": "A" },
+      { "text": "4x - 8", "label": "B" },
+      { "text": "2x + 8", "label": "C" },
+      { "text": "4x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 2, b = 8, f'(x) = 4x + 8."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 5x² - 6x + 3 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10x - 6", "label": "A" },
+      { "text": "10x + 6", "label": "B" },
+      { "text": "5x - 6", "label": "C" },
+      { "text": "10x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using f'(x) = 2ax + b with a = 5, b = -6, f'(x) = 10x - 6."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 4x³ - 2x² + x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12x² - 4x + 1", "label": "A" },
+      { "text": "12x² + 4x + 1", "label": "B" },
+      { "text": "4x² - 2x + 1", "label": "C" },
+      { "text": "12x² - 4x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 4(3x²) - 2(2x) + 1 = 12x² - 4x + 1."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x³ + 3x² - 5x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x² + 6x - 5", "label": "A" },
+      { "text": "6x² - 6x - 5", "label": "B" },
+      { "text": "2x² + 3x - 5", "label": "C" },
+      { "text": "6x² + 6x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2(3x²) + 3(2x) - 5 = 6x² + 6x - 5."
+  },
+  {
+    "questionText": "find the derivative of f(x) = x³ - 4x² + 2x - 7 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x² - 8x + 2", "label": "A" },
+      { "text": "3x² + 8x + 2", "label": "B" },
+      { "text": "x² - 4x + 2", "label": "C" },
+      { "text": "3x² - 8x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3x² - 4(2x) + 2 = 3x² - 8x + 2."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 5x⁴ - 3x² + 6 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20x³ - 6x", "label": "A" },
+      { "text": "20x³ + 6x", "label": "B" },
+      { "text": "5x³ - 3x", "label": "C" },
+      { "text": "20x³ - 6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 5(4x³) - 3(2x) = 20x³ - 6x."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 2x⁵ - x³ + 4x using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10x⁴ - 3x² + 4", "label": "A" },
+      { "text": "10x⁴ + 3x² + 4", "label": "B" },
+      { "text": "2x⁴ - x² + 4", "label": "C" },
+      { "text": "10x⁴ - 3x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 2(5x⁴) - 3x² + 4 = 10x⁴ - 3x² + 4."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 3x⁴ - 5x² + 2x - 1 using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12x³ - 10x + 2", "label": "A" },
+      { "text": "12x³ + 10x + 2", "label": "B" },
+      { "text": "3x³ - 5x + 2", "label": "C" },
+      { "text": "12x³ - 10x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 3(4x³) - 5(2x) + 2 = 12x³ - 10x + 2."
+  },
+  {
+    "questionText": "find the derivative of f(x) = 6x⁴ - 2x³ + 5x² using the limit definition.",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "24x³ - 6x² + 10x", "label": "A" },
+      { "text": "24x³ + 6x² + 10x", "label": "B" },
+      { "text": "6x³ - 2x² + 5x", "label": "C" },
+      { "text": "24x³ - 6x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "f'(x) = 6(4x³) - 2(3x²) + 5(2x) = 24x³ - 6x² + 10x."
+  },
+  {
+    "questionText": "if a function is differentiable at a point, what can we conclude about its continuity at that point?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "the function must be continuous at that point", "label": "A" },
+      { "text": "the function may or may not be continuous", "label": "B" },
+      { "text": "the function is not continuous at that point", "label": "C" },
+      {
+        "text": "continuity has no relation to differentiability",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Differentiability implies continuity. If a function is differentiable at a point, it must be continuous at that point. However, the converse is not always true - a function can be continuous but not differentiable."
+  },
+  {
+    "questionText": "for f(x) = |x| at x = 0, which of the following is true?",
+    "topic": "The derivative as a limit",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f is continuous and differentiable at x = 0", "label": "A" },
+      {
+        "text": "f is continuous but not differentiable at x = 0",
+        "label": "B"
+      },
+      {
+        "text": "f is differentiable but not continuous at x = 0",
+        "label": "C"
+      },
+      {
+        "text": "f is neither continuous nor differentiable at x = 0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "f(x) = |x| is continuous at x = 0 because lim_{x→0} |x| = 0 = f(0). However, the left and right derivatives are not equal (left = -1, right = 1), so it is not differentiable at x = 0 due to the sharp corner."
+  }
+]

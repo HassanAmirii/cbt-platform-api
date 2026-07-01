@@ -1,0 +1,2902 @@
+[
+  {
+    "questionText": "what is metadata often described as?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data that has been processed",
+        "label": "A"
+      },
+      {
+        "text": "Data about data",
+        "label": "B"
+      },
+      {
+        "text": "The final output of analysis",
+        "label": "C"
+      },
+      {
+        "text": "A type of database",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata is often described as 'data about data' — descriptive information that explains the meaning, structure, origin, format, or context of a data item."
+  },
+  {
+    "questionText": "what does metadata refer to?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The actual values stored in a dataset",
+        "label": "A"
+      },
+      {
+        "text": "The descriptive information that explains the meaning, structure, origin, format, ownership, condition, or context of a data item",
+        "label": "B"
+      },
+      {
+        "text": "The software used to analyze data",
+        "label": "C"
+      },
+      {
+        "text": "The hardware that stores data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata refers to descriptive information that explains the meaning, structure, origin, format, ownership, condition, or context of a data item or dataset."
+  },
+  {
+    "questionText": "why might a column of numbers in a spreadsheet not be useful without metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because numbers are always inaccurate",
+        "label": "A"
+      },
+      {
+        "text": "Because without labels, users may not know whether values represent age, score, cost, quantity, or another variable",
+        "label": "B"
+      },
+      {
+        "text": "Because numbers cannot be analyzed",
+        "label": "C"
+      },
+      {
+        "text": "Because spreadsheets cannot store numbers",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without clear labels (metadata), users may not know what the numbers represent, making interpretation difficult or impossible."
+  },
+  {
+    "questionText": "which of the following can be considered metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The name of a variable",
+        "label": "A"
+      },
+      {
+        "text": "The unit of measurement",
+        "label": "B"
+      },
+      {
+        "text": "The date the data was created",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Metadata includes variable names, units of measurement, creation dates, sources, responsible persons, and interpretation rules."
+  },
+  {
+    "questionText": "if a dataset contains a column labelled 'score', what might metadata explain about it?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only that it contains numbers",
+        "label": "A"
+      },
+      {
+        "text": "That it refers to examination scores, values range from 0 to 100, data type is numeric, and scores were collected during first semester",
+        "label": "B"
+      },
+      {
+        "text": "That it should be deleted",
+        "label": "C"
+      },
+      {
+        "text": "That it is not important",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata may explain that the column refers to examination scores, the value range, data type, and when scores were collected."
+  },
+  {
+    "questionText": "in a digital photograph, which of the following is an example of metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The actual image pixels",
+        "label": "A"
+      },
+      {
+        "text": "The date the picture was taken",
+        "label": "B"
+      },
+      {
+        "text": "The visual content of the photo",
+        "label": "C"
+      },
+      {
+        "text": "The colours in the image",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In a digital photograph, metadata includes the date the picture was taken, the device used, file size, and image resolution — not the image content itself."
+  },
+  {
+    "questionText": "in a database, which of the following is considered metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The actual records in a table",
+        "label": "A"
+      },
+      {
+        "text": "Field names, data types, key constraints, table structures, and update timestamps",
+        "label": "B"
+      },
+      {
+        "text": "The physical storage device",
+        "label": "C"
+      },
+      {
+        "text": "The database software version",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In a database, metadata defines field names, data types, key constraints, table structures, and update timestamps."
+  },
+  {
+    "questionText": "a student dataset contains the values 72, 65, 81, 90. which of the following would be considered metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The numbers themselves",
+        "label": "A"
+      },
+      {
+        "text": "The information that the variable is 'CSC 104 Test Score', maximum mark is 100, and test was written in Week 4",
+        "label": "B"
+      },
+      {
+        "text": "The average of the scores",
+        "label": "C"
+      },
+      {
+        "text": "The sorted list of scores",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The numbers are data. The descriptive information about what they represent is metadata."
+  },
+  {
+    "questionText": "why does metadata play an important role in organising, managing, and understanding data?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it replaces the need for data",
+        "label": "A"
+      },
+      {
+        "text": "Because without metadata, users may misinterpret the meaning of values or misuse the dataset",
+        "label": "B"
+      },
+      {
+        "text": "Because metadata is larger than data",
+        "label": "C"
+      },
+      {
+        "text": "Because metadata cannot be stored",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without metadata, users may misinterpret the meaning of values or misuse the dataset, which is why metadata is essential for proper data management."
+  },
+  {
+    "questionText": "what does metadata help users understand?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only the size of the data",
+        "label": "A"
+      },
+      {
+        "text": "What the data means, where it came from, how it should be interpreted, and whether it is suitable for a given purpose",
+        "label": "B"
+      },
+      {
+        "text": "Only the cost of collecting data",
+        "label": "C"
+      },
+      {
+        "text": "Only the software used",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata helps users understand what the data means, where it came from, how it should be interpreted, and whether it is suitable for a given purpose."
+  },
+  {
+    "questionText": "what is data flow?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The storage of data in a database",
+        "label": "A"
+      },
+      {
+        "text": "The movement of data from one point to another within a system, process, or activity",
+        "label": "B"
+      },
+      {
+        "text": "The analysis of data",
+        "label": "C"
+      },
+      {
+        "text": "The deletion of old data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data flow refers to the movement of data from one point to another within a system, process, or activity."
+  },
+  {
+    "questionText": "what does data flow show?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only where data is stored",
+        "label": "A"
+      },
+      {
+        "text": "How data enters a system, how it is processed, where it is stored, and how it is transferred to other parts of the system or to final outputs",
+        "label": "B"
+      },
+      {
+        "text": "Only the final output",
+        "label": "C"
+      },
+      {
+        "text": "Only the source of data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data flow shows how data enters a system, how it is processed, where it is stored, and how it is transferred to other parts or to final outputs."
+  },
+  {
+    "questionText": "why is understanding data flow important?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because data remains static in most situations",
+        "label": "A"
+      },
+      {
+        "text": "Because data does not remain static; it is collected, transmitted, transformed, stored, retrieved, and used",
+        "label": "B"
+      },
+      {
+        "text": "Because data flow is the same for all systems",
+        "label": "C"
+      },
+      {
+        "text": "Because data flow cannot be studied",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data does not remain static; it is collected, transmitted, transformed, stored, retrieved, and used. Understanding data flow helps track this movement."
+  },
+  {
+    "questionText": "in a university registration system, what is an example of data flow?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The physical building where registration occurs",
+        "label": "A"
+      },
+      {
+        "text": "Student data collected through an online form, checked for correctness, stored in a database, and later used to produce class lists",
+        "label": "B"
+      },
+      {
+        "text": "The colour of the registration forms",
+        "label": "C"
+      },
+      {
+        "text": "The number of staff members",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data flow involves data moving from source (online form) through processes (verification) to storage (database) and output (class lists)."
+  },
+  {
+    "questionText": "which of the following is a basic component of a data flow?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Basic components include source (origin), process (operation), storage (location), and output/destination (where data is used or displayed)."
+  },
+  {
+    "questionText": "in a data flow, what does 'source' refer to?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The location where data is stored",
+        "label": "A"
+      },
+      {
+        "text": "The origin from which data is obtained",
+        "label": "B"
+      },
+      {
+        "text": "The final output of the system",
+        "label": "C"
+      },
+      {
+        "text": "The process that transforms data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The source is the origin from which the data is obtained."
+  },
+  {
+    "questionText": "in a data flow, what does 'process' refer to?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The origin of data",
+        "label": "A"
+      },
+      {
+        "text": "The activity or operation performed on the data",
+        "label": "B"
+      },
+      {
+        "text": "The location where data is kept",
+        "label": "C"
+      },
+      {
+        "text": "The point where data is displayed",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Process refers to the activity or operation performed on the data."
+  },
+  {
+    "questionText": "in a data flow, what does 'storage' refer to?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The origin of data",
+        "label": "A"
+      },
+      {
+        "text": "The activity performed on data",
+        "label": "B"
+      },
+      {
+        "text": "The location where data is kept for future use",
+        "label": "C"
+      },
+      {
+        "text": "The final output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Storage is the location where data is kept for future use."
+  },
+  {
+    "questionText": "when a customer makes an online purchase, the order details moving from customer interface to seller's system is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data flow",
+        "label": "B"
+      },
+      {
+        "text": "Data diagram",
+        "label": "C"
+      },
+      {
+        "text": "Data storage only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The movement of data through systems is data flow. The order details follow a path through several processes."
+  },
+  {
+    "questionText": "in a hospital, patient data moving from registration to consultation, then to laboratory, pharmacy, and records management is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data flow",
+        "label": "B"
+      },
+      {
+        "text": "Data diagram",
+        "label": "C"
+      },
+      {
+        "text": "Data cleaning",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The movement of patient data through multiple processes and departments is a data flow."
+  },
+  {
+    "questionText": "what are data diagrams?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Written descriptions of data",
+        "label": "A"
+      },
+      {
+        "text": "Visual representations used to show how data is organised, moved, transformed, or related within a system",
+        "label": "B"
+      },
+      {
+        "text": "Audio recordings of data processes",
+        "label": "C"
+      },
+      {
+        "text": "Numerical summaries of data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data diagrams are visual representations used to show how data is organised, moved, transformed, or related within a system."
+  },
+  {
+    "questionText": "why are data diagrams often used in data analysis and information systems?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because they are more expensive than written descriptions",
+        "label": "A"
+      },
+      {
+        "text": "Because visual representations make it easier to trace the path of data, identify relationships, and explain system processes",
+        "label": "B"
+      },
+      {
+        "text": "Because they cannot be understood",
+        "label": "C"
+      },
+      {
+        "text": "Because they replace the need for data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Visual representations make it easier to trace data paths, identify relationships, and explain system processes to others."
+  },
+  {
+    "questionText": "what elements may a data diagram include?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only text",
+        "label": "A"
+      },
+      {
+        "text": "Symbols, arrows, labels, boxes, and connecting lines",
+        "label": "B"
+      },
+      {
+        "text": "Only numbers",
+        "label": "C"
+      },
+      {
+        "text": "Only colours",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A data diagram may include symbols, arrows, labels, boxes, and connecting lines to represent sources, processes, storage points, and outputs."
+  },
+  {
+    "questionText": "the relationship between data flows and data diagrams is that:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They are the same thing",
+        "label": "A"
+      },
+      {
+        "text": "Data flows describe how data moves, while data diagrams provide a way to represent that movement visually",
+        "label": "B"
+      },
+      {
+        "text": "Data diagrams describe movement; data flows are visual",
+        "label": "C"
+      },
+      {
+        "text": "They are unrelated",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data flow is the concept; data diagrams provide a visual representation of that movement."
+  },
+  {
+    "questionText": "if student registration data moves from an online form to verification, then to a database and finally to a report, what can represent these steps visually?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A written paragraph",
+        "label": "A"
+      },
+      {
+        "text": "A data diagram using labelled boxes and arrows",
+        "label": "B"
+      },
+      {
+        "text": "A spreadsheet",
+        "label": "C"
+      },
+      {
+        "text": "A list of numbers",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A data diagram can present these steps visually using labelled boxes and arrows to show sequence and relationships."
+  },
+  {
+    "questionText": "data diagrams are useful for which of the following?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Planning systems",
+        "label": "A"
+      },
+      {
+        "text": "Identifying unnecessary steps",
+        "label": "B"
+      },
+      {
+        "text": "Improving communication among stakeholders",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Data diagrams help in planning systems, understanding workflows, identifying unnecessary steps, improving communication, and documenting data movement."
+  },
+  {
+    "questionText": "why might a visual diagram help learners understand data movement more easily than a long paragraph?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because diagrams are more colourful",
+        "label": "A"
+      },
+      {
+        "text": "Because diagrams reduce the difficulty of understanding abstract system processes by showing relationships visually",
+        "label": "B"
+      },
+      {
+        "text": "Because diagrams contain less information",
+        "label": "C"
+      },
+      {
+        "text": "Because paragraphs are always accurate",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Diagrams reduce the difficulty of understanding abstract system processes by presenting relationships visually."
+  },
+  {
+    "questionText": "in the case study about examination records moving from lecturers to departmental office to central result processing, what is recommended to show the process clearly?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A longer written explanation",
+        "label": "A"
+      },
+      {
+        "text": "A simple data diagram with labelled stages and arrows",
+        "label": "B"
+      },
+      {
+        "text": "A verbal presentation only",
+        "label": "C"
+      },
+      {
+        "text": "A spreadsheet of grades",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A simple data diagram with labelled stages and arrows can show the same process clearly and more quickly than lengthy written explanation."
+  },
+  {
+    "questionText": "why is metadata important in data analysis?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it replaces the need for actual data",
+        "label": "A"
+      },
+      {
+        "text": "Because it gives descriptive meaning to data, helping users identify variables, understand formats, recognise units, and interpret records correctly",
+        "label": "B"
+      },
+      {
+        "text": "Because it makes data larger",
+        "label": "C"
+      },
+      {
+        "text": "Because it cannot be shared",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata gives descriptive meaning to data, helping users identify variables, understand formats, recognise units, locate sources, and interpret records correctly."
+  },
+  {
+    "questionText": "what happens when datasets lack metadata, especially when shared across departments or stored for long periods?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They become easier to use",
+        "label": "A"
+      },
+      {
+        "text": "They may become difficult to understand",
+        "label": "B"
+      },
+      {
+        "text": "They automatically generate metadata",
+        "label": "C"
+      },
+      {
+        "text": "They delete themselves",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without metadata, datasets may become difficult to understand, especially when shared across departments, reused, or stored for long periods."
+  },
+  {
+    "questionText": "why are data flows important for analysts?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because they show the final output only",
+        "label": "A"
+      },
+      {
+        "text": "Because they show how data moves through a system, helping trace delays, identify weaknesses, improve efficiency, and ensure proper data handling",
+        "label": "B"
+      },
+      {
+        "text": "Because they replace the need for analysis",
+        "label": "C"
+      },
+      {
+        "text": "Because they cannot be studied",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data flows help analysts understand where data is collected, processed, stored, and how it reaches output, which helps trace delays, identify weaknesses, and improve efficiency."
+  },
+  {
+    "questionText": "why are data diagrams important in data analysis?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because they are more expensive to create",
+        "label": "A"
+      },
+      {
+        "text": "Because they provide a clear visual representation of data processes, making explanations easier to follow",
+        "label": "B"
+      },
+      {
+        "text": "Because they replace written documentation",
+        "label": "C"
+      },
+      {
+        "text": "Because they cannot be shared",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data diagrams provide clear visual representation, making explanations easier to follow, especially when systems contain multiple steps, actors, or storage points."
+  },
+  {
+    "questionText": "what warning does the chapter give about analyzing data without proper metadata or understanding of data flows?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It is always safe",
+        "label": "A"
+      },
+      {
+        "text": "Interpretation may become weak, errors may be harder to detect, and decisions may be based on incomplete understanding",
+        "label": "B"
+      },
+      {
+        "text": "It guarantees perfect results",
+        "label": "C"
+      },
+      {
+        "text": "It makes analysis faster",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without proper metadata or understanding of data flows, interpretation may become weak, errors may be harder to detect, and decisions may be based on incomplete understanding."
+  },
+  {
+    "questionText": "what does metadata support in data management?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Clarity, organisation, and proper use of data",
+        "label": "A"
+      },
+      {
+        "text": "Only data deletion",
+        "label": "B"
+      },
+      {
+        "text": "Only data duplication",
+        "label": "C"
+      },
+      {
+        "text": "Only data corruption",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Metadata supports clarity, organisation, and proper use of data."
+  },
+  {
+    "questionText": "together, metadata, data flows, and data diagrams provide:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A replacement for actual data",
+        "label": "A"
+      },
+      {
+        "text": "A conceptual foundation for understanding how data is described, moved, and represented in practical systems",
+        "label": "B"
+      },
+      {
+        "text": "A way to avoid analysis",
+        "label": "C"
+      },
+      {
+        "text": "A method to delete old data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Together, these provide a conceptual foundation for understanding how data is described, moved, and represented in practical systems."
+  },
+  {
+    "questionText": "a list of numbers becomes difficult to interpret if no descriptive labels, source details, or formatting information are attached because:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Numbers are always meaningless",
+        "label": "A"
+      },
+      {
+        "text": "The user lacks metadata that provides context and meaning",
+        "label": "B"
+      },
+      {
+        "text": "Numbers cannot be stored without labels",
+        "label": "C"
+      },
+      {
+        "text": "Labels change the numbers",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without descriptive labels, source details, or formatting information (metadata), users lack the context needed to interpret what the numbers represent."
+  },
+  {
+    "questionText": "why is it useful to understand the path that data follows from its point of entry to its final use in a system?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it helps trace errors, improve processes, and understand system behaviour",
+        "label": "A"
+      },
+      {
+        "text": "Because it is required by law",
+        "label": "B"
+      },
+      {
+        "text": "Because it makes data larger",
+        "label": "C"
+      },
+      {
+        "text": "Because it slows down analysis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Understanding data paths helps trace errors, improve processes, and understand how data flows through systems."
+  },
+  {
+    "questionText": "why is it risky to analyse data without clearly understanding what the data represents, where it came from, and how it moves through the system?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because analysis will always be perfect",
+        "label": "A"
+      },
+      {
+        "text": "Because interpretation may be weak, errors may go undetected, and decisions may be based on incomplete understanding",
+        "label": "B"
+      },
+      {
+        "text": "Because data will delete itself",
+        "label": "C"
+      },
+      {
+        "text": "Because analysis will be faster",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without understanding what data represents, its source, and how it moves, interpretation may be weak, errors may go undetected, and decisions may be flawed."
+  },
+  {
+    "questionText": "in a spreadsheet, column names and units of measurement are examples of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Data diagram",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Column names and units of measurement are metadata because they describe the actual data values."
+  },
+  {
+    "questionText": "the actual values stored in a database table are:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Data diagram",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The actual stored values are data. Metadata describes those values."
+  },
+  {
+    "questionText": "in the example of a student dataset with values 72, 65, 81, 90, the numbers themselves are:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Data diagram",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The numerical values are data. The descriptive information about them is metadata."
+  },
+  {
+    "questionText": "the information that the values 72, 65, 81, 90 are 'csc 104 test scores' is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Data diagram",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The label explaining what the numbers represent is metadata."
+  },
+  {
+    "questionText": "the statement 'the maximum mark is 100' for a test score column is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Data storage",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Information about the range or constraints of data values is metadata."
+  },
+  {
+    "questionText": "the date a digital photograph was taken is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The image data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata about the image",
+        "label": "B"
+      },
+      {
+        "text": "The visual content",
+        "label": "C"
+      },
+      {
+        "text": "The file format",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The date the picture was taken is metadata that describes the photograph."
+  },
+  {
+    "questionText": "in a database, the data type of a field (e.g., integer, text, date) is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Query result",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data type definitions are metadata because they describe how data should be stored and interpreted."
+  },
+  {
+    "questionText": "a student's actual age of 20 years is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "Data diagram",
+        "label": "C"
+      },
+      {
+        "text": "Data flow",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The actual value (20) is data. The label 'Age' would be metadata."
+  },
+  {
+    "questionText": "the label 'age' above a column of numbers is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Storage",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Column labels are metadata because they describe what the values in that column represent."
+  },
+  {
+    "questionText": "understanding data flow helps in tracing delays and identifying weaknesses in a system. this is important for:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Improving system efficiency",
+        "label": "A"
+      },
+      {
+        "text": "Increasing system errors",
+        "label": "B"
+      },
+      {
+        "text": "Slowing down processes",
+        "label": "C"
+      },
+      {
+        "text": "Deleting data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Understanding data flow helps trace delays, identify weaknesses, and improve system efficiency."
+  },
+  {
+    "questionText": "in student course registration, the online form where students enter their information is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Storage",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Source",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The online form is the source where data originates in the registration system."
+  },
+  {
+    "questionText": "in student course registration, the verification of data for correctness is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Verification is a process that operates on the data."
+  },
+  {
+    "questionText": "in student course registration, the database where records are kept is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The database is storage where data is kept for future use."
+  },
+  {
+    "questionText": "in student course registration, the printed class list is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "The class list is an output where data is displayed or used."
+  },
+  {
+    "questionText": "which of the following correctly orders the basic data flow components?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Output → Storage → Process → Source",
+        "label": "A"
+      },
+      {
+        "text": "Source → Process → Storage → Output",
+        "label": "B"
+      },
+      {
+        "text": "Storage → Source → Output → Process",
+        "label": "C"
+      },
+      {
+        "text": "Process → Source → Storage → Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A typical data flow follows: Source (origin) → Process (operation) → Storage (location) → Output (destination)."
+  },
+  {
+    "questionText": "in an online purchase, payment verification is an example of which data flow component?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Payment verification is a process that operates on the order data."
+  },
+  {
+    "questionText": "in an online purchase, the order confirmation sent to the customer is an example of which data flow component?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "The order confirmation is an output where data is displayed or sent to the customer."
+  },
+  {
+    "questionText": "in an online purchase, the customer's entered shipping address is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source data",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The customer's entered address is source data that enters the system."
+  },
+  {
+    "questionText": "in a hospital, patient registration information is collected at the registration desk. this is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Registration is where patient data is collected, making it the source."
+  },
+  {
+    "questionText": "in a hospital, storing patient records in an electronic health record system is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Process",
+        "label": "B"
+      },
+      {
+        "text": "Storage",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The electronic health record system is storage where patient data is kept for future use."
+  },
+  {
+    "questionText": "which of the following is not a basic component of data flow?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Source",
+        "label": "A"
+      },
+      {
+        "text": "Color",
+        "label": "B"
+      },
+      {
+        "text": "Process",
+        "label": "C"
+      },
+      {
+        "text": "Storage",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Color is not a component of data flow. The basic components are source, process, storage, and output."
+  },
+  {
+    "questionText": "what does a data diagram use to represent sources, processes, storage points, and outputs?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only text",
+        "label": "A"
+      },
+      {
+        "text": "Symbols, arrows, labels, boxes, and connecting lines",
+        "label": "B"
+      },
+      {
+        "text": "Only colours",
+        "label": "C"
+      },
+      {
+        "text": "Only numbers",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data diagrams use symbols, arrows, labels, boxes, and connecting lines to represent system components."
+  },
+  {
+    "questionText": "why are data diagrams useful when teaching beginners about data processes?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because beginners prefer text",
+        "label": "A"
+      },
+      {
+        "text": "Because diagrams reduce the difficulty of understanding abstract system processes",
+        "label": "B"
+      },
+      {
+        "text": "Because diagrams are more expensive",
+        "label": "C"
+      },
+      {
+        "text": "Because diagrams cannot be understood",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Diagrams reduce the difficulty of understanding abstract system processes, making them valuable teaching tools."
+  },
+  {
+    "questionText": "a data diagram that shows examination records moving from lecturers to departmental office to central processing uses which elements?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Only boxes",
+        "label": "A"
+      },
+      {
+        "text": "Labelled stages and arrows to show movement and relationships",
+        "label": "B"
+      },
+      {
+        "text": "Only arrows",
+        "label": "C"
+      },
+      {
+        "text": "Only labels",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A good data diagram uses labelled stages and arrows to show movement and relationships between components."
+  },
+  {
+    "questionText": "metadata improves data sharing because:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It makes data smaller",
+        "label": "A"
+      },
+      {
+        "text": "It provides context that helps others understand what the data represents",
+        "label": "B"
+      },
+      {
+        "text": "It encrypts the data",
+        "label": "C"
+      },
+      {
+        "text": "It deletes old data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata provides context that helps others understand what data represents, making sharing more effective."
+  },
+  {
+    "questionText": "if a dataset is reused for analysis years after it was collected, why is metadata especially important?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because the original collectors may no longer be available to explain the data",
+        "label": "A"
+      },
+      {
+        "text": "Because metadata makes data larger",
+        "label": "B"
+      },
+      {
+        "text": "Because data changes over time",
+        "label": "C"
+      },
+      {
+        "text": "Because metadata is automatically generated",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "When data is reused long after collection, metadata preserves the context that original collectors would have provided."
+  },
+  {
+    "questionText": "understanding data flow helps improve system design because:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It shows where data moves and how it is transformed, allowing identification of unnecessary steps or bottlenecks",
+        "label": "A"
+      },
+      {
+        "text": "It replaces the need for testing",
+        "label": "B"
+      },
+      {
+        "text": "It makes systems more complex",
+        "label": "C"
+      },
+      {
+        "text": "It slows down development",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Understanding data flow helps identify unnecessary steps, bottlenecks, and areas for improvement in system design."
+  },
+  {
+    "questionText": "in a university, the movement of student grades from course lecturers to the registrar's office is part of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data flow",
+        "label": "B"
+      },
+      {
+        "text": "Data diagram only",
+        "label": "C"
+      },
+      {
+        "text": "Storage only",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The movement of grades through different points is a data flow."
+  },
+  {
+    "questionText": "a written description of how data moves through a system is less effective than a data diagram because:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Written descriptions are always wrong",
+        "label": "A"
+      },
+      {
+        "text": "Diagrams show relationships and sequences visually, which is easier to understand",
+        "label": "B"
+      },
+      {
+        "text": "Written descriptions are longer",
+        "label": "C"
+      },
+      {
+        "text": "Diagrams contain more text",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Diagrams show relationships and sequences visually, which is often easier to understand than lengthy written descriptions."
+  },
+  {
+    "questionText": "which of the following would be considered metadata for a clinical trial dataset?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The patients' blood pressure readings",
+        "label": "A"
+      },
+      {
+        "text": "The description that blood pressure is measured in mmHg, recorded at baseline, and taken with a digital monitor",
+        "label": "B"
+      },
+      {
+        "text": "The number of patients",
+        "label": "C"
+      },
+      {
+        "text": "The average blood pressure",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The description of units, timing, and measurement method is metadata about the blood pressure readings."
+  },
+  {
+    "questionText": "a column in a database defined as 'varchar(50)' is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Query",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data type and length definitions are metadata that describe how data should be stored."
+  },
+  {
+    "questionText": "the statement 'this file was created on 2024-01-15 by user jdoe' is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Data diagram",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Creation date and author information are metadata that describe the file."
+  },
+  {
+    "questionText": "when data is transformed from raw values into meaningful information, what role does metadata play?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It replaces the transformation process",
+        "label": "A"
+      },
+      {
+        "text": "It provides the context needed to interpret the raw values correctly",
+        "label": "B"
+      },
+      {
+        "text": "It makes transformation impossible",
+        "label": "C"
+      },
+      {
+        "text": "It deletes the raw data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata provides the context (units, meaning, source) needed to interpret raw values correctly during transformation."
+  },
+  {
+    "questionText": "in a gps device, the coordinates (latitude, longitude) are data. the information that these coordinates use the wgs84 standard is:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata",
+        "label": "B"
+      },
+      {
+        "text": "Data flow",
+        "label": "C"
+      },
+      {
+        "text": "Output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Information about the coordinate reference system is metadata that describes how to interpret the coordinates."
+  },
+  {
+    "questionText": "what happens if data flows are not properly documented in an organisation?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data moves more efficiently",
+        "label": "A"
+      },
+      {
+        "text": "It becomes difficult to trace errors, understand processes, or improve efficiency",
+        "label": "B"
+      },
+      {
+        "text": "Data automatically corrects itself",
+        "label": "C"
+      },
+      {
+        "text": "Systems become simpler",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Without proper documentation of data flows, tracing errors, understanding processes, and improving efficiency become difficult."
+  },
+  {
+    "questionText": "an arrow in a data diagram typically represents:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The colour of data",
+        "label": "A"
+      },
+      {
+        "text": "The movement or flow of data from one point to another",
+        "label": "B"
+      },
+      {
+        "text": "The storage location",
+        "label": "C"
+      },
+      {
+        "text": "The source of data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Arrows in data diagrams represent the direction of data movement or flow."
+  },
+  {
+    "questionText": "a box in a data diagram typically represents:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data movement",
+        "label": "A"
+      },
+      {
+        "text": "A process, source, storage, or output point",
+        "label": "B"
+      },
+      {
+        "text": "The colour of data",
+        "label": "C"
+      },
+      {
+        "text": "The speed of data",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Boxes in data diagrams typically represent entities such as processes, sources, storage locations, or outputs."
+  },
+  {
+    "questionText": "why might a hospital need to understand the flow of patient data from admission to discharge?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To increase patient wait times",
+        "label": "A"
+      },
+      {
+        "text": "To improve care coordination, reduce errors, and ensure data reaches the right departments",
+        "label": "B"
+      },
+      {
+        "text": "To delete patient records",
+        "label": "C"
+      },
+      {
+        "text": "To make the system more complex",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Understanding patient data flow helps improve care coordination, reduce errors, and ensure data reaches the right departments."
+  },
+  {
+    "questionText": "which of the following is an example of metadata in a library catalogue?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The actual book content",
+        "label": "A"
+      },
+      {
+        "text": "The book's title, author, ISBN, publication date, and shelf location",
+        "label": "B"
+      },
+      {
+        "text": "The number of pages",
+        "label": "C"
+      },
+      {
+        "text": "The reader's name",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Title, author, ISBN, publication date, and shelf location are metadata that describe the book."
+  },
+  {
+    "questionText": "the book's actual content is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "Catalogue",
+        "label": "C"
+      },
+      {
+        "text": "Index",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The actual content of the book is data. The catalogue information describing it is metadata."
+  },
+  {
+    "questionText": "in an email system, the subject line, sender, recipient, and timestamp are examples of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Email content (data)",
+        "label": "A"
+      },
+      {
+        "text": "Email metadata",
+        "label": "B"
+      },
+      {
+        "text": "Email attachment",
+        "label": "C"
+      },
+      {
+        "text": "Email signature",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Subject line, sender, recipient, and timestamp are metadata that describe the email message. The message body is the data."
+  },
+  {
+    "questionText": "the actual message body of an email is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Metadata",
+        "label": "A"
+      },
+      {
+        "text": "Data",
+        "label": "B"
+      },
+      {
+        "text": "Header",
+        "label": "C"
+      },
+      {
+        "text": "Footer",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The actual message content is data. The headers describing it (from, to, date, subject) are metadata."
+  },
+  {
+    "questionText": "why is it important to distinguish between data and metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because they are exactly the same",
+        "label": "A"
+      },
+      {
+        "text": "Because confusing them can lead to misinterpretation of what values represent and how they should be used",
+        "label": "B"
+      },
+      {
+        "text": "Because metadata is always larger",
+        "label": "C"
+      },
+      {
+        "text": "Because data cannot exist without metadata",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Confusing data and metadata can lead to misinterpretation of what values represent and how they should be used in analysis."
+  },
+  {
+    "questionText": "in a research study, the description 'participant id numbers are anonymized' is an example of:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The actual data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata about the data",
+        "label": "B"
+      },
+      {
+        "text": "The research conclusion",
+        "label": "C"
+      },
+      {
+        "text": "The statistical analysis",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Information about how data was handled (anonymization) is metadata that describes the data."
+  },
+  {
+    "questionText": "a data flow diagram showing how customer information moves from a website to a database to a marketing system helps with:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data deletion",
+        "label": "A"
+      },
+      {
+        "text": "Understanding data movement and system integration",
+        "label": "B"
+      },
+      {
+        "text": "Slowing down processes",
+        "label": "C"
+      },
+      {
+        "text": "Increasing errors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data flow diagrams help understand how data moves through systems and how different systems integrate."
+  },
+  {
+    "questionText": "when an organisation changes its data management system, understanding existing data flows helps with:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Planning the transition and ensuring no data is lost",
+        "label": "A"
+      },
+      {
+        "text": "Increasing system errors",
+        "label": "B"
+      },
+      {
+        "text": "Deleting old data",
+        "label": "C"
+      },
+      {
+        "text": "Ignoring data movement",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Understanding existing data flows helps plan transitions and ensure data integrity during system changes."
+  },
+  {
+    "questionText": "what does the chapter identify as a key benefit of data diagrams for communication?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They replace verbal communication",
+        "label": "A"
+      },
+      {
+        "text": "They make explanations easier to follow, especially when systems contain multiple steps, actors, or storage points",
+        "label": "B"
+      },
+      {
+        "text": "They are more expensive to produce",
+        "label": "C"
+      },
+      {
+        "text": "They require no labels",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data diagrams make explanations easier to follow, especially for systems with multiple steps, actors, or storage points."
+  },
+  {
+    "questionText": "the concept that 'data does not remain static' means that:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data never changes",
+        "label": "A"
+      },
+      {
+        "text": "Data is collected, transmitted, transformed, stored, retrieved, and used over time",
+        "label": "B"
+      },
+      {
+        "text": "Data is always accurate",
+        "label": "C"
+      },
+      {
+        "text": "Data cannot be moved",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data is dynamic — it moves through systems, is transformed, stored, retrieved, and used."
+  },
+  {
+    "questionText": "a student's test score of 85 is data. the fact that this score was from a 50-mark test is:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Also data",
+        "label": "A"
+      },
+      {
+        "text": "Metadata that explains how to interpret the score",
+        "label": "B"
+      },
+      {
+        "text": "Irrelevant information",
+        "label": "C"
+      },
+      {
+        "text": "A calculation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The maximum possible score (50) is metadata that provides context for interpreting the 85 (if out of 50, this would be 170%, indicating an error)."
+  },
+  {
+    "questionText": "if a temperature reading is recorded as 30, what additional metadata would be essential to interpret it correctly?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The colour of the thermometer",
+        "label": "A"
+      },
+      {
+        "text": "The unit of measurement (Celsius, Fahrenheit, Kelvin)",
+        "label": "B"
+      },
+      {
+        "text": "The brand of thermometer",
+        "label": "C"
+      },
+      {
+        "text": "The age of the thermometer",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The unit of measurement is essential metadata; 30°C, 30°F, and 30K have very different meanings."
+  },
+  {
+    "questionText": "which of the following is not typically considered metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "File creation date",
+        "label": "A"
+      },
+      {
+        "text": "Author name",
+        "label": "B"
+      },
+      {
+        "text": "The actual text content of a document",
+        "label": "C"
+      },
+      {
+        "text": "File size",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "The actual text content is data. Creation date, author, and file size are metadata that describe the file."
+  },
+  {
+    "questionText": "in a system where multiple departments share data, why is consistent metadata essential?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because it ensures all departments interpret the same data values consistently",
+        "label": "A"
+      },
+      {
+        "text": "Because it makes data larger",
+        "label": "B"
+      },
+      {
+        "text": "Because it slows down access",
+        "label": "C"
+      },
+      {
+        "text": "Because it complicates sharing",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Consistent metadata ensures all departments interpret the same data values the same way, preventing misunderstandings."
+  },
+  {
+    "questionText": "a data flow that shows data moving from source to storage without any processing step suggests:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "The data is stored exactly as collected",
+        "label": "A"
+      },
+      {
+        "text": "An error in the flow",
+        "label": "B"
+      },
+      {
+        "text": "The data is deleted",
+        "label": "C"
+      },
+      {
+        "text": "The data is transformed",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "If there is no processing step, data moves directly from source to storage without transformation."
+  },
+  {
+    "questionText": "what does the chapter mean by 'data diagrams simplify complexity'?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "They make simple things complex",
+        "label": "A"
+      },
+      {
+        "text": "They break down complex processes into understandable visual representations",
+        "label": "B"
+      },
+      {
+        "text": "They hide important details",
+        "label": "C"
+      },
+      {
+        "text": "They replace all written documentation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Data diagrams break down complex processes into understandable visual representations, making complexity manageable."
+  },
+  {
+    "questionText": "why is metadata particularly important for large datasets?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Because large datasets are always accurate",
+        "label": "A"
+      },
+      {
+        "text": "Because users cannot memorize the meaning of every column or value without descriptive information",
+        "label": "B"
+      },
+      {
+        "text": "Because large datasets require less explanation",
+        "label": "C"
+      },
+      {
+        "text": "Because metadata makes datasets smaller",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In large datasets, users cannot memorize the meaning of every column or value, making metadata essential for interpretation."
+  },
+  {
+    "questionText": "a data flow that includes a 'validation' step means that:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data is deleted",
+        "label": "A"
+      },
+      {
+        "text": "Data is checked for correctness before further processing",
+        "label": "B"
+      },
+      {
+        "text": "Data is stored unchanged",
+        "label": "C"
+      },
+      {
+        "text": "Data is transformed into output",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A validation step checks data for correctness before allowing it to proceed further in the flow."
+  },
+  {
+    "questionText": "understanding data flows helps with regulatory compliance because:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "It shows where sensitive data is stored and how it moves, enabling proper controls",
+        "label": "A"
+      },
+      {
+        "text": "It makes data easier to delete",
+        "label": "B"
+      },
+      {
+        "text": "It hides data movement",
+        "label": "C"
+      },
+      {
+        "text": "It increases data storage",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Understanding data flows helps identify where sensitive data resides and how it moves, enabling proper security and compliance controls."
+  },
+  {
+    "questionText": "in a data diagram, why might different shapes be used for different components?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "For visual distinction to make the diagram easier to read and understand",
+        "label": "A"
+      },
+      {
+        "text": "To make the diagram more colourful",
+        "label": "B"
+      },
+      {
+        "text": "Because it is required by law",
+        "label": "C"
+      },
+      {
+        "text": "To hide information",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Different shapes help visually distinguish different types of components (sources, processes, storage, outputs), making diagrams easier to read."
+  },
+  {
+    "questionText": "what is the relationship between a data dictionary and metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "A data dictionary is a type of metadata that documents the structure and meaning of data elements",
+        "label": "A"
+      },
+      {
+        "text": "They are unrelated",
+        "label": "B"
+      },
+      {
+        "text": "A data dictionary replaces data",
+        "label": "C"
+      },
+      {
+        "text": "Metadata replaces a data dictionary",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "A data dictionary is a collection of metadata that documents the structure, meaning, and relationships of data elements in a system."
+  },
+  {
+    "questionText": "which of the following best describes the purpose of metadata?",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "To replace the actual data",
+        "label": "A"
+      },
+      {
+        "text": "To make data unusable",
+        "label": "B"
+      },
+      {
+        "text": "To provide context, meaning, and structure so data can be properly understood and used",
+        "label": "C"
+      },
+      {
+        "text": "To increase storage requirements",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Metadata provides context, meaning, and structure so that data can be properly understood and used."
+  },
+  {
+    "questionText": "a data diagram that includes feedback loops would indicate that:",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "Data moves only one way",
+        "label": "A"
+      },
+      {
+        "text": "Data can return to previous stages for correction or re-processing",
+        "label": "B"
+      },
+      {
+        "text": "The diagram is incorrect",
+        "label": "C"
+      },
+      {
+        "text": "Data is deleted",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Feedback loops in data diagrams show where data can return to previous stages for correction, validation, or re-processing."
+  },
+  {
+    "questionText": "complete the sentence: metadata, data flows, and data diagrams provide a conceptual foundation for understanding how data is ________, ________, and ________ in practical systems.",
+    "topic": "metadata, data flows, and data diagrams",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 4,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "created, deleted, ignored",
+        "label": "A"
+      },
+      {
+        "text": "described, moved, represented",
+        "label": "B"
+      },
+      {
+        "text": "stored only, accessed only, deleted only",
+        "label": "C"
+      },
+      {
+        "text": "encrypted, hidden, lost",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Metadata, data flows, and data diagrams help us understand how data is described, moved, and represented in practical systems."
+  }
+]

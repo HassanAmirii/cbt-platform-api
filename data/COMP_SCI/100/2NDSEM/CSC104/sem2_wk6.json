@@ -1,0 +1,1570 @@
+[
+  {
+    "questionText": "what is statistics defined as in relation to data analytics?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "the collection of raw data without any organisation",
+        "label": "A"
+      },
+      {
+        "text": "the branch of knowledge concerned with collection, organisation, presentation, analysis, interpretation, and use of data",
+        "label": "B"
+      },
+      { "text": "the process of deleting unwanted data", "label": "C" },
+      { "text": "the use of guesswork to understand data", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Statistics is the branch of knowledge concerned with the collection, organisation, presentation, analysis, interpretation, and use of data. It provides methods that help analysts turn raw data into meaningful information."
+  },
+  {
+    "questionText": "what is data analytics?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "the process of examining data to discover useful patterns, trends, relationships, and insights",
+        "label": "A"
+      },
+      { "text": "the process of storing data in a database", "label": "B" },
+      { "text": "the process of deleting old data", "label": "C" },
+      { "text": "the process of guessing values from data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Data analytics is the process of examining data in order to discover useful patterns, trends, relationships, and insights. It may involve cleaning data, organising it, calculating statistical measures, creating visualisations, building models, and communicating findings."
+  },
+  {
+    "questionText": "without statistics, data may remain as:",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "a collection of values without clear meaning", "label": "A" },
+      { "text": "perfectly organised information", "label": "B" },
+      { "text": "automatically analysed results", "label": "C" },
+      { "text": "meaningful insights", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Without statistics, data may remain as a collection of values without clear meaning. Statistics gives structure to data and helps analysts interpret it more carefully."
+  },
+  {
+    "questionText": "what does statistics provide to data analytics?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "methods for collecting, organising, summarising, presenting, analysing, interpreting, and using data",
+        "label": "A"
+      },
+      { "text": "methods for deleting data", "label": "B" },
+      { "text": "methods for hiding data", "label": "C" },
+      { "text": "methods for ignoring data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics provides methods for collecting, organising, summarising, presenting, analysing, interpreting, and using data. Without statistics, data analytics would lack the structure needed to draw meaningful conclusions."
+  },
+  {
+    "questionText": "which of the following is an example of data analytics in education?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "calculating the average score of 200 students", "label": "A" },
+      { "text": "identifying the highest and lowest scores", "label": "B" },
+      { "text": "determining the pass rate", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "If a lecturer has scores of 200 students, data analytics may involve calculating the average score, identifying the highest and lowest scores, determining the pass rate, and explaining what the results show about class performance."
+  },
+  {
+    "questionText": "what is the relationship between statistics and data analytics?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "they are completely unrelated", "label": "A" },
+      {
+        "text": "data analytics depends on statistical methods to summarise, compare, interpret, and draw conclusions from data",
+        "label": "B"
+      },
+      {
+        "text": "statistics replaces the need for data analytics",
+        "label": "C"
+      },
+      { "text": "data analytics makes statistics unnecessary", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The relationship between statistics and data analytics is very close. Data analytics depends on statistical methods to summarise, compare, interpret, and draw conclusions from data. Statistics gives data analytics the discipline needed to avoid careless interpretation."
+  },
+  {
+    "questionText": "why is it difficult to understand a large dataset by looking at raw values one by one?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "because raw values are always accurate", "label": "A" },
+      {
+        "text": "because large datasets contain too many individual values to interpret meaningfully without summarisation",
+        "label": "B"
+      },
+      { "text": "because raw values are always identical", "label": "C" },
+      { "text": "because raw values cannot be counted", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A list of 200 examination scores may be difficult to understand by looking at each score individually. Statistics helps summarise the data using the average score, pass rate, highest score, lowest score, and spread of performance."
+  },
+  {
+    "questionText": "what does data analytics involve?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "only calculation of numbers", "label": "A" },
+      {
+        "text": "data cleaning, data organisation, data visualisation, statistical analysis, interpretation, and communication of results",
+        "label": "B"
+      },
+      { "text": "only data storage", "label": "C" },
+      { "text": "only data deletion", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Data analytics is not limited to calculation alone. It may include data cleaning, data organisation, data visualisation, statistical analysis, interpretation, and communication of results."
+  },
+  {
+    "questionText": "statistics helps people make sense of data by providing tools for:",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "summarising large datasets and measuring differences",
+        "label": "A"
+      },
+      {
+        "text": "comparing groups and identifying relationships",
+        "label": "B"
+      },
+      { "text": "drawing conclusions", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Statistics helps people make sense of data by providing tools for summarising large datasets, measuring differences, comparing groups, identifying relationships, and drawing conclusions."
+  },
+  {
+    "questionText": "in everyday life, statistics is used when:",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "lecturers analyse students' scores", "label": "A" },
+      { "text": "businesses study sales patterns", "label": "B" },
+      { "text": "hospitals monitor patient records", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "In everyday life, statistics is used when lecturers analyse students' scores, businesses study sales patterns, hospitals monitor patient records, and governments study population figures."
+  },
+  {
+    "questionText": "what is one of the first roles of statistics in data analytics?",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "data deletion", "label": "A" },
+      { "text": "data summarisation", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "One of the first roles of statistics is data summarisation. Large datasets are often difficult to understand in their raw form. Statistics helps summarise data using frequencies, percentages, averages, totals, minimum values, and maximum values."
+  },
+  {
+    "questionText": "statistics supports data presentation through:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "tables, charts, graphs, and diagrams", "label": "A" },
+      { "text": "only text descriptions", "label": "B" },
+      { "text": "only numbers", "label": "C" },
+      { "text": "only spoken words", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics supports data presentation using tables, charts, graphs, and diagrams which make data easier to understand and communicate. For example, a bar chart may compare product sales, while a line graph may show revenue changes over time."
+  },
+  {
+    "questionText": "what does variation refer to in statistics?",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "the degree to which values differ from one another",
+        "label": "A"
+      },
+      { "text": "the degree to which values are identical", "label": "B" },
+      { "text": "the average of all values", "label": "C" },
+      { "text": "the total of all values", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Variation refers to the degree to which values differ from one another. In real datasets, values are rarely the same. Students score different marks, customers spend different amounts, and temperatures change over time."
+  },
+  {
+    "questionText": "statistics helps analysts understand variation by using:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "measures that describe how spread out the values are",
+        "label": "A"
+      },
+      { "text": "measures that make all values equal", "label": "B" },
+      { "text": "measures that delete extreme values", "label": "C" },
+      { "text": "measures that ignore differences", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistical measures help describe how spread out the values are. This helps analysts understand the variation present in the data."
+  },
+  {
+    "questionText": "statistics supports comparison by helping analysts:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "compare performance between two groups", "label": "A" },
+      { "text": "ignore differences between groups", "label": "B" },
+      { "text": "make all groups identical", "label": "C" },
+      { "text": "delete data from one group", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics supports comparison. Analysts may compare performance between two classes, sales between two branches, or patient visits across months. Statistical methods help determine whether observed differences are meaningful."
+  },
+  {
+    "questionText": "relationship analysis in statistics involves studying:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "whether one variable is related to another", "label": "A" },
+      { "text": "whether variables are identical", "label": "B" },
+      { "text": "whether variables should be deleted", "label": "C" },
+      { "text": "whether variables are meaningless", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Relationship analysis studies whether one variable is related to another. For example, analysts may study whether study time relates to examination score or whether advertising expenditure relates to sales."
+  },
+  {
+    "questionText": "what is inference in statistics?",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "using data from a sample to make conclusions about a larger population",
+        "label": "A"
+      },
+      {
+        "text": "using data from a population to describe itself",
+        "label": "B"
+      },
+      { "text": "deleting data from a sample", "label": "C" },
+      { "text": "ignoring data from a population", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Inference means using data from a sample to make conclusions about a larger population. This is useful when studying every member of a population is not possible."
+  },
+  {
+    "questionText": "statistics supports prediction and forecasting by:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "studying past and present data to estimate possible future outcomes",
+        "label": "A"
+      },
+      { "text": "guessing future outcomes randomly", "label": "B" },
+      { "text": "ignoring past data", "label": "C" },
+      { "text": "deleting present data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "By studying past and present data, analysts can estimate possible future outcomes. For example, a business may forecast future sales, a school may predict enrolment trends, or a government agency may estimate population growth."
+  },
+  {
+    "questionText": "why is prediction based on past data often better than prediction based only on guesswork?",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "because past data provides evidence and patterns that guide predictions",
+        "label": "A"
+      },
+      { "text": "because guesswork is always accurate", "label": "B" },
+      { "text": "because past data is always wrong", "label": "C" },
+      { "text": "because guesswork is based on facts", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Prediction based on past data is often better than guesswork because past data provides evidence and patterns that guide predictions. Guesswork lacks the evidence needed for reliable forecasting."
+  },
+  {
+    "questionText": "how does statistics support decision-making?",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "by providing evidence that helps people make better choices",
+        "label": "A"
+      },
+      { "text": "by eliminating the need for decision-makers", "label": "B" },
+      { "text": "by making all decisions automatic", "label": "C" },
+      { "text": "by ignoring evidence", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics supports decision-making by providing evidence that helps people make better choices in business, education, health care, government, and research."
+  },
+  {
+    "questionText": "what is descriptive statistics concerned with?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "summarising and describing the main features of a dataset",
+        "label": "A"
+      },
+      {
+        "text": "using sample data to make conclusions about a larger population",
+        "label": "B"
+      },
+      { "text": "guessing values from incomplete data", "label": "C" },
+      { "text": "deleting unwanted data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Descriptive statistics is concerned with summarising and describing the main features of a dataset. It answers questions such as: What is the average value? What is the highest value? What is the lowest value? How many observations are in each category?"
+  },
+  {
+    "questionText": "what is inferential statistics concerned with?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "summarising and describing the main features of a dataset",
+        "label": "A"
+      },
+      {
+        "text": "using sample data to make conclusions or predictions about a larger population",
+        "label": "B"
+      },
+      { "text": "calculating averages only", "label": "C" },
+      { "text": "creating charts and graphs", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Inferential statistics is concerned with using sample data to make conclusions or predictions about a larger population. It is useful when studying every member of a population is impossible, expensive, or time-consuming."
+  },
+  {
+    "questionText": "which of the following is an example of descriptive statistics?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "calculating the average test score of students in a class",
+        "label": "A"
+      },
+      {
+        "text": "using a sample to estimate the opinion of all students",
+        "label": "B"
+      },
+      {
+        "text": "predicting future enrolment based on past trends",
+        "label": "C"
+      },
+      { "text": "testing a hypothesis about the population", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "If a lecturer calculates the average score of students in a test, identifies the highest score, and determines the percentage of students who passed, the lecturer is using descriptive statistics."
+  },
+  {
+    "questionText": "which of the following is an example of inferential statistics?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "calculating the average score of students in a class",
+        "label": "A"
+      },
+      {
+        "text": "using a sample of students to estimate the opinion of the entire university population",
+        "label": "B"
+      },
+      { "text": "creating a bar chart of sales data", "label": "C" },
+      {
+        "text": "finding the highest and lowest values in a dataset",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "If a university wants to know students' opinions about a new policy, it may not be practical to ask every student. A sample of students may be selected, and the results may be used to estimate the opinion of the larger student population. This is inferential statistics."
+  },
+  {
+    "questionText": "what is the major difference between descriptive and inferential statistics?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "descriptive statistics describes available data, while inferential statistics goes beyond to make conclusions about a larger group",
+        "label": "A"
+      },
+      {
+        "text": "descriptive statistics is used for predictions, while inferential statistics is used for summaries",
+        "label": "B"
+      },
+      { "text": "there is no difference between them", "label": "C" },
+      {
+        "text": "inferential statistics describes data, while descriptive statistics makes predictions",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The major difference is that descriptive statistics describes the available data, while inferential statistics goes beyond the available data to make conclusions about a larger group. Descriptive statistics helps analysts understand what has happened, while inferential statistics helps them make broader conclusions or predictions."
+  },
+  {
+    "questionText": "examples of descriptive statistics include:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "mean, median, mode, range, frequency distribution, percentage, variance, and standard deviation",
+        "label": "A"
+      },
+      {
+        "text": "sampling, estimation, hypothesis testing, and confidence intervals",
+        "label": "B"
+      },
+      { "text": "only averages", "label": "C" },
+      { "text": "only charts and graphs", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Examples of descriptive statistics include mean, median, mode, range, frequency distribution, percentage, variance, and standard deviation. These measures are commonly used in the early stages of data analysis."
+  },
+  {
+    "questionText": "examples of inferential statistics include:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "mean, median, and mode", "label": "A" },
+      {
+        "text": "sampling, estimation, hypothesis testing, confidence intervals, and significance testing",
+        "label": "B"
+      },
+      { "text": "frequency distribution and percentage", "label": "C" },
+      { "text": "charts and graphs", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Inferential statistics includes concepts such as sampling, estimation, hypothesis testing, confidence intervals, and significance testing."
+  },
+  {
+    "questionText": "descriptive statistics helps analysts understand:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "what has happened in the available data", "label": "A" },
+      { "text": "what will happen in the future", "label": "B" },
+      { "text": "what the entire population thinks", "label": "C" },
+      { "text": "how to predict unknown values", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Descriptive statistics helps analysts understand what has happened in the available data, while inferential statistics helps them make broader conclusions or predictions."
+  },
+  {
+    "questionText": "inferential statistics helps analysts:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "make broader conclusions or predictions based on sample data",
+        "label": "A"
+      },
+      { "text": "describe only the sample data", "label": "B" },
+      { "text": "delete unwanted data", "label": "C" },
+      { "text": "create charts and graphs", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Inferential statistics helps analysts make broader conclusions or predictions beyond the available data, using sample data to estimate population characteristics."
+  },
+  {
+    "questionText": "why should analysts be careful when using a small sample to make conclusions about a larger population?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "small samples may not accurately represent the larger population",
+        "label": "A"
+      },
+      { "text": "small samples are always accurate", "label": "B" },
+      { "text": "small samples are easier to analyse", "label": "C" },
+      { "text": "small samples provide more reliable results", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Analysts should be careful when using a small sample to make conclusions about a larger population because small samples may not accurately represent the larger population. This can lead to unreliable conclusions."
+  },
+  {
+    "questionText": "a lecturer calculates the average test score of students in one class. this is an example of:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "inferential statistics", "label": "A" },
+      { "text": "descriptive statistics", "label": "B" },
+      { "text": "predictive analytics", "label": "C" },
+      { "text": "prescriptive analytics", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A lecturer calculating the average test score of students in one class is using descriptive statistics because they are summarising and describing the available data."
+  },
+  {
+    "questionText": "a lecturer uses one class result to estimate how all students in the department may perform under similar conditions. this is an example of:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "descriptive statistics", "label": "A" },
+      { "text": "inferential reasoning", "label": "B" },
+      { "text": "data deletion", "label": "C" },
+      { "text": "data hiding", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "If a lecturer uses that class result to estimate how all students in the department may perform under similar conditions, inferential reasoning is being applied because they are moving beyond the available data to make a broader conclusion."
+  },
+  {
+    "questionText": "why is statistics important in data-driven decision-making?",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "it provides a reliable method for interpreting evidence",
+        "label": "A"
+      },
+      { "text": "it eliminates the need for evidence", "label": "B" },
+      { "text": "it makes all decisions automatic", "label": "C" },
+      { "text": "it ignores uncertainty", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics is important in data-driven decision-making because it provides a reliable method for interpreting evidence. It helps ensure that decisions are based on data rather than guesswork."
+  },
+  {
+    "questionText": "in business, statistics can help determine:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "whether sales are increasing or decreasing", "label": "A" },
+      { "text": "whether customers are satisfied", "label": "B" },
+      { "text": "whether a marketing campaign is effective", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "In business, statistics can help determine whether sales are increasing or decreasing, whether customers are satisfied, and whether a marketing campaign is effective."
+  },
+  {
+    "questionText": "in education, statistics can be used to:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "assess student performance and monitor attendance",
+        "label": "A"
+      },
+      { "text": "evaluate teaching methods", "label": "B" },
+      { "text": "plan academic support", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "In education, statistics can be used to assess student performance, monitor attendance, evaluate teaching methods, and plan academic support."
+  },
+  {
+    "questionText": "in health care, statistics helps:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "monitor disease trends", "label": "A" },
+      { "text": "evaluate treatment outcomes", "label": "B" },
+      { "text": "plan medical resources", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "In health care, statistics helps monitor disease trends, evaluate treatment outcomes, and plan medical resources."
+  },
+  {
+    "questionText": "in government, statistics supports:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "population planning and budgeting", "label": "A" },
+      { "text": "policy evaluation", "label": "B" },
+      { "text": "public service delivery", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "In government, statistics supports population planning, budgeting, policy evaluation, and public service delivery."
+  },
+  {
+    "questionText": "how does statistics help manage uncertainty?",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "by estimating likelihoods, measuring confidence, and reducing uncertainty",
+        "label": "A"
+      },
+      { "text": "by eliminating all uncertainty", "label": "B" },
+      { "text": "by ignoring uncertainty", "label": "C" },
+      { "text": "by guessing outcomes", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics helps manage uncertainty by estimating likelihoods, measuring confidence, and reducing uncertainty. This is why statistics is essential in forecasting, risk assessment, research, and policy planning."
+  },
+  {
+    "questionText": "why is statistics essential in forecasting and risk assessment?",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "it allows decision-makers to act with better evidence even when complete certainty is not possible",
+        "label": "A"
+      },
+      {
+        "text": "it provides complete certainty about the future",
+        "label": "B"
+      },
+      { "text": "it eliminates all risks", "label": "C" },
+      { "text": "it makes predictions perfectly accurate", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics is essential in forecasting and risk assessment because it allows decision-makers to act with better evidence even when complete certainty is not possible."
+  },
+  {
+    "questionText": "why is it dangerous to make decisions from data without considering variation, sample size, and reliability?",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "because data can be misleading when interpreted without statistical reasoning",
+        "label": "A"
+      },
+      { "text": "because variation always makes data better", "label": "B" },
+      { "text": "because sample size does not matter", "label": "C" },
+      { "text": "because reliability is not important", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "It is dangerous to make decisions from data without considering variation, sample size, and reliability because data can be misleading when interpreted without statistical reasoning. Analysts should avoid drawing strong conclusions from weak evidence, small samples, incomplete data, or poorly understood patterns."
+  },
+  {
+    "questionText": "how does statistics help prevent misleading conclusions?",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "by helping analysts ask better questions, check evidence more carefully, and communicate results responsibly",
+        "label": "A"
+      },
+      {
+        "text": "by making all conclusions automatically correct",
+        "label": "B"
+      },
+      { "text": "by eliminating the need for critical thinking", "label": "C" },
+      { "text": "by ignoring variation in data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A good understanding of statistics helps analysts ask better questions, check evidence more carefully, and communicate results responsibly, thus preventing misleading conclusions."
+  },
+  {
+    "questionText": "without statistical thinking, people may:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "draw conclusions from too few observations", "label": "A" },
+      { "text": "ignore variation in data", "label": "B" },
+      { "text": "confuse relationship with cause", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Without statistical thinking, people may draw conclusions from too few observations, ignore variation, confuse relationship with cause, or interpret random changes as meaningful trends."
+  },
+  {
+    "questionText": "statistical methods help analysts determine whether observed differences are:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "meaningful or due to random chance", "label": "A" },
+      { "text": "always significant", "label": "B" },
+      { "text": "never important", "label": "C" },
+      { "text": "identical in all cases", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistical methods help determine whether observed differences are meaningful or due to random chance. This is important for making reliable comparisons."
+  },
+  {
+    "questionText": "in data analytics, descriptive statistics is typically used in:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "the early stages of analysis to provide a clear picture of available data",
+        "label": "A"
+      },
+      { "text": "the final stages of analysis only", "label": "B" },
+      { "text": "only when data is incomplete", "label": "C" },
+      { "text": "only for large datasets", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Descriptive statistics measures are commonly used in the early stages of data analysis because they provide a clear picture of the available data."
+  },
+  {
+    "questionText": "a business forecasting future sales based on past trends is using statistics for:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "prediction and forecasting", "label": "A" },
+      { "text": "data summarisation only", "label": "B" },
+      { "text": "data deletion", "label": "C" },
+      { "text": "data hiding", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A business forecasting future sales based on past trends is using statistics for prediction and forecasting, which is one of the major roles of statistics in data analytics."
+  },
+  {
+    "questionText": "a bar chart comparing product sales is an example of statistics supporting:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "data presentation", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A bar chart comparing product sales is an example of statistics supporting data presentation. Tables, charts, graphs, and diagrams make data easier to understand and communicate."
+  },
+  {
+    "questionText": "a line graph showing revenue changes over time is an example of statistics supporting:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "data presentation", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A line graph showing revenue changes over time is an example of statistics supporting data presentation. Visualisations make trends and patterns easier to understand."
+  },
+  {
+    "questionText": "what is the primary purpose of inferential statistics?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "to describe the available data in detail", "label": "A" },
+      {
+        "text": "to make conclusions or predictions about a larger population based on sample data",
+        "label": "B"
+      },
+      { "text": "to create charts and graphs", "label": "C" },
+      { "text": "to calculate averages", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The primary purpose of inferential statistics is to make conclusions or predictions about a larger population based on sample data. It goes beyond describing the available data."
+  },
+  {
+    "questionText": "which of the following correctly describes the relationship between statistics and data analytics?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "statistics is only used in mathematics, not in data analytics",
+        "label": "A"
+      },
+      {
+        "text": "statistics provides the foundational methods that make data analytics possible",
+        "label": "B"
+      },
+      {
+        "text": "data analytics replaces the need for statistics",
+        "label": "C"
+      },
+      { "text": "statistics and data analytics are identical", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Statistics provides the foundational methods that make data analytics possible. Without statistics, data analytics would lack the structure needed to draw meaningful conclusions from data."
+  },
+  {
+    "questionText": "a government agency estimating population growth based on current data is using statistics for:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "prediction and forecasting", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A government agency estimating population growth based on current data is using statistics for prediction and forecasting, which is one of the major roles of statistics."
+  },
+  {
+    "questionText": "a school predicting enrolment trends based on past data is using statistics for:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "prediction and forecasting", "label": "A" },
+      { "text": "data summarisation only", "label": "B" },
+      { "text": "data presentation only", "label": "C" },
+      { "text": "data deletion", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A school predicting enrolment trends based on past data is using statistics for prediction and forecasting, helping with planning and resource allocation."
+  },
+  {
+    "questionText": "statistical methods are important in research because they help:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "avoid drawing strong conclusions from weak evidence",
+        "label": "A"
+      },
+      { "text": "ensure findings are reliable and valid", "label": "B" },
+      { "text": "support evidence-based conclusions", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Statistical methods help researchers avoid drawing strong conclusions from weak evidence, ensure findings are reliable and valid, and support evidence-based conclusions."
+  },
+  {
+    "questionText": "statistics helps analysts identify relationships between variables. this is called:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "relationship analysis", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Relationship analysis is the study of whether one variable is related to another. For example, analysts may study whether study time relates to examination score or whether advertising expenditure relates to sales."
+  },
+  {
+    "questionText": "which of the following is a role of statistics in data analytics?",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "data summarisation", "label": "A" },
+      { "text": "data presentation", "label": "B" },
+      { "text": "prediction and forecasting", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Major roles of statistics in data analytics include data summarisation, data presentation, measuring variation, comparison, relationship analysis, inference, prediction, forecasting, and supporting decision-making."
+  },
+  {
+    "questionText": "a dataset with values that are very spread out has:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "low variation", "label": "A" },
+      { "text": "high variation", "label": "B" },
+      { "text": "no variation", "label": "C" },
+      { "text": "identical values", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A dataset with values that are very spread out has high variation. Variation refers to the degree to which values differ from one another."
+  },
+  {
+    "questionText": "a dataset with values that are very similar has:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "high variation", "label": "A" },
+      { "text": "low variation", "label": "B" },
+      { "text": "no values", "label": "C" },
+      { "text": "random variation", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A dataset with values that are very similar has low variation. The values are close to each other, showing little spread."
+  },
+  {
+    "questionText": "when an analyst studies whether study time relates to examination score, they are performing:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "relationship analysis", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "When an analyst studies whether study time relates to examination score, they are performing relationship analysis to understand if and how two variables are connected."
+  },
+  {
+    "questionText": "when an analyst studies whether advertising expenditure relates to sales, they are performing:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "relationship analysis", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "When an analyst studies whether advertising expenditure relates to sales, they are performing relationship analysis to understand the connection between these two variables."
+  },
+  {
+    "questionText": "which branch of statistics is used when a researcher wants to estimate the average income of all citizens by surveying a sample of 500 people?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "descriptive statistics", "label": "A" },
+      { "text": "inferential statistics", "label": "B" },
+      { "text": "data visualisation", "label": "C" },
+      { "text": "data collection", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A researcher estimating the average income of all citizens by surveying a sample of 500 people is using inferential statistics, because they are using sample data to make conclusions about a larger population."
+  },
+  {
+    "questionText": "which branch of statistics is used when a teacher calculates the average score of students in a single class?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "inferential statistics", "label": "A" },
+      { "text": "descriptive statistics", "label": "B" },
+      { "text": "predictive analytics", "label": "C" },
+      { "text": "prescriptive analytics", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A teacher calculating the average score of students in a single class is using descriptive statistics, because they are summarising the available data without making broader conclusions."
+  },
+  {
+    "questionText": "statistics helps analysts make decisions with evidence rather than:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "guesswork or personal opinion", "label": "A" },
+      { "text": "data analysis", "label": "B" },
+      { "text": "scientific methods", "label": "C" },
+      { "text": "research findings", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics helps analysts make decisions with evidence rather than guesswork or personal opinion. This leads to more reliable and effective outcomes."
+  },
+  {
+    "questionText": "data can be misleading when it is interpreted without:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "statistical reasoning", "label": "A" },
+      { "text": "personal opinion", "label": "B" },
+      { "text": "guesswork", "label": "C" },
+      { "text": "intuition", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Data can be misleading when it is interpreted without statistical reasoning. Analysts should avoid drawing strong conclusions from weak evidence, small samples, incomplete data, or poorly understood patterns."
+  },
+  {
+    "questionText": "why is statistics essential for converting data into meaningful insight?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "because it provides methods for collecting, organising, summarising, presenting, analysing, interpreting, and using data",
+        "label": "A"
+      },
+      { "text": "because it makes data more complicated", "label": "B" },
+      { "text": "because it ignores patterns in data", "label": "C" },
+      { "text": "because it deletes unwanted data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics is essential for converting data into meaningful insight because it provides methods for collecting, organising, summarising, presenting, analysing, interpreting, and using data."
+  },
+  {
+    "questionText": "a hospital monitoring patient recovery rates to evaluate treatment effectiveness is using statistics for:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "evaluating treatment outcomes", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A hospital monitoring patient recovery rates to evaluate treatment effectiveness is using statistics to evaluate treatment outcomes and improve patient care."
+  },
+  {
+    "questionText": "a business analysing customer satisfaction surveys to improve services is using statistics for:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "understanding customer satisfaction and improving services",
+        "label": "A"
+      },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A business analysing customer satisfaction surveys to improve services is using statistics to understand customer needs and make improvements."
+  },
+  {
+    "questionText": "a government studying population data to plan public services is using statistics for:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "population planning and public service delivery",
+        "label": "A"
+      },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A government studying population data to plan public services is using statistics for population planning and public service delivery."
+  },
+  {
+    "questionText": "which of the following correctly defines statistics?",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "the branch of knowledge concerned with collection, organisation, presentation, analysis, interpretation, and use of data",
+        "label": "A"
+      },
+      { "text": "the process of deleting data", "label": "B" },
+      { "text": "the process of hiding data", "label": "C" },
+      { "text": "the process of ignoring data", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics is the branch of knowledge concerned with the collection, organisation, presentation, analysis, interpretation, and use of data. It provides the methods that help analysts turn raw data into meaningful information."
+  },
+  {
+    "questionText": "a marketing analyst studying whether advertising spend relates to sales growth is performing:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "relationship analysis", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A marketing analyst studying whether advertising spend relates to sales growth is performing relationship analysis to understand the connection between these two variables."
+  },
+  {
+    "questionText": "a researcher using a sample of 1000 people to estimate the voting preference of all registered voters is using:",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "descriptive statistics", "label": "A" },
+      { "text": "inferential statistics", "label": "B" },
+      { "text": "data visualisation", "label": "C" },
+      { "text": "data collection", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "A researcher using a sample of 1000 people to estimate the voting preference of all registered voters is using inferential statistics, because they are using sample data to make conclusions about a larger population."
+  },
+  {
+    "questionText": "what role does statistics play in data summarisation?",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "it helps summarise large datasets using frequencies, percentages, averages, totals, minimum values, and maximum values",
+        "label": "A"
+      },
+      { "text": "it makes datasets larger", "label": "B" },
+      { "text": "it deletes values from datasets", "label": "C" },
+      { "text": "it hides values in datasets", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics helps summarise large datasets using frequencies, percentages, averages, totals, minimum values, and maximum values. This makes large datasets easier to understand."
+  },
+  {
+    "questionText": "statistics supports comparison by helping analysts determine whether observed differences are:",
+    "topic": "major roles of statistics in data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "meaningful or due to chance", "label": "A" },
+      { "text": "always significant", "label": "B" },
+      { "text": "never meaningful", "label": "C" },
+      { "text": "identical in all cases", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistical methods help determine whether observed differences are meaningful or due to random chance. This is important for making reliable comparisons."
+  },
+  {
+    "questionText": "when statistical methods are properly applied, they improve the:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "quality, reliability, and usefulness of decisions",
+        "label": "A"
+      },
+      { "text": "cost of decisions", "label": "B" },
+      { "text": "complexity of decisions", "label": "C" },
+      { "text": "uncertainty of decisions", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "When statistical methods are properly applied, they improve the quality, reliability, and usefulness of decisions in business, education, health care, government, and research."
+  },
+  {
+    "questionText": "a university analysing student performance data to identify areas needing academic support is using statistics for:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "planning academic support", "label": "A" },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A university analysing student performance data to identify areas needing academic support is using statistics to plan academic support and improve student outcomes."
+  },
+  {
+    "questionText": "a company analysing sales data to identify which products are most profitable is using statistics for:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "identifying profitable products and improving business strategy",
+        "label": "A"
+      },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A company analysing sales data to identify which products are most profitable is using statistics to improve business strategy and decision-making."
+  },
+  {
+    "questionText": "a health official tracking disease outbreaks to plan public health responses is using statistics for:",
+    "topic": "importance of statistics in decision-making",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "monitoring disease trends and planning public health responses",
+        "label": "A"
+      },
+      { "text": "data deletion", "label": "B" },
+      { "text": "data hiding", "label": "C" },
+      { "text": "data destruction", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "A health official tracking disease outbreaks to plan public health responses is using statistics to monitor disease trends and plan effective responses."
+  },
+  {
+    "questionText": "which of the following is a common descriptive statistical measure?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "mean", "label": "A" },
+      { "text": "median", "label": "B" },
+      { "text": "mode", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Mean, median, and mode are all common descriptive statistical measures used to summarise and describe the main features of a dataset."
+  },
+  {
+    "questionText": "which of the following is a common descriptive statistical measure?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "range", "label": "A" },
+      { "text": "frequency distribution", "label": "B" },
+      { "text": "percentage", "label": "C" },
+      { "text": "all of the above", "label": "D" }
+    ],
+    "correctOption": "D",
+    "explanation": "Range, frequency distribution, and percentage are all common descriptive statistical measures used to describe data."
+  },
+  {
+    "questionText": "which of the following is NOT a common descriptive statistical measure?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "mean", "label": "A" },
+      { "text": "hypothesis testing", "label": "B" },
+      { "text": "median", "label": "C" },
+      { "text": "mode", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Hypothesis testing is a concept in inferential statistics, not descriptive statistics. Mean, median, and mode are all descriptive statistical measures."
+  },
+  {
+    "questionText": "which of the following is a concept in inferential statistics?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "mean", "label": "A" },
+      { "text": "sampling", "label": "B" },
+      { "text": "median", "label": "C" },
+      { "text": "mode", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Sampling is a concept in inferential statistics. Mean, median, and mode are concepts in descriptive statistics."
+  },
+  {
+    "questionText": "which of the following is a concept in inferential statistics?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "range", "label": "A" },
+      { "text": "confidence intervals", "label": "B" },
+      { "text": "frequency distribution", "label": "C" },
+      { "text": "percentage", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Confidence intervals are a concept in inferential statistics. Range, frequency distribution, and percentage are concepts in descriptive statistics."
+  },
+  {
+    "questionText": "which of the following is a concept in inferential statistics?",
+    "topic": "descriptive and inferential statistics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      { "text": "variance", "label": "A" },
+      { "text": "estimation", "label": "B" },
+      { "text": "standard deviation", "label": "C" },
+      { "text": "average", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "Estimation is a concept in inferential statistics. Variance, standard deviation, and average are concepts in descriptive statistics."
+  },
+  {
+    "questionText": "statistics provides the discipline needed to avoid careless interpretation of data. this is part of the:",
+    "topic": "meaning of statistics and data analytics",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "CSC104",
+    "options": [
+      {
+        "text": "relationship between statistics and data analytics",
+        "label": "A"
+      },
+      { "text": "definition of data analytics", "label": "B" },
+      { "text": "role of data visualisation", "label": "C" },
+      { "text": "purpose of data collection", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Statistics gives data analytics the discipline needed to avoid careless interpretation. This is part of the close relationship between statistics and data analytics."
+  }
+]

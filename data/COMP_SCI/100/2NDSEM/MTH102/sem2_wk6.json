@@ -1,0 +1,1889 @@
+[
+  {
+    "questionText": "what does the power rule state for differentiating f(x) = x^n?",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(x) = nx^(n-1)", "label": "A" },
+      { "text": "f'(x) = x^(n-1)", "label": "B" },
+      { "text": "f'(x) = nx^(n+1)", "label": "C" },
+      { "text": "f'(x) = (n-1)x^n", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The power rule states that if f(x) = x^n, then f'(x) = nx^(n-1). Multiply by the exponent and reduce the exponent by one."
+  },
+  {
+    "questionText": "what does the product rule state for differentiating f(x) = u(x)v(x)?",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(x) = u'(x)v'(x)", "label": "A" },
+      { "text": "f'(x) = u'(x)v(x) + u(x)v'(x)", "label": "B" },
+      { "text": "f'(x) = u'(x)v(x) - u(x)v'(x)", "label": "C" },
+      { "text": "f'(x) = u(x)v'(x) - u'(x)v(x)", "label": "D" }
+    ],
+    "correctOption": "B",
+    "explanation": "The product rule states that the derivative of u(x)v(x) is u'(x)v(x) + u(x)v'(x). Both functions and their derivatives are included."
+  },
+  {
+    "questionText": "what does the quotient rule state for differentiating f(x) = u(x)/v(x)?",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(x) = [u'(x)v(x) - u(x)v'(x)]/[v(x)]²", "label": "A" },
+      { "text": "f'(x) = [u'(x)v(x) + u(x)v'(x)]/[v(x)]²", "label": "B" },
+      { "text": "f'(x) = [u(x)v'(x) - u'(x)v(x)]/[v(x)]²", "label": "C" },
+      { "text": "f'(x) = [u'(x)v(x) - u(x)v'(x)]/[v(x)]", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The quotient rule states that the derivative of u(x)/v(x) is [u'(x)v(x) - u(x)v'(x)]/[v(x)]²."
+  },
+  {
+    "questionText": "what does the chain rule state for differentiating f(x) = g(h(x))?",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "f'(x) = g'(h(x))h'(x)", "label": "A" },
+      { "text": "f'(x) = g'(h(x))", "label": "B" },
+      { "text": "f'(x) = g(h'(x))", "label": "C" },
+      { "text": "f'(x) = g'(x)h(x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The chain rule states that the derivative of g(h(x)) is g'(h(x))h'(x). Differentiate the outer function and multiply by the derivative of the inner function."
+  },
+  {
+    "questionText": "what is the derivative of sin x?",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "cos x", "label": "A" },
+      { "text": "-cos x", "label": "B" },
+      { "text": "sin x", "label": "C" },
+      { "text": "-sin x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The derivative of sin x is cos x. This is one of the standard trigonometric derivatives."
+  },
+  {
+    "questionText": "find the derivative of y = 5x⁴.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20x³", "label": "A" },
+      { "text": "5x³", "label": "B" },
+      { "text": "20x⁵", "label": "C" },
+      { "text": "10x³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: f'(x) = 5 × 4x^(4-1) = 20x³."
+  },
+  {
+    "questionText": "find the derivative of y = 3x⁷.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "21x⁶", "label": "A" },
+      { "text": "3x⁶", "label": "B" },
+      { "text": "21x⁸", "label": "C" },
+      { "text": "7x⁶", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: f'(x) = 3 × 7x^(7-1) = 21x⁶."
+  },
+  {
+    "questionText": "find the derivative of y = 2x⁵ - 3x³ + 4x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10x⁴ - 9x² + 4", "label": "A" },
+      { "text": "10x⁴ - 9x² + 4x", "label": "B" },
+      { "text": "2x⁴ - 3x² + 4", "label": "C" },
+      { "text": "10x⁴ - 3x² + 4", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 2(5x⁴) - 3(3x²) + 4 = 10x⁴ - 9x² + 4."
+  },
+  {
+    "questionText": "find the derivative of y = 4x³ + 2x² - 5x + 7.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12x² + 4x - 5", "label": "A" },
+      { "text": "12x² + 4x + 5", "label": "B" },
+      { "text": "4x² + 2x - 5", "label": "C" },
+      { "text": "12x² - 4x - 5", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 4(3x²) + 2(2x) - 5 = 12x² + 4x - 5."
+  },
+  {
+    "questionText": "find the derivative of y = 6x² - 8x + 3.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12x - 8", "label": "A" },
+      { "text": "12x + 8", "label": "B" },
+      { "text": "6x - 8", "label": "C" },
+      { "text": "12x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 6(2x) - 8 = 12x - 8."
+  },
+  {
+    "questionText": "find the derivative of y = 9x³ + 3x² - 2.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "27x² + 6x", "label": "A" },
+      { "text": "27x² - 6x", "label": "B" },
+      { "text": "9x² + 3x", "label": "C" },
+      { "text": "27x² + 6x - 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 9(3x²) + 3(2x) = 27x² + 6x."
+  },
+  {
+    "questionText": "find the derivative of y = (3x + 2)(x² - 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9x² + 4x - 3", "label": "A" },
+      { "text": "9x² - 4x - 3", "label": "B" },
+      { "text": "9x² + 4x + 3", "label": "C" },
+      { "text": "3x² + 4x - 3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 3x+2 (u'=3), v = x²-1 (v'=2x). Product rule: u'v + uv' = 3(x²-1) + (3x+2)(2x) = 3x²-3 + 6x²+4x = 9x²+4x-3."
+  },
+  {
+    "questionText": "find the derivative of y = (2x - 3)(x² + 4x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x² + 10x - 12", "label": "A" },
+      { "text": "6x² - 10x - 12", "label": "B" },
+      { "text": "6x² + 10x + 12", "label": "C" },
+      { "text": "2x² + 10x - 12", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x-3 (u'=2), v = x²+4x (v'=2x+4). Product rule: 2(x²+4x) + (2x-3)(2x+4) = 2x²+8x + 4x²+8x-6x-12 = 6x²+10x-12."
+  },
+  {
+    "questionText": "find the derivative of y = (5x + 1)(x³ - 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "20x³ + 3x² - 10", "label": "A" },
+      { "text": "20x³ + 3x² + 10", "label": "B" },
+      { "text": "5x³ + 3x² - 10", "label": "C" },
+      { "text": "20x³ - 3x² - 10", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 5x+1 (u'=5), v = x³-2 (v'=3x²). Product rule: 5(x³-2) + (5x+1)(3x²) = 5x³-10 + 15x³+3x² = 20x³+3x²-10."
+  },
+  {
+    "questionText": "find the derivative of y = (x² + 1)(3x - 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9x² - 4x + 3", "label": "A" },
+      { "text": "9x² + 4x + 3", "label": "B" },
+      { "text": "9x² - 4x - 3", "label": "C" },
+      { "text": "3x² - 4x + 3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+1 (u'=2x), v = 3x-2 (v'=3). Product rule: 2x(3x-2) + (x²+1)(3) = 6x²-4x+3x²+3 = 9x²-4x+3."
+  },
+  {
+    "questionText": "find the derivative of y = (4x² - 1)(2x + 5).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "24x² + 40x - 2", "label": "A" },
+      { "text": "24x² - 40x - 2", "label": "B" },
+      { "text": "8x² + 40x - 2", "label": "C" },
+      { "text": "24x² + 40x + 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 4x²-1 (u'=8x), v = 2x+5 (v'=2). Product rule: 8x(2x+5) + (4x²-1)(2) = 16x²+40x+8x²-2 = 24x²+40x-2."
+  },
+  {
+    "questionText": "find the derivative of y = (x³ + 2x)(x² - 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5x⁴ + 6x² - 9x² - 6", "label": "A" },
+      { "text": "5x⁴ - 6x² - 9x² + 6", "label": "B" },
+      { "text": "5x⁴ + 6x² - 6", "label": "C" },
+      { "text": "5x⁴ - 6x² - 6", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³+2x (u'=3x²+2), v = x²-3 (v'=2x). Product rule: (3x²+2)(x²-3) + (x³+2x)(2x) = 3x⁴-9x²+2x²-6 + 2x⁴+4x² = 5x⁴-3x²-6."
+  },
+  {
+    "questionText": "find the derivative of y = x/(x² + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(1 - x²)/(x² + 1)²", "label": "A" },
+      { "text": "(x² - 1)/(x² + 1)²", "label": "B" },
+      { "text": "(1 + x²)/(x² + 1)²", "label": "C" },
+      { "text": "(1 - 2x²)/(x² + 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x (u'=1), v = x²+1 (v'=2x). Quotient rule: [1(x²+1) - x(2x)]/(x²+1)² = (x²+1-2x²)/(x²+1)² = (1-x²)/(x²+1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x² + 1)/x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1 - 1/x²", "label": "A" },
+      { "text": "1 + 1/x²", "label": "B" },
+      { "text": "2x - 1/x²", "label": "C" },
+      { "text": "2x + 1/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using quotient rule: u = x²+1 (u'=2x), v = x (v'=1). f'(x) = [2x(x) - (x²+1)(1)]/x² = (2x²-x²-1)/x² = (x²-1)/x² = 1 - 1/x²."
+  },
+  {
+    "questionText": "find the derivative of y = (3x + 1)/(x - 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-7/(x - 2)²", "label": "A" },
+      { "text": "7/(x - 2)²", "label": "B" },
+      { "text": "-5/(x - 2)²", "label": "C" },
+      { "text": "5/(x - 2)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 3x+1 (u'=3), v = x-2 (v'=1). Quotient rule: [3(x-2) - (3x+1)(1)]/(x-2)² = (3x-6-3x-1)/(x-2)² = -7/(x-2)²."
+  },
+  {
+    "questionText": "find the derivative of y = (2x - 1)/(x + 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "7/(x + 3)²", "label": "A" },
+      { "text": "-7/(x + 3)²", "label": "B" },
+      { "text": "5/(x + 3)²", "label": "C" },
+      { "text": "-5/(x + 3)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x-1 (u'=2), v = x+3 (v'=1). Quotient rule: [2(x+3) - (2x-1)(1)]/(x+3)² = (2x+6-2x+1)/(x+3)² = 7/(x+3)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x² - 1)/(x² + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x/(x² + 1)²", "label": "A" },
+      { "text": "-4x/(x² + 1)²", "label": "B" },
+      { "text": "2x/(x² + 1)²", "label": "C" },
+      { "text": "-2x/(x² + 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²-1 (u'=2x), v = x²+1 (v'=2x). Quotient rule: [2x(x²+1) - (x²-1)(2x)]/(x²+1)² = (2x³+2x-2x³+2x)/(x²+1)² = 4x/(x²+1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x² + 3)/(2x - 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2x² - 2x - 6)/(2x - 1)²", "label": "A" },
+      { "text": "(2x² + 2x - 6)/(2x - 1)²", "label": "B" },
+      { "text": "(2x² - 2x + 6)/(2x - 1)²", "label": "C" },
+      { "text": "(2x² + 2x + 6)/(2x - 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+3 (u'=2x), v = 2x-1 (v'=2). Quotient rule: [2x(2x-1) - (x²+3)(2)]/(2x-1)² = (4x²-2x-2x²-6)/(2x-1)² = (2x²-2x-6)/(2x-1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (3x² + 2)/(x - 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(3x² - 6x - 2)/(x - 1)²", "label": "A" },
+      { "text": "(3x² + 6x - 2)/(x - 1)²", "label": "B" },
+      { "text": "(3x² - 6x + 2)/(x - 1)²", "label": "C" },
+      { "text": "(3x² + 6x + 2)/(x - 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 3x²+2 (u'=6x), v = x-1 (v'=1). Quotient rule: [6x(x-1) - (3x²+2)(1)]/(x-1)² = (6x²-6x-3x²-2)/(x-1)² = (3x²-6x-2)/(x-1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (2x + 1)⁵.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "10(2x + 1)⁴", "label": "A" },
+      { "text": "5(2x + 1)⁴", "label": "B" },
+      { "text": "10(2x + 1)⁵", "label": "C" },
+      { "text": "2(2x + 1)⁴", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁵ (derivative 5u⁴), inner function u=2x+1 (derivative 2). f'(x) = 5(2x+1)⁴ × 2 = 10(2x+1)⁴."
+  },
+  {
+    "questionText": "find the derivative of y = (3x² + 1)⁴.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "24x(3x² + 1)³", "label": "A" },
+      { "text": "4(3x² + 1)³", "label": "B" },
+      { "text": "12x(3x² + 1)³", "label": "C" },
+      { "text": "24x(3x² + 1)⁴", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁴ (derivative 4u³), inner function u=3x²+1 (derivative 6x). f'(x) = 4(3x²+1)³ × 6x = 24x(3x²+1)³."
+  },
+  {
+    "questionText": "find the derivative of y = (x² - 2x)³.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3(x² - 2x)²(2x - 2)", "label": "A" },
+      { "text": "3(x² - 2x)²", "label": "B" },
+      { "text": "(x² - 2x)²(2x - 2)", "label": "C" },
+      { "text": "6(x² - 2x)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u³ (derivative 3u²), inner function u=x²-2x (derivative 2x-2). f'(x) = 3(x²-2x)²(2x-2)."
+  },
+  {
+    "questionText": "find the derivative of y = sin(3x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3cos(3x)", "label": "A" },
+      { "text": "cos(3x)", "label": "B" },
+      { "text": "-3sin(3x)", "label": "C" },
+      { "text": "-3cos(3x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of sin u is cos u, where u=3x (derivative 3). f'(x) = 3cos(3x)."
+  },
+  {
+    "questionText": "find the derivative of y = cos(2x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2sin(2x)", "label": "A" },
+      { "text": "2sin(2x)", "label": "B" },
+      { "text": "-sin(2x)", "label": "C" },
+      { "text": "sin(2x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of cos u is -sin u, where u=2x (derivative 2). f'(x) = -2sin(2x)."
+  },
+  {
+    "questionText": "find the derivative of y = tan(4x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4sec²(4x)", "label": "A" },
+      { "text": "sec²(4x)", "label": "B" },
+      { "text": "4tan(4x)", "label": "C" },
+      { "text": "4sec(4x)tan(4x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of tan u is sec²u, where u=4x (derivative 4). f'(x) = 4sec²(4x)."
+  },
+  {
+    "questionText": "find the derivative of y = sin(x²).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x cos(x²)", "label": "A" },
+      { "text": "cos(x²)", "label": "B" },
+      { "text": "-2x sin(x²)", "label": "C" },
+      { "text": "2x sin(x²)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of sin u is cos u, where u=x² (derivative 2x). f'(x) = 2x cos(x²)."
+  },
+  {
+    "questionText": "find the derivative of y = cos(x³).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-3x² sin(x³)", "label": "A" },
+      { "text": "3x² sin(x³)", "label": "B" },
+      { "text": "-sin(x³)", "label": "C" },
+      { "text": "sin(x³)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of cos u is -sin u, where u=x³ (derivative 3x²). f'(x) = -3x² sin(x³)."
+  },
+  {
+    "questionText": "find the derivative of y = e^(2x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2e^(2x)", "label": "A" },
+      { "text": "e^(2x)", "label": "B" },
+      { "text": "2e^(x)", "label": "C" },
+      { "text": "e^(2x)/2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of e^u is e^u, where u=2x (derivative 2). f'(x) = 2e^(2x)."
+  },
+  {
+    "questionText": "find the derivative of y = e^(3x²).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x e^(3x²)", "label": "A" },
+      { "text": "3x e^(3x²)", "label": "B" },
+      { "text": "e^(3x²)", "label": "C" },
+      { "text": "2x e^(3x²)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of e^u is e^u, where u=3x² (derivative 6x). f'(x) = 6x e^(3x²)."
+  },
+  {
+    "questionText": "find the derivative of y = e^(5x + 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5e^(5x + 2)", "label": "A" },
+      { "text": "e^(5x + 2)", "label": "B" },
+      { "text": "5e^(5x)", "label": "C" },
+      { "text": "5e^(5x + 2)/5", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of e^u is e^u, where u=5x+2 (derivative 5). f'(x) = 5e^(5x+2)."
+  },
+  {
+    "questionText": "find the derivative of y = 2^(x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2^(x) ln 2", "label": "A" },
+      { "text": "2^(x)", "label": "B" },
+      { "text": "x 2^(x-1)", "label": "C" },
+      { "text": "2^(x)/ln 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The derivative of a^x is a^x ln a. For a=2, f'(x) = 2^x ln 2."
+  },
+  {
+    "questionText": "find the derivative of y = 3^(x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3^(x) ln 3", "label": "A" },
+      { "text": "3^(x)", "label": "B" },
+      { "text": "x 3^(x-1)", "label": "C" },
+      { "text": "3^(x)/ln 3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The derivative of a^x is a^x ln a. For a=3, f'(x) = 3^x ln 3."
+  },
+  {
+    "questionText": "find the derivative of y = ln(2x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/x", "label": "A" },
+      { "text": "1/(2x)", "label": "B" },
+      { "text": "2/x", "label": "C" },
+      { "text": "ln(2x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of ln u is 1/u, where u=2x (derivative 2). f'(x) = 1/(2x) × 2 = 1/x."
+  },
+  {
+    "questionText": "find the derivative of y = ln(x² + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x/(x² + 1)", "label": "A" },
+      { "text": "1/(x² + 1)", "label": "B" },
+      { "text": "2x/(x² + 1)²", "label": "C" },
+      { "text": "1/(2x² + 2)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of ln u is 1/u, where u=x²+1 (derivative 2x). f'(x) = 2x/(x²+1)."
+  },
+  {
+    "questionText": "find the derivative of y = ln(3x² + 4).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x/(3x² + 4)", "label": "A" },
+      { "text": "1/(3x² + 4)", "label": "B" },
+      { "text": "3x/(3x² + 4)", "label": "C" },
+      { "text": "6x/(3x² + 4)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of ln u is 1/u, where u=3x²+4 (derivative 6x). f'(x) = 6x/(3x²+4)."
+  },
+  {
+    "questionText": "find the derivative of y = (x² + 3x - 5)⁷.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "7(x² + 3x - 5)⁶(2x + 3)", "label": "A" },
+      { "text": "7(x² + 3x - 5)⁶", "label": "B" },
+      { "text": "(x² + 3x - 5)⁶(2x + 3)", "label": "C" },
+      { "text": "14x(x² + 3x - 5)⁶", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁷ (derivative 7u⁶), inner function u=x²+3x-5 (derivative 2x+3). f'(x) = 7(x²+3x-5)⁶(2x+3)."
+  },
+  {
+    "questionText": "find the derivative of y = (4x³ - 2x)⁵.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5(4x³ - 2x)⁴(12x² - 2)", "label": "A" },
+      { "text": "5(4x³ - 2x)⁴", "label": "B" },
+      { "text": "(4x³ - 2x)⁴(12x² - 2)", "label": "C" },
+      { "text": "20x(4x³ - 2x)⁴", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁵ (derivative 5u⁴), inner function u=4x³-2x (derivative 12x²-2). f'(x) = 5(4x³-2x)⁴(12x²-2)."
+  },
+  {
+    "questionText": "find the derivative of y = sin(5x + 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5cos(5x + 3)", "label": "A" },
+      { "text": "cos(5x + 3)", "label": "B" },
+      { "text": "-5sin(5x + 3)", "label": "C" },
+      { "text": "-5cos(5x + 3)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of sin u is cos u, where u=5x+3 (derivative 5). f'(x) = 5cos(5x+3)."
+  },
+  {
+    "questionText": "find the derivative of y = cos(3x² - 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-6x sin(3x² - 1)", "label": "A" },
+      { "text": "6x sin(3x² - 1)", "label": "B" },
+      { "text": "-sin(3x² - 1)", "label": "C" },
+      { "text": "sin(3x² - 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of cos u is -sin u, where u=3x²-1 (derivative 6x). f'(x) = -6x sin(3x²-1)."
+  },
+  {
+    "questionText": "find the derivative of y = tan(x²).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x sec²(x²)", "label": "A" },
+      { "text": "sec²(x²)", "label": "B" },
+      { "text": "2x tan(x²)", "label": "C" },
+      { "text": "2x sec(x²)tan(x²)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of tan u is sec²u, where u=x² (derivative 2x). f'(x) = 2x sec²(x²)."
+  },
+  {
+    "questionText": "find the derivative of y = sin x cos x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "cos²x - sin²x", "label": "A" },
+      { "text": "cos²x + sin²x", "label": "B" },
+      { "text": "2sin x cos x", "label": "C" },
+      { "text": "-2sin x cos x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x (u'=cos x), v = cos x (v'=-sin x). Product rule: cos x(cos x) + sin x(-sin x) = cos²x - sin²x."
+  },
+  {
+    "questionText": "find the derivative of y = e^(x) sin x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^(x)(sin x + cos x)", "label": "A" },
+      { "text": "e^(x)(sin x - cos x)", "label": "B" },
+      { "text": "e^(x)cos x", "label": "C" },
+      { "text": "e^(x)sin x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = e^x (u'=e^x), v = sin x (v'=cos x). Product rule: e^x(sin x) + e^x(cos x) = e^x(sin x + cos x)."
+  },
+  {
+    "questionText": "find the derivative of y = x² e^(x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x e^(x)(x + 2)", "label": "A" },
+      { "text": "x e^(x)(2x + 1)", "label": "B" },
+      { "text": "x e^(x)(x + 1)", "label": "C" },
+      { "text": "x² e^(x) + 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² (u'=2x), v = e^x (v'=e^x). Product rule: 2x(e^x) + x²(e^x) = e^x(2x + x²) = x e^x(x + 2)."
+  },
+  {
+    "questionText": "find the derivative of y = x³ ln x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "x²(3ln x + 1)", "label": "A" },
+      { "text": "x²(3ln x - 1)", "label": "B" },
+      { "text": "3x² ln x", "label": "C" },
+      { "text": "x²(ln x + 3)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³ (u'=3x²), v = ln x (v'=1/x). Product rule: 3x²(ln x) + x³(1/x) = 3x² ln x + x² = x²(3ln x + 1)."
+  },
+  {
+    "questionText": "find the derivative of y = (2x + 3)(x² - 5) using the product rule.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x² + 6x - 10", "label": "A" },
+      { "text": "6x² - 6x - 10", "label": "B" },
+      { "text": "6x² + 6x + 10", "label": "C" },
+      { "text": "2x² + 6x - 10", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x+3 (u'=2), v = x²-5 (v'=2x). Product rule: 2(x²-5) + (2x+3)(2x) = 2x²-10 + 4x²+6x = 6x²+6x-10."
+  },
+  {
+    "questionText": "find the derivative of y = (5x - 2)(3x² + 4).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "45x² - 12x + 20", "label": "A" },
+      { "text": "45x² + 12x + 20", "label": "B" },
+      { "text": "15x² - 12x + 20", "label": "C" },
+      { "text": "45x² - 12x - 20", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 5x-2 (u'=5), v = 3x²+4 (v'=6x). Product rule: 5(3x²+4) + (5x-2)(6x) = 15x²+20 + 30x²-12x = 45x²-12x+20."
+  },
+  {
+    "questionText": "find the derivative of y = x/(x - 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-1/(x - 1)²", "label": "A" },
+      { "text": "1/(x - 1)²", "label": "B" },
+      { "text": "-x/(x - 1)²", "label": "C" },
+      { "text": "x/(x - 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x (u'=1), v = x-1 (v'=1). Quotient rule: [1(x-1) - x(1)]/(x-1)² = (x-1-x)/(x-1)² = -1/(x-1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (3x)/(x² + 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(6 - 3x²)/(x² + 2)²", "label": "A" },
+      { "text": "(6 + 3x²)/(x² + 2)²", "label": "B" },
+      { "text": "(3 - 3x²)/(x² + 2)²", "label": "C" },
+      { "text": "(6x - 3x²)/(x² + 2)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 3x (u'=3), v = x²+2 (v'=2x). Quotient rule: [3(x²+2) - 3x(2x)]/(x²+2)² = (3x²+6-6x²)/(x²+2)² = (6-3x²)/(x²+2)²."
+  },
+  {
+    "questionText": "find the derivative of y = (2x²)/(x + 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2x² + 12x)/(x + 3)²", "label": "A" },
+      { "text": "(2x² - 12x)/(x + 3)²", "label": "B" },
+      { "text": "(4x² + 12x)/(x + 3)²", "label": "C" },
+      { "text": "(4x² - 12x)/(x + 3)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x² (u'=4x), v = x+3 (v'=1). Quotient rule: [4x(x+3) - 2x²(1)]/(x+3)² = (4x²+12x-2x²)/(x+3)² = (2x²+12x)/(x+3)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x² + 2)/(x - 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x² - 6x - 2)/(x - 3)²", "label": "A" },
+      { "text": "(x² + 6x - 2)/(x - 3)²", "label": "B" },
+      { "text": "(x² - 6x + 2)/(x - 3)²", "label": "C" },
+      { "text": "(2x² - 6x - 2)/(x - 3)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+2 (u'=2x), v = x-3 (v'=1). Quotient rule: [2x(x-3) - (x²+2)(1)]/(x-3)² = (2x²-6x-x²-2)/(x-3)² = (x²-6x-2)/(x-3)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x³ + 1)/(x² + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x⁴ + 3x² - 2x)/(x² + 1)²", "label": "A" },
+      { "text": "(x⁴ - 3x² - 2x)/(x² + 1)²", "label": "B" },
+      { "text": "(x⁴ + 3x² + 2x)/(x² + 1)²", "label": "C" },
+      { "text": "(x⁴ - 3x² + 2x)/(x² + 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³+1 (u'=3x²), v = x²+1 (v'=2x). Quotient rule: [3x²(x²+1) - (x³+1)(2x)]/(x²+1)² = (3x⁴+3x²-2x⁴-2x)/(x²+1)² = (x⁴+3x²-2x)/(x²+1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x² - 1)⁴.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8x(x² - 1)³", "label": "A" },
+      { "text": "4x(x² - 1)³", "label": "B" },
+      { "text": "4(x² - 1)³", "label": "C" },
+      { "text": "8x(x² - 1)⁴", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁴ (derivative 4u³), inner function u=x²-1 (derivative 2x). f'(x) = 4(x²-1)³ × 2x = 8x(x²-1)³."
+  },
+  {
+    "questionText": "find the derivative of y = (3x - 2)⁶.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "18(3x - 2)⁵", "label": "A" },
+      { "text": "6(3x - 2)⁵", "label": "B" },
+      { "text": "18(3x - 2)⁶", "label": "C" },
+      { "text": "3(3x - 2)⁵", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁶ (derivative 6u⁵), inner function u=3x-2 (derivative 3). f'(x) = 6(3x-2)⁵ × 3 = 18(3x-2)⁵."
+  },
+  {
+    "questionText": "find the derivative of y = e^(x³).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x² e^(x³)", "label": "A" },
+      { "text": "e^(x³)", "label": "B" },
+      { "text": "x³ e^(x³)", "label": "C" },
+      { "text": "3x e^(x³)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of e^u is e^u, where u=x³ (derivative 3x²). f'(x) = 3x² e^(x³)."
+  },
+  {
+    "questionText": "find the derivative of y = ln(5x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/x", "label": "A" },
+      { "text": "1/(5x)", "label": "B" },
+      { "text": "5/x", "label": "C" },
+      { "text": "ln(5x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of ln u is 1/u, where u=5x (derivative 5). f'(x) = 1/(5x) × 5 = 1/x."
+  },
+  {
+    "questionText": "find the derivative of y = ln(3x²).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2/x", "label": "A" },
+      { "text": "6x/(3x²)", "label": "B" },
+      { "text": "1/x", "label": "C" },
+      { "text": "6x/(3x² + 1)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of ln u is 1/u, where u=3x² (derivative 6x). f'(x) = 6x/(3x²) = 2/x."
+  },
+  {
+    "questionText": "find the derivative of y = x⁴ + 3x² - 2x + 7.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x³ + 6x - 2", "label": "A" },
+      { "text": "4x³ + 6x + 2", "label": "B" },
+      { "text": "x³ + 3x - 2", "label": "C" },
+      { "text": "4x³ - 6x - 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 4x³ + 3(2x) - 2 = 4x³ + 6x - 2."
+  },
+  {
+    "questionText": "find the derivative of y = 8x³ - 5x² + 3x - 4.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "24x² - 10x + 3", "label": "A" },
+      { "text": "24x² + 10x + 3", "label": "B" },
+      { "text": "8x² - 5x + 3", "label": "C" },
+      { "text": "24x² - 10x - 3", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 8(3x²) - 5(2x) + 3 = 24x² - 10x + 3."
+  },
+  {
+    "questionText": "find the derivative of y = 2x⁶ - 7x⁴ + 5x² - 9.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "12x⁵ - 28x³ + 10x", "label": "A" },
+      { "text": "12x⁵ + 28x³ + 10x", "label": "B" },
+      { "text": "2x⁵ - 7x³ + 5x", "label": "C" },
+      { "text": "12x⁵ - 28x³ - 10x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 2(6x⁵) - 7(4x³) + 5(2x) = 12x⁵ - 28x³ + 10x."
+  },
+  {
+    "questionText": "find the derivative of y = 10x⁵ + 4x³ - 6x² + 8.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "50x⁴ + 12x² - 12x", "label": "A" },
+      { "text": "50x⁴ + 12x² + 12x", "label": "B" },
+      { "text": "10x⁴ + 4x² - 6x", "label": "C" },
+      { "text": "50x⁴ - 12x² - 12x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 10(5x⁴) + 4(3x²) - 6(2x) = 50x⁴ + 12x² - 12x."
+  },
+  {
+    "questionText": "find the derivative of y = 3x² - 7x + 11.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x - 7", "label": "A" },
+      { "text": "6x + 7", "label": "B" },
+      { "text": "3x - 7", "label": "C" },
+      { "text": "6x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 3(2x) - 7 = 6x - 7."
+  },
+  {
+    "questionText": "find the derivative of y = (x + 2)(x - 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x - 1", "label": "A" },
+      { "text": "2x + 1", "label": "B" },
+      { "text": "x - 1", "label": "C" },
+      { "text": "2x - 5", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x+2 (u'=1), v = x-3 (v'=1). Product rule: 1(x-3) + (x+2)(1) = x-3+x+2 = 2x-1."
+  },
+  {
+    "questionText": "find the derivative of y = (2x - 1)(x + 4).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x + 7", "label": "A" },
+      { "text": "4x - 7", "label": "B" },
+      { "text": "2x + 7", "label": "C" },
+      { "text": "4x + 8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x-1 (u'=2), v = x+4 (v'=1). Product rule: 2(x+4) + (2x-1)(1) = 2x+8+2x-1 = 4x+7."
+  },
+  {
+    "questionText": "find the derivative of y = x sin x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sin x + x cos x", "label": "A" },
+      { "text": "sin x - x cos x", "label": "B" },
+      { "text": "cos x + x sin x", "label": "C" },
+      { "text": "x sin x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x (u'=1), v = sin x (v'=cos x). Product rule: 1(sin x) + x(cos x) = sin x + x cos x."
+  },
+  {
+    "questionText": "find the derivative of y = x cos x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "cos x - x sin x", "label": "A" },
+      { "text": "cos x + x sin x", "label": "B" },
+      { "text": "-sin x + x cos x", "label": "C" },
+      { "text": "-x sin x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x (u'=1), v = cos x (v'=-sin x). Product rule: 1(cos x) + x(-sin x) = cos x - x sin x."
+  },
+  {
+    "questionText": "find the derivative of y = x² sin x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x sin x + x² cos x", "label": "A" },
+      { "text": "2x sin x - x² cos x", "label": "B" },
+      { "text": "x² cos x", "label": "C" },
+      { "text": "2x cos x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x² (u'=2x), v = sin x (v'=cos x). Product rule: 2x(sin x) + x²(cos x) = 2x sin x + x² cos x."
+  },
+  {
+    "questionText": "find the derivative of y = e^(x) cos x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "e^(x)(cos x - sin x)", "label": "A" },
+      { "text": "e^(x)(cos x + sin x)", "label": "B" },
+      { "text": "e^(x)(-sin x)", "label": "C" },
+      { "text": "e^(x)cos x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = e^x (u'=e^x), v = cos x (v'=-sin x). Product rule: e^x(cos x) + e^x(-sin x) = e^x(cos x - sin x)."
+  },
+  {
+    "questionText": "find the derivative of y = sin x / x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x cos x - sin x)/x²", "label": "A" },
+      { "text": "(x cos x + sin x)/x²", "label": "B" },
+      { "text": "(sin x - x cos x)/x²", "label": "C" },
+      { "text": "(cos x - sin x)/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x (u'=cos x), v = x (v'=1). Quotient rule: [cos x(x) - sin x(1)]/x² = (x cos x - sin x)/x²."
+  },
+  {
+    "questionText": "find the derivative of y = cos x / x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-x sin x - cos x)/x²", "label": "A" },
+      { "text": "(-x sin x + cos x)/x²", "label": "B" },
+      { "text": "(x sin x + cos x)/x²", "label": "C" },
+      { "text": "(sin x - cos x)/x²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = cos x (u'=-sin x), v = x (v'=1). Quotient rule: [-sin x(x) - cos x(1)]/x² = (-x sin x - cos x)/x²."
+  },
+  {
+    "questionText": "find the derivative of y = x² + 3x - 4 using the power rule.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x + 3", "label": "A" },
+      { "text": "2x - 3", "label": "B" },
+      { "text": "x + 3", "label": "C" },
+      { "text": "2x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 2x + 3. The derivative of -4 is 0."
+  },
+  {
+    "questionText": "find the derivative of y = (2x² + 3x)².",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2(2x² + 3x)(4x + 3)", "label": "A" },
+      { "text": "(2x² + 3x)(4x + 3)", "label": "B" },
+      { "text": "2(2x² + 3x)", "label": "C" },
+      { "text": "2(4x + 3)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u² (derivative 2u), inner function u=2x²+3x (derivative 4x+3). f'(x) = 2(2x²+3x)(4x+3)."
+  },
+  {
+    "questionText": "find the derivative of y = (x² - 5)³.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "6x(x² - 5)²", "label": "A" },
+      { "text": "3x(x² - 5)²", "label": "B" },
+      { "text": "3(x² - 5)²", "label": "C" },
+      { "text": "6x(x² - 5)³", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u³ (derivative 3u²), inner function u=x²-5 (derivative 2x). f'(x) = 3(x²-5)² × 2x = 6x(x²-5)²."
+  },
+  {
+    "questionText": "find the derivative of y = tan(3x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3sec²(3x)", "label": "A" },
+      { "text": "sec²(3x)", "label": "B" },
+      { "text": "3tan(3x)", "label": "C" },
+      { "text": "3sec(3x)tan(3x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of tan u is sec²u, where u=3x (derivative 3). f'(x) = 3sec²(3x)."
+  },
+  {
+    "questionText": "find the derivative of y = e^(4x + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4e^(4x + 1)", "label": "A" },
+      { "text": "e^(4x + 1)", "label": "B" },
+      { "text": "4e^(4x)", "label": "C" },
+      { "text": "e^(4x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of e^u is e^u, where u=4x+1 (derivative 4). f'(x) = 4e^(4x+1)."
+  },
+  {
+    "questionText": "find the derivative of y = ln(4x + 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4/(4x + 3)", "label": "A" },
+      { "text": "1/(4x + 3)", "label": "B" },
+      { "text": "4/(4x + 3)²", "label": "C" },
+      { "text": "1/(4x + 3)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of ln u is 1/u, where u=4x+3 (derivative 4). f'(x) = 4/(4x+3)."
+  },
+  {
+    "questionText": "find the derivative of y = x ln x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "ln x + 1", "label": "A" },
+      { "text": "ln x - 1", "label": "B" },
+      { "text": "1/x + 1", "label": "C" },
+      { "text": "ln x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x (u'=1), v = ln x (v'=1/x). Product rule: 1(ln x) + x(1/x) = ln x + 1."
+  },
+  {
+    "questionText": "find the derivative of y = 3^(2x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2(3^(2x)) ln 3", "label": "A" },
+      { "text": "3^(2x) ln 3", "label": "B" },
+      { "text": "2(3^(2x))", "label": "C" },
+      { "text": "3^(2x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of a^u is a^u ln a, where a=3, u=2x (derivative 2). f'(x) = 2(3^(2x)) ln 3."
+  },
+  {
+    "questionText": "find the derivative of y = log₁₀(x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "1/(x ln 10)", "label": "A" },
+      { "text": "1/x", "label": "B" },
+      { "text": "ln 10/x", "label": "C" },
+      { "text": "1/(x ln e)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "The derivative of log₁₀(x) is 1/(x ln 10)."
+  },
+  {
+    "questionText": "find the derivative of y = sin x cos x using the product rule.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "cos²x - sin²x", "label": "A" },
+      { "text": "cos²x + sin²x", "label": "B" },
+      { "text": "2sin x cos x", "label": "C" },
+      { "text": "-2sin x cos x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x (u'=cos x), v = cos x (v'=-sin x). Product rule: cos x(cos x) + sin x(-sin x) = cos²x - sin²x."
+  },
+  {
+    "questionText": "find the derivative of y = x/(x² + 2) using the quotient rule.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2 - x²)/(x² + 2)²", "label": "A" },
+      { "text": "(x² - 2)/(x² + 2)²", "label": "B" },
+      { "text": "(2 + x²)/(x² + 2)²", "label": "C" },
+      { "text": "(2x - x²)/(x² + 2)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x (u'=1), v = x²+2 (v'=2x). Quotient rule: [1(x²+2) - x(2x)]/(x²+2)² = (x²+2-2x²)/(x²+2)² = (2-x²)/(x²+2)²."
+  },
+  {
+    "questionText": "find the derivative of y = 2x/(x - 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-2/(x - 1)²", "label": "A" },
+      { "text": "2/(x - 1)²", "label": "B" },
+      { "text": "-2x/(x - 1)²", "label": "C" },
+      { "text": "2x/(x - 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x (u'=2), v = x-1 (v'=1). Quotient rule: [2(x-1) - 2x(1)]/(x-1)² = (2x-2-2x)/(x-1)² = -2/(x-1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (3x² - 4)/(x + 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(3x² + 12x + 4)/(x + 2)²", "label": "A" },
+      { "text": "(3x² - 12x - 4)/(x + 2)²", "label": "B" },
+      { "text": "(3x² + 12x - 4)/(x + 2)²", "label": "C" },
+      { "text": "(3x² - 12x + 4)/(x + 2)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 3x²-4 (u'=6x), v = x+2 (v'=1). Quotient rule: [6x(x+2) - (3x²-4)(1)]/(x+2)² = (6x²+12x-3x²+4)/(x+2)² = (3x²+12x+4)/(x+2)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x³ + 2)/(x² - 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(x⁴ - 3x² - 4x)/(x² - 1)²", "label": "A" },
+      { "text": "(x⁴ + 3x² - 4x)/(x² - 1)²", "label": "B" },
+      { "text": "(x⁴ - 3x² + 4x)/(x² - 1)²", "label": "C" },
+      { "text": "(x⁴ + 3x² + 4x)/(x² - 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x³+2 (u'=3x²), v = x²-1 (v'=2x). Quotient rule: [3x²(x²-1) - (x³+2)(2x)]/(x²-1)² = (3x⁴-3x²-2x⁴-4x)/(x²-1)² = (x⁴-3x²-4x)/(x²-1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (2x + 1)/(3x - 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-7/(3x - 2)²", "label": "A" },
+      { "text": "7/(3x - 2)²", "label": "B" },
+      { "text": "-5/(3x - 2)²", "label": "C" },
+      { "text": "5/(3x - 2)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x+1 (u'=2), v = 3x-2 (v'=3). Quotient rule: [2(3x-2) - (2x+1)(3)]/(3x-2)² = (6x-4-6x-3)/(3x-2)² = -7/(3x-2)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x² - 1)/(2x + 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2x² + 6x + 2)/(2x + 3)²", "label": "A" },
+      { "text": "(2x² - 6x - 2)/(2x + 3)²", "label": "B" },
+      { "text": "(2x² + 6x - 2)/(2x + 3)²", "label": "C" },
+      { "text": "(2x² - 6x + 2)/(2x + 3)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²-1 (u'=2x), v = 2x+3 (v'=2). Quotient rule: [2x(2x+3) - (x²-1)(2)]/(2x+3)² = (4x²+6x-2x²+2)/(2x+3)² = (2x²+6x+2)/(2x+3)²."
+  },
+  {
+    "questionText": "find the derivative of y = (4x - 3)/(x² + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(-4x² + 6x + 4)/(x² + 1)²", "label": "A" },
+      { "text": "(4x² - 6x - 4)/(x² + 1)²", "label": "B" },
+      { "text": "(-4x² - 6x + 4)/(x² + 1)²", "label": "C" },
+      { "text": "(4x² + 6x - 4)/(x² + 1)²", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 4x-3 (u'=4), v = x²+1 (v'=2x). Quotient rule: [4(x²+1) - (4x-3)(2x)]/(x²+1)² = (4x²+4-8x²+6x)/(x²+1)² = (-4x²+6x+4)/(x²+1)²."
+  },
+  {
+    "questionText": "find the derivative of y = (x² + 5x - 3)⁸.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8(x² + 5x - 3)⁷(2x + 5)", "label": "A" },
+      { "text": "8(x² + 5x - 3)⁷", "label": "B" },
+      { "text": "(x² + 5x - 3)⁷(2x + 5)", "label": "C" },
+      { "text": "8(x² + 5x - 3)⁸", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁸ (derivative 8u⁷), inner function u=x²+5x-3 (derivative 2x+5). f'(x) = 8(x²+5x-3)⁷(2x+5)."
+  },
+  {
+    "questionText": "find the derivative of y = (3x² - 4x + 1)⁵.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "5(3x² - 4x + 1)⁴(6x - 4)", "label": "A" },
+      { "text": "5(3x² - 4x + 1)⁴", "label": "B" },
+      { "text": "(3x² - 4x + 1)⁴(6x - 4)", "label": "C" },
+      { "text": "5(3x² - 4x + 1)⁵", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: outer function u⁵ (derivative 5u⁴), inner function u=3x²-4x+1 (derivative 6x-4). f'(x) = 5(3x²-4x+1)⁴(6x-4)."
+  },
+  {
+    "questionText": "find the derivative of y = sin(x² + 3x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(2x + 3)cos(x² + 3x)", "label": "A" },
+      { "text": "cos(x² + 3x)", "label": "B" },
+      { "text": "-(2x + 3)sin(x² + 3x)", "label": "C" },
+      { "text": "-(2x + 3)cos(x² + 3x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of sin u is cos u, where u=x²+3x (derivative 2x+3). f'(x) = (2x+3)cos(x²+3x)."
+  },
+  {
+    "questionText": "find the derivative of y = cos(x³ - 2x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-(3x² - 2)sin(x³ - 2x)", "label": "A" },
+      { "text": "(3x² - 2)sin(x³ - 2x)", "label": "B" },
+      { "text": "-sin(x³ - 2x)", "label": "C" },
+      { "text": "sin(x³ - 2x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of cos u is -sin u, where u=x³-2x (derivative 3x²-2). f'(x) = -(3x²-2)sin(x³-2x)."
+  },
+  {
+    "questionText": "find the derivative of y = e^(x² + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "2x e^(x² + 1)", "label": "A" },
+      { "text": "e^(x² + 1)", "label": "B" },
+      { "text": "x² e^(x² + 1)", "label": "C" },
+      { "text": "2x e^(x²)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of e^u is e^u, where u=x²+1 (derivative 2x). f'(x) = 2x e^(x²+1)."
+  },
+  {
+    "questionText": "find the derivative of y = ln(2x² + 3x).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "(4x + 3)/(2x² + 3x)", "label": "A" },
+      { "text": "1/(2x² + 3x)", "label": "B" },
+      { "text": "(4x + 3)/(2x² + 3x)²", "label": "C" },
+      { "text": "4x/(2x² + 3x)", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using chain rule: derivative of ln u is 1/u, where u=2x²+3x (derivative 4x+3). f'(x) = (4x+3)/(2x²+3x)."
+  },
+  {
+    "questionText": "find the derivative of y = sin x / cos x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "sec²x", "label": "A" },
+      { "text": "-sec²x", "label": "B" },
+      { "text": "csc²x", "label": "C" },
+      { "text": "-csc²x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = sin x (u'=cos x), v = cos x (v'=-sin x). Quotient rule: [cos x(cos x) - sin x(-sin x)]/cos²x = (cos²x+sin²x)/cos²x = 1/cos²x = sec²x."
+  },
+  {
+    "questionText": "find the derivative of y = cos x / sin x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "-csc²x", "label": "A" },
+      { "text": "csc²x", "label": "B" },
+      { "text": "sec²x", "label": "C" },
+      { "text": "-sec²x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = cos x (u'=-sin x), v = sin x (v'=cos x). Quotient rule: [-sin x(sin x) - cos x(cos x)]/sin²x = (-sin²x - cos²x)/sin²x = -1/sin²x = -csc²x."
+  },
+  {
+    "questionText": "find the derivative of y = x³ + 5x² - 7x + 2.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x² + 10x - 7", "label": "A" },
+      { "text": "3x² + 10x + 7", "label": "B" },
+      { "text": "x² + 5x - 7", "label": "C" },
+      { "text": "3x² - 10x - 7", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 3x² + 5(2x) - 7 = 3x² + 10x - 7."
+  },
+  {
+    "questionText": "find the derivative of y = 4x⁴ - 3x³ + 2x² - x + 5.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "16x³ - 9x² + 4x - 1", "label": "A" },
+      { "text": "16x³ + 9x² + 4x + 1", "label": "B" },
+      { "text": "4x³ - 3x² + 2x - 1", "label": "C" },
+      { "text": "16x³ - 9x² + 4x + 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 4(4x³) - 3(3x²) + 2(2x) - 1 = 16x³ - 9x² + 4x - 1."
+  },
+  {
+    "questionText": "find the derivative of y = 7x² - 3x + 9.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "14x - 3", "label": "A" },
+      { "text": "14x + 3", "label": "B" },
+      { "text": "7x - 3", "label": "C" },
+      { "text": "14x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 7(2x) - 3 = 14x - 3."
+  },
+  {
+    "questionText": "find the derivative of y = 8x³ - 2x² + 5.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "24x² - 4x", "label": "A" },
+      { "text": "24x² + 4x", "label": "B" },
+      { "text": "8x² - 2x", "label": "C" },
+      { "text": "24x² - 4x + 5", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 8(3x²) - 2(2x) = 24x² - 4x."
+  },
+  {
+    "questionText": "find the derivative of y = 6x⁵ - 4x³ + 7x.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "30x⁴ - 12x² + 7", "label": "A" },
+      { "text": "30x⁴ + 12x² + 7", "label": "B" },
+      { "text": "6x⁴ - 4x² + 7", "label": "C" },
+      { "text": "30x⁴ - 12x² - 7", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 6(5x⁴) - 4(3x²) + 7 = 30x⁴ - 12x² + 7."
+  },
+  {
+    "questionText": "find the derivative of y = 9x² + 6x - 1.",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "18x + 6", "label": "A" },
+      { "text": "18x - 6", "label": "B" },
+      { "text": "9x + 6", "label": "C" },
+      { "text": "18x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Using the power rule: 9(2x) + 6 = 18x + 6."
+  },
+  {
+    "questionText": "find the derivative of y = (3x² + 2)(x - 4).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9x² - 24x + 2", "label": "A" },
+      { "text": "9x² + 24x + 2", "label": "B" },
+      { "text": "9x² - 24x - 2", "label": "C" },
+      { "text": "3x² - 24x + 2", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 3x²+2 (u'=6x), v = x-4 (v'=1). Product rule: 6x(x-4) + (3x²+2)(1) = 6x²-24x+3x²+2 = 9x²-24x+2."
+  },
+  {
+    "questionText": "find the derivative of y = (x² + 2)(x² - 3).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "4x³ - 2x", "label": "A" },
+      { "text": "4x³ + 2x", "label": "B" },
+      { "text": "2x³ - 2x", "label": "C" },
+      { "text": "4x³ - 6x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²+2 (u'=2x), v = x²-3 (v'=2x). Product rule: 2x(x²-3) + (x²+2)(2x) = 2x³-6x+2x³+4x = 4x³-2x."
+  },
+  {
+    "questionText": "find the derivative of y = (2x² - 5)(x² + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "8x³ - 6x", "label": "A" },
+      { "text": "8x³ + 6x", "label": "B" },
+      { "text": "4x³ - 6x", "label": "C" },
+      { "text": "8x³ - 10x", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 2x²-5 (u'=4x), v = x²+1 (v'=2x). Product rule: 4x(x²+1) + (2x²-5)(2x) = 4x³+4x+4x³-10x = 8x³-6x."
+  },
+  {
+    "questionText": "find the derivative of y = (x - 2)(x² + 3x + 1).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "3x² + 2x - 5", "label": "A" },
+      { "text": "3x² - 2x - 5", "label": "B" },
+      { "text": "3x² + 2x + 5", "label": "C" },
+      { "text": "x² + 2x - 5", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x-2 (u'=1), v = x²+3x+1 (v'=2x+3). Product rule: 1(x²+3x+1) + (x-2)(2x+3) = x²+3x+1 + 2x²+3x-4x-6 = 3x²+2x-5."
+  },
+  {
+    "questionText": "find the derivative of y = (3x² + x)(2x - 5).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "18x² - 30x + 1", "label": "A" },
+      { "text": "18x² + 30x + 1", "label": "B" },
+      { "text": "18x² - 30x - 1", "label": "C" },
+      { "text": "6x² - 30x + 1", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = 3x²+x (u'=6x+1), v = 2x-5 (v'=2). Product rule: (6x+1)(2x-5) + (3x²+x)(2) = 12x²-30x+2x-5 + 6x²+2x = 18x²-26x-5."
+  },
+  {
+    "questionText": "find the derivative of y = (x² - 4x)(3x + 2).",
+    "topic": "techniques of differentiation (i)",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 6,
+    "semester": 2,
+    "courseCode": "MTH102",
+    "options": [
+      { "text": "9x² - 20x - 8", "label": "A" },
+      { "text": "9x² + 20x - 8", "label": "B" },
+      { "text": "9x² - 20x + 8", "label": "C" },
+      { "text": "3x² - 20x - 8", "label": "D" }
+    ],
+    "correctOption": "A",
+    "explanation": "Let u = x²-4x (u'=2x-4), v = 3x+2 (v'=3). Product rule: (2x-4)(3x+2) + (x²-4x)(3) = 6x²+4x-12x-8 + 3x²-12x = 9x²-20x-8."
+  }
+]

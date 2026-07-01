@@ -1,0 +1,3482 @@
+[
+  {
+    "questionText": "what is the definition of electric flux?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The strength of an electric field at a point",
+        "label": "A"
+      },
+      {
+        "text": "The measure of the number of electric field lines piercing through a given surface area",
+        "label": "B"
+      },
+      {
+        "text": "The potential energy per unit charge",
+        "label": "C"
+      },
+      {
+        "text": "The force per unit charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Electric flux is the measure of the number of electric field lines piercing through a given surface area."
+  },
+  {
+    "questionText": "the formula for electric flux is: φ_e = å¾ åû å· = ______.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E + A",
+        "label": "A"
+      },
+      {
+        "text": "E/A",
+        "label": "B"
+      },
+      {
+        "text": "EA cos θ",
+        "label": "C"
+      },
+      {
+        "text": "EA sin θ",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Electric flux is Φ_E = E⋅A = EA cos θ, where θ is the angle between the electric field and the area vector."
+  },
+  {
+    "questionText": "the si unit of electric flux is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "N/C",
+        "label": "A"
+      },
+      {
+        "text": "V/m",
+        "label": "B"
+      },
+      {
+        "text": "N⋅m²/C",
+        "label": "C"
+      },
+      {
+        "text": "J/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Electric flux is measured in Newton-meters squared per Coulomb (N⋅m²/C)."
+  },
+  {
+    "questionText": "when is electric flux through a surface maximized?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "When the surface is parallel to the electric field (θ = 90°)",
+        "label": "A"
+      },
+      {
+        "text": "When the surface is perpendicular to the electric field (θ = 0°)",
+        "label": "B"
+      },
+      {
+        "text": "When the area is minimized",
+        "label": "C"
+      },
+      {
+        "text": "When the field is zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Flux is maximum when the surface is perpendicular to the field (θ = 0°), so cos θ = 1."
+  },
+  {
+    "questionText": "when is electric flux through a surface zero?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "When the surface is perpendicular to the field",
+        "label": "A"
+      },
+      {
+        "text": "When the surface is parallel to the field (θ = 90°)",
+        "label": "B"
+      },
+      {
+        "text": "When the field is maximum",
+        "label": "C"
+      },
+      {
+        "text": "When the area is maximum",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Flux is zero when the surface is parallel to the field (θ = 90°), so cos θ = 0."
+  },
+  {
+    "questionText": "the area vector (a⃗) is always ______ to the surface.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "parallel",
+        "label": "A"
+      },
+      {
+        "text": "perpendicular (normal)",
+        "label": "B"
+      },
+      {
+        "text": "tangential",
+        "label": "C"
+      },
+      {
+        "text": "opposite",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The area vector is always perpendicular (normal) to the surface."
+  },
+  {
+    "questionText": "for a closed surface, the area vector points from:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Outside to inside",
+        "label": "A"
+      },
+      {
+        "text": "Inside to outside",
+        "label": "B"
+      },
+      {
+        "text": "Along the surface",
+        "label": "C"
+      },
+      {
+        "text": "Random direction",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For closed surfaces, the area vector points from the inside to the outside by convention."
+  },
+  {
+    "questionText": "positive flux through a closed surface indicates that:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Field lines are entering the surface",
+        "label": "A"
+      },
+      {
+        "text": "Field lines are exiting the surface",
+        "label": "B"
+      },
+      {
+        "text": "No field lines pass through",
+        "label": "C"
+      },
+      {
+        "text": "The net charge inside is negative",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Positive flux means net field lines are exiting the surface, indicating a positive net charge inside."
+  },
+  {
+    "questionText": "negative flux through a closed surface indicates that:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Net field lines are entering the surface",
+        "label": "A"
+      },
+      {
+        "text": "Net field lines are exiting",
+        "label": "B"
+      },
+      {
+        "text": "The electric field is zero",
+        "label": "C"
+      },
+      {
+        "text": "The surface has maximum area",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Negative flux means net field lines are entering the surface, indicating a negative net charge inside."
+  },
+  {
+    "questionText": "state gauss's law in words.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The electric field is proportional to the distance from a charge",
+        "label": "A"
+      },
+      {
+        "text": "The total electric flux through any closed surface equals the net charge enclosed divided by ε₀",
+        "label": "B"
+      },
+      {
+        "text": "The force between two charges is inversely proportional to the square of the distance",
+        "label": "C"
+      },
+      {
+        "text": "The electric potential decreases with distance",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Gauss's Law: The total electric flux through any closed surface equals the total net charge enclosed by that surface divided by the permittivity of free space."
+  },
+  {
+    "questionText": "what is the integral form of gauss's law?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "∮ E·dA = Q_enc/ε₀",
+        "label": "A"
+      },
+      {
+        "text": "E = kQ/r²",
+        "label": "B"
+      },
+      {
+        "text": "F = qE",
+        "label": "C"
+      },
+      {
+        "text": "V = kQ/r",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The integral form is ∮ E·dA = Q_enc/ε₀, where the circle on the integral sign indicates integration over a closed surface."
+  },
+  {
+    "questionText": "what does ε₀ represent in gauss's law?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The electric field strength",
+        "label": "A"
+      },
+      {
+        "text": "The permittivity of free space",
+        "label": "B"
+      },
+      {
+        "text": "The charge density",
+        "label": "C"
+      },
+      {
+        "text": "The electric flux",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "ε₀ is the permittivity of free space, approximately 8.854 × 10⁻¹² C²/N·m²."
+  },
+  {
+    "questionText": "what is the value of the permittivity of free space ε₀?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "9 × 10⁹ N·m²/C²",
+        "label": "A"
+      },
+      {
+        "text": "8.854 × 10⁻¹² C²/N·m²",
+        "label": "B"
+      },
+      {
+        "text": "1.6 × 10⁻¹⁹ C",
+        "label": "C"
+      },
+      {
+        "text": "6.67 × 10⁻¹¹ N·m²/kg²",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "ε₀ = 8.854 × 10⁻¹² C²/N·m². Note that k = 1/(4πε₀)."
+  },
+  {
+    "questionText": "according to gauss's law, charges ______ a closed surface do not contribute to the net flux.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "inside",
+        "label": "A"
+      },
+      {
+        "text": "outside",
+        "label": "B"
+      },
+      {
+        "text": "on",
+        "label": "C"
+      },
+      {
+        "text": "both inside and outside",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Only charges inside the closed surface contribute to the net flux. Charges outside do not contribute."
+  },
+  {
+    "questionText": "a closed surface encloses three charges: q₁ = +5 nc, q₂ = -2 nc, and q₃ = +1 nc. a fourth charge q₄ = +9 nc is outside. what is q_enc?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+13 nC",
+        "label": "A"
+      },
+      {
+        "text": "+4 nC",
+        "label": "B"
+      },
+      {
+        "text": "-4 nC",
+        "label": "C"
+      },
+      {
+        "text": "+17 nC",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Only enclosed charges count: Q_enc = (+5) + (-2) + (+1) = +4 nC. The +9 nC outside is ignored."
+  },
+  {
+    "questionText": "for the charges in question 15, calculate the net electric flux through the surface.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "452 N·m²/C",
+        "label": "A"
+      },
+      {
+        "text": "565 N·m²/C",
+        "label": "B"
+      },
+      {
+        "text": "339 N·m²/C",
+        "label": "C"
+      },
+      {
+        "text": "226 N·m²/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Φ_E = Q_enc/ε₀ = (4×10⁻⁹)/(8.854×10⁻¹²) ≈ 451.78 N·m²/C."
+  },
+  {
+    "questionText": "the symbol ∮ on the integral sign in gauss's law means integration over a:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Open surface",
+        "label": "A"
+      },
+      {
+        "text": "Closed surface",
+        "label": "B"
+      },
+      {
+        "text": "Line",
+        "label": "C"
+      },
+      {
+        "text": "Volume",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The circle on the integral sign indicates integration over a closed surface (Gaussian surface)."
+  },
+  {
+    "questionText": "a gaussian surface is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "A real metal surface",
+        "label": "A"
+      },
+      {
+        "text": "An imaginary mathematical surface used to apply Gauss's Law",
+        "label": "B"
+      },
+      {
+        "text": "The surface of a conductor",
+        "label": "C"
+      },
+      {
+        "text": "A surface where the electric field is always zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A Gaussian surface is an imaginary mathematical boundary you draw to help use the symmetry of the problem."
+  },
+  {
+    "questionText": "what is the main criterion for selecting a gaussian surface?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "It must be spherical",
+        "label": "A"
+      },
+      {
+        "text": "It must match the symmetry of the charge distribution",
+        "label": "B"
+      },
+      {
+        "text": "It must be very large",
+        "label": "C"
+      },
+      {
+        "text": "It must be a cube",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "We choose a Gaussian surface that matches the symmetry of the charge distribution so that E is constant on the surface."
+  },
+  {
+    "questionText": "for a point charge or spherical charge distribution, the best gaussian surface is a:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Sphere (concentric)",
+        "label": "A"
+      },
+      {
+        "text": "Cylinder",
+        "label": "B"
+      },
+      {
+        "text": "Cube",
+        "label": "C"
+      },
+      {
+        "text": "Pillbox",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "A concentric sphere matches the spherical symmetry; E is constant at every point on the sphere."
+  },
+  {
+    "questionText": "for an infinitely long line of charge, the best gaussian surface is a:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Sphere",
+        "label": "A"
+      },
+      {
+        "text": "Coaxial cylinder",
+        "label": "B"
+      },
+      {
+        "text": "Cube",
+        "label": "C"
+      },
+      {
+        "text": "Pillbox",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A coaxial cylinder matches the cylindrical symmetry; E is constant on the curved surface."
+  },
+  {
+    "questionText": "for an infinite flat sheet of charge, the best gaussian surface is a:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Sphere",
+        "label": "A"
+      },
+      {
+        "text": "Cylinder",
+        "label": "B"
+      },
+      {
+        "text": "Pillbox (small cylinder)",
+        "label": "C"
+      },
+      {
+        "text": "Cube",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A pillbox (small cylinder) that pokes through the sheet captures the planar symmetry."
+  },
+  {
+    "questionText": "using gauss's law, derive coulomb's law for a point charge q. the electric field at distance r is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = kq/r",
+        "label": "A"
+      },
+      {
+        "text": "E = kq/r²",
+        "label": "B"
+      },
+      {
+        "text": "E = kq²/r²",
+        "label": "C"
+      },
+      {
+        "text": "E = kq/r³",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "∮E·dA = E(4πr²) = q/ε₀ → E = q/(4πε₀r²) = kq/r²."
+  },
+  {
+    "questionText": "for a hollow spherical shell of radius r with total charge q, what is the electric field for r < r (inside the shell)?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = kQ/r²",
+        "label": "A"
+      },
+      {
+        "text": "E = kQ/R²",
+        "label": "B"
+      },
+      {
+        "text": "E = 0",
+        "label": "C"
+      },
+      {
+        "text": "E = kQr/R³",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Inside a hollow spherical shell, a Gaussian surface encloses zero charge, so E = 0."
+  },
+  {
+    "questionText": "for a hollow spherical shell of radius r with total charge q, what is the electric field for r > r (outside the shell)?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = 0",
+        "label": "A"
+      },
+      {
+        "text": "E = kQ/r²",
+        "label": "B"
+      },
+      {
+        "text": "E = kQ/R²",
+        "label": "C"
+      },
+      {
+        "text": "E = kQr/R³",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Outside the shell, it behaves like a point charge: E = kQ/r²."
+  },
+  {
+    "questionText": "a thin spherical shell has radius r = 15 cm and total charge q = +10 μc. find e at r = 10 cm from the center.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "4.0 × 10⁶ N/C",
+        "label": "A"
+      },
+      {
+        "text": "2.5 × 10⁶ N/C",
+        "label": "B"
+      },
+      {
+        "text": "1.0 × 10⁶ N/C",
+        "label": "C"
+      },
+      {
+        "text": "0 N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "For r < R (inside the shell), E = 0 N/C."
+  },
+  {
+    "questionText": "a thin spherical shell has radius r = 15 cm and total charge q = +10 μc. find e at r = 30 cm from the center.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.0 × 10⁶ N/C",
+        "label": "A"
+      },
+      {
+        "text": "2.0 × 10⁶ N/C",
+        "label": "B"
+      },
+      {
+        "text": "4.0 × 10⁶ N/C",
+        "label": "C"
+      },
+      {
+        "text": "8.0 × 10⁶ N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "E = kQ/r² = (9×10⁹)(10×10⁻⁶)/(0.3)² = 90,000/0.09 = 1.0 × 10⁶ N/C."
+  },
+  {
+    "questionText": "for a solid non-conducting sphere with uniform volume charge density ρ, the electric field inside (r < r) is proportional to:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1/r²",
+        "label": "A"
+      },
+      {
+        "text": "r",
+        "label": "B"
+      },
+      {
+        "text": "constant",
+        "label": "C"
+      },
+      {
+        "text": "1/r",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "E = ρr/(3ε₀), which increases linearly with r."
+  },
+  {
+    "questionText": "for an infinitely long line of charge with linear charge density λ, the electric field at distance r is given by:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = λ/(2πε₀r)",
+        "label": "A"
+      },
+      {
+        "text": "E = λ/(4πε₀r²)",
+        "label": "B"
+      },
+      {
+        "text": "E = 2kλ/r",
+        "label": "C"
+      },
+      {
+        "text": "Both A and C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "E = λ/(2πε₀r) = 2kλ/r, since k = 1/(4πε₀)."
+  },
+  {
+    "questionText": "a very long straight wire carries a uniform linear charge density of 2.5 × 10⁻⁷ c/m. find e at r = 10 cm from the wire.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "2.25 × 10⁴ N/C",
+        "label": "A"
+      },
+      {
+        "text": "4.5 × 10⁴ N/C",
+        "label": "B"
+      },
+      {
+        "text": "9.0 × 10⁴ N/C",
+        "label": "C"
+      },
+      {
+        "text": "1.8 × 10⁵ N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "E = λ/(2πε₀r) = (2.5×10⁻⁷)/(2π×8.854×10⁻¹²×0.1) ≈ 4.5×10⁴ N/C."
+  },
+  {
+    "questionText": "for an infinite non-conducting sheet with surface charge density σ, the electric field is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = σ/ε₀",
+        "label": "A"
+      },
+      {
+        "text": "E = σ/(2ε₀)",
+        "label": "B"
+      },
+      {
+        "text": "E = 2σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "E = σ/(4πε₀r²)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Using a Gaussian pillbox, E = σ/(2ε₀). The field is uniform and does not depend on distance."
+  },
+  {
+    "questionText": "a large non-conducting sheet has surface charge density σ = +4.0 × 10⁻⁹ c/m². find the electric field at 5 cm from the sheet.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "113 N/C",
+        "label": "A"
+      },
+      {
+        "text": "226 N/C",
+        "label": "B"
+      },
+      {
+        "text": "452 N/C",
+        "label": "C"
+      },
+      {
+        "text": "904 N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "E = σ/(2ε₀) = (4×10⁻⁹)/(2×8.854×10⁻¹²) = (4×10⁻⁹)/(1.7708×10⁻¹¹) ≈ 226 N/C. Distance does not matter for an infinite sheet."
+  },
+  {
+    "questionText": "for an infinite sheet, the electric field does not depend on:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The charge density σ",
+        "label": "A"
+      },
+      {
+        "text": "The distance from the sheet",
+        "label": "B"
+      },
+      {
+        "text": "The permittivity ε₀",
+        "label": "C"
+      },
+      {
+        "text": "Both A and B",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "E = σ/(2ε₀) has no r term, so the field is constant regardless of distance."
+  },
+  {
+    "questionText": "two large parallel plates carry equal but opposite surface charge densities +σ and -σ. the electric field between the plates is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "σ/(2ε₀)",
+        "label": "A"
+      },
+      {
+        "text": "σ/ε₀",
+        "label": "B"
+      },
+      {
+        "text": "2σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Fields from each plate add: E_total = σ/(2ε₀) + σ/(2ε₀) = σ/ε₀."
+  },
+  {
+    "questionText": "two large parallel plates carry equal but opposite surface charge densities +σ and -σ. the electric field outside the plates is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "σ/(2ε₀)",
+        "label": "A"
+      },
+      {
+        "text": "σ/ε₀",
+        "label": "B"
+      },
+      {
+        "text": "2σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Outside, the fields point in opposite directions and cancel, so E = 0."
+  },
+  {
+    "questionText": "the principle that the interior of a conductor has zero electric field in electrostatic equilibrium is known as:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Coulomb's shielding",
+        "label": "A"
+      },
+      {
+        "text": "Faraday cage effect",
+        "label": "B"
+      },
+      {
+        "text": "Gauss's shielding",
+        "label": "C"
+      },
+      {
+        "text": "Ohmic isolation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The Faraday cage effect describes how a conducting enclosure shields its interior from external electric fields."
+  },
+  {
+    "questionText": "in electrostatic equilibrium, the electric field inside a conductor is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Maximum",
+        "label": "A"
+      },
+      {
+        "text": "Zero",
+        "label": "B"
+      },
+      {
+        "text": "Constant non-zero",
+        "label": "C"
+      },
+      {
+        "text": "Depends on the shape",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "If there were a field inside a conductor, charges would move until it becomes zero."
+  },
+  {
+    "questionText": "in electrostatic equilibrium, excess charge on a conductor resides entirely on its:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Interior",
+        "label": "A"
+      },
+      {
+        "text": "Surface",
+        "label": "B"
+      },
+      {
+        "text": "Center",
+        "label": "C"
+      },
+      {
+        "text": "Edges",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Excess charge resides on the outer surface of a conductor in electrostatic equilibrium."
+  },
+  {
+    "questionText": "for a hollow conducting cylinder, the electric field inside (r < r) is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = λ/(2πε₀r)",
+        "label": "A"
+      },
+      {
+        "text": "E = 0",
+        "label": "B"
+      },
+      {
+        "text": "E = σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "E = kQ/r²",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A Gaussian surface inside the hollow cylinder encloses zero charge, so E = 0."
+  },
+  {
+    "questionText": "for a solid conducting sphere of radius r with total charge q, the electric field for r < r is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = kQ/r²",
+        "label": "A"
+      },
+      {
+        "text": "E = kQ/R²",
+        "label": "B"
+      },
+      {
+        "text": "E = 0",
+        "label": "C"
+      },
+      {
+        "text": "E = kQr/R³",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Inside a conductor, E = 0. All charge resides on the surface."
+  },
+  {
+    "questionText": "for a solid conducting sphere of radius r with total charge q, the electric field for r > r is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = 0",
+        "label": "A"
+      },
+      {
+        "text": "E = kQ/r²",
+        "label": "B"
+      },
+      {
+        "text": "E = kQ/R²",
+        "label": "C"
+      },
+      {
+        "text": "E = kQr/R³",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Outside, it behaves like a point charge: E = kQ/r²."
+  },
+  {
+    "questionText": "a solid conducting sphere of radius 0.1 m has a charge of +5 μc. find e at r = 0.05 m from the center.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "4.5 × 10⁶ N/C",
+        "label": "A"
+      },
+      {
+        "text": "2.25 × 10⁶ N/C",
+        "label": "B"
+      },
+      {
+        "text": "9 × 10⁶ N/C",
+        "label": "C"
+      },
+      {
+        "text": "0 N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Inside a conductor, E = 0 regardless of r."
+  },
+  {
+    "questionText": "a solid conducting sphere of radius 0.1 m has a charge of +5 μc. find e at r = 0.2 m from the center.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.125 × 10⁶ N/C",
+        "label": "A"
+      },
+      {
+        "text": "2.25 × 10⁶ N/C",
+        "label": "B"
+      },
+      {
+        "text": "4.5 × 10⁶ N/C",
+        "label": "C"
+      },
+      {
+        "text": "9 × 10⁶ N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "E = kQ/r² = (9×10⁹)(5×10⁻⁶)/(0.2)² = 45,000/0.04 = 1.125 × 10⁶ N/C."
+  },
+  {
+    "questionText": "what happens to the total electric flux through a spherical gaussian surface if the radius is doubled while the enclosed charge remains the same?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Flux doubles",
+        "label": "A"
+      },
+      {
+        "text": "Flux halves",
+        "label": "B"
+      },
+      {
+        "text": "Flux quadruples",
+        "label": "C"
+      },
+      {
+        "text": "Flux remains unchanged",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Gauss's Law states Φ_E = Q_enc/ε₀, independent of radius."
+  },
+  {
+    "questionText": "if the enclosed charge is tripled, the electric flux through the gaussian surface:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Triples",
+        "label": "A"
+      },
+      {
+        "text": "Doubles",
+        "label": "B"
+      },
+      {
+        "text": "Halves",
+        "label": "C"
+      },
+      {
+        "text": "Remains the same",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Φ_E ∝ Q_enc, so tripling Q_enc triples the flux."
+  },
+  {
+    "questionText": "a spherical gaussian surface encloses a dipole (equal and opposite charges). the net electric flux through the surface is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Positive",
+        "label": "A"
+      },
+      {
+        "text": "Negative",
+        "label": "B"
+      },
+      {
+        "text": "Zero",
+        "label": "C"
+      },
+      {
+        "text": "Depends on orientation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Net enclosed charge = 0, so Φ_E = 0/ε₀ = 0."
+  },
+  {
+    "questionText": "for a uniformly charged solid sphere, the electric field outside (r > r) is proportional to:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "r",
+        "label": "A"
+      },
+      {
+        "text": "1/r²",
+        "label": "B"
+      },
+      {
+        "text": "1/r",
+        "label": "C"
+      },
+      {
+        "text": "constant",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Outside, E ∝ 1/r² as for a point charge."
+  },
+  {
+    "questionText": "for a uniformly charged solid sphere, the electric field inside (r < r) is proportional to:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "r",
+        "label": "A"
+      },
+      {
+        "text": "1/r²",
+        "label": "B"
+      },
+      {
+        "text": "1/r",
+        "label": "C"
+      },
+      {
+        "text": "constant",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "E = (ρr)/(3ε₀), proportional to r."
+  },
+  {
+    "questionText": "the electric field due to an infinite line of charge is proportional to:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1/r",
+        "label": "A"
+      },
+      {
+        "text": "1/r²",
+        "label": "B"
+      },
+      {
+        "text": "r",
+        "label": "C"
+      },
+      {
+        "text": "constant",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "E = λ/(2πε₀r), so E ∝ 1/r."
+  },
+  {
+    "questionText": "the electric field due to an infinite sheet of charge is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Proportional to 1/r",
+        "label": "A"
+      },
+      {
+        "text": "Proportional to 1/r²",
+        "label": "B"
+      },
+      {
+        "text": "Constant",
+        "label": "C"
+      },
+      {
+        "text": "Proportional to r",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "E = σ/(2ε₀) is constant, independent of distance."
+  },
+  {
+    "questionText": "a coaxial cable consists of an inner conducting cylinder and an outer conducting cylindrical shell. for a point between them (r between radii), which formula applies?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = 0",
+        "label": "A"
+      },
+      {
+        "text": "E = λ/(2πε₀r)",
+        "label": "B"
+      },
+      {
+        "text": "E = σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "E = kQ/r²",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Between the cylinders, the field is the same as for an infinite line of charge: E = λ/(2πε₀r)."
+  },
+  {
+    "questionText": "gauss's law is one of the four ______ that govern all of electromagnetism.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Newton's Laws",
+        "label": "A"
+      },
+      {
+        "text": "Maxwell's Equations",
+        "label": "B"
+      },
+      {
+        "text": "Thermodynamic Laws",
+        "label": "C"
+      },
+      {
+        "text": "Kepler's Laws",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Gauss's Law is one of Maxwell's four equations, which form the foundation of electromagnetism."
+  },
+  {
+    "questionText": "the flux through a surface when e is perpendicular to da is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Minimum",
+        "label": "A"
+      },
+      {
+        "text": "Maximum = EA",
+        "label": "B"
+      },
+      {
+        "text": "Zero",
+        "label": "C"
+      },
+      {
+        "text": "Negative",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When E ∥ dA, θ = 0°, cos θ = 1, so Φ_E = EA (maximum)."
+  },
+  {
+    "questionText": "the flux through a surface when e is parallel to da is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Maximum",
+        "label": "A"
+      },
+      {
+        "text": "Zero",
+        "label": "B"
+      },
+      {
+        "text": "EA",
+        "label": "C"
+      },
+      {
+        "text": "Negative",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When E ⟂ dA (parallel to surface), θ = 90°, cos θ = 0, so Φ_E = 0."
+  },
+  {
+    "questionText": "a cube of side l encloses a point charge q at its center. the flux through one face is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "q/ε₀",
+        "label": "A"
+      },
+      {
+        "text": "q/(2ε₀)",
+        "label": "B"
+      },
+      {
+        "text": "q/(4ε₀)",
+        "label": "C"
+      },
+      {
+        "text": "q/(6ε₀)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Total flux = q/ε₀. By symmetry, flux through each of the 6 faces = (q/ε₀)/6 = q/(6ε₀)."
+  },
+  {
+    "questionText": "if a point charge is placed exactly at the corner of a cube, the flux through the cube is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "q/ε₀",
+        "label": "A"
+      },
+      {
+        "text": "q/(2ε₀)",
+        "label": "B"
+      },
+      {
+        "text": "q/(4ε₀)",
+        "label": "C"
+      },
+      {
+        "text": "q/(8ε₀)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "The charge is shared by 8 cubes, so the fraction of flux through one cube is q/(8ε₀)."
+  },
+  {
+    "questionText": "the electric field just outside a charged conductor is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Zero",
+        "label": "A"
+      },
+      {
+        "text": "Perpendicular to the surface with magnitude σ/ε₀",
+        "label": "B"
+      },
+      {
+        "text": "Parallel to the surface",
+        "label": "C"
+      },
+      {
+        "text": "Inversely proportional to area",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For a conductor, E = σ/ε₀ just outside the surface, perpendicular to it."
+  },
+  {
+    "questionText": "in a faraday cage, the electric field inside is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Maximum",
+        "label": "A"
+      },
+      {
+        "text": "Zero",
+        "label": "B"
+      },
+      {
+        "text": "Variable",
+        "label": "C"
+      },
+      {
+        "text": "Equal to the field outside",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A Faraday cage (conducting enclosure) shields the interior from external electric fields by redistributing charges on its surface."
+  },
+  {
+    "questionText": "which application of gauss's law explains why you are safe inside a car during a lightning strike?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Coulomb's law",
+        "label": "A"
+      },
+      {
+        "text": "Faraday cage effect",
+        "label": "B"
+      },
+      {
+        "text": "Lenz's law",
+        "label": "C"
+      },
+      {
+        "text": "Ohm's law",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The metal body of a car acts as a Faraday cage, directing the lightning current around the outside while the interior remains at zero electric field."
+  },
+  {
+    "questionText": "the differential form of gauss's law is: ∇·e = ρ/ε₀. this relates divergence of e to:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electric field",
+        "label": "A"
+      },
+      {
+        "text": "Charge density ρ",
+        "label": "B"
+      },
+      {
+        "text": "Magnetic field",
+        "label": "C"
+      },
+      {
+        "text": "Current density",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The divergence of the electric field equals the volume charge density divided by ε₀."
+  },
+  {
+    "questionText": "for a spherical gaussian surface of radius r centered on a point charge q, e is constant on the surface because of:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Cylindrical symmetry",
+        "label": "A"
+      },
+      {
+        "text": "Spherical symmetry",
+        "label": "B"
+      },
+      {
+        "text": "Planar symmetry",
+        "label": "C"
+      },
+      {
+        "text": "No symmetry",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A point charge has spherical symmetry, meaning E has the same magnitude at every point on the sphere."
+  },
+  {
+    "questionText": "if the net flux through a closed surface is zero, then:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "There are no charges inside",
+        "label": "A"
+      },
+      {
+        "text": "The net charge inside is zero",
+        "label": "B"
+      },
+      {
+        "text": "The electric field is zero everywhere",
+        "label": "C"
+      },
+      {
+        "text": "The surface is a conductor",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Φ_E = 0 ⇒ Q_enc/ε₀ = 0 ⇒ Q_enc = 0. There could be equal positive and negative charges inside."
+  },
+  {
+    "questionText": "a charge q is placed at the center of a cube. the electric flux through one face is q/(6ε₀). if the charge is moved to a corner, the flux through the same face:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Stays the same",
+        "label": "C"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Total flux remains q/ε₀ as long as q is inside. The distribution among faces changes, but total is constant."
+  },
+  {
+    "questionText": "gauss's law is particularly useful for calculating e when the charge distribution has:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Low symmetry",
+        "label": "A"
+      },
+      {
+        "text": "High symmetry (spherical, cylindrical, planar)",
+        "label": "B"
+      },
+      {
+        "text": "No symmetry",
+        "label": "C"
+      },
+      {
+        "text": "Only positive charges",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Gauss's Law simplifies calculations when the charge distribution has spherical, cylindrical, or planar symmetry."
+  },
+  {
+    "questionText": "what is the electric field inside a uniformly charged hollow sphere?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "kQ/r²",
+        "label": "A"
+      },
+      {
+        "text": "kQ/R²",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "kQr/R³",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A Gaussian sphere inside the hollow region encloses no charge, so E = 0."
+  },
+  {
+    "questionText": "what is the electric field inside a uniformly charged solid sphere at r = 0 (the center)?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0",
+        "label": "A"
+      },
+      {
+        "text": "Maximum",
+        "label": "B"
+      },
+      {
+        "text": "kQ/R²",
+        "label": "C"
+      },
+      {
+        "text": "Infinite",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "E = ρr/(3ε₀) ⇒ at r = 0, E = 0."
+  },
+  {
+    "questionText": "the electric field of an infinite line charge varies as 1/r. this means that as r increases, e:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Increases",
+        "label": "A"
+      },
+      {
+        "text": "Decreases",
+        "label": "B"
+      },
+      {
+        "text": "Stays constant",
+        "label": "C"
+      },
+      {
+        "text": "Oscillates",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "E ∝ 1/r, so E decreases as distance increases."
+  },
+  {
+    "questionText": "the constant ε₀ is related to coulomb's constant k by:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "ε₀ = 4πk",
+        "label": "A"
+      },
+      {
+        "text": "ε₀ = 1/(4πk)",
+        "label": "B"
+      },
+      {
+        "text": "ε₀ = k/(4π)",
+        "label": "C"
+      },
+      {
+        "text": "ε₀ = 4π/k",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "k = 1/(4πε₀) ⇒ ε₀ = 1/(4πk)."
+  },
+  {
+    "questionText": "a point charge q is placed inside a spherical gaussian surface but not at the center. the flux through the surface:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Is less than q/ε₀",
+        "label": "A"
+      },
+      {
+        "text": "Is greater than q/ε₀",
+        "label": "B"
+      },
+      {
+        "text": "Is still q/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "Depends on the position",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Gauss's Law depends only on enclosed charge, not on symmetry or position."
+  },
+  {
+    "questionText": "a long conducting cylinder has a linear charge density λ. the electric field outside (r > r) is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = 0",
+        "label": "A"
+      },
+      {
+        "text": "E = λ/(2πε₀r)",
+        "label": "B"
+      },
+      {
+        "text": "E = σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "E = λ/(πr)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For a long conducting cylinder, the field outside is the same as for a line of charge: E = λ/(2πε₀r)."
+  },
+  {
+    "questionText": "inside a conductor in electrostatic equilibrium, the electric field is zero. this means the conductor is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "An equipotential",
+        "label": "A"
+      },
+      {
+        "text": "Charged only on the surface",
+        "label": "B"
+      },
+      {
+        "text": "Shielded from external fields",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "E = 0 implies constant potential (equipotential), all charge on surface, and shielding."
+  },
+  {
+    "questionText": "the electric field just outside a charged conductor of surface charge density σ is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = σ/(2ε₀)",
+        "label": "A"
+      },
+      {
+        "text": "E = σ/ε₀",
+        "label": "B"
+      },
+      {
+        "text": "E = 0",
+        "label": "C"
+      },
+      {
+        "text": "E = 2σ/ε₀",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For a conductor, the field just outside is perpendicular and has magnitude σ/ε₀ (twice that of an insulating sheet)."
+  },
+  {
+    "questionText": "why is the field outside a conductor σ/ε₀ while for an insulating sheet it is σ/(2ε₀)?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Conductors have twice the charge",
+        "label": "A"
+      },
+      {
+        "text": "The field from a conductor is only on one side, while an insulating sheet has fields on both sides",
+        "label": "B"
+      },
+      {
+        "text": "Conductors are thicker",
+        "label": "C"
+      },
+      {
+        "text": "Conductors have less charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For an insulating sheet, fields exist on both sides (σ/(2ε₀) each). For a conductor, all charge is on one surface and the field is only on the outside, giving σ/ε₀."
+  },
+  {
+    "questionText": "a spherical gaussian surface encloses a positive point charge. if the charge is moved off-center, the electric field at a point on the surface:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Remains the same everywhere",
+        "label": "A"
+      },
+      {
+        "text": "Changes, but total flux remains the same",
+        "label": "B"
+      },
+      {
+        "text": "Becomes zero",
+        "label": "C"
+      },
+      {
+        "text": "Doubles",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "The flux depends only on enclosed charge, but the field distribution changes."
+  },
+  {
+    "questionText": "what is the net charge inside a closed surface if the total electric flux through the surface is -452 n·m²/c?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+4 nC",
+        "label": "A"
+      },
+      {
+        "text": "-4 nC",
+        "label": "B"
+      },
+      {
+        "text": "+8 nC",
+        "label": "C"
+      },
+      {
+        "text": "-8 nC",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Q_enc = Φ_E × ε₀ = (-452) × (8.85×10⁻¹²) ≈ -4.0 × 10⁻⁹ C = -4 nC."
+  },
+  {
+    "questionText": "two infinite parallel sheets have surface charge densities +σ and -σ. the field outside both sheets (to the left of both and right of both) is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "σ/(2ε₀)",
+        "label": "A"
+      },
+      {
+        "text": "σ/ε₀",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "2σ/ε₀",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Fields cancel outside because they point in opposite directions."
+  },
+  {
+    "questionText": "in the analogy of fans blowing air in a room, the 'fans' represent:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Electric field",
+        "label": "A"
+      },
+      {
+        "text": "Charge",
+        "label": "B"
+      },
+      {
+        "text": "Electric flux",
+        "label": "C"
+      },
+      {
+        "text": "Gaussian surface",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "In the analogy, fans represent charges (the sources of the electric field), and the wind through windows represents electric flux."
+  },
+  {
+    "questionText": "in the fan analogy, if net wind blowing out is zero, it means either there are no fans or:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "All fans are off",
+        "label": "A"
+      },
+      {
+        "text": "Intake and exhaust are perfectly balanced",
+        "label": "B"
+      },
+      {
+        "text": "The windows are closed",
+        "label": "C"
+      },
+      {
+        "text": "The room is sealed",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Balanced intake and exhaust fans represent equal positive and negative charges inside, giving zero net flux."
+  },
+  {
+    "questionText": "what is the electric flux through a surface that is parallel to a uniform electric field?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Maximum",
+        "label": "A"
+      },
+      {
+        "text": "Minimum (zero)",
+        "label": "B"
+      },
+      {
+        "text": "EA",
+        "label": "C"
+      },
+      {
+        "text": "Depends on area",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "When surface is parallel to field, θ = 90°, cos 90° = 0, so flux = 0."
+  },
+  {
+    "questionText": "a cube of side 0.1 m is placed in a uniform electric field of 1000 n/c directed along the x-axis. the flux through the face perpendicular to the x-axis is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0 N·m²/C",
+        "label": "A"
+      },
+      {
+        "text": "5 N·m²/C",
+        "label": "B"
+      },
+      {
+        "text": "10 N·m²/C",
+        "label": "C"
+      },
+      {
+        "text": "20 N·m²/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Area = (0.1)² = 0.01 m². Flux = EA = 1000 × 0.01 = 10 N·m²/C for the face perpendicular to the field."
+  },
+  {
+    "questionText": "for the cube in question 80, the net flux through the entire closed surface is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0 N·m²/C",
+        "label": "A"
+      },
+      {
+        "text": "10 N·m²/C",
+        "label": "B"
+      },
+      {
+        "text": "20 N·m²/C",
+        "label": "C"
+      },
+      {
+        "text": "60 N·m²/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "In a uniform field, what enters one face exits the opposite face, so net flux = 0."
+  },
+  {
+    "questionText": "which of the following charge distributions would you use a cylindrical gaussian surface for?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "A point charge",
+        "label": "A"
+      },
+      {
+        "text": "An infinite line of charge",
+        "label": "B"
+      },
+      {
+        "text": "A solid conducting sphere",
+        "label": "C"
+      },
+      {
+        "text": "A charged sheet",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Cylindrical symmetry applies to infinite lines or long cylinders of charge."
+  },
+  {
+    "questionText": "which of the following charge distributions would you use a pillbox gaussian surface for?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "A point charge",
+        "label": "A"
+      },
+      {
+        "text": "An infinite line charge",
+        "label": "B"
+      },
+      {
+        "text": "An infinite sheet of charge",
+        "label": "C"
+      },
+      {
+        "text": "A spherical shell",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A pillbox (small cylinder) is used for planar symmetry (infinite sheet)."
+  },
+  {
+    "questionText": "a point charge of -3 nc is placed at the center of a spherical gaussian surface. the flux through the surface is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Positive",
+        "label": "A"
+      },
+      {
+        "text": "Negative",
+        "label": "B"
+      },
+      {
+        "text": "Zero",
+        "label": "C"
+      },
+      {
+        "text": "Depends on radius",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Negative charge produces negative flux (field lines entering the surface)."
+  },
+  {
+    "questionText": "if the net electric flux through a closed surface is positive, the net enclosed charge is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Positive",
+        "label": "A"
+      },
+      {
+        "text": "Negative",
+        "label": "B"
+      },
+      {
+        "text": "Zero",
+        "label": "C"
+      },
+      {
+        "text": "Cannot be determined",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Φ_E = Q_enc/ε₀, so positive flux means Q_enc > 0."
+  },
+  {
+    "questionText": "the electric field due to an infinite line of charge is inversely proportional to the distance r. this means that e does not follow:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The inverse-square law (1/r²)",
+        "label": "A"
+      },
+      {
+        "text": "The inverse law (1/r)",
+        "label": "B"
+      },
+      {
+        "text": "The constant law",
+        "label": "C"
+      },
+      {
+        "text": "The linear law",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "The line charge follows 1/r, not 1/r². The inverse-square law applies to point charges, not line charges."
+  },
+  {
+    "questionText": "which of maxwell's equations is gauss's law?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "First equation",
+        "label": "A"
+      },
+      {
+        "text": "Second equation",
+        "label": "B"
+      },
+      {
+        "text": "Third equation",
+        "label": "C"
+      },
+      {
+        "text": "Fourth equation",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Gauss's Law is Maxwell's first equation (for electric fields)."
+  },
+  {
+    "questionText": "gauss's law for magnetism states that ∮ b·da = 0, implying that:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Magnetic monopoles do not exist",
+        "label": "A"
+      },
+      {
+        "text": "Magnetic flux is always zero",
+        "label": "B"
+      },
+      {
+        "text": "Magnetic fields are solenoidal",
+        "label": "C"
+      },
+      {
+        "text": "All of the above",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "The zero magnetic flux means no magnetic monopoles exist; magnetic field lines form closed loops."
+  },
+  {
+    "questionText": "an infinite non-conducting sheet has surface charge density σ = 2.0 × 10⁻⁹ c/m². find e.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "56.5 N/C",
+        "label": "A"
+      },
+      {
+        "text": "113 N/C",
+        "label": "B"
+      },
+      {
+        "text": "226 N/C",
+        "label": "C"
+      },
+      {
+        "text": "452 N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "E = σ/(2ε₀) = (2×10⁻⁹)/(2×8.854×10⁻¹²) = (2×10⁻⁹)/(1.7708×10⁻¹¹) ≈ 113 N/C."
+  },
+  {
+    "questionText": "two infinite non-conducting sheets have surface charge densities +σ and +σ (both positive). the field between them is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "0",
+        "label": "A"
+      },
+      {
+        "text": "σ/(2ε₀)",
+        "label": "B"
+      },
+      {
+        "text": "σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "2σ/ε₀",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Fields point away from each sheet, so between them they oppose and cancel."
+  },
+  {
+    "questionText": "an infinite line charge has λ = 5.0 × 10⁻⁸ c/m. find e at r = 0.2 m.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "1.8 × 10³ N/C",
+        "label": "A"
+      },
+      {
+        "text": "3.6 × 10³ N/C",
+        "label": "B"
+      },
+      {
+        "text": "4.5 × 10³ N/C",
+        "label": "C"
+      },
+      {
+        "text": "9.0 × 10³ N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "E = λ/(2πε₀r) = (5×10⁻⁸)/(2π×8.85×10⁻¹²×0.2) ≈ 4.5 × 10³ N/C."
+  },
+  {
+    "questionText": "the gaussian surface must always be a closed surface. true or false?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "True",
+        "label": "A"
+      },
+      {
+        "text": "False",
+        "label": "B"
+      },
+      {
+        "text": "True, but only for spherical symmetry",
+        "label": "C"
+      },
+      {
+        "text": "False, open surfaces can also be used",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Gauss's Law applies to closed surfaces only. The ∮ symbol indicates integration over a closed surface."
+  },
+  {
+    "questionText": "which physicist is credited with formulating gauss's law?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Isaac Newton",
+        "label": "A"
+      },
+      {
+        "text": "Carl Friedrich Gauss",
+        "label": "B"
+      },
+      {
+        "text": "James Clerk Maxwell",
+        "label": "C"
+      },
+      {
+        "text": "Michael Faraday",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Carl Friedrich Gauss formulated Gauss's Law, which relates electric flux to enclosed charge."
+  },
+  {
+    "questionText": "the electric field inside a conductor in electrostatic equilibrium is zero. this is a direct consequence of:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Coulomb's Law",
+        "label": "A"
+      },
+      {
+        "text": "Gauss's Law",
+        "label": "B"
+      },
+      {
+        "text": "Ohm's Law",
+        "label": "C"
+      },
+      {
+        "text": "Faraday's Law",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Using Gauss's Law on a Gaussian surface just inside the conductor shows that E must be zero because any field would cause charge movement."
+  },
+  {
+    "questionText": "if a conductor has a cavity with no charge inside, the electric field in the cavity is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Zero",
+        "label": "A"
+      },
+      {
+        "text": "Non-zero",
+        "label": "B"
+      },
+      {
+        "text": "Depends on external charges",
+        "label": "C"
+      },
+      {
+        "text": "Equal to the field outside",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "A Gaussian surface around the cavity encloses no net charge, and by symmetry, E = 0 in the cavity."
+  },
+  {
+    "questionText": "if a conductor has a cavity containing a point charge +q inside, the inner surface of the cavity will have induced charge:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+q",
+        "label": "A"
+      },
+      {
+        "text": "-q",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "Depends on conductor shape",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "By Gauss's Law, the flux through a surface inside the conductor material is zero, so the inner surface must have induced charge -q to cancel the enclosed +q."
+  },
+  {
+    "questionText": "for the scenario in question 96, the outer surface of the conductor will have charge:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+q",
+        "label": "A"
+      },
+      {
+        "text": "-q",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "Depends on conductor's net charge",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "If the conductor is initially neutral, the outer surface acquires +q to maintain overall neutrality (+q inside cavity -q on inner surface +q on outer surface = 0 net)."
+  },
+  {
+    "questionText": "a uniformly charged solid sphere of radius r has total charge q. the electric field at r = r/2 is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = kQ/(2R²)",
+        "label": "A"
+      },
+      {
+        "text": "E = kQ/(4R²)",
+        "label": "B"
+      },
+      {
+        "text": "E = kQr/R³ = kQ/(2R²)",
+        "label": "C"
+      },
+      {
+        "text": "E = 0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "E = kQr/R³ = kQ(R/2)/R³ = kQ/(2R²)."
+  },
+  {
+    "questionText": "the flux through a closed surface depends only on:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The shape of the surface",
+        "label": "A"
+      },
+      {
+        "text": "The size of the surface",
+        "label": "B"
+      },
+      {
+        "text": "The net charge enclosed",
+        "label": "C"
+      },
+      {
+        "text": "The position of the surface",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Gauss's Law: Φ_E = Q_enc/ε₀, independent of shape, size, or position as long as the charge is enclosed."
+  },
+  {
+    "questionText": "complete the sentence: gauss's law is an elegant way to calculate electric fields when the charge distribution has ______ symmetry, allowing us to choose a gaussian surface where the electric field is ______ and ______ to the surface.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "low, variable, parallel",
+        "label": "A"
+      },
+      {
+        "text": "high, constant, perpendicular",
+        "label": "B"
+      },
+      {
+        "text": "random, zero, parallel",
+        "label": "C"
+      },
+      {
+        "text": "spherical only, decreasing, radial",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For high symmetry (spherical, cylindrical, planar), we choose a Gaussian surface where E is constant and perpendicular to the surface (or parallel on some parts), simplifying the flux integral to EA."
+  },
+  {
+    "questionText": "a flat surface of area 0.5 m² is placed in a uniform electric field of 200 n/c. the surface is tilted so that the angle between e and the area vector is 60°. calculate the electric flux.",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "100 N·m²/C",
+        "label": "A"
+      },
+      {
+        "text": "86.6 N·m²/C",
+        "label": "B"
+      },
+      {
+        "text": "50 N·m²/C",
+        "label": "C"
+      },
+      {
+        "text": "173.2 N·m²/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Φ_E = EA cos θ = (200)(0.5)(cos 60°) = 100 × 0.5 = 50 N·m²/C."
+  },
+  {
+    "questionText": "what is the electric field at a distance of 5 cm from an infinitely long line charge with linear charge density λ = 2.0 × 10⁻⁸ c/m?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "3.6 × 10³ N/C",
+        "label": "A"
+      },
+      {
+        "text": "7.2 × 10³ N/C",
+        "label": "B"
+      },
+      {
+        "text": "1.44 × 10⁴ N/C",
+        "label": "C"
+      },
+      {
+        "text": "2.88 × 10⁴ N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "E = λ/(2πε₀r) = (2×10⁻⁸)/(2π×8.854×10⁻¹²×0.05) ≈ 7.2 × 10³ N/C."
+  },
+  {
+    "questionText": "for an infinite non-conducting sheet, the gaussian surface used is called a:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Sphere",
+        "label": "A"
+      },
+      {
+        "text": "Coaxial cylinder",
+        "label": "B"
+      },
+      {
+        "text": "Pillbox (cylinder with end caps)",
+        "label": "C"
+      },
+      {
+        "text": "Cube",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "A pillbox (a small cylinder that pokes through the sheet) is the standard Gaussian surface for planar symmetry."
+  },
+  {
+    "questionText": "in the pillbox gaussian surface for an infinite sheet, the flux through the curved side is zero because:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "The area is zero",
+        "label": "A"
+      },
+      {
+        "text": "The electric field is parallel to the curved surface (perpendicular to area vector)",
+        "label": "B"
+      },
+      {
+        "text": "The field is zero",
+        "label": "C"
+      },
+      {
+        "text": "The sheet is non-conducting",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "On the curved side, E is parallel to the surface, so θ = 90° and cos θ = 0, giving zero flux."
+  },
+  {
+    "questionText": "for an infinite non-conducting sheet, the two end caps of the pillbox each have area a. the total flux through both caps is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "EA",
+        "label": "A"
+      },
+      {
+        "text": "2EA",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "EA/2",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Flux exits through both caps, each contributing EA, so total = 2EA."
+  },
+  {
+    "questionText": "a large conducting plate has surface charge density σ = 5.0 × 10⁻⁹ c/m². what is the electric field just outside the plate?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "282 N/C",
+        "label": "A"
+      },
+      {
+        "text": "565 N/C",
+        "label": "B"
+      },
+      {
+        "text": "1130 N/C",
+        "label": "C"
+      },
+      {
+        "text": "2260 N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "For a conductor, E = σ/ε₀ = (5×10⁻⁹)/(8.854×10⁻¹²) ≈ 565 N/C."
+  },
+  {
+    "questionText": "why is the electric field outside a conducting plate (σ/ε₀) twice that of an insulating sheet (σ/(2ε₀))?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Conductors have twice the charge",
+        "label": "A"
+      },
+      {
+        "text": "The field from a conductor is only on one side; the insulating sheet has fields on both sides",
+        "label": "B"
+      },
+      {
+        "text": "Conductors are thicker",
+        "label": "C"
+      },
+      {
+        "text": "Conductors have higher permittivity",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "An insulating sheet produces fields on both sides (σ/(2ε₀) each). A conductor has all charge on one surface, so the field is only on the outside at σ/ε₀."
+  },
+  {
+    "questionText": "two infinite parallel conducting plates have equal and opposite surface charge densities +σ and -σ. what is the field outside both plates (to the left of the left plate and right of the right plate)?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "σ/ε₀",
+        "label": "A"
+      },
+      {
+        "text": "σ/(2ε₀)",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "2σ/ε₀",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Outside, the fields from the two plates are equal in magnitude but opposite in direction, so they cancel."
+  },
+  {
+    "questionText": "a long hollow conducting cylinder of radius r has a linear charge density λ. what is the electric field for r < r (inside the cylinder)?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = λ/(2πε₀r)",
+        "label": "A"
+      },
+      {
+        "text": "E = 0",
+        "label": "B"
+      },
+      {
+        "text": "E = σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "E = λ/(πε₀R)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "A Gaussian surface inside the hollow cylinder encloses no charge (all charge is on the surface), so E = 0."
+  },
+  {
+    "questionText": "a long solid conducting cylinder of radius r has a linear charge density λ. what is the electric field for r < r (inside the conductor)?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = λ/(2πε₀r)",
+        "label": "A"
+      },
+      {
+        "text": "E = 0",
+        "label": "B"
+      },
+      {
+        "text": "E = σ/ε₀",
+        "label": "C"
+      },
+      {
+        "text": "E = λ/(2πε₀R)",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Inside a conductor in electrostatic equilibrium, E = 0 everywhere."
+  },
+  {
+    "questionText": "a spherical gaussian surface of radius r is centered on a point charge q. the electric flux through the surface is φ. if the radius is tripled, the new flux is:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "Φ/3",
+        "label": "A"
+      },
+      {
+        "text": "Φ/9",
+        "label": "B"
+      },
+      {
+        "text": "3Φ",
+        "label": "C"
+      },
+      {
+        "text": "Φ",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Flux depends only on enclosed charge, not on radius: Φ = q/ε₀ remains constant."
+  },
+  {
+    "questionText": "what is the electric field inside a uniformly charged solid sphere at a distance r from the center, in terms of the total charge q and radius r?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = kQ/r²",
+        "label": "A"
+      },
+      {
+        "text": "E = kQr/R²",
+        "label": "B"
+      },
+      {
+        "text": "E = kQr/R³",
+        "label": "C"
+      },
+      {
+        "text": "E = kQ/R²",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "E = (kQr)/R³ = (Qr)/(4πε₀R³)."
+  },
+  {
+    "questionText": "what is the electric field at the surface of a uniformly charged solid sphere of radius r and total charge q?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "E = kQ/R²",
+        "label": "A"
+      },
+      {
+        "text": "E = kQ/(2R²)",
+        "label": "B"
+      },
+      {
+        "text": "E = kQ/R",
+        "label": "C"
+      },
+      {
+        "text": "E = 0",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "At r = R, both inside and outside formulas give E = kQ/R²."
+  },
+  {
+    "questionText": "a point charge q is placed at the center of a cube. the flux through one face is q/(6ε₀). if the charge is moved to the center of one face, what is the flux through that same face?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "q/(6ε₀)",
+        "label": "A"
+      },
+      {
+        "text": "q/(4ε₀)",
+        "label": "B"
+      },
+      {
+        "text": "q/(2ε₀)",
+        "label": "C"
+      },
+      {
+        "text": "q/ε₀",
+        "label": "D"
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "When the charge is on a face, half of the flux goes through that face (since the charge is now on the boundary). So flux = q/(2ε₀)."
+  },
+  {
+    "questionText": "the electric field inside a conductor in electrostatic equilibrium is zero. this is because:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "There are no charges inside",
+        "label": "A"
+      },
+      {
+        "text": "Any internal field would cause charges to move until it is canceled",
+        "label": "B"
+      },
+      {
+        "text": "Conductors cannot hold charge",
+        "label": "C"
+      },
+      {
+        "text": "Gauss's Law forbids fields in conductors",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "If there were an internal field, free electrons would move, redistributing charge until the net field becomes zero."
+  },
+  {
+    "questionText": "a solid conducting sphere of radius 0.05 m has a charge of +2 μc. what is the electric field at r = 0.03 m from the center?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "7.2 × 10⁶ N/C",
+        "label": "A"
+      },
+      {
+        "text": "3.6 × 10⁶ N/C",
+        "label": "B"
+      },
+      {
+        "text": "1.8 × 10⁶ N/C",
+        "label": "C"
+      },
+      {
+        "text": "0 N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Inside a conductor, E = 0 regardless of radius."
+  },
+  {
+    "questionText": "what is the electric field at the surface of a solid conducting sphere of radius 0.05 m with charge +2 μc?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "7.2 × 10⁶ N/C",
+        "label": "A"
+      },
+      {
+        "text": "3.6 × 10⁶ N/C",
+        "label": "B"
+      },
+      {
+        "text": "1.8 × 10⁶ N/C",
+        "label": "C"
+      },
+      {
+        "text": "9.0 × 10⁶ N/C",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "E = kQ/R² = (9×10⁹)(2×10⁻⁶)/(0.05)² = 18,000/0.0025 = 7.2 × 10⁶ N/C."
+  },
+  {
+    "questionText": "a faraday cage works because:",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "It reflects electromagnetic waves",
+        "label": "A"
+      },
+      {
+        "text": "The conducting surface redistributes charges to cancel the internal field",
+        "label": "B"
+      },
+      {
+        "text": "It absorbs all radiation",
+        "label": "C"
+      },
+      {
+        "text": "It is made of magnetic material",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "External fields cause charge redistribution on the conductor's surface, creating an opposing field that cancels the external field inside."
+  },
+  {
+    "questionText": "if a point charge +q is placed inside a hollow conducting sphere that is initially neutral, what is the charge on the inner surface of the sphere?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+q",
+        "label": "A"
+      },
+      {
+        "text": "-q",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "Depends on the sphere's radius",
+        "label": "D"
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Gauss's Law applied to a surface inside the conductor material (where E=0) shows Q_enc = 0, so inner surface must have induced charge -q."
+  },
+  {
+    "questionText": "for the scenario in question 119, what is the charge on the outer surface of the hollow conducting sphere?",
+    "topic": "gauss's law",
+    "level": "100",
+    "department": "COMP_SCI",
+    "week": 5,
+    "semester": 2,
+    "courseCode": "PHY102",
+    "options": [
+      {
+        "text": "+q",
+        "label": "A"
+      },
+      {
+        "text": "-q",
+        "label": "B"
+      },
+      {
+        "text": "0",
+        "label": "C"
+      },
+      {
+        "text": "Depends on the sphere's radius",
+        "label": "D"
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Since the sphere is initially neutral, total charge = 0. Inner surface has -q, so outer surface must have +q to maintain neutrality."
+  }
+]
