@@ -93,8 +93,11 @@ Example Question document:
       enum: ["A", "B", "C", "D"],
       required: true,
       validate: {
-        validator: function (value) {
-          return this.options.some((opt) => opt.label === value);
+        // doc represents the current document being validated
+        validator: function (value, doc) {
+          const document = doc || this;
+          if (!document || !document.options) return false;
+          return document.options.some((opt) => opt.label === value);
         },
         message: "Correct option must match one of the option labels",
       },
@@ -108,12 +111,16 @@ Example Question document:
 );
 
 // This index now perfectly aligns with the fields above
-questionSchema.index({
-  department: 1,
-  level: 1,
-  semester: 1,
-  courseCode: 1,
-  week: 1,
-});
+questionSchema.index(
+  {
+    department: 1,
+    level: 1,
+    semester: 1,
+    courseCode: 1,
+    week: 1,
+    questionText: 1,
+  },
+  { unique: true },
+);
 
 module.exports = mongoose.model("Question", questionSchema);

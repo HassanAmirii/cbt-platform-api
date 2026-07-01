@@ -2,26 +2,28 @@
 
 ## The flow is:
 
-**validate → flatten → seed**
+**validate → seed**
 
 ```js
 // Example json data arrangement for each courseCode file in <../data/  >
 // to be validated before seeding or flatting to the actual data structure.
 {
-  "courseCode": "PHY102",
-  "department": "COMP_SCI",
+  "questionText": "what is the primary function of an operating system?",
+  "topic": "computer basics",
   "level": "100",
-  "weeks": {
-    "sem2_wk1": {
-      "semester": 2,
-      "week": 1,
-      "topic": "Fundamental Forces and Introduction to Electrostatics",
-      "questions": [
-        { "questionText": "...", "options": [...], "correctOption": "A", "explanation": "..." },
-        { "questionText": "...", "options": [...], "correctOption": "B", "explanation": "..." }
-      ]
-    }
-  }
+  "department": "COMP_SCI"
+  "weeks": 1,
+  "semester": 1,
+  "courseCode": "CBT101",
+  "options": [
+    { "text": "manages hardware and software resources", "label": "A" },
+    { "text": "creates internet connections", "label": "B" },
+    { "text": "stores files only", "label": "C" },
+    { "text": "designs web pages", "label": "D" }
+  ],
+  "correctOption": "A",
+  "explanation": "An operating system manages hardware and software resources and provides common services for programs."
+
 }
 ```
 
