@@ -8,6 +8,10 @@ const examMode = {
   100: 35,
 };
 
+// to solve timing issue, if client is submitting session at exactly the time it ends & the request couldnt get  to the server immidiately
+// such session get flag as expired or submitted, which isnt true- so added 1 min extra time
+const extraTime = 1000;
+
 exports.getExamQuestions = async (
   department,
   level,
@@ -66,7 +70,7 @@ exports.getExamQuestions = async (
     semester,
     weeks,
     topics: uniqueTopics,
-    expiresAt: Date.now() + duration * 60000,
+    expiresAt: Date.now() + extraTime + duration * 60000,
     status: "ongoing",
   });
 
